@@ -6,10 +6,10 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="f4d9-39dd-53aa-24a4" targetId="07b2-c48b-e2e1-2c84" type="categoryEntry"/>
-        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="a222-1122-410f-a065" targetId="97ca-8945-7b55-dd53" type="categoryEntry"/>
-        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="b96b-c8a0-9b75-044c" targetId="9ed2-8233-7200-924b" type="categoryEntry"/>
-        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="0585-69cf-424f-e4e4" targetId="6803-87ba-83c4-bd4b" type="categoryEntry"/>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="f4d9-39dd-53aa-24a4" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="a222-1122-410f-a065" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="b96b-c8a0-9b75-044c" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="0585-69cf-424f-e4e4" targetId="6803-87ba-83c4-bd4b"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
