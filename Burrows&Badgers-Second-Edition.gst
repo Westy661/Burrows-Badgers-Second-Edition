@@ -196,7 +196,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d4</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d4</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
@@ -221,7 +220,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
@@ -249,7 +247,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">Flight, Unarmed Fighter, Natural Hunter, Gifted, Delicate (2), Darksense</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
@@ -271,7 +268,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
@@ -296,7 +292,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9"/>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
@@ -408,7 +403,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
@@ -433,7 +427,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
@@ -458,7 +451,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -483,7 +475,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -508,7 +499,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d4</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -533,7 +523,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -558,7 +547,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -583,7 +571,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -608,7 +595,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -633,7 +619,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -658,7 +643,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -683,7 +667,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -708,7 +691,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -733,7 +715,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -758,7 +739,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -783,7 +763,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -808,7 +787,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -833,7 +811,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -858,7 +835,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -883,7 +859,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -908,7 +883,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -933,7 +907,6 @@ each Magical Archetype.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
-            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
