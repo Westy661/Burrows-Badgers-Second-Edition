@@ -408,6 +408,207 @@ each Magical Archetype.</description>
     <categoryLink hidden="false" id="d7e4-ff54-4e3a-946a" name="Small Beast (30mm Base)" primary="true" targetId="6803-87ba-83c4-bd4b"/>
   </categoryLinks>
 </selectionEntry>
+    <selectionEntry hidden="false" id="b1a7-5c0e-9f23-7d11" import="true" name="Damping Grub" type="model">
+      <profiles>
+        <profile hidden="false" id="6c2e-3b7a-41dd-a9f0" name="Damping Grub" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d6</characteristic>
+            <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d6</characteristic>
+            <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+            <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d4</characteristic>
+            <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d6</characteristic>
+            <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d8</characteristic>
+            <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
+            <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="25"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink hidden="false" id="4d06-8b8f-2f6b-90f1" name="Small Beast (30mm Base)" primary="true" targetId="6803-87ba-83c4-bd4b"/>
+      </categoryLinks>
+  </selectionEntry>
+    <selectionEntry hidden="false" id="a2c4-91d7-4f20-9bc1" import="true" name="Hedgehog" type="model">
+      <profiles>
+        <profile hidden="false" id="f3a5-65c2-47a1-9de7" name="Hedgehog" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d6</characteristic>
+            <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d6</characteristic>
+            <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+            <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d6</characteristic>
+            <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d6</characteristic>
+            <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d6</characteristic>
+            <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
+            <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">d8</characteristic>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="31"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink hidden="false" id="cf63-07f9-48c5-bbf3" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="c7b8-a9f1-4d5a-9fcb" import="true" name="Squirrel" type="model">
+      <profiles>
+        <profile hidden="false" id="a0f4-4a14-4d1b-8dcb" name="Squirrel" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d6</characteristic>
+            <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d6</characteristic>
+            <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+            <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d6</characteristic>
+            <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d8</characteristic>
+            <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d8</characteristic>
+            <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
+            <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="42"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+      </categoryLinks>
+  </selectionEntry>
+    <selectionEntry hidden="false" id="ec24-09d2-4fb2-936b" import="true" name="Mole" type="model">
+      <profiles>
+        <profile hidden="false" id="af8d-29de-4b74-946c" name="Mole" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d4</characteristic>
+            <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d6</characteristic>
+            <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+            <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d4</characteristic>
+            <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d6</characteristic>
+            <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d6</characteristic>
+            <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d4</characteristic>
+            <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="29"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+      </categoryLinks>
+  </selectionEntry>
+    <selectionEntry hidden="false" id="b9e1-57d6-4c2a-8b4f" import="true" name="Weasel / Stoat" type="model">
+      <profiles>
+        <profile hidden="false" id="5b4c-4d55-4c21-8d7c" name="Weasel / Stoat" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d8</characteristic>
+            <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d8</characteristic>
+            <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+            <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d6</characteristic>
+            <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d8</characteristic>
+            <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d6</characteristic>
+            <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
+            <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="36"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+      </categoryLinks>
+  </selectionEntry>
+    <selectionEntry hidden="false" id="e3c5-43aa-4fd0-bd87" import="true" name="Black Rat" type="model">
+      <profiles>
+        <profile hidden="false" id="10c9-4e78-42f4-bb1f" name="Black Rat" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d6</characteristic>
+            <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d8</characteristic>
+            <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+            <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d6</characteristic>
+            <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d6</characteristic>
+            <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d8</characteristic>
+            <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
+            <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="31"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+      </categoryLinks>
+  </selectionEntry>
+    <selectionEntry hidden="false" id="f4a3-2c38-4c73-a7b5" import="true" name="Ferret / Polecat" type="model">
+    <profiles>
+      <profile hidden="false" id="d841-4a27-4a6c-a13a" name="Ferret / Polecat" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+        <characteristics>
+          <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d8</characteristic>
+          <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d8</characteristic>
+          <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+          <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d6</characteristic>
+          <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d8</characteristic>
+          <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d6</characteristic>
+          <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
+          <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
+          <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
+          <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
+          <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+    <costs>
+      <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="49"/>
+    </costs>
+    <categoryLinks>
+      <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+    </categoryLinks>
+  </selectionEntry>
+    <selectionEntry hidden="false" id="a8c1-92ab-4c2d-9313" import="true" name="Cat" type="model">
+      <profiles>
+        <profile hidden="false" id="bdc3-4b41-45b1-b1c4" name="Cat" typeId="6a97-197c-e03d-8adc" typeName="Unit">
+          <characteristics>
+            <characteristic name="Movement" typeId="e8dc-4636-129f-5901">d6</characteristic>
+            <characteristic name="Strike" typeId="3c84-430f-dc21-e27b">d8</characteristic>
+            <characteristic name="Block" typeId="973e-9c70-c1b0-79a7">d6</characteristic>
+            <characteristic name="Ranged" typeId="81ac-f564-ffc1-e3fa">d6</characteristic>
+            <characteristic name="Nimbleness" typeId="04d3-8db0-e5d0-b1a5">d8</characteristic>
+            <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d6</characteristic>
+            <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
+            <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
+            <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="34"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+      </categoryLinks>
+    </selectionEntry>
+
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink hidden="false" id="359b-5ccc-cebf-bff0" name="Shrew" targetId="9bd9-d322-364e-a804" type="selectionEntry"/>
