@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="08c0-78f9-71cc-0368" name="Rogues" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="808b-4fc3-6383-952e" name="Rogues" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
-    <forceEntry name="Warband" id="5327-90cd-df07-40b9" hidden="false">
+    <forceEntry name="Warband" id="6fbb-11b2-ebb0-3767" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+      </costs>
       <categoryLinks>
-        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="06ea-b754-63e4-2162" targetId="07b2-c48b-e2e1-2c84" type="categoryEntry"/>
-        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="daf0-079f-fc73-bd0f" targetId="97ca-8945-7b55-dd53" type="categoryEntry"/>
-        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="7064-48a8-45d9-6b31" targetId="9ed2-8233-7200-924b" type="categoryEntry"/>
-        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="7b30-d6a4-965e-5271" targetId="6803-87ba-83c4-bd4b" type="categoryEntry"/>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="f4d9-39dd-53aa-24a4" targetId="07b2-c48b-e2e1-2c84" type="categoryEntry"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="a222-1122-410f-a065" targetId="97ca-8945-7b55-dd53" type="categoryEntry"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="b96b-c8a0-9b75-044c" targetId="9ed2-8233-7200-924b" type="categoryEntry"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="0585-69cf-424f-e4e4" targetId="6803-87ba-83c4-bd4b" type="categoryEntry"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
