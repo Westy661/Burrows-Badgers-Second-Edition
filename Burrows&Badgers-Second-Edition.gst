@@ -2718,7 +2718,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
               <selectionEntries>
                 <selectionEntry hidden="false" id="625c-67a2-db49-360c" import="true" name="Dark" sortIndex="3" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="a128-9f6e-3557-0ca1" name="Dark Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="a128-9f6e-3557-0ca1" name="Magic User: Dark" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Dark. Dark Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2728,10 +2728,76 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                   <constraints>
                     <constraint field="selections" id="cd62-f5a3-77aa-acc5" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="0b0c-1d08-b0d3-b9be" name="Dark Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="8e17-63ea-2123-a014" import="true" name="Pain" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="6019-03cb-2b77-f7a9" name="Pain" targetId="e2a4-4f8d-4e9a-9b63" type="profile"/>
+                            <infoLink hidden="false" id="dda4-4f9a-2ad5-0e5b" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="a739-790c-2461-ae1e" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="46a0-30f4-f67f-7068" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="0f25-9420-7ff5-efab" import="true" name="Control" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="6352-8c74-b825-db7b" name="Control" targetId="f3c9-4e7a-4b98-9d45" type="profile"/>
+                            <infoLink hidden="false" id="dbd5-3973-970d-8428" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="f439-1b7c-2561-ac0c" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="662e-9dae-b766-92f1" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="07aa-f170-f364-f795" import="true" name="Paralyze" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="e85d-ef89-a453-5943" name="Paralyse" targetId="a7f4-4d8c-4b3d-9b61" type="profile"/>
+                            <infoLink hidden="false" id="741e-9e47-59ff-cb1b" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="efbc-c9c2-e55d-55f3" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="47d9-324e-8300-4e45" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="aa0a-08dc-a71e-69b7" import="true" name="The Horror" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="7c25-487c-a15e-ceec" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="e5bb-2c4f-5ac6-a6ce" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink hidden="false" id="6364-a09c-9c6f-5e25" name="The Horror" targetId="b8f6-4c1a-4d8b-9f43" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="723d-bad5-d778-72e8" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="caf6-4c4d-3ba6-e051" import="true" name="Rage" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="4c3a-68ec-686b-01d0" name="Rage" targetId="c9e8-4f3b-4e8a-9d74" type="profile"/>
+                            <infoLink hidden="false" id="e782-ef84-739a-52b6" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="a2a6-3ae1-5102-15ba" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="e3ef-2ad3-9861-21b8" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="bc72-cc46-b922-d80e" import="true" name="Life Eater" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="287f-3eef-baa9-90df" name="Life Eater" targetId="d2f4-4b8a-4e1f-8a93" type="profile"/>
+                            <infoLink hidden="false" id="2960-4216-83fd-ad23" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="b5c3-5910-9c31-f463" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="c358-c570-0fb2-4c6e" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="2805-2d3a-48ac-102a" import="true" name="Light" sortIndex="2" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="2521-6587-d5ac-d0ad" name="Light Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="2521-6587-d5ac-d0ad" name="Magic User: Light" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Light. Light Magic is Presence-based and Cast Roll-offs are made using the caster’s Presence Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2748,7 +2814,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                           <infoLinks>
                             <infoLink hidden="false" id="f7c7-2e10-3a93-679b" name="Bless" targetId="a7c4-4f2b-4a9e-b8c1" type="profile"/>
                             <infoLink hidden="false" id="4ddb-aa19-bb26-25f7" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="87a5-e41f-48a2-448f" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="87a5-e41f-48a2-448f" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="f3ef-7500-1b8c-08bd" scope="parent" shared="true" type="max" value="1"/>
@@ -2758,7 +2824,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                           <infoLinks>
                             <infoLink hidden="false" id="437e-f376-160d-40d7" name="Heal" targetId="b9f2-4d1e-4a6b-8f3a" type="profile"/>
                             <infoLink hidden="false" id="9193-c877-5ce3-a199" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="b247-5218-7c98-433a" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="b247-5218-7c98-433a" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="50e7-1f8d-af91-f2ea" scope="parent" shared="true" type="max" value="1"/>
@@ -2768,7 +2834,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                           <infoLinks>
                             <infoLink hidden="false" id="d0b2-b620-2f32-92ad" name="Hearts of Oak" targetId="c7e3-4f2a-4a7b-9e61" type="profile"/>
                             <infoLink hidden="false" id="3c3e-4c1a-39f7-8b44" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="d986-f117-d17e-cfa3" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="d986-f117-d17e-cfa3" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="04cd-5602-06c4-821d" scope="parent" shared="true" type="max" value="1"/>
@@ -2778,7 +2844,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                           <infoLinks>
                             <infoLink hidden="false" id="acf1-e6a1-2c54-c0a0" name="Purifying Flames" targetId="d4a5-4b1f-4c98-9b72" type="profile"/>
                             <infoLink hidden="false" id="7fb3-174f-e8d8-3831" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="6e28-6ed3-ce22-b8e0" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="6e28-6ed3-ce22-b8e0" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="fd94-46c5-fa20-d0a7" scope="parent" shared="true" type="max" value="1"/>
@@ -2788,7 +2854,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                           <infoLinks>
                             <infoLink hidden="false" id="643e-77f1-a538-a44f" name="Purge Witch" targetId="e5b7-4f93-4a6d-8c3a" type="profile"/>
                             <infoLink hidden="false" id="2834-fe5d-a89d-f04c" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="4dfd-9edc-4aa3-15cd" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="4dfd-9edc-4aa3-15cd" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="4c27-a359-656a-9800" scope="parent" shared="true" type="max" value="1"/>
@@ -2798,7 +2864,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                           <infoLinks>
                             <infoLink hidden="false" id="92f3-1b01-d99a-db3f" name="Invulnerable" targetId="f9d3-4e8a-4c9b-b6a2" type="profile"/>
                             <infoLink hidden="false" id="2ea7-c1ec-5eae-2966" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="2078-4f96-f68e-8509" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="2078-4f96-f68e-8509" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="7e0a-7874-9c44-1b8e" scope="parent" shared="true" type="max" value="1"/>
@@ -2810,12 +2876,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                 </selectionEntry>
                 <selectionEntry hidden="false" id="382f-f3b0-8fa4-a80d" import="true" name="Natural" sortIndex="1" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="5715-00a3-f283-b3ae" name="Natural Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="5715-00a3-f283-b3ae" name="Magic User: Natural" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
-                        <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Natural
-
-Natural magic is based on the intrinsic energy of the living world. It is the most common form of magic among those born with the gift. Natural Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat versus the Spell’s Difficulty.</characteristic>
-                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
+                        <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Natural. Natural Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat versus the Spell’s Difficulty.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2829,7 +2892,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                           <infoLinks>
                             <infoLink hidden="false" id="3f64-c641-d144-3932" name="Haste" targetId="e8ca-5b6f-dd5a-2bab" type="profile"/>
                             <infoLink hidden="false" id="de89-913f-ae72-e375" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="984a-9b16-bbae-acba" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="984a-9b16-bbae-acba" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="6068-e03d-ab10-cbf5" scope="parent" shared="true" type="max" value="1"/>
@@ -2839,7 +2902,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                           <infoLinks>
                             <infoLink hidden="false" id="30f2-5e3e-546e-03bb" name="Curse" targetId="bfe9-b2ae-d9a4-6964" type="profile"/>
                             <infoLink hidden="false" id="6db1-5441-f6b0-136c" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="fc6f-6c04-ce64-4e59" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="fc6f-6c04-ce64-4e59" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="f7c7-db47-7e2d-59a0" scope="parent" shared="true" type="max" value="1"/>
@@ -2849,7 +2912,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                           <infoLinks>
                             <infoLink hidden="false" id="63f4-7855-a45b-8776" name="Cure" targetId="b6f2-4e8c-4a3f-9a71" type="profile"/>
                             <infoLink hidden="false" id="a842-d074-e03c-e417" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="f958-c7b8-272f-e3d5" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="f958-c7b8-272f-e3d5" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="1acc-9315-2ce5-fb21" scope="parent" shared="true" type="max" value="1"/>
@@ -2859,7 +2922,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                           <infoLinks>
                             <infoLink hidden="false" id="0ff0-a839-6bb6-c8f0" name="Luck" targetId="c4e8-4d2b-4c2f-a8b9" type="profile"/>
                             <infoLink hidden="false" id="55f5-ec79-2ae8-c937" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="f6f7-4ce9-1ccc-bcb6" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="f6f7-4ce9-1ccc-bcb6" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="f1ba-8850-bfd5-8ddc" scope="parent" shared="true" type="max" value="1"/>
@@ -2869,7 +2932,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                           <infoLinks>
                             <infoLink hidden="false" id="8750-2864-2e97-b9cb" name="Lightning" targetId="e7d2-4c6f-4a9b-b3f5" type="profile"/>
                             <infoLink hidden="false" id="d503-ff12-29ed-f10e" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="03a3-e9b0-532d-a931" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="03a3-e9b0-532d-a931" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="73f1-1507-f5da-7995" scope="parent" shared="true" type="max" value="1"/>
@@ -2879,7 +2942,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                           <infoLinks>
                             <infoLink hidden="false" id="7ca2-5365-f732-2b4a" name="Haste" targetId="e8ca-5b6f-dd5a-2bab" type="profile"/>
                             <infoLink hidden="false" id="6a50-e1e3-0795-8ea3" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
-                            <infoLink name="Delicate" id="1644-70ee-56e7-3167" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                            <infoLink hidden="false" id="1644-70ee-56e7-3167" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
                           <constraints>
                             <constraint field="selections" id="7600-91f7-6bce-163a" scope="parent" shared="true" type="max" value="1"/>
@@ -2891,7 +2954,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                 </selectionEntry>
                 <selectionEntry hidden="false" id="f23c-5140-3107-2fa9" import="true" name="Wild" sortIndex="3" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="63ed-1734-b570-a483" name="Wild Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="63ed-1734-b570-a483" name="Magic User: Wild" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Wild. Wild Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2901,10 +2964,76 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                   <constraints>
                     <constraint field="selections" id="6f42-9541-41b1-91c8" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="0941-95bb-0bd7-d3b8" name="Wild Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="111d-027a-a9d4-baed" import="true" name="Stag&apos;s Leap" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="ee26-f929-748b-a4a4" name="Stag&apos;s Leap" targetId="a8f3-4b2d-4f9e-91c5" type="profile"/>
+                            <infoLink hidden="false" id="8e62-59c7-f32f-ba18" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="fa58-2a35-43e4-02bf" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="1881-bfbd-aaec-e0e3" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="e500-a948-3e56-ced2" import="true" name="Bear&apos;s Strength" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="f2fc-354e-aca2-7808" name="Bear&apos;s Strength" targetId="b9f4-4d8e-4c7a-82f1" type="profile"/>
+                            <infoLink hidden="false" id="806b-0212-d2ef-47bb" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="b6a4-d5c7-db08-e359" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="ab97-297b-c842-6134" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="2f1e-3879-7eb3-810b" import="true" name="Oakflesh" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="fdd6-dd25-d24e-663e" name="Oakflesh" targetId="c2f1-4a8d-4e7c-9f63" type="profile"/>
+                            <infoLink hidden="false" id="8f13-4f67-563c-d50b" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="c33e-3a54-2053-ac25" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="0b0e-ac51-9430-ec5d" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="4bbf-d58d-a36f-e5db" import="true" name="Creeping Things" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="a734-243b-5bf2-044b" name="Creeping Things" targetId="f6b2-4a8e-4f9d-a1c4" type="profile"/>
+                            <infoLink hidden="false" id="97e3-55de-86a0-4fd2" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="a42a-2ea6-696d-f938" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="8ab8-292c-559d-fe01" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="fb4a-7659-dcfc-1129" import="true" name="Tangleweed" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="46be-2086-4682-c388" name="Tangleweed" targetId="e5c3-4f8a-4b2d-a9f6" type="profile"/>
+                            <infoLink hidden="false" id="3b06-5cfa-e7e1-d6d9" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="fc6a-36f9-81d9-0ebe" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="dcdb-2ff8-25e1-b282" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="a0e4-dd28-d5be-bf94" import="true" name="Earth Shaker" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="7ce4-dd4d-1fbf-0ae9" name="Earth Shaker" targetId="d4a1-4e9f-4c6b-92a5" type="profile"/>
+                            <infoLink hidden="false" id="2241-021d-d976-1844" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="79fa-2dfd-cffc-f9b1" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="25ae-7a6e-86c0-d14f" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="c781-6eaa-3e1e-c164" import="true" name="Unbound" sortIndex="4" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="33f3-7dd0-bbfb-9510" name="Unbound Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="33f3-7dd0-bbfb-9510" name="Magic User: Unbound" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Unbound. Unbound Magic is Presence-based and Cast Roll-offs are made using the caster’s Presence Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2914,10 +3043,76 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                   <constraints>
                     <constraint field="selections" id="7e13-71fe-886d-91a4" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="8e37-dc82-93f7-87be" name="Unbound Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="8eae-b53a-ecb3-6aa0" import="true" name="Bletchly&apos;s Cloak of Concealment" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="a188-8d55-f23d-31c3" name="Bletchly&apos;s Cloak of Concealment" targetId="a9f3-4c7b-4e1c-b82f" type="profile"/>
+                            <infoLink hidden="false" id="d3e7-0d45-0664-2799" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="055f-411d-1686-be5b" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="013a-3dac-2837-84f3" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="48ff-56e8-761f-2f05" import="true" name="Morglum&apos;s Fiery Blast" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="2628-5cc4-c572-0efb" name="Morglum&apos;s Fiery Blast" targetId="c6f2-4e8a-4a7b-b1e9" type="profile"/>
+                            <infoLink hidden="false" id="499a-bfdf-7fd4-7acb" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="0e93-20c2-531d-75a4" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="bb2f-8fc8-d9a2-0786" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="f371-611a-d979-fb3b" import="true" name="Mangarr&apos;s Mystical Blade" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="3d74-c911-bfea-fd90" name="Mangarr&apos;s Mystical Blade" targetId="f9c2-4a6d-4c9f-82b3" type="profile"/>
+                            <infoLink hidden="false" id="db67-ae7d-bf9b-298a" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="7f0a-9891-ec64-a251" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="c197-5091-43a5-ca2f" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="d6ad-3bff-d324-50e0" import="true" name="Van Rubal&apos;s Acceleration" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="8551-d6c5-8a57-0514" name="Van Rubal&apos;s Acceleration" targetId="b4e8-4f1d-4a8a-a2c6" type="profile"/>
+                            <infoLink hidden="false" id="ad89-10e2-8a3b-fda9" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="b680-1bcf-26de-eb06" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="6ff8-0953-d259-88c6" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="c6b7-29df-3493-72fb" import="true" name="Sangram&apos;s Portable Protector" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="2b4b-413c-ad56-4989" name="Sangram&apos;s Portable Protector" targetId="e8a4-4b6c-4a7e-9d5a" type="profile"/>
+                            <infoLink hidden="false" id="82c7-8824-dcab-393f" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="237e-f0ea-f4ce-877a" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="6b3e-3903-b747-84f5" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="552e-b50e-bf61-0466" import="true" name="Burramorr&apos;s Distant Fracturing" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="c53f-6e40-7e55-955a" name="Burramorr&apos;s Distant Fracturing" targetId="d7f2-4c9a-4b3e-81a5" type="profile"/>
+                            <infoLink hidden="false" id="0708-9493-4b5c-0d5a" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="10c8-a0de-1ce6-cc0a" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="cc2d-57c0-8e51-782b" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="c88d-6cd0-b188-8286" import="true" name="Noble" sortIndex="5" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="f72c-036a-c7a5-dffe" name="Noble Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="f72c-036a-c7a5-dffe" name="Magic User: Noble" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Noble.  Noble Magic is Presence-based and Cast Roll-offs are made using the caster’s Presence Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2927,10 +3122,76 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                   <constraints>
                     <constraint field="selections" id="c973-5cba-b60f-c277" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="e4b2-b6d2-ef18-9625" name="Noble Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="3c50-3631-0ce7-9791" import="true" name="The Gate" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="7821-ae7a-4cd3-9b82" name="The Gate" targetId="a4d3-4f8b-4c9e-b1a7" type="profile"/>
+                            <infoLink hidden="false" id="211b-8bb3-a453-e65a" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="7bc6-c27d-d3ce-8b59" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="07aa-07af-6d6d-7b3e" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="b062-f730-3966-1cf2" import="true" name="Transpose" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="6455-5ab7-8b25-862c" name="Transpose" targetId="b5f2-4c8a-4d9e-92c6" type="profile"/>
+                            <infoLink hidden="false" id="4767-cfb3-46f9-5bd7" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="6e20-f2ff-a3cb-d010" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="4e52-1cac-7bd3-0e90" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="0dae-e6f6-d432-b4d1" import="true" name="Channelling" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="198d-b94a-30aa-b2be" name="Channelling" targetId="c6e4-4b9d-4f8a-b2e3" type="profile"/>
+                            <infoLink hidden="false" id="0b79-cf49-b206-9581" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="4b60-3a3a-26e7-8a46" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="afa9-1844-c82f-9bb1" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="e0a9-722c-19ea-f2e3" import="true" name="Dampening" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="45ac-c030-10db-9d0c" name="Dampening" targetId="a8e2-4b3d-4c9a-b1d5" type="profile"/>
+                            <infoLink hidden="false" id="5bd8-9a33-b4c2-2f7c" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="bf79-3a48-a955-26ed" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="51e9-f951-d1e6-4330" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="6274-f062-5db4-39a4" import="true" name="Radiance" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="b59d-5647-33a8-586a" name="Radiance" targetId="b9f4-4d8e-4c1a-a7e6" type="profile"/>
+                            <infoLink hidden="false" id="d463-c515-9983-6d9b" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="4eb2-490c-8a2f-6863" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="7c8b-c362-c0eb-bce9" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="3963-33fd-f445-4290" import="true" name="Revelation" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="58c0-a8b6-fcf3-b2af" name="Revelation" targetId="c7e1-4b9c-4e8d-8a4f" type="profile"/>
+                            <infoLink hidden="false" id="3f77-9982-dc32-7013" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="324f-8968-5ce4-d76b" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="8291-0c3a-ebc7-898f" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="39ef-ffd6-a0b1-005d" import="true" name="Divine" sortIndex="6" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="2aa9-1bd0-5b8f-84ef" name="Divine Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="2aa9-1bd0-5b8f-84ef" name="Magic User: Divine" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Divine.  Divine magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2941,10 +3202,82 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                   <constraints>
                     <constraint field="selections" id="0025-082b-6adf-211d" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="93f1-c5a5-2f3a-b8b6" name="Divine Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="6270-3748-3cad-be3b" import="true" name="Circle of Protection" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="9f76-b1ca-8bdf-76dd" name="Circle of Protection" targetId="a7e2-4b9f-4c1d-b2e6" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="3ac1-0e9c-e10e-637e" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="c4ce-43b9-a7e8-1abb" import="true" name="Healing Hands" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="21e9-b0b3-5398-4366" name="Healing Hands" targetId="b8f4-4c3d-4e9a-93d2" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="c9b8-55d2-d189-7eaa" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="8268-2a1b-6748-7992" import="true" name="Smite the Unholy" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="4914-50d2-f140-25eb" name="Smite the Unholy" targetId="b3f7-4e1a-4c2b-83e5" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="9e08-53f8-1955-9579" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="4329-5ec6-2532-74bf" import="true" name="Blessing" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="03a9-b8dc-b5e5-925a" name="Blessing" targetId="c9e5-4f7b-4a3d-b4e1" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="d826-80aa-9574-ec6e" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="ee3f-f074-3926-4607" import="true" name="Holy Zeal" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="6cc5-eec2-6a3e-ff00" name="Holy Zeal" targetId="a1f3-4d7b-4e2c-b6d4" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="efeb-74e2-c51b-2fa2" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="3bb6-5bf5-840b-1a5c" import="true" name="Light of Our Lord/Lady" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="b4bd-12c3-b6f2-c90b" name="Light of Our Lord/Lady" targetId="c6f4-4a8b-4e1d-b9e7" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="bbe2-af06-704d-a461" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="e1b8-7597-6e35-ba34" import="true" name="Channelling" sortIndex="7" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="a83c-1e64-d7a6-d830" name="Channelling Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="a83c-1e64-d7a6-d830" name="Magic User: Channelling" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Channelling. Channelling Magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2954,10 +3287,76 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                   <constraints>
                     <constraint field="selections" id="7151-4fb1-18fa-3107" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="d381-f803-d2f0-1ac8" name="Channelling Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="99a5-85cb-e6c8-7d7f" import="true" name="Crush" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="e509-e9ee-a550-8c8c" name="Crush" targetId="a5f3-4b8e-4c2d-b7e5" type="profile"/>
+                            <infoLink hidden="false" id="5e57-0e8e-c668-7cde" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="65fe-7dfe-e2b5-8de4" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="0fa2-0cce-7cfa-cc94" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="5904-435b-cb56-1ec4" import="true" name="Regrowth" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="d58e-1b5f-ebb1-f191" name="Transpose" targetId="b5f2-4c8a-4d9e-92c6" type="profile"/>
+                            <infoLink hidden="false" id="57f7-ec43-a94a-208f" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="8d40-6971-ecf9-20bf" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="ed27-3c61-bbf4-99c0" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="d112-8455-deb6-0b92" import="true" name="Plague" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="3b28-a07b-98ba-99a2" name="Plague" targetId="c8f4-4e1b-4b2a-a6d4" type="profile"/>
+                            <infoLink hidden="false" id="bd1b-cce9-4147-5b00" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="befa-52a4-29e7-1513" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="d59c-5605-f505-efb9" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="95c7-6028-b47e-4560" import="true" name="The Marsh" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="a87d-a3d7-a045-71f7" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink hidden="false" id="707e-e786-c0e4-1169" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="0f6e-5773-5b9c-2398" name="The Marsh" targetId="d1f3-4a9b-4c8a-b7e6" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="78eb-b742-4262-c2e4" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="d9e8-dfe3-0e5f-a9a4" import="true" name="Radiance" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="d7eb-6f60-c79b-bba1" name="Surge" targetId="e4b7-4c2a-4f9c-b8d1" type="profile"/>
+                            <infoLink hidden="false" id="7561-7862-f285-9a40" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="8d8d-d559-2164-2ce1" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="0e4f-45d3-bda1-d30c" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="541f-1737-84f1-3b0f" import="true" name="Revelation" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="28bb-5416-e6d7-b077" name="The Mists" targetId="f5c2-4a6d-4b9f-a8c4" type="profile"/>
+                            <infoLink hidden="false" id="121e-752b-d33e-d8de" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="598f-a792-42e6-d7e8" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="e9db-1150-21c0-6d0e" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="735a-386c-b8e0-01ca" import="true" name="Feate-weaving" sortIndex="8" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="1402-0839-f9c2-4b91" name="Feate-weaving Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="1402-0839-f9c2-4b91" name="Magic User: Feate-weaving" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Feate-weaving. Fate-weaving Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2967,10 +3366,76 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                   <constraints>
                     <constraint field="selections" id="fab4-797a-342b-b4e7" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="56e7-ae96-c973-d049" name="Feate-weaving Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="fcc1-7b32-6a26-258a" import="true" name="Fates Twist" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="0c96-7929-38ac-a5d7" name="Fates Twist" targetId="a9e2-4b7f-4d1a-b6d3" type="profile"/>
+                            <infoLink hidden="false" id="a42e-cddb-93bc-a709" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="178b-fa0a-aef0-6833" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="2cc9-4483-70c1-10d8" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="d513-0033-3c4b-0ecb" import="true" name="Fates Path" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="7dff-1e34-9134-7498" name="Fates Path" targetId="b8f7-4c6a-4e1d-b7a5" type="profile"/>
+                            <infoLink hidden="false" id="f41a-8dd1-0d75-439b" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="c52a-36ea-28ca-266d" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="97ee-a7e4-a0b0-8f7a" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="0724-04da-9178-ff25" import="true" name="Delay" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="80ef-d20e-97e2-2c4d" name="Delay" targetId="c7e3-4b9a-4f6e-a8d2" type="profile"/>
+                            <infoLink hidden="false" id="8302-b340-b486-161e" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="f674-cbe6-7ba6-f2f6" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="06cd-c909-28b0-ce0f" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="696e-62cb-19d6-4305" import="true" name="Evade" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="54e3-780b-36a5-8b40" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink hidden="false" id="6f91-aa3d-1f58-f1e9" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="0a3d-9b8b-db9b-2b0d" name="Evade" targetId="a4f7-4b9d-4c3a-b6e2" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="4858-d836-0b63-f10f" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="62a0-0b91-0258-da24" import="true" name="Fates Ebb" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="3927-10f9-fa9d-9a8a" name="Fate&apos;s Ebb" targetId="b6e3-4d9c-4a1f-b7d6" type="profile"/>
+                            <infoLink hidden="false" id="16b1-3d2d-89ff-905d" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="205c-8815-1a70-fe10" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="c270-1943-4645-4f7c" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="2666-a453-db95-9006" import="true" name="Bright Path" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="8235-63c7-1368-8623" name="Bright Path" targetId="c8f5-4a7d-4b3f-b9c4" type="profile"/>
+                            <infoLink hidden="false" id="28d2-3c35-2f48-9d5d" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="7cc5-3436-72b4-014c" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="2812-deff-0a8f-acf5" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="9724-105f-08a0-4e4a" import="true" name="Illusionism" sortIndex="9" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="4570-c4a6-8eff-e5d4" name="Illusionism Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="4570-c4a6-8eff-e5d4" name="Magic User: Illusionism" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Illusionism. Illusionist Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -2983,7 +3448,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                 </selectionEntry>
                 <selectionEntry hidden="false" id="8b03-6771-903c-2fd7" import="true" name="Elementalism" sortIndex="10" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="ae23-e0b5-7656-0004" name="Elementalism Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="ae23-e0b5-7656-0004" name="Magic User: Elementalism" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Elementalism. Elementalist Magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -3037,7 +3502,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
                 </selectionEntry>
                 <selectionEntry hidden="false" id="b40a-7e7c-c869-3f99" import="true" name="Necromancy" sortIndex="11" type="upgrade">
                   <profiles>
-                    <profile hidden="false" id="4e7b-6c9a-a19a-6c38" name="Necromancy Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                    <profile hidden="false" id="4e7b-6c9a-a19a-6c38" name="Magic User: Necromancy" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Necromancy. Necromantic Magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
                         <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
@@ -3702,6 +4167,451 @@ If the casting model is at least 3” higher up than the target model, reduce th
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model gains Tough (3) for d4 Turns, including the Turn in which the Spell is cast.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The target model becomes immune to enemy Spells whilst Invulnerable is in effect.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="e2a4-4f8d-4e9a-9b63" name="Pain" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster wracks their foe’s body with waves of agony.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model has the Condition ‘Stunned’. Lasts until the caster takes a Wound.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Mandrake: The target model also has a -2 modifier to all Roll-offs while the Spell is in effect.
+- Bone Meal: The spell also causes an immediate d4 Wounds.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="f3c9-4e7a-4b98-9d45" name="Control" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Taking over another beast’s body, the caster forces them to do as they please.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;, Target must be an enemy model.</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is drawn, the Spell is resisted and fails. If the caster wins, the Spell succeeds.
+The target is forced to perform an Action immediately, decided by the caster’s player. This Action may not be a Cast Action or use any single-use equipment, and may not use any of the target’s Fate points or Skills; for example, an Attack Action by a Controlled hare would not benefit from the hare’s Strong (1). Being Controlled does not use up the Controlled model’s normal Actions for the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Lotus Flowers: Add +3 to the caster’s roll.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to have the Controlled model perform two Actions instead of one.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a7f4-4d8c-4b3d-9b61" name="Paralyse" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Separating the victim’s mind from their body, the caster locks them in place, unable to move.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">6</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is unable to move, and has the Condition ‘Paralysed’ until the end of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b8f6-4c1a-4d8b-9f43" name="The Horror" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">An enemy is tricked into seeing terrifying monsters.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target views all enemy models as having the Skill ‘Fearsome’. Lasts until the caster takes a Wound.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Badger’s Blood: The target trembles uncontrollably for the duration of the Spell; roll a d6 before every Action. On a roll of 1, they miss that Action.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c9e8-4f3b-4e8a-9d74" name="Rage" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Mind clouded with bloodlust and battle-fury, the target erupts into uncontrolled violence.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target becomes subject to the Berserk Skill.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Badger’s Claws: The target model immediately has the Condition ‘Berserk’.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="d2f4-4b8a-4e1f-8a93" name="Life Eater" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster draws life-force from a foe and absorbs it.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model suffers Wounds equal to the Result. Armour does not reduce this, but Tough Skills do. The target model may roll their Fortitude and reduce the Wounds taken by the amount rolled.
+If Wounds are caused, the caster may heal an equal number of their own Wounds.
+If no Wounds are caused, the caster suffers d4 Wounds from magical feedback, unaffected by Armour or Tough Skills.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Amanitas: Add +1 to the caster’s roll.
+- Belladonna: The Wounds absorbed may be transferred to another Wounded model within Clear Line of Sight, which does not have to be within range, instead of absorbed by the caster.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to add +5 to the Cast Fortitude roll.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a8f3-4b2d-4f9e-91c5" name="Stag&apos;s Leap" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Channelling the power of the Lord of the Wood, movement is quickened.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target may immediately move up to 12”. This may include vertical movement. If the target of the spell ends in Base Contact with an enemy, they may make an Attack action. If this spell is cast on a model other than the caster, it counts as one of their Actions – they must not have Activated already this Turn and, when they do, they will only take one further Action.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Powdered Acorns: The spell is automatically cast without a Roll-off.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b9f4-4d8e-4c7a-82f1" name="Bear&apos;s Strength" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Gaining the power of the giant beasts of old, the muscles strengthen.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model gains the Strong (2) Skill. Lasts until the caster takes a Wound or the distance between the Caster and the target model is greater than 18”.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bear Bone Fragments: The target gains Strong (4) instead of Strong (2).</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c2f1-4a8d-4e7c-9f63" name="Oakflesh" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The resilience of ancient oaks is imbued into a beast’s hide.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target gains the Tough (2) Skill. Lasts until the Caster takes a Wound or the distance between the Caster and the target model is greater than 18”.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Antler Dust: The target gains Tough (4) instead of Tough (2).</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="d4a1-4e9f-4c6b-92a5" name="Earth Shaker" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Reaching to the bones of the earth, magic tears the land asunder.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Choose a Terrain piece; any model in Base Contact with it suffers d8 Wounds and any model within 2” of the Terrain piece suffers d6 Wounds. Armour and Skills reduce this as normal.
+Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-off Result is higher than that number, the Terrain piece is destroyed – remove it from the tabletop.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Thunderbird Feather: Add +2 to the caster’s roll.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="e5c3-4f8a-4b2d-a9f6" name="Tangleweed" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The quickening sap of Spring calls brambles and creepers to life.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">36&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model must reduce all movement by 3”. Lasts until the caster takes a Wound.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Powdered Acorns: The target must reduce all Movement by 4” instead of 3”.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="f6b2-4a8e-4f9d-a1c4" name="Creeping Things" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Spiders and bugs are summoned and bound to the will of the caster.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">A swarm of worms, maggots, beetles, spiders, and wasps attacks the target. The target model immediately suffers 1 Wound not reduced by Armour or Skills, then another every Turn when they Activate. The spell ends when the caster takes a Wound or performs another Cast Action.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Cave Spider Venom: The swarm’s stings and bites are poisonous; the target also has the Condition ‘Stunned’.
+- Scarab Shells: The swarm increases in size; the target suffers an extra Wound for each Scarab.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a9f3-4c7b-4e1c-b82f" name="Bletchly&apos;s Cloak of Concealment" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Enveloped in mystical energies, the spell hides you from all sight.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model has the Condition ‘Sneaking’ for the rest of the Turn and it cannot be removed by Search Actions. It ends if they perform another Action, as normal.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Silk Fibres: The target model maintains the Condition ‘Sneaking’ for the rest of the Turn, even if they perform other Actions.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b4e8-4f1d-4a8a-a2c6" name="Van Rubal&apos;s Acceleration" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The world seems to slow around you as you move with lightning speed.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model adds 2” to any Move, Charge, or Barge Actions, and adds +2 to all Strike, Block, and Nimbleness rolls. Lasts until the end of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Wax Candle: The Spell is automatically cast without a Roll-off.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate Point to increase the bonus to 4 instead of 2.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c6f2-4e8a-4a7b-b1e9" name="Morglum&apos;s Fiery Blast" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Gathering a ball of fire in your hands, you launch it at your foes.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target takes Wounds equal to the Cast Roll-off Result. These are reduced by Armour and Skills in the normal way.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model gains the Condition ‘Burning’.
+- Brimstone: The Spell affects the target model and any models within 2” of the target.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to increase the damage dealt or range (specify in rules if needed).</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="d7f2-4c9a-4b3e-81a5" name="Burramorr&apos;s Distant Fracturing" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The power of magic is focused on a single point, building up pressure until it breaks.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">6</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">One piece of Equipment chosen by the caster is damaged and cannot be used for the rest of the game. The affected piece of Equipment is considered to be repaired after the game and may be used normally in the next game. This Spell can affect anything in the Equipment section, with the exception of Bonded Critters, Stag Beetle Grubs, Special Magic Equipment, and Enchanted Equipment.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Haematite: The Spell can also affect Enchanted Equipment.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="e8a4-4b6c-4a7e-9d5a" name="Sangram&apos;s Portable Protector" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Clear, weightless and yet virtually impenetrable, a shield appears.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The caster gains Tough (5) until the end of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Amber Bead: The Spell may be cast onto a model other than the caster; the caster must have Line of Sight to the target model.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="f9c2-4a6d-4c9f-82b3" name="Mangarr&apos;s Mystical Blade" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">A magical sword is summoned from the aether.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The caster gains a one-handed magical blade that adds +1 to Strike Roll-offs. Tough bonuses from Armour do not have an effect on Wounds inflicted by this weapon. Lasts until the end of the Battle.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Ground Obsidian: The blade also adds +1 to the user’s Block Roll-offs.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to have the Spell affect a friendly model instead of the caster; the caster must have Line of Sight to the target model.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a4d3-4f8b-4c9e-b1a7" name="The Gate" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">All the world’s spaces become joined, letting the caster travel without moving.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The caster immediately moves to any point on the table.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Haematite: The spell may be cast on any friendly model instead of the caster; the caster must have Line of Sight to the target model.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Noble</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b5f2-4c8a-4d9e-92c6" name="Transpose" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Two beasts suddenly trade places.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited, Needs Line of Sight to both affected models</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Two friendly models may switch places with each other. Alternatively, one or both of the transposed models may be enemy models; if so, they may roll their Fortitude against the Spell’s Difficulty. If any affected enemy beats the Difficulty, the Spell fails.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: Add +2 to the caster’s roll.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Noble</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c6e4-4b9d-4f8a-b2e3" name="Channelling" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Matter twists and warps; what was wounded becomes whole and what was whole, wounded.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">1</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The caster may transfer any number of Wounds suffered from one friendly model to themselves.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: Two friendly models within range may transfer any number of Wounds suffered between themselves.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Noble</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a8e2-4b3d-4c9a-b1d5" name="Dampening" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The natural background magic of the world is dampened, making spellcasting difficult.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All Cast Actions made by any model have a -3 modifier. Lasts d4 Turns, including the Turn on which the Spell is cast, or until the caster is Wounded.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Copper Strip: The Spell is automatically cast without a Roll-off.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point so that no Magic-user may add any bonuses to their Cast Roll-offs while the spell lasts (things like a Mage’s Focus or the Gifted Skill do not work!).</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Noble</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b9f4-4d8e-4c1a-a7e6" name="Radiance" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster shines with the blinding brilliance of a star.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Enemy models struggle to look at the magical light. All models who declare Actions against the caster count as having the Condition ‘Blinded’ for that Action. Lasts d3 Turns, including the Turn on which the Spell is cast, or until the caster is Wounded.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Amber Bead: The Spell may be cast onto a model other than the caster; the caster must have Line of Sight to the target model.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Noble</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c7e1-4b9c-4e8d-8a4f" name="Revelation" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The world is revealed as it truly is, not merely as it appears.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All enemy models with the Condition ‘Sneaking’ lose it immediately and no enemy models can make Sneak Actions for the rest of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Noble</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a7e2-4b9f-4c1d-b2e6" name="Circle of Protection" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The gods’ blessings shine out from you, sweeping away evil.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">3&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All friendly models within 3” of the caster’s Base may re-roll any Fortitude or Presence rolls they make against Spells and may reduce any Wounds they take from Spells or from models with the Uncanny Skill by 2 for the rest of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b8f4-4c3d-4e9a-93d2" name="Healing Hands" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Wounds seal and flesh re-knits as healing power flows.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Base Contact</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Restore d6 lost Wounds and stop the effects of Poisons on one model in Base Contact, or on the caster themselves.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c9e5-4f7b-4a3d-b4e1" name="Blessing" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster calls upon the gods to bless a friend in need.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model adds +3 to their next Roll-Off score.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The target model adds +3 to one dice roll of their choice and may re-roll the dice.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a1f3-4d7b-4e2c-b6d4" name="Holy Zeal" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Righteous rage floods a warrior, giving them the power of true faith!</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model may add 2” to their next move or +2 to their next Strike roll or +2 to their next Ranged roll.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b3f7-4e1a-4c2b-83e5" name="Smite the Unholy" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Fire from the heavens strikes those who consort with mystical powers.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell causes d6 Wounds, ignoring any Tough from Armour, and causes the Condition ‘Burning’ to one Magic-user or a model with the Uncanny Skill.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c6f4-4a8b-4e1d-b9e7" name="Light of Our Lord/Lady" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Divine light infuses the caster, shining out and blinding their foes.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Self</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All models within 2” of the caster are unable to make Sneak Actions and any model making Shoot Actions against them count as having the Condition ‘Blinded’. Any models with the Uncanny Skill within 2” of the caster reduce their Strong and Tough Skills by 1. Lasts until the caster takes a Wound.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a5f3-4b8e-4c2d-b7e5" name="Crush" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The very spirits of the earth reach out and crush your foes.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: The target model is crushed by the earth they stand on and takes d8 Wounds. These are not reduced by Armour but are reduced by Skills in the normal way.
+Deep Working: Every member of the enemy Band in range and that the caster has Line of Sight to, even those with the Condition ‘Sneaking’, is crushed and takes d8 Wounds (rolled separately for each model). These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bear Bone Fragments: The target model(s) suffer an additional 3 Wounds.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Channelling</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b7e8-4d3c-4a2f-b9d3" name="Regrowth" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Injuries fade and vitality returns, as the life-force is drawn from the other world.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: Restore d8 lost Wounds and stop the effects of Poisons on one model in Base Contact, or on the caster themselves.
+Deep Working: Restore d8 lost Wounds (rolled separately for each model) and stop the effects of Poisons on all friendly models within 12” of the caster’s Base, including the caster themselves.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Channelling</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c8f4-4e1b-4b2a-a6d4" name="Plague" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The tiniest parts of the natural world are at the caster’s control, as bacteria and moulds assault their enemies.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: Racked with pain and nausea, the target model gains the Condition ‘Stunned’. Lasts until the caster takes a Wound or the distance between the caster and the target model is greater than 18”.
+Deep Working: All enemy models within 12” gain the Condition ‘Stunned’. Lasts until the caster takes a Wound.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bone Meal: Add +2 to the caster’s roll.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Channelling</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="d1f3-4a9b-4c8a-b7e6" name="The Marsh" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The fens and bogs are being drained by ‘civilised’ beasts, but the caster can return them to their natural state.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: The target model must treat all Move Actions as if in Difficult Terrain. Does not affect the Flight Skill. Ends when the caster takes a Wound.
+Deep Working: All enemies on the table must treat all Move, Charge, and Barge Actions as if in Difficult Terrain. Does not affect the Flight Skill. Ends when the caster takes a Wound.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Scarab Shells: Any affected model who rolls a 1 for any Move, Charge, or Barge Action suffers d4 Wounds (not affected by Armour or Skills) from attacks by bog critters.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Channelling</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="e4b7-4c2a-4f9c-b8d1" name="Surge" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The energy of life surges through the veins of the caster’s allies.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: One model in your Band may immediately move up to 6”. If the target model ends in Base Contact with an enemy model, they may make a free Attack Action, even if they have already Activated this Turn.
+Deep Working: Three models in your Band may move up to 6” immediately. If the target models end in Base Contact with an enemy model, they may make free Attack Actions, even if they have already Activated this Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Antler Dust: The target models may move up to 9” instead of 6”.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Channelling</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="f5c2-4a6d-4b9f-a8c4" name="The Mists" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Drifting skeins of magical fog flow across the battlefield, hiding the caster’s allies and choking their enemies.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">6</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: All enemy models have a -2 penalty to all Search and Shooting Roll-offs until the end of the Turn. In addition, any enemy model that moves more than 6” during this Turn suffers 1 Wound as they breath the toxic miasma (unaffected by Armour and Skills).
+Deep Working: All enemy models have a -2 penalty to all Search and Shooting Roll-offs. In addition, any enemy model that moves more than 6” during a Turn suffers d4 Wounds as they breath the toxic miasma (unaffected by Armour and Skills). Lasts d3 Turns (counting the Turn it is cast on as the first).</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Cave Spider Venom: The Mist’s toxic effects are enhanced; any models that suffer 1 or more Wounds from breathing the Mist suffer an extra Wound (i.e. Shallow working causes 2 Wounds, Deep working causes d4+1).</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Channelling</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a9e2-4b7f-4d1a-b6d3" name="Fates Twist" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster twists and distorts the strands of Fate.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">You may make your opponent re-roll up to three dice this Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Fate-weaving</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b8f7-4c6a-4e1d-b7a5" name="Fates Path" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster can see the path Fate has laid out.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Roll a d4, a d6, a d8, a d10, and a d12. Next time you have to roll any dice, rather than rolling any dice you may instead use the ones you rolled for this spell (for example, if you have to roll d6 Nimbleness to dodge an arrow, you could use the result on the d6 you rolled for this Spell instead).
+The dice stay until you have used them all, or you Cast this spell again.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bear Bone Fragments: You may force your opponent to use any of the dice instead of using them yourself.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Fate-weaving</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c7e3-4b9a-4f6e-a8d2" name="Delay" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster forces their enemies to misjudge the passage of events; causing them to fail to move aside quickly enough.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Select one enemy model; the next time they suffer Wounds, increase them by d8.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Haematite: The target model suffers an additional d10 Wounds instead of d8.
+- Amber Bead: The target model suffers an additional d12 Wounds instead of d8.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Fate-weaving</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a4f7-4b9d-4c3a-b6e2" name="Evade" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s insight into Fate allows them to avoid the worst dangers coming their way.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The next time the caster suffers Wounds, reduce them by d8.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Haematite: Reduce the Wounds suffered by d10 instead of d8.
+- Amber Bead: Reduce the Wounds suffered by d12 instead of d8.
+- Amanitas: The spell may be cast on any friendly model instead.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Fate-weaving</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b6e3-4d9c-4a1f-b7d6" name="Fate&apos;s Ebb" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The winds of Fate die to a breeze.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">No Fate Points may be spent or gained this Turn by any models.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Copper Strip: Only enemy models are unable to spend or gain Fate Points; your Band may use them normally.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Fate-weaving</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c8f5-4a7d-4b3f-b9c4" name="Bright Path" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">One particular event is highlighted for you, allowing you to influence it.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">When the caster makes a dice roll for any reason, they may also roll their Presence dice and add it to the roll. This Spell ends when the bonus is used, or the caster Casts another spell.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Mandrake: The caster may use their Presence roll to modify a roll by any friendly model; the caster must have Line of Sight to the target model.
+- Galingale: The caster may use their Presence roll as a negative modifier to a roll by any enemy model; the caster must have Line of Sight to the target model.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Fate-weaving</characteristic>
       </characteristics>
     </profile>
     <profile hidden="false" id="1287-15af-a0b2-cc20" name="Weak" noindex="true" typeId="568c-91db-9da7-e04c" typeName="Ability">
