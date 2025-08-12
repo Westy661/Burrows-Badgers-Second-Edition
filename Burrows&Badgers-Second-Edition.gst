@@ -7,6 +7,8 @@
     <categoryEntry hidden="false" id="07b2-c48b-e2e1-2c84" name="Massive Beast (50mm base)"/>
     <categoryEntry hidden="false" id="3ab5-819d-23a4-3945" name="Configuration"/>
     <categoryEntry hidden="false" id="6daf-83fe-ef42-17d8" name="Rare"/>
+    <categoryEntry hidden="false" id="8fa1-283a-2134-c1ea" name="Leader"/>
+    <categoryEntry hidden="false" id="0cd2-8443-e657-6def" name="Second"/>
   </categoryEntries>
   <costTypes>
     <costType defaultCostLimit="350" id="6752-9e0b-692e-d5b9" name="Penny"/>
@@ -883,8 +885,8 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <modifier arg="(X)" field="name" type="replace" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Tunneller" id="be40-2692-b6c4-3b19" hidden="false" type="rule" targetId="f2a4-4e3d-4a8e-8f91"/>
-        <infoLink name="Short-Sighted" id="6ee6-815b-b608-35fe" hidden="false" type="rule" targetId="c6f1-4b3a-4d4c-a9d3"/>
+        <infoLink hidden="false" id="be40-2692-b6c4-3b19" name="Tunneller" targetId="f2a4-4e3d-4a8e-8f91" type="rule"/>
+        <infoLink hidden="false" id="6ee6-815b-b608-35fe" name="Short-Sighted" targetId="c6f1-4b3a-4d4c-a9d3" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b9e1-57d6-4c2a-8b4f" import="true" name="Weasel / Stoat" type="model">
@@ -911,7 +913,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Fearless" id="c84a-696f-76d6-e15f" hidden="false" type="rule" targetId="5be5-279f-2c7b-e0c7"/>
+        <infoLink hidden="false" id="c84a-696f-76d6-e15f" name="Fearless" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="e3c5-43aa-4fd0-bd87" import="true" name="Black Rat" type="model">
@@ -962,7 +964,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Fearless" id="8850-e0fb-d7fc-2fc7" hidden="false" type="rule" targetId="5be5-279f-2c7b-e0c7"/>
+        <infoLink hidden="false" id="8850-e0fb-d7fc-2fc7" name="Fearless" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a8c1-92ab-4c2d-9313" import="true" name="Cat" type="model">
@@ -1037,17 +1039,17 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="913e-fb95-0637-cbe3" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="913e-fb95-0637-cbe3" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="1" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Tough (X)" id="db35-d187-1a98-05eb" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+        <infoLink hidden="false" id="db35-d187-1a98-05eb" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
           <modifiers>
-            <modifier type="replace" value="2" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="2"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Natural Hunter" id="1b6d-d61f-3499-91a0" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+        <infoLink hidden="false" id="1b6d-d61f-3499-91a0" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="fb1a-2dc4-4e33-80b9" import="true" name="Frog" type="model">
@@ -1074,8 +1076,8 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Leaper" id="e2b1-71ab-0dde-a147" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
-        <infoLink name="Swim" id="41d7-96b9-8166-6f00" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+        <infoLink hidden="false" id="e2b1-71ab-0dde-a147" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
+        <infoLink hidden="false" id="41d7-96b9-8166-6f00" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b3cd-42e7-4e88-bb67" import="true" name="Adder" type="model">
@@ -1102,9 +1104,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Poisonous" id="918c-db56-63d4-a1f0" hidden="false" type="rule" targetId="e9b4-4f2d-4a8b-92f1"/>
-        <infoLink name="Unarmed Fighter" id="9d6b-3ca7-3401-5ef4" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
-        <infoLink name="Natural Hunter" id="2436-b96e-6825-a467" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+        <infoLink hidden="false" id="918c-db56-63d4-a1f0" name="Poisonous" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
+        <infoLink hidden="false" id="9d6b-3ca7-3401-5ef4" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="2436-b96e-6825-a467" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="df21-4bb0-4b9a-8a42" import="true" name="Marmot" type="model">
@@ -1155,7 +1157,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Swim" id="c397-aa9f-02ec-cc58" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+        <infoLink hidden="false" id="c397-aa9f-02ec-cc58" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a72b-4926-4d3a-8ac3" import="true" name="Bird (Medium)" type="model">
@@ -1182,7 +1184,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Flight" id="6bfb-1fd2-86ac-5a4a" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+        <infoLink hidden="false" id="6bfb-1fd2-86ac-5a4a" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c35e-4ff2-48ce-9b2f" import="true" name="Raptor (Medium)" type="model">
@@ -1209,14 +1211,14 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Flight" id="dca2-ee0a-8563-e293" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
-        <infoLink name="Unarmed Fighter" id="62af-4d7d-72ef-4997" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
-        <infoLink name="Strong (X)" id="924c-074c-6555-5656" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="dca2-ee0a-8563-e293" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
+        <infoLink hidden="false" id="62af-4d7d-72ef-4997" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="924c-074c-6555-5656" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="1" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Natural Hunter" id="d368-6619-5211-1e24" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+        <infoLink hidden="false" id="d368-6619-5211-1e24" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="d46a-41fd-4a51-83b8" import="true" name="Hound (Medium)" type="model">
@@ -1243,9 +1245,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="f63e-04da-18bf-0217" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="f63e-04da-18bf-0217" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1330,9 +1332,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <constraint field="selections" id="bca6-3661-0e8a-a26c" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Tough (X)" id="bdeb-6b90-9020-a66c" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+        <infoLink hidden="false" id="bdeb-6b90-9020-a66c" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
           <modifiers>
-            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1365,7 +1367,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <constraint field="selections" id="d435-ded3-0f16-ca93" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Swim" id="d9ad-f6d0-7429-0d91" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+        <infoLink hidden="false" id="d9ad-f6d0-7429-0d91" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a4d2-4a6b-4f78-b8b3" import="true" name="Hare" type="model">
@@ -1392,10 +1394,10 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="f2f8-986d-729c-10f2" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Leaper" id="eb73-a6b2-4c98-bd55" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
-        <infoLink name="Strong (X)" id="4115-3ee5-3b47-4c5a" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="eb73-a6b2-4c98-bd55" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
+        <infoLink hidden="false" id="4115-3ee5-3b47-4c5a" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1424,18 +1426,18 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="4be9-c72b-57ab-b487" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="c0db-dd71-2660-aefa" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="c0db-dd71-2660-aefa" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Tough (X)" id="8021-c5c9-201c-8d7e" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+        <infoLink hidden="false" id="8021-c5c9-201c-8d7e" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Fearsome" id="4f6d-b0fa-4c50-9375" hidden="false" type="rule" targetId="ae2e-3397-13a2-f83c"/>
-        <infoLink name="Natural Hunter" id="b8e2-7fd6-e86a-b686" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+        <infoLink hidden="false" id="4f6d-b0fa-4c50-9375" name="Fearsome" targetId="ae2e-3397-13a2-f83c" type="rule"/>
+        <infoLink hidden="false" id="b8e2-7fd6-e86a-b686" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c9e5-4af3-48dd-83b2" import="true" name="Great Brown Rat" type="model">
@@ -1462,9 +1464,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="e143-f767-eb46-9cb7" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="70db-4898-b537-ffdd" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="70db-4898-b537-ffdd" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1494,9 +1496,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="fadb-becf-d00e-7806" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="ac33-b383-4c92-d446" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="ac33-b383-4c92-d446" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1526,12 +1528,12 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="ff20-ced0-2696-90d9" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="ff20-1c16-98b4-536e" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="ff20-1c16-98b4-536e" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Swim" id="b126-dd88-7b12-9038" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+        <infoLink hidden="false" id="b126-dd88-7b12-9038" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b1c6-4e9a-43ac-87af" import="true" name="Bird (Large)" type="model">
@@ -1558,7 +1560,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="5e2d-c3df-f290-ce05" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Flight" id="40be-f26a-4672-04ef" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+        <infoLink hidden="false" id="40be-f26a-4672-04ef" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a3e4-4d2a-4e3e-bac1" import="true" name="Raptor (Large)" type="model">
@@ -1586,14 +1588,14 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="09f2-d378-269d-a914" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Flight" id="6d43-4820-10b1-baaf" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
-        <infoLink name="Strong (X)" id="4210-1b54-3b18-5c0a" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="6d43-4820-10b1-baaf" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
+        <infoLink hidden="false" id="4210-1b54-3b18-5c0a" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Unarmed Fighter" id="3ee7-333f-b9a6-4c07" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
-        <infoLink name="Natural Hunter" id="7921-e1b3-c99a-4d6b" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+        <infoLink hidden="false" id="3ee7-333f-b9a6-4c07" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="7921-e1b3-c99a-4d6b" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="f1c3-4b4b-41db-8a22" import="true" name="Hound (Large)" type="model">
@@ -1620,14 +1622,14 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="b57f-aa72-2c5d-c8e5" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="7b9b-7136-816f-4e43" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="7b9b-7136-816f-4e43" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Tough (X)" id="854c-9811-35b4-4d45" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+        <infoLink hidden="false" id="854c-9811-35b4-4d45" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1660,9 +1662,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <constraint field="selections" id="aeeb-25cc-3ba4-769b" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Strong (X)" id="cffc-75fe-fb60-8a36" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="cffc-75fe-fb60-8a36" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1695,17 +1697,17 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <constraint field="selections" id="edbf-9f12-a50d-d721" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Strong (X)" id="2fce-389c-dd3d-d6bf" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="2fce-389c-dd3d-d6bf" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Tough (X)" id="33cd-88d4-cb8e-423f" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+        <infoLink hidden="false" id="33cd-88d4-cb8e-423f" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
           <modifiers>
-            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(3)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Leaper" id="e32d-f8b9-dfb2-0eb9" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
+        <infoLink hidden="false" id="e32d-f8b9-dfb2-0eb9" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="e8f2-4c3d-41c2-bc3a" import="true" name="Fennec Fox (Rare)" type="model">
@@ -1736,7 +1738,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <constraint field="selections" id="4500-828e-011a-0721" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Bloodhound" id="0af8-b776-5cf9-612c" hidden="false" type="rule" targetId="54cb-f660-1c7f-53c1"/>
+        <infoLink hidden="false" id="0af8-b776-5cf9-612c" name="Bloodhound" targetId="54cb-f660-1c7f-53c1" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="f5b4-4d32-4f3d-93a2" import="true" name="Mist Ghast (Large)" type="model">
@@ -1763,13 +1765,13 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="3fc1-3757-64d9-b7e5" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="55d6-6a04-3af0-e4ab" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="55d6-6a04-3af0-e4ab" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Otherwordly" id="d40a-bfb1-e0e4-4bd0" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1"/>
-        <infoLink name="Uncanny" id="643b-e54c-a2d5-cd95" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+        <infoLink hidden="false" id="d40a-bfb1-e0e4-4bd0" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="643b-e54c-a2d5-cd95" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a7d3-4f8e-4e72-bc82" import="true" name="Badger" type="model">
@@ -1796,17 +1798,17 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="c0ad-6a86-6ee0-f8d9" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="c0ad-6a86-6ee0-f8d9" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(3)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Tough (X)" id="f0a0-0372-a3c3-8ba7" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+        <infoLink hidden="false" id="f0a0-0372-a3c3-8ba7" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
           <modifiers>
-            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Fearsome" id="cae2-a403-8a3f-7a8d" hidden="false" type="rule" targetId="ae2e-3397-13a2-f83c"/>
+        <infoLink hidden="false" id="cae2-a403-8a3f-7a8d" name="Fearsome" targetId="ae2e-3397-13a2-f83c" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b8e1-4f6b-45f2-8e9d" import="true" name="Beaver" type="model">
@@ -1833,17 +1835,17 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="d9d0-29f3-340b-aa04" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="d9d0-29f3-340b-aa04" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Tough (X)" id="70cb-c698-ee04-dbed" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+        <infoLink hidden="false" id="70cb-c698-ee04-dbed" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
           <modifiers>
-            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(3)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Swim" id="ab77-38dd-76ae-5b4b" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+        <infoLink hidden="false" id="ab77-38dd-76ae-5b4b" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c4f3-4a3b-45d9-8d5a" import="true" name="Bird (Massive)" type="model">
@@ -1870,7 +1872,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Flight" id="0581-2ae5-1714-b802" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+        <infoLink hidden="false" id="0581-2ae5-1714-b802" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="d2f1-4b5e-4f2b-b1a8" import="true" name="Raptor (Massive)" type="model">
@@ -1897,14 +1899,14 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Flight" id="ebc6-dd2a-65d9-1c49" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
-        <infoLink name="Strong (X)" id="e123-5191-578c-bd4d" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="ebc6-dd2a-65d9-1c49" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
+        <infoLink hidden="false" id="e123-5191-578c-bd4d" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(3)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Unarmed Fighter" id="dd04-615b-172d-2081" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
-        <infoLink name="Natural Hunter" id="a255-6f91-d062-b14c" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+        <infoLink hidden="false" id="dd04-615b-172d-2081" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="a255-6f91-d062-b14c" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="e5a3-4a6e-4a87-a9fc" import="true" name="Hound (Massive)" type="model">
@@ -1955,69 +1957,258 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong (X)" id="2c16-28e3-1a51-2057" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+        <infoLink hidden="false" id="2c16-28e3-1a51-2057" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule">
           <modifiers>
-            <modifier type="replace" value="(4)" field="name" arg="(X)"/>
+            <modifier arg="(X)" field="name" type="replace" value="(4)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Otherwordly" id="86c4-66d0-b4ea-9ab9" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1"/>
-        <infoLink name="Uncanny" id="4d15-8d0e-5425-85ce" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+        <infoLink hidden="false" id="86c4-66d0-b4ea-9ab9" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="4d15-8d0e-5425-85ce" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink hidden="false" id="cb27-1721-a3f8-536d" import="true" name="Attack Grub" targetId="8f91-2d4c-9e53-1b2a" type="selectionEntry"/>
-    <entryLink hidden="false" id="7c90-1641-f79f-14ac" import="true" name="Adder" targetId="b3cd-42e7-4e88-bb67" type="selectionEntry">
+    <entryLink hidden="false" id="cb27-1721-a3f8-536d" import="true" name="Attack Grub" targetId="8f91-2d4c-9e53-1b2a" type="selectionEntry">
       <entryLinks>
-        <entryLink import="true" name="Configuration" hidden="false" id="e2d5-56c9-70fd-4eac" type="selectionEntryGroup" targetId="17ba-d661-42d8-a4ff" collapsible="true"/>
+        <entryLink hidden="false" id="dc3c-d0da-614d-8529" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
-    <entryLink hidden="false" id="7572-c873-7a93-67cf" import="true" name="Bird (Medium)" targetId="a72b-4926-4d3a-8ac3" type="selectionEntry"/>
-    <entryLink hidden="false" id="acff-95a7-68a2-5965" import="true" name="Bird (Small)" targetId="6f71-4de0-c658-5910" type="selectionEntry"/>
-    <entryLink hidden="false" id="0997-2f40-2b33-3bf8" import="true" name="Black Rat" targetId="e3c5-43aa-4fd0-bd87" type="selectionEntry"/>
-    <entryLink hidden="false" id="1cf5-c763-5490-acb3" import="true" name="Cat" targetId="a8c1-92ab-4c2d-9313" type="selectionEntry"/>
-    <entryLink hidden="false" id="f8d2-927f-f404-b05d" import="true" name="Damping Grub" targetId="b1a7-5c0e-9f23-7d11" type="selectionEntry"/>
-    <entryLink hidden="false" id="cad6-e8bd-646a-875e" import="true" name="Ferret / Polecat" targetId="f4a3-2c38-4c73-a7b5" type="selectionEntry"/>
-    <entryLink hidden="false" id="5460-b7be-cf48-43b2" import="true" name="Frog" targetId="fb1a-2dc4-4e33-80b9" type="selectionEntry"/>
-    <entryLink hidden="false" id="f81e-c45f-c997-b629" import="true" name="Great Crested Newt" targetId="aac1-3787-a46f-d880" type="selectionEntry"/>
-    <entryLink hidden="false" id="df4f-e6d7-b93d-3913" import="true" name="Green Lizard (Rare)" targetId="c9b4-4a27-4a6a-b921" type="selectionEntry"/>
-    <entryLink hidden="false" id="3fe3-abbc-72c6-4c45" import="true" name="Hedgehog" targetId="a2c4-91d7-4f20-9bc1" type="selectionEntry"/>
-    <entryLink hidden="false" id="d574-fc9f-bde6-78a0" import="true" name="Hound (Medium)" targetId="d46a-41fd-4a51-83b8" type="selectionEntry"/>
-    <entryLink hidden="false" id="7f80-67db-9f4a-b4d1" import="true" name="Marmot" targetId="df21-4bb0-4b9a-8a42" type="selectionEntry"/>
-    <entryLink hidden="false" id="643d-87c3-c98b-5ab5" import="true" name="Mist Ghast (Small/ Medium)" targetId="683d-6982-d6c8-8367" type="selectionEntry"/>
-    <entryLink hidden="false" id="368e-85c2-147d-7546" import="true" name="Mole" targetId="ec24-09d2-4fb2-936b" type="selectionEntry"/>
-    <entryLink hidden="false" id="ba01-54f1-cdd3-3e21" import="true" name="Mouse/ Dormouse" targetId="8a62-5301-1659-d3a2" type="selectionEntry"/>
-    <entryLink hidden="false" id="5749-7a35-f450-95cd" import="true" name="Noctule Bat" targetId="acf5-0573-d49f-e9a3" type="selectionEntry"/>
-    <entryLink hidden="false" id="7831-ba16-c923-7b14" import="true" name="Platypus (Rare)" targetId="d97a-4b25-4b88-8d0b" type="selectionEntry"/>
-    <entryLink hidden="false" id="9081-c88b-d515-02f2" import="true" name="Rabbit" targetId="c2f3-b4a1-46bb-ae4a" type="selectionEntry"/>
-    <entryLink hidden="false" id="fa8d-b220-6116-331a" import="true" name="Raptor (Medium)" targetId="c35e-4ff2-48ce-9b2f" type="selectionEntry"/>
-    <entryLink hidden="false" id="3566-5cba-617e-0e99" import="true" name="Shrew" targetId="9bd9-d322-364e-a804" type="selectionEntry"/>
-    <entryLink hidden="false" id="a2f5-31b0-4910-604b" import="true" name="Shrew Knight Errant" targetId="4160-f8dc-f697-a18f" type="selectionEntry"/>
-    <entryLink hidden="false" id="fa90-8b3a-1819-8604" import="true" name="Siamese Cat (Rare)" targetId="b0e6-42f7-4a2b-963a" type="selectionEntry"/>
-    <entryLink hidden="false" id="53c1-dfdc-6a57-3b8d" import="true" name="Squirrel" targetId="c7b8-a9f1-4d5a-9fcb" type="selectionEntry"/>
-    <entryLink hidden="false" id="e029-e00a-88d6-6a7c" import="true" name="Toad" targetId="e6d4-3a1c-42a8-9e9a" type="selectionEntry"/>
-    <entryLink hidden="false" id="3e89-3771-9c91-7a55" import="true" name="Tortoise (Rare)" targetId="a41e-41a8-4c6e-91e4" type="selectionEntry"/>
-    <entryLink hidden="false" id="59c5-08f3-a790-f926" import="true" name="Tracker Grub" targetId="f11b-f5a3-8f1d-49fb" type="selectionEntry"/>
-    <entryLink hidden="false" id="e322-7ef7-6efe-e6f9" import="true" name="Water Vole" targetId="b6f8-48e2-45cd-b5aa" type="selectionEntry"/>
-    <entryLink hidden="false" id="fc58-9c2b-34d3-a113" import="true" name="Weasel / Stoat" targetId="b9e1-57d6-4c2a-8b4f" type="selectionEntry"/>
-    <entryLink hidden="false" id="2cc9-bf8f-2d71-6ba6" import="true" name="Hare" targetId="a4d2-4a6b-4f78-b8b3" type="selectionEntry"/>
-    <entryLink hidden="false" id="64d0-e74c-3d29-c1ce" import="true" name="Fox" targetId="d3f1-45ec-4b1f-8e23" type="selectionEntry"/>
-    <entryLink hidden="false" id="ebf5-4c7f-1d74-556a" import="true" name="Great Brown Rat" targetId="c9e5-4af3-48dd-83b2" type="selectionEntry"/>
-    <entryLink hidden="false" id="2a61-bb1d-c39e-f4ca" import="true" name="Otter" targetId="e4c6-4b55-4f25-8e32" type="selectionEntry"/>
-    <entryLink hidden="false" id="cd51-a18f-8a80-1c09" import="true" name="Wildcat" targetId="b7c4-4b62-40a8-84b1" type="selectionEntry"/>
-    <entryLink hidden="false" id="e75d-9efb-3796-579b" import="true" name="Armadillo (Rare)" targetId="c7b6-4b4d-48f0-8f32" type="selectionEntry"/>
-    <entryLink hidden="false" id="ef4a-f16d-ea88-9ac6" import="true" name="Badger" targetId="a7d3-4f8e-4e72-bc82" type="selectionEntry"/>
-    <entryLink hidden="false" id="c4fe-3441-19cc-5ca9" import="true" name="Beaver" targetId="b8e1-4f6b-45f2-8e9d" type="selectionEntry"/>
-    <entryLink hidden="false" id="cd39-f2d9-283d-d761" import="true" name="Bird (Large)" targetId="b1c6-4e9a-43ac-87af" type="selectionEntry"/>
-    <entryLink hidden="false" id="eac8-b006-461d-9062" import="true" name="Bird (Massive)" targetId="c4f3-4a3b-45d9-8d5a" type="selectionEntry"/>
-    <entryLink hidden="false" id="3765-72a4-10cd-a790" import="true" name="Fennec Fox (Rare)" targetId="e8f2-4c3d-41c2-bc3a" type="selectionEntry"/>
-    <entryLink hidden="false" id="f11e-a006-8a3a-342a" import="true" name="Hound (Large)" targetId="f1c3-4b4b-41db-8a22" type="selectionEntry"/>
-    <entryLink hidden="false" id="47bb-f4dc-f55f-8a31" import="true" name="Hound (Massive)" targetId="e5a3-4a6e-4a87-a9fc" type="selectionEntry"/>
-    <entryLink hidden="false" id="d780-f6dc-dc29-1ff8" import="true" name="Mist Ghast (Large)" targetId="f5b4-4d32-4f3d-93a2" type="selectionEntry"/>
-    <entryLink hidden="false" id="5721-c0cb-2787-9c0c" import="true" name="Mist Ghast (Massive)" targetId="f2c3-4a6b-49d2-b8ec" type="selectionEntry"/>
-    <entryLink hidden="false" id="3708-a1ab-583d-fb5a" import="true" name="Raccoon (Rare)" targetId="d5e4-4c27-4bdf-8f93" type="selectionEntry"/>
-    <entryLink hidden="false" id="dc96-66c0-5d97-3f27" import="true" name="Raptor (Large)" targetId="a3e4-4d2a-4e3e-bac1" type="selectionEntry"/>
-    <entryLink hidden="false" id="e09a-3d68-01f2-dcf2" import="true" name="Raptor (Massive)" targetId="d2f1-4b5e-4f2b-b1a8" type="selectionEntry"/>
+    <entryLink hidden="false" id="7c90-1641-f79f-14ac" import="true" name="Adder" targetId="b3cd-42e7-4e88-bb67" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="4b8d-7034-164b-2448" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="7572-c873-7a93-67cf" import="true" name="Bird (Medium)" targetId="a72b-4926-4d3a-8ac3" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="55f3-b0ba-cc98-9fdb" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="acff-95a7-68a2-5965" import="true" name="Bird (Small)" targetId="6f71-4de0-c658-5910" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="f0ee-2cc4-47f0-bc78" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="0997-2f40-2b33-3bf8" import="true" name="Black Rat" targetId="e3c5-43aa-4fd0-bd87" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="5ae5-42f4-9225-56b5" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="1cf5-c763-5490-acb3" import="true" name="Cat" targetId="a8c1-92ab-4c2d-9313" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="3fb2-c9f5-595d-bdfb" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="f8d2-927f-f404-b05d" import="true" name="Damping Grub" targetId="b1a7-5c0e-9f23-7d11" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="4f39-f117-3d1a-0213" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="cad6-e8bd-646a-875e" import="true" name="Ferret / Polecat" targetId="f4a3-2c38-4c73-a7b5" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="9835-9eae-ca26-c3c6" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="5460-b7be-cf48-43b2" import="true" name="Frog" targetId="fb1a-2dc4-4e33-80b9" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="7dbd-4c93-5e04-49fa" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="f81e-c45f-c997-b629" import="true" name="Great Crested Newt" targetId="aac1-3787-a46f-d880" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="1455-9044-56f9-14fe" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="df4f-e6d7-b93d-3913" import="true" name="Green Lizard (Rare)" targetId="c9b4-4a27-4a6a-b921" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="d55e-54a0-2c60-c891" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="3fe3-abbc-72c6-4c45" import="true" name="Hedgehog" targetId="a2c4-91d7-4f20-9bc1" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="db65-82ef-f267-a99e" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="d574-fc9f-bde6-78a0" import="true" name="Hound (Medium)" targetId="d46a-41fd-4a51-83b8" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="6e7e-06c3-f0c1-85da" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="7f80-67db-9f4a-b4d1" import="true" name="Marmot" targetId="df21-4bb0-4b9a-8a42" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="eaeb-d5d0-c2d7-cbb6" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="643d-87c3-c98b-5ab5" import="true" name="Mist Ghast (Small/ Medium)" targetId="683d-6982-d6c8-8367" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="8e26-975b-0434-2359" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="368e-85c2-147d-7546" import="true" name="Mole" targetId="ec24-09d2-4fb2-936b" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="cb21-5218-3e6b-9b7d" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+        <entryLink hidden="false" id="5b21-c1a0-6d7a-2784" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="ba01-54f1-cdd3-3e21" import="true" name="Mouse/ Dormouse" targetId="8a62-5301-1659-d3a2" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="3ffe-29ef-a3c6-de9b" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="5749-7a35-f450-95cd" import="true" name="Noctule Bat" targetId="acf5-0573-d49f-e9a3" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="8d70-d59d-d5be-3680" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="7831-ba16-c923-7b14" import="true" name="Platypus (Rare)" targetId="d97a-4b25-4b88-8d0b" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="f224-84ed-b6ff-f7d6" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="9081-c88b-d515-02f2" import="true" name="Rabbit" targetId="c2f3-b4a1-46bb-ae4a" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="8dab-5bd0-6f7e-932a" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="fa8d-b220-6116-331a" import="true" name="Raptor (Medium)" targetId="c35e-4ff2-48ce-9b2f" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="64c1-2540-b50a-2920" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="3566-5cba-617e-0e99" import="true" name="Shrew" targetId="9bd9-d322-364e-a804" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="f4f9-2a49-e2fa-50f1" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="a2f5-31b0-4910-604b" import="true" name="Shrew Knight Errant" targetId="4160-f8dc-f697-a18f" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="67cb-7b57-8d0b-d7f2" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="fa90-8b3a-1819-8604" import="true" name="Siamese Cat (Rare)" targetId="b0e6-42f7-4a2b-963a" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="7e26-f831-683d-9029" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="53c1-dfdc-6a57-3b8d" import="true" name="Squirrel" targetId="c7b8-a9f1-4d5a-9fcb" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="ffa1-cfeb-ed00-301f" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="e029-e00a-88d6-6a7c" import="true" name="Toad" targetId="e6d4-3a1c-42a8-9e9a" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="8f14-b650-a5cc-9b5b" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="3e89-3771-9c91-7a55" import="true" name="Tortoise (Rare)" targetId="a41e-41a8-4c6e-91e4" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="2f64-6a81-7794-e5d1" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="59c5-08f3-a790-f926" import="true" name="Tracker Grub" targetId="f11b-f5a3-8f1d-49fb" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="6d28-4c37-9f75-16a9" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="e322-7ef7-6efe-e6f9" import="true" name="Water Vole" targetId="b6f8-48e2-45cd-b5aa" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="5401-eefe-9a31-42db" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="fc58-9c2b-34d3-a113" import="true" name="Weasel / Stoat" targetId="b9e1-57d6-4c2a-8b4f" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="c8d8-d708-a21b-2010" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="2cc9-bf8f-2d71-6ba6" import="true" name="Hare" targetId="a4d2-4a6b-4f78-b8b3" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="886e-fe7e-f123-68f9" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="64d0-e74c-3d29-c1ce" import="true" name="Fox" targetId="d3f1-45ec-4b1f-8e23" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="d46a-55bb-ac6d-0aac" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="ebf5-4c7f-1d74-556a" import="true" name="Great Brown Rat" targetId="c9e5-4af3-48dd-83b2" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="16e5-9f51-8f9f-ff1f" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="2a61-bb1d-c39e-f4ca" import="true" name="Otter" targetId="e4c6-4b55-4f25-8e32" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="7641-2597-5ed1-e342" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="cd51-a18f-8a80-1c09" import="true" name="Wildcat" targetId="b7c4-4b62-40a8-84b1" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="6388-6afd-377d-e1e8" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="e75d-9efb-3796-579b" import="true" name="Armadillo (Rare)" targetId="c7b6-4b4d-48f0-8f32" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="cd4e-90a0-b26f-fa08" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="ef4a-f16d-ea88-9ac6" import="true" name="Badger" targetId="a7d3-4f8e-4e72-bc82" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="b65d-df21-361a-2eb8" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="c4fe-3441-19cc-5ca9" import="true" name="Beaver" targetId="b8e1-4f6b-45f2-8e9d" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="9c1b-9154-d926-f23b" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="cd39-f2d9-283d-d761" import="true" name="Bird (Large)" targetId="b1c6-4e9a-43ac-87af" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="2714-b644-cc70-2809" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="eac8-b006-461d-9062" import="true" name="Bird (Massive)" targetId="c4f3-4a3b-45d9-8d5a" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="eeb7-178a-5f35-cbf7" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="3765-72a4-10cd-a790" import="true" name="Fennec Fox (Rare)" targetId="e8f2-4c3d-41c2-bc3a" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="303a-901d-3c27-bafc" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="f11e-a006-8a3a-342a" import="true" name="Hound (Large)" targetId="f1c3-4b4b-41db-8a22" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="d9cc-dd9b-c110-a9e5" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="47bb-f4dc-f55f-8a31" import="true" name="Hound (Massive)" targetId="e5a3-4a6e-4a87-a9fc" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="d758-5a58-bb13-4df1" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="d780-f6dc-dc29-1ff8" import="true" name="Mist Ghast (Large)" targetId="f5b4-4d32-4f3d-93a2" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="090b-2350-5da8-8307" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="5721-c0cb-2787-9c0c" import="true" name="Mist Ghast (Massive)" targetId="f2c3-4a6b-49d2-b8ec" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="759e-c853-9a0b-1fb6" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="3708-a1ab-583d-fb5a" import="true" name="Raccoon (Rare)" targetId="d5e4-4c27-4bdf-8f93" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="ed79-4b18-9b4b-b29d" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="dc96-66c0-5d97-3f27" import="true" name="Raptor (Large)" targetId="a3e4-4d2a-4e3e-bac1" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="d3ea-bfc9-6a0f-8fa4" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink hidden="false" id="e09a-3d68-01f2-dcf2" import="true" name="Raptor (Massive)" targetId="d2f1-4b5e-4f2b-b1a8" type="selectionEntry">
+      <entryLinks>
+        <entryLink hidden="false" id="860b-4b7d-ea02-60a1" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
   </entryLinks>
   <infoLinks>
     <infoLink hidden="false" id="627b-64c4-3ecc-7df1" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
@@ -2028,33 +2219,533 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
     <infoLink hidden="false" id="075b-b60a-3e1c-f2a0" name="Delicate (X)" targetId="8d6f-c28f-25a2-9ed5" type="rule"/>
   </infoLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Configuration" id="17ba-d661-42d8-a4ff" hidden="false">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="3a3e-212c-6541-9b57">
+    <selectionEntryGroup hidden="false" id="17ba-d661-42d8-a4ff" name="Configuration">
+      <selectionEntryGroups>
+        <selectionEntryGroup hidden="false" id="6f6d-3958-146e-e629" name="Rank">
+          <selectionEntries>
+            <selectionEntry hidden="false" id="5c73-82c4-7d39-d8f2" import="true" name="Second" type="upgrade">
+              <constraints>
+                <constraint field="selections" id="b52c-62c6-d366-f452" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile hidden="false" id="e3b9-9446-2732-e458" name="Second" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Second of the warband.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifiers>
+                <modifier field="category" type="add" value="0cd2-8443-e657-6def"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="3a3e-212c-6541-9b57" import="true" name="Leader" type="upgrade">
+              <constraints>
+                <constraint field="selections" id="c11a-659e-e07b-5f00" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile hidden="false" id="f804-ad4f-60d8-799a" name="Leader" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Leader of the warband.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <modifiers>
+                <modifier field="category" type="add" value="8fa1-283a-2134-c1ea"/>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c11a-659e-e07b-5f00" includeChildSelections="true" includeChildForces="true"/>
+            <constraint field="selections" id="7c42-3193-c8e7-c4b8" scope="self" shared="true" type="max" value="1"/>
           </constraints>
-          <profiles>
-            <profile name="Leader" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="f804-ad4f-60d8-799a">
-              <characteristics>
-                <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Leader of the warband.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Second" hidden="false" id="5c73-82c4-7d39-d8f2">
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink hidden="true" id="57c5-a9e3-3474-1e86" import="true" name="Skills" targetId="ca1c-72a1-d6fa-422c" type="selectionEntryGroup">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="8fa1-283a-2134-c1ea" field="selections" scope="root-entry" shared="true" type="equalTo" value="1"/>
+                    <condition childId="0cd2-8443-e657-6def" field="selections" scope="root-entry" shared="true" type="equalTo" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b52c-62c6-d366-f452" includeChildSelections="true" includeChildForces="true"/>
+            <constraint field="selections" id="1546-f79e-1e29-3162" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
-          <profiles>
-            <profile name="Leader" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="e3b9-9446-2732-e458">
-              <characteristics>
-                <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Second of the warband.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup hidden="false" id="ca1c-72a1-d6fa-422c" name="Skills">
+      <selectionEntryGroups>
+        <selectionEntryGroup hidden="false" id="cf43-1a30-cb84-1daa" name="Shooting Skills" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry hidden="false" id="sk-a88c" import="true" name="Expert Shot" sortIndex="1" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-a88c" name="Expert Shot" targetId="a88c-4033-5756-4c15" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-708b" import="true" name="Fast Shot" sortIndex="2" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-708b" name="Fast Shot" targetId="708b-f72d-03a1-fd88" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-1f17" import="true" name="Lethal Volley" sortIndex="3" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-1f17" name="Lethal Volley" targetId="1f17-a483-b1c7-e736" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-3a47" import="true" name="Eagle Eyes" sortIndex="4" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-3a47" name="Eagle Eyes" targetId="3a47-1f29-161d-496a" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-3896" import="true" name="Targeteer" sortIndex="5" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-3896" name="Targeteer" targetId="3896-3009-6981-b68b" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f102" import="true" name="Rock Steady" sortIndex="6" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f102" name="Rock Steady" targetId="f102-ed66-6bd9-9246" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-7089" import="true" name="Wounding Shot" sortIndex="7" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-7089" name="Wounding Shot" targetId="7089-5048-a8a9-7eb4" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-b841" import="true" name="Crippling Shot" sortIndex="8" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-b841" name="Crippling Shot" targetId="b841-e9c2-1c6c-9331" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-8fac" import="true" name="Kill Shot" sortIndex="9" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-8fac" name="Kill Shot" targetId="8fac-c2f6-be9f-818d" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-5434" import="true" name="Spot the weak point" sortIndex="10" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-5434" name="Spot the weak point" targetId="5434-64e8-0b03-ec7e" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-d394" import="true" name="Pistolier" sortIndex="11" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-d394" name="Pistolier" targetId="d394-b02d-d2fa-4526" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup hidden="false" id="15b8-7590-045f-02ab" name="Cunning Skills" sortIndex="3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="sk-aa5b" sortIndex="4">
+              <infoLinks>
+                <infoLink name="Apothecary" id="inf-aa5b" hidden="false" type="rule" targetId="aa5b-f9c7-7ae3-31bb"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="sk-54cb" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Bloodhound" id="inf-54cb" hidden="false" type="rule" targetId="54cb-f660-1c7f-53c1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="sk-80a9" sortIndex="5">
+              <infoLinks>
+                <infoLink name="Hedge Magic" id="inf-80a9" hidden="false" type="rule" targetId="80a9-d54b-a7ac-5b24"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="sk-5be5" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Fearless" id="inf-5be5" hidden="false" type="rule" targetId="5be5-279f-2c7b-e0c7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="sk-e4ad" sortIndex="6">
+              <infoLinks>
+                <infoLink name="Ambusher" id="inf-e4ad" hidden="false" type="rule" targetId="e4ad-facf-dde9-da03"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="sk-dba1" sortIndex="7">
+              <infoLinks>
+                <infoLink name="Adept Ambusher" id="inf-dba1" hidden="false" type="rule" targetId="dba1-67bc-834c-fee1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="sk-cf81" sortIndex="8">
+              <infoLinks>
+                <infoLink name="Deadly Ambusher" id="inf-cf81" hidden="false" type="rule" targetId="cf81-1186-7173-6887"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="sk-4801" sortIndex="9">
+              <infoLinks>
+                <infoLink name="Opportunist" id="inf-4801" hidden="false" type="rule" targetId="4801-ece2-7b94-eb1b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="sk-b262" sortIndex="10">
+              <infoLinks>
+                <infoLink name="The Lady&apos;s Favour" id="inf-b262" hidden="false" type="rule" targetId="b262-b75e-75ae-d21e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="sk-0655" sortIndex="11">
+              <infoLinks>
+                <infoLink name="Critter Boss" id="inf-0655" hidden="false" type="rule" targetId="0655-df80-54e8-a4b4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="sk-ed63" sortIndex="12">
+              <infoLinks>
+                <infoLink name="Witch Smeller" id="inf-ed63" hidden="false" type="rule" targetId="ed63-daa0-2ea0-7c4b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="sk-ffc4" sortIndex="13">
+              <infoLinks>
+                <infoLink name="Lucky" id="inf-ffc4" hidden="false" type="rule" targetId="ffc4-8272-8bbc-f92c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="sk-4d7a" sortIndex="14">
+              <infoLinks>
+                <infoLink name="Resist Magic" id="inf-4d7a" hidden="false" type="rule" targetId="4d7a-0245-ed1b-761b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="sk-d8a5" sortIndex="15">
+              <infoLinks>
+                <infoLink name="Spell Breaker" id="inf-d8a5" hidden="false" type="rule" targetId="d8a5-2900-6279-337c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="sk-f9da" sortIndex="16">
+              <infoLinks>
+                <infoLink name="Spell Eater" id="inf-f9da" hidden="false" type="rule" targetId="f9da-bf41-b3a8-62d4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="sk-7dd9" sortIndex="17">
+              <infoLinks>
+                <infoLink name="Battlemage" id="inf-7dd9" hidden="false" type="rule" targetId="7dd9-fe26-1652-02c7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="sk-6a89" sortIndex="18">
+              <infoLinks>
+                <infoLink name="Healing Aura" id="inf-6a89" hidden="false" type="rule" targetId="6a89-9387-8ce4-4439"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="sk-65fb" sortIndex="19">
+              <infoLinks>
+                <infoLink name="Far Reacher" id="inf-65fb" hidden="false" type="rule" targetId="65fb-e6b9-d598-38e3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="sk-57c4" sortIndex="20">
+              <infoLinks>
+                <infoLink name="Aether Sight" id="inf-57c4" hidden="false" type="rule" targetId="57c4-b137-abcc-da67"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="sk-9903" sortIndex="21">
+              <infoLinks>
+                <infoLink name="Herbal Brewer" id="inf-9903" hidden="false" type="rule" targetId="9903-ecf8-caea-dd3b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="sk-f7fa" sortIndex="22">
+              <infoLinks>
+                <infoLink name="Brew Master" id="inf-f7fa" hidden="false" type="rule" targetId="f7fa-bddd-1c27-43b7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="sk-b7f1" sortIndex="23">
+              <infoLinks>
+                <infoLink name="Taunt" id="inf-b7f1" hidden="false" type="rule" targetId="b7f1-4c22-4a93-b39a"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="sk-c2e3" sortIndex="24">
+              <infoLinks>
+                <infoLink name="Beguile" id="inf-c2e3" hidden="false" type="rule" targetId="c2e3-4c45-4f81-a9cd"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="sk-7c08" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Gifted" id="inf-7c08" hidden="false" type="rule" targetId="7c08-0206-fa8d-132e"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup hidden="false" id="3abc-58de-f55c-4de0" name="Strenght Skills" sortIndex="4">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Strong (X)" hidden="false" id="sk-7a46" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Strong (X)" id="inf-7a46" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tough (X)" hidden="false" id="sk-5991" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Tough (X)" id="inf-5991" hidden="false" type="rule" targetId="5991-ffd7-6123-979d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Weak (X)" hidden="false" id="sk-a4d1" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Weak (X)" id="inf-a4d1" hidden="false" type="rule" targetId="a4d1-4fb7-4a5b-b7e3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Delicate (X)" hidden="false" id="sk-8d6f" sortIndex="4">
+              <infoLinks>
+                <infoLink name="Delicate (X)" id="inf-8d6f" hidden="false" type="rule" targetId="8d6f-c28f-25a2-9ed5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="sk-d1e6" sortIndex="5">
+              <infoLinks>
+                <infoLink name="Born Survivor" id="inf-d1e6" hidden="false" type="rule" targetId="d1e6-45f2-4b9f-91d7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="sk-f3b1" sortIndex="6">
+              <infoLinks>
+                <infoLink name="Beast of Burden" id="inf-f3b1" hidden="false" type="rule" targetId="f3b1-4c72-4c4d-a8c3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="sk-e8a4" sortIndex="7">
+              <infoLinks>
+                <infoLink name="Fearsome" id="inf-e8a4" hidden="false" type="rule" targetId="e8a4-4a51-4d93-9a8d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="sk-a2d3" sortIndex="8">
+              <infoLinks>
+                <infoLink name="Berserker" id="inf-a2d3" hidden="false" type="rule" targetId="a2d3-4f76-4b9e-bc31"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="sk-d4c6" sortIndex="9">
+              <infoLinks>
+                <infoLink name="Enduring" id="inf-d4c6" hidden="false" type="rule" targetId="d4c6-4a8b-4f87-92e3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="sk-f1a7" sortIndex="10">
+              <infoLinks>
+                <infoLink name="Stunning Blow" id="inf-f1a7" hidden="false" type="rule" targetId="f1a7-4c62-4c18-9f45"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="sk-a6c2" sortIndex="11">
+              <infoLinks>
+                <infoLink name="Knockout Blow" id="inf-a6c2" hidden="false" type="rule" targetId="a6c2-4f8e-4b6c-9d53"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="sk-b7d4" sortIndex="12">
+              <infoLinks>
+                <infoLink name="Paladin" id="inf-b7d4" hidden="false" type="rule" targetId="b7d4-4c1f-4cb7-a78a"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="sk-c8e1" sortIndex="13">
+              <infoLinks>
+                <infoLink name="Pushback" id="inf-c8e1" hidden="false" type="rule" targetId="c8e1-4a9c-4b3a-9fd8"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="sk-e3b2" sortIndex="14">
+              <infoLinks>
+                <infoLink name="Martial Code" id="inf-e3b2" hidden="false" type="rule" targetId="e3b2-4d8a-4c91-a5de"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup hidden="false" id="1dde-60e1-ff7a-d080" name="Movement Skills" sortIndex="5">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="sk-f5c1" sortIndex="7">
+              <infoLinks>
+                <infoLink name="Dodge" id="inf-f5c1" hidden="false" type="rule" targetId="f5c1-4d93-4a1e-a89c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="sk-b8d2" sortIndex="8">
+              <infoLinks>
+                <infoLink name="Light Feet" id="inf-b8d2" hidden="false" type="rule" targetId="b8d2-4e5a-4f7e-9d41"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="sk-a9f4" sortIndex="9">
+              <infoLinks>
+                <infoLink name="Burst of Speed" id="inf-a9f4" hidden="false" type="rule" targetId="a9f4-4b2b-4f8d-8c3a"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="sk-cba7" sortIndex="10">
+              <infoLinks>
+                <infoLink name="Strider" id="inf-cba7" hidden="false" type="rule" targetId="c1d3-4f9b-4e0e-a1b2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="sk-80b7" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Freeze" id="inf-80b7" hidden="false" type="rule" targetId="e4a1-4d2b-4c87-bf92"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Climber" hidden="false" id="sk-ddc0" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Climber" id="inf-ddc0" hidden="false" type="rule" targetId="ddc0-d1a5-16dc-1e41"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="sk-c5f8" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Leaper" id="inf-c5f8" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="sk-d6e9" sortIndex="4">
+              <infoLinks>
+                <infoLink name="Slippery" id="inf-d6e9" hidden="false" type="rule" targetId="d6e9-4f3b-4f83-a5d1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="sk-8606" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Swim" id="inf-8606" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup hidden="false" id="6533-e354-ca89-c55c" name="Innate Skills" sortIndex="6">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="sk-5cae" sortIndex="6">
+              <infoLinks>
+                <infoLink name="Natural Hunter" id="inf-5cae" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flight" hidden="false" id="sk-de1b" sortIndex="4">
+              <infoLinks>
+                <infoLink name="Flight" id="inf-de1b" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="sk-f2a4" sortIndex="5">
+              <infoLinks>
+                <infoLink name="Tunneller" id="inf-f2a4" hidden="false" type="rule" targetId="f2a4-4e3d-4a8e-8f91"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Slow" hidden="false" id="sk-a7d3" sortIndex="9">
+              <infoLinks>
+                <infoLink name="Slow" id="inf-a7d3" hidden="false" type="rule" targetId="a7d3-4f6c-4b3f-8e2a"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spines" hidden="false" id="sk-3055" sortIndex="10">
+              <infoLinks>
+                <infoLink name="Spines" id="inf-3055" hidden="false" type="rule" targetId="3055-f3a6-6324-b43b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Short-Sighted" hidden="false" id="sk-7e19" sortIndex="8">
+              <infoLinks>
+                <infoLink name="Short-Sighted" id="inf-7e19" hidden="false" type="rule" targetId="c6f1-4b3a-4d4c-a9d3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fighting Mount" hidden="false" id="sk-02f4" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Fighting Mount" id="inf-02f4" hidden="false" type="rule" targetId="02f4-b317-c0af-0391"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="sk-eb29" sortIndex="7">
+              <infoLinks>
+                <infoLink name="Otherwordly" id="inf-eb29" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="sk-f84e" sortIndex="11">
+              <infoLinks>
+                <infoLink name="Unreliable" id="inf-f84e" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armless" hidden="false" id="sk-ea4e" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Armless" id="inf-ea4e" hidden="false" type="rule" targetId="ea4e-f80f-1392-23b9"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Darksense" hidden="false" id="sk-3c47" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Darksense" id="inf-3c47" hidden="false" type="rule" targetId="3c47-c406-7b16-7d68"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Uncanny" hidden="false" id="sk-5b6f" sortIndex="12">
+              <infoLinks>
+                <infoLink name="Uncanny" id="inf-5b6f" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="sk-e9b4" sortIndex="13">
+              <infoLinks>
+                <infoLink name="Poisonous" id="inf-e9b4" hidden="false" type="rule" targetId="e9b4-4f2d-4a8b-92f1"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup hidden="false" id="bdea-4794-e0a1-6b58" name="Fighting Skills" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry hidden="false" id="sk-f001" import="true" name="Killing Blow" sortIndex="1" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f001" name="Killing Blow" targetId="f001" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f002" import="true" name="Melee Master" sortIndex="2" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f002" name="Melee Master" targetId="f002" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f003" import="true" name="Parry" sortIndex="3" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f003" name="Parry" targetId="f003" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f004" import="true" name="Born in Harness" sortIndex="4" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f004" name="Born in Harness" targetId="f004" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f005" import="true" name="Furious Charge" sortIndex="5" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f005" name="Furious Charge" targetId="f005" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f006" import="true" name="Witch Slayer" sortIndex="6" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f006" name="Witch Slayer" targetId="f006" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f007" import="true" name="Close Quarters" sortIndex="7" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f007" name="Close Quarters" targetId="f007" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f008" import="true" name="Weaponskill" sortIndex="8" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f008" name="Weaponskill" targetId="f008" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f009" import="true" name="Shield Master" sortIndex="9" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f009" name="Shield Master" targetId="f009" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f010" import="true" name="Lance Strike" sortIndex="10" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f010" name="Lance Strike" targetId="f010" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f011" import="true" name="Feint" sortIndex="11" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f011" name="Feint" targetId="f011" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f012" import="true" name="Dual-Wielder" sortIndex="12" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f012" name="Dual-Wielder" targetId="f012" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f013" import="true" name="Zweihander" sortIndex="13" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f013" name="Zweihander" targetId="f013" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f014" import="true" name="Shield Bash" sortIndex="14" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f014" name="Shield Bash" targetId="f014" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f015" import="true" name="Focused Strike" sortIndex="15" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f015" name="Focused Strike" targetId="f015" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-f016" import="true" name="All-out Attack" sortIndex="16" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-f016" name="All-out Attack" targetId="f016" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry hidden="false" id="sk-9918" import="true" name="Unarmed Fighter" sortIndex="17" type="upgrade">
+              <infoLinks>
+                <infoLink hidden="false" id="inf-9918" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </gameSystem>
