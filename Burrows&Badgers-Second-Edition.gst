@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" page="" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry hidden="false" id="6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
@@ -54,7 +54,6 @@
     <profileType hidden="false" id="568c-91db-9da7-e04c" name="Ability">
       <characteristicTypes>
         <characteristicType id="597a-e8da-21a9-99c5" name="Effect"/>
-        <characteristicType id="1d10-b065-f830-da87" name="Requirements"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -300,7 +299,7 @@ When this model makes an Ambush Charge or Ambush Shoot Action, they may also ro
       <alias>Cunning</alias>
       <description>This model is always ready to take advantage of their opponent’s mistakes; any time that they are subject to a Charge, Barge, Attack, Shoot, or Cast Action by an enemy model and that enemy model rolls a ‘1’ on their dice (before modifiers) then the Opportunist can take a free bonus Action next. This does not affect their usual Activation. If several models attacked them and all rolled 1s, this model gets an extra Action for each of them!</description>
     </rule>
-    <rule hidden="false" id="b262-b75e-75ae-d21e" name="The Lady's Favour">
+    <rule hidden="false" id="b262-b75e-75ae-d21e" name="The Lady&apos;s Favour">
       <alias>Cunning</alias>
       <description>Those on the Path of Errantry or serving in Knightly Orders often make a pilgrimage to Brocolita, near Carrowburgh, by the Old Wall. After three days and nights of fasting and vigil, those found worthy receive a vision of the Goddess Coventina, the Lady of the Lake, along with her blessing.
 
@@ -853,7 +852,6 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="7a27-0915-414a-1a02" name="Climber" targetId="ddc0-d1a5-16dc-1e41" type="rule"/>
-        <infoLink hidden="false" id="e4aa-5ef8-f099-092d" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="ec24-09d2-4fb2-936b" import="true" name="Mole" type="model">
@@ -885,6 +883,8 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <modifier arg="(X)" field="name" type="replace" value="1"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Tunneller" id="be40-2692-b6c4-3b19" hidden="false" type="rule" targetId="f2a4-4e3d-4a8e-8f91"/>
+        <infoLink name="Short-Sighted" id="6ee6-815b-b608-35fe" hidden="false" type="rule" targetId="c6f1-4b3a-4d4c-a9d3"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b9e1-57d6-4c2a-8b4f" import="true" name="Weasel / Stoat" type="model">
@@ -910,6 +910,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Fearless" id="c84a-696f-76d6-e15f" hidden="false" type="rule" targetId="5be5-279f-2c7b-e0c7"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="e3c5-43aa-4fd0-bd87" import="true" name="Black Rat" type="model">
       <profiles>
@@ -958,6 +961,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Fearless" id="8850-e0fb-d7fc-2fc7" hidden="false" type="rule" targetId="5be5-279f-2c7b-e0c7"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a8c1-92ab-4c2d-9313" import="true" name="Cat" type="model">
       <profiles>
@@ -1030,6 +1036,19 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="913e-fb95-0637-cbe3" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="1" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough (X)" id="db35-d187-1a98-05eb" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+          <modifiers>
+            <modifier type="replace" value="2" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Natural Hunter" id="1b6d-d61f-3499-91a0" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="fb1a-2dc4-4e33-80b9" import="true" name="Frog" type="model">
       <profiles>
@@ -1054,6 +1073,10 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Leaper" id="e2b1-71ab-0dde-a147" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
+        <infoLink name="Swim" id="41d7-96b9-8166-6f00" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b3cd-42e7-4e88-bb67" import="true" name="Adder" type="model">
       <profiles>
@@ -1078,6 +1101,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Poisonous" id="918c-db56-63d4-a1f0" hidden="false" type="rule" targetId="e9b4-4f2d-4a8b-92f1"/>
+        <infoLink name="Unarmed Fighter" id="9d6b-3ca7-3401-5ef4" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
+        <infoLink name="Natural Hunter" id="2436-b96e-6825-a467" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="df21-4bb0-4b9a-8a42" import="true" name="Marmot" type="model">
       <profiles>
@@ -1126,6 +1154,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Swim" id="c397-aa9f-02ec-cc58" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a72b-4926-4d3a-8ac3" import="true" name="Bird (Medium)" type="model">
       <profiles>
@@ -1150,6 +1181,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Flight" id="6bfb-1fd2-86ac-5a4a" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c35e-4ff2-48ce-9b2f" import="true" name="Raptor (Medium)" type="model">
       <profiles>
@@ -1174,6 +1208,16 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Flight" id="dca2-ee0a-8563-e293" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+        <infoLink name="Unarmed Fighter" id="62af-4d7d-72ef-4997" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
+        <infoLink name="Strong (X)" id="924c-074c-6555-5656" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="1" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Natural Hunter" id="d368-6619-5211-1e24" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="d46a-41fd-4a51-83b8" import="true" name="Hound (Medium)" type="model">
       <profiles>
@@ -1198,6 +1242,13 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="f63e-04da-18bf-0217" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c9b4-4a27-4a6a-b921" import="true" name="Green Lizard (Rare)" type="model">
       <profiles>
@@ -1278,6 +1329,13 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <constraints>
         <constraint field="selections" id="bca6-3661-0e8a-a26c" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <infoLinks>
+        <infoLink name="Tough (X)" id="bdeb-6b90-9020-a66c" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+          <modifiers>
+            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="d97a-4b25-4b88-8d0b" import="true" name="Platypus (Rare)" type="model">
       <profiles>
@@ -1306,6 +1364,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <constraints>
         <constraint field="selections" id="d435-ded3-0f16-ca93" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <infoLinks>
+        <infoLink name="Swim" id="d9ad-f6d0-7429-0d91" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a4d2-4a6b-4f78-b8b3" import="true" name="Hare" type="model">
       <profiles>
@@ -1330,6 +1391,14 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="f2f8-986d-729c-10f2" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Leaper" id="eb73-a6b2-4c98-bd55" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
+        <infoLink name="Strong (X)" id="4115-3ee5-3b47-4c5a" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b7c4-4b62-40a8-84b1" import="true" name="Wildcat" type="model">
       <profiles>
@@ -1354,6 +1423,20 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="4be9-c72b-57ab-b487" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="c0db-dd71-2660-aefa" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough (X)" id="8021-c5c9-201c-8d7e" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fearsome" id="4f6d-b0fa-4c50-9375" hidden="false" type="rule" targetId="ae2e-3397-13a2-f83c"/>
+        <infoLink name="Natural Hunter" id="b8e2-7fd6-e86a-b686" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c9e5-4af3-48dd-83b2" import="true" name="Great Brown Rat" type="model">
       <profiles>
@@ -1378,6 +1461,13 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="e143-f767-eb46-9cb7" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="70db-4898-b537-ffdd" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="d3f1-45ec-4b1f-8e23" import="true" name="Fox" type="model">
       <profiles>
@@ -1403,6 +1493,13 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="fadb-becf-d00e-7806" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="ac33-b383-4c92-d446" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="e4c6-4b55-4f25-8e32" import="true" name="Otter" type="model">
       <profiles>
@@ -1428,6 +1525,14 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="ff20-ced0-2696-90d9" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="ff20-1c16-98b4-536e" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Swim" id="b126-dd88-7b12-9038" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b1c6-4e9a-43ac-87af" import="true" name="Bird (Large)" type="model">
       <profiles>
@@ -1452,6 +1557,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="5e2d-c3df-f290-ce05" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Flight" id="40be-f26a-4672-04ef" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a3e4-4d2a-4e3e-bac1" import="true" name="Raptor (Large)" type="model">
       <profiles>
@@ -1477,6 +1585,16 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="09f2-d378-269d-a914" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Flight" id="6d43-4820-10b1-baaf" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+        <infoLink name="Strong (X)" id="4210-1b54-3b18-5c0a" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Unarmed Fighter" id="3ee7-333f-b9a6-4c07" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
+        <infoLink name="Natural Hunter" id="7921-e1b3-c99a-4d6b" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="f1c3-4b4b-41db-8a22" import="true" name="Hound (Large)" type="model">
       <profiles>
@@ -1501,6 +1619,18 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="b57f-aa72-2c5d-c8e5" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="7b9b-7136-816f-4e43" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough (X)" id="854c-9811-35b4-4d45" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="d5e4-4c27-4bdf-8f93" import="true" name="Raccoon (Rare)" type="model">
       <profiles>
@@ -1529,6 +1659,13 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <constraints>
         <constraint field="selections" id="aeeb-25cc-3ba4-769b" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="cffc-75fe-fb60-8a36" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c7b6-4b4d-48f0-8f32" import="true" name="Armadillo (Rare)" type="model">
       <profiles>
@@ -1557,6 +1694,19 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <constraints>
         <constraint field="selections" id="edbf-9f12-a50d-d721" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="2fce-389c-dd3d-d6bf" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(1)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough (X)" id="33cd-88d4-cb8e-423f" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+          <modifiers>
+            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Leaper" id="e32d-f8b9-dfb2-0eb9" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="e8f2-4c3d-41c2-bc3a" import="true" name="Fennec Fox (Rare)" type="model">
       <profiles>
@@ -1585,6 +1735,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <constraints>
         <constraint field="selections" id="4500-828e-011a-0721" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <infoLinks>
+        <infoLink name="Bloodhound" id="0af8-b776-5cf9-612c" hidden="false" type="rule" targetId="54cb-f660-1c7f-53c1"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="f5b4-4d32-4f3d-93a2" import="true" name="Mist Ghast (Large)" type="model">
       <profiles>
@@ -1609,6 +1762,15 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="3fc1-3757-64d9-b7e5" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="55d6-6a04-3af0-e4ab" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Otherwordly" id="d40a-bfb1-e0e4-4bd0" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1"/>
+        <infoLink name="Uncanny" id="643b-e54c-a2d5-cd95" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="a7d3-4f8e-4e72-bc82" import="true" name="Badger" type="model">
       <profiles>
@@ -1633,6 +1795,19 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="c0ad-6a86-6ee0-f8d9" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough (X)" id="f0a0-0372-a3c3-8ba7" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+          <modifiers>
+            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fearsome" id="cae2-a403-8a3f-7a8d" hidden="false" type="rule" targetId="ae2e-3397-13a2-f83c"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="b8e1-4f6b-45f2-8e9d" import="true" name="Beaver" type="model">
       <profiles>
@@ -1657,6 +1832,19 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="d9d0-29f3-340b-aa04" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(2)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough (X)" id="70cb-c698-ee04-dbed" hidden="false" type="rule" targetId="5991-ffd7-6123-979d">
+          <modifiers>
+            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Swim" id="ab77-38dd-76ae-5b4b" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="c4f3-4a3b-45d9-8d5a" import="true" name="Bird (Massive)" type="model">
       <profiles>
@@ -1681,6 +1869,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Flight" id="0581-2ae5-1714-b802" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="d2f1-4b5e-4f2b-b1a8" import="true" name="Raptor (Massive)" type="model">
       <profiles>
@@ -1705,6 +1896,16 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Flight" id="ebc6-dd2a-65d9-1c49" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+        <infoLink name="Strong (X)" id="e123-5191-578c-bd4d" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(3)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Unarmed Fighter" id="dd04-615b-172d-2081" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
+        <infoLink name="Natural Hunter" id="a255-6f91-d062-b14c" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="e5a3-4a6e-4a87-a9fc" import="true" name="Hound (Massive)" type="model">
       <profiles>
@@ -1753,11 +1954,24 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <categoryLinks>
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Strong (X)" id="2c16-28e3-1a51-2057" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5">
+          <modifiers>
+            <modifier type="replace" value="(4)" field="name" arg="(X)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Otherwordly" id="86c4-66d0-b4ea-9ab9" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1"/>
+        <infoLink name="Uncanny" id="4d15-8d0e-5425-85ce" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink hidden="false" id="cb27-1721-a3f8-536d" import="true" name="Attack Grub" targetId="8f91-2d4c-9e53-1b2a" type="selectionEntry"/>
-    <entryLink hidden="false" id="7c90-1641-f79f-14ac" import="true" name="Adder" targetId="b3cd-42e7-4e88-bb67" type="selectionEntry"/>
+    <entryLink hidden="false" id="7c90-1641-f79f-14ac" import="true" name="Adder" targetId="b3cd-42e7-4e88-bb67" type="selectionEntry">
+      <entryLinks>
+        <entryLink import="true" name="Configuration" hidden="false" id="e2d5-56c9-70fd-4eac" type="selectionEntryGroup" targetId="17ba-d661-42d8-a4ff" collapsible="true"/>
+      </entryLinks>
+    </entryLink>
     <entryLink hidden="false" id="7572-c873-7a93-67cf" import="true" name="Bird (Medium)" targetId="a72b-4926-4d3a-8ac3" type="selectionEntry"/>
     <entryLink hidden="false" id="acff-95a7-68a2-5965" import="true" name="Bird (Small)" targetId="6f71-4de0-c658-5910" type="selectionEntry"/>
     <entryLink hidden="false" id="0997-2f40-2b33-3bf8" import="true" name="Black Rat" targetId="e3c5-43aa-4fd0-bd87" type="selectionEntry"/>
@@ -1813,4 +2027,34 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
     <infoLink hidden="false" id="41da-d4c2-33f3-42be" name="Gifted" targetId="7c08-0206-fa8d-132e" type="rule"/>
     <infoLink hidden="false" id="075b-b60a-3e1c-f2a0" name="Delicate (X)" targetId="8d6f-c28f-25a2-9ed5" type="rule"/>
   </infoLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Configuration" id="17ba-d661-42d8-a4ff" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="3a3e-212c-6541-9b57">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c11a-659e-e07b-5f00" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Leader" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="f804-ad4f-60d8-799a">
+              <characteristics>
+                <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Leader of the warband.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Second" hidden="false" id="5c73-82c4-7d39-d8f2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b52c-62c6-d366-f452" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Leader" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="e3b9-9446-2732-e458">
+              <characteristics>
+                <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Second of the warband.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </gameSystem>
