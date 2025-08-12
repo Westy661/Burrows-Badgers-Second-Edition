@@ -46,17 +46,17 @@
     <profileType hidden="false" id="568c-91db-9da7-e04c" name="Ability">
       <characteristicTypes>
         <characteristicType id="597a-e8da-21a9-99c5" name="Effect"/>
-        <characteristicType name="Value" id="aea5-b224-5a20-8ffb"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Spell" id="3d26-fa01-dac8-537b" hidden="false">
+    <profileType hidden="false" id="3d26-fa01-dac8-537b" name="Spell">
       <characteristicTypes>
-        <characteristicType name="Description" id="3a00-157a-a112-b946"/>
-        <characteristicType name="Difficulty" id="6827-4c1e-91ed-6fcc"/>
-        <characteristicType name="Range" id="b160-3959-b02a-6f2d"/>
-        <characteristicType name="Effect" id="3c7e-9119-98a7-b064"/>
-        <characteristicType name="Ingredients" id="d202-4fda-9468-13bf"/>
-        <characteristicType name="Archetype" id="43c5-5138-7e39-d768"/>
+        <characteristicType id="3a00-157a-a112-b946" name="Description"/>
+        <characteristicType id="6827-4c1e-91ed-6fcc" name="Difficulty"/>
+        <characteristicType id="b160-3959-b02a-6f2d" name="Range"/>
+        <characteristicType id="3c7e-9119-98a7-b064" name="Effect"/>
+        <characteristicType id="d202-4fda-9468-13bf" name="Ingredients"/>
+        <characteristicType id="43c5-5138-7e39-d768" name="Archetype"/>
+        <characteristicType id="543f-5b57-11a4-e45c" name="Fate Point"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -517,17 +517,17 @@ D6 ROLL RESULT
 
 Any time this model inflicts one or more Wounds on an enemy model with an Attack Action made using the Unarmed Fighter Skill, that enemy model also receives the Condition ‘Stunned’ until the end of the Turn.</description>
     </rule>
-    <rule name="Block Upgraded" id="1574-e428-8c72-1d69" hidden="false"/>
-    <rule name="Strike Upgraded" id="7092-3337-1d7f-f6cb" hidden="false"/>
-    <rule name="Ranged Upgraded" id="767f-6f49-19ce-e4f7" hidden="false"/>
-    <rule name="Awareness Upgraded" id="7364-198c-69e1-3692" hidden="false"/>
-    <rule name="Movement Upgraded" id="bbe1-5743-c6db-e184" hidden="false">
+    <rule hidden="false" id="1574-e428-8c72-1d69" name="Block Upgraded"/>
+    <rule hidden="false" id="7092-3337-1d7f-f6cb" name="Strike Upgraded"/>
+    <rule hidden="false" id="767f-6f49-19ce-e4f7" name="Ranged Upgraded"/>
+    <rule hidden="false" id="7364-198c-69e1-3692" name="Awareness Upgraded"/>
+    <rule hidden="false" id="bbe1-5743-c6db-e184" name="Movement Upgraded">
       <description>The Movement statistic of this unit has been upgraded.</description>
     </rule>
-    <rule name="Concealment Upgraded" id="f57d-1cc4-1e0d-3be8" hidden="false"/>
-    <rule name="Fortitude Upgraded" id="c061-255f-ef64-59f1" hidden="false"/>
-    <rule name="Nimbleness Upgraded" id="5757-3e5b-6e2e-ea59" hidden="false"/>
-    <rule name="Presence Upgraded" id="b421-9183-b579-6a09" hidden="false"/>
+    <rule hidden="false" id="f57d-1cc4-1e0d-3be8" name="Concealment Upgraded"/>
+    <rule hidden="false" id="c061-255f-ef64-59f1" name="Fortitude Upgraded"/>
+    <rule hidden="false" id="5757-3e5b-6e2e-ea59" name="Nimbleness Upgraded"/>
+    <rule hidden="false" id="b421-9183-b579-6a09" name="Presence Upgraded"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry hidden="false" id="6f71-4de0-c658-5910" import="true" name="Bird (Small)" type="model">
@@ -544,11 +544,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d4</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d4</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -576,11 +576,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -608,11 +608,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -646,11 +646,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -675,11 +675,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -707,11 +707,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d10</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf"/>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -747,11 +747,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -776,11 +776,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -807,11 +807,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -844,11 +844,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -878,11 +878,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -910,11 +910,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -942,11 +942,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -980,11 +980,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1012,11 +1012,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1041,11 +1041,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1073,11 +1073,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1102,11 +1102,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1131,11 +1131,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1173,11 +1173,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1206,11 +1206,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1240,11 +1240,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1269,11 +1269,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1301,11 +1301,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1333,11 +1333,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1372,11 +1372,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1408,11 +1408,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1437,11 +1437,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1470,11 +1470,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1510,11 +1510,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1546,11 +1546,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1583,11 +1583,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1626,11 +1626,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1663,11 +1663,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1700,11 +1700,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1737,11 +1737,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1770,11 +1770,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Skill" typeId="4942-d5bf-5151-64f9">-</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1809,11 +1809,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1850,11 +1850,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1890,11 +1890,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1936,11 +1936,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -1972,11 +1972,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">3</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -2010,11 +2010,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d10</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">4</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -2052,11 +2052,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d10</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">4</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -2094,11 +2094,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">4</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -2126,11 +2126,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d10</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d10</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">4</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -2165,11 +2165,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">4</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -2194,11 +2194,11 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d8</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d10</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">4</characteristic>
-            <characteristic typeId="7ada-3f22-4b7d-d7e5" name="New Characteristic Type"/>
+            <characteristic name="New Characteristic Type" typeId="7ada-3f22-4b7d-d7e5"/>
           </characteristics>
           <attributes>
-            <attribute typeId="a715-9091-413c-09de" name="New Attribute Type"/>
-            <attribute typeId="a3b5-a7e8-6b57-ebec" name="New Attribute Type"/>
+            <attribute name="New Attribute Type" typeId="a715-9091-413c-09de"/>
+            <attribute name="New Attribute Type" typeId="a3b5-a7e8-6b57-ebec"/>
           </attributes>
         </profile>
       </profiles>
@@ -2229,9 +2229,6 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <entryLinks>
         <entryLink hidden="false" id="4b8d-7034-164b-2448" import="true" name="Configuration" targetId="17ba-d661-42d8-a4ff" type="selectionEntryGroup"/>
       </entryLinks>
-      <infoLinks>
-        <infoLink name="Weak" id="7ec6-02bb-3c8d-4638" hidden="true" type="profile" targetId="1287-15af-a0b2-cc20"/>
-      </infoLinks>
     </entryLink>
     <entryLink hidden="false" id="7572-c873-7a93-67cf" import="true" name="Bird (Medium)" targetId="a72b-4926-4d3a-8ac3" type="selectionEntry">
       <entryLinks>
@@ -2478,7 +2475,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
       <selectionEntryGroups>
         <selectionEntryGroup hidden="false" id="6f6d-3958-146e-e629" name="Rank" sortIndex="1">
           <selectionEntries>
-            <selectionEntry hidden="false" id="5c73-82c4-7d39-d8f2" import="true" name="Second" type="upgrade" sortIndex="2">
+            <selectionEntry hidden="false" id="5c73-82c4-7d39-d8f2" import="true" name="Second" sortIndex="2" type="upgrade">
               <constraints>
                 <constraint field="selections" id="b52c-62c6-d366-f452" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
@@ -2486,16 +2483,16 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                 <profile hidden="false" id="e3b9-9446-2732-e458" name="Second" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Second of the warband.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="Value"/>
+                    <characteristic name="Value" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <modifiers>
                 <modifier field="category" type="add" value="0cd2-8443-e657-6def"/>
-                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                <modifier affects="profiles.Unit" field="659a-f40f-dc29-33bf" scope="root-entry" type="increment" value="1"/>
               </modifiers>
             </selectionEntry>
-            <selectionEntry hidden="false" id="3a3e-212c-6541-9b57" import="true" name="Leader" type="upgrade" sortIndex="1">
+            <selectionEntry hidden="false" id="3a3e-212c-6541-9b57" import="true" name="Leader" sortIndex="1" type="upgrade">
               <constraints>
                 <constraint field="selections" id="c11a-659e-e07b-5f00" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
@@ -2503,13 +2500,13 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                 <profile hidden="false" id="f804-ad4f-60d8-799a" name="Leader" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This unit is the Leader of the warband.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="Value"/>
+                    <characteristic name="Value" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <modifiers>
                 <modifier field="category" type="add" value="8fa1-283a-2134-c1ea"/>
-                <modifier type="increment" value="2" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                <modifier affects="profiles.Unit" field="659a-f40f-dc29-33bf" scope="root-entry" type="increment" value="2"/>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
@@ -2517,444 +2514,538 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
             <constraint field="selections" id="7c42-3193-c8e7-c4b8" scope="self" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Upgrade" id="1cc4-83b3-5806-6667" hidden="true" collapsible="true" sortIndex="4">
+        <selectionEntryGroup collapsible="true" hidden="true" id="1cc4-83b3-5806-6667" name="Upgrade" sortIndex="4">
           <modifiers>
-            <modifier type="set" value="false" field="hidden">
+            <modifier field="hidden" type="set" value="false">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="8fa1-283a-2134-c1ea" shared="true"/>
+                    <condition childId="8fa1-283a-2134-c1ea" field="selections" scope="root-entry" shared="true" type="equalTo" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="bdf4-0af1-cb79-a932" collective="false" sortIndex="1">
+            <selectionEntry collective="false" hidden="false" id="bdf4-0af1-cb79-a932" import="true" name="Upgrade Movement" sortIndex="1" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="e8dc-4636-129f-5901" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="e8dc-4636-129f-5901" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="e8dc-4636-129f-5901" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="e8dc-4636-129f-5901" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="e8dc-4636-129f-5901" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="e8dc-4636-129f-5901" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Movement Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="c42a-2608-3e4c-ca1b">
+                <profile hidden="false" id="c42a-2608-3e4c-ca1b" name="Movement Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Movement Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="Value"/>
+                    <characteristic name="Value" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f44-1bc1-2fdf-a950"/>
+                <constraint field="selections" id="6f44-1bc1-2fdf-a950" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="983f-3361-c34a-2672" collective="false" sortIndex="5">
+            <selectionEntry collective="false" hidden="false" id="983f-3361-c34a-2672" import="true" name="Upgrade Nimbleness" sortIndex="5" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="04d3-8db0-e5d0-b1a5" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="04d3-8db0-e5d0-b1a5" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="04d3-8db0-e5d0-b1a5" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="04d3-8db0-e5d0-b1a5" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="04d3-8db0-e5d0-b1a5" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Nimbleness Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="2a65-a442-9ea9-65ee">
+                <profile hidden="false" id="2a65-a442-9ea9-65ee" name="Nimbleness Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Nimbleness Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9cb-49a9-1dc4-4564"/>
+                <constraint field="selections" id="f9cb-49a9-1dc4-4564" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Block" hidden="false" id="af4d-de73-f7a7-4f42" collective="false" sortIndex="3">
+            <selectionEntry collective="false" hidden="false" id="af4d-de73-f7a7-4f42" import="true" name="Upgrade Block" sortIndex="3" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="973e-9c70-c1b0-79a7" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="973e-9c70-c1b0-79a7" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="973e-9c70-c1b0-79a7" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="973e-9c70-c1b0-79a7" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="973e-9c70-c1b0-79a7" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Block Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="2fbd-d6aa-bcdc-d675">
+                <profile hidden="false" id="2fbd-d6aa-bcdc-d675" name="Block Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Block Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c80-a4b4-3a90-8d60"/>
+                <constraint field="selections" id="1c80-a4b4-3a90-8d60" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="a917-bb2d-cdd3-c0c4" collective="false" sortIndex="4">
+            <selectionEntry collective="false" hidden="false" id="a917-bb2d-cdd3-c0c4" import="true" name="Upgrade Ranged" sortIndex="4" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="81ac-f564-ffc1-e3fa" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="81ac-f564-ffc1-e3fa" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="81ac-f564-ffc1-e3fa" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="81ac-f564-ffc1-e3fa" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="81ac-f564-ffc1-e3fa" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Ranged Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="0f99-a3a7-df21-05c5">
+                <profile hidden="false" id="0f99-a3a7-df21-05c5" name="Ranged Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Ranged Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a23e-0cf0-17df-6c8d"/>
+                <constraint field="selections" id="a23e-0cf0-17df-6c8d" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Concealment" hidden="false" id="0006-71fb-2169-d789" collective="false" sortIndex="6">
+            <selectionEntry collective="false" hidden="false" id="0006-71fb-2169-d789" import="true" name="Upgrade Concealment" sortIndex="6" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="d4c0-ccdb-b645-bd70" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="d4c0-ccdb-b645-bd70" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="d4c0-ccdb-b645-bd70" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="d4c0-ccdb-b645-bd70" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="d4c0-ccdb-b645-bd70" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Concealment Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="3b63-7bc9-3008-8e3b">
+                <profile hidden="false" id="3b63-7bc9-3008-8e3b" name="Concealment Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Concealment Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f1c-a328-21f7-7165"/>
+                <constraint field="selections" id="1f1c-a328-21f7-7165" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="7dad-a0f2-84f6-a083" collective="false" sortIndex="2">
+            <selectionEntry collective="false" hidden="false" id="7dad-a0f2-84f6-a083" import="true" name="Upgrade Strike" sortIndex="2" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="3c84-430f-dc21-e27b" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="3c84-430f-dc21-e27b" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="3c84-430f-dc21-e27b" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="3c84-430f-dc21-e27b" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="3c84-430f-dc21-e27b" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="3c84-430f-dc21-e27b" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="3c84-430f-dc21-e27b" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Strike Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="a097-4f05-d069-cde2">
+                <profile hidden="false" id="a097-4f05-d069-cde2" name="Strike Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Strike Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b4c-edb9-47ac-6353"/>
+                <constraint field="selections" id="9b4c-edb9-47ac-6353" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Awareness" hidden="false" id="4280-5099-ad9d-46f0" collective="false" sortIndex="7">
+            <selectionEntry collective="false" hidden="false" id="4280-5099-ad9d-46f0" import="true" name="Upgrade Awareness" sortIndex="7" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="e482-eed4-6daa-ca70" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="e482-eed4-6daa-ca70" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="e482-eed4-6daa-ca70" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="e482-eed4-6daa-ca70" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="e482-eed4-6daa-ca70" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="e482-eed4-6daa-ca70" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="e482-eed4-6daa-ca70" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="e482-eed4-6daa-ca70" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="e482-eed4-6daa-ca70" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="e482-eed4-6daa-ca70" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Awareness Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="bb3a-f4ae-78c0-268e">
+                <profile hidden="false" id="bb3a-f4ae-78c0-268e" name="Awareness Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Awareness Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0913-dec3-5eea-ea9d"/>
+                <constraint field="selections" id="0913-dec3-5eea-ea9d" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="1f0b-4c6c-95bf-cf1b" collective="false" sortIndex="7">
+            <selectionEntry collective="false" hidden="false" id="1f0b-4c6c-95bf-cf1b" import="true" name="Upgrade Fortitude" sortIndex="7" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="c395-16b3-3435-da18" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="c395-16b3-3435-da18" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="c395-16b3-3435-da18" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="c395-16b3-3435-da18" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="c395-16b3-3435-da18" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="c395-16b3-3435-da18" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="c395-16b3-3435-da18" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Fortitude Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="745f-b440-bbcd-f89e">
+                <profile hidden="false" id="745f-b440-bbcd-f89e" name="Fortitude Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Fortitude Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef5f-6441-11fe-79dc"/>
+                <constraint field="selections" id="ef5f-6441-11fe-79dc" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Presence" hidden="false" id="0619-9e6b-63fe-2db3" collective="false" sortIndex="8">
+            <selectionEntry collective="false" hidden="false" id="0619-9e6b-63fe-2db3" import="true" name="Upgrade Presence" sortIndex="8" type="upgrade">
               <modifiers>
-                <modifier type="replace" value="d20" field="855b-25d5-4575-cabb" affects="profiles.Unit" scope="root-entry" arg="d12" position="0"/>
-                <modifier type="replace" value="d12" field="855b-25d5-4575-cabb" affects="profiles.Unit" scope="root-entry" arg="d10" position="0"/>
-                <modifier type="replace" value="d10" field="855b-25d5-4575-cabb" affects="profiles.Unit" scope="root-entry" arg="d8" position="0"/>
-                <modifier type="replace" value="d8" field="855b-25d5-4575-cabb" affects="profiles.Unit" scope="root-entry" arg="d6" position="0"/>
-                <modifier type="replace" value="d6" field="855b-25d5-4575-cabb" affects="profiles.Unit" scope="root-entry" arg="d4" position="0"/>
+                <modifier affects="profiles.Unit" arg="d12" field="855b-25d5-4575-cabb" position="0" scope="root-entry" type="replace" value="d20"/>
+                <modifier affects="profiles.Unit" arg="d10" field="855b-25d5-4575-cabb" position="0" scope="root-entry" type="replace" value="d12"/>
+                <modifier affects="profiles.Unit" arg="d8" field="855b-25d5-4575-cabb" position="0" scope="root-entry" type="replace" value="d10"/>
+                <modifier affects="profiles.Unit" arg="d6" field="855b-25d5-4575-cabb" position="0" scope="root-entry" type="replace" value="d8"/>
+                <modifier affects="profiles.Unit" arg="d4" field="855b-25d5-4575-cabb" position="0" scope="root-entry" type="replace" value="d6"/>
               </modifiers>
               <profiles>
-                <profile name="Presence Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="f47e-ec0d-5af7-2c17">
+                <profile hidden="false" id="f47e-ec0d-5af7-2c17" name="Presence Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability">
                   <characteristics>
                     <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Presence Statistic of this unit has been upgraded.</characteristic>
-                    <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                    <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                   </characteristics>
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1089-56ae-d847-ed4e"/>
+                <constraint field="selections" id="1089-56ae-d847-ed4e" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic" id="040c-8250-8358-dd76" hidden="false" sortIndex="2">
+        <selectionEntryGroup hidden="false" id="040c-8250-8358-dd76" name="Magic" sortIndex="2">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Magic Archetypes" hidden="false" id="2e36-ac8e-3cb1-812e">
+            <selectionEntry hidden="false" id="2e36-ac8e-3cb1-812e" import="true" name="Magic Archetypes" type="upgrade">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0c22-eba4-64c5-46e9"/>
+                <constraint field="selections" id="0c22-eba4-64c5-46e9" scope="self" shared="true" type="max" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Dark" hidden="false" id="625c-67a2-db49-360c" sortIndex="3">
+                <selectionEntry hidden="false" id="625c-67a2-db49-360c" import="true" name="Dark" sortIndex="3" type="upgrade">
                   <profiles>
-                    <profile name="Dark Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="a128-9f6e-3557-0ca1">
+                    <profile hidden="false" id="a128-9f6e-3557-0ca1" name="Dark Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Dark. Dark Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd62-f5a3-77aa-acc5"/>
+                    <constraint field="selections" id="cd62-f5a3-77aa-acc5" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Light" hidden="false" id="2805-2d3a-48ac-102a" sortIndex="2">
+                <selectionEntry hidden="false" id="2805-2d3a-48ac-102a" import="true" name="Light" sortIndex="2" type="upgrade">
                   <profiles>
-                    <profile name="Light Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="2521-6587-d5ac-d0ad">
+                    <profile hidden="false" id="2521-6587-d5ac-d0ad" name="Light Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Light. Light Magic is Presence-based and Cast Roll-offs are made using the caster’s Presence Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a617-2842-aa43-d63f"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Natural" hidden="false" id="382f-f3b0-8fa4-a80d" sortIndex="1">
-                  <profiles>
-                    <profile name="Natural Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="5715-00a3-f283-b3ae">
-                      <characteristics>
-                        <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Natural
-
-Natural magic is based on the intrinsic energy of the living world. It is the most common form of magic among those born with the gift. Natural Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat versus the Spell’s Difficulty.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a7f-e33c-fc3e-539f"/>
+                    <constraint field="selections" id="a617-2842-aa43-d63f" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Natural Spell List" id="be6a-85f7-2d3e-a4a8" hidden="false">
+                    <selectionEntryGroup collective="true" hidden="false" id="44c7-3611-68b1-0031" name="Light Spells">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Haste" hidden="false" id="32d6-5898-253b-0b6e">
+                        <selectionEntry collective="true" hidden="false" id="8fb5-67fa-c3d5-813c" import="true" name="Bless" sortIndex="1" type="upgrade">
                           <infoLinks>
-                            <infoLink name="Haste" id="3f64-c641-d144-3932" hidden="false" type="profile" targetId="e8ca-5b6f-dd5a-2bab"/>
-                            <infoLink name="Delicate (X)" id="a012-cb9f-9ee8-f359" hidden="false" type="rule" targetId="8d6f-c28f-25a2-9ed5"/>
+                            <infoLink hidden="false" id="f7c7-2e10-3a93-679b" name="Bless" targetId="a7c4-4f2b-4a9e-b8c1" type="profile"/>
+                            <infoLink hidden="false" id="4ddb-aa19-bb26-25f7" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="87a5-e41f-48a2-448f" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
                           </infoLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6068-e03d-ab10-cbf5"/>
+                            <constraint field="selections" id="f3ef-7500-1b8c-08bd" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
-                          <modifiers>
-                            <modifier type="set" value="false" field="hidden" affects="profiles.Ability" scope="root-entry"/>
-                            <modifier type="replace" value="5" field="annotation" affects="profiles.Ability" scope="root-entry" arg="4" position="0"/>
-                            <modifier type="replace" value="4" field="annotation" affects="profiles.Ability" scope="root-entry" arg="3" position="0"/>
-                            <modifier type="replace" value="3" field="annotation" affects="profiles.Ability" scope="root-entry" arg="2" position="0"/>
-                            <modifier type="replace" value="2" field="annotation" affects="profiles.Ability" scope="root-entry" arg="1" position="0"/>
-                          </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Curse" hidden="false" id="d81b-a6c0-1a78-9f06">
+                        <selectionEntry collective="true" hidden="false" id="1740-d1f9-7031-acd7" import="true" name="Heal" sortIndex="2" type="upgrade">
                           <infoLinks>
-                            <infoLink name="Curse" id="30f2-5e3e-546e-03bb" hidden="false" type="profile" targetId="bfe9-b2ae-d9a4-6964"/>
-                            <infoLink name="Delicate (X)" id="9ef1-1b27-833b-df9c" hidden="false" type="rule" targetId="8d6f-c28f-25a2-9ed5"/>
+                            <infoLink hidden="false" id="437e-f376-160d-40d7" name="Heal" targetId="b9f2-4d1e-4a6b-8f3a" type="profile"/>
+                            <infoLink hidden="false" id="9193-c877-5ce3-a199" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="b247-5218-7c98-433a" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
                           </infoLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7c7-db47-7e2d-59a0"/>
+                            <constraint field="selections" id="50e7-1f8d-af91-f2ea" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
-                          <modifiers>
-                            <modifier type="set" value="false" field="hidden" affects="profiles.Ability" scope="root-entry"/>
-                            <modifier type="replace" value="5" field="annotation" affects="profiles.Ability" scope="root-entry" arg="4" position="0"/>
-                            <modifier type="replace" value="4" field="annotation" affects="profiles.Ability" scope="root-entry" arg="3" position="0"/>
-                            <modifier type="replace" value="3" field="annotation" affects="profiles.Ability" scope="root-entry" arg="2" position="0"/>
-                            <modifier type="replace" value="2" field="annotation" affects="profiles.Ability" scope="root-entry" arg="1" position="0"/>
-                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="1895-af5f-e567-30fd" import="true" name="Hearts of Oak" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="d0b2-b620-2f32-92ad" name="Hearts of Oak" targetId="c7e3-4f2a-4a7b-9e61" type="profile"/>
+                            <infoLink hidden="false" id="3c3e-4c1a-39f7-8b44" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="d986-f117-d17e-cfa3" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="04cd-5602-06c4-821d" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="9c99-f0e9-af5c-c7ba" import="true" name="Purifying Flames" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="acf1-e6a1-2c54-c0a0" name="Purifying Flames" targetId="d4a5-4b1f-4c98-9b72" type="profile"/>
+                            <infoLink hidden="false" id="7fb3-174f-e8d8-3831" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="6e28-6ed3-ce22-b8e0" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="fd94-46c5-fa20-d0a7" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="e222-41b8-f836-d7b0" import="true" name="Purge Witch" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="643e-77f1-a538-a44f" name="Purge Witch" targetId="e5b7-4f93-4a6d-8c3a" type="profile"/>
+                            <infoLink hidden="false" id="2834-fe5d-a89d-f04c" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="4dfd-9edc-4aa3-15cd" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="4c27-a359-656a-9800" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="05a2-3eba-ddc0-e316" import="true" name="Invulnerable" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="92f3-1b01-d99a-db3f" name="Invulnerable" targetId="f9d3-4e8a-4c9b-b6a2" type="profile"/>
+                            <infoLink hidden="false" id="2ea7-c1ec-5eae-2966" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="2078-4f96-f68e-8509" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="7e0a-7874-9c44-1b8e" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Wild" hidden="false" id="f23c-5140-3107-2fa9" sortIndex="3">
+                <selectionEntry hidden="false" id="382f-f3b0-8fa4-a80d" import="true" name="Natural" sortIndex="1" type="upgrade">
                   <profiles>
-                    <profile name="Wild Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="63ed-1734-b570-a483">
+                    <profile hidden="false" id="5715-00a3-f283-b3ae" name="Natural Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Natural
+
+Natural magic is based on the intrinsic energy of the living world. It is the most common form of magic among those born with the gift. Natural Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat versus the Spell’s Difficulty.</characteristic>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint field="selections" id="5a7f-e33c-fc3e-539f" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="be6a-85f7-2d3e-a4a8" name="Natural Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="32d6-5898-253b-0b6e" import="true" name="Haste" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="3f64-c641-d144-3932" name="Haste" targetId="e8ca-5b6f-dd5a-2bab" type="profile"/>
+                            <infoLink hidden="false" id="de89-913f-ae72-e375" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="984a-9b16-bbae-acba" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="6068-e03d-ab10-cbf5" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="d81b-a6c0-1a78-9f06" import="true" name="Curse" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="30f2-5e3e-546e-03bb" name="Curse" targetId="bfe9-b2ae-d9a4-6964" type="profile"/>
+                            <infoLink hidden="false" id="6db1-5441-f6b0-136c" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="fc6f-6c04-ce64-4e59" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="f7c7-db47-7e2d-59a0" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="73c6-9fbb-18dd-79af" import="true" name="Cure" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="63f4-7855-a45b-8776" name="Cure" targetId="b6f2-4e8c-4a3f-9a71" type="profile"/>
+                            <infoLink hidden="false" id="a842-d074-e03c-e417" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="f958-c7b8-272f-e3d5" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="1acc-9315-2ce5-fb21" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="10f9-1051-6ac4-ee04" import="true" name="Luck" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="0ff0-a839-6bb6-c8f0" name="Luck" targetId="c4e8-4d2b-4c2f-a8b9" type="profile"/>
+                            <infoLink hidden="false" id="55f5-ec79-2ae8-c937" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="f6f7-4ce9-1ccc-bcb6" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="f1ba-8850-bfd5-8ddc" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="77e2-8d10-8aeb-5476" import="true" name="Lightning" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="8750-2864-2e97-b9cb" name="Lightning" targetId="e7d2-4c6f-4a9b-b3f5" type="profile"/>
+                            <infoLink hidden="false" id="d503-ff12-29ed-f10e" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="03a3-e9b0-532d-a931" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="73f1-1507-f5da-7995" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="2f71-b706-5444-6d87" import="true" name="Haste" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="7ca2-5365-f732-2b4a" name="Haste" targetId="e8ca-5b6f-dd5a-2bab" type="profile"/>
+                            <infoLink hidden="false" id="6a50-e1e3-0795-8ea3" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="1644-70ee-56e7-3167" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="7600-91f7-6bce-163a" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry hidden="false" id="f23c-5140-3107-2fa9" import="true" name="Wild" sortIndex="3" type="upgrade">
+                  <profiles>
+                    <profile hidden="false" id="63ed-1734-b570-a483" name="Wild Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Wild. Wild Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f42-9541-41b1-91c8"/>
+                    <constraint field="selections" id="6f42-9541-41b1-91c8" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Unbound" hidden="false" id="c781-6eaa-3e1e-c164" sortIndex="4">
+                <selectionEntry hidden="false" id="c781-6eaa-3e1e-c164" import="true" name="Unbound" sortIndex="4" type="upgrade">
                   <profiles>
-                    <profile name="Unbound Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="33f3-7dd0-bbfb-9510">
+                    <profile hidden="false" id="33f3-7dd0-bbfb-9510" name="Unbound Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Unbound. Unbound Magic is Presence-based and Cast Roll-offs are made using the caster’s Presence Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e13-71fe-886d-91a4"/>
+                    <constraint field="selections" id="7e13-71fe-886d-91a4" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Noble" hidden="false" id="c88d-6cd0-b188-8286" sortIndex="5">
+                <selectionEntry hidden="false" id="c88d-6cd0-b188-8286" import="true" name="Noble" sortIndex="5" type="upgrade">
                   <profiles>
-                    <profile name="Noble Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="f72c-036a-c7a5-dffe">
+                    <profile hidden="false" id="f72c-036a-c7a5-dffe" name="Noble Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Noble.  Noble Magic is Presence-based and Cast Roll-offs are made using the caster’s Presence Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c973-5cba-b60f-c277"/>
+                    <constraint field="selections" id="c973-5cba-b60f-c277" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Divine" hidden="false" id="39ef-ffd6-a0b1-005d" sortIndex="6">
+                <selectionEntry hidden="false" id="39ef-ffd6-a0b1-005d" import="true" name="Divine" sortIndex="6" type="upgrade">
                   <profiles>
-                    <profile name="Divine Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="2aa9-1bd0-5b8f-84ef">
+                    <profile hidden="false" id="2aa9-1bd0-5b8f-84ef" name="Divine Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Divine.  Divine magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                       <comment>5 penny each!</comment>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0025-082b-6adf-211d"/>
+                    <constraint field="selections" id="0025-082b-6adf-211d" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Channelling" hidden="false" id="e1b8-7597-6e35-ba34" sortIndex="7">
+                <selectionEntry hidden="false" id="e1b8-7597-6e35-ba34" import="true" name="Channelling" sortIndex="7" type="upgrade">
                   <profiles>
-                    <profile name="Channelling Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="a83c-1e64-d7a6-d830">
+                    <profile hidden="false" id="a83c-1e64-d7a6-d830" name="Channelling Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Channelling. Channelling Magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7151-4fb1-18fa-3107"/>
+                    <constraint field="selections" id="7151-4fb1-18fa-3107" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Feate-weaving" hidden="false" id="735a-386c-b8e0-01ca" sortIndex="8">
+                <selectionEntry hidden="false" id="735a-386c-b8e0-01ca" import="true" name="Feate-weaving" sortIndex="8" type="upgrade">
                   <profiles>
-                    <profile name="Feate-weaving Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="1402-0839-f9c2-4b91">
+                    <profile hidden="false" id="1402-0839-f9c2-4b91" name="Feate-weaving Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Feate-weaving. Fate-weaving Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fab4-797a-342b-b4e7"/>
+                    <constraint field="selections" id="fab4-797a-342b-b4e7" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Illusionism" hidden="false" id="9724-105f-08a0-4e4a" sortIndex="9">
+                <selectionEntry hidden="false" id="9724-105f-08a0-4e4a" import="true" name="Illusionism" sortIndex="9" type="upgrade">
                   <profiles>
-                    <profile name="Illusionism Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="4570-c4a6-8eff-e5d4">
+                    <profile hidden="false" id="4570-c4a6-8eff-e5d4" name="Illusionism Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Illusionism. Illusionist Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d20d-474a-a183-f4ea"/>
+                    <constraint field="selections" id="d20d-474a-a183-f4ea" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Elementalism" hidden="false" id="8b03-6771-903c-2fd7" sortIndex="10">
+                <selectionEntry hidden="false" id="8b03-6771-903c-2fd7" import="true" name="Elementalism" sortIndex="10" type="upgrade">
                   <profiles>
-                    <profile name="Elementalism Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="ae23-e0b5-7656-0004">
+                    <profile hidden="false" id="ae23-e0b5-7656-0004" name="Elementalism Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Elementalism. Elementalist Magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0701-45ce-6379-737c"/>
+                    <constraint field="selections" id="0701-45ce-6379-737c" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Elemental specialization" id="43ab-08e4-3fd8-f45d" hidden="true">
+                    <selectionEntryGroup hidden="true" id="43ab-08e4-3fd8-f45d" name="Elemental specialization">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Specialization: Air" hidden="false" id="36cd-f4de-76de-95fc">
+                        <selectionEntry hidden="false" id="36cd-f4de-76de-95fc" import="true" name="Specialization: Air" type="upgrade">
                           <infoLinks>
-                            <infoLink name="Specialization: Air" id="1472-1f89-780b-1267" hidden="false" type="profile" targetId="0d23-65ac-9882-cfb3"/>
+                            <infoLink hidden="false" id="1472-1f89-780b-1267" name="Specialization: Air" targetId="0d23-65ac-9882-cfb3" type="profile"/>
                           </infoLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3752-f61d-3a62-802f"/>
+                            <constraint field="selections" id="3752-f61d-3a62-802f" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Specialization: Water" hidden="false" id="8aa5-6e82-2a12-b76b">
+                        <selectionEntry hidden="false" id="8aa5-6e82-2a12-b76b" import="true" name="Specialization: Water" type="upgrade">
                           <infoLinks>
-                            <infoLink name="Specialization: Water" id="c473-16d1-87de-0945" hidden="false" type="profile" targetId="87b1-aeb5-9ef4-91e1"/>
+                            <infoLink hidden="false" id="c473-16d1-87de-0945" name="Specialization: Water" targetId="87b1-aeb5-9ef4-91e1" type="profile"/>
                           </infoLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cede-f03d-2346-55f8"/>
+                            <constraint field="selections" id="cede-f03d-2346-55f8" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Specialization: Fire" hidden="false" id="d1e8-a518-1480-839e">
+                        <selectionEntry hidden="false" id="d1e8-a518-1480-839e" import="true" name="Specialization: Fire" type="upgrade">
                           <infoLinks>
-                            <infoLink name="Specialization: Fire" id="e8eb-4734-68a9-72db" hidden="false" type="profile" targetId="cecb-9adc-f837-76e7"/>
+                            <infoLink hidden="false" id="e8eb-4734-68a9-72db" name="Specialization: Fire" targetId="cecb-9adc-f837-76e7" type="profile"/>
                           </infoLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c97-0825-82a9-77d5"/>
+                            <constraint field="selections" id="7c97-0825-82a9-77d5" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Specialization: Earth" hidden="false" id="9b4e-cad2-07e4-b816">
+                        <selectionEntry hidden="false" id="9b4e-cad2-07e4-b816" import="true" name="Specialization: Earth" type="upgrade">
                           <infoLinks>
-                            <infoLink name="Specialization: Earth" id="2b7b-4be3-8449-5db5" hidden="false" type="profile" targetId="04cd-382e-2b47-8572"/>
+                            <infoLink hidden="false" id="2b7b-4be3-8449-5db5" name="Specialization: Earth" targetId="04cd-382e-2b47-8572" type="profile"/>
                           </infoLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ed7-164f-e0de-cef7"/>
+                            <constraint field="selections" id="5ed7-164f-e0de-cef7" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
                       <modifiers>
-                        <modifier type="set" value="false" field="hidden"/>
+                        <modifier field="hidden" type="set" value="false"/>
                       </modifiers>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Necromancy" hidden="false" id="b40a-7e7c-c869-3f99" sortIndex="11">
+                <selectionEntry hidden="false" id="b40a-7e7c-c869-3f99" import="true" name="Necromancy" sortIndex="11" type="upgrade">
                   <profiles>
-                    <profile name="Necromancy Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="4e7b-6c9a-a19a-6c38">
+                    <profile hidden="false" id="4e7b-6c9a-a19a-6c38" name="Necromancy Archetype" typeId="568c-91db-9da7-e04c" typeName="Ability">
                       <characteristics>
                         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Necromancy. Necromantic Magic is Fortitude-based and Cast Roll-Offs are made using the caster’s Fortitude Stat.</characteristic>
-                        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+                        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99e6-5455-b43c-8ede"/>
+                    <constraint field="selections" id="99e6-5455-b43c-8ede" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -2963,7 +3054,7 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink hidden="true" id="57c5-a9e3-3474-1e86" import="true" name="Skills" targetId="ca1c-72a1-d6fa-422c" type="selectionEntryGroup" collapsible="true" sortIndex="3">
+        <entryLink collapsible="true" hidden="true" id="57c5-a9e3-3474-1e86" import="true" name="Skills" sortIndex="3" targetId="ca1c-72a1-d6fa-422c" type="selectionEntryGroup">
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditionGroups>
@@ -3045,316 +3136,316 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
         </selectionEntryGroup>
         <selectionEntryGroup hidden="false" id="15b8-7590-045f-02ab" name="Cunning Skills" sortIndex="3">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="sk-aa5b" sortIndex="4">
+            <selectionEntry hidden="false" id="sk-aa5b" import="true" name="Apothecary" sortIndex="4" type="upgrade">
               <infoLinks>
-                <infoLink name="Apothecary" id="inf-aa5b" hidden="false" type="rule" targetId="aa5b-f9c7-7ae3-31bb"/>
+                <infoLink hidden="false" id="inf-aa5b" name="Apothecary" targetId="aa5b-f9c7-7ae3-31bb" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="sk-54cb" sortIndex="3">
+            <selectionEntry hidden="false" id="sk-54cb" import="true" name="Bloodhound" sortIndex="3" type="upgrade">
               <infoLinks>
-                <infoLink name="Bloodhound" id="inf-54cb" hidden="false" type="rule" targetId="54cb-f660-1c7f-53c1"/>
+                <infoLink hidden="false" id="inf-54cb" name="Bloodhound" targetId="54cb-f660-1c7f-53c1" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="sk-80a9" sortIndex="5">
+            <selectionEntry hidden="false" id="sk-80a9" import="true" name="Hedge Magic" sortIndex="5" type="upgrade">
               <infoLinks>
-                <infoLink name="Hedge Magic" id="inf-80a9" hidden="false" type="rule" targetId="80a9-d54b-a7ac-5b24"/>
+                <infoLink hidden="false" id="inf-80a9" name="Hedge Magic" targetId="80a9-d54b-a7ac-5b24" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="sk-5be5" sortIndex="2">
+            <selectionEntry hidden="false" id="sk-5be5" import="true" name="Fearless" sortIndex="2" type="upgrade">
               <infoLinks>
-                <infoLink name="Fearless" id="inf-5be5" hidden="false" type="rule" targetId="5be5-279f-2c7b-e0c7"/>
+                <infoLink hidden="false" id="inf-5be5" name="Fearless" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="sk-e4ad" sortIndex="6">
+            <selectionEntry hidden="false" id="sk-e4ad" import="true" name="Ambusher" sortIndex="6" type="upgrade">
               <infoLinks>
-                <infoLink name="Ambusher" id="inf-e4ad" hidden="false" type="rule" targetId="e4ad-facf-dde9-da03"/>
+                <infoLink hidden="false" id="inf-e4ad" name="Ambusher" targetId="e4ad-facf-dde9-da03" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="sk-dba1" sortIndex="7">
+            <selectionEntry hidden="false" id="sk-dba1" import="true" name="Adept Ambusher" sortIndex="7" type="upgrade">
               <infoLinks>
-                <infoLink name="Adept Ambusher" id="inf-dba1" hidden="false" type="rule" targetId="dba1-67bc-834c-fee1"/>
+                <infoLink hidden="false" id="inf-dba1" name="Adept Ambusher" targetId="dba1-67bc-834c-fee1" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="sk-cf81" sortIndex="8">
+            <selectionEntry hidden="false" id="sk-cf81" import="true" name="Deadly Ambusher" sortIndex="8" type="upgrade">
               <infoLinks>
-                <infoLink name="Deadly Ambusher" id="inf-cf81" hidden="false" type="rule" targetId="cf81-1186-7173-6887"/>
+                <infoLink hidden="false" id="inf-cf81" name="Deadly Ambusher" targetId="cf81-1186-7173-6887" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="sk-4801" sortIndex="9">
+            <selectionEntry hidden="false" id="sk-4801" import="true" name="Opportunist" sortIndex="9" type="upgrade">
               <infoLinks>
-                <infoLink name="Opportunist" id="inf-4801" hidden="false" type="rule" targetId="4801-ece2-7b94-eb1b"/>
+                <infoLink hidden="false" id="inf-4801" name="Opportunist" targetId="4801-ece2-7b94-eb1b" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="sk-b262" sortIndex="10">
+            <selectionEntry hidden="false" id="sk-b262" import="true" name="The Lady&apos;s Favour" sortIndex="10" type="upgrade">
               <infoLinks>
-                <infoLink name="The Lady&apos;s Favour" id="inf-b262" hidden="false" type="rule" targetId="b262-b75e-75ae-d21e"/>
+                <infoLink hidden="false" id="inf-b262" name="The Lady&apos;s Favour" targetId="b262-b75e-75ae-d21e" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="sk-0655" sortIndex="11">
+            <selectionEntry hidden="false" id="sk-0655" import="true" name="Critter Boss" sortIndex="11" type="upgrade">
               <infoLinks>
-                <infoLink name="Critter Boss" id="inf-0655" hidden="false" type="rule" targetId="0655-df80-54e8-a4b4"/>
+                <infoLink hidden="false" id="inf-0655" name="Critter Boss" targetId="0655-df80-54e8-a4b4" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="sk-ed63" sortIndex="12">
+            <selectionEntry hidden="false" id="sk-ed63" import="true" name="Witch Smeller" sortIndex="12" type="upgrade">
               <infoLinks>
-                <infoLink name="Witch Smeller" id="inf-ed63" hidden="false" type="rule" targetId="ed63-daa0-2ea0-7c4b"/>
+                <infoLink hidden="false" id="inf-ed63" name="Witch Smeller" targetId="ed63-daa0-2ea0-7c4b" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="sk-ffc4" sortIndex="13">
+            <selectionEntry hidden="false" id="sk-ffc4" import="true" name="Lucky" sortIndex="13" type="upgrade">
               <infoLinks>
-                <infoLink name="Lucky" id="inf-ffc4" hidden="false" type="rule" targetId="ffc4-8272-8bbc-f92c"/>
+                <infoLink hidden="false" id="inf-ffc4" name="Lucky" targetId="ffc4-8272-8bbc-f92c" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="sk-4d7a" sortIndex="14">
+            <selectionEntry hidden="false" id="sk-4d7a" import="true" name="Resist Magic" sortIndex="14" type="upgrade">
               <infoLinks>
-                <infoLink name="Resist Magic" id="inf-4d7a" hidden="false" type="rule" targetId="4d7a-0245-ed1b-761b"/>
+                <infoLink hidden="false" id="inf-4d7a" name="Resist Magic" targetId="4d7a-0245-ed1b-761b" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="sk-d8a5" sortIndex="15">
+            <selectionEntry hidden="false" id="sk-d8a5" import="true" name="Spell Breaker" sortIndex="15" type="upgrade">
               <infoLinks>
-                <infoLink name="Spell Breaker" id="inf-d8a5" hidden="false" type="rule" targetId="d8a5-2900-6279-337c"/>
+                <infoLink hidden="false" id="inf-d8a5" name="Spell Breaker" targetId="d8a5-2900-6279-337c" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="sk-f9da" sortIndex="16">
+            <selectionEntry hidden="false" id="sk-f9da" import="true" name="Spell Eater" sortIndex="16" type="upgrade">
               <infoLinks>
-                <infoLink name="Spell Eater" id="inf-f9da" hidden="false" type="rule" targetId="f9da-bf41-b3a8-62d4"/>
+                <infoLink hidden="false" id="inf-f9da" name="Spell Eater" targetId="f9da-bf41-b3a8-62d4" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="sk-7dd9" sortIndex="17">
+            <selectionEntry hidden="false" id="sk-7dd9" import="true" name="Battlemage" sortIndex="17" type="upgrade">
               <infoLinks>
-                <infoLink name="Battlemage" id="inf-7dd9" hidden="false" type="rule" targetId="7dd9-fe26-1652-02c7"/>
+                <infoLink hidden="false" id="inf-7dd9" name="Battlemage" targetId="7dd9-fe26-1652-02c7" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="sk-6a89" sortIndex="18">
+            <selectionEntry hidden="false" id="sk-6a89" import="true" name="Healing Aura" sortIndex="18" type="upgrade">
               <infoLinks>
-                <infoLink name="Healing Aura" id="inf-6a89" hidden="false" type="rule" targetId="6a89-9387-8ce4-4439"/>
+                <infoLink hidden="false" id="inf-6a89" name="Healing Aura" targetId="6a89-9387-8ce4-4439" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="sk-65fb" sortIndex="19">
+            <selectionEntry hidden="false" id="sk-65fb" import="true" name="Far Reacher" sortIndex="19" type="upgrade">
               <infoLinks>
-                <infoLink name="Far Reacher" id="inf-65fb" hidden="false" type="rule" targetId="65fb-e6b9-d598-38e3"/>
+                <infoLink hidden="false" id="inf-65fb" name="Far Reacher" targetId="65fb-e6b9-d598-38e3" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="sk-57c4" sortIndex="20">
+            <selectionEntry hidden="false" id="sk-57c4" import="true" name="Aether Sight" sortIndex="20" type="upgrade">
               <infoLinks>
-                <infoLink name="Aether Sight" id="inf-57c4" hidden="false" type="rule" targetId="57c4-b137-abcc-da67"/>
+                <infoLink hidden="false" id="inf-57c4" name="Aether Sight" targetId="57c4-b137-abcc-da67" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="sk-9903" sortIndex="21">
+            <selectionEntry hidden="false" id="sk-9903" import="true" name="Herbal Brewer" sortIndex="21" type="upgrade">
               <infoLinks>
-                <infoLink name="Herbal Brewer" id="inf-9903" hidden="false" type="rule" targetId="9903-ecf8-caea-dd3b"/>
+                <infoLink hidden="false" id="inf-9903" name="Herbal Brewer" targetId="9903-ecf8-caea-dd3b" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="sk-f7fa" sortIndex="22">
+            <selectionEntry hidden="false" id="sk-f7fa" import="true" name="Brew Master" sortIndex="22" type="upgrade">
               <infoLinks>
-                <infoLink name="Brew Master" id="inf-f7fa" hidden="false" type="rule" targetId="f7fa-bddd-1c27-43b7"/>
+                <infoLink hidden="false" id="inf-f7fa" name="Brew Master" targetId="f7fa-bddd-1c27-43b7" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="sk-b7f1" sortIndex="23">
+            <selectionEntry hidden="false" id="sk-b7f1" import="true" name="Taunt" sortIndex="23" type="upgrade">
               <infoLinks>
-                <infoLink name="Taunt" id="inf-b7f1" hidden="false" type="rule" targetId="b7f1-4c22-4a93-b39a"/>
+                <infoLink hidden="false" id="inf-b7f1" name="Taunt" targetId="b7f1-4c22-4a93-b39a" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="sk-c2e3" sortIndex="24">
+            <selectionEntry hidden="false" id="sk-c2e3" import="true" name="Beguile" sortIndex="24" type="upgrade">
               <infoLinks>
-                <infoLink name="Beguile" id="inf-c2e3" hidden="false" type="rule" targetId="c2e3-4c45-4f81-a9cd"/>
+                <infoLink hidden="false" id="inf-c2e3" name="Beguile" targetId="c2e3-4c45-4f81-a9cd" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="sk-7c08" sortIndex="1">
+            <selectionEntry hidden="false" id="sk-7c08" import="true" name="Gifted" sortIndex="1" type="upgrade">
               <infoLinks>
-                <infoLink name="Gifted" id="inf-7c08" hidden="false" type="rule" targetId="7c08-0206-fa8d-132e"/>
+                <infoLink hidden="false" id="inf-7c08" name="Gifted" targetId="7c08-0206-fa8d-132e" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup hidden="false" id="3abc-58de-f55c-4de0" name="Strenght Skills" sortIndex="4">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Strong (X)" hidden="false" id="sk-7a46" sortIndex="1">
+            <selectionEntry hidden="false" id="sk-7a46" import="true" name="Strong (X)" sortIndex="1" type="upgrade">
               <infoLinks>
-                <infoLink name="Strong (X)" id="inf-7a46" hidden="false" type="rule" targetId="7a46-c50b-369d-5be5"/>
+                <infoLink hidden="false" id="inf-7a46" name="Strong (X)" targetId="7a46-c50b-369d-5be5" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tough (X)" hidden="false" id="sk-5991" sortIndex="2">
+            <selectionEntry hidden="false" id="sk-5991" import="true" name="Tough (X)" sortIndex="2" type="upgrade">
               <infoLinks>
-                <infoLink name="Tough (X)" id="inf-5991" hidden="false" type="rule" targetId="5991-ffd7-6123-979d"/>
+                <infoLink hidden="false" id="inf-5991" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Weak (X)" hidden="false" id="sk-a4d1" sortIndex="3">
+            <selectionEntry hidden="false" id="sk-a4d1" import="true" name="Weak (X)" sortIndex="3" type="upgrade">
               <infoLinks>
-                <infoLink name="Weak (X)" id="inf-a4d1" hidden="false" type="rule" targetId="a4d1-4fb7-4a5b-b7e3"/>
+                <infoLink hidden="false" id="inf-a4d1" name="Weak (X)" targetId="a4d1-4fb7-4a5b-b7e3" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Delicate (X)" hidden="false" id="sk-8d6f" sortIndex="4">
+            <selectionEntry hidden="false" id="sk-8d6f" import="true" name="Delicate (X)" sortIndex="4" type="upgrade">
               <infoLinks>
-                <infoLink name="Delicate (X)" id="inf-8d6f" hidden="false" type="rule" targetId="8d6f-c28f-25a2-9ed5"/>
+                <infoLink hidden="false" id="inf-8d6f" name="Delicate (X)" targetId="8d6f-c28f-25a2-9ed5" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="sk-d1e6" sortIndex="5">
+            <selectionEntry hidden="false" id="sk-d1e6" import="true" name="Born Survivor" sortIndex="5" type="upgrade">
               <infoLinks>
-                <infoLink name="Born Survivor" id="inf-d1e6" hidden="false" type="rule" targetId="d1e6-45f2-4b9f-91d7"/>
+                <infoLink hidden="false" id="inf-d1e6" name="Born Survivor" targetId="d1e6-45f2-4b9f-91d7" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="sk-f3b1" sortIndex="6">
+            <selectionEntry hidden="false" id="sk-f3b1" import="true" name="Beast of Burden" sortIndex="6" type="upgrade">
               <infoLinks>
-                <infoLink name="Beast of Burden" id="inf-f3b1" hidden="false" type="rule" targetId="f3b1-4c72-4c4d-a8c3"/>
+                <infoLink hidden="false" id="inf-f3b1" name="Beast of Burden" targetId="f3b1-4c72-4c4d-a8c3" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="sk-e8a4" sortIndex="7">
+            <selectionEntry hidden="false" id="sk-e8a4" import="true" name="Fearsome" sortIndex="7" type="upgrade">
               <infoLinks>
-                <infoLink name="Fearsome" id="inf-e8a4" hidden="false" type="rule" targetId="e8a4-4a51-4d93-9a8d"/>
+                <infoLink hidden="false" id="inf-e8a4" name="Fearsome" targetId="e8a4-4a51-4d93-9a8d" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="sk-a2d3" sortIndex="8">
+            <selectionEntry hidden="false" id="sk-a2d3" import="true" name="Berserker" sortIndex="8" type="upgrade">
               <infoLinks>
-                <infoLink name="Berserker" id="inf-a2d3" hidden="false" type="rule" targetId="a2d3-4f76-4b9e-bc31"/>
+                <infoLink hidden="false" id="inf-a2d3" name="Berserker" targetId="a2d3-4f76-4b9e-bc31" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="sk-d4c6" sortIndex="9">
+            <selectionEntry hidden="false" id="sk-d4c6" import="true" name="Enduring" sortIndex="9" type="upgrade">
               <infoLinks>
-                <infoLink name="Enduring" id="inf-d4c6" hidden="false" type="rule" targetId="d4c6-4a8b-4f87-92e3"/>
+                <infoLink hidden="false" id="inf-d4c6" name="Enduring" targetId="d4c6-4a8b-4f87-92e3" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="sk-f1a7" sortIndex="10">
+            <selectionEntry hidden="false" id="sk-f1a7" import="true" name="Stunning Blow" sortIndex="10" type="upgrade">
               <infoLinks>
-                <infoLink name="Stunning Blow" id="inf-f1a7" hidden="false" type="rule" targetId="f1a7-4c62-4c18-9f45"/>
+                <infoLink hidden="false" id="inf-f1a7" name="Stunning Blow" targetId="f1a7-4c62-4c18-9f45" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="sk-a6c2" sortIndex="11">
+            <selectionEntry hidden="false" id="sk-a6c2" import="true" name="Knockout Blow" sortIndex="11" type="upgrade">
               <infoLinks>
-                <infoLink name="Knockout Blow" id="inf-a6c2" hidden="false" type="rule" targetId="a6c2-4f8e-4b6c-9d53"/>
+                <infoLink hidden="false" id="inf-a6c2" name="Knockout Blow" targetId="a6c2-4f8e-4b6c-9d53" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="sk-b7d4" sortIndex="12">
+            <selectionEntry hidden="false" id="sk-b7d4" import="true" name="Paladin" sortIndex="12" type="upgrade">
               <infoLinks>
-                <infoLink name="Paladin" id="inf-b7d4" hidden="false" type="rule" targetId="b7d4-4c1f-4cb7-a78a"/>
+                <infoLink hidden="false" id="inf-b7d4" name="Paladin" targetId="b7d4-4c1f-4cb7-a78a" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="sk-c8e1" sortIndex="13">
+            <selectionEntry hidden="false" id="sk-c8e1" import="true" name="Pushback" sortIndex="13" type="upgrade">
               <infoLinks>
-                <infoLink name="Pushback" id="inf-c8e1" hidden="false" type="rule" targetId="c8e1-4a9c-4b3a-9fd8"/>
+                <infoLink hidden="false" id="inf-c8e1" name="Pushback" targetId="c8e1-4a9c-4b3a-9fd8" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="sk-e3b2" sortIndex="14">
+            <selectionEntry hidden="false" id="sk-e3b2" import="true" name="Martial Code" sortIndex="14" type="upgrade">
               <infoLinks>
-                <infoLink name="Martial Code" id="inf-e3b2" hidden="false" type="rule" targetId="e3b2-4d8a-4c91-a5de"/>
+                <infoLink hidden="false" id="inf-e3b2" name="Martial Code" targetId="e3b2-4d8a-4c91-a5de" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup hidden="false" id="1dde-60e1-ff7a-d080" name="Movement Skills" sortIndex="5">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="sk-f5c1" sortIndex="7">
+            <selectionEntry hidden="false" id="sk-f5c1" import="true" name="Dodge" sortIndex="7" type="upgrade">
               <infoLinks>
-                <infoLink name="Dodge" id="inf-f5c1" hidden="false" type="rule" targetId="f5c1-4d93-4a1e-a89c"/>
+                <infoLink hidden="false" id="inf-f5c1" name="Dodge" targetId="f5c1-4d93-4a1e-a89c" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="sk-b8d2" sortIndex="8">
+            <selectionEntry hidden="false" id="sk-b8d2" import="true" name="Light Feet" sortIndex="8" type="upgrade">
               <infoLinks>
-                <infoLink name="Light Feet" id="inf-b8d2" hidden="false" type="rule" targetId="b8d2-4e5a-4f7e-9d41"/>
+                <infoLink hidden="false" id="inf-b8d2" name="Light Feet" targetId="b8d2-4e5a-4f7e-9d41" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="sk-a9f4" sortIndex="9">
+            <selectionEntry hidden="false" id="sk-a9f4" import="true" name="Burst of Speed" sortIndex="9" type="upgrade">
               <infoLinks>
-                <infoLink name="Burst of Speed" id="inf-a9f4" hidden="false" type="rule" targetId="a9f4-4b2b-4f8d-8c3a"/>
+                <infoLink hidden="false" id="inf-a9f4" name="Burst of Speed" targetId="a9f4-4b2b-4f8d-8c3a" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="sk-cba7" sortIndex="10">
+            <selectionEntry hidden="false" id="sk-cba7" import="true" name="Strider" sortIndex="10" type="upgrade">
               <infoLinks>
-                <infoLink name="Strider" id="inf-cba7" hidden="false" type="rule" targetId="c1d3-4f9b-4e0e-a1b2"/>
+                <infoLink hidden="false" id="inf-cba7" name="Strider" targetId="c1d3-4f9b-4e0e-a1b2" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="sk-80b7" sortIndex="1">
+            <selectionEntry hidden="false" id="sk-80b7" import="true" name="Freeze" sortIndex="1" type="upgrade">
               <infoLinks>
-                <infoLink name="Freeze" id="inf-80b7" hidden="false" type="rule" targetId="e4a1-4d2b-4c87-bf92"/>
+                <infoLink hidden="false" id="inf-80b7" name="Freeze" targetId="e4a1-4d2b-4c87-bf92" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Climber" hidden="false" id="sk-ddc0" sortIndex="2">
+            <selectionEntry hidden="false" id="sk-ddc0" import="true" name="Climber" sortIndex="2" type="upgrade">
               <infoLinks>
-                <infoLink name="Climber" id="inf-ddc0" hidden="false" type="rule" targetId="ddc0-d1a5-16dc-1e41"/>
+                <infoLink hidden="false" id="inf-ddc0" name="Climber" targetId="ddc0-d1a5-16dc-1e41" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="sk-c5f8" sortIndex="3">
+            <selectionEntry hidden="false" id="sk-c5f8" import="true" name="Leaper" sortIndex="3" type="upgrade">
               <infoLinks>
-                <infoLink name="Leaper" id="inf-c5f8" hidden="false" type="rule" targetId="c5f8-4a21-4b2d-85f3"/>
+                <infoLink hidden="false" id="inf-c5f8" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="sk-d6e9" sortIndex="4">
+            <selectionEntry hidden="false" id="sk-d6e9" import="true" name="Slippery" sortIndex="4" type="upgrade">
               <infoLinks>
-                <infoLink name="Slippery" id="inf-d6e9" hidden="false" type="rule" targetId="d6e9-4f3b-4f83-a5d1"/>
+                <infoLink hidden="false" id="inf-d6e9" name="Slippery" targetId="d6e9-4f3b-4f83-a5d1" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="sk-8606" sortIndex="1">
+            <selectionEntry hidden="false" id="sk-8606" import="true" name="Swim" sortIndex="1" type="upgrade">
               <infoLinks>
-                <infoLink name="Swim" id="inf-8606" hidden="false" type="rule" targetId="8606-d670-14f9-bff9"/>
+                <infoLink hidden="false" id="inf-8606" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup hidden="false" id="6533-e354-ca89-c55c" name="Innate Skills" sortIndex="6">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="sk-5cae" sortIndex="6">
+            <selectionEntry hidden="false" id="sk-5cae" import="true" name="Natural Hunter" sortIndex="6" type="upgrade">
               <infoLinks>
-                <infoLink name="Natural Hunter" id="inf-5cae" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+                <infoLink hidden="false" id="inf-5cae" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flight" hidden="false" id="sk-de1b" sortIndex="4">
+            <selectionEntry hidden="false" id="sk-de1b" import="true" name="Flight" sortIndex="4" type="upgrade">
               <infoLinks>
-                <infoLink name="Flight" id="inf-de1b" hidden="false" type="rule" targetId="de1b-bb5f-29b0-ba39"/>
+                <infoLink hidden="false" id="inf-de1b" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="sk-f2a4" sortIndex="5">
+            <selectionEntry hidden="false" id="sk-f2a4" import="true" name="Tunneller" sortIndex="5" type="upgrade">
               <infoLinks>
-                <infoLink name="Tunneller" id="inf-f2a4" hidden="false" type="rule" targetId="f2a4-4e3d-4a8e-8f91"/>
+                <infoLink hidden="false" id="inf-f2a4" name="Tunneller" targetId="f2a4-4e3d-4a8e-8f91" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Slow" hidden="false" id="sk-a7d3" sortIndex="9">
+            <selectionEntry hidden="false" id="sk-a7d3" import="true" name="Slow" sortIndex="9" type="upgrade">
               <infoLinks>
-                <infoLink name="Slow" id="inf-a7d3" hidden="false" type="rule" targetId="a7d3-4f6c-4b3f-8e2a"/>
+                <infoLink hidden="false" id="inf-a7d3" name="Slow" targetId="a7d3-4f6c-4b3f-8e2a" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spines" hidden="false" id="sk-3055" sortIndex="10">
+            <selectionEntry hidden="false" id="sk-3055" import="true" name="Spines" sortIndex="10" type="upgrade">
               <infoLinks>
-                <infoLink name="Spines" id="inf-3055" hidden="false" type="rule" targetId="3055-f3a6-6324-b43b"/>
+                <infoLink hidden="false" id="inf-3055" name="Spines" targetId="3055-f3a6-6324-b43b" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Short-Sighted" hidden="false" id="sk-7e19" sortIndex="8">
+            <selectionEntry hidden="false" id="sk-7e19" import="true" name="Short-Sighted" sortIndex="8" type="upgrade">
               <infoLinks>
-                <infoLink name="Short-Sighted" id="inf-7e19" hidden="false" type="rule" targetId="c6f1-4b3a-4d4c-a9d3"/>
+                <infoLink hidden="false" id="inf-7e19" name="Short-Sighted" targetId="c6f1-4b3a-4d4c-a9d3" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fighting Mount" hidden="false" id="sk-02f4" sortIndex="3">
+            <selectionEntry hidden="false" id="sk-02f4" import="true" name="Fighting Mount" sortIndex="3" type="upgrade">
               <infoLinks>
-                <infoLink name="Fighting Mount" id="inf-02f4" hidden="false" type="rule" targetId="02f4-b317-c0af-0391"/>
+                <infoLink hidden="false" id="inf-02f4" name="Fighting Mount" targetId="02f4-b317-c0af-0391" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="sk-eb29" sortIndex="7">
+            <selectionEntry hidden="false" id="sk-eb29" import="true" name="Otherwordly" sortIndex="7" type="upgrade">
               <infoLinks>
-                <infoLink name="Otherwordly" id="inf-eb29" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1"/>
+                <infoLink hidden="false" id="inf-eb29" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="sk-f84e" sortIndex="11">
+            <selectionEntry hidden="false" id="sk-f84e" import="true" name="Unreliable" sortIndex="11" type="upgrade">
               <infoLinks>
-                <infoLink name="Unreliable" id="inf-f84e" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"/>
+                <infoLink hidden="false" id="inf-f84e" name="Unreliable" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Armless" hidden="false" id="sk-ea4e" sortIndex="1">
+            <selectionEntry hidden="false" id="sk-ea4e" import="true" name="Armless" sortIndex="1" type="upgrade">
               <infoLinks>
-                <infoLink name="Armless" id="inf-ea4e" hidden="false" type="rule" targetId="ea4e-f80f-1392-23b9"/>
+                <infoLink hidden="false" id="inf-ea4e" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Darksense" hidden="false" id="sk-3c47" sortIndex="2">
+            <selectionEntry hidden="false" id="sk-3c47" import="true" name="Darksense" sortIndex="2" type="upgrade">
               <infoLinks>
-                <infoLink name="Darksense" id="inf-3c47" hidden="false" type="rule" targetId="3c47-c406-7b16-7d68"/>
+                <infoLink hidden="false" id="inf-3c47" name="Darksense" targetId="3c47-c406-7b16-7d68" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Uncanny" hidden="false" id="sk-5b6f" sortIndex="12">
+            <selectionEntry hidden="false" id="sk-5b6f" import="true" name="Uncanny" sortIndex="12" type="upgrade">
               <infoLinks>
-                <infoLink name="Uncanny" id="inf-5b6f" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+                <infoLink hidden="false" id="inf-5b6f" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="sk-e9b4" sortIndex="13">
+            <selectionEntry hidden="false" id="sk-e9b4" import="true" name="Poisonous" sortIndex="13" type="upgrade">
               <infoLinks>
-                <infoLink name="Poisonous" id="inf-e9b4" hidden="false" type="rule" targetId="e9b4-4f2d-4a8b-92f1"/>
+                <infoLink hidden="false" id="inf-e9b4" name="Poisonous" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -3452,43 +3543,43 @@ Natural magic is based on the intrinsic energy of the living world. It is the m
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile name="Specialization: Earth" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="04cd-382e-2b47-8572">
+    <profile hidden="false" id="04cd-382e-2b47-8572" name="Specialization: Earth" typeId="568c-91db-9da7-e04c" typeName="Ability">
       <characteristics>
         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">Elementalism magical Archetype specialization.</characteristic>
-        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
       </characteristics>
     </profile>
-    <profile name="Specialization: Water" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="87b1-aeb5-9ef4-91e1">
+    <profile hidden="false" id="87b1-aeb5-9ef4-91e1" name="Specialization: Water" typeId="568c-91db-9da7-e04c" typeName="Ability">
       <characteristics>
         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">Elementalism magical Archetype specialization.</characteristic>
-        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
       </characteristics>
     </profile>
-    <profile name="Specialization: Fire" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="cecb-9adc-f837-76e7">
+    <profile hidden="false" id="cecb-9adc-f837-76e7" name="Specialization: Fire" typeId="568c-91db-9da7-e04c" typeName="Ability">
       <characteristics>
         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">Elementalism magical Archetype specialization.</characteristic>
-        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
       </characteristics>
     </profile>
-    <profile name="Specialization: Air" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="0d23-65ac-9882-cfb3">
+    <profile hidden="false" id="0d23-65ac-9882-cfb3" name="Specialization: Air" typeId="568c-91db-9da7-e04c" typeName="Ability">
       <characteristics>
         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">Elementalism magical Archetype specialization.</characteristic>
-        <characteristic typeId="aea5-b224-5a20-8ffb" name="New Characteristic Type"/>
+        <characteristic name="New Characteristic Type" typeId="aea5-b224-5a20-8ffb"/>
       </characteristics>
     </profile>
-    <profile name="Haste" typeId="3d26-fa01-dac8-537b" typeName="Spell" hidden="false" id="e8ca-5b6f-dd5a-2bab">
+    <profile hidden="false" id="e8ca-5b6f-dd5a-2bab" name="Haste" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Infused with energy of an early Spring, the target of this spell moves faster than seems
 possible.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target of the spell can perform an extra Action the next time they act.</characteristic>
-        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Thyme Leaves: The spell is automatically cast without a Roll-off.
-</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Thyme Leaves: The spell is automatically cast without a Roll-off.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Curse" typeId="3d26-fa01-dac8-537b" typeName="Spell" hidden="false" id="bfe9-b2ae-d9a4-6964">
+    <profile hidden="false" id="bfe9-b2ae-d9a4-6964" name="Curse" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Bad luck and ill omens pour forth from the caster, spelling disaster for their foes.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
@@ -3497,14 +3588,136 @@ possible.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bloodwort: The target’s next Roll-off has a -3 Modifier instead of -2.
 - Mandrake:  The modifier lasts for the rest of the Turn.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Weak (X)" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="1287-15af-a0b2-cc20" noindex="true">
+    <profile hidden="false" id="b6f2-4e8c-4a3f-9a71" name="Cure" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">A wave of healing energy flows from the caster.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target heals Wounds equal to the Roll-off Result – ‘uncross’ the boxes on the Roster.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Lugwort: Add +2 to the caster’s roll.
+- Henbane: Any Conditions caused by Poison are also removed.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c4e8-4d2b-4c2f-a8b9" name="Luck" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Fortune smiles, and the recipient of this spell can do no wrong.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target gains a +3 modifier to their next Roll-off.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Galingale: The target gains a +3 modifier to all rolls for the rest of the Turn.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="e7d2-4c6f-4a9b-b3f5" name="Lightning" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Calling forth the potent energies of the charged clouds, the caster launches a bolt of lightning at their enemy.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target is blasted by a lightning bolt and takes Wounds equal to the Result of the Roll-off. These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Copper Strip: The target takes 2 extra Wounds.
+- Elf-bolt: The target takes 3 extra Wounds.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to add +5 to the Cast Action Fortitude roll.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="f6a3-4e82-4a4c-9c3e" name="Push" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Using sheer will, the caster unleashes a blast of energy, forcing an enemy away.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is moved d6 inches directly away from the caster. If the model is pushed into an obstruction, such as a Terrain piece, they stop and suffer d6 Wounds; these are reduced by Armour and Skills in the normal way.
+If the model is pushed into another model, they stop and both models suffer d6 Wounds; these are reduced by Armour and Skills in the normal way. If the model is pushed off a raised area, they will suffer falling damage in the normal way.
+If the casting model is at least 3” higher up than the target model, reduce the distance they are pushed by 2” and add 2 to any Wounds caused.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: The target model is Pushed an extra 2”, and any Wounds caused by the spell are increased by 2.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to push the target an additional d6 inches.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a7c4-4f2b-4a9e-b8c1" name="Bless" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster calls upon the gods to bless a friend in need.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target adds +3 to their next dice roll.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The target adds +3 to their next dice roll, and may re-roll the dice.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b9f2-4d1e-4a6b-8f3a" name="Heal" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Wounds close, bones re-knit, and blood clots when the caster commands.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model heals d12 Wounds.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The spell is automatically cast without a Roll-off.
+- Henbane: Any Conditions caused by Poison are also removed.
+- Heal-alle: The spell affects all friendly models within 2” of the Spell’s target model. Roll Wounds healed separately for each.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to have the Spell effect all friendly models within 6” of the Spell’s target model.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c7e3-4f2a-4a7b-9e61" name="Hearts of Oak" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Calling upon the righteousness of their cause, the whole Band are filled with zeal and will battle fearlessly no matter the odds.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All models in the caster’s Band ignore the Skills ‘Fearsome’ and ‘Uncanny’. Lasts until the caster suffers a Wound.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The spell is automatically cast without a Roll-off, and the Band does not have to check for Routing, even if below 50%.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="d4a5-4b1f-4c98-9b72" name="Purifying Flames" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Overcome with wrath, the caster bursts into vengeful flames.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Self</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The caster becomes wreathed in holy fire. Any models (friendly or enemy) in Base Contact or within 2” of the caster suffer d6 Wounds; these are reduced by Armour and Skills in the normal way. The spell lasts d4 Turns, including the Turn in which the Spell is Cast. Wounds are inflicted at the time the spell is Cast and then when the caster Activates on subsequent Turns.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The spell does not affect friendly models.
+- Saltpetre: All targets also gain the Condition ‘Burning’.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="e5b7-4f93-4a6d-8c3a" name="Purge Witch" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Using their will, faith, and courage, the caster’s soul battles with a heretical enemy.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target must be an enemy Magic-user. This Spell is automatically cast, but the target of the Spell will try to Resist; make a Presence versus Presence Roll-off. If the target model wins the Roll-off or the Roll-off is drawn, the Spell is resisted and fails. If the caster wins, the target model suffers Wounds equal to the Result. Armour does not reduce this, but Tough Skills do.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: Add +2 to the caster’s Roll.</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to add +5 to the Cast Presence roll.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="f9d3-4e8a-4c9b-b6a2" name="Invulnerable" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Faith and purity are a shield against harm.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model gains Tough (3) for d4 Turns, including the Turn in which the Spell is cast.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The target model becomes immune to enemy Spells whilst Invulnerable is in effect.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="1287-15af-a0b2-cc20" name="Weak" noindex="true" typeId="568c-91db-9da7-e04c" typeName="Ability">
       <characteristics>
         <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This model is feeble and lacking strength; they must subtract the Skill level from any Wounds they inflict with Attack or Shoot Actions, with the exception of Light Crossbows, Heavy Crossbows, and Black Powder weapons.</characteristic>
         <characteristic name="Value" typeId="aea5-b224-5a20-8ffb">0</characteristic>
       </characteristics>
       <alias>Weak</alias>
+    </profile>
+    <profile hidden="false" id="1587-89e8-db20-dd5e" name="Delicate" noindex="true" typeId="568c-91db-9da7-e04c" typeName="Ability">
+      <characteristics>
+        <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This model has a weak constitution and is vulnerable to damage; they must add the
+Skill level to any Wounds they suffer.</characteristic>
+        <characteristic name="Value" typeId="aea5-b224-5a20-8ffb">0</characteristic>
+      </characteristics>
+      <alias>Delicate</alias>
     </profile>
   </sharedProfiles>
 </gameSystem>
