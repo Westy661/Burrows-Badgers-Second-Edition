@@ -2751,7 +2751,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                             <constraint field="selections" id="662e-9dae-b766-92f1" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry collective="true" hidden="false" id="07aa-f170-f364-f795" import="true" name="Paralyze" sortIndex="3" type="upgrade">
+                        <selectionEntry collective="true" hidden="false" id="07aa-f170-f364-f795" import="true" name="Paralyse" sortIndex="3" type="upgrade">
                           <infoLinks>
                             <infoLink hidden="false" id="e85d-ef89-a453-5943" name="Paralyse" targetId="a7f4-4d8c-4b3d-9b61" type="profile"/>
                             <infoLink hidden="false" id="741e-9e47-59ff-cb1b" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
@@ -3302,7 +3302,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                         </selectionEntry>
                         <selectionEntry collective="true" hidden="false" id="5904-435b-cb56-1ec4" import="true" name="Regrowth" sortIndex="2" type="upgrade">
                           <infoLinks>
-                            <infoLink hidden="false" id="d58e-1b5f-ebb1-f191" name="Transpose" targetId="b5f2-4c8a-4d9e-92c6" type="profile"/>
+                            <infoLink hidden="false" id="d58e-1b5f-ebb1-f191" name="Regrowth" targetId="b7e8-4d3c-4a2f-b9d3" type="profile"/>
                             <infoLink hidden="false" id="57f7-ec43-a94a-208f" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
                             <infoLink hidden="false" id="8d40-6971-ecf9-20bf" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
                           </infoLinks>
@@ -3330,7 +3330,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                             <constraint field="selections" id="78eb-b742-4262-c2e4" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry collective="true" hidden="false" id="d9e8-dfe3-0e5f-a9a4" import="true" name="Radiance" sortIndex="5" type="upgrade">
+                        <selectionEntry collective="true" hidden="false" id="d9e8-dfe3-0e5f-a9a4" import="true" name="Surge" sortIndex="5" type="upgrade">
                           <infoLinks>
                             <infoLink hidden="false" id="d7eb-6f60-c79b-bba1" name="Surge" targetId="e4b7-4c2a-4f9c-b8d1" type="profile"/>
                             <infoLink hidden="false" id="7561-7862-f285-9a40" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
@@ -3340,7 +3340,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                             <constraint field="selections" id="0e4f-45d3-bda1-d30c" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry collective="true" hidden="false" id="541f-1737-84f1-3b0f" import="true" name="Revelation" sortIndex="6" type="upgrade">
+                        <selectionEntry collective="true" hidden="false" id="541f-1737-84f1-3b0f" import="true" name="The Mists" sortIndex="6" type="upgrade">
                           <infoLinks>
                             <infoLink hidden="false" id="28bb-5416-e6d7-b077" name="The Mists" targetId="f5c2-4a6d-4b9f-a8c4" type="profile"/>
                             <infoLink hidden="false" id="121e-752b-d33e-d8de" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
@@ -3445,6 +3445,72 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                   <constraints>
                     <constraint field="selections" id="d20d-474a-a183-f4ea" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup collective="true" hidden="false" id="8c4e-06aa-c459-1185" name="Illusionism Spells">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="5e3c-7477-f14a-e73d" import="true" name="Lure of Gold" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="8823-aae5-b1a9-2ab2" name="Lure of Gold" targetId="a5e2-4b7d-4d3a-b8f4" type="profile"/>
+                            <infoLink hidden="false" id="d3ec-fa40-135d-0e25" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="f43f-828e-1ffb-0c62" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="4283-e204-c6ee-20dd" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="df73-7d12-51da-aaa9" import="true" name="Swarms" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="ffc5-e0e6-ac9a-298c" name="Swarms" targetId="b7e5-4a9f-4e3d-b7d1" type="profile"/>
+                            <infoLink hidden="false" id="801b-afee-300d-e1ce" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="8a12-2f84-7b8b-0205" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="9c77-3378-06cd-a87c" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="b3b7-f859-c33f-a18a" import="true" name="Terrify" sortIndex="3" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="884f-995b-a4d6-0e11" name="Terrify" targetId="c9e4-4b8f-4f6b-b9a2" type="profile"/>
+                            <infoLink hidden="false" id="a423-27a7-b722-0858" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="8a21-c071-aa2c-efa6" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="121f-625c-3a54-ca61" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="3f87-fb1e-9f56-b9db" import="true" name="Mortal Wound" sortIndex="4" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="d254-085f-9beb-6b4b" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink hidden="false" id="5fc9-5be4-6c59-c82e" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="73d5-99ec-1656-b018" name="Mortal Wound" targetId="d7e4-4b9f-4c3a-b8f2" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="18a0-0118-bdeb-fc39" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="47d2-aec5-a9e6-8870" import="true" name="Duplicate" sortIndex="5" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="640f-77d8-8cb8-27fa" name="Duplicate" targetId="b8f5-4a3d-4e1a-b9d6" type="profile"/>
+                            <infoLink hidden="false" id="bcfe-35b1-c898-c320" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="9644-96a9-9e04-f001" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="c914-4c34-bb5e-f930" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="9c41-1bb9-f7cb-479b" import="true" name="Friend or Foe" sortIndex="6" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="277c-8c66-ae3b-1807" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink hidden="false" id="0949-cdc1-4cb8-231b" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="9a2a-ec5e-93db-2e2f" name="Friend or Foe" targetId="c9e6-4f7b-4b8f-b8a3" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="2d83-0110-acdc-9d4f" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
                 <selectionEntry hidden="false" id="8b03-6771-903c-2fd7" import="true" name="Elementalism" sortIndex="10" type="upgrade">
                   <profiles>
@@ -3459,9 +3525,9 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                     <constraint field="selections" id="0701-45ce-6379-737c" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup hidden="true" id="43ab-08e4-3fd8-f45d" name="Elemental specialization">
+                    <selectionEntryGroup hidden="true" id="43ab-08e4-3fd8-f45d" name="Elemental specialization" sortIndex="1">
                       <selectionEntries>
-                        <selectionEntry hidden="false" id="36cd-f4de-76de-95fc" import="true" name="Specialization: Air" type="upgrade">
+                        <selectionEntry hidden="false" id="36cd-f4de-76de-95fc" import="true" name="Specialization: Air" sortIndex="4" type="upgrade">
                           <infoLinks>
                             <infoLink hidden="false" id="1472-1f89-780b-1267" name="Specialization: Air" targetId="0d23-65ac-9882-cfb3" type="profile"/>
                           </infoLinks>
@@ -3469,7 +3535,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                             <constraint field="selections" id="3752-f61d-3a62-802f" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry hidden="false" id="8aa5-6e82-2a12-b76b" import="true" name="Specialization: Water" type="upgrade">
+                        <selectionEntry hidden="false" id="8aa5-6e82-2a12-b76b" import="true" name="Specialization: Water" sortIndex="2" type="upgrade">
                           <infoLinks>
                             <infoLink hidden="false" id="c473-16d1-87de-0945" name="Specialization: Water" targetId="87b1-aeb5-9ef4-91e1" type="profile"/>
                           </infoLinks>
@@ -3477,7 +3543,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                             <constraint field="selections" id="cede-f03d-2346-55f8" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry hidden="false" id="d1e8-a518-1480-839e" import="true" name="Specialization: Fire" type="upgrade">
+                        <selectionEntry hidden="false" id="d1e8-a518-1480-839e" import="true" name="Specialization: Fire" sortIndex="1" type="upgrade">
                           <infoLinks>
                             <infoLink hidden="false" id="e8eb-4734-68a9-72db" name="Specialization: Fire" targetId="cecb-9adc-f837-76e7" type="profile"/>
                           </infoLinks>
@@ -3485,7 +3551,7 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                             <constraint field="selections" id="7c97-0825-82a9-77d5" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry hidden="false" id="9b4e-cad2-07e4-b816" import="true" name="Specialization: Earth" type="upgrade">
+                        <selectionEntry hidden="false" id="9b4e-cad2-07e4-b816" import="true" name="Specialization: Earth" sortIndex="3" type="upgrade">
                           <infoLinks>
                             <infoLink hidden="false" id="2b7b-4be3-8449-5db5" name="Specialization: Earth" targetId="04cd-382e-2b47-8572" type="profile"/>
                           </infoLinks>
@@ -3497,6 +3563,102 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                       <modifiers>
                         <modifier field="hidden" type="set" value="false"/>
                       </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup collective="true" hidden="false" id="ebad-a9c4-5378-6260" name="Fire Spells" sortIndex="2">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="8e84-3b35-4ea6-d82b" import="true" name="Firebolt" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="830f-8ded-5b45-f8b6" name="Firebolt" targetId="a6f3-4b9e-4c3a-b7d2" type="profile"/>
+                            <infoLink hidden="false" id="3a13-4ccc-a7c6-eca9" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="5c49-954a-75b0-d0bf" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="3c09-5819-25c1-97a2" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="1ccd-3f27-d032-3f34" import="true" name="The Burning" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="17eb-b1eb-a63d-3a08" name="The Burning" targetId="b7e4-4a8f-4e1c-b8a5" type="profile"/>
+                            <infoLink hidden="false" id="6519-7f45-7e2e-533c" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="e82d-f41a-e1af-d70d" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="6ebb-1a77-19a4-3694" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup collective="true" hidden="false" id="a78b-f055-06d7-4d2e" name="Water Spells" sortIndex="3">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="b2d5-7585-856d-f134" import="true" name="Downpour" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="5d01-342d-fb02-8a3a" name="Downpour" targetId="c6e3-4f8b-4d2a-b9f5" type="profile"/>
+                            <infoLink hidden="false" id="435d-e42f-c8a8-f3b6" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="aff6-868c-a5ca-3157" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="301d-451b-d30d-325e" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="0f24-b516-77cb-d903" import="true" name="Desiccate" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="8a90-e510-f35f-e21b" name="Desiccate" targetId="d7f5-4b8e-4a2c-b8d3" type="profile"/>
+                            <infoLink hidden="false" id="3725-f153-e706-e1f7" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="b459-663d-a500-6728" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="3eaf-097e-5a89-7ac7" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup collective="true" hidden="false" id="a36b-7fc6-aebf-6519" name="Earth Spells" sortIndex="4">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="1482-42c8-2dba-6134" import="true" name="Wall of Stone" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="69f7-1ef7-d368-6643" name="Wall of Stone" targetId="e1f3-4c8b-4b2d-b7f6" type="profile"/>
+                            <infoLink hidden="false" id="f97c-c09a-d484-477a" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="51c4-2c11-805f-c035" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="7e30-57c5-bbe3-b756" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="8ea7-9b40-d84e-d8e6" import="true" name="Earth’s Maw" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="ae3d-96a9-84f1-2f0a" name="Earth’s Maw" targetId="f2e4-4d9c-4a3f-b8d7" type="profile"/>
+                            <infoLink hidden="false" id="e844-a8cc-8fdf-f836" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="94ea-20e1-a2f4-462d" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="52b7-b26a-0222-83c8" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup collective="true" hidden="false" id="756f-2cde-9872-5a1c" name="Air Spells" sortIndex="5">
+                      <selectionEntries>
+                        <selectionEntry collective="true" hidden="false" id="6cf8-49a1-8e77-6183" import="true" name="Storm Call" sortIndex="1" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="8888-40f2-6cc5-c162" name="Storm Call" targetId="g3f5-4e1a-4b4c-b9f8" type="profile"/>
+                            <infoLink hidden="false" id="8137-ba27-39c6-4e4e" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="ca72-7d68-be78-8250" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="9dd7-8a78-2dcc-5f9f" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry collective="true" hidden="false" id="2492-6dfa-8229-3a40" import="true" name="Twister" sortIndex="2" type="upgrade">
+                          <infoLinks>
+                            <infoLink hidden="false" id="9890-b557-f4fe-0916" name="Twister" targetId="h4f6-4f2b-4c5d-baf9" type="profile"/>
+                            <infoLink hidden="false" id="25f4-7351-675d-0363" name="Weak" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink hidden="false" id="5c2a-7bce-9789-37b2" name="Delicate" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint field="selections" id="3eef-9672-6421-c5df" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
@@ -3512,6 +3674,92 @@ Any time this model inflicts one or more Wounds on an enemy model with an Attack
                   <constraints>
                     <constraint field="selections" id="99e6-5455-b43c-8ede" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Necromancy Spells" id="eba8-aee3-bf68-8e9e" hidden="false" collective="true">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Danse Macabre" hidden="false" id="2a07-23a9-7fad-4a43" collective="true" sortIndex="1">
+                          <infoLinks>
+                            <infoLink name="Danse Macabre" id="dcef-7bdc-62c9-4afb" hidden="false" targetId="n1a3-4c8f-4e2d-b7e6" type="profile"/>
+                            <infoLink name="Weak" id="a187-072e-db61-9483" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="3869-0f3e-c7aa-685f" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcd7-1437-5b58-a803"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Leeching Grasp" hidden="false" id="ba8a-c713-fec5-b783" collective="true" sortIndex="2">
+                          <infoLinks>
+                            <infoLink name="Leeching Grasp" id="e84a-ba41-f323-9c1d" hidden="false" targetId="n2b4-4d9e-4f3e-b8f7" type="profile"/>
+                            <infoLink name="Weak" id="c796-2a0c-5279-8956" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="6691-71c3-e4f4-af4e" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="def0-e3fc-89c7-8fc1"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Uncontrollable Fear" hidden="false" id="3b52-aaa1-3ca1-9ffb" collective="true" sortIndex="3">
+                          <infoLinks>
+                            <infoLink name="Uncontrollable Fear" id="050b-0337-5e20-9b4b" hidden="false" targetId="n3c5-4eaf-4a4f-b9e8" type="profile"/>
+                            <infoLink name="Weak" id="8f71-55f7-db73-66ba" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="08b6-a7f9-0674-d293" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daa3-4711-d013-7ab6"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Doom Bolt" hidden="false" id="e757-7dcf-2896-068a" collective="true" sortIndex="4">
+                          <infoLinks>
+                            <infoLink name="Delicate" id="71fd-57d4-28e0-1ecc" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink name="Weak" id="5a86-72f5-302d-4a68" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Doom Bolt" id="81ce-ee69-820f-e2d2" hidden="false" targetId="n4d6-4f1b-4c3d-b7f9" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b10-9e6d-4226-7fce"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Invigorate" hidden="false" id="21a2-7033-7db8-e74a" collective="true" sortIndex="5">
+                          <infoLinks>
+                            <infoLink name="Invigorate" id="afaa-2e97-a2c5-363e" hidden="false" targetId="n5e7-4a2c-4d4e-b8f1" type="profile"/>
+                            <infoLink name="Weak" id="f1c4-a311-545e-6394" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Delicate" id="6ed1-7ca8-9e39-f9e1" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5736-e0f6-ef52-26b3"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Curse of the Centuries" hidden="false" id="49a6-eae5-0071-3082" collective="true" sortIndex="6">
+                          <infoLinks>
+                            <infoLink name="Delicate" id="946a-33dd-05ba-e9a0" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink name="Weak" id="93b2-bb1e-6f0b-6029" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Curse of the Centuries" id="51c4-7a4d-ce00-6a57" hidden="false" targetId="n6f8-4b3d-4e5f-b9f2" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd43-2714-55b1-0a48"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Drain Thrall" hidden="false" id="7856-dcf6-6706-cb74" collective="true" sortIndex="7">
+                          <infoLinks>
+                            <infoLink name="Delicate" id="615b-c882-6ee0-179a" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink name="Weak" id="c234-3688-0413-a6ee" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Drain Thrall" id="3f63-2005-9c83-c465" hidden="false" targetId="n7g9-4c4e-4f6a-b7f3" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3239-3cee-9e1a-f9d4"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Raise" hidden="false" id="b01d-2e3c-2c4b-abd2" collective="true" sortIndex="8">
+                          <infoLinks>
+                            <infoLink name="Delicate" id="daf7-23b1-5206-6cff" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
+                            <infoLink name="Weak" id="97a2-1d25-b4be-6793" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
+                            <infoLink name="Raise" id="5052-d7c6-6728-05db" hidden="false" targetId="n8h0-4d5f-4g7b-b8f4" type="profile"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e65b-5b10-346c-7a4a"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
@@ -4612,6 +4860,235 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Mandrake: The caster may use their Presence roll to modify a roll by any friendly model; the caster must have Line of Sight to the target model.
 - Galingale: The caster may use their Presence roll as a negative modifier to a roll by any enemy model; the caster must have Line of Sight to the target model.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Fate-weaving</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a5e2-4b7d-4d3a-b8f4" name="Lure of Gold" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Visions of golden hoards fill the caster’s foes’ heads and they are drawn towards the treasure!</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model moves d6+2” in a direction of your choice.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: The target model moves 2d6+2” instead of d6+2”.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b7e5-4a9f-4e3d-b7d1" name="Swarms" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s enemies see themselves buried in a tide of creeping beasts and desperately try to fend them off.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model loses their next Action.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to make the target model lose their next two Actions instead of one.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c9e4-4b8f-4f6b-b9a2" name="Terrify" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster appears to be a horrifying mythical beast, and their foes flee in terror.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Every enemy model within 6” of the caster is a target of this Spell. This Spell is automatically cast, but the targets of the Spell will try to Resist; make a Roll-off of the caster’s Presence versus the target’s Fortitude. For each target model, if the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the enemy model must move 2d6” directly away from the caster. This does not count as their Activation but may trigger free Attacks if they move out of Base Contact with opponents. If they reach the edge of the table, they stop. If any of the target models are unable to move, they gain the Condition ‘Paralysed’ until the end of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="d7e4-4b9f-4c3a-b8f2" name="Mortal Wound" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s foe sees themselves suffering grisly wounds and is overcome by pain and horror.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Roll-off of the caster’s Presence versus the target’s Fortitude. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds and the target model must roll a d12 on the Major Injuries Table. They suffer that result immediately; the effects last until the end of the game (don’t reduce Levels, receive Pensions funds etc.). Results of ‘Dead’ aren’t really death; the target model just goes Out of Action instead – it’s all an illusion!</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b8f5-4a3d-4e1a-b9d6" name="Duplicate" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster produces a doppelgänger of themselves; their enemies do not know who to attack.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Any Charge, Barge, Attack, Shoot, or Cast Actions directed at the caster this Turn must roll a d6; on a 1 to 3 they attack the caster’s mirror image by mistake and fail immediately. The Action is wasted and the model remains where it was when the Action was declared.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The Spell may be Cast onto any friendly model; the caster must have Line of Sight to the target model.
+- Amber Bead: The Spell affects all models in your Band within 12” of the caster’s base (including the caster).</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c9e6-4f7b-4b8f-b8a3" name="Friend or Foe" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster confuses their enemies, making them wonder who is on their side.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">6</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Every enemy model that declares a Charge, Barge, Attack, or Shoot Action against any model in your Band this Turn must first make a Roll-off of their Fortitude versus the caster’s Presence. If they fail, they may not perform the declared Action. The Action is wasted; the model remains where it was when the Action was declared.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="a6f3-4b9e-4c3a-b7d2" name="Firebolt" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">A dart of superheated flame is launched at the caster’s enemy.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target takes Wounds equal to the Cast Roll-off Result. These are reduced by Armour and Skills in the normal way.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model takes an additional d4 Wounds.
+- Brimstone: The target model also gains the Condition ‘Burning’.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="b7e4-4a8f-4e1c-b8a5" name="The Burning" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s magic heats up the metallic elements within their enemy’s equipment, burning them.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model suffers d6 Wounds, not reduced by Armour or Tough Skills. Add the value of any Tough from Armour to the Wounds inflicted.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The Spell is automatically Cast without a Roll-off.
+- Brimstone: The spell causes an additional +2 Wounds.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="c6e3-4f8b-4d2a-b9f5" name="Downpour" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster summons a violent rainstorm, with water cascading from the sky… over a very small area!</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is utterly soaked and any Bow, War Bow, Light Crossbow, Heavy Crossbow, or Black Powder weapons they have are useless for the rest of the game.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="d7f5-4b8e-4a2c-b8d3" name="Desiccate" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster draws the moisture from their enemy, leaving them a dry and lifeless husk.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell inflicts d6 Wounds, unmodified by Armour or Tough Skills, on a single enemy model. This enemy model suffers a further d6 Wounds at the start of every Turn. This Spell ends if the Line of Sight between the two models is broken by Terrain.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="e1f3-4c8b-4b2d-b7f6" name="Wall of Stone" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The earth bursts forth, forming a barrier between the caster and their enemies.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Any Block or Nimbleness dice that the caster, or any friendly model within 4” of the caster’s base, rolls to Defend this Turn have a +2 modifier.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Ground Obsidian: The spell may be cast on any friendly model, and will affect them and any friendly model within 4” of them; the caster must have Line of Sight to the target model.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="f2e4-4d9c-4a3f-b8d7" name="Earth’s Maw" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The ground opens and swallows the caster’s foes, crushing them.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model takes d8 Wounds. These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Amber Bead: The spell affects the target and any enemy within 4” of them.
+- Haematite: The target(s) suffer an additional +3 Wounds.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="g3f5-4e1a-4b4c-b9f8" name="Storm Call" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">A raging electrical storm is summoned, and lightning blasts forth!</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Every model on the table, both friend and foe, rolls a dice (a d8 for friends, a d6 for enemies) and subtracts any Tough gained from Armour or Skills. If the result is 1 or less, they have been struck by lightning! Any models struck by lightning take d8 Wounds; these are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="h4f6-4f2b-4c5d-baf9" name="Twister" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The winds howl, and twisting currents of air swirl around the battlefield.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All Shoot Actions have a -2 modifier and any movement using the Flight Skill is treated as in Difficult Terrain (i.e. roll a d12, rather than just moving 12”). Lasts until the caster takes a Wound or the effect is otherwise ended.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n1a3-4c8f-4e2d-b7e6" name="Danse Macabre" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s own power flows through the skeletal frames of the undead, giving a surge of vitality.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All friendly Mist Ghast models on the table may make an immediate 6” move or one may make an immediate Action, even if they have already been Activated this Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bone Meal: The Spell adds an extra Strong (1) for the rest of the Turn to all models in your Band with the Uncanny Skill.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n2b4-4d9e-4f3e-b8f7" name="Leeching Grasp" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The touch of the caster’s claws sucks the very life essence from their foes.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Base Contact</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds. The target model suffers Wounds equal to the Result, ignoring any Armour or Skills. The caster may restore one Wound to themselves for every two Wounds caused.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Mandrake: Add +2 to the caster’s roll.
+- Blood Wort: The caster may restore one Wound to themselves for every Wound caused.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n3c5-4eaf-4a4f-b9e8" name="Uncontrollable Fear" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Horrified by visions of impending doom, the foe flee in terror...</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds and the target model must move 6” directly away from the caster. This does not count as their Activation but may trigger free Attacks if they move out of Base Contact with opponents. If they reach the edge of the table, they stop. If the target is unable to move, they gain the Condition ‘Paralysed’ until the end of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: Add +2 to the caster’s roll.
+- Badger’s Claws: The target model counts all models in your Band as having the ‘Fearsome’ Skill until the end of the Turn.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n4d6-4f1b-4c3d-b7f9" name="Doom Bolt" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster unleashes a blast of pestilence and decay.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds. The target model suffers Wounds equal to the Roll-off Result, modified by Armour or Skills in the usual way.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Fate Point" typeId="1e02-4b3d-9d28-7e2f">The caster may spend a Fate point to add +5 to their roll.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n5e7-4a2c-4d4e-b8f1" name="Invigorate" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">A wave of power flows through the spirits the caster commands.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All friendly Mist Ghast models within 6” of the caster gain +2 to all Roll-offs they make for the rest of the Turn.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Belladonna: The Spell affects all friendly Mist Ghast models on the table.
+- Brimstone: The Spell also makes all friendly Stable Ghast models gain +2 to all Roll-offs they make for the rest of the Turn.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n6f8-4b3d-4e5f-b9f2" name="Curse of the Centuries" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">Aeons of entropy flow across the caster’s foes, desiccating them in moments.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target enemy model suffers 6 Wounds this Turn, unaffected by Armour or Skills, but they may roll their Fortitude Stat and reduce the Wounds suffered by the amount rolled, down to a minimum of 1 Wound. At the start of the next Turn they suffer another 6 Wounds, then on the following Turn another 6 Wounds, and so on. The Spell ends if the caster suffers a Wound, is taken Out of Action, or if the target model uses (or has used upon them) a Healing Potion.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n7g9-4c4e-4f6a-b7f3" name="Drain Thrall" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster draws life-force from their minions.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model must be a model in your Band. The target model suffers Wounds equal to the Cast Roll-off Result, ignoring any Armour or Skills. Then the caster may restore one Wound to themselves for every Wound caused or use the total as a bonus to their next Cast Roll-off.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
+      </characteristics>
+    </profile>
+    <profile hidden="false" id="n8h0-4d5f-4g7b-b8f4" name="Raise" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+      <characteristics>
+        <characteristic name="Description" typeId="3a00-157a-a112-b946">The barriers between the realms are torn, and a lost soul is reborn.</characteristic>
+        <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">If the Roll-off is successful, one Mist Ghast who has been taken Out of Action, Left the table, or suffered a Fade Away result on the Otherworldly Table is immediately returned to the tabletop with no Wounds marked off their profile. They must be placed in Base Contact with the caster.</characteristic>
+        <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Badger’s Claws: The Raised Mist Ghast may be placed anywhere within 6” of the caster.</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
       </characteristics>
     </profile>
     <profile hidden="false" id="1287-15af-a0b2-cc20" name="Weak" noindex="true" typeId="568c-91db-9da7-e04c" typeName="Ability">
