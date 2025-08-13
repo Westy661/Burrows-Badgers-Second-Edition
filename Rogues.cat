@@ -11,6 +11,9 @@
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="b96b-c8a0-9b75-044c" targetId="9ed2-8233-7200-924b"/>
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="0585-69cf-424f-e4e4" targetId="6803-87ba-83c4-bd4b"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="8938-2573-a17b-dfea"/>
+      </constraints>
     </forceEntry>
   </forceEntries>
 </catalogue>
