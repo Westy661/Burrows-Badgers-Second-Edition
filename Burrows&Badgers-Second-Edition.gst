@@ -41,11 +41,6 @@
         <characteristicType name="Keywords" id="56b5-769b-3492-f985"/>
       </characteristicTypes>
     </profileType>
-    <profileType hidden="false" id="8b69-2734-d6df-e0c5" name="Item">
-      <characteristicTypes>
-        <characteristicType id="3f6a-10b9-cd6a-cbdc" name="Effect"/>
-      </characteristicTypes>
-    </profileType>
     <profileType hidden="false" id="568c-91db-9da7-e04c" name="Ability">
       <characteristicTypes>
         <characteristicType id="597a-e8da-21a9-99c5" name="Effect"/>
@@ -69,6 +64,16 @@
         <characteristicType name="Rarity" id="9245-3c7e-8aca-9430"/>
         <characteristicType name="Availability" id="9da2-2408-b0ec-6d20"/>
         <characteristicType name="Keywords" id="9a70-6cd9-72af-cdd4"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Tag" id="8a52-cfd9-29c6-5c48" hidden="false"/>
+    <profileType name="Item" id="dbe8-f061-170a-effa" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Rarity" id="9486-096d-494d-29cd"/>
+        <characteristicType name="Availability" id="ea00-6e44-66df-77ec"/>
+        <characteristicType name="Rules" id="965b-1eff-1569-fb74"/>
+        <characteristicType name="Keywords" id="d060-38f7-c160-776c"/>
+        <characteristicType name="Type" id="f67c-4a22-9c29-7d45"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -200,10 +205,6 @@
     <rule hidden="false" id="ddc0-d1a5-16dc-1e41" name="Climber">
       <description>Some beasts are naturals on vertical surfaces. When making vertical Move Actions, this model may always move the full distance of their Nimbleness Stat in inches.</description>
       <alias>Movement</alias>
-    </rule>
-    <rule hidden="false" id="5991-ffd7-6123-979d" name="Tough (X)">
-      <description>This model has a resistance to pain and injury that is well above the average; they may reduce any Wounds they suffer by the Skill number.</description>
-      <alias>Strength</alias>
     </rule>
     <rule hidden="false" id="a88c-4033-5756-4c15" name="Expert Shot">
       <alias>Shooting</alias>
@@ -1155,12 +1156,12 @@ D6 ROLL RESULT
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="db35-d187-1a98-05eb" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
+        <infoLink hidden="false" id="1b6d-d61f-3499-91a0" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
+        <infoLink name="Tough" id="bbf0-e89c-0f50-34ea" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
           <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="2"/>
+            <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="1b6d-d61f-3499-91a0" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="6305-3202-dc31-a7fb" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1513,9 +1514,9 @@ D6 ROLL RESULT
         <constraint field="selections" id="bca6-3661-0e8a-a26c" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink hidden="false" id="bdeb-6b90-9020-a66c" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
+        <infoLink name="Tough" id="9337-0d3c-f6a5-89fa" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
           <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
+            <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1633,13 +1634,13 @@ D6 ROLL RESULT
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="8021-c5c9-201c-8d7e" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
-          <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
-          </modifiers>
-        </infoLink>
         <infoLink hidden="false" id="b8e2-7fd6-e86a-b686" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
         <infoLink name="Fearsome" id="544b-9659-b45f-090b" hidden="false" type="rule" targetId="e8a4-4a51-4d93-9a8d"/>
+        <infoLink name="Tough" id="9678-a56e-bbd9-c5d9" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
+          <modifiers>
+            <modifier type="set" value="1" field="annotation"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="d906-9c91-fffe-3480" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1871,9 +1872,9 @@ D6 ROLL RESULT
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="854c-9811-35b4-4d45" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
+        <infoLink name="Tough" id="4c63-0a1c-e5c2-a011" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
           <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="(1)"/>
+            <modifier type="set" value="1" field="annotation"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1960,12 +1961,12 @@ D6 ROLL RESULT
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="33cd-88d4-cb8e-423f" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
+        <infoLink hidden="false" id="e32d-f8b9-dfb2-0eb9" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
+        <infoLink name="Tough" id="c807-aed6-3a0a-14bc" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
           <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="(3)"/>
+            <modifier type="set" value="3" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="e32d-f8b9-dfb2-0eb9" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="474d-e70a-85b2-3b7e" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -2077,15 +2078,15 @@ D6 ROLL RESULT
         <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink hidden="false" id="f0a0-0372-a3c3-8ba7" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
-          <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Fearsome" id="ea9c-66e9-d389-1ce1" hidden="false" type="rule" targetId="e8a4-4a51-4d93-9a8d"/>
         <infoLink name="Strong" id="1423-7ed4-4280-5c5d" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="3" field="annotation"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough" id="96a6-b9af-001a-19f9" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
+          <modifiers>
+            <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -2126,12 +2127,12 @@ D6 ROLL RESULT
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="70cb-c698-ee04-dbed" name="Tough (X)" targetId="5991-ffd7-6123-979d" type="rule">
+        <infoLink hidden="false" id="ab77-38dd-76ae-5b4b" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
+        <infoLink name="Tough" id="c2c1-2fa0-9291-9876" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
           <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="(3)"/>
+            <modifier type="set" value="3" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="ab77-38dd-76ae-5b4b" name="Swim" targetId="8606-d670-14f9-bff9" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="0c99-6c0f-eba1-cbe6" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -2335,7 +2336,7 @@ D6 ROLL RESULT
     <entryLink hidden="false" id="e09a-3d68-01f2-dcf2" import="true" name="Raptor (Massive)" targetId="d2f1-4b5e-4f2b-b1a8" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Character" id="4240-559e-5c1d-4780" hidden="false">
+    <selectionEntryGroup name="Character" id="4240-559e-5c1d-4780" hidden="false" collective="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Rank" id="7738-bc57-fac9-0c89" hidden="false" sortIndex="1">
           <selectionEntries>
@@ -3908,7 +3909,11 @@ D6 ROLL RESULT
                 <selectionEntry type="upgrade" import="true" name="Strong (X)" hidden="false" id="2876-e50f-fc21-2a1e" sortIndex="1"/>
                 <selectionEntry type="upgrade" import="true" name="Tough (X)" hidden="false" id="7cb0-670d-f3f3-93f7" sortIndex="2">
                   <infoLinks>
-                    <infoLink name="Tough (X)" id="aff8-aacb-7b54-7b05" hidden="false" targetId="5991-ffd7-6123-979d" type="rule"/>
+                    <infoLink name="Tough" id="5db5-89ba-bd86-8f34" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
+                      <modifiers>
+                        <modifier type="set" value="1" field="annotation"/>
+                      </modifiers>
+                    </infoLink>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Weak (X)" hidden="false" id="fe97-0151-10c4-209b" sortIndex="3">
@@ -4093,7 +4098,7 @@ D6 ROLL RESULT
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Armor" id="8881-5efb-6745-81cb" hidden="false" sortIndex="6">
+        <selectionEntryGroup name="Armor" id="8881-5efb-6745-81cb" hidden="false" sortIndex="7" collective="true">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Heavy Shield" hidden="false" id="cb85-acf1-9a72-53d9" sortIndex="6">
               <infoLinks>
@@ -4128,7 +4133,7 @@ D6 ROLL RESULT
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40a3-b12e-4ea6-69f3"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Light armour" hidden="false" id="595e-ed95-87ca-eb0e" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Light armour" hidden="false" id="595e-ed95-87ca-eb0e" sortIndex="1" collective="true">
               <infoLinks>
                 <infoLink name="Light armour" id="8844-2f06-8b4c-e522" hidden="false" type="profile" targetId="074c-a94c-d3a9-0718"/>
               </infoLinks>
@@ -4157,10 +4162,24 @@ D6 ROLL RESULT
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21ee-a8b8-eae9-c35d"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+30)" hidden="false" id="801d-4ee2-e736-74a3">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="801d-4ee2-e736-74a3" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a814-a4e6-5184-7f1c"/>
+          </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Weapons" id="a8fe-e715-a6b2-2fa5" hidden="false" collective="true" sortIndex="7">
+        <selectionEntryGroup name="Weapons" id="a8fe-e715-a6b2-2fa5" hidden="false" collective="true" sortIndex="6">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Two-handed weapon" hidden="false" id="6e7c-c18d-4ed6-3dbf" collective="true" sortIndex="2">
               <infoLinks>
@@ -5314,6 +5333,1494 @@ D6 ROLL RESULT
               </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8eb3-3930-a089-457a"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Item" id="cc72-899d-7e90-8a36" hidden="false" sortIndex="8" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aebd-98e3-f42a-6b76"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Ingredient" id="54b1-2e0b-7c11-9749" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Badger’s blood" hidden="false" id="61db-cc68-a74f-d130">
+                  <infoLinks>
+                    <infoLink name="Badger’s blood" id="0ebe-3ad1-050b-6fd2" hidden="false" type="profile" targetId="ce9f-e9c3-7291-6958"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Amber bead" hidden="false" id="906f-e6bf-115a-d4b2">
+                  <infoLinks>
+                    <infoLink name="Amber bead" id="022a-87ac-8df6-6c89" hidden="false" type="profile" targetId="d96c-af91-3dc5-bd13"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Antler dust" hidden="false" id="a164-a7d2-ae79-9801">
+                  <infoLinks>
+                    <infoLink name="Antler dust" id="fa0d-8399-d086-4b21" hidden="false" type="profile" targetId="4d3d-c2cb-64f5-f3b5"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Badger’s claws" hidden="false" id="ec35-a9e8-ec1e-721d">
+                  <infoLinks>
+                    <infoLink name="Badger’s claws" id="bd2c-3f48-a3f4-8166" hidden="false" type="profile" targetId="473c-d7de-f9c3-164c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bear bone fragments" hidden="false" id="78f9-5385-2f84-9da1">
+                  <infoLinks>
+                    <infoLink name="Bear bone fragments" id="e809-0fa5-16d1-f02d" hidden="false" type="profile" targetId="c417-ae2f-1820-dc5c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Belladonna" hidden="false" id="7c32-a76e-45c7-af81">
+                  <infoLinks>
+                    <infoLink name="Belladonna" id="51cb-5ff9-3db8-11b1" hidden="false" type="profile" targetId="4f4b-142e-c431-c69f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bloodwort" hidden="false" id="dfee-d0b2-b22d-68fe">
+                  <infoLinks>
+                    <infoLink name="Bloodwort" id="5fc9-b5e3-3eab-4bff" hidden="false" type="profile" targetId="1fee-d0be-c42d-0663"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bone meal" hidden="false" id="1b0c-67d2-a147-d409">
+                  <infoLinks>
+                    <infoLink name="Bone meal" id="199c-cf67-30bd-0ddb" hidden="false" type="profile" targetId="9282-b4cc-8d68-caa8"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Thunderbird feather" hidden="false" id="cf8a-ed12-d80e-3152">
+                  <infoLinks>
+                    <infoLink name="Thunderbird feather" id="a837-96af-daa2-4368" hidden="false" type="profile" targetId="7a16-c642-5dde-d3fc"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Brimstone" hidden="false" id="036c-e8be-25c1-8529">
+                  <infoLinks>
+                    <infoLink name="Brimstone" id="6f2e-c32c-b314-ca84" hidden="false" type="profile" targetId="0295-009e-2db2-6da3"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Cave spider venom" hidden="false" id="c750-dfa6-c816-f759">
+                  <infoLinks>
+                    <infoLink name="Cave spider venom" id="58e5-6bd5-baf7-1174" hidden="false" type="profile" targetId="ea39-f1a2-4437-a4a4"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Copper strip" hidden="false" id="bb7e-6c06-72fe-1feb">
+                  <infoLinks>
+                    <infoLink name="Copper strip" id="eb1a-adda-1ebf-0c6d" hidden="false" type="profile" targetId="0c63-d29a-b842-5c38"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dragonfly wings" hidden="false" id="4cc0-d59e-c5cd-61e4">
+                  <infoLinks>
+                    <infoLink name="Dragonfly wings" id="9152-fcb8-04ee-7ba8" hidden="false" type="profile" targetId="0be2-c8d8-b8fc-d83c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Elf-bolt" hidden="false" id="c67a-2e42-b02a-c38a">
+                  <infoLinks>
+                    <infoLink name="Elf-bolt" id="76e4-2b60-aa84-c710" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heal-alle" hidden="false" id="82ce-96e0-c1ba-e7fd">
+                  <infoLinks>
+                    <infoLink name="Heal-alle" id="9922-1b4a-7b12-9c4d" hidden="false" type="profile" targetId="a6c4-bd4e-16e5-f559"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="10f6-bcda-0265-7176">
+                  <infoLinks>
+                    <infoLink name="Amanitas" id="9e38-f5ae-ef26-503a" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ground obsidian" hidden="false" id="1d4a-8eea-4770-c1ec">
+                  <infoLinks>
+                    <infoLink name="Ground obsidian" id="0661-8f17-b934-4678" hidden="false" type="profile" targetId="5183-040d-ec31-521e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Haematite" hidden="false" id="d397-8c90-5bad-6af5">
+                  <infoLinks>
+                    <infoLink name="Haematite" id="4c5e-aba3-6bff-eb98" hidden="false" type="profile" targetId="22bf-f0a2-9b38-1b14"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Henbane" hidden="false" id="ceaa-db06-4466-df79">
+                  <infoLinks>
+                    <infoLink name="Henbane" id="d0c2-6050-b675-38dd" hidden="false" type="profile" targetId="c219-0e1d-5307-2f37"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lotus flowers" hidden="false" id="ec27-77b8-2b32-5577">
+                  <infoLinks>
+                    <infoLink name="Lotus flowers" id="4c01-43e4-1718-84d2" hidden="false" type="profile" targetId="f6df-80a4-15d4-d37c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lugwort" hidden="false" id="c37b-2634-9c0f-28d6">
+                  <infoLinks>
+                    <infoLink name="Lugwort" id="1710-1574-b7ce-e0fb" hidden="false" type="profile" targetId="f438-284f-4faf-5827"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Mandrake" hidden="false" id="0486-ed03-8ec4-a8ee">
+                  <infoLinks>
+                    <infoLink name="Mandrake" id="ec6b-80d9-f731-12b2" hidden="false" type="profile" targetId="0824-608c-e533-f37c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scarab shells" hidden="false" id="49fb-b1e4-1e3b-1379">
+                  <infoLinks>
+                    <infoLink name="Scarab shells" id="3557-9adb-b427-3154" hidden="false" type="profile" targetId="2392-a0a8-45b4-b3be"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Petrified wood" hidden="false" id="c697-f778-c0ac-512d">
+                  <infoLinks>
+                    <infoLink name="Petrified wood" id="f8a6-a0e6-bdb9-9949" hidden="false" type="profile" targetId="a248-3932-3437-cea1"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Silk fibres" hidden="false" id="4bb0-0f14-71a3-38d5">
+                  <infoLinks>
+                    <infoLink name="Silk fibres" id="c86d-2904-1b69-c7aa" hidden="false" type="profile" targetId="e855-d23f-46c6-e09e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Saltpetre" hidden="false" id="66d2-3e42-a81e-a374">
+                  <infoLinks>
+                    <infoLink name="Saltpetre" id="a68f-39ed-b81e-a695" hidden="false" type="profile" targetId="a408-e7a1-26be-aa09"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Powdered acorns" hidden="false" id="0d89-5a37-bb6d-16f7">
+                  <infoLinks>
+                    <infoLink name="Powdered acorns" id="f06c-a1ae-ba16-ab77" hidden="false" type="profile" targetId="b469-aea5-314a-0803"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Galingale" hidden="false" id="a942-3c38-8136-871c">
+                  <infoLinks>
+                    <infoLink name="Galingale" id="d9fc-9306-28c9-3aea" hidden="false" type="profile" targetId="96f6-4a84-ce7c-424b"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Thyme leaves" hidden="false" id="c559-beeb-4327-21d3">
+                  <infoLinks>
+                    <infoLink name="Thyme leaves" id="44c0-ede8-ed2c-35b5" hidden="false" type="profile" targetId="9407-70f8-18ea-7c0e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wax candle" hidden="false" id="f7f1-1297-88f7-28fa">
+                  <infoLinks>
+                    <infoLink name="Wax candle" id="2768-ba87-eb2c-b079" hidden="false" type="profile" targetId="c274-9c32-5682-2182"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Bonded critters" id="1b45-fee8-4c8f-4469" hidden="false" sortIndex="2">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Cave Spider" hidden="false" id="86b4-a29f-3e1d-25b8" sortIndex="3">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+13)" hidden="false" id="1331-2503-e6de-363f">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="1331-2503-e6de-363f" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <infoLinks>
+                    <infoLink name="Cave Spider" id="173d-9143-9a9e-d31d" hidden="false" type="profile" targetId="a61f-8732-69b8-41b9"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Centipede" hidden="false" id="7571-9707-335f-bb5a" sortIndex="2">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="fca6-b4e3-391c-d373">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="fca6-b4e3-391c-d373" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <infoLinks>
+                    <infoLink name="Centipede" id="7608-e446-2ed5-0794" hidden="false" type="profile" targetId="5518-f17c-b683-ff64"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Beetle" hidden="false" id="2b61-f2bb-4053-53a4" sortIndex="4">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="5810-8dbb-79f6-4d3b">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="5810-8dbb-79f6-4d3b" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <infoLinks>
+                    <infoLink name="Beetle" id="8b68-617f-c5d2-3937" hidden="false" type="profile" targetId="f984-1879-6f0f-560d"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bonded Beetle Grub" hidden="false" id="e7e7-ab2f-3219-46e2" sortIndex="5">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="3d07-52ab-77bb-0af5">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="3d07-52ab-77bb-0af5" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <infoLinks>
+                    <infoLink name="Bonded Beetle Grub" id="1abd-1a88-2a48-2fe6" hidden="false" type="profile" targetId="8ea5-b0f4-2e41-654f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Hunting Hornet" hidden="false" id="c7c3-b352-5d52-4aed" sortIndex="1">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+23)" hidden="false" id="9976-4e2a-af1b-98b9">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="9976-4e2a-af1b-98b9" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <infoLinks>
+                    <infoLink name="Hunting Hornet" id="a641-7b74-0719-7e9d" hidden="false" type="profile" targetId="eed3-18de-5c30-79d9"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Special" id="357d-0aab-377c-6b6b" hidden="false" sortIndex="9" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b7e-b728-575f-5d00"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapons" id="81c5-ae80-83db-b373" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Two-handed weapon" hidden="false" id="feb6-d08f-9c3b-c7dd" collective="true" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Two-Handed Weapon" id="6b79-7160-ecb4-2514" hidden="false" type="profile" targetId="f924-5bd7-b7b7-1862"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08f6-6b13-2218-2cfe"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="2d2d-a4e1-2e5f-5b66" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="fd0f-2fcc-53e2-b965" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="bad8-38f0-61c0-a9a1">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="bad8-38f0-61c0-a9a1" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="4034-7fef-a583-ac11" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="4034-7fef-a583-ac11">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfe5-f423-45e1-1b43"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="b8fc-98fe-888e-b783" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="111a-8b4e-6e1a-3d88">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="111a-8b4e-6e1a-3d88" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="003f-7a37-d298-3554" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="003f-7a37-d298-3554">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cbb-4a94-d729-4ac6"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="One-handed weapon" hidden="false" id="3f60-78db-a314-e738" collective="true" sortIndex="1">
+                  <infoLinks>
+                    <infoLink name="One-handed weapon" id="e04f-5baa-4e58-037f" hidden="false" type="profile" targetId="d124-de12-baa3-737a"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf80-93d1-e772-9fcc"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="da90-3ef3-1f35-56cc" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="34de-d75d-56bb-4705" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="c5ce-f335-962a-7bf7">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="c5ce-f335-962a-7bf7" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="11dc-6ee4-b29e-5f90" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="11dc-6ee4-b29e-5f90">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f97-2a70-ac24-27bf"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="cd2c-94e8-64d7-ddb9" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="c861-80e8-a9e1-e952">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="c861-80e8-a9e1-e952" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="1146-b1e0-d4cb-65ff" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="1146-b1e0-d4cb-65ff">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3be-4f4b-682b-b118"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pole-arm" hidden="false" id="9898-c475-bf61-2897" collective="true" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Pole-arm" id="9104-ce81-f7ec-0af2" hidden="false" type="profile" targetId="c442-f661-1aca-b5bb"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab9f-40b3-51c8-67f3"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="ad0c-5ef3-0973-d4c5" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="d758-8253-f845-6114" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="9d0a-08c3-b47f-b241">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="9d0a-08c3-b47f-b241" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="399a-43a8-c888-aa7f" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="399a-43a8-c888-aa7f">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a43d-c893-b149-4318"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="4d3b-4013-7fa8-29a4" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="760e-8ed4-1f0f-5e7e">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="760e-8ed4-1f0f-5e7e" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7815-d474-a4f3-1234" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="7815-d474-a4f3-1234">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e40-c540-365b-833e"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spear" hidden="false" id="8f18-4792-5ab5-8291" collective="true" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Spear" id="be65-327e-5bd6-b1c2" hidden="false" type="profile" targetId="c007-f001-735a-f58f"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d7d-c99c-7d7d-610d"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="93ea-9f91-0fef-d483" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="c96d-d870-5ff1-c32e" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="8a64-e3af-8ff0-a671">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="8a64-e3af-8ff0-a671" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3fca-7172-0acc-d564" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="3fca-7172-0acc-d564">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39e7-e5f9-2510-48c9"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="e75d-ea12-bda1-34e9" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="abcb-7a1e-644d-f504">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="abcb-7a1e-644d-f504" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="cb6d-9136-f391-34a5" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="cb6d-9136-f391-34a5">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="836d-c30c-2515-40df"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rondel dagger" hidden="false" id="f8ef-208f-573d-87c8" collective="true" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Rondel dagger" id="4883-0cc9-d6a5-c62a" hidden="false" type="profile" targetId="e450-7f73-39e3-1f7d"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="7"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20eb-b93a-2e53-bb82"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="bd62-1c5f-502d-44c4" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="a48f-da76-b9bc-8235" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="130f-1088-3c11-6275">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="130f-1088-3c11-6275" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="8471-676f-3ccd-95b4" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="8471-676f-3ccd-95b4">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7efa-a7ca-4d27-12d2"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="c877-080b-8c89-bdbc" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="72d7-4f62-53cb-38a1">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="72d7-4f62-53cb-38a1" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c5f7-3238-6b66-b3a2" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="c5f7-3238-6b66-b3a2">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="903b-360f-1099-5591"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bow" hidden="false" id="e6f9-236e-e7b4-0f4a" collective="true" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="War Bow" id="9b72-c860-f5e0-3e5e" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="366e-0d30-2659-0162"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="d0e1-ee08-4d54-c8d8" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="5f19-c1a3-1940-84e5" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="d5d9-6fc0-08b4-1d29">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d5d9-6fc0-08b4-1d29" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3864-2ab9-f207-baf8" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="3864-2ab9-f207-baf8">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44e8-ee49-b99c-d37d"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="a9d9-e48d-9d9f-72f9" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="4555-25c3-2e16-5a97">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="4555-25c3-2e16-5a97" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a1f3-44cf-da68-6b11" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="a1f3-44cf-da68-6b11">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d74-314b-cae5-dfd0"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Crossbow" hidden="false" id="e09f-e6f7-7e12-b168" collective="true" sortIndex="8">
+                  <infoLinks>
+                    <infoLink name="Light Crossbow" id="3525-ece5-be71-ed3a" hidden="false" type="profile" targetId="c29f-da0e-a6d9-cfdc"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1835-0fb3-89f9-c3f7"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="5c9f-a694-96e9-1261" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="2927-2a84-e29d-0c77" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="e437-67fa-50d2-3015">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="e437-67fa-50d2-3015" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="4382-e04a-c6dd-740d" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="4382-e04a-c6dd-740d">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a608-80ab-4f90-4382"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="9128-f15a-01dd-9077" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="d8b2-9ec1-a96f-4cfa">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d8b2-9ec1-a96f-4cfa" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="d386-02c2-27de-b8da" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="d386-02c2-27de-b8da">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa4c-de8a-c4f6-76e0"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Sling" hidden="false" id="94ec-259b-7182-46a3" collective="true" sortIndex="7">
+                  <infoLinks>
+                    <infoLink name="Sling" id="45a5-072b-c0c9-51c0" hidden="false" type="profile" targetId="7db3-9bad-0a4e-2939"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1002-7b1d-3e40-d5e7"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="b662-9e1c-8daf-a457" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="3245-5664-9e71-0f92" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="2dbf-514b-996f-00aa">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="2dbf-514b-996f-00aa" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="c21d-dada-23cc-a9a0" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="c21d-dada-23cc-a9a0">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8ba-94fa-d3b3-c383"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="2416-c638-42e4-a71b" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="0487-3a4f-607c-fa65">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="0487-3a4f-607c-fa65" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="bbf8-bdc2-d65d-ba36" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="bbf8-bdc2-d65d-ba36">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b54-26bb-b36f-d906"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Throwing knives" hidden="false" id="441c-8e66-92be-363d" collective="true" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Throwing knives" id="5478-bca4-ec72-2ef1" hidden="false" type="profile" targetId="e239-a08d-b443-5332"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74c1-fa02-3bd0-6019"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="b662-47dc-841e-4a0f" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="eb4f-5e1d-8ee4-a374" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="c52b-2ad3-d9fd-fcdf">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="c52b-2ad3-d9fd-fcdf" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9e6b-bc64-0207-0c00" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="9e6b-bc64-0207-0c00">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d98-65a9-83db-b6c2"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="b1d3-199d-6b2b-f158" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="4bb4-ef39-9639-8a3e">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="4bb4-ef39-9639-8a3e" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de20-9b58-93fd-9d44" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="de20-9b58-93fd-9d44">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28df-5fab-6684-8596"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Blunderbuss" hidden="false" id="584d-1a39-03dc-2901" collective="true" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="Blunderbuss" id="b18b-3521-1d47-4121" hidden="false" type="profile" targetId="53e4-f099-bdd5-c2ca"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="18"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6f0-6891-e788-49dd"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="7418-7888-4629-0416" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="3ac6-5408-e18f-6c33" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="a7bc-ca2f-b412-8b73">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="a7bc-ca2f-b412-8b73" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ee22-fcac-bf80-0c33" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="ee22-fcac-bf80-0c33">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f11-a3d1-5b3d-d559"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="d555-aecf-8971-7fcb" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="b8c0-42d9-c00e-e1dc">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="b8c0-42d9-c00e-e1dc" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ce1a-38e1-7859-033b" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="ce1a-38e1-7859-033b">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9b8-6bfe-21e4-80b8"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="War Bow" hidden="false" id="8248-2a3f-22e7-e8b1" collective="true" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="War Bow" id="5d28-82b6-76e5-2447" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3874-d2b1-5b65-d15e"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+8)" hidden="false" id="186f-f308-ff2c-36be">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="186f-f308-ff2c-36be" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="a1ad-de42-dad9-443f" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="258b-a0a0-6fa2-74e1" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="97e4-c35f-0711-ecc4">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="97e4-c35f-0711-ecc4" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="0eac-71c4-019c-c36f" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="0eac-71c4-019c-c36f">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed10-dcca-ed7e-14c0"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="9b57-5028-772d-15a7" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="7619-40a9-d818-3406">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="7619-40a9-d818-3406" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="cea0-5575-2e2d-1184" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="cea0-5575-2e2d-1184">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a6e-9c40-0746-09eb"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Crossbow" hidden="false" id="1d9f-f5fd-7fab-d003" collective="true" sortIndex="10">
+                  <infoLinks>
+                    <infoLink name="Heavy Crossbow" id="6de9-c86c-6b4d-8217" hidden="false" type="profile" targetId="e373-5b92-d1ba-ba4f"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cf0-251c-a641-2a2c"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+20)" hidden="false" id="10d3-5670-b87a-aad0">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="10d3-5670-b87a-aad0" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="a004-03a2-95b6-e86a" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="a5d2-adb3-4e1a-643a" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="eff1-0bcf-30ce-4464">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="eff1-0bcf-30ce-4464" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2445-f822-5c9a-17a4" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="2445-f822-5c9a-17a4">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f99-b1d2-5976-7d9d"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="3bea-42f9-4348-26ad" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="ff5e-333b-54ce-8746">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="ff5e-333b-54ce-8746" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="77e4-f9df-4957-6a11" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="77e4-f9df-4957-6a11">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1188-f7d5-4d0f-da4d"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Cheirosiphon" hidden="false" id="e7ba-6af6-ffeb-671f" collective="true" sortIndex="11">
+                  <infoLinks>
+                    <infoLink name="Cheirosiphon" id="ab13-3330-b68d-fbb1" hidden="false" type="profile" targetId="74ae-7a92-3f79-10d4"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38f6-bc01-abcc-3914"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+20)" hidden="false" id="e6c7-5ba9-ca26-25da">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="e6c7-5ba9-ca26-25da" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="9b24-e3c7-9c9c-98b2" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="7752-4ab7-2987-c397" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="36e5-059a-2881-8714">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="36e5-059a-2881-8714" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="351b-2f60-1398-fb0e" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="351b-2f60-1398-fb0e">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc1f-27d3-285e-f251"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="13f8-7188-fb73-3e38" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="e401-92db-9afb-468c">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="e401-92db-9afb-468c" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="4bfd-a57c-08ef-4cda" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="4bfd-a57c-08ef-4cda">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e2c-c70f-44eb-5184"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Caliver" hidden="false" id="ea8c-4c44-5b06-3bf9" collective="true" sortIndex="12">
+                  <infoLinks>
+                    <infoLink name="Caliver" id="1c31-d848-76a2-d219" hidden="false" type="profile" targetId="0593-3e13-a19c-d3db"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5f7-5eb0-d5e7-ec3f"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+10)" hidden="false" id="6d9b-45fa-edbd-b5fd">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="6d9b-45fa-edbd-b5fd" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="d892-383f-89da-fd6a" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="30a3-f11a-ef37-e789" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="e482-efe6-8fa7-aae7">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="e482-efe6-8fa7-aae7" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a45b-c6d5-71aa-8ad2" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="a45b-c6d5-71aa-8ad2">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22dd-2b68-2757-963a"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="cb70-8241-e2d2-aef1" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="d8e8-33fa-c37c-8d5d">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d8e8-33fa-c37c-8d5d" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6247-7f91-3f16-967e" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="6247-7f91-3f16-967e">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="395a-4065-7d49-6e2a"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="8330-6203-1f06-014f" collective="true" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Pistol" id="bfea-32fc-e886-cfe4" hidden="false" type="profile" targetId="3ef9-23c1-c345-5804"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2cb-3a0b-5393-b88d"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Upgrades" id="b837-6a82-bd15-890b" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Mastersmithed" id="9d28-43d2-2427-6460" hidden="false" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed: Variable Cost (3d8)" hidden="true" id="f4e5-b8ae-1c5a-79a4">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="f4e5-b8ae-1c5a-79a4" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="2001-34bc-d733-4df0" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Mastersmithed" hidden="false" id="2001-34bc-d733-4df0">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b92-c5a7-d144-eae2"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Malleus Maleficarum" id="25bd-09dc-2ae0-dc58" hidden="false" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum: Variable Cost (3d6)" hidden="true" id="2358-6da6-7f9e-6788">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="2358-6da6-7f9e-6788" shared="true" roundUp="false" percentValue="false"/>
+                                  </repeats>
+                                </modifier>
+                                <modifier type="set" value="false" field="hidden">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7fb5-7519-c8b4-089e" shared="true"/>
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Malleus Maleficarum" hidden="false" id="7fb5-7519-c8b4-089e">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5796-123e-6406-2ada"/>
+                              </constraints>
+                              <modifiers>
+                                <modifier type="append" value="Variable Cost " field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                                <modifier type="append" value="Malleus Maleficarum" field="56b5-769b-3492-f985" scope="parent" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <comment>+3d8 Penny</comment>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <comment>FIXME: Dupla Variable Cost</comment>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Armor" id="e4ce-60c7-60ae-ed38" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Shield" hidden="false" id="cda9-6dad-9d03-f269" sortIndex="6">
+                  <infoLinks>
+                    <infoLink name="Heavy Shield" id="167c-eee9-e655-0466" hidden="false" type="profile" targetId="db1e-522d-6bdf-fa5e"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff57-e129-92d7-111c"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy armour" hidden="false" id="18d2-0a73-32c0-99a7" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Heavy armour" id="0273-48d9-747f-8ef8" hidden="false" type="profile" targetId="b935-128e-d97c-a5f2"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="27"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80c3-b934-f057-304e"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Buckler" hidden="false" id="ed13-3c33-fdef-5215" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Buckler" id="8053-8fd8-acfd-0660" hidden="false" type="profile" targetId="0cf4-6245-11b2-eb2c"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb4e-e878-02cb-992f"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light armour" hidden="false" id="2fda-c746-6cb3-e4fe" sortIndex="1" collective="true">
+                  <infoLinks>
+                    <infoLink name="Light armour" id="e6c0-696f-6af6-86fe" hidden="false" type="profile" targetId="074c-a94c-d3a9-0718"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c79a-9769-09fa-e39b"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Shield" hidden="false" id="9f41-3f96-89de-82da" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Light Shield" id="3e77-555b-d44d-ffca" hidden="false" type="profile" targetId="771c-6387-25e1-b619"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="12"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b4c-31fa-bde3-9c83"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Very heavy armour" hidden="false" id="bfae-a4cd-31ab-02df" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Very heavy armour" id="5a3b-8b5e-c25a-320a" hidden="false" type="profile" targetId="7fa7-a209-51b3-1de4"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7438-4174-f3ef-5815"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+30)" hidden="false" id="cb32-28cf-e8af-cd56">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="cb32-28cf-e8af-cd56" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
@@ -6343,52 +7850,384 @@ CHEIROSIPHON MISFIRE TABLE
         <characteristic name="Rules" typeId="89c2-0687-7959-344b">-</characteristic>
         <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Common</characteristic>
         <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
-        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">-</characteristic>
+        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">Tough (1)</characteristic>
+        <characteristic typeId="c4d1-82f7-e364-3a8a" name=""/>
       </characteristics>
     </profile>
     <profile name="Very heavy armour" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="7fa7-a209-51b3-1de4">
       <characteristics>
         <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Armor</characteristic>
-        <characteristic name="Rules" typeId="89c2-0687-7959-344b">-</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">Very Heavy Armour counts as two items for carrying purposes, so a model equipped with Very Heavy Armour uses up both Armour Equipment slots. 
+The model’s Nimbleness rolls suffer a -2 penalty.</characteristic>
         <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Rare</characteristic>
         <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">8</characteristic>
-        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">-</characteristic>
+        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">Tough (4)</characteristic>
+        <characteristic typeId="c4d1-82f7-e364-3a8a" name=""/>
       </characteristics>
     </profile>
     <profile name="Buckler" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="0cf4-6245-11b2-eb2c">
       <characteristics>
         <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Armor</characteristic>
-        <characteristic name="Rules" typeId="89c2-0687-7959-344b">-</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">+1 to all Defend rolls that use Block.</characteristic>
         <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Common</characteristic>
         <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
         <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">-</characteristic>
+        <characteristic typeId="c4d1-82f7-e364-3a8a" name=""/>
       </characteristics>
     </profile>
     <profile name="Heavy armour" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="b935-128e-d97c-a5f2">
       <characteristics>
         <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Armor</characteristic>
-        <characteristic name="Rules" typeId="89c2-0687-7959-344b">-</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">Heavy Armour counts as two items for carrying purposes, so a model equipped with Heavy Armour uses up both Armour Equipment slots. 
+The model’s Nimbleness rolls suffer a -1 penalty.</characteristic>
         <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Common</characteristic>
         <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
-        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">-</characteristic>
+        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">Tough (2)</characteristic>
+        <characteristic typeId="c4d1-82f7-e364-3a8a" name=""/>
       </characteristics>
     </profile>
     <profile name="Heavy Shield" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="db1e-522d-6bdf-fa5e">
       <characteristics>
         <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Armor</characteristic>
-        <characteristic name="Rules" typeId="89c2-0687-7959-344b">-</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">+3 to all Defend rolls that.
+May choose to use Block for Defend rolls against Shoot Actions (but not Ambush Shoot Actions). 
+However, all the model’s Nimbleness rolls suffer a -1 penalty.</characteristic>
         <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Common</characteristic>
         <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
-        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">-</characteristic>
+        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">Tough (1)</characteristic>
+        <characteristic typeId="c4d1-82f7-e364-3a8a" name=""/>
       </characteristics>
     </profile>
     <profile name="Light Shield" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="771c-6387-25e1-b619">
       <characteristics>
         <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Armor</characteristic>
-        <characteristic name="Rules" typeId="89c2-0687-7959-344b">-</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">+2 to all Defend rolls that use Block.
+May choose to use Block for Defend rolls against Shoot Actions (but not Ambush Shoot Actions).</characteristic>
         <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Common</characteristic>
         <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
         <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">-</characteristic>
+        <characteristic typeId="c4d1-82f7-e364-3a8a" name=""/>
+      </characteristics>
+    </profile>
+    <profile name="Tough" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="b1e9-4c53-152e-51f8">
+      <characteristics>
+        <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This model has a resistance to pain and injury that is well above the average; they may reduce any Wounds they suffer by the Skill number.</characteristic>
+      </characteristics>
+      <alias>Strength Tough</alias>
+    </profile>
+    <profile name="Antler dust" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="4d3d-c2cb-64f5-f3b5">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Amanitas" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="6bb9-dc5c-8d8b-1c44">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bloodwort" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="1fee-d0be-c42d-0663">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bone meal" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="9282-b4cc-8d68-caa8">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Badger’s blood" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="ce9f-e9c3-7291-6958">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Badger’s claws" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="473c-d7de-f9c3-164c">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Belladonna" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="4f4b-142e-c431-c69f">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bear bone fragments" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="c417-ae2f-1820-dc5c">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brimstone" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="0295-009e-2db2-6da3">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cave spider venom" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="ea39-f1a2-4437-a4a4">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Copper strip" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="0c63-d29a-b842-5c38">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dragonfly wings" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="0be2-c8d8-b8fc-d83c">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ground obsidian" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="5183-040d-ec31-521e">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Amber bead" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="d96c-af91-3dc5-bd13">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Galingale" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="96f6-4a84-ce7c-424b">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Elf-bolt" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="ab52-03df-8e75-b714">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Henbane" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="c219-0e1d-5307-2f37">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heal-alle" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="a6c4-bd4e-16e5-f559">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Haematite" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="22bf-f0a2-9b38-1b14">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lugwort" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="f438-284f-4faf-5827">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lotus flowers" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="f6df-80a4-15d4-d37c">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mandrake" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="0824-608c-e533-f37c">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Petrified wood" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="a248-3932-3437-cea1">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Powdered acorns" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="b469-aea5-314a-0803">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scarab shells" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="2392-a0a8-45b4-b3be">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Silk fibres" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="e855-d23f-46c6-e09e">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Saltpetre" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="a408-e7a1-26be-aa09">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thunderbird feather" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="7a16-c642-5dde-d3fc">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wax candle" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="c274-9c32-5682-2182">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thyme leaves" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="9407-70f8-18ea-7c0e">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cave Spider" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="a61f-8732-69b8-41b9">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">10</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Once per Turn, if the model makes an Attack Action, the spider will make an additional Attack on the same enemy immediately after the model’s Attack Action resolves with a Strike Stat of d6, counting as having Pain Poison.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Bonded critter</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Centipede" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="5518-f17c-b683-ff64">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">10</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Once per Turn, if the model makes an Attack Action, the centipede will make an additional Attack on the same enemy immediately after the model’s Attack Action resolves with a Strike Stat of d6, counting as having Paralysing Poison. Bonded Critters do not get the Perfect Roll bonus on any Roll-offs that they make.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Bonded critter</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Beetle" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="f984-1879-6f0f-560d">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">10</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Once per Turn, if the model is targeted by an enemy making an Attack Action, the model receives a +1 Block bonus and the beetle will make an Attack on the enemy immediately after their Attack Action resolves, with a Strike Stat of d6. Bonded Critters do not get the Perfect Roll bonus on any Roll-offs that they make.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Bonded critter</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bonded Beetle Grub" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="8ea5-b0f4-2e41-654f">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">10</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Once per Turn, if the model makes an Attack Action, the bonded grub will make an Attack on the same enemy immediately after the model’s Attack Action resolves, with a Strike Stat of d8 and Strong (2). Bonded Critters do not get the Perfect Roll bonus on any Roll-offs that they make.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Bonded critter</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hunting Hornet" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="eed3-18de-5c30-79d9">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">10</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Once per Turn, when the model takes any Action, they may also make a Shooting Attack (Even if in Base Contact with an enemy) against any model within 12”. This does not need Line of Sight, is made with a Ranged Stat of d6, and counts as having Mortal Poison. Bonded Critters do not get the Perfect Roll bonus on any Roll-offs that they make.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Bonded critter</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
