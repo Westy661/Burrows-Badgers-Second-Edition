@@ -5,12 +5,12 @@
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="97ca-8945-7b55-dd53" name="Large Beast (40mm Base)"/>
     <categoryEntry hidden="false" id="07b2-c48b-e2e1-2c84" name="Massive Beast (50mm base)"/>
-    <categoryEntry hidden="false" id="3ab5-819d-23a4-3945" name="Configuration"/>
     <categoryEntry hidden="false" id="6daf-83fe-ef42-17d8" name="Rare"/>
     <categoryEntry hidden="false" id="8fa1-283a-2134-c1ea" name="Leader"/>
     <categoryEntry hidden="false" id="0cd2-8443-e657-6def" name="Second"/>
     <categoryEntry name="Starting Equipment" id="3359-f6f3-9852-b8c0" hidden="false"/>
     <categoryEntry name="General Store Equipment" id="874a-091c-7fe7-ba43" hidden="false"/>
+    <categoryEntry name="Den Upgrade" id="583b-2cca-fae6-9a19" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType defaultCostLimit="350" id="6752-9e0b-692e-d5b9" name="Penny"/>
@@ -76,6 +76,13 @@
         <characteristicType name="Rules" id="965b-1eff-1569-fb74"/>
         <characteristicType name="Keywords" id="d060-38f7-c160-776c"/>
         <characteristicType name="Type" id="f67c-4a22-9c29-7d45"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Den Upgrade" id="385d-ccbd-6f35-1bf3" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Labour" id="4c74-68cb-f6a4-898a"/>
+        <characteristicType name="Materials" id="8b5c-655b-c7ec-057e"/>
+        <characteristicType name="Rules" id="a5c7-15a9-5430-662a"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -4645,7 +4652,7 @@ D6 ROLL RESULT
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a814-a4e6-5184-7f1c"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Items Slot" id="cc72-899d-7e90-8a36" hidden="false" collective="true" collapsible="true" sortIndex="3">
+            <selectionEntryGroup name="Items Slot" id="cc72-899d-7e90-8a31" hidden="false" collective="true" collapsible="true" sortIndex="3">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aebd-98e3-f42a-6b76"/>
               </constraints>
@@ -4674,6 +4681,9 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="1819-0a61-6d5e-0002" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Centipede" hidden="false" id="7571-9707-335f-bb5a" sortIndex="2">
                       <selectionEntries>
@@ -4697,6 +4707,9 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="4df3-d9ca-09dd-45a5" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Beetle" hidden="false" id="2b61-f2bb-4053-53a4" sortIndex="4">
                       <selectionEntries>
@@ -4720,6 +4733,9 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="0b43-89b1-78a8-0eee" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Bonded Beetle Grub" hidden="false" id="e7e7-ab2f-3219-46e2" sortIndex="5">
                       <selectionEntries>
@@ -4743,6 +4759,9 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="07b5-0f5c-fca4-4b8e" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hunting Hornet" hidden="false" id="c7c3-b352-5d52-4aed" sortIndex="1">
                       <selectionEntries>
@@ -4766,6 +4785,9 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="37ac-0486-59ee-8d4f" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <modifiers>
@@ -5538,9 +5560,6 @@ D6 ROLL RESULT
                               </repeats>
                             </modifier>
                           </modifiers>
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="9bbd-afc4-6125-15f3" includeChildSelections="true"/>
-                          </constraints>
                         </selectionEntry>
                       </selectionEntries>
                       <modifiers>
@@ -5550,8 +5569,11 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="a3cf-2d35-b2c1-c2a0" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Paralysing Poison" hidden="false" id="783f-359e-ee6d-016b" defaultAmount="">
+                    <selectionEntry type="upgrade" import="true" name="Paralysing Poison" hidden="false" id="783f-359e-ee6d-016b">
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
@@ -5567,9 +5589,6 @@ D6 ROLL RESULT
                               </repeats>
                             </modifier>
                           </modifiers>
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="8f5c-f54a-c7e7-1da4" includeChildSelections="true"/>
-                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="e58f-c18d-fb76-32bf">
                           <infoLinks>
@@ -5584,6 +5603,9 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="9d57-cf51-c0ef-5cb4" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Pain Poison" hidden="false" id="4634-2335-e00a-1c8b">
                       <costs>
@@ -5601,9 +5623,6 @@ D6 ROLL RESULT
                               </repeats>
                             </modifier>
                           </modifiers>
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="426d-9b71-3610-cc54" includeChildSelections="true"/>
-                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="c574-af29-87c3-95e1">
                           <infoLinks>
@@ -5618,6 +5637,9 @@ D6 ROLL RESULT
                           </conditions>
                         </modifier>
                       </modifiers>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="d402-b142-36f5-e8d7" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <modifiers>
@@ -6538,7 +6560,7 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Paralysing Poison" hidden="false" id="0b0d-0fc3-e23a-51c3" defaultAmount="">
+                        <selectionEntry type="upgrade" import="true" name="Paralysing Poison" hidden="false" id="0b0d-0fc3-e23a-51c3">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
@@ -8774,7 +8796,7 @@ D6 ROLL RESULT
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Starting Character" hidden="false" id="cee3-9887-9ffb-1cae" sortIndex="-1" defaultAmount="1">
+        <selectionEntry type="upgrade" import="true" name="Starting Character " hidden="false" id="cee3-9887-9ffb-1cae" sortIndex="-1" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ed2-8f81-ea17-b724"/>
           </constraints>
@@ -10580,6 +10602,15 @@ Action if they have suffered more Wounds than they have on their Roster Sheet. 
         <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
         <characteristic name="Keywords" typeId="d060-38f7-c160-776c">Single use</characteristic>
         <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Alchemy Laboratory" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="b3f4-b89d-b161-491d">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">12</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">4</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built an Alchemy lab. You may distil potions and poisons at will. You gain
+any three of the following at the start of each Battle: Healing Potion, Pain Poison (2 uses),
+Paralysing Poison (1 use), or Mortal Poison (1 use).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

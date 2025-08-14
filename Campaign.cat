@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="e7c5-f4ae-d0e7-9f53" name="Campaign" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Fletcher" hidden="false" id="1ed9-4f1a-6ba6-8f9e">
+      <infoLinks>
+        <infoLink name="Fletcher" id="a772-f059-4a8f-6094" hidden="false" type="profile" targetId="d648-39b1-0891-4720"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="807e-85cf-dfd1-3dc6" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="6"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chapel" hidden="false" id="9170-885c-961e-ee6d">
+      <infoLinks>
+        <infoLink name="Chapel" id="7619-c068-45cd-68b0" hidden="false" type="profile" targetId="fcd1-544a-f29d-e588"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="1286-a470-25f2-1c7a" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="15"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gambling Den" hidden="false" id="a183-459a-c750-4d2b">
+      <infoLinks>
+        <infoLink name="Gambling Den" id="c9ce-0312-2e60-bec4" hidden="false" type="profile" targetId="82a1-0fb0-1825-403e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="4ebf-d1c2-6e10-8b93" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gymnasium" hidden="false" id="d0de-b562-4252-73f2">
+      <infoLinks>
+        <infoLink name="Gymnasium" id="1430-67db-3cdd-99e9" hidden="false" type="profile" targetId="ee5d-9485-becc-4287"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="8163-764b-9127-3aba" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archery Range" hidden="false" id="782c-e925-cfcf-9800">
+      <infoLinks>
+        <infoLink name="Archery Range" id="408f-db2b-a44c-80bd" hidden="false" type="profile" targetId="eb22-475f-a8af-bf68"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="316d-cf74-9b74-ed67" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Jewellers Workshop" hidden="false" id="72fe-9908-99f5-2de7">
+      <infoLinks>
+        <infoLink name="Jewellers Workshop" id="fb90-19b7-bcc9-b2dd" hidden="false" type="profile" targetId="939d-fc91-0b4b-bd4b"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="4bee-3f7a-f238-41bf" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Library" hidden="false" id="c90f-a8b1-5c5e-39b6">
+      <infoLinks>
+        <infoLink name="Library" id="e9d5-106f-b3c4-b907" hidden="false" type="profile" targetId="d322-43d1-7804-243c"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="1456-ba30-7055-1420" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magical Garden" hidden="false" id="d9b1-d98f-7ead-916f">
+      <infoLinks>
+        <infoLink name="Magical Garden" id="aec7-9ebb-df6d-90e8" hidden="false" type="profile" targetId="245d-b803-2b49-432f"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="9391-2a1c-2b75-8540" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Obstacle Course" hidden="false" id="cc99-e531-cbd8-8222">
+      <infoLinks>
+        <infoLink name="Obstacle Course" id="e88b-fc57-7e13-b237" hidden="false" type="profile" targetId="1d7d-1ebd-9eaa-6ede"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="b895-5f0b-c68e-740a" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Occult Laboratory" hidden="false" id="12db-5777-cc47-c01d">
+      <infoLinks>
+        <infoLink name="Occult Laboratory" id="1be7-54f3-f41e-50ab" hidden="false" type="profile" targetId="3e67-4144-bd80-9a67"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="3152-7587-3b3a-29a4" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="16"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pells and Training Ground" hidden="false" id="17b2-efd9-cc29-d829">
+      <infoLinks>
+        <infoLink name="Pells and Training Ground" id="5b6a-e2f3-fbe8-ce73" hidden="false" type="profile" targetId="4b34-80e9-cf9e-b34c"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="7b60-c3af-37f8-5bc6" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Secret Tunnels" hidden="false" id="7f39-1b2c-5d12-7449">
+      <infoLinks>
+        <infoLink name="Secret Tunnels" id="8f79-e222-3697-e778" hidden="false" type="profile" targetId="373c-3c1a-24d2-e39e"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="0b8b-18a5-aee3-61ba" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="14"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shrine" hidden="false" id="5714-5693-8554-1f15">
+      <infoLinks>
+        <infoLink name="Shrine" id="a5ed-9106-1605-ec8a" hidden="false" type="profile" targetId="a80f-de6a-da4a-55f6"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="d232-e03b-7700-0dc3" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="14"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Smallholding" hidden="false" id="c1f4-ab41-191b-eb0e">
+      <infoLinks>
+        <infoLink name="Smallholding" id="cdb7-3112-45c5-11c4" hidden="false" type="profile" targetId="f88f-9f22-5a13-6a72"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="0f00-45c3-bc59-cdeb" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="10"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Smithy" hidden="false" id="cca7-24e1-c4e3-ed6b">
+      <infoLinks>
+        <infoLink name="Smithy" id="9cff-8391-fb18-47f8" hidden="false" type="profile" targetId="b332-a900-fe64-5312"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="24a9-ad6e-da4d-83df" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Alchemy Laboratory" hidden="false" id="00cb-eca5-c9a6-d8bb">
+      <infoLinks>
+        <infoLink name="Alchemy Laboratory" id="f33d-26e2-a4ef-4721" hidden="false" type="profile" targetId="4bba-80ca-f8a6-95df"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="091e-7f1c-c2ff-7207" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Apothecarium" hidden="false" id="6a68-26c4-23bc-4722">
+      <infoLinks>
+        <infoLink name="Apothecarium" id="82e8-12c4-913e-0ea2" hidden="false" type="profile" targetId="42bc-1ffa-e40e-1b30"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="2495-a916-e5da-aaa5" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="10"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Archery Range" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="eb22-475f-a8af-bf68">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built an area to practice shooting. When making Experience Advance rolls, regardless of the result, you may choose to take a Shooting Skill instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Apothecarium" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="42bc-1ffa-e40e-1b30">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">10</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">4</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a hospital area to give treatment to your Band’s injured. You may re-roll one roll on the Major Injuries Table (see page 157) or ignore one roll on the Minor Injuries Table per game.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Alchemy Laboratory" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="4bba-80ca-f8a6-95df">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">12</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">4</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built an Alchemy lab. You may distil potions and poisons at will. You gain any three of the following at the start of each Battle: Healing Potion, Pain Poison (2 uses), Paralysing Poison (1 use), or Mortal Poison (1 use).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fletcher" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="d648-39b1-0891-4720">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">6</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">3</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have set up an area to perform fletching work. Two of your models may be equipped
+with Bodkins (6 arrows) or Broadheads (6 arrows) for free at the start of every Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chapel" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="fcd1-544a-f29d-e588">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a chapel within your den, dedicated to Moritasgus, the Great Badger,
+ancient god of healing and protection. 
+
+
+You may pray for a blessing before each Battle; roll a d6.
+- 1 or 2 – One model may add +1 to all Roll-Offs during the next Battle.
+- 3 – You receive an unexpected windfall; gain 3d6 Pennies.
+- 4 – Your Leader is filled with divine wrath and gains +2 to all Roll-Offs duirng the next Battle.
+- 5 or 6 – Fated for greatness, all your models start with an extra Fate in the next Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gambling Den" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="82a1-0fb0-1825-403e">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">3</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built an area of your den dedicated to vice and gambling. The profits are good but not without risk. You may roll up to seven d6s; you gain that many Pennies. However, if you roll any triples (e.g. three 2s), then a fight has broken out – your models may be injured. Roll a d4 for each model. On a roll of 1, they are injured and must make a roll on the Minor Injuries Table (see page 160)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gymnasium" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="ee5d-9485-becc-4287">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a training area equipped with weights and heavy objects. When making Experience Advance rolls (see page 175), regardless of the result, you may choose to take a Strength Skill instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Jewellers Workshop" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="939d-fc91-0b4b-bd4b">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a jeweller’s workshop; you receive an income of 4d6 Pennies.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Library" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="d322-43d1-7804-243c">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">6</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built and stocked an excellent library, filled with the gathered knowledge of Northymbra and the extensive wisdom and learning of the ancients. You may modify all Experience Advance rolls by +1 or -1 (see page 175).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Obstacle Course" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="1d7d-1ebd-9eaa-6ede">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have set up an obstacle course so that your beasts can train to be fast and nimble. When making Experience Advance rolls, regardless of the result, you may choose to take a Movement Skill instead (see page 142).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Magical Garden" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="245d-b803-2b49-432f">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">12</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">3</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have created a well-stocked and tended magical garden, with rare herbs and unusual arcane devices. You may take any three magical Ingredients for free per game. You also sell herbs to the locals, earning you 2d6 Pennies.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Occult Laboratory" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="3e67-4144-bd80-9a67">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a laboratory to do research into the esoteric and mystical. Roll a d6:
+
+
+- 1 to 4 – Your Leader starts the next Battle with five Fate Points, instead of the usual three.
+- 5 – Every model in your Band starts the next Battle with three Fate Points, instead of the usual amount.
+- 6 – A Magic-user in your Band gains a new Spell; choose one from the Magical Archetypes your Allegiance has access to.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pells and Training Ground" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="4b34-80e9-cf9e-b34c">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have set up an area for combat practice and your warriors train regularly. When making an Experience Advance roll (see page 175), regardless of the result, you may choose to take a Fighting Skill instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Smithy" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="b332-a900-fe64-5312">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">12</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">4</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a forge and can make your own weapons and armour. If you assign one or more models to smithy duty instead of Labouring, Wandering, Resting, or Training, you may create 12 Pennies’ worth of Weapons or Armour for every model assigned. For example, assigning three models could make 36 Pennies’ worth of Weapons or Armour. This may be spent on Common Weapons and Armour, or on Rare Weapons and Armour from your Allegiance’s Starting Equipment Options Table.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shrine" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="a80f-de6a-da4a-55f6">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">14</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">3</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a shrine. Choose either:
+- A shrine to the Lords of the Woods and the Shadows; all your models gain +1 to all Concealment rolls
+- A Shrine to the Spirits of the Aethereal Realms; all your Magic-users gain +1 to all Cast Roll-Offs.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Study" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="cb01-b841-0e41-2302">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">3</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have a collection of university literature and an office to peruse it in. When making Experience Advance rolls (see page 175), regardless of the result, you may choose to take a Cunning Skill instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Secret Tunnels" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="373c-3c1a-24d2-e39e">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">14</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">3</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have a network of secret tunnels and burrows that has entrances and exits all over the area. Whenever you deploy your Band for a Battle, you may set up two of your models anywhere on the tabletop, ignoring the normal deployment restrictions. They must be at least 8” away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Smallholding" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="f88f-9f22-5a13-6a72">
+      <characteristics>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">10</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">3</characteristic>
+        <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">Your Band has set up facilities to breed invertebrates for food and to regularly gather crops from the surrounding fields; your Band does not have to pay Upkeep costs.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="6104-117e-4716-c2ca" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry"/>
+    <entryLink import="true" name="Apothecarium" hidden="false" id="d5fb-16d0-76a8-2e20" targetId="6a68-26c4-23bc-4722" type="selectionEntry"/>
+    <entryLink import="true" name="Archery Range" hidden="false" id="015f-5ec4-bf9e-8308" targetId="782c-e925-cfcf-9800" type="selectionEntry"/>
+    <entryLink import="true" name="Chapel" hidden="false" id="667e-0577-1c98-a7e0" targetId="9170-885c-961e-ee6d" type="selectionEntry"/>
+    <entryLink import="true" name="Fletcher" hidden="false" id="8d4f-70bc-9c4b-056c" targetId="1ed9-4f1a-6ba6-8f9e" type="selectionEntry"/>
+    <entryLink import="true" name="Fletcher" hidden="false" id="4947-c688-0407-6065" targetId="1ed9-4f1a-6ba6-8f9e" type="selectionEntry"/>
+    <entryLink import="true" name="Gambling Den" hidden="false" id="ef15-36c2-2c4f-5c8f" targetId="a183-459a-c750-4d2b" type="selectionEntry"/>
+    <entryLink import="true" name="Gymnasium" hidden="false" id="994d-ae3d-a765-5ac1" targetId="d0de-b562-4252-73f2" type="selectionEntry"/>
+    <entryLink import="true" name="Jewellers Workshop" hidden="false" id="2100-d2fc-1448-4817" targetId="72fe-9908-99f5-2de7" type="selectionEntry"/>
+    <entryLink import="true" name="Library" hidden="false" id="baf4-d1dd-1417-6fb4" targetId="c90f-a8b1-5c5e-39b6" type="selectionEntry"/>
+    <entryLink import="true" name="Magical Garden" hidden="false" id="e51b-812d-3a63-6488" targetId="d9b1-d98f-7ead-916f" type="selectionEntry"/>
+    <entryLink import="true" name="Obstacle Course" hidden="false" id="c32b-0547-d48d-34fc" targetId="cc99-e531-cbd8-8222" type="selectionEntry"/>
+    <entryLink import="true" name="Occult Laboratory" hidden="false" id="0973-23bf-ec70-5206" targetId="12db-5777-cc47-c01d" type="selectionEntry"/>
+    <entryLink import="true" name="Pells and Training Ground" hidden="false" id="5ba4-995f-2bc9-1a40" targetId="17b2-efd9-cc29-d829" type="selectionEntry"/>
+    <entryLink import="true" name="Secret Tunnels" hidden="false" id="b475-96ce-77f8-6938" targetId="7f39-1b2c-5d12-7449" type="selectionEntry"/>
+    <entryLink import="true" name="Shrine" hidden="false" id="c4d7-cf94-5d76-5fcd" targetId="5714-5693-8554-1f15" type="selectionEntry"/>
+    <entryLink import="true" name="Smallholding" hidden="false" id="fc2f-1025-de92-aa66" targetId="c1f4-ab41-191b-eb0e" type="selectionEntry"/>
+    <entryLink import="true" name="Smithy" hidden="false" id="0c42-4ebd-cd6c-ef30" targetId="cca7-24e1-c4e3-ed6b" type="selectionEntry"/>
+  </entryLinks>
+  <costTypes>
+    <costType name="Labor" id="a8b9-14eb-c576-28d4" defaultCostLimit="-1"/>
+    <costType name="Material" id="ce21-5b5b-f092-7301" defaultCostLimit="-1"/>
+  </costTypes>
+</catalogue>
