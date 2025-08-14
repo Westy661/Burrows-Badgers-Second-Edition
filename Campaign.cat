@@ -13,6 +13,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="6"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49e8-22ce-4636-ac78"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chapel" hidden="false" id="9170-885c-961e-ee6d">
       <infoLinks>
@@ -26,6 +29,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="15"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="5"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4efa-79c2-c6a9-c87b"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gambling Den" hidden="false" id="a183-459a-c750-4d2b">
       <infoLinks>
@@ -39,6 +45,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0af-cd60-326f-092f"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gymnasium" hidden="false" id="d0de-b562-4252-73f2">
       <infoLinks>
@@ -52,6 +61,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0fe-7c92-71ef-0e27"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Archery Range" hidden="false" id="782c-e925-cfcf-9800">
       <infoLinks>
@@ -65,6 +77,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51a6-7d12-fdc2-fee7"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Jewellers Workshop" hidden="false" id="72fe-9908-99f5-2de7">
       <infoLinks>
@@ -78,6 +93,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f742-1361-b115-3f89"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Library" hidden="false" id="c90f-a8b1-5c5e-39b6">
       <infoLinks>
@@ -91,6 +109,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="6"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a84e-d31d-645d-d66c"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Magical Garden" hidden="false" id="d9b1-d98f-7ead-916f">
       <infoLinks>
@@ -104,6 +125,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72ed-5e3f-2bdd-50e6"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Obstacle Course" hidden="false" id="cc99-e531-cbd8-8222">
       <infoLinks>
@@ -117,6 +141,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a18f-3f32-fb53-2026"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Occult Laboratory" hidden="false" id="12db-5777-cc47-c01d">
       <infoLinks>
@@ -130,6 +157,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="16"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="5"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1066-1334-9c4f-64ad"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pells and Training Ground" hidden="false" id="17b2-efd9-cc29-d829">
       <infoLinks>
@@ -143,6 +173,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cb7-d4b2-16c2-0c41"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Secret Tunnels" hidden="false" id="7f39-1b2c-5d12-7449">
       <infoLinks>
@@ -156,6 +189,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="14"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d875-0b23-8fbd-7c4b"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Shrine" hidden="false" id="5714-5693-8554-1f15">
       <infoLinks>
@@ -169,6 +205,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="14"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cf8-c133-6ec8-6060"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Smallholding" hidden="false" id="c1f4-ab41-191b-eb0e">
       <infoLinks>
@@ -182,6 +221,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="10"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c5a-6fe6-00a5-50f6"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Smithy" hidden="false" id="cca7-24e1-c4e3-ed6b">
       <infoLinks>
@@ -195,6 +237,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b661-51a1-90e8-b104"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alchemy Laboratory" hidden="false" id="00cb-eca5-c9a6-d8bb">
       <infoLinks>
@@ -208,6 +253,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b229-b11a-5960-f493"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Apothecarium" hidden="false" id="6a68-26c4-23bc-4722">
       <infoLinks>
@@ -221,6 +269,9 @@
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="10"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1e6-11ee-b9f8-7ff6"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

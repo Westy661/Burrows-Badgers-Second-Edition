@@ -6575,9 +6575,6 @@ D6 ROLL RESULT
                                   </repeats>
                                 </modifier>
                               </modifiers>
-                              <constraints>
-                                <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="3a23-a79a-0dcb-48c1" includeChildSelections="true"/>
-                              </constraints>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="add7-68e8-b270-9c7e">
                               <infoLinks>
