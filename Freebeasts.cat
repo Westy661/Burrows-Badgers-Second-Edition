@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="8e43-6da2-cb09-05cd" name="Freebeasts" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Warband" id="ed54-bfa6-e2bc-d786" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="734d-80d0-5220-ef02" targetId="b6a0-9ed3-91e6-1eab" type="categoryEntry"/>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="4367-7da5-4abd-a62d" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="e086-4e22-7ad6-5da7" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="471f-de29-8487-4a99" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="1d03-9044-dda1-a1c5" targetId="6803-87ba-83c4-bd4b"/>
+        <categoryLink name="Den Upgrade" hidden="false" id="dd99-ff6f-0264-2db7" targetId="583b-2cca-fae6-9a19"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Freebeast" hidden="false" id="6a58-ff86-c0ab-c418">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81a6-9f21-1f94-d33e"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b426-0f07-9fa9-e7b6"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Freebeast" id="68a6-7448-d261-14f9" hidden="false" type="profile" targetId="134f-96ae-f067-5b40"/>
+        <infoLink name="One to Watch" id="ace2-f748-713a-b1a1" hidden="false" type="rule" targetId="08d5-57b4-a046-8b5f"/>
+        <infoLink name="Deep Pockets" id="19fe-416d-02b2-e3ca" hidden="false" type="rule" targetId="f05e-a7df-d743-c30d"/>
+        <infoLink name="Allegiance Archetype: All-rounder" id="c042-53b7-ddec-6e71" hidden="false" type="rule" targetId="fd1b-123b-073d-4843"/>
+        <infoLink name="Magical Archetypes" id="8976-8ef2-19bd-ac11" hidden="false" type="rule" targetId="f790-b03c-30c1-169e"/>
+        <infoLink name="Look After Yourself" id="d5c6-715b-2986-a1c8" hidden="false" type="rule" targetId="c66b-8b4b-de4a-ab9e"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Freebeast" hidden="false" id="5cc4-2b49-db31-2883" targetId="6a58-ff86-c0ab-c418" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="07da-b2b7-310e-d1bc" targetId="b6a0-9ed3-91e6-1eab" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="fa5c-9a11-fdf5-090e" targetId="e7c5-f4ae-d0e7-9f53"/>
+  </catalogueLinks>
+  <sharedRules>
+    <rule name="One to Watch" id="08d5-57b4-a046-8b5f" hidden="false">
+      <description>Two of your models may improve their Presence or Awareness dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Deep Pockets" id="f05e-a7df-d743-c30d" hidden="false">
+      <description>You have an extra 25 Pennies to spend at Band creation, for a total of 375 Pennies.
+In addition, in the Post-Battle Phase when checking for Availability of Rare Equipment in the General Store (see page 176), you may roll 3d6, rather than the usual 2d6.</description>
+    </rule>
+    <rule name="Allegiance Archetype: All-rounder" id="fd1b-123b-073d-4843" hidden="false"/>
+    <rule name="Magical Archetypes" id="f790-b03c-30c1-169e" hidden="false">
+      <description>Freebeast Magic-users may choose from Natural, Dark, Noble, Unbound, Fate-weaver, and Illusionism.</description>
+    </rule>
+    <rule name="Look After Yourself" id="c66b-8b4b-de4a-ab9e" hidden="false">
+      <description>Every model that does not go Out of Action during the Battle gains 1 Experience point, in addition to any normally awarded by the Main Quest being played. Each model still in Action on Turn 3 gains 1 Fate point. Each model still in Action on Turn 6 gains 1 Fate point.</description>
+    </rule>
+  </sharedRules>
+  <categoryEntries>
+    <categoryEntry name="Allegiance" id="b6a0-9ed3-91e6-1eab" hidden="false"/>
+  </categoryEntries>
+</catalogue>

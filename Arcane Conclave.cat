@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="62be-40e2-c6b0-9ab2" name="Arcane Conclave" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="eb5f-16ed-8960-b13a" targetId="e7c5-f4ae-d0e7-9f53"/>
+  </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Warband" id="9fa3-8354-5355-859e" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="2660-72e9-6fa4-d676" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="5f69-dbfc-f7a8-c924" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="2441-15b1-589d-d836" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="359e-f806-24bf-9812" targetId="6803-87ba-83c4-bd4b"/>
+        <categoryLink name="Den Upgrade" hidden="false" id="f7ac-5e81-d695-f449" targetId="583b-2cca-fae6-9a19"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Arcane Conclaves" hidden="false" id="10da-69cb-5d7f-adb3">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="70a8-8f7d-5652-2d51"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e813-e2f8-e170-ec0e"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Arcane Conclaves" id="54ea-3348-e8e1-76f5" hidden="false" type="profile" targetId="57ae-059c-f07f-303a"/>
+        <infoLink name="Allegiance Archetype: Cunning Folk" id="709a-459f-166b-acbe" hidden="false" type="rule" targetId="df21-cc6a-8aa9-6d11"/>
+        <infoLink name="Magical Archetypes" id="b93f-ca55-e76f-5ba6" hidden="false" type="rule" targetId="8cbf-fae8-7c48-7438"/>
+        <infoLink name="Magical Studies" id="701d-3452-8a07-907c" hidden="false" type="rule" targetId="11ca-a217-8779-d9d9"/>
+        <infoLink name="Perform the Ritual" id="10be-e020-e44c-4822" hidden="false" type="rule" targetId="cddd-ce93-9857-0f97"/>
+        <infoLink name="Mental Prowess" id="3d0b-20ef-98bf-d915" hidden="false" type="rule" targetId="c7dd-d840-763e-2b2d"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Arcane Conclaves" hidden="false" id="4368-5ccc-2251-174f" targetId="10da-69cb-5d7f-adb3" type="selectionEntry"/>
+  </entryLinks>
+  <rules>
+    <rule name="Mental Prowess" id="c7dd-d840-763e-2b2d" hidden="false">
+      <description>Two of your models may improve their Fortitude or Presence dice by one level, up to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Magical Studies" id="11ca-a217-8779-d9d9" hidden="false">
+      <description>All models in an Arcane Conclave Band must be Magic-users, and start with at least one Spell.</description>
+    </rule>
+    <rule name="Allegiance Archetype: Cunning Folk" id="df21-cc6a-8aa9-6d11" hidden="false">
+      <description>Allegiance Archetype: Cunning Folk</description>
+    </rule>
+    <rule name="Magical Archetypes" id="8cbf-fae8-7c48-7438" hidden="false">
+      <description>Arcane Conclave Magic-users may choose from the Natural, Wild, Light, Dark, Noble, Unbound, Fate-weaver, Illusionist, and Elementalist Spell lists.</description>
+    </rule>
+    <rule name="Perform the Ritual" id="cddd-ce93-9857-0f97" hidden="false">
+      <description>Place some kind of ritual marker within 24” of the enemy’s Table Corner; something like a standing stone, statue, or altar, on a 50mm base or similar (use whatever you have, really!).
+- Any of your models in Base Contact with the ritual marker may declare an Interact Action, then make a Presence Roll-off against a Difficulty of 0. Make a note of the Result, adding it to any Results of other ‘Perform the Ritual’ Interact Actions your Band has made. Any model who rolls a Result of 8 or more gains 1 Fate point and 1 Experience point.
+- If your Band manages to roll a combined Result of over 50 before the game ends, all models receive 1 Experience point.</description>
+    </rule>
+  </rules>
+</catalogue>

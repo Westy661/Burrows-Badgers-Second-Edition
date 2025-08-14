@@ -243,7 +243,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alchemy Laboratory" hidden="false" id="00cb-eca5-c9a6-d8bb">
       <infoLinks>
-        <infoLink name="Alchemy Laboratory" id="f33d-26e2-a4ef-4721" hidden="false" type="profile" targetId="4bba-80ca-f8a6-95df"/>
+        <infoLink name="Study" id="f33d-26e2-a4ef-4721" hidden="false" type="profile" targetId="cb01-b841-0e41-2302"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Den Upgrade" hidden="false" id="091e-7f1c-c2ff-7207" targetId="583b-2cca-fae6-9a19" primary="true"/>
@@ -271,6 +271,22 @@
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1e6-11ee-b9f8-7ff6"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Study" hidden="false" id="797b-037f-3d75-7a5a">
+      <infoLinks>
+        <infoLink name="Study" id="29c8-3054-ba67-6220" hidden="false" type="profile" targetId="cb01-b841-0e41-2302"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Den Upgrade" hidden="false" id="17cf-f0c2-8a4c-0cfc" targetId="583b-2cca-fae6-9a19" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cd9-6f77-a7a4-7a35"/>
       </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -419,23 +435,24 @@ You may pray for a blessing before each Battle; roll a d6.
     </profile>
   </sharedProfiles>
   <entryLinks>
-    <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="6104-117e-4716-c2ca" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry"/>
     <entryLink import="true" name="Apothecarium" hidden="false" id="d5fb-16d0-76a8-2e20" targetId="6a68-26c4-23bc-4722" type="selectionEntry"/>
-    <entryLink import="true" name="Archery Range" hidden="false" id="015f-5ec4-bf9e-8308" targetId="782c-e925-cfcf-9800" type="selectionEntry"/>
+    <entryLink import="true" name="Archery Range" hidden="false" id="015f-5ec4-bf9e-8308" targetId="782c-e925-cfcf-9800" type="selectionEntry" defaultAmount="1"/>
     <entryLink import="true" name="Chapel" hidden="false" id="667e-0577-1c98-a7e0" targetId="9170-885c-961e-ee6d" type="selectionEntry"/>
     <entryLink import="true" name="Fletcher" hidden="false" id="8d4f-70bc-9c4b-056c" targetId="1ed9-4f1a-6ba6-8f9e" type="selectionEntry"/>
     <entryLink import="true" name="Fletcher" hidden="false" id="4947-c688-0407-6065" targetId="1ed9-4f1a-6ba6-8f9e" type="selectionEntry"/>
     <entryLink import="true" name="Gambling Den" hidden="false" id="ef15-36c2-2c4f-5c8f" targetId="a183-459a-c750-4d2b" type="selectionEntry"/>
-    <entryLink import="true" name="Gymnasium" hidden="false" id="994d-ae3d-a765-5ac1" targetId="d0de-b562-4252-73f2" type="selectionEntry"/>
+    <entryLink import="true" name="Gymnasium" hidden="false" id="994d-ae3d-a765-5ac1" targetId="d0de-b562-4252-73f2" type="selectionEntry" defaultAmount="0"/>
     <entryLink import="true" name="Jewellers Workshop" hidden="false" id="2100-d2fc-1448-4817" targetId="72fe-9908-99f5-2de7" type="selectionEntry"/>
-    <entryLink import="true" name="Library" hidden="false" id="baf4-d1dd-1417-6fb4" targetId="c90f-a8b1-5c5e-39b6" type="selectionEntry"/>
+    <entryLink import="true" name="Library" hidden="false" id="baf4-d1dd-1417-6fb4" targetId="c90f-a8b1-5c5e-39b6" type="selectionEntry" defaultAmount="0"/>
     <entryLink import="true" name="Magical Garden" hidden="false" id="e51b-812d-3a63-6488" targetId="d9b1-d98f-7ead-916f" type="selectionEntry"/>
-    <entryLink import="true" name="Obstacle Course" hidden="false" id="c32b-0547-d48d-34fc" targetId="cc99-e531-cbd8-8222" type="selectionEntry"/>
+    <entryLink import="true" name="Obstacle Course" hidden="false" id="c32b-0547-d48d-34fc" targetId="cc99-e531-cbd8-8222" type="selectionEntry" defaultAmount="0"/>
     <entryLink import="true" name="Occult Laboratory" hidden="false" id="0973-23bf-ec70-5206" targetId="12db-5777-cc47-c01d" type="selectionEntry"/>
-    <entryLink import="true" name="Pells and Training Ground" hidden="false" id="5ba4-995f-2bc9-1a40" targetId="17b2-efd9-cc29-d829" type="selectionEntry"/>
+    <entryLink import="true" name="Pells and Training Ground" hidden="false" id="5ba4-995f-2bc9-1a40" targetId="17b2-efd9-cc29-d829" type="selectionEntry" defaultAmount="1"/>
     <entryLink import="true" name="Secret Tunnels" hidden="false" id="b475-96ce-77f8-6938" targetId="7f39-1b2c-5d12-7449" type="selectionEntry"/>
     <entryLink import="true" name="Shrine" hidden="false" id="c4d7-cf94-5d76-5fcd" targetId="5714-5693-8554-1f15" type="selectionEntry"/>
     <entryLink import="true" name="Smallholding" hidden="false" id="fc2f-1025-de92-aa66" targetId="c1f4-ab41-191b-eb0e" type="selectionEntry"/>
     <entryLink import="true" name="Smithy" hidden="false" id="0c42-4ebd-cd6c-ef30" targetId="cca7-24e1-c4e3-ed6b" type="selectionEntry"/>
+    <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="4f14-793e-098e-f405" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry"/>
+    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0"/>
   </entryLinks>
 </catalogue>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="fed0-6ff5-3773-1162" name="Hillfolk" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="2772-8f7f-1cca-4773" targetId="e7c5-f4ae-d0e7-9f53"/>
+  </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Warband" id="c77a-c2a0-956c-80a4" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="76b9-71c3-8303-a0d7" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="6310-1b67-8f24-43e8" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="5d8a-7089-6635-d8dd" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="efdb-66a6-d477-5dba" targetId="6803-87ba-83c4-bd4b"/>
+        <categoryLink name="Den Upgrade" hidden="false" id="7b65-72dd-31d5-8c1f" targetId="583b-2cca-fae6-9a19"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Hillfolk" hidden="false" id="d49b-0548-5a3f-1240">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3ac-908a-f618-c6bd"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a36-5267-31fd-5d79"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Hillfolk" id="0df4-29c6-36d3-6fa1" hidden="false" type="profile" targetId="a3fe-3e86-6b94-4cff"/>
+        <infoLink name="Allegiance Archetype: All-rounder" id="7ba1-82b9-7737-16c0" hidden="false" type="rule" targetId="4f55-de53-0416-1758"/>
+        <infoLink name="Magical Archetypes" id="652a-d007-2ad8-4177" hidden="false" type="rule" targetId="431f-1fe0-ae3b-f64d"/>
+        <infoLink name="Raid" id="96db-fb00-a64a-9a83" hidden="false" type="rule" targetId="6b2e-4e50-02ba-768c"/>
+        <infoLink name="Fast and Furious" id="561e-9ba3-3911-7e3b" hidden="false" type="rule" targetId="89d3-ca6d-4d39-74ea"/>
+        <infoLink name="Fabled Pipers" id="9740-8c73-95c2-4158" hidden="false" type="rule" targetId="ed2d-f9bb-4e1e-3919"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Hillfolk" hidden="false" id="349f-a16e-8bce-8b7a" targetId="d49b-0548-5a3f-1240" type="selectionEntry"/>
+  </entryLinks>
+  <rules>
+    <rule name="Fast and Furious" id="89d3-ca6d-4d39-74ea" hidden="false">
+      <description>Two of your models may improve their Move or Nimbleness or Fortitude dice by one level, to a maximum of d12. This increases the model’s Level by one.</description>
+    </rule>
+    <rule name="Fabled Pipers" id="ed2d-f9bb-4e1e-3919" hidden="false">
+      <description>One model may purchase Bagpipes (Item) for 20 Pennies and will be considered a Piper. You may only have one Piper in a Band at any time. The Piper may use an Interact Action to play the Bagpipes. Pick one of the following tunes and apply the effects until the end of the Turn. Note, models will not benefit from the tune’s effects if they are equipped with Heavy Armour, Very Heavy Armour, or a Heavy Shield.
+
+
+- Strathspey: All models in the Band count as having the Skill ‘All-out Attack’
+until the end of the Turn. However, they do not have to spend a Fate point
+to use that Skill.
+- Hornpipe: All models in the Band count as having the Skill ‘Rock Steady’
+until the end of the Turn. However, they do not have to spend a Fate point
+to use that Skill.
+- Jig: All models in the Band count as having the Skill ‘Dodge’ until the end
+of the Turn.
+- March: All models in the Band count as having the Skill ‘Burst of Speed’
+until the end of the Turn. However, they do not have to spend a Fate point
+to use that Skill.
+- Reel: All models in the Band count as having the Skill ‘Slippery’ until the end of
+the Turn. However, they do not have to spend a Fate point to use that Skill.</description>
+    </rule>
+    <rule name="Allegiance Archetype: All-rounder" id="4f55-de53-0416-1758" hidden="false">
+      <description>Allegiance Archetype: All-rounder</description>
+    </rule>
+    <rule name="Magical Archetypes" id="431f-1fe0-ae3b-f64d" hidden="false">
+      <description>Hillfolk Magic-users may choose from Natural, Light, Wild, and Elementalism.</description>
+    </rule>
+    <rule name="Raid:" id="6b2e-4e50-02ba-768c" hidden="false">
+      <description>You must choose and then reach one of the enemy’s Objectives, then drag it off the table at your Table Corner. Dragging the Objective will slow the model holding it; all movement is treated as Difficult
+Terrain while moving it. The model dragging the Objective may stop doing so at any time. As the Objective is large and heavy, Spells such as The Gate or Transpose will not affect it; the dragging models would be moved but the
+
+
+Objective would remain in place. Each Turn that the enemy Objective is being dragged, any single Hillfolk model may be given 1 Fate point. When the Objective has been moved to within 12” of your Table Corner, all your models receive 1 Fate point. If the Objective is dragged off at your Table Corner, all models in your Band gain 1 Experience point.</description>
+    </rule>
+  </rules>
+</catalogue>

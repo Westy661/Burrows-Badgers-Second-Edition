@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="ce6c-0ece-4fcd-35dc" name="Undead" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="5f49-0d3f-b80e-c474" targetId="e7c5-f4ae-d0e7-9f53"/>
+  </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Warband" id="1b4d-9c25-6dd7-e4e8" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7a93-8bb3-28c5-6395" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="dfa9-641b-a5d5-8e73" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="5b64-af20-7a19-0c04" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="eb10-855f-baff-026a" targetId="6803-87ba-83c4-bd4b"/>
+        <categoryLink name="Den Upgrade" hidden="false" id="c59a-bbf3-a2cd-d7fa" targetId="583b-2cca-fae6-9a19"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Undead" hidden="false" id="4f4d-602d-cfa2-e6df">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4289-3534-0c26-f709"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5a0-7594-856f-5e74"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Undead" id="6e95-e27e-80db-7934" hidden="false" type="profile" targetId="0d28-6e28-6f79-9999"/>
+        <infoLink name="Allegiance Archetype: Cunning Folk" id="6eed-913e-669e-872d" hidden="false" type="rule" targetId="08db-9e6a-d58f-a913"/>
+        <infoLink name="Restless Spirits" id="b806-82cf-c6e0-f76b" hidden="false" type="rule" targetId="6864-fffd-b248-7472"/>
+        <infoLink name="Relics of a Past Life" id="d474-b080-0105-20b2" hidden="false" type="rule" targetId="d3eb-8b30-710e-b003"/>
+        <infoLink name="Magical Archetypes" id="7d7c-76f8-1ec4-047f" hidden="false" type="rule" targetId="ee4e-c402-aca9-3267"/>
+        <infoLink name="Bringers of Ruin" id="f8d3-4136-6e28-55da" hidden="false" type="rule" targetId="2f02-8394-42ab-9fd8"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Undead" hidden="false" id="b2de-4ff5-ee8c-4094" targetId="4f4d-602d-cfa2-e6df" type="selectionEntry"/>
+  </entryLinks>
+  <rules>
+    <rule name="Relics of a Past Life" id="d3eb-8b30-710e-b003" hidden="false">
+      <description>Two of your models may improve any one Stat by one level, to a maximum of d12. This does not have to be the same Stat for each model. This increases the models’ Levels by one.
+- The Band’s Leader and Second must be a Magic-user or Stable Ghast. If the Leader is a Stable Ghast, that model does not have the Skill Otherworldly, but the Band may only include Stable Ghasts and Mist Ghasts.</description>
+    </rule>
+    <rule name="Restless Spirits" id="6864-fffd-b248-7472" hidden="false">
+      <description>At least half the models in the Band must be Mist Ghasts, but the Band may include 13 models rather than the normal limit of 10.
+During the Off-Duty section of the Post-Battle Phase, Stable Ghasts and Mist Ghasts may not Wander, but can Labour, Train, or Rest as normal.
+
+
+- Stable Ghasts: Signing-on Fee: As the living Species, plus 15 Pennies. An ancient champion. This model can increase one Statistic by one dice level (e.g. a d4 Stat would become a d6 Stat). However, no Stat may be higher than d12 in a starting Band. They may also choose one extra Skill. They count as two Levels higher than their Species (which cannot be a Mist Ghast) would normally be at Band creation. They also have the Skills Otherworldly and Uncanny.
+- Mist Ghasts: Mist Ghasts gain Experience and suffer injuries like any other model. However, they count as always being equipped with a single one-handed weapon and cannot be given any other Equipment. They cannot use Spells. Reroll any Experience Advances that refer to the Ranged Stat or Shooting Skills.
+- Living Band Members: In addition to Stable Ghasts and Mist Ghasts, you can hire any normal models too (unless your Leader is a Stable Ghast, as noted above). Any you choose to be Magic-users are hired normally. Any non-Magic-users you hire are instead hired for half the normal Signing-on Fee but receive the Innate Skill ‘Unreliable’.</description>
+    </rule>
+    <rule name="Upkeep" id="c91d-6cfb-c395-1814" hidden="false">
+      <description>An Undead Band pays Upkeep like any other Band. Just think of it as needing ectoplasm rather than food!</description>
+    </rule>
+    <rule name="Allegiance Archetype: Cunning Folk" id="08db-9e6a-d58f-a913" hidden="false">
+      <description>Allegiance Archetype: Cunning Folk</description>
+    </rule>
+    <rule name="Magical Archetypes" id="ee4e-c402-aca9-3267" hidden="false">
+      <description>Undead Magic-users may choose from Natural, Dark, and Necromancy.</description>
+    </rule>
+    <rule name="Bringers of Ruin" id="2f02-8394-42ab-9fd8" hidden="false">
+      <description>Any model who takes an enemy model Out of Action gains 1 Fate point. Any model still on the table on Turn 3 gains 1 Fate point. Any model still on the table on Turn 6 gains 1 Fate point and 1 Experience point.</description>
+    </rule>
+  </rules>
+</catalogue>

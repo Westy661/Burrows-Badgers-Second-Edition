@@ -6,15 +6,60 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Den Upgrade" hidden="false" id="bc59-218a-c9b7-090c" targetId="583b-2cca-fae6-9a19"/>
+        <categoryLink name="Allegiance" hidden="false" id="0830-2bbe-832a-093a" targetId="9744-970b-5561-3d61"/>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="c914-f26b-b7ca-31f6" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="a246-2bbf-13ce-5d6b" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="03cb-b7cc-5b70-ff5a" targetId="9ed2-8233-7200-924b"/>
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="c1e1-92bb-da51-7107" targetId="6803-87ba-83c4-bd4b"/>
-        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="c914-f26b-b7ca-31f6" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Den Upgrade" hidden="false" id="bc59-218a-c9b7-090c" targetId="583b-2cca-fae6-9a19"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Campaign" id="c1cc-5f39-41bf-429d" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Allegiance" id="9744-970b-5561-3d61" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Rogues" hidden="false" id="50ec-2aab-28b0-12e1">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="b2de-ca3c-f4c1-1dd8" targetId="9744-970b-5561-3d61" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6705-18e4-f59e-e304-min"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6705-18e4-f59e-e304-max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance Archetype: Warrior" id="3ea1-b9d0-3012-7db0" hidden="false" type="rule" targetId="7f41-617c-88cf-1eb8"/>
+        <infoLink name="Expert Training" id="cd1f-345c-b4cc-b246" hidden="false" type="rule" targetId="5a03-e3b6-060c-b836"/>
+        <infoLink name="Support Quest" id="b991-ff62-f298-02c0" hidden="false" type="rule" targetId="a611-a458-e53a-f835"/>
+        <infoLink name="Magical Archetypes" id="927f-c3a4-969c-0565" hidden="false" type="rule" targetId="3780-9be5-ebbe-30f1"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Rogues" hidden="false" id="779b-e839-8df7-535e" targetId="50ec-2aab-28b0-12e1" type="selectionEntry" defaultAmount="1">
+      <profiles>
+        <profile name="Allegiance: Rogues" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="1422-f7f0-1055-1bc4"/>
+      </profiles>
+    </entryLink>
+  </entryLinks>
+  <rules>
+    <rule name="Allegiance Archetype: Warrior" id="7f41-617c-88cf-1eb8" hidden="false"/>
+    <rule name="Expert Training" id="5a03-e3b6-060c-b836" hidden="false">
+      <description>Two of your models may improve their Strike dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Magical Archetypes" id="3780-9be5-ebbe-30f1" hidden="false">
+      <description>Royalist Magic-users may choose from Natural, Light, Noble, Unbound, Divine, and Elementalism.</description>
+    </rule>
+    <rule name="Support Quest" id="a611-a458-e53a-f835" hidden="false">
+      <description>The King Wills It!: Any model who takes an enemy model Out of Action using an Attack Action (including the bonus Attack from Charging, or the free Attack when an enemy moves out of Base Contact) gains 1 Fate point and 1 Experience point.</description>
+    </rule>
+  </rules>
 </catalogue>

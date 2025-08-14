@@ -11,6 +11,7 @@
     <categoryEntry name="Starting Equipment" id="3359-f6f3-9852-b8c0" hidden="false"/>
     <categoryEntry name="General Store Equipment" id="874a-091c-7fe7-ba43" hidden="false"/>
     <categoryEntry name="Den Upgrade" id="583b-2cca-fae6-9a19" hidden="false"/>
+    <categoryEntry name="Allegiance" id="1bc5-0b8a-1258-293f" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType defaultCostLimit="350" id="6752-9e0b-692e-d5b9" name="Penny"/>
@@ -87,6 +88,7 @@
         <characteristicType name="Rules" id="a5c7-15a9-5430-662a"/>
       </characteristicTypes>
     </profileType>
+    <profileType name="Allegiance" id="b03a-98be-dd5f-032a" hidden="false"/>
   </profileTypes>
   <sharedRules>
     <rule hidden="false" id="f001" name="Killing Blow">
@@ -2172,7 +2174,7 @@ D6 ROLL RESULT
               <selectionEntryGroups>
                 <selectionEntryGroup name="Magical Archetypes" id="eaec-364f-6d78-881f" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Natural" hidden="false" id="22f2-f009-c644-0fa0">
+                    <selectionEntry type="upgrade" import="true" name="Natural" hidden="true" id="22f2-f009-c644-0fa0">
                       <profiles>
                         <profile name="Magic User: Natural" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="0c9b-a903-f9a8-0555">
                           <characteristics>
@@ -2249,8 +2251,23 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Light" hidden="false" id="f62e-9ccb-f486-874d">
+                    <selectionEntry type="upgrade" import="true" name="Light" hidden="true" id="f62e-9ccb-f486-874d">
                       <profiles>
                         <profile name="Magic User: Light" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="f4e7-e51a-6674-0e9b">
                           <characteristics>
@@ -2327,8 +2344,21 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Dark" hidden="false" id="5e0b-336f-9083-9b35">
+                    <selectionEntry type="upgrade" import="true" name="Dark" hidden="true" id="5e0b-336f-9083-9b35">
                       <profiles>
                         <profile name="Magic User: Dark" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="fa2a-6f55-111d-f661">
                           <characteristics>
@@ -2405,8 +2435,20 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Wild" hidden="false" id="db7a-bad2-1b22-1918">
+                    <selectionEntry type="upgrade" import="true" name="Wild" hidden="true" id="db7a-bad2-1b22-1918">
                       <profiles>
                         <profile name="Magic User: Wild" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="1efd-3dc4-ba21-99cd">
                           <characteristics>
@@ -2483,8 +2525,21 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Unbound" hidden="false" id="9b52-194e-86cb-0eb2">
+                    <selectionEntry type="upgrade" import="true" name="Unbound" hidden="true" id="9b52-194e-86cb-0eb2">
                       <profiles>
                         <profile name="Magic User: Unbound" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="ff93-cf34-1694-4ce5">
                           <characteristics>
@@ -2561,8 +2616,22 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Noble" hidden="false" id="2d11-35e4-63dd-e0a9">
+                    <selectionEntry type="upgrade" import="true" name="Noble" hidden="true" id="2d11-35e4-63dd-e0a9">
                       <profiles>
                         <profile name="Magic User: Noble" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="7d62-5c6f-e1df-3356">
                           <characteristics>
@@ -2639,8 +2708,23 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Divine" hidden="false" id="9474-4b5d-06ab-1723">
+                    <selectionEntry type="upgrade" import="true" name="Divine" hidden="true" id="9474-4b5d-06ab-1723">
                       <profiles>
                         <profile name="Magic User: Divine" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="d0d5-cef4-c36a-ddea">
                           <characteristics>
@@ -2724,8 +2808,21 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Channelling" hidden="false" id="a648-40b3-465f-2b02">
+                    <selectionEntry type="upgrade" import="true" name="Channelling" hidden="true" id="a648-40b3-465f-2b02">
                       <profiles>
                         <profile name="Magic User: Channelling" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="e7e0-c9fa-01d8-162d">
                           <characteristics>
@@ -2802,8 +2899,19 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Feate-weaving" hidden="false" id="cb1a-df23-90e8-a629">
+                    <selectionEntry type="upgrade" import="true" name="Feate-weaving" hidden="true" id="cb1a-df23-90e8-a629">
                       <profiles>
                         <profile name="Magic User: Feate-weaving" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="8289-de56-3616-171d">
                           <characteristics>
@@ -2880,8 +2988,21 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Illusionism" hidden="false" id="3502-83b0-c9a1-774b">
+                    <selectionEntry type="upgrade" import="true" name="Illusionism" hidden="true" id="3502-83b0-c9a1-774b">
                       <profiles>
                         <profile name="Magic User: Illusionism" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="14f4-6a24-2fff-9813">
                           <characteristics>
@@ -2958,8 +3079,21 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Elementalism" hidden="false" id="804d-a452-0fb6-721d">
+                    <selectionEntry type="upgrade" import="true" name="Elementalism" hidden="true" id="804d-a452-0fb6-721d">
                       <profiles>
                         <profile name="Magic User: Elementalism" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="1e88-50ed-5176-2cb0">
                           <characteristics>
@@ -3107,8 +3241,21 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Necromancy" hidden="false" id="3d6a-448e-deb6-c610">
+                    <selectionEntry type="upgrade" import="true" name="Necromancy" hidden="true" id="3d6a-448e-deb6-c610">
                       <profiles>
                         <profile name="Magic User: Necromancy" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="c6e4-6738-264a-b819">
                           <characteristics>
@@ -3205,6 +3352,17 @@ D6 ROLL RESULT
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -10606,5 +10764,15 @@ any three of the following at the start of each Battle: Healing Potion, Pain Poi
 Paralysing Poison (1 use), or Mortal Poison (1 use).</characteristic>
       </characteristics>
     </profile>
+    <profile name="Allegiance: Freebeast" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="134f-96ae-f067-5b40"/>
+    <profile name="Allegiance: Royalist" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="f878-2799-f5d5-fd99"/>
+    <profile name="Allegiance: Rogue" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="edfd-167e-8ea8-96aa"/>
+    <profile name="Allegiance: Kindred" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="1b2d-75b3-94e1-3262"/>
+    <profile name="Allegiance: Routiers" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="228e-7552-a3f2-c44a"/>
+    <profile name="Allegiance: Wildlings" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="926b-2176-576a-1072"/>
+    <profile name="Allegiance: Undead" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="0d28-6e28-6f79-9999"/>
+    <profile name="Allegiance: Hillfolk" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="a3fe-3e86-6b94-4cff"/>
+    <profile name="Allegiance: Witch Hunter" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="e4e7-3e7d-efaf-4647"/>
+    <profile name="Allegiance: Arcane Conclaves" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="57ae-059c-f07f-303a"/>
   </sharedProfiles>
 </gameSystem>

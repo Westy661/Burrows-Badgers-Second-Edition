@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="8176-1d0a-206b-f9e9" name="Royalists" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="dc5b-46ca-c5f0-bc5d" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Royalists" hidden="false" id="9112-899f-db52-9f2d" targetId="3f8a-5bc3-894d-b885" type="selectionEntry" sortIndex="-1"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Royalists" hidden="false" id="3f8a-5bc3-894d-b885">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="725d-5029-0d79-d3c7"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1a4-97eb-2232-9a72"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Royalist" id="067c-36e8-a01d-2cc1" hidden="false" type="profile" targetId="f878-2799-f5d5-fd99"/>
+        <infoLink name="Allegiance Archetype: Warrior" id="483f-147d-23d3-338e" hidden="false" type="rule" targetId="dba1-ee64-c5fe-4aeb"/>
+        <infoLink name="The King Wills It!" id="02be-1f73-5d0c-7667" hidden="false" type="rule" targetId="98f4-6f9c-c82e-a19d"/>
+        <infoLink name="Expert Training" id="ec36-5c4b-3444-a22a" hidden="false" type="rule" targetId="609f-e1c9-1044-0774"/>
+        <infoLink name="Magical Archetypes" id="fc51-4997-e50b-8b8a" hidden="false" type="rule" targetId="2061-6304-a2f9-0ac9"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <forceEntries>
+    <forceEntry name="Warband" id="e7b7-bbb0-68b6-9734" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="e35f-958a-da0b-150d" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="97c3-b3ea-e930-48fc" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="1ade-d1b9-589a-5db2" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="3a9f-4df1-92bc-59ef" targetId="6803-87ba-83c4-bd4b"/>
+        <categoryLink name="Den Upgrade" hidden="false" id="8a47-b016-b2a0-6865" targetId="583b-2cca-fae6-9a19"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <rules>
+    <rule name="Expert Training" id="609f-e1c9-1044-0774" hidden="false">
+      <description>Two of your models may improve their Strike dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Allegiance Archetype: Warrior" id="dba1-ee64-c5fe-4aeb" hidden="false">
+      <description>Allegiance Archetype: Warrior</description>
+    </rule>
+    <rule name="Magical Archetypes" id="2061-6304-a2f9-0ac9" hidden="false">
+      <description>Royalist Magic-users may choose from Natural, Light, Noble, Unbound, Divine, and Elementalism.</description>
+    </rule>
+    <rule name="The King Wills It!" id="98f4-6f9c-c82e-a19d" hidden="false">
+      <description>Any model who takes an enemy model Out of Action using an Attack Action (including the bonus Attack from Charging, or the free Attack when an enemy moves out of Base Contact) gains 1 Fate point and 1 Experience point.</description>
+    </rule>
+  </rules>
+</catalogue>

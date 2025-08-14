@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="9831-20f3-95b7-e442" name="Wildlings" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="41db-4a1d-04b1-788c" targetId="e7c5-f4ae-d0e7-9f53"/>
+  </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Warband" id="6910-0c2d-5a75-5c8f" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7dbe-9a91-7a6d-c6a6" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="671d-f16a-d8ae-531b" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="d2f4-0a91-5c91-88d5" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="9596-18ea-63b3-f690" targetId="6803-87ba-83c4-bd4b"/>
+        <categoryLink name="Den Upgrade" hidden="false" id="eb84-294d-1be9-5a32" targetId="583b-2cca-fae6-9a19"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Wildlings" hidden="false" id="8d39-93f9-26a9-651c">
+      <costs>
+        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3fc-3573-57dc-24a6"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="027c-f6d4-5419-784a"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Wildlings" id="34d4-7887-0755-e077" hidden="false" type="profile" targetId="926b-2176-576a-1072"/>
+        <infoLink name="Allegiance Archetype: All-rounder" id="78cd-7c62-1d83-a8d9" hidden="false" type="rule" targetId="0f5a-586b-1f9b-2c83"/>
+        <infoLink name="Born to be Wild" id="ddb4-eacd-b6d3-488e" hidden="false" type="rule" targetId="0580-000d-9442-925b"/>
+        <infoLink name="Back to Nature" id="9691-485d-d7aa-3c1f" hidden="false" type="rule" targetId="8ef3-c799-f2cb-f947"/>
+        <infoLink name="Magical Archetypes:" id="8174-9b49-735b-d9b2" hidden="false" type="rule" targetId="c1e7-7c82-6ebb-c9b5"/>
+        <infoLink name="Stay Pure" id="ca5a-6801-1a9b-5cca" hidden="false" type="rule" targetId="7ca4-ae17-1cd2-405c"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Wildlings" hidden="false" id="0550-0aa5-e27b-3224" targetId="8d39-93f9-26a9-651c" type="selectionEntry"/>
+  </entryLinks>
+  <rules>
+    <rule name="Born to be Wild" id="0580-000d-9442-925b" hidden="false">
+      <description>Three of your models may take either the Strong (1) Skill or the Tough (1) Skill. These are cumulative with any existing Strong/Tough Skills they have due to their Species. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Stay Pure" id="7ca4-ae17-1cd2-405c" hidden="false">
+      <description>No model in a Wildling Band may use any Black Powder weapons.</description>
+    </rule>
+    <rule name="Allegiance Archetype: All-rounder" id="0f5a-586b-1f9b-2c83" hidden="false">
+      <description>Allegiance Archetype: All-rounder</description>
+    </rule>
+    <rule name="Magical Archetypes" id="c1e7-7c82-6ebb-c9b5" hidden="false">
+      <description>Wildling Magic-users may choose from Natural, Wild, Dark, Fate-Weaver, Channelling and Elementalism</description>
+    </rule>
+    <rule name="Back to Nature" id="8ef3-c799-f2cb-f947" hidden="false">
+      <description>Reach Base Contact with the enemy’s Objectives and make an Interact Action to plant them with magically enhanced seeds; any model who seeds an enemy Objective gains 1 Fate point and 1 Experience point. Each Objective can only be seeded once.</description>
+    </rule>
+  </rules>
+</catalogue>
