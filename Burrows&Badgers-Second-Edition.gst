@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version='1.0' encoding='UTF-8'?>
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="1" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
@@ -14,8 +14,8 @@
   </categoryEntries>
   <costTypes>
     <costType defaultCostLimit="350" id="6752-9e0b-692e-d5b9" name="Penny"/>
-    <costType name="Labor" id="a8b9-14eb-c576-28d4" defaultCostLimit="-1"/>
-    <costType name="Material" id="ce21-5b5b-f092-7301" defaultCostLimit="-1"/>
+    <costType name="Labor" id="a8b9-14eb-c576-28d4" defaultCostLimit="0"/>
+    <costType name="Material" id="ce21-5b5b-f092-7301" defaultCostLimit="0"/>
   </costTypes>
   <publications>
     <publication hidden="false" id="2ab7-799f-9ff5-3e49" name="Burrows &amp; Badgers: Second Edition" publicationDate="29 May 2025" publisherUrl="https://www.ospreypublishing.com/uk/burrows--badgers-second-edition-9781472864673/" shortName="Burrows &amp; Badgers: Second Edition"/>
@@ -313,7 +313,7 @@ When this model makes an Ambush Charge or Ambush Shoot Action, they may also ro
       <alias>Cunning</alias>
       <description>This model is always ready to take advantage of their opponent’s mistakes; any time that they are subject to a Charge, Barge, Attack, Shoot, or Cast Action by an enemy model and that enemy model rolls a ‘1’ on their dice (before modifiers) then the Opportunist can take a free bonus Action next. This does not affect their usual Activation. If several models attacked them and all rolled 1s, this model gets an extra Action for each of them!</description>
     </rule>
-    <rule hidden="false" id="b262-b75e-75ae-d21e" name="The Lady&apos;s Favour">
+    <rule hidden="false" id="b262-b75e-75ae-d21e" name="The Lady's Favour">
       <alias>Cunning</alias>
       <description>Those on the Path of Errantry or serving in Knightly Orders often make a pilgrimage to Brocolita, near Carrowburgh, by the Old Wall. After three days and nights of fasting and vigil, those found worthy receive a vision of the Goddess Coventina, the Lady of the Lake, along with her blessing.
 
@@ -915,10 +915,10 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="29"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="32bd-5987-24a8-0fe1" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="3b27-4eb4-538f-304d" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -951,7 +951,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="36"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="88af-e83e-0d6f-36d3" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="c84a-696f-76d6-e15f" name="Fearless" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
@@ -981,7 +981,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="31"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="575b-3e31-766a-b38f" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="64ec-461e-7d68-c343" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1008,7 +1008,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="49"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="1391-f5c3-7d57-cb0d" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="8850-e0fb-d7fc-2fc7" name="Fearless" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
@@ -1038,7 +1038,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="34"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="2b57-8aa0-bace-04be" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="22c1-4de6-5f88-ce68" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1092,10 +1092,10 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="48"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="ed75-864e-0348-eada" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="33f8-aa2f-3795-2b91" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1132,7 +1132,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="28"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="893d-eedd-d6c2-5656" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="e2b1-71ab-0dde-a147" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
@@ -1163,7 +1163,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="43"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="5b74-9f70-28e2-4459" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="918c-db56-63d4-a1f0" name="Poisonous" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
@@ -1195,7 +1195,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="25"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="6df5-6828-db73-c60f" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="03b6-2c94-90da-b974" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1252,7 +1252,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="33"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="fec7-c054-2bf3-dad4" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="6bfb-1fd2-86ac-5a4a" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
@@ -1282,12 +1282,12 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="43"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="3261-84e1-d4a3-af3e" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="dca2-ee0a-8563-e293" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
         <infoLink hidden="false" id="62af-4d7d-72ef-4997" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="ea85-37d9-b2b4-d163" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1319,10 +1319,10 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="31"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="fc9e-8d74-bc32-c5bf" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="60bb-a200-6c7d-e3f9" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1380,7 +1380,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="36"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="fc13-24e8-974f-0580" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
         <categoryLink hidden="false" id="bfca-d046-b234-6cfd" name="Rare" primary="false" targetId="6daf-83fe-ef42-17d8"/>
       </categoryLinks>
       <constraints>
@@ -1411,7 +1411,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="38"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="e92c-50d4-7155-e6f9" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
         <categoryLink hidden="false" id="daaa-df14-0518-035a" name="Rare" primary="false" targetId="6daf-83fe-ef42-17d8"/>
       </categoryLinks>
       <constraints>
@@ -1449,7 +1449,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="26"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="5a9a-7ee7-73d9-e40f" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
         <categoryLink hidden="false" id="359c-798f-0d28-17d4" name="Rare" primary="false" targetId="6daf-83fe-ef42-17d8"/>
       </categoryLinks>
       <constraints>
@@ -1487,7 +1487,7 @@ D6 ROLL RESULT
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="eb73-a6b2-4c98-bd55" name="Leaper" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="5d2c-ec5a-2671-7fa0" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1521,7 +1521,7 @@ D6 ROLL RESULT
         <categoryLink hidden="false" id="4be9-c72b-57ab-b487" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="8401-2017-cedc-e2d6" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
@@ -1562,7 +1562,7 @@ D6 ROLL RESULT
         <categoryLink hidden="false" id="e143-f767-eb46-9cb7" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="890c-2e02-a4eb-e8cd" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1596,7 +1596,7 @@ D6 ROLL RESULT
         <categoryLink hidden="false" id="fadb-becf-d00e-7806" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="1901-64d9-861a-3286" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1630,7 +1630,7 @@ D6 ROLL RESULT
         <categoryLink hidden="false" id="ff20-ced0-2696-90d9" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="4b76-71f2-b54e-b5f6" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1696,7 +1696,7 @@ D6 ROLL RESULT
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="6d43-4820-10b1-baaf" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="c83f-8c72-2c5b-dac4" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
@@ -1732,7 +1732,7 @@ D6 ROLL RESULT
         <categoryLink hidden="false" id="b57f-aa72-2c5d-c8e5" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="189a-0032-8017-9754" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
@@ -1775,7 +1775,7 @@ D6 ROLL RESULT
         <constraint field="selections" id="aeeb-25cc-3ba4-769b" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="a352-74e1-0897-17ad" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1813,7 +1813,7 @@ D6 ROLL RESULT
         <constraint field="selections" id="edbf-9f12-a50d-d721" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="fca0-2dd2-dc0d-fff3" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
@@ -1887,7 +1887,7 @@ D6 ROLL RESULT
         <categoryLink hidden="false" id="3fc1-3757-64d9-b7e5" name="Large Beast (40mm Base)" primary="true" targetId="97ca-8945-7b55-dd53"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="31c5-f3d8-f814-5398" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
@@ -1960,10 +1960,10 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="61"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink hidden="false" id="6657-8589-606b-841f" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="0970-5ddf-5262-a66f" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
@@ -2000,7 +2000,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="42"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink hidden="false" id="1433-51bd-8476-ca85" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="0581-2ae5-1714-b802" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
@@ -2030,11 +2030,11 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="65"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink hidden="false" id="d8d5-a912-603b-f548" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="ebc6-dd2a-65d9-1c49" name="Flight" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="ea31-9b3d-49b6-df8e" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="3" field="annotation"/>
           </modifiers>
@@ -2067,7 +2067,7 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="59"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink hidden="false" id="ea05-053f-ad38-6cef" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="48c9-030c-ecc9-4e39" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -2094,10 +2094,10 @@ D6 ROLL RESULT
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="72"/>
       </costs>
       <categoryLinks>
-        <categoryLink hidden="false" id="b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
+        <categoryLink hidden="false" id="02d4-0b18-0a6f-72be" name="Massive Beast (50mm base)" primary="true" targetId="07b2-c48b-e2e1-2c84"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+        <infoLink name="Strong" id="ca51-5051-e3dd-316c" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="4" field="annotation"/>
           </modifiers>
@@ -2420,9 +2420,9 @@ D6 ROLL RESULT
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Wild Spells" id="45da-a013-2f2c-f19f" hidden="false" collective="true">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Stag&apos;s Leap" hidden="false" id="da4d-42d9-fd7f-deda" collective="true" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Stag's Leap" hidden="false" id="da4d-42d9-fd7f-deda" collective="true" sortIndex="1">
                               <infoLinks>
-                                <infoLink name="Stag&apos;s Leap" id="6cf3-835a-7579-7615" hidden="false" targetId="a8f3-4b2d-4f9e-91c5" type="profile"/>
+                                <infoLink name="Stag's Leap" id="6cf3-835a-7579-7615" hidden="false" targetId="a8f3-4b2d-4f9e-91c5" type="profile"/>
                                 <infoLink name="Weak" id="4461-6511-12d3-6736" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="473a-f50b-3b92-c136" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2430,9 +2430,9 @@ D6 ROLL RESULT
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d7f-dc5e-4429-bb3a"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Bear&apos;s Strength" hidden="false" id="d611-b407-7e5e-9c04" collective="true" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Bear's Strength" hidden="false" id="d611-b407-7e5e-9c04" collective="true" sortIndex="2">
                               <infoLinks>
-                                <infoLink name="Bear&apos;s Strength" id="03e4-c96d-4adc-e2ac" hidden="false" targetId="b9f4-4d8e-4c7a-82f1" type="profile"/>
+                                <infoLink name="Bear's Strength" id="03e4-c96d-4adc-e2ac" hidden="false" targetId="b9f4-4d8e-4c7a-82f1" type="profile"/>
                                 <infoLink name="Weak" id="5c0b-8a55-cad0-172b" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="06ae-7272-79c3-7fa5" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2498,9 +2498,9 @@ D6 ROLL RESULT
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Unbound Spells" id="8357-ebad-2b8f-f97f" hidden="false" collective="true">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bletchly&apos;s Cloak of Concealment" hidden="false" id="c8e2-2dac-65af-beca" collective="true" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Bletchly's Cloak of Concealment" hidden="false" id="c8e2-2dac-65af-beca" collective="true" sortIndex="1">
                               <infoLinks>
-                                <infoLink name="Bletchly&apos;s Cloak of Concealment" id="db97-e713-b618-ed17" hidden="false" targetId="a9f3-4c7b-4e1c-b82f" type="profile"/>
+                                <infoLink name="Bletchly's Cloak of Concealment" id="db97-e713-b618-ed17" hidden="false" targetId="a9f3-4c7b-4e1c-b82f" type="profile"/>
                                 <infoLink name="Weak" id="1a9c-7521-eb0e-cfe5" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="cfed-45a4-0d8e-9c0e" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2508,9 +2508,9 @@ D6 ROLL RESULT
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65c7-da5a-a551-9ff2"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Morglum&apos;s Fiery Blast" hidden="false" id="30f9-43d8-0986-cc00" collective="true" sortIndex="3">
+                            <selectionEntry type="upgrade" import="true" name="Morglum's Fiery Blast" hidden="false" id="30f9-43d8-0986-cc00" collective="true" sortIndex="3">
                               <infoLinks>
-                                <infoLink name="Morglum&apos;s Fiery Blast" id="0629-235f-94cd-95d0" hidden="false" targetId="c6f2-4e8a-4a7b-b1e9" type="profile"/>
+                                <infoLink name="Morglum's Fiery Blast" id="0629-235f-94cd-95d0" hidden="false" targetId="c6f2-4e8a-4a7b-b1e9" type="profile"/>
                                 <infoLink name="Weak" id="c41f-789f-c60a-7a8c" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="c690-b465-6b0d-51d7" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2518,9 +2518,9 @@ D6 ROLL RESULT
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abb8-f64d-1a20-587f"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Mangarr&apos;s Mystical Blade" hidden="false" id="a0eb-9f7a-5095-de7d" collective="true" sortIndex="6">
+                            <selectionEntry type="upgrade" import="true" name="Mangarr's Mystical Blade" hidden="false" id="a0eb-9f7a-5095-de7d" collective="true" sortIndex="6">
                               <infoLinks>
-                                <infoLink name="Mangarr&apos;s Mystical Blade" id="24cd-b261-75fb-d73a" hidden="false" targetId="f9c2-4a6d-4c9f-82b3" type="profile"/>
+                                <infoLink name="Mangarr's Mystical Blade" id="24cd-b261-75fb-d73a" hidden="false" targetId="f9c2-4a6d-4c9f-82b3" type="profile"/>
                                 <infoLink name="Weak" id="bc42-c1a6-aa5c-86f7" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="ba2d-97f5-48a7-1d76" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2528,9 +2528,9 @@ D6 ROLL RESULT
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dec-c140-8425-317a"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Van Rubal&apos;s Acceleration" hidden="false" id="a19f-2b30-67bc-4b2d" collective="true" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Van Rubal's Acceleration" hidden="false" id="a19f-2b30-67bc-4b2d" collective="true" sortIndex="2">
                               <infoLinks>
-                                <infoLink name="Van Rubal&apos;s Acceleration" id="bcc8-0332-8e96-c380" hidden="false" targetId="b4e8-4f1d-4a8a-a2c6" type="profile"/>
+                                <infoLink name="Van Rubal's Acceleration" id="bcc8-0332-8e96-c380" hidden="false" targetId="b4e8-4f1d-4a8a-a2c6" type="profile"/>
                                 <infoLink name="Weak" id="36ce-db8d-d6bb-6427" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="15e9-fc47-ab97-4ca9" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2538,9 +2538,9 @@ D6 ROLL RESULT
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20bf-1dc3-cecd-ef42"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Sangram&apos;s Portable Protector" hidden="false" id="39f8-4ba1-3314-53a2" collective="true" sortIndex="5">
+                            <selectionEntry type="upgrade" import="true" name="Sangram's Portable Protector" hidden="false" id="39f8-4ba1-3314-53a2" collective="true" sortIndex="5">
                               <infoLinks>
-                                <infoLink name="Sangram&apos;s Portable Protector" id="aee5-8a37-8091-6fa9" hidden="false" targetId="e8a4-4b6c-4a7e-9d5a" type="profile"/>
+                                <infoLink name="Sangram's Portable Protector" id="aee5-8a37-8091-6fa9" hidden="false" targetId="e8a4-4b6c-4a7e-9d5a" type="profile"/>
                                 <infoLink name="Weak" id="1975-0bed-749c-ed90" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="60e8-923f-e35e-4f7a" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2548,9 +2548,9 @@ D6 ROLL RESULT
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="654c-e4e5-5d41-7798"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Burramorr&apos;s Distant Fracturing" hidden="false" id="ca60-40c4-01df-3bf9" collective="true" sortIndex="4">
+                            <selectionEntry type="upgrade" import="true" name="Burramorr's Distant Fracturing" hidden="false" id="ca60-40c4-01df-3bf9" collective="true" sortIndex="4">
                               <infoLinks>
-                                <infoLink name="Burramorr&apos;s Distant Fracturing" id="4c4d-de47-80a9-d957" hidden="false" targetId="d7f2-4c9a-4b3e-81a5" type="profile"/>
+                                <infoLink name="Burramorr's Distant Fracturing" id="4c4d-de47-80a9-d957" hidden="false" targetId="d7f2-4c9a-4b3e-81a5" type="profile"/>
                                 <infoLink name="Weak" id="e664-376d-b8c7-de5e" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="4500-903f-a1e0-b4aa" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2859,7 +2859,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Fates Ebb" hidden="false" id="a6ca-adfc-905f-2d70" collective="true" sortIndex="5">
                               <infoLinks>
-                                <infoLink name="Fate&apos;s Ebb" id="3b52-9688-7fe2-848b" hidden="false" targetId="b6e3-4d9c-4a1f-b7d6" type="profile"/>
+                                <infoLink name="Fate's Ebb" id="3b52-9688-7fe2-848b" hidden="false" targetId="b6e3-4d9c-4a1f-b7d6" type="profile"/>
                                 <infoLink name="Weak" id="4346-4cff-592d-5959" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="c2e4-a074-d137-ba99" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -5072,7 +5072,7 @@ D6 ROLL RESULT
                         <infoLink name="Lucky charm" id="f263-dcb2-8a38-a35b" hidden="false" type="profile" targetId="37a1-c90a-1c62-842b"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Mage&apos;s Focus" hidden="false" id="b0d4-0252-91b9-e561">
+                    <selectionEntry type="upgrade" import="true" name="Mage's Focus" hidden="false" id="b0d4-0252-91b9-e561">
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
                       </costs>
@@ -6059,7 +6059,7 @@ D6 ROLL RESULT
                             <infoLink name="Lucky charm" id="53f1-c660-c3b0-7e2d" hidden="false" type="profile" targetId="37a1-c90a-1c62-842b"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Mage&apos;s Focus" hidden="false" id="32df-5c6c-1fd8-a605">
+                        <selectionEntry type="upgrade" import="true" name="Mage's Focus" hidden="false" id="32df-5c6c-1fd8-a605">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
                           </costs>
@@ -8518,9 +8518,9 @@ D6 ROLL RESULT
                         <infoLink name="Opportunist" id="08b5-68d2-6567-068b" hidden="false" targetId="4801-ece2-7b94-eb1b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="6815-c892-3e14-f905" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="The Lady's Favour" hidden="false" id="6815-c892-3e14-f905" sortIndex="10">
                       <infoLinks>
-                        <infoLink name="The Lady&apos;s Favour" id="7d80-20ec-e51f-7e7d" hidden="false" targetId="b262-b75e-75ae-d21e" type="rule"/>
+                        <infoLink name="The Lady's Favour" id="7d80-20ec-e51f-7e7d" hidden="false" targetId="b262-b75e-75ae-d21e" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="5eb8-ab02-073c-27cf" sortIndex="11">
@@ -8832,7 +8832,7 @@ D6 ROLL RESULT
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Infused with energy of an early Spring, the target of this spell moves faster than seems
 possible.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target of the spell can perform an extra Action the next time they act.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Thyme Leaves: The spell is automatically cast without a Roll-off.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
@@ -8843,7 +8843,7 @@ possible.</characteristic>
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Bad luck and ill omens pour forth from the caster, spelling disaster for their foes.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target’s next Roll-off has a -2 Modifier.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bloodwort: The target’s next Roll-off has a -3 Modifier instead of -2.
 - Mandrake:  The modifier lasts for the rest of the Turn.</characteristic>
@@ -8855,7 +8855,7 @@ possible.</characteristic>
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">A wave of healing energy flows from the caster.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target heals Wounds equal to the Roll-off Result – ‘uncross’ the boxes on the Roster.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Lugwort: Add +2 to the caster’s roll.
 - Henbane: Any Conditions caused by Poison are also removed.</characteristic>
@@ -8867,7 +8867,7 @@ possible.</characteristic>
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Fortune smiles, and the recipient of this spell can do no wrong.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target gains a +3 modifier to their next Roll-off.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Galingale: The target gains a +3 modifier to all rolls for the rest of the Turn.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
@@ -8878,7 +8878,7 @@ possible.</characteristic>
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Calling forth the potent energies of the charged clouds, the caster launches a bolt of lightning at their enemy.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target is blasted by a lightning bolt and takes Wounds equal to the Result of the Roll-off. These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Copper Strip: The target takes 2 extra Wounds.
 - Elf-bolt: The target takes 3 extra Wounds.</characteristic>
@@ -8890,7 +8890,7 @@ possible.</characteristic>
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Using sheer will, the caster unleashes a blast of energy, forcing an enemy away.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is moved d6 inches directly away from the caster. If the model is pushed into an obstruction, such as a Terrain piece, they stop and suffer d6 Wounds; these are reduced by Armour and Skills in the normal way.
 If the model is pushed into another model, they stop and both models suffer d6 Wounds; these are reduced by Armour and Skills in the normal way. If the model is pushed off a raised area, they will suffer falling damage in the normal way.
 If the casting model is at least 3” higher up than the target model, reduce the distance they are pushed by 2” and add 2 to any Wounds caused.</characteristic>
@@ -8903,7 +8903,7 @@ If the casting model is at least 3” higher up than the target model, reduce th
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster calls upon the gods to bless a friend in need.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target adds +3 to their next dice roll.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The target adds +3 to their next dice roll, and may re-roll the dice.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
@@ -8914,7 +8914,7 @@ If the casting model is at least 3” higher up than the target model, reduce th
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Wounds close, bones re-knit, and blood clots when the caster commands.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model heals d12 Wounds.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The spell is automatically cast without a Roll-off.
 - Henbane: Any Conditions caused by Poison are also removed.
@@ -8950,7 +8950,7 @@ If the casting model is at least 3” higher up than the target model, reduce th
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Using their will, faith, and courage, the caster’s soul battles with a heretical enemy.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target must be an enemy Magic-user. This Spell is automatically cast, but the target of the Spell will try to Resist; make a Presence versus Presence Roll-off. If the target model wins the Roll-off or the Roll-off is drawn, the Spell is resisted and fails. If the caster wins, the target model suffers Wounds equal to the Result. Armour does not reduce this, but Tough Skills do.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: Add +2 to the caster’s Roll.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
@@ -8961,7 +8961,7 @@ If the casting model is at least 3” higher up than the target model, reduce th
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Faith and purity are a shield against harm.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model gains Tough (3) for d4 Turns, including the Turn in which the Spell is cast.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The target model becomes immune to enemy Spells whilst Invulnerable is in effect.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Light</characteristic>
@@ -8972,7 +8972,7 @@ If the casting model is at least 3” higher up than the target model, reduce th
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster wracks their foe’s body with waves of agony.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model has the Condition ‘Stunned’. Lasts until the caster takes a Wound.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Mandrake: The target model also has a -2 modifier to all Roll-offs while the Spell is in effect.
 - Bone Meal: The spell also causes an immediate d4 Wounds.</characteristic>
@@ -8984,7 +8984,7 @@ If the casting model is at least 3” higher up than the target model, reduce th
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Taking over another beast’s body, the caster forces them to do as they please.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;, Target must be an enemy model.</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12", Target must be an enemy model.</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is drawn, the Spell is resisted and fails. If the caster wins, the Spell succeeds.
 The target is forced to perform an Action immediately, decided by the caster’s player. This Action may not be a Cast Action or use any single-use equipment, and may not use any of the target’s Fate points or Skills; for example, an Attack Action by a Controlled hare would not benefit from the hare’s Strong (1). Being Controlled does not use up the Controlled model’s normal Actions for the Turn.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Lotus Flowers: Add +3 to the caster’s roll.</characteristic>
@@ -8996,7 +8996,7 @@ The target is forced to perform an Action immediately, decided by the caster’s
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Separating the victim’s mind from their body, the caster locks them in place, unable to move.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">6</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is unable to move, and has the Condition ‘Paralysed’ until the end of the Turn.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
@@ -9007,7 +9007,7 @@ The target is forced to perform an Action immediately, decided by the caster’s
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">An enemy is tricked into seeing terrifying monsters.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target views all enemy models as having the Skill ‘Fearsome’. Lasts until the caster takes a Wound.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Badger’s Blood: The target trembles uncontrollably for the duration of the Spell; roll a d6 before every Action. On a roll of 1, they miss that Action.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
@@ -9018,7 +9018,7 @@ The target is forced to perform an Action immediately, decided by the caster’s
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Mind clouded with bloodlust and battle-fury, the target erupts into uncontrolled violence.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target becomes subject to the Berserk Skill.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Badger’s Claws: The target model immediately has the Condition ‘Berserk’.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Dark</characteristic>
@@ -9029,7 +9029,7 @@ The target is forced to perform an Action immediately, decided by the caster’s
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster draws life-force from a foe and absorbs it.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model suffers Wounds equal to the Result. Armour does not reduce this, but Tough Skills do. The target model may roll their Fortitude and reduce the Wounds taken by the amount rolled.
 If Wounds are caused, the caster may heal an equal number of their own Wounds.
 If no Wounds are caused, the caster suffers d4 Wounds from magical feedback, unaffected by Armour or Tough Skills.</characteristic>
@@ -9039,22 +9039,22 @@ If no Wounds are caused, the caster suffers d4 Wounds from magical feedback, una
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to add +5 to the Cast Fortitude roll.</characteristic>
       </characteristics>
     </profile>
-    <profile hidden="false" id="a8f3-4b2d-4f9e-91c5" name="Stag&apos;s Leap" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="a8f3-4b2d-4f9e-91c5" name="Stag's Leap" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Channelling the power of the Lord of the Wood, movement is quickened.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target may immediately move up to 12”. This may include vertical movement. If the target of the spell ends in Base Contact with an enemy, they may make an Attack action. If this spell is cast on a model other than the caster, it counts as one of their Actions – they must not have Activated already this Turn and, when they do, they will only take one further Action.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Powdered Acorns: The spell is automatically cast without a Roll-off.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
-    <profile hidden="false" id="b9f4-4d8e-4c7a-82f1" name="Bear&apos;s Strength" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="b9f4-4d8e-4c7a-82f1" name="Bear's Strength" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Gaining the power of the giant beasts of old, the muscles strengthen.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model gains the Strong (2) Skill. Lasts until the caster takes a Wound or the distance between the Caster and the target model is greater than 18”.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bear Bone Fragments: The target gains Strong (4) instead of Strong (2).</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
@@ -9065,7 +9065,7 @@ If no Wounds are caused, the caster suffers d4 Wounds from magical feedback, una
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The resilience of ancient oaks is imbued into a beast’s hide.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target gains the Tough (2) Skill. Lasts until the Caster takes a Wound or the distance between the Caster and the target model is greater than 18”.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Antler Dust: The target gains Tough (4) instead of Tough (2).</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
@@ -9076,7 +9076,7 @@ If no Wounds are caused, the caster suffers d4 Wounds from magical feedback, una
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Reaching to the bones of the earth, magic tears the land asunder.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Choose a Terrain piece; any model in Base Contact with it suffers d8 Wounds and any model within 2” of the Terrain piece suffers d6 Wounds. Armour and Skills reduce this as normal.
 Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-off Result is higher than that number, the Terrain piece is destroyed – remove it from the tabletop.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Thunderbird Feather: Add +2 to the caster’s roll.</characteristic>
@@ -9088,7 +9088,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The quickening sap of Spring calls brambles and creepers to life.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">36&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">36"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model must reduce all movement by 3”. Lasts until the caster takes a Wound.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Powdered Acorns: The target must reduce all Movement by 4” instead of 3”.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Wild</characteristic>
@@ -9099,7 +9099,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Spiders and bugs are summoned and bound to the will of the caster.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">A swarm of worms, maggots, beetles, spiders, and wasps attacks the target. The target model immediately suffers 1 Wound not reduced by Armour or Skills, then another every Turn when they Activate. The spell ends when the caster takes a Wound or performs another Cast Action.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Cave Spider Venom: The swarm’s stings and bites are poisonous; the target also has the Condition ‘Stunned’.
 - Scarab Shells: The swarm increases in size; the target suffers an extra Wound for each Scarab.</characteristic>
@@ -9107,33 +9107,33 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
-    <profile hidden="false" id="a9f3-4c7b-4e1c-b82f" name="Bletchly&apos;s Cloak of Concealment" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="a9f3-4c7b-4e1c-b82f" name="Bletchly's Cloak of Concealment" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Enveloped in mystical energies, the spell hides you from all sight.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model has the Condition ‘Sneaking’ for the rest of the Turn and it cannot be removed by Search Actions. It ends if they perform another Action, as normal.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Silk Fibres: The target model maintains the Condition ‘Sneaking’ for the rest of the Turn, even if they perform other Actions.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
-    <profile hidden="false" id="b4e8-4f1d-4a8a-a2c6" name="Van Rubal&apos;s Acceleration" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="b4e8-4f1d-4a8a-a2c6" name="Van Rubal's Acceleration" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The world seems to slow around you as you move with lightning speed.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model adds 2” to any Move, Charge, or Barge Actions, and adds +2 to all Strike, Block, and Nimbleness rolls. Lasts until the end of the Turn.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Wax Candle: The Spell is automatically cast without a Roll-off.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate Point to increase the bonus to 4 instead of 2.</characteristic>
       </characteristics>
     </profile>
-    <profile hidden="false" id="c6f2-4e8a-4a7b-b1e9" name="Morglum&apos;s Fiery Blast" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="c6f2-4e8a-4a7b-b1e9" name="Morglum's Fiery Blast" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Gathering a ball of fire in your hands, you launch it at your foes.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target takes Wounds equal to the Cast Roll-off Result. These are reduced by Armour and Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model gains the Condition ‘Burning’.
 - Brimstone: The Spell affects the target model and any models within 2” of the target.</characteristic>
@@ -9141,18 +9141,18 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to increase the damage dealt or range (specify in rules if needed).</characteristic>
       </characteristics>
     </profile>
-    <profile hidden="false" id="d7f2-4c9a-4b3e-81a5" name="Burramorr&apos;s Distant Fracturing" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="d7f2-4c9a-4b3e-81a5" name="Burramorr's Distant Fracturing" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The power of magic is focused on a single point, building up pressure until it breaks.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">6</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">One piece of Equipment chosen by the caster is damaged and cannot be used for the rest of the game. The affected piece of Equipment is considered to be repaired after the game and may be used normally in the next game. This Spell can affect anything in the Equipment section, with the exception of Bonded Critters, Stag Beetle Grubs, Special Magic Equipment, and Enchanted Equipment.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Haematite: The Spell can also affect Enchanted Equipment.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
-    <profile hidden="false" id="e8a4-4b6c-4a7e-9d5a" name="Sangram&apos;s Portable Protector" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="e8a4-4b6c-4a7e-9d5a" name="Sangram's Portable Protector" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Clear, weightless and yet virtually impenetrable, a shield appears.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
@@ -9163,7 +9163,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
-    <profile hidden="false" id="f9c2-4a6d-4c9f-82b3" name="Mangarr&apos;s Mystical Blade" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="f9c2-4a6d-4c9f-82b3" name="Mangarr's Mystical Blade" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">A magical sword is summoned from the aether.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
@@ -9200,7 +9200,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Matter twists and warps; what was wounded becomes whole and what was whole, wounded.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">1</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The caster may transfer any number of Wounds suffered from one friendly model to themselves.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: Two friendly models within range may transfer any number of Wounds suffered between themselves.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Noble</characteristic>
@@ -9244,7 +9244,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The gods’ blessings shine out from you, sweeping away evil.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">3&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">3"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All friendly models within 3” of the caster’s Base may re-roll any Fortitude or Presence rolls they make against Spells and may reduce any Wounds they take from Spells or from models with the Uncanny Skill by 2 for the rest of the Turn.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
@@ -9266,7 +9266,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster calls upon the gods to bless a friend in need.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model adds +3 to their next Roll-Off score.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Blessed Water: The target model adds +3 to one dice roll of their choice and may re-roll the dice.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
@@ -9277,7 +9277,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Righteous rage floods a warrior, giving them the power of true faith!</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model may add 2” to their next move or +2 to their next Strike roll or +2 to their next Ranged roll.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
@@ -9288,7 +9288,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Fire from the heavens strikes those who consort with mystical powers.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell causes d6 Wounds, ignoring any Tough from Armour, and causes the Condition ‘Burning’ to one Magic-user or a model with the Uncanny Skill.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Divine</characteristic>
@@ -9310,7 +9310,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The very spirits of the earth reach out and crush your foes.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: The target model is crushed by the earth they stand on and takes d8 Wounds. These are not reduced by Armour but are reduced by Skills in the normal way.
 Deep Working: Every member of the enemy Band in range and that the caster has Line of Sight to, even those with the Condition ‘Sneaking’, is crushed and takes d8 Wounds (rolled separately for each model). These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bear Bone Fragments: The target model(s) suffer an additional 3 Wounds.</characteristic>
@@ -9322,7 +9322,7 @@ Deep Working: Every member of the enemy Band in range and that the caster has Li
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Injuries fade and vitality returns, as the life-force is drawn from the other world.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: Restore d8 lost Wounds and stop the effects of Poisons on one model in Base Contact, or on the caster themselves.
 Deep Working: Restore d8 lost Wounds (rolled separately for each model) and stop the effects of Poisons on all friendly models within 12” of the caster’s Base, including the caster themselves.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
@@ -9334,7 +9334,7 @@ Deep Working: Restore d8 lost Wounds (rolled separately for each model) and stop
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The tiniest parts of the natural world are at the caster’s control, as bacteria and moulds assault their enemies.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">12"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: Racked with pain and nausea, the target model gains the Condition ‘Stunned’. Lasts until the caster takes a Wound or the distance between the caster and the target model is greater than 18”.
 Deep Working: All enemy models within 12” gain the Condition ‘Stunned’. Lasts until the caster takes a Wound.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Bone Meal: Add +2 to the caster’s roll.</characteristic>
@@ -9358,7 +9358,7 @@ Deep Working: All enemies on the table must treat all Move, Charge, and Barge Ac
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The energy of life surges through the veins of the caster’s allies.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Shallow Working: One model in your Band may immediately move up to 6”. If the target model ends in Base Contact with an enemy model, they may make a free Attack Action, even if they have already Activated this Turn.
 Deep Working: Three models in your Band may move up to 6” immediately. If the target models end in Base Contact with an enemy model, they may make free Attack Actions, even if they have already Activated this Turn.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Antler Dust: The target models may move up to 9” instead of 6”.</characteristic>
@@ -9405,7 +9405,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster forces their enemies to misjudge the passage of events; causing them to fail to move aside quickly enough.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Select one enemy model; the next time they suffer Wounds, increase them by d8.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Haematite: The target model suffers an additional d10 Wounds instead of d8.
 - Amber Bead: The target model suffers an additional d12 Wounds instead of d8.</characteristic>
@@ -9417,7 +9417,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s insight into Fate allows them to avoid the worst dangers coming their way.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The next time the caster suffers Wounds, reduce them by d8.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Haematite: Reduce the Wounds suffered by d10 instead of d8.
 - Amber Bead: Reduce the Wounds suffered by d12 instead of d8.
@@ -9426,7 +9426,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
-    <profile hidden="false" id="b6e3-4d9c-4a1f-b7d6" name="Fate&apos;s Ebb" typeId="3d26-fa01-dac8-537b" typeName="Spell">
+    <profile hidden="false" id="b6e3-4d9c-4a1f-b7d6" name="Fate's Ebb" typeId="3d26-fa01-dac8-537b" typeName="Spell">
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The winds of Fate die to a breeze.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">2</characteristic>
@@ -9453,7 +9453,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Visions of golden hoards fill the caster’s foes’ heads and they are drawn towards the treasure!</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model moves d6+2” in a direction of your choice.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: The target model moves 2d6+2” instead of d6+2”.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
@@ -9464,7 +9464,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s enemies see themselves buried in a tide of creeping beasts and desperately try to fend them off.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model loses their next Action.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
@@ -9475,7 +9475,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster appears to be a horrifying mythical beast, and their foes flee in terror.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Every enemy model within 6” of the caster is a target of this Spell. This Spell is automatically cast, but the targets of the Spell will try to Resist; make a Roll-off of the caster’s Presence versus the target’s Fortitude. For each target model, if the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the enemy model must move 2d6” directly away from the caster. This does not count as their Activation but may trigger free Attacks if they move out of Base Contact with opponents. If they reach the edge of the table, they stop. If any of the target models are unable to move, they gain the Condition ‘Paralysed’ until the end of the Turn.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
@@ -9486,7 +9486,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s foe sees themselves suffering grisly wounds and is overcome by pain and horror.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">6"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Roll-off of the caster’s Presence versus the target’s Fortitude. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds and the target model must roll a d12 on the Major Injuries Table. They suffer that result immediately; the effects last until the end of the game (don’t reduce Levels, receive Pensions funds etc.). Results of ‘Dead’ aren’t really death; the target model just goes Out of Action instead – it’s all an illusion!</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Illusionism</characteristic>
@@ -9520,7 +9520,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">A dart of superheated flame is launched at the caster’s enemy.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target takes Wounds equal to the Cast Roll-off Result. These are reduced by Armour and Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model takes an additional d4 Wounds.
 - Brimstone: The target model also gains the Condition ‘Burning’.</characteristic>
@@ -9532,7 +9532,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster’s magic heats up the metallic elements within their enemy’s equipment, burning them.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">4</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model suffers d6 Wounds, not reduced by Armour or Tough Skills. Add the value of any Tough from Armour to the Wounds inflicted.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The Spell is automatically Cast without a Roll-off.
 - Brimstone: The spell causes an additional +2 Wounds.</characteristic>
@@ -9544,7 +9544,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster summons a violent rainstorm, with water cascading from the sky… over a very small area!</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is utterly soaked and any Bow, War Bow, Light Crossbow, Heavy Crossbow, or Black Powder weapons they have are useless for the rest of the game.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
@@ -9555,7 +9555,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster draws the moisture from their enemy, leaving them a dry and lifeless husk.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell inflicts d6 Wounds, unmodified by Armour or Tough Skills, on a single enemy model. This enemy model suffers a further d6 Wounds at the start of every Turn. This Spell ends if the Line of Sight between the two models is broken by Terrain.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
@@ -9577,7 +9577,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The ground opens and swallows the caster’s foes, crushing them.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">3</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model takes d8 Wounds. These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Amber Bead: The spell affects the target and any enemy within 4” of them.
 - Haematite: The target(s) suffer an additional +3 Wounds.</characteristic>
@@ -9634,7 +9634,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">Horrified by visions of impending doom, the foe flee in terror...</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18"</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds and the target model must move 6” directly away from the caster. This does not count as their Activation but may trigger free Attacks if they move out of Base Contact with opponents. If they reach the edge of the table, they stop. If the target is unable to move, they gain the Condition ‘Paralysed’ until the end of the Turn.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: Add +2 to the caster’s roll.
 - Badger’s Claws: The target model counts all models in your Band as having the ‘Fearsome’ Skill until the end of the Turn.</characteristic>
@@ -9646,7 +9646,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
       <characteristics>
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The caster unleashes a blast of pestilence and decay.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">0</characteristic>
-        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
+        <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18", Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds. The target model suffers Wounds equal to the Roll-off Result, modified by Armour or Skills in the usual way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
@@ -9770,7 +9770,7 @@ Skill level to any Wounds they suffer.</characteristic>
     <profile name="War Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c988-cf80-de76-d607">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Requires Strong (2) to use.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">8</characteristic>
@@ -9780,7 +9780,7 @@ Skill level to any Wounds they suffer.</characteristic>
     <profile name="Light Crossbow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c29f-da0e-a6d9-cfdc">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">24&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">24"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Ignore 1 point of Tough provided by Armour.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
@@ -9790,7 +9790,7 @@ Skill level to any Wounds they suffer.</characteristic>
     <profile name="Sling" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="7db3-9bad-0a4e-2939">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">12&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">12"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">-</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
@@ -9800,7 +9800,7 @@ Skill level to any Wounds they suffer.</characteristic>
     <profile name="Throwing knives" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e239-a08d-b443-5332">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">6&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">6"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Any Ranged rolls using Throwing Knives gain a +1 bonus.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
@@ -9810,7 +9810,7 @@ Skill level to any Wounds they suffer.</characteristic>
     <profile name="Blunderbuss" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="53e4-f099-bdd5-c2ca">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">8&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">8"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">All Ranged rolls made using a Blunderbuss receive a +3 bonus. Any model within 1” of the targeted enemy model may also be hit; they roll
 their Nimbleness against the Shooting model’s Total as well.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
@@ -9821,7 +9821,7 @@ their Nimbleness against the Shooting model’s Total as well.</characteristic>
     <profile name="Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="3772-72bd-81b3-1e70">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">18&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">18"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">-</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
@@ -9831,7 +9831,7 @@ their Nimbleness against the Shooting model’s Total as well.</characteristic>
     <profile name="Heavy Crossbow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e373-5b92-d1ba-ba4f">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Requires Strong (1) to use. Ignore up to 2 points of Tough provided by Armour. A model carrying this weapon has a -1 penalty to all Nimbleness rolls.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">9</characteristic>
@@ -9866,7 +9866,7 @@ CHEIROSIPHON MISFIRE TABLE
     <profile name="Caliver" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="0593-3e13-a19c-d3db">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Ranged</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Ignore up to 2 points of Tough provided by Armour.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">8</characteristic>
@@ -9876,7 +9876,7 @@ CHEIROSIPHON MISFIRE TABLE
     <profile name="Pistol" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="3ef9-23c1-c345-5804">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Ranged</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">12&quot;</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">12"</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">-</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
@@ -10283,7 +10283,7 @@ A single Magic-user may learn the Spell from the Tome; however, the Tome is dest
       <characteristics>
         <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
         <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
-        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">+2 to the character&apos;s Nimbleness roll when moving vertically in Difficult Terrain.</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">+2 to the character's Nimbleness roll when moving vertically in Difficult Terrain.</characteristic>
         <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
         <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
       </characteristics>
