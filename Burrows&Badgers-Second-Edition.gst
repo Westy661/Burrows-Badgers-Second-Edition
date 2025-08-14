@@ -14,6 +14,8 @@
   </categoryEntries>
   <costTypes>
     <costType defaultCostLimit="350" id="6752-9e0b-692e-d5b9" name="Penny"/>
+    <costType name="Labor" id="a8b9-14eb-c576-28d4" defaultCostLimit="-1"/>
+    <costType name="Material" id="ce21-5b5b-f092-7301" defaultCostLimit="-1"/>
   </costTypes>
   <publications>
     <publication hidden="false" id="2ab7-799f-9ff5-3e49" name="Burrows &amp; Badgers: Second Edition" publicationDate="29 May 2025" publisherUrl="https://www.ospreypublishing.com/uk/burrows--badgers-second-edition-9781472864673/" shortName="Burrows &amp; Badgers: Second Edition"/>

@@ -387,8 +387,4 @@ You may pray for a blessing before each Battle; roll a d6.
     <entryLink import="true" name="Smallholding" hidden="false" id="fc2f-1025-de92-aa66" targetId="c1f4-ab41-191b-eb0e" type="selectionEntry"/>
     <entryLink import="true" name="Smithy" hidden="false" id="0c42-4ebd-cd6c-ef30" targetId="cca7-24e1-c4e3-ed6b" type="selectionEntry"/>
   </entryLinks>
-  <costTypes>
-    <costType name="Labor" id="a8b9-14eb-c576-28d4" defaultCostLimit="-1"/>
-    <costType name="Material" id="ce21-5b5b-f092-7301" defaultCostLimit="-1"/>
-  </costTypes>
 </catalogue>
