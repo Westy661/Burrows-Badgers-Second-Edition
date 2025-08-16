@@ -61,4 +61,5 @@
       <description>Any model that takes an enemy Leader, Second, Magic-user, or enemy with the Uncanny Skill Out of Action gains 1 Fate point and 1 Experience point.</description>
     </rule>
   </rules>
+  <comment>TODO Well-funded</comment>
 </catalogue>

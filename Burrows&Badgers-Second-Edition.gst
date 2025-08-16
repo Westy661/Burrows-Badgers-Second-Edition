@@ -3735,6 +3735,7 @@ D6 ROLL RESULT
                             <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -3750,6 +3751,7 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -3773,6 +3775,11 @@ D6 ROLL RESULT
                         <modifier type="set" value="27" field="defaultAmount">
                           <conditions>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="28" field="defaultAmount">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -3840,6 +3847,7 @@ D6 ROLL RESULT
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -3856,6 +3864,7 @@ D6 ROLL RESULT
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -3896,6 +3905,16 @@ D6 ROLL RESULT
                             <conditionGroup type="and">
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" value="22" field="defaultAmount">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                               </conditions>
                             </conditionGroup>
@@ -4004,9 +4023,14 @@ D6 ROLL RESULT
                           </repeats>
                         </modifier>
                         <modifier type="set" value="40" field="defaultAmount">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </modifier>
                         <modifier type="set" value="42" field="defaultAmount">
                           <conditions>
@@ -4024,6 +4048,7 @@ D6 ROLL RESULT
                             <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -4039,6 +4064,7 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -4630,6 +4656,7 @@ D6 ROLL RESULT
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -4652,6 +4679,7 @@ D6 ROLL RESULT
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -4669,6 +4697,7 @@ D6 ROLL RESULT
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -4696,9 +4725,16 @@ D6 ROLL RESULT
                               <conditionGroups>
                                 <conditionGroup type="and">
                                   <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                   </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
@@ -4712,6 +4748,7 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -4726,6 +4763,7 @@ D6 ROLL RESULT
                                 <conditionGroup type="or">
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -4749,7 +4787,7 @@ D6 ROLL RESULT
                                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="52c2-6fb6-de53-603a" shared="true" roundUp="false"/>
                               </repeats>
                             </modifier>
-                            <modifier type="set" value="10" field="defaultAmount">
+                            <modifier type="set" value="8" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
                                   <conditions>
@@ -4760,6 +4798,7 @@ D6 ROLL RESULT
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -4784,6 +4823,7 @@ D6 ROLL RESULT
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -4797,6 +4837,7 @@ D6 ROLL RESULT
                                 <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -5161,7 +5202,6 @@ D6 ROLL RESULT
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -7267,6 +7307,53 @@ D6 ROLL RESULT
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="293f-47b3-b732-3b20"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Armoured by Faith" id="3a58-b3a5-04c3-6f27" hidden="true" collapsible="true" collective="true" flatten="false">
+          <modifiers>
+            <modifier type="add" value="Starting bonus (2 in force)" field="info">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="aaa5-4c02-e65e-01f9" collective="true">
+              <modifiers>
+                <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+              </modifiers>
+              <profiles>
+                <profile name="Fortitude Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="a84e-c5a4-7559-9565">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Fortitude Statistic of this unit has been upgraded.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="380c-e964-05e1-2771"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="5153-b853-09bf-8bd4" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b64d-dd83-d057-fa18"/>
+          </constraints>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Setup Only – Uncheck to Advance" hidden="false" id="cee3-9887-9ffb-1cae" sortIndex="-1" defaultAmount="1">
@@ -7370,6 +7457,22 @@ Important: Advance features are a work in progress!" field="info"/>
                         <condition type="atLeast" value="1" field="selections" scope="parent" childId="e33a-78ab-a411-23d1" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="10" field="defaultAmount">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
               </selectionEntries>
@@ -7381,6 +7484,7 @@ Important: Advance features are a work in progress!" field="info"/>
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -7395,6 +7499,7 @@ Important: Advance features are a work in progress!" field="info"/>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
