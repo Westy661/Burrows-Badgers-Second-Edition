@@ -2260,7 +2260,7 @@ D6 ROLL RESULT
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2356,7 +2356,7 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2544,11 +2544,10 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -2735,7 +2734,7 @@ D6 ROLL RESULT
                                 <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2836,8 +2835,8 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -3368,10 +3367,10 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="notEqualTo" value="1" field="selections" scope="roster" childId="cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="4743-5c76-0ef9-799f" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
