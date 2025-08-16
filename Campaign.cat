@@ -65,22 +65,6 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0fe-7c92-71ef-0e27"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Archery Range" hidden="false" id="782c-e925-cfcf-9800">
-      <infoLinks>
-        <infoLink name="Archery Range" id="408f-db2b-a44c-80bd" hidden="false" type="profile" targetId="eb22-475f-a8af-bf68"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Den Upgrade" hidden="false" id="316d-cf74-9b74-ed67" targetId="583b-2cca-fae6-9a19" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
-      </costs>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51a6-7d12-fdc2-fee7"/>
-      </constraints>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Jewellers Workshop" hidden="false" id="72fe-9908-99f5-2de7">
       <infoLinks>
         <infoLink name="Jewellers Workshop" id="fb90-19b7-bcc9-b2dd" hidden="false" type="profile" targetId="939d-fc91-0b4b-bd4b"/>
@@ -436,23 +420,77 @@ You may pray for a blessing before each Battle; roll a d6.
   </sharedProfiles>
   <entryLinks>
     <entryLink import="true" name="Apothecarium" hidden="false" id="d5fb-16d0-76a8-2e20" targetId="6a68-26c4-23bc-4722" type="selectionEntry"/>
-    <entryLink import="true" name="Archery Range" hidden="false" id="015f-5ec4-bf9e-8308" targetId="782c-e925-cfcf-9800" type="selectionEntry" defaultAmount="1"/>
     <entryLink import="true" name="Chapel" hidden="false" id="667e-0577-1c98-a7e0" targetId="9170-885c-961e-ee6d" type="selectionEntry"/>
     <entryLink import="true" name="Fletcher" hidden="false" id="8d4f-70bc-9c4b-056c" targetId="1ed9-4f1a-6ba6-8f9e" type="selectionEntry"/>
-    <entryLink import="true" name="Fletcher" hidden="false" id="4947-c688-0407-6065" targetId="1ed9-4f1a-6ba6-8f9e" type="selectionEntry"/>
     <entryLink import="true" name="Gambling Den" hidden="false" id="ef15-36c2-2c4f-5c8f" targetId="a183-459a-c750-4d2b" type="selectionEntry"/>
-    <entryLink import="true" name="Gymnasium" hidden="false" id="994d-ae3d-a765-5ac1" targetId="d0de-b562-4252-73f2" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Gymnasium" hidden="false" id="994d-ae3d-a765-5ac1" targetId="d0de-b562-4252-73f2" type="selectionEntry" defaultAmount="0">
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink import="true" name="Jewellers Workshop" hidden="false" id="2100-d2fc-1448-4817" targetId="72fe-9908-99f5-2de7" type="selectionEntry"/>
-    <entryLink import="true" name="Library" hidden="false" id="baf4-d1dd-1417-6fb4" targetId="c90f-a8b1-5c5e-39b6" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Library" hidden="false" id="baf4-d1dd-1417-6fb4" targetId="c90f-a8b1-5c5e-39b6" type="selectionEntry" defaultAmount="0">
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink import="true" name="Magical Garden" hidden="false" id="e51b-812d-3a63-6488" targetId="d9b1-d98f-7ead-916f" type="selectionEntry"/>
-    <entryLink import="true" name="Obstacle Course" hidden="false" id="c32b-0547-d48d-34fc" targetId="cc99-e531-cbd8-8222" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Obstacle Course" hidden="false" id="c32b-0547-d48d-34fc" targetId="cc99-e531-cbd8-8222" type="selectionEntry" defaultAmount="0">
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d49b-0548-5a3f-1240" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink import="true" name="Occult Laboratory" hidden="false" id="0973-23bf-ec70-5206" targetId="12db-5777-cc47-c01d" type="selectionEntry"/>
-    <entryLink import="true" name="Pells and Training Ground" hidden="false" id="5ba4-995f-2bc9-1a40" targetId="17b2-efd9-cc29-d829" type="selectionEntry" defaultAmount="1"/>
+    <entryLink import="true" name="Pells and Training Ground" hidden="false" id="5ba4-995f-2bc9-1a40" targetId="17b2-efd9-cc29-d829" type="selectionEntry" defaultAmount="0">
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
     <entryLink import="true" name="Secret Tunnels" hidden="false" id="b475-96ce-77f8-6938" targetId="7f39-1b2c-5d12-7449" type="selectionEntry"/>
     <entryLink import="true" name="Shrine" hidden="false" id="c4d7-cf94-5d76-5fcd" targetId="5714-5693-8554-1f15" type="selectionEntry"/>
     <entryLink import="true" name="Smallholding" hidden="false" id="fc2f-1025-de92-aa66" targetId="c1f4-ab41-191b-eb0e" type="selectionEntry"/>
     <entryLink import="true" name="Smithy" hidden="false" id="0c42-4ebd-cd6c-ef30" targetId="cca7-24e1-c4e3-ed6b" type="selectionEntry"/>
     <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="4f14-793e-098e-f405" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry"/>
-    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0">
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
 </catalogue>

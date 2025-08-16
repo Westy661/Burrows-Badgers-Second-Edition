@@ -4,10 +4,14 @@
     <catalogueLink type="catalogue" name="Campaign" id="dc5b-46ca-c5f0-bc5d" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink import="true" name="Allegiance: Royalists" hidden="false" id="9112-899f-db52-9f2d" targetId="3f8a-5bc3-894d-b885" type="selectionEntry" sortIndex="-1"/>
+    <entryLink import="true" name="Allegiance: Royalists" hidden="false" id="9112-899f-db52-9f2d" targetId="3f8a-5bc3-894d-b885" type="selectionEntry" sortIndex="-1" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="f257-e768-207d-940f" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Allegiance: Royalists" hidden="false" id="3f8a-5bc3-894d-b885">
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Royalists" hidden="false" id="3f8a-5bc3-894d-b885" defaultAmount="1">
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -24,6 +28,9 @@
         <infoLink name="Expert Training" id="ec36-5c4b-3444-a22a" hidden="false" type="rule" targetId="609f-e1c9-1044-0774"/>
         <infoLink name="Magical Archetypes" id="fc51-4997-e50b-8b8a" hidden="false" type="rule" targetId="2061-6304-a2f9-0ac9"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="e1ce-12b8-e653-e26b" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <forceEntries>
@@ -32,6 +39,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="9f25-f862-47c5-9006" targetId="1bc5-0b8a-1258-293f"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="e35f-958a-da0b-150d" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="97c3-b3ea-e930-48fc" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="1ade-d1b9-589a-5db2" targetId="9ed2-8233-7200-924b"/>
@@ -54,4 +62,7 @@
       <description>Any model who takes an enemy model Out of Action using an Attack Action (including the bonus Attack from Charging, or the free Attack when an enemy moves out of Base Contact) gains 1 Fate point and 1 Experience point.</description>
     </rule>
   </rules>
+  <sharedProfiles>
+    <profile name="Statistic Upgraded" typeId="8a52-cfd9-29c6-5c48" typeName="Tag" hidden="false" id="d70c-473d-ce10-6a78"/>
+  </sharedProfiles>
 </catalogue>

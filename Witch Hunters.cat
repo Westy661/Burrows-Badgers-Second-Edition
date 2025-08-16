@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="d845-6d26-8d7a-ba51" name="Witch Hunters" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Campaign" id="8877-b363-5f34-3f97" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="8877-b363-5f34-3f97" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry name="Warband" id="b623-6dd4-53e9-cff0" hidden="false">
@@ -9,7 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="6419-15ad-d725-dde0" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
+        <categoryLink name="Allegiance" hidden="false" id="6419-15ad-d725-dde0" targetId="1bc5-0b8a-1258-293f"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7499-eab3-0fa7-6937" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="3e1e-c8ce-247b-89c0" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="c3f3-a477-748e-24d1" targetId="9ed2-8233-7200-924b"/>

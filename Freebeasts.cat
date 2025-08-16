@@ -6,17 +6,20 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="734d-80d0-5220-ef02" targetId="b6a0-9ed3-91e6-1eab" type="categoryEntry"/>
+        <categoryLink name="Allegiance" hidden="false" id="734d-80d0-5220-ef02" targetId="b6a0-9ed3-91e6-1eab"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="4367-7da5-4abd-a62d" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="e086-4e22-7ad6-5da7" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="471f-de29-8487-4a99" targetId="9ed2-8233-7200-924b"/>
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="1d03-9044-dda1-a1c5" targetId="6803-87ba-83c4-bd4b"/>
         <categoryLink name="Den Upgrade" hidden="false" id="dd99-ff6f-0264-2db7" targetId="583b-2cca-fae6-9a19"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="decrement" value="25" field="6752-9e0b-692e-d5b9" scope="roster"/>
+      </modifiers>
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Allegiance: Freebeast" hidden="false" id="6a58-ff86-c0ab-c418">
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Freebeast" hidden="false" id="6a58-ff86-c0ab-c418" defaultAmount="1">
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>

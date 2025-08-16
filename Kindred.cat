@@ -1,66 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9ca6-7da6-7285-3f09" name="Kindred" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0ecf-0a47-e8bd-b893" name="Kindred" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Kindred" id="fa1a-ebfc-bd8b-c3b9" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="6cb4-0a7b-6398-37e6" targetId="e7c5-f4ae-d0e7-9f53"/>
   </catalogueLinks>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Allegiance: Kindred" hidden="false" id="4743-5c76-0ef9-799f">
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Kindred" hidden="false" id="a7fe-119d-b9b3-abe1" defaultAmount="1">
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
         <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
       </costs>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98ef-e90c-9e88-92fc"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a122-91af-0dd0-9ff3"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="849b-af16-c599-a0af"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd92-63e6-8f44-b1e1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Allegiance: Kindred" id="28ee-6b27-9890-fff3" hidden="false" type="profile" targetId="1b2d-75b3-94e1-3262"/>
-        <infoLink name="Allegiance Archetype: Ranger" id="c6fa-b1f6-9f22-b312" hidden="false" type="rule" targetId="2844-cb4c-0851-a812"/>
-        <infoLink name="Expert Training" id="79b0-250c-2f6f-bf91" hidden="false" type="rule" targetId="e517-dfdc-5fc9-8a97"/>
-        <infoLink name="Scout" id="c54b-57c7-dab8-a8ce" hidden="false" type="rule" targetId="5e49-a3c1-9bb0-3436"/>
-        <infoLink name="Magical Archetypes" id="3ff2-0e62-a0e5-33b8" hidden="false" type="rule" targetId="918e-863e-dffc-8aae"/>
-        <infoLink name="Travel Light" id="1fa0-335a-2391-12be" hidden="false" type="rule" targetId="f044-6628-d45d-c232"/>
+        <infoLink name="Allegiance: Kindred" id="bffb-b554-0859-dbc0" hidden="false" type="profile" targetId="1b2d-75b3-94e1-3262"/>
+        <infoLink name="Expert Training" id="4c54-2eec-60a4-22a7" hidden="false" type="rule" targetId="fe20-7939-6f59-f046"/>
+        <infoLink name="Travel Light" id="5a1f-e417-a442-fa96" hidden="false" type="rule" targetId="7080-ceb4-6b72-6e8d"/>
+        <infoLink name="Allegiance Archetype: Ranger" id="8872-8023-da8e-bc99" hidden="false" type="rule" targetId="43fa-65a8-2462-e861"/>
+        <infoLink name="Magical Archetypes" id="30da-26e4-d8a6-4987" hidden="false" type="rule" targetId="eac9-ea55-42ec-9dcc"/>
+        <infoLink name="Scout" id="918d-15e8-55cf-9ff4" hidden="false" type="rule" targetId="0c9c-bd7d-8fb9-69e0"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="4e9b-b086-78c9-ef55" targetId="6e19-a782-971c-00a5" primary="true"/>
-      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
-  <entryLinks>
-    <entryLink import="true" name="Allegiance: Kindred" hidden="false" id="6e30-0408-6f37-5504" targetId="4743-5c76-0ef9-799f" type="selectionEntry"/>
-  </entryLinks>
-  <forceEntries>
-    <forceEntry name="Warband" id="feda-7c79-e7bd-f939" hidden="false">
-      <costs>
-        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="d45e-3ea5-dd32-7785" targetId="6e19-a782-971c-00a5" type="categoryEntry"/>
-        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="d3cd-1f6f-b4ad-a66b" targetId="07b2-c48b-e2e1-2c84"/>
-        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="2359-cc06-2a62-4d2a" targetId="97ca-8945-7b55-dd53"/>
-        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="5241-3d30-bf99-9f4a" targetId="9ed2-8233-7200-924b"/>
-        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="a93e-7951-ca64-7ebe" targetId="6803-87ba-83c4-bd4b"/>
-        <categoryLink name="Den Upgrade" hidden="false" id="8802-b20f-81f8-a021" targetId="583b-2cca-fae6-9a19"/>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
   <rules>
-    <rule name="Expert Training" id="e517-dfdc-5fc9-8a97" hidden="false">
+    <rule name="Expert Training" id="fe20-7939-6f59-f046" hidden="false">
       <description>Three of your models may improve their Strike or Ranged dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
     </rule>
-    <rule name="Travel Light" id="f044-6628-d45d-c232" hidden="false">
+    <rule name="Travel Light" id="7080-ceb4-6b72-6e8d" hidden="false">
       <description>No model in a Kindred Band may wear Heavy Armour, Very Heavy Armour, or use a Heavy Shield. No model in a Kindred Band may use a Heavy Crossbow or any Black Powder weapons.</description>
     </rule>
-    <rule name="Allegiance Archetype: Ranger" id="2844-cb4c-0851-a812" hidden="false"/>
-    <rule name="Magical Archetypes" id="918e-863e-dffc-8aae" hidden="false">
+    <rule name="Allegiance Archetype: Ranger" id="43fa-65a8-2462-e861" hidden="false">
+      <description>Allegiance Archetype: Ranger</description>
+    </rule>
+    <rule name="Magical Archetypes" id="eac9-ea55-42ec-9dcc" hidden="false">
       <description>Kindred Magic-users may choose from Natural, Light, Noble, Wild, Divine, and Elementalism.</description>
     </rule>
-    <rule name="Scout" id="5e49-a3c1-9bb0-3436" hidden="false">
+    <rule name="Scout" id="0c9c-bd7d-8fb9-69e0" hidden="false">
       <description>Reach Base Contact with the enemy’s Objectives and mark them by performing an Interact Action. Any model who marks an enemy Objective gains 1 Fate Point and 1 Experience point. If all the enemy’s Objectives are Marked, all your models gain 1 Fate point. Each Objective can only be marked once.</description>
     </rule>
   </rules>
-  <categoryEntries>
-    <categoryEntry name="Allegiance" id="6e19-a782-971c-00a5" hidden="false"/>
-  </categoryEntries>
 </catalogue>

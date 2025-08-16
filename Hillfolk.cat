@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="fed0-6ff5-3773-1162" name="Hillfolk" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Campaign" id="2772-8f7f-1cca-4773" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="2772-8f7f-1cca-4773" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry name="Warband" id="c77a-c2a0-956c-80a4" hidden="false">
@@ -9,6 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="d5ee-8207-80fd-1ef4" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="76b9-71c3-8303-a0d7" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="6310-1b67-8f24-43e8" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="5d8a-7089-6635-d8dd" targetId="9ed2-8233-7200-924b"/>
@@ -32,14 +33,18 @@
         <infoLink name="Allegiance: Hillfolk" id="0df4-29c6-36d3-6fa1" hidden="false" type="profile" targetId="a3fe-3e86-6b94-4cff"/>
         <infoLink name="Allegiance Archetype: All-rounder" id="7ba1-82b9-7737-16c0" hidden="false" type="rule" targetId="4f55-de53-0416-1758"/>
         <infoLink name="Magical Archetypes" id="652a-d007-2ad8-4177" hidden="false" type="rule" targetId="431f-1fe0-ae3b-f64d"/>
-        <infoLink name="Raid" id="96db-fb00-a64a-9a83" hidden="false" type="rule" targetId="6b2e-4e50-02ba-768c"/>
+        <infoLink name="Raid:" id="96db-fb00-a64a-9a83" hidden="false" type="rule" targetId="6b2e-4e50-02ba-768c"/>
         <infoLink name="Fast and Furious" id="561e-9ba3-3911-7e3b" hidden="false" type="rule" targetId="89d3-ca6d-4d39-74ea"/>
         <infoLink name="Fabled Pipers" id="9740-8c73-95c2-4158" hidden="false" type="rule" targetId="ed2d-f9bb-4e1e-3919"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Allegiance: Hillfolk" hidden="false" id="349f-a16e-8bce-8b7a" targetId="d49b-0548-5a3f-1240" type="selectionEntry"/>
+    <entryLink import="true" name="Allegiance: Hillfolk" hidden="false" id="349f-a16e-8bce-8b7a" targetId="d49b-0548-5a3f-1240" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="3d4d-1432-0f60-462a" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule name="Fast and Furious" id="89d3-ca6d-4d39-74ea" hidden="false">

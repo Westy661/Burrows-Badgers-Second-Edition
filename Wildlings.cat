@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="9831-20f3-95b7-e442" name="Wildlings" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Campaign" id="41db-4a1d-04b1-788c" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="41db-4a1d-04b1-788c" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry name="Warband" id="6910-0c2d-5a75-5c8f" hidden="false">
@@ -9,6 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="b8c3-7407-3e4f-d3b3" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7dbe-9a91-7a6d-c6a6" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="671d-f16a-d8ae-531b" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="d2f4-0a91-5c91-88d5" targetId="9ed2-8233-7200-924b"/>
@@ -33,13 +34,17 @@
         <infoLink name="Allegiance Archetype: All-rounder" id="78cd-7c62-1d83-a8d9" hidden="false" type="rule" targetId="0f5a-586b-1f9b-2c83"/>
         <infoLink name="Born to be Wild" id="ddb4-eacd-b6d3-488e" hidden="false" type="rule" targetId="0580-000d-9442-925b"/>
         <infoLink name="Back to Nature" id="9691-485d-d7aa-3c1f" hidden="false" type="rule" targetId="8ef3-c799-f2cb-f947"/>
-        <infoLink name="Magical Archetypes:" id="8174-9b49-735b-d9b2" hidden="false" type="rule" targetId="c1e7-7c82-6ebb-c9b5"/>
+        <infoLink name="Magical Archetypes" id="8174-9b49-735b-d9b2" hidden="false" type="rule" targetId="c1e7-7c82-6ebb-c9b5"/>
         <infoLink name="Stay Pure" id="ca5a-6801-1a9b-5cca" hidden="false" type="rule" targetId="7ca4-ae17-1cd2-405c"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Allegiance: Wildlings" hidden="false" id="0550-0aa5-e27b-3224" targetId="8d39-93f9-26a9-651c" type="selectionEntry"/>
+    <entryLink import="true" name="Allegiance: Wildlings" hidden="false" id="0550-0aa5-e27b-3224" targetId="8d39-93f9-26a9-651c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="76f1-90a0-44ad-b1af" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule name="Born to be Wild" id="0580-000d-9442-925b" hidden="false">

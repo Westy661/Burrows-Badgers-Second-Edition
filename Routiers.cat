@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="3693-1d8c-9910-fa7b" name="Routiers" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Campaign" id="d400-1ffe-2a1a-ea82" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="d400-1ffe-2a1a-ea82" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry name="Warband" id="3f5f-f1a4-7c84-5698" hidden="false">
@@ -9,6 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="8b56-690c-daff-e59f" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="4fa8-54b3-7b8b-587e" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="6a5c-83d7-a9f1-9fd4" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="4a9e-47bc-785b-84b4" targetId="9ed2-8233-7200-924b"/>
@@ -40,7 +41,11 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Allegiance: Routier" hidden="false" id="75ac-f7fa-1e91-312f" targetId="d31a-18fc-c0f8-ee05" type="selectionEntry"/>
+    <entryLink import="true" name="Allegiance: Routier" hidden="false" id="75ac-f7fa-1e91-312f" targetId="d31a-18fc-c0f8-ee05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="e569-0677-0b0e-d931" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule name="Expert Training" id="53a9-8376-f8f4-cce8" hidden="false">

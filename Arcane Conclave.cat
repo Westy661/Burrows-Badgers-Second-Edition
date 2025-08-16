@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="62be-40e2-c6b0-9ab2" name="Arcane Conclave" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Campaign" id="eb5f-16ed-8960-b13a" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="eb5f-16ed-8960-b13a" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry name="Warband" id="9fa3-8354-5355-859e" hidden="false">
@@ -9,6 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="5a8c-248c-aa28-3d9b" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="2660-72e9-6fa4-d676" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="5f69-dbfc-f7a8-c924" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="2441-15b1-589d-d836" targetId="9ed2-8233-7200-924b"/>
@@ -39,7 +40,11 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Allegiance: Arcane Conclaves" hidden="false" id="4368-5ccc-2251-174f" targetId="10da-69cb-5d7f-adb3" type="selectionEntry"/>
+    <entryLink import="true" name="Allegiance: Arcane Conclaves" hidden="false" id="4368-5ccc-2251-174f" targetId="10da-69cb-5d7f-adb3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="1e40-8171-f78a-78b0" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule name="Mental Prowess" id="c7dd-d840-763e-2b2d" hidden="false">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="ce6c-0ece-4fcd-35dc" name="Undead" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Campaign" id="5f49-0d3f-b80e-c474" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="5f49-0d3f-b80e-c474" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry name="Warband" id="1b4d-9c25-6dd7-e4e8" hidden="false">
@@ -9,6 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="c1a4-09dc-b92e-dc8c" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7a93-8bb3-28c5-6395" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="dfa9-641b-a5d5-8e73" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="5b64-af20-7a19-0c04" targetId="9ed2-8233-7200-924b"/>
@@ -39,7 +40,11 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Allegiance: Undead" hidden="false" id="b2de-4ff5-ee8c-4094" targetId="4f4d-602d-cfa2-e6df" type="selectionEntry"/>
+    <entryLink import="true" name="Allegiance: Undead" hidden="false" id="b2de-4ff5-ee8c-4094" targetId="4f4d-602d-cfa2-e6df" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="34b3-fed5-44d6-8794" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule name="Relics of a Past Life" id="d3eb-8b30-710e-b003" hidden="false">
