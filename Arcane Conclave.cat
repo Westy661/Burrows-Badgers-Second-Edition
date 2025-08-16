@@ -9,7 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="5a8c-248c-aa28-3d9b" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
+        <categoryLink name="Allegiance" hidden="false" id="5a8c-248c-aa28-3d9b" targetId="1bc5-0b8a-1258-293f"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="2660-72e9-6fa4-d676" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="5f69-dbfc-f7a8-c924" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="2441-15b1-589d-d836" targetId="9ed2-8233-7200-924b"/>
@@ -61,6 +61,22 @@
     </rule>
     <rule name="Perform the Ritual" id="cddd-ce93-9857-0f97" hidden="false">
       <description>Place some kind of ritual marker within 24” of the enemy’s Table Corner; something like a standing stone, statue, or altar, on a 50mm base or similar (use whatever you have, really!).
+- Any of your models in Base Contact with the ritual marker may declare an Interact Action, then make a Presence Roll-off against a Difficulty of 0. Make a note of the Result, adding it to any Results of other ‘Perform the Ritual’ Interact Actions your Band has made. Any model who rolls a Result of 8 or more gains 1 Fate point and 1 Experience point.
+- If your Band manages to roll a combined Result of over 50 before the game ends, all models receive 1 Experience point.</description>
+    </rule>
+    <rule name="Magical Studies" id="8d1f-02b8-09ca-c658" hidden="false">
+      <description>All models in an Arcane Conclave Band must be Magic-users, and start with at least one Spell.</description>
+    </rule>
+    <rule name="Allegiance Archetype: Cunning Folk" id="1900-71ae-763d-bcd4" hidden="false">
+      <description>Allegiance Archetype: Cunning Folk</description>
+    </rule>
+    <rule name="Magical Archetypes" id="0b36-5187-9d1c-fd89" hidden="false">
+      <description>Arcane Conclave Magic-users may choose from the Natural, Wild, Light, Dark, Noble, Unbound, Fate-weaver, Illusionist, and Elementalist Spell lists.</description>
+    </rule>
+    <rule name="Support Quest – Perform the Ritual" id="3a40-d3fc-ed13-c77c" hidden="false">
+      <description>Place some kind of ritual marker within 24” of the enemy’s Table Corner; something like a standing stone, statue, or altar, on a 50mm base or similar (use whatever you have, really!).
+
+
 - Any of your models in Base Contact with the ritual marker may declare an Interact Action, then make a Presence Roll-off against a Difficulty of 0. Make a note of the Result, adding it to any Results of other ‘Perform the Ritual’ Interact Actions your Band has made. Any model who rolls a Result of 8 or more gains 1 Fate point and 1 Experience point.
 - If your Band manages to roll a combined Result of over 50 before the game ends, all models receive 1 Experience point.</description>
     </rule>
