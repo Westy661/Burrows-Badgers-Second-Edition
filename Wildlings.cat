@@ -9,7 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="b8c3-7407-3e4f-d3b3" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
+        <categoryLink name="Allegiance" hidden="false" id="b8c3-7407-3e4f-d3b3" targetId="1bc5-0b8a-1258-293f"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7dbe-9a91-7a6d-c6a6" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="671d-f16a-d8ae-531b" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="d2f4-0a91-5c91-88d5" targetId="9ed2-8233-7200-924b"/>
