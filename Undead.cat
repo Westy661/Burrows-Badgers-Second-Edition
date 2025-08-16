@@ -9,7 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="c1a4-09dc-b92e-dc8c" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
+        <categoryLink name="Allegiance" hidden="false" id="c1a4-09dc-b92e-dc8c" targetId="1bc5-0b8a-1258-293f"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7a93-8bb3-28c5-6395" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="dfa9-641b-a5d5-8e73" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="5b64-af20-7a19-0c04" targetId="9ed2-8233-7200-924b"/>
@@ -73,4 +73,5 @@ During the Off-Duty section of the Post-Battle Phase, Stable Ghasts and Mist Gh
       <description>Any model who takes an enemy model Out of Action gains 1 Fate point. Any model still on the table on Turn 3 gains 1 Fate point. Any model still on the table on Turn 6 gains 1 Fate point and 1 Experience point.</description>
     </rule>
   </rules>
+  <comment>Mist Ghast rule</comment>
 </catalogue>

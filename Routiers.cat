@@ -9,7 +9,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="8b56-690c-daff-e59f" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
+        <categoryLink name="Allegiance" hidden="false" id="8b56-690c-daff-e59f" targetId="1bc5-0b8a-1258-293f"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="4fa8-54b3-7b8b-587e" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="6a5c-83d7-a9f1-9fd4" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="4a9e-47bc-785b-84b4" targetId="9ed2-8233-7200-924b"/>
@@ -79,4 +79,5 @@
 Only the survivors get paid. If your Band suffers fewer models Out of Action than the opposing Band at the end of the Battle, all models receive 1 Experience (see page 150 for opposing players in multiplayer games).</description>
     </rule>
   </rules>
+  <comment>- Old Campaigners &amp; Raw Recruits: Not implemented</comment>
 </catalogue>
