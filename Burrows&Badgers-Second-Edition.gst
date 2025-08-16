@@ -4719,7 +4719,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="10f6-bcda-0265-7176">
                               <infoLinks>
-                                <infoLink name="Arcane Tome" id="9e38-f5ae-ef26-503a" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
+                                <infoLink name="Amanitas" id="b457-d293-68f8-2aa2" hidden="false" type="profile" targetId="b536-09bc-6700-d36c"/>
                               </infoLinks>
                               <costs>
                                 <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
