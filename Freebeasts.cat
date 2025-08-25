@@ -35,7 +35,7 @@
         <infoLink name="Deep Pockets" id="19fe-416d-02b2-e3ca" hidden="false" type="rule" targetId="f05e-a7df-d743-c30d"/>
         <infoLink name="Allegiance Archetype: All-rounder" id="c042-53b7-ddec-6e71" hidden="false" type="rule" targetId="fd1b-123b-073d-4843"/>
         <infoLink name="Magical Archetypes" id="8976-8ef2-19bd-ac11" hidden="false" type="rule" targetId="f790-b03c-30c1-169e"/>
-        <infoLink name="Look After Yourself" id="d5c6-715b-2986-a1c8" hidden="false" type="rule" targetId="c66b-8b4b-de4a-ab9e"/>
+        <infoLink name="Support Quest – Look After Yourself" id="d5c6-715b-2986-a1c8" hidden="false" type="rule" targetId="c66b-8b4b-de4a-ab9e"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -47,7 +47,7 @@
     </entryLink>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Campaign" id="fa5c-9a11-fdf5-090e" targetId="e7c5-f4ae-d0e7-9f53"/>
+    <catalogueLink type="catalogue" name="Campaign" id="fa5c-9a11-fdf5-090e" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
   <sharedRules>
     <rule name="One to Watch" id="08d5-57b4-a046-8b5f" hidden="false">
@@ -55,6 +55,7 @@
     </rule>
     <rule name="Deep Pockets" id="f05e-a7df-d743-c30d" hidden="false">
       <description>You have an extra 25 Pennies to spend at Band creation, for a total of 375 Pennies.
+
 In addition, in the Post-Battle Phase when checking for Availability of Rare Equipment in the General Store (see page 176), you may roll 3d6, rather than the usual 2d6.</description>
     </rule>
     <rule name="Allegiance Archetype: All-rounder" id="fd1b-123b-073d-4843" hidden="false"/>

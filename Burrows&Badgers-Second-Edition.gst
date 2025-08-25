@@ -5189,7 +5189,6 @@ D6 ROLL RESULT
                                     <conditionGroup type="or">
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
@@ -5209,6 +5208,7 @@ D6 ROLL RESULT
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -5634,7 +5634,9 @@ D6 ROLL RESULT
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Relic" hidden="true" id="13c3-e16b-407f-2847">
                       <costs>
-                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Relic" id="fe66-8a0e-4a29-a843" hidden="false" type="profile" targetId="fc39-7293-1a2f-beac"/>

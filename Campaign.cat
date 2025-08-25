@@ -272,6 +272,18 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cd9-6f77-a7a4-7a35"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -466,7 +478,7 @@ You may pray for a blessing before each Battle; roll a d6.
             <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -478,19 +490,6 @@ You may pray for a blessing before each Battle; roll a d6.
     <entryLink import="true" name="Smallholding" hidden="false" id="fc2f-1025-de92-aa66" targetId="c1f4-ab41-191b-eb0e" type="selectionEntry"/>
     <entryLink import="true" name="Smithy" hidden="false" id="0c42-4ebd-cd6c-ef30" targetId="cca7-24e1-c4e3-ed6b" type="selectionEntry"/>
     <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="4f14-793e-098e-f405" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry"/>
-    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0">
-      <modifiers>
-        <modifier type="set" value="1" field="defaultAmount">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0"/>
   </entryLinks>
 </catalogue>
