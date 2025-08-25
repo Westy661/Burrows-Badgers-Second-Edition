@@ -2232,6 +2232,36 @@ D6 ROLL RESULT
         <entryLink import="true" name="Character" hidden="false" id="73b8-adfb-230b-c7fe" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Configuration" hidden="false" id="7bf8-aeb9-f1b6-a0cb" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="2360-5ba5-dc37-8b59" targetId="1bc5-0b8a-1258-293f" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Roster creation mode" id="4a7d-1f3b-a7a7-6862" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Create New Warband" hidden="false" id="9ac6-5588-2096-9250" defaultAmount="1" sortIndex="1">
+              <modifiers>
+                <modifier type="add" value="Use this when you are creating a brand new warband. This mode enables starting options and allegiance bonuses required during initial roster building. Once the campaign begins, switch to Campaign Mode instead." field="info"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c1ab-f148-7000-88ff" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ongoing Play" hidden="false" id="027d-1a52-c355-570e" defaultAmount="0" sortIndex="2">
+              <modifiers>
+                <modifier type="add" value="Use this after your warband has begun a campaign. This mode unlocks advancement options, injuries, and ongoing progression. Do not use this mode for creating a new starting roster." field="info"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="48ed-d3c0-d297-cac3" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="504a-3265-7817-8235" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink hidden="false" id="cb27-1721-a3f8-536d" import="true" name="Attack Grub" targetId="8f91-2d4c-9e53-1b2a" type="selectionEntry"/>
@@ -2282,6 +2312,7 @@ D6 ROLL RESULT
     <entryLink hidden="false" id="3708-a1ab-583d-fb5a" import="true" name="Raccoon (Rare)" targetId="d5e4-4c27-4bdf-8f93" type="selectionEntry"/>
     <entryLink hidden="false" id="dc96-66c0-5d97-3f27" import="true" name="Raptor (Large)" targetId="a3e4-4d2a-4e3e-bac1" type="selectionEntry"/>
     <entryLink hidden="false" id="e09a-3d68-01f2-dcf2" import="true" name="Raptor (Massive)" targetId="d2f1-4b5e-4f2b-b1a8" type="selectionEntry"/>
+    <entryLink import="true" name="Configuration" hidden="false" id="7eca-9dd1-b83d-6ecc" targetId="7bf8-aeb9-f1b6-a0cb" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Character" id="4240-559e-5c1d-4780" hidden="false" collective="true">
