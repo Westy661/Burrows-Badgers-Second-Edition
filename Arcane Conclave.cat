@@ -53,8 +53,8 @@
     <rule name="Magical Studies" id="11ca-a217-8779-d9d9" hidden="false">
       <description>All models in an Arcane Conclave Band must be Magic-users, and start with at least one Spell.</description>
     </rule>
-    <rule name="Allegiance Archetype: Cunning Folk" id="df21-cc6a-8aa9-6d11" hidden="false">
-      <description>Allegiance Archetype: Cunning Folk</description>
+    <rule name="Allegiance Archetype" id="df21-cc6a-8aa9-6d11" hidden="false">
+      <description>Cunning Folk</description>
     </rule>
     <rule name="Magical Archetypes" id="8cbf-fae8-7c48-7438" hidden="false">
       <description>Arcane Conclave Magic-users may choose from the Natural, Wild, Light, Dark, Noble, Unbound, Fate-weaver, Illusionist, and Elementalist Spell lists.</description>
@@ -66,9 +66,6 @@
     </rule>
     <rule name="Magical Studies" id="8d1f-02b8-09ca-c658" hidden="false">
       <description>All models in an Arcane Conclave Band must be Magic-users, and start with at least one Spell.</description>
-    </rule>
-    <rule name="Allegiance Archetype: Cunning Folk" id="1900-71ae-763d-bcd4" hidden="false">
-      <description>Allegiance Archetype: Cunning Folk</description>
     </rule>
     <rule name="Magical Archetypes" id="0b36-5187-9d1c-fd89" hidden="false">
       <description>Arcane Conclave Magic-users may choose from the Natural, Wild, Light, Dark, Noble, Unbound, Fate-weaver, Illusionist, and Elementalist Spell lists.</description>

@@ -14,9 +14,10 @@ The project is currently **work in progress**, so expect missing content and dat
 - Injury table 
 - Undead special rules implementation
 - Rouiters special rules implementation
+- Arcane conclave special rules implementation
 - Troughout testing and bugfixing
 - Tracking band rating & XP
-- Witch hunters, Freebeast bonusz 25 penny rule implementation
+- -Witch hunters, Freebeast bonusz 25 penny rule implementation- Done!
 - Labor, material cost tracking in a non-intrusive\cluttering way 
 ---
 
