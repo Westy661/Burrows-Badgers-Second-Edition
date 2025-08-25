@@ -3744,7 +3744,7 @@ D6 ROLL RESULT
                     <entryLink import="true" name="Upgrades" hidden="false" id="35c1-7da7-778e-46b8" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                   </entryLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Blunderbuss" hidden="false" id="b238-5e3b-fe99-f6a6" collective="true" sortIndex="9">
+                <selectionEntry type="upgrade" import="true" name="Blunderbuss" hidden="true" id="b238-5e3b-fe99-f6a6" collective="true" sortIndex="9">
                   <infoLinks>
                     <infoLink name="Blunderbuss" id="fd89-2b17-25a1-fdde" hidden="false" type="profile" targetId="53e4-f099-bdd5-c2ca"/>
                   </infoLinks>
@@ -3757,8 +3757,19 @@ D6 ROLL RESULT
                   <entryLinks>
                     <entryLink import="true" name="Upgrades" hidden="false" id="2e39-c0e3-01f9-36de" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                   </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="f850-1e34-543c-02b6" collective="true" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Pistol" hidden="true" id="f850-1e34-543c-02b6" collective="true" sortIndex="5">
                   <infoLinks>
                     <infoLink name="Pistol" id="739f-c134-37f8-6177" hidden="false" type="profile" targetId="3ef9-23c1-c345-5804"/>
                   </infoLinks>
@@ -3771,6 +3782,17 @@ D6 ROLL RESULT
                   <entryLinks>
                     <entryLink import="true" name="Upgrades" hidden="false" id="3ce5-dc48-7580-bd55" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                   </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="War Bow" hidden="true" id="8199-3eb2-c4ad-4de4" collective="true" sortIndex="13">
                   <infoLinks>
@@ -3829,6 +3851,7 @@ D6 ROLL RESULT
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -3864,6 +3887,11 @@ D6 ROLL RESULT
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -3926,7 +3954,7 @@ D6 ROLL RESULT
                     <entryLink import="true" name="Upgrades" hidden="false" id="f031-6b7f-fec1-51c5" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                   </entryLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Cheirosiphon" hidden="false" id="d8c4-14a7-cb4f-a20d" collective="true" sortIndex="11">
+                <selectionEntry type="upgrade" import="true" name="Cheirosiphon" hidden="true" id="d8c4-14a7-cb4f-a20d" collective="true" sortIndex="11">
                   <infoLinks>
                     <infoLink name="Cheirosiphon" id="edcf-6066-ae56-7af7" hidden="false" type="profile" targetId="74ae-7a92-3f79-10d4"/>
                   </infoLinks>
@@ -3938,10 +3966,19 @@ D6 ROLL RESULT
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                      </conditions>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <selectionEntries>
@@ -3983,6 +4020,11 @@ D6 ROLL RESULT
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -4093,8 +4135,19 @@ D6 ROLL RESULT
                   <categoryLinks>
                     <categoryLink name="Starting Equipment" hidden="false" id="2679-f758-e900-c4e8" targetId="3359-f6f3-9852-b8c0" primary="true"/>
                   </categoryLinks>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy armour" hidden="false" id="e1cc-7247-8834-0dc4" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Heavy armour" hidden="true" id="e1cc-7247-8834-0dc4" sortIndex="2">
                   <infoLinks>
                     <infoLink name="Heavy armour" id="d105-b62f-4446-dd35" hidden="false" type="profile" targetId="b935-128e-d97c-a5f2"/>
                   </infoLinks>
@@ -4107,6 +4160,17 @@ D6 ROLL RESULT
                   <categoryLinks>
                     <categoryLink name="General Store Equipment" hidden="false" id="8cfb-f23e-5194-b253" targetId="874a-091c-7fe7-ba43" primary="true"/>
                   </categoryLinks>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Buckler" hidden="false" id="c8e5-3c77-ba60-bca4" sortIndex="4">
                   <infoLinks>
@@ -4200,6 +4264,11 @@ D6 ROLL RESULT
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -10445,9 +10514,25 @@ D6 ROLL RESULT
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7794-8722-9e42-f291"/>
               </constraints>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="bf9e-a90b-b49f-ca4c" collective="true" sortIndex="3">
+              <modifiers>
+                <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+              </modifiers>
+              <profiles>
+                <profile name="Ranged Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="fbad-2ae3-39c4-80fd">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Ranged Statistic of this unit has been upgraded.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="45ed-3f90-364d-be28" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="45ed-3f90-364d-be28" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4872-1bf5-5050-f732"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Quick and Quiet" id="d5ca-8c03-982f-67bc" hidden="true" collapsible="true" collective="true" flatten="false">
