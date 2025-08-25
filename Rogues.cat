@@ -38,7 +38,7 @@
       <infoLinks>
         <infoLink name="Allegiance Archetype: Warrior" id="3ea1-b9d0-3012-7db0" hidden="false" type="rule" targetId="7f41-617c-88cf-1eb8"/>
         <infoLink name="Expert Training" id="cd1f-345c-b4cc-b246" hidden="false" type="rule" targetId="5a03-e3b6-060c-b836"/>
-        <infoLink name="Support Quest" id="b991-ff62-f298-02c0" hidden="false" type="rule" targetId="a611-a458-e53a-f835"/>
+        <infoLink name="Support Quest - Strip the Area" id="b991-ff62-f298-02c0" hidden="false" type="rule" targetId="a611-a458-e53a-f835"/>
         <infoLink name="Magical Archetypes" id="927f-c3a4-969c-0565" hidden="false" type="rule" targetId="3780-9be5-ebbe-30f1"/>
       </infoLinks>
     </selectionEntry>
@@ -51,15 +51,20 @@
     </entryLink>
   </entryLinks>
   <rules>
-    <rule name="Allegiance Archetype: Warrior" id="7f41-617c-88cf-1eb8" hidden="false"/>
-    <rule name="Expert Training" id="5a03-e3b6-060c-b836" hidden="false">
-      <description>Two of your models may improve their Strike dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    <rule name="Allegiance Archetype: Ranger" id="7f41-617c-88cf-1eb8" hidden="false">
+      <description>Each Allegiance has an Allegiance Archetype – either Warrior, Ranger, All-rounder, or Cunning Folk. This determines which Advance table the models in the Band will roll on when gaining Experience Advances.</description>
+    </rule>
+    <rule name="Quick and Quiet" id="5a03-e3b6-060c-b836" hidden="false">
+      <description>Two of your models may improve their Move or Nimbleness or Concealment dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
     </rule>
     <rule name="Magical Archetypes" id="3780-9be5-ebbe-30f1" hidden="false">
-      <description>Royalist Magic-users may choose from Natural, Light, Noble, Unbound, Divine, and Elementalism.</description>
+      <description>Rogue Magic-users may choose from Natural, Wild, Noble, Unbound, Fate-weaver, and Illusionism.</description>
     </rule>
-    <rule name="Support Quest" id="a611-a458-e53a-f835" hidden="false">
-      <description>The King Wills It!: Any model who takes an enemy model Out of Action using an Attack Action (including the bonus Attack from Charging, or the free Attack when an enemy moves out of Base Contact) gains 1 Fate point and 1 Experience point.</description>
+    <rule name="Support Quest - Strip the Area:" id="a611-a458-e53a-f835" hidden="false">
+      <description>Perform a Search Action with a Difficulty of 5 on one or more Terrain pieces that are at least 12” from your Table Corner. For every Terrain piece successfully Searched, the Searching model gains 1 Fate point and 1 Experience point.
+
+
+Each Terrain piece can only be successfully Searched once, and only Terrain pieces at least 50mm wide/long count!</description>
     </rule>
   </rules>
 </catalogue>
