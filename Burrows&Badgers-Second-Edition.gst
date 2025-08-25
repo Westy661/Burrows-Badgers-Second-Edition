@@ -5903,6 +5903,8 @@ D6 ROLL RESULT
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
