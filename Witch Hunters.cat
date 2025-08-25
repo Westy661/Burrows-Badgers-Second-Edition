@@ -16,6 +16,9 @@
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="c48c-592a-9db5-0de8" targetId="6803-87ba-83c4-bd4b"/>
         <categoryLink name="Den Upgrade" hidden="false" id="9bef-dd64-5ef5-b7d6" targetId="583b-2cca-fae6-9a19"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="decrement" value="25" field="6752-9e0b-692e-d5b9" scope="roster"/>
+      </modifiers>
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
@@ -57,7 +60,7 @@
     <rule name="Magical Archetypes" id="0b10-c900-8ec2-eff6" hidden="false">
       <description>Witch Hunter Magic-users may choose from Light, Noble, and Divine.</description>
     </rule>
-    <rule name="Purify" id="456e-c7fe-152f-b2ac" hidden="false">
+    <rule name="Support Quest – Purify" id="456e-c7fe-152f-b2ac" hidden="false">
       <description>Any model that takes an enemy Leader, Second, Magic-user, or enemy with the Uncanny Skill Out of Action gains 1 Fate point and 1 Experience point.</description>
     </rule>
   </rules>
