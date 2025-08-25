@@ -59,7 +59,7 @@
     <rule name="Magical Archetypes" id="c1e7-7c82-6ebb-c9b5" hidden="false">
       <description>Wildling Magic-users may choose from Natural, Wild, Dark, Fate-Weaver, Channelling and Elementalism</description>
     </rule>
-    <rule name="Back to Nature" id="8ef3-c799-f2cb-f947" hidden="false">
+    <rule name="Support Quest – Back to Nature" id="8ef3-c799-f2cb-f947" hidden="false">
       <description>Reach Base Contact with the enemy’s Objectives and make an Interact Action to plant them with magically enhanced seeds; any model who seeds an enemy Objective gains 1 Fate point and 1 Experience point. Each Objective can only be seeded once.</description>
     </rule>
   </rules>

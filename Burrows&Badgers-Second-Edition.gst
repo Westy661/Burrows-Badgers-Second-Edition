@@ -3793,6 +3793,7 @@ D6 ROLL RESULT
                         <conditionGroup type="and">
                           <conditions>
                             <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -3818,6 +3819,7 @@ D6 ROLL RESULT
                         <conditionGroup type="and">
                           <conditions>
                             <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -4001,6 +4003,7 @@ D6 ROLL RESULT
                         <conditionGroup type="and">
                           <conditions>
                             <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                         <conditionGroup type="or">
@@ -4055,6 +4058,7 @@ D6 ROLL RESULT
                         <conditionGroup type="and">
                           <conditions>
                             <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -4338,7 +4342,7 @@ D6 ROLL RESULT
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aebd-98e3-f42a-6b76"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Bonded critters" id="1b45-fee8-4c8f-4469" hidden="false" sortIndex="5" collapsible="true">
+                <selectionEntryGroup name="Bonded critters" id="1b45-fee8-4c8f-4469" hidden="true" sortIndex="5" collapsible="true">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Cave Spider" hidden="true" id="86b4-a29f-3e1d-25b8" sortIndex="3">
                       <selectionEntries>
@@ -4687,10 +4691,15 @@ D6 ROLL RESULT
                     </selectionEntry>
                   </selectionEntries>
                   <modifiers>
-                    <modifier type="set" value="true" field="hidden">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                      </conditions>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
@@ -5642,13 +5651,11 @@ D6 ROLL RESULT
                       </categoryLinks>
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
-                          <conditions>
-                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                          </conditions>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -10833,7 +10840,7 @@ D6 ROLL RESULT
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="d121-f8cb-b854-32c2" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="d121-f8cb-b854-32c2" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9391-0982-8189-65e9"/>
           </constraints>
         </selectionEntryGroup>
