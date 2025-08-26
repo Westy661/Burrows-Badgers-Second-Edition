@@ -10659,6 +10659,7 @@ D6 ROLL RESULT
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
               </modifiers>
               <profiles>
                 <profile name="Ranged Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="fbad-2ae3-39c4-80fd">
@@ -10667,6 +10668,9 @@ D6 ROLL RESULT
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f601-f6ae-545a-0253"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -11346,6 +11350,7 @@ D6 ROLL RESULT
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
               </modifiers>
               <profiles>
                 <profile name="Ranged Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="b57b-31aa-501f-b50c">
@@ -11354,6 +11359,9 @@ D6 ROLL RESULT
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2169-1be6-fe98-65ce"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
