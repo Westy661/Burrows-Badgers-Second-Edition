@@ -2295,6 +2295,19 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="48c9-030c-ecc9-4e39" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Strong" id="a187-608a-7fa9-ccd3" hidden="false" type="profile" targetId="615c-4533-9772-a971">
+          <modifiers>
+            <modifier type="set" value="3" field="annotation"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Tough" id="16dd-4f6a-7ae5-9755" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
+          <modifiers>
+            <modifier type="set" value="2" field="annotation"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Natural Hunter" id="b684-5e9c-ebba-1f93" hidden="false" type="rule" targetId="5cae-3547-fc1c-3db4"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry hidden="false" id="f2c3-4a6b-49d2-b8ec" import="true" name="Mist Ghast (Massive)" type="model">
       <profiles>
