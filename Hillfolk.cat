@@ -33,7 +33,7 @@
         <infoLink name="Allegiance: Hillfolk" id="0df4-29c6-36d3-6fa1" hidden="false" type="profile" targetId="a3fe-3e86-6b94-4cff"/>
         <infoLink name="Allegiance Archetype: All-rounder" id="7ba1-82b9-7737-16c0" hidden="false" type="rule" targetId="4f55-de53-0416-1758"/>
         <infoLink name="Magical Archetypes" id="652a-d007-2ad8-4177" hidden="false" type="rule" targetId="431f-1fe0-ae3b-f64d"/>
-        <infoLink name="Raid" id="96db-fb00-a64a-9a83" hidden="false" type="rule" targetId="6b2e-4e50-02ba-768c"/>
+        <infoLink name="Raid:" id="96db-fb00-a64a-9a83" hidden="false" type="rule" targetId="6b2e-4e50-02ba-768c"/>
         <infoLink name="Fast and Furious" id="561e-9ba3-3911-7e3b" hidden="false" type="rule" targetId="89d3-ca6d-4d39-74ea"/>
         <infoLink name="Fabled Pipers" id="9740-8c73-95c2-4158" hidden="false" type="rule" targetId="ed2d-f9bb-4e1e-3919"/>
       </infoLinks>
@@ -74,10 +74,9 @@ the Turn. However, they do not have to spend a Fate point to use that Skill.</de
     <rule name="Magical Archetypes" id="431f-1fe0-ae3b-f64d" hidden="false">
       <description>Hillfolk Magic-users may choose from Natural, Light, Wild, and Elementalism.</description>
     </rule>
-    <rule name="Raid:" id="6b2e-4e50-02ba-768c" hidden="false">
+    <rule name="Support Quest – Raid" id="6b2e-4e50-02ba-768c" hidden="false">
       <description>You must choose and then reach one of the enemy’s Objectives, then drag it off the table at your Table Corner. Dragging the Objective will slow the model holding it; all movement is treated as Difficult
 Terrain while moving it. The model dragging the Objective may stop doing so at any time. As the Objective is large and heavy, Spells such as The Gate or Transpose will not affect it; the dragging models would be moved but the
-
 
 Objective would remain in place. Each Turn that the enemy Objective is being dragged, any single Hillfolk model may be given 1 Fate point. When the Objective has been moved to within 12” of your Table Corner, all your models receive 1 Fate point. If the Objective is dragged off at your Table Corner, all models in your Band gain 1 Experience point.</description>
     </rule>

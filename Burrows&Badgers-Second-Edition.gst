@@ -4356,9 +4356,6 @@ D6 ROLL RESULT
                             <modifier type="set" value="20" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
-                                  <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                  </conditions>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
@@ -4422,9 +4419,6 @@ D6 ROLL RESULT
                             <modifier type="set" value="23" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
-                                  <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                  </conditions>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
@@ -4488,9 +4482,6 @@ D6 ROLL RESULT
                             <modifier type="set" value="23" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
-                                  <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                  </conditions>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
@@ -4554,9 +4545,6 @@ D6 ROLL RESULT
                             <modifier type="set" value="23" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
-                                  <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                  </conditions>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
@@ -4620,9 +4608,6 @@ D6 ROLL RESULT
                             <modifier type="set" value="30" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
-                                  <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                  </conditions>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
@@ -4636,9 +4621,6 @@ D6 ROLL RESULT
                             <modifier type="set" value="32" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
-                                  <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                  </conditions>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
@@ -5855,7 +5837,7 @@ D6 ROLL RESULT
                                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="7b78-6c4b-4181-9ca0" shared="true" roundUp="false"/>
                               </repeats>
                             </modifier>
-                            <modifier type="set" value="3" field="defaultAmount">
+                            <modifier type="set" value="20" field="defaultAmount">
                               <conditionGroups>
                                 <conditionGroup type="and">
                                   <conditions>
@@ -10548,9 +10530,7 @@ D6 ROLL RESULT
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                         <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -10598,6 +10578,7 @@ D6 ROLL RESULT
             <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="45ed-3f90-364d-be28" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4872-1bf5-5050-f732"/>
           </constraints>
+          <comment>3 choices</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Quick and Quiet" id="d5ca-8c03-982f-67bc" hidden="true" collapsible="true" collective="true" flatten="false">
           <modifiers>
@@ -11208,6 +11189,83 @@ D6 ROLL RESULT
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="7152-0409-2f20-a190" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ebd3-85ec-d748-9a28"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Expert Training" id="f123-f107-5267-9028" hidden="true" collapsible="true" collective="true" flatten="false">
+          <modifiers>
+            <modifier type="add" value="Starting bonus (2 in force)" field="info">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="cc6f-c178-abae-4058" collective="true" sortIndex="2">
+              <modifiers>
+                <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+              </modifiers>
+              <profiles>
+                <profile name="Strike Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="3345-1c9d-429d-4f24">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Strike Statistic of this unit has been upgraded.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b6e-e464-f972-797e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="d9b3-5ebb-d7a2-3533" collective="true" sortIndex="3">
+              <modifiers>
+                <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+              </modifiers>
+              <profiles>
+                <profile name="Ranged Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="b57b-31aa-501f-b50c">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Ranged Statistic of this unit has been upgraded.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="01b6-1cc2-091c-65bc" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="73ed-2085-42aa-9a15"/>
+          </constraints>
+          <comment>2 choices</comment>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>

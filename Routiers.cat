@@ -72,7 +72,7 @@
     <rule name="Magical Archetypes" id="bacb-aefa-adfb-5a31" hidden="false">
       <description>Routier Magic-users may choose from Natural, Light, Noble, and Unbound.</description>
     </rule>
-    <rule name="Protect your Assets" id="98f3-50d9-fed5-6d21" hidden="false">
+    <rule name="Support Quests – Protect your Assets" id="98f3-50d9-fed5-6d21" hidden="false">
       <description>Have a model in Base Contact with one or more of your Objectives. Once per Turn, one of your models who is in Base Contact with one of your Objectives gains 1 Fate Point. In addition, if there are no enemy models within 12” of that Objective, one of your models on the table gains 1 Fate point.
 
 
