@@ -44,7 +44,6 @@
         <characteristicType name="Rarity" id="cc3f-d6c8-df5d-cc2c"/>
         <characteristicType name="Availability" id="81e0-c6a5-4f63-8822"/>
         <characteristicType name="Keywords" id="56b5-769b-3492-f985"/>
-        <characteristicType name="Bonus level" id="e73e-51e6-ce3b-e8bd"/>
       </characteristicTypes>
     </profileType>
     <profileType hidden="false" id="568c-91db-9da7-e04c" name="Ability">
@@ -94,6 +93,27 @@
       <characteristicTypes>
         <characteristicType id="aed0-1f3f-2638-d0a5" name="Effect"/>
         <characteristicType name="Bonus Level" id="c645-4dd7-a42f-580d"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType hidden="false" id="7f37-c1bd-0335-6142" name="Enchanted Weapon">
+      <characteristicTypes>
+        <characteristicType id="b7fc-0512-6aad-5a47" name="Type"/>
+        <characteristicType id="eebf-de5d-0730-9df7" name="Range"/>
+        <characteristicType id="6174-51a7-961d-4756" name="Rules"/>
+        <characteristicType name="Rarity" id="aada-1b37-b801-a03f"/>
+        <characteristicType name="Availability" id="e9bb-b3a9-0372-cfac"/>
+        <characteristicType name="Keywords" id="56d7-c3d1-cd5a-7475"/>
+        <characteristicType name="Bonus level" id="bc28-80dc-914f-f8bf"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType hidden="false" id="ba57-7a15-c213-78ce" name="Enchanted Armor">
+      <characteristicTypes>
+        <characteristicType id="38f4-1b30-28f1-d139" name="Type"/>
+        <characteristicType id="6ac9-da36-c29a-5e60" name="Rules"/>
+        <characteristicType name="Rarity" id="ca88-f97b-68fc-2a88"/>
+        <characteristicType name="Availability" id="06ce-ecd4-e2d9-fb8d"/>
+        <characteristicType name="Keywords" id="8ba9-5ca5-9068-3250"/>
+        <characteristicType name="Bonus Level" id="f7d3-2d5d-473b-3630"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -4228,7 +4248,7 @@ casting Spells.</description>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Weapon types" id="7bc5-7e55-7d14-b891" hidden="false" flatten="false" sortIndex="2" collective="false">
+                    <selectionEntryGroup name="Weapon Types" id="7bc5-7e55-7d14-b891" hidden="false" flatten="false" sortIndex="2" collective="false">
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Enchanted One-handed Weapon" hidden="false" id="2dd2-8602-fa0e-aa16" flatten="true" sortIndex="1">
                           <selectionEntries>
@@ -4365,7 +4385,7 @@ casting Spells.</description>
                             <infoLink name="Flame" id="4ddf-6f87-ace9-2bb2" hidden="false" type="rule" targetId="edfc-66f6-8b5d-50d5"/>
                           </infoLinks>
                           <modifiers>
-                            <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                            <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Enchanted Weapon" scope="parent"/>
                           </modifiers>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Leeching" hidden="false" id="cbd6-7f0a-3170-8aa9" collective="true">
@@ -4378,7 +4398,7 @@ casting Spells.</description>
                             <infoLink name="Leeching" id="88fb-3ef3-f662-9497" hidden="false" type="rule" targetId="af53-3d19-ecc7-ca37"/>
                           </infoLinks>
                           <modifiers>
-                            <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                            <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Enchanted Weapon" scope="parent"/>
                           </modifiers>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Smiting" hidden="false" id="58c0-a019-b1b4-bbcc" collective="true">
@@ -4391,7 +4411,7 @@ casting Spells.</description>
                             <infoLink name="Smiting" id="a4db-31da-6d50-9804" hidden="false" type="rule" targetId="ae80-5c66-4e70-ee75"/>
                           </infoLinks>
                           <modifiers>
-                            <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                            <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Enchanted Weapon" scope="parent"/>
                           </modifiers>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Venom" hidden="false" id="02a6-3d81-4c37-5bbd" collective="true">
@@ -4404,7 +4424,7 @@ casting Spells.</description>
                             <infoLink name="Venom" id="9ed1-c0f7-f98c-c016" hidden="false" type="rule" targetId="0b3f-cb78-665e-4941"/>
                           </infoLinks>
                           <modifiers>
-                            <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                            <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Enchanted Weapon" scope="parent"/>
                           </modifiers>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Wounding" hidden="false" id="6b43-d00e-5c55-d91f" collective="true">
@@ -4417,7 +4437,7 @@ casting Spells.</description>
                             <infoLink name="Wounding" id="fd2d-1a10-aab3-835d" hidden="false" type="rule" targetId="0259-a833-9272-d8f7"/>
                           </infoLinks>
                           <modifiers>
-                            <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                            <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Enchanted Weapon" scope="parent"/>
                           </modifiers>
                         </selectionEntry>
                       </selectionEntries>
@@ -4606,6 +4626,270 @@ casting Spells.</description>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="a882-5ebc-449b-0955" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                   </categoryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Enchanted Armor" hidden="true" id="3403-f7df-f7cc-07f1" collective="true">
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="acbc-d97b-45a7-c043" sortIndex="0">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="acbc-d97b-45a7-c043" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Armor types" id="6f15-8a02-f73b-d79e" hidden="false" flatten="false" sortIndex="2" collective="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Light Armour" hidden="false" id="19d3-fbe3-ae32-b7f6" flatten="true" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="29f7-aaec-594c-c3e6">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="29f7-aaec-594c-c3e6" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Enchanted Light armour" id="b53e-c1f7-c6e3-1779" hidden="false" type="profile" targetId="ddbc-05f3-a4cf-2074"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33e9-15c7-67f1-fe9d"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Heavy Armour" hidden="false" id="735d-3c28-7e6c-8f42" flatten="true" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="9a0a-0abd-445e-9194">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="9a0a-0abd-445e-9194" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Enchanted  Heavy armour" id="164a-a4d2-d553-1655" hidden="false" type="profile" targetId="8647-b0f0-f6e6-9719"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca9f-d099-8eea-0bff"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Very Heavy Armour" hidden="false" id="95f3-b1e9-20d3-ecb6" flatten="true" sortIndex="3">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="2254-96a5-2850-7787">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="2254-96a5-2850-7787" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Enchanted Very heavy armour" id="0fd9-caa2-fe42-bfc6" hidden="false" type="profile" targetId="86a4-fb1f-8943-e6e4"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3339-46a0-b80c-4990"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Buckler" hidden="false" id="47fc-1808-9031-2cba" flatten="true" sortIndex="4">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="2b46-5891-6dc6-9249">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="2b46-5891-6dc6-9249" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Enchanted Buckler" id="43ad-a4b4-e61c-daf1" hidden="false" type="profile" targetId="06dd-2d5e-bd6a-ade8"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f00b-ebcc-7b33-f96a"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Light Shield" hidden="false" id="d07b-a765-276f-f900" flatten="true" sortIndex="5">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="d1e2-d163-c511-0f05">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d1e2-d163-c511-0f05" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Enchanted Light Shield" id="3ada-db1d-c7bd-105c" hidden="false" type="profile" targetId="a811-c3a8-3224-fb85"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdb2-6a1d-b928-57c4"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Heavy Shield" hidden="false" id="26cc-8598-61d3-a665" flatten="true" sortIndex="6">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="2a5d-947c-b716-6d6b">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="2a5d-947c-b716-6d6b" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <infoLinks>
+                            <infoLink name="Enchanted Heavy Shield" id="8b01-8cce-36f5-56f9" hidden="false" type="profile" targetId="ef83-1828-5219-3d9f"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fb7-0478-9f10-93f6"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d613-fb6c-5ead-a144-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d613-fb6c-5ead-a144-max"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Armor Effect" id="4b12-0a84-e354-13a0" hidden="false" flatten="false" sortIndex="3">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cffc-a8ae-00f2-2b59"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Eyes" hidden="false" id="eb13-a46c-7467-4553" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Eyes" id="9a64-8473-35df-c176" hidden="false" type="rule" targetId="8f40-3704-65b6-f153"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Hiding" hidden="false" id="93d6-f921-4175-be3f" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Hiding" id="84f5-0860-1dc7-6cdd" hidden="false" type="rule" targetId="888a-d3b9-78ac-4dbe"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Protection" hidden="false" id="25fa-834d-7327-dd91" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Protection" id="adba-e2dd-2d5f-2073" hidden="false" type="rule" targetId="8087-9e3c-995c-5578"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Shielding" hidden="false" id="8505-2ac0-5b3d-d943" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Shielding" id="b78b-02f0-f024-e21c" hidden="false" type="rule" targetId="3d76-7d55-141a-36b2"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Blocking" hidden="false" id="0c79-b7a9-de0f-0f36" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Blocking" id="6247-4348-b771-a314" hidden="false" type="rule" targetId="2d52-9b11-2589-379e"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Agility" hidden="false" id="7c67-b391-2ab4-00d5" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Agility" id="e56f-7807-ef72-d88f" hidden="false" type="rule" targetId="91e8-be0c-7c79-ecd2"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Fear" hidden="false" id="667f-2014-e50f-424d" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Fear" id="b5f8-d937-9340-d154" hidden="false" type="rule" targetId="a9e6-9cbc-7759-c133"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Shielding" hidden="false" id="64c0-681e-bdc0-c73a" collective="true">
+                          <costs>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Shielding" id="21d9-a7c8-98c4-2a9d" hidden="false" type="rule" targetId="3d76-7d55-141a-36b2"/>
+                          </infoLinks>
+                          <modifiers>
+                            <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -13928,70 +14212,70 @@ Paralysing Poison (1 use), or Mortal Poison (1 use).</characteristic>
     <profile name="Allegiance: Hillfolk" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="a3fe-3e86-6b94-4cff"/>
     <profile name="Allegiance: Witch Hunter" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="e4e7-3e7d-efaf-4647"/>
     <profile name="Allegiance: Arcane Conclaves" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="57ae-059c-f07f-303a"/>
-    <profile name="Enchanted One-handed weapon" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="1a90-3dc0-430b-4163">
+    <profile name="Enchanted One-handed weapon" typeId="7f37-c1bd-0335-6142" typeName="Enchanted Weapon" hidden="false" id="1a90-3dc0-430b-4163">
       <characteristics>
-        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">One-handed</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce"/>
-        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
-        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd">0</characteristic>
+        <characteristic name="Type" typeId="b7fc-0512-6aad-5a47">One-handed</characteristic>
+        <characteristic name="Range" typeId="eebf-de5d-0730-9df7">-</characteristic>
+        <characteristic name="Rules" typeId="6174-51a7-961d-4756"/>
+        <characteristic name="Rarity" typeId="aada-1b37-b801-a03f">Rare</characteristic>
+        <characteristic name="Availability" typeId="e9bb-b3a9-0372-cfac">10</characteristic>
+        <characteristic name="Keywords" typeId="56d7-c3d1-cd5a-7475"/>
+        <characteristic name="Bonus level" typeId="bc28-80dc-914f-f8bf">0</characteristic>
       </characteristics>
     </profile>
-    <profile name="Enchanted Two-Handed Weapon" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="3753-021d-baa4-96b4">
+    <profile name="Enchanted Two-Handed Weapon" typeId="7f37-c1bd-0335-6142" typeName="Enchanted Weapon" hidden="false" id="3753-021d-baa4-96b4">
       <characteristics>
-        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Two-handed Weapons are difficult to use and all Block rolls have a -2 modifier while using one.</characteristic>
-        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
-        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (3)</characteristic>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+        <characteristic name="Type" typeId="b7fc-0512-6aad-5a47">Two-Handed</characteristic>
+        <characteristic name="Range" typeId="eebf-de5d-0730-9df7">-</characteristic>
+        <characteristic name="Rules" typeId="6174-51a7-961d-4756">Two-handed Weapons are difficult to use and all Block rolls have a -2 modifier while using one.</characteristic>
+        <characteristic name="Rarity" typeId="aada-1b37-b801-a03f">Rare</characteristic>
+        <characteristic name="Availability" typeId="e9bb-b3a9-0372-cfac">10</characteristic>
+        <characteristic name="Keywords" typeId="56d7-c3d1-cd5a-7475">Strong (3)</characteristic>
+        <characteristic name="Bonus level" typeId="bc28-80dc-914f-f8bf"/>
       </characteristics>
     </profile>
-    <profile name="Enchanted Polearm" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="8102-0848-7a7c-662c">
+    <profile name="Enchanted Polearm" typeId="7f37-c1bd-0335-6142" typeName="Enchanted Weapon" hidden="false" id="8102-0848-7a7c-662c">
       <characteristics>
-        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Polearm adds +1 to all Strike Roll-offs.</characteristic>
-        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
-        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1)</characteristic>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+        <characteristic name="Type" typeId="b7fc-0512-6aad-5a47">Two-Handed</characteristic>
+        <characteristic name="Range" typeId="eebf-de5d-0730-9df7">-</characteristic>
+        <characteristic name="Rules" typeId="6174-51a7-961d-4756">Polearm adds +1 to all Strike Roll-offs.</characteristic>
+        <characteristic name="Rarity" typeId="aada-1b37-b801-a03f">Rare</characteristic>
+        <characteristic name="Availability" typeId="e9bb-b3a9-0372-cfac">10</characteristic>
+        <characteristic name="Keywords" typeId="56d7-c3d1-cd5a-7475">Strong (1)</characteristic>
+        <characteristic name="Bonus level" typeId="bc28-80dc-914f-f8bf"/>
       </characteristics>
     </profile>
-    <profile name="Enchanted Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="1722-381b-4416-f9b8">
+    <profile name="Enchanted Bow" typeId="7f37-c1bd-0335-6142" typeName="Enchanted Weapon" hidden="false" id="1722-381b-4416-f9b8">
       <characteristics>
-        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">18&quot;</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">-</characteristic>
-        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
-        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">-</characteristic>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+        <characteristic name="Type" typeId="b7fc-0512-6aad-5a47">-</characteristic>
+        <characteristic name="Range" typeId="eebf-de5d-0730-9df7">18&quot;</characteristic>
+        <characteristic name="Rules" typeId="6174-51a7-961d-4756">-</characteristic>
+        <characteristic name="Rarity" typeId="aada-1b37-b801-a03f">Rare</characteristic>
+        <characteristic name="Availability" typeId="e9bb-b3a9-0372-cfac">10</characteristic>
+        <characteristic name="Keywords" typeId="56d7-c3d1-cd5a-7475">-</characteristic>
+        <characteristic name="Bonus level" typeId="bc28-80dc-914f-f8bf"/>
       </characteristics>
     </profile>
-    <profile name="Enchanted War Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="aeb9-afcb-dbf7-96a4">
+    <profile name="Enchanted War Bow" typeId="7f37-c1bd-0335-6142" typeName="Enchanted Weapon" hidden="false" id="aeb9-afcb-dbf7-96a4">
       <characteristics>
-        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36&quot;</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Requires Strong (2) to use.</characteristic>
-        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
-        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+        <characteristic name="Type" typeId="b7fc-0512-6aad-5a47">-</characteristic>
+        <characteristic name="Range" typeId="eebf-de5d-0730-9df7">36&quot;</characteristic>
+        <characteristic name="Rules" typeId="6174-51a7-961d-4756">Requires Strong (2) to use.</characteristic>
+        <characteristic name="Rarity" typeId="aada-1b37-b801-a03f">Rare</characteristic>
+        <characteristic name="Availability" typeId="e9bb-b3a9-0372-cfac">10</characteristic>
+        <characteristic name="Keywords" typeId="56d7-c3d1-cd5a-7475"/>
+        <characteristic name="Bonus level" typeId="bc28-80dc-914f-f8bf"/>
       </characteristics>
     </profile>
-    <profile name="Enchanted Light Crossbow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c6aa-192e-1af5-4c47">
+    <profile name="Enchanted Light Crossbow" typeId="7f37-c1bd-0335-6142" typeName="Enchanted Weapon" hidden="false" id="c6aa-192e-1af5-4c47">
       <characteristics>
-        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
-        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">24&quot;</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Ignore 1 point of Tough provided by Armour.</characteristic>
-        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
-        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Slow Weapon, Strong (2)</characteristic>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+        <characteristic name="Type" typeId="b7fc-0512-6aad-5a47">-</characteristic>
+        <characteristic name="Range" typeId="eebf-de5d-0730-9df7">24&quot;</characteristic>
+        <characteristic name="Rules" typeId="6174-51a7-961d-4756">Ignore 1 point of Tough provided by Armour.</characteristic>
+        <characteristic name="Rarity" typeId="aada-1b37-b801-a03f">Rare</characteristic>
+        <characteristic name="Availability" typeId="e9bb-b3a9-0372-cfac">10</characteristic>
+        <characteristic name="Keywords" typeId="56d7-c3d1-cd5a-7475">Slow Weapon, Strong (2)</characteristic>
+        <characteristic name="Bonus level" typeId="bc28-80dc-914f-f8bf"/>
       </characteristics>
     </profile>
     <profile name="Amanitas" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="064e-7b5a-406b-66e8">
@@ -14001,6 +14285,80 @@ Paralysing Poison (1 use), or Mortal Poison (1 use).</characteristic>
         <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
         <characteristic name="Keywords" typeId="d060-38f7-c160-776c">Single use</characteristic>
         <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Buckler" typeId="ba57-7a15-c213-78ce" typeName="Enchanted Armor" hidden="false" id="06dd-2d5e-bd6a-ade8">
+      <characteristics>
+        <characteristic name="Type" typeId="38f4-1b30-28f1-d139">Armor</characteristic>
+        <characteristic name="Rules" typeId="6ac9-da36-c29a-5e60">+1 to all Defend rolls that use Block.</characteristic>
+        <characteristic name="Rarity" typeId="ca88-f97b-68fc-2a88">Rare</characteristic>
+        <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">-</characteristic>
+        <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">-</characteristic>
+        <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted  Heavy armour" typeId="ba57-7a15-c213-78ce" typeName="Enchanted Armor" hidden="false" id="8647-b0f0-f6e6-9719">
+      <characteristics>
+        <characteristic name="Type" typeId="38f4-1b30-28f1-d139">Armor</characteristic>
+        <characteristic name="Rules" typeId="6ac9-da36-c29a-5e60">Heavy Armour counts as two items for carrying purposes, so a model equipped with Heavy Armour uses up both Armour Equipment slots. 
+The model’s Nimbleness rolls suffer a -1 penalty.</characteristic>
+        <characteristic name="Rarity" typeId="ca88-f97b-68fc-2a88">Rare</characteristic>
+        <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">-</characteristic>
+        <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">Tough (2)</characteristic>
+        <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Heavy Shield" typeId="ba57-7a15-c213-78ce" typeName="Enchanted Armor" hidden="false" id="ef83-1828-5219-3d9f">
+      <characteristics>
+        <characteristic name="Type" typeId="38f4-1b30-28f1-d139">Armor</characteristic>
+        <characteristic name="Rules" typeId="6ac9-da36-c29a-5e60">A model equipped with a Heavy Shield gains Tough (1), adds +3 to all Defend rolls that use Block, and may choose to use Block for Defend rolls against Shoot Actions (but not Ambush Shoot Actions). However, all the model’s Nimbleness rolls suffer a -1 penalty.</characteristic>
+        <characteristic name="Rarity" typeId="ca88-f97b-68fc-2a88">Rare</characteristic>
+        <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">-</characteristic>
+        <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">Tough (1)</characteristic>
+        <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Light armour" typeId="ba57-7a15-c213-78ce" typeName="Enchanted Armor" hidden="false" id="ddbc-05f3-a4cf-2074">
+      <characteristics>
+        <characteristic name="Type" typeId="38f4-1b30-28f1-d139">Armor</characteristic>
+        <characteristic name="Rules" typeId="6ac9-da36-c29a-5e60">-</characteristic>
+        <characteristic name="Rarity" typeId="ca88-f97b-68fc-2a88">Rare</characteristic>
+        <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">-</characteristic>
+        <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">Tough (1)</characteristic>
+        <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Light Shield" typeId="ba57-7a15-c213-78ce" typeName="Enchanted Armor" hidden="false" id="a811-c3a8-3224-fb85">
+      <characteristics>
+        <characteristic name="Type" typeId="38f4-1b30-28f1-d139">Armor</characteristic>
+        <characteristic name="Rules" typeId="6ac9-da36-c29a-5e60">+2 to all Defend rolls that use Block.
+May choose to use Block for Defend rolls against Shoot Actions (but not Ambush Shoot Actions).</characteristic>
+        <characteristic name="Rarity" typeId="ca88-f97b-68fc-2a88">Rare</characteristic>
+        <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">-</characteristic>
+        <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">-</characteristic>
+        <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Very heavy armour" typeId="ba57-7a15-c213-78ce" typeName="Enchanted Armor" hidden="false" id="86a4-fb1f-8943-e6e4">
+      <characteristics>
+        <characteristic name="Type" typeId="38f4-1b30-28f1-d139">Armor</characteristic>
+        <characteristic name="Rules" typeId="6ac9-da36-c29a-5e60">Very Heavy Armour counts as two items for carrying purposes, so a model equipped with Very Heavy Armour uses up both Armour Equipment slots. 
+The model’s Nimbleness rolls suffer a -2 penalty.</characteristic>
+        <characteristic name="Rarity" typeId="ca88-f97b-68fc-2a88">Rare</characteristic>
+        <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">8</characteristic>
+        <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">Tough (4)</characteristic>
+        <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Very heavy armour" typeId="ba57-7a15-c213-78ce" typeName="Enchanted Armor" hidden="false" id="cc66-995e-f9ea-c707">
+      <characteristics>
+        <characteristic name="Type" typeId="38f4-1b30-28f1-d139">Armor</characteristic>
+        <characteristic name="Rules" typeId="6ac9-da36-c29a-5e60">Very Heavy Armour counts as two items for carrying purposes, so a model equipped with Very Heavy Armour uses up both Armour Equipment slots. 
+The model’s Nimbleness rolls suffer a -2 penalty.</characteristic>
+        <characteristic name="Rarity" typeId="ca88-f97b-68fc-2a88">Rare</characteristic>
+        <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">8</characteristic>
+        <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">Tough (4)</characteristic>
+        <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
       </characteristics>
     </profile>
   </sharedProfiles>
