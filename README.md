@@ -3,6 +3,15 @@
 This repository contains **New Recruit data files** for the **Burrows & Badgers (2nd Edition)** game.  
 The project is currently **work in progress**, so expect missing content and data errors.
 
+## How to use it 
+- Go to: [https://www.newrecruit.eu/app/MyLists](https://www.newrecruit.eu/app/MySystems)
+- Click on "Add more games"
+- Click on "Add from Github"
+- Paste the url of this repository (https://github.com/Westy661/Burrows-Badgers-Second-Edition)
+- Click OK
+- Enjoy!
+  
+
 ## Current Content
 - **Items, units, rules, and abilities**: included
 - **All factions** are available, most of them with their **warband creation rules**  
@@ -21,3 +30,4 @@ The project is currently **work in progress**, so expect missing content and dat
 ---
 
 If you try this out, please keep in mind that it is still under construction, and you may want to keep the rulebook handy for verification.
+
