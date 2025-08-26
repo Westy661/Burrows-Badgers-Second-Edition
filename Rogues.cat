@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="808b-4fc3-6383-952e" name="Rogues" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="808b-4fc3-6383-952e" name="Rogues" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry name="Warband" id="6fbb-11b2-ebb0-3767" hidden="false">
       <costs>
@@ -36,9 +36,9 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6705-18e4-f59e-e304-max"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Allegiance Archetype: Warrior" id="3ea1-b9d0-3012-7db0" hidden="false" type="rule" targetId="7f41-617c-88cf-1eb8"/>
-        <infoLink name="Expert Training" id="cd1f-345c-b4cc-b246" hidden="false" type="rule" targetId="5a03-e3b6-060c-b836"/>
-        <infoLink name="Support Quest - Strip the Area" id="b991-ff62-f298-02c0" hidden="false" type="rule" targetId="a611-a458-e53a-f835"/>
+        <infoLink name="Allegiance Archetype: Ranger" id="3ea1-b9d0-3012-7db0" hidden="false" type="rule" targetId="7f41-617c-88cf-1eb8"/>
+        <infoLink name="Quick and Quiet" id="cd1f-345c-b4cc-b246" hidden="false" type="rule" targetId="5a03-e3b6-060c-b836"/>
+        <infoLink name="Support Quest - Strip the Area:" id="b991-ff62-f298-02c0" hidden="false" type="rule" targetId="a611-a458-e53a-f835"/>
         <infoLink name="Magical Archetypes" id="927f-c3a4-969c-0565" hidden="false" type="rule" targetId="3780-9be5-ebbe-30f1"/>
       </infoLinks>
     </selectionEntry>

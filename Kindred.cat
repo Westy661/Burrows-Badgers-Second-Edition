@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0ecf-0a47-e8bd-b893" name="Kindred" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0ecf-0a47-e8bd-b893" name="Kindred" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Campaign" id="6cb4-0a7b-6398-37e6" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
@@ -20,7 +20,7 @@
         <infoLink name="Travel Light" id="051f-9a4d-c3dd-5f80" hidden="false" type="rule" targetId="7080-ceb4-6b72-6e8d"/>
         <infoLink name="Allegiance Archetype: Ranger" id="d707-8c27-ed30-e07d" hidden="false" type="rule" targetId="43fa-65a8-2462-e861"/>
         <infoLink name="Magical Archetypes" id="98a5-5ab5-b43a-02b1" hidden="false" type="rule" targetId="eac9-ea55-42ec-9dcc"/>
-        <infoLink name="Scout" id="40d3-c076-6033-0e4a" hidden="false" type="rule" targetId="0c9c-bd7d-8fb9-69e0"/>
+        <infoLink name="Support Quest – Scout" id="40d3-c076-6033-0e4a" hidden="false" type="rule" targetId="0c9c-bd7d-8fb9-69e0"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Allegiance" hidden="false" id="1e94-2e7d-8736-b1dc" targetId="1bc5-0b8a-1258-293f" primary="true"/>
@@ -50,7 +50,7 @@
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="e051-d80c-806a-0a36" targetId="1bc5-0b8a-1258-293f" type="categoryEntry"/>
+        <categoryLink name="Allegiance" hidden="false" id="e051-d80c-806a-0a36" targetId="1bc5-0b8a-1258-293f"/>
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="db10-677a-ca6c-cbaf" targetId="07b2-c48b-e2e1-2c84"/>
         <categoryLink name="Large Beast (40mm Base)" hidden="false" id="869a-5b15-39e5-da5f" targetId="97ca-8945-7b55-dd53"/>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="ec3f-5e6d-ab39-9aa1" targetId="9ed2-8233-7200-924b"/>

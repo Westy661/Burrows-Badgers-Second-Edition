@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="62be-40e2-c6b0-9ab2" name="Arcane Conclave" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="62be-40e2-c6b0-9ab2" name="Arcane Conclave" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Campaign" id="eb5f-16ed-8960-b13a" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
@@ -31,7 +31,7 @@
       </constraints>
       <infoLinks>
         <infoLink name="Allegiance: Arcane Conclaves" id="54ea-3348-e8e1-76f5" hidden="false" type="profile" targetId="57ae-059c-f07f-303a"/>
-        <infoLink name="Allegiance Archetype: Cunning Folk" id="709a-459f-166b-acbe" hidden="false" type="rule" targetId="df21-cc6a-8aa9-6d11"/>
+        <infoLink name="Allegiance Archetype" id="709a-459f-166b-acbe" hidden="false" type="rule" targetId="df21-cc6a-8aa9-6d11"/>
         <infoLink name="Magical Archetypes" id="b93f-ca55-e76f-5ba6" hidden="false" type="rule" targetId="8cbf-fae8-7c48-7438"/>
         <infoLink name="Magical Studies" id="701d-3452-8a07-907c" hidden="false" type="rule" targetId="11ca-a217-8779-d9d9"/>
         <infoLink name="Perform the Ritual" id="10be-e020-e44c-4822" hidden="false" type="rule" targetId="cddd-ce93-9857-0f97"/>

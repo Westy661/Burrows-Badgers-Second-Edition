@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d845-6d26-8d7a-ba51" name="Witch Hunters" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d845-6d26-8d7a-ba51" name="Witch Hunters" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Campaign" id="8877-b363-5f34-3f97" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
@@ -35,7 +35,7 @@
       <infoLinks>
         <infoLink name="Allegiance: Witch Hunter" id="fd01-7123-02ae-d5fc" hidden="false" type="profile" targetId="e4e7-3e7d-efaf-4647"/>
         <infoLink name="Allegiance Archetype: Cunning Folk" id="0d9a-6f69-fd2e-4594" hidden="false" type="rule" targetId="b1ab-a6f3-6bb4-a0e8"/>
-        <infoLink name="Purify" id="d726-95d0-cc01-a667" hidden="false" type="rule" targetId="456e-c7fe-152f-b2ac"/>
+        <infoLink name="Support Quest – Purify" id="d726-95d0-cc01-a667" hidden="false" type="rule" targetId="456e-c7fe-152f-b2ac"/>
         <infoLink name="Magical Archetypes" id="21c0-018e-0d77-c4ed" hidden="false" type="rule" targetId="0b10-c900-8ec2-eff6"/>
         <infoLink name="Well-funded" id="e7a3-d0cc-1a80-192c" hidden="false" type="rule" targetId="7aea-9f15-ace0-ac7e"/>
         <infoLink name="Armoured by Faith" id="8479-27e8-4162-67d3" hidden="false" type="rule" targetId="1926-d885-8fde-44e7"/>

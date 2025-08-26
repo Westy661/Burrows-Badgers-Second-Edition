@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8e43-6da2-cb09-05cd" name="Freebeasts" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8e43-6da2-cb09-05cd" name="Freebeasts" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry name="Warband" id="ed54-bfa6-e2bc-d786" hidden="false">
       <costs>
@@ -35,7 +35,7 @@
         <infoLink name="Deep Pockets" id="19fe-416d-02b2-e3ca" hidden="false" type="rule" targetId="f05e-a7df-d743-c30d"/>
         <infoLink name="Allegiance Archetype: All-rounder" id="c042-53b7-ddec-6e71" hidden="false" type="rule" targetId="fd1b-123b-073d-4843"/>
         <infoLink name="Magical Archetypes" id="8976-8ef2-19bd-ac11" hidden="false" type="rule" targetId="f790-b03c-30c1-169e"/>
-        <infoLink name="Support Quest – Look After Yourself" id="d5c6-715b-2986-a1c8" hidden="false" type="rule" targetId="c66b-8b4b-de4a-ab9e"/>
+        <infoLink name="Look After Yourself" id="d5c6-715b-2986-a1c8" hidden="false" type="rule" targetId="c66b-8b4b-de4a-ab9e"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
