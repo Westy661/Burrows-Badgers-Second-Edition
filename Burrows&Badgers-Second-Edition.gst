@@ -4219,7 +4219,7 @@ casting Spells.</description>
                     <entryLink import="true" name="Upgrades" hidden="false" id="ffef-2eb2-ab0b-c1a7" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                   </entryLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Enchanted weapon" hidden="true" id="46cb-c80e-3cf5-873a" collective="true" sortIndex="20">
+                <selectionEntry type="upgrade" import="true" name="Enchanted weapon" hidden="true" id="46cb-c80e-3cf5-873a" collective="true" sortIndex="99">
                   <costs>
                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                     <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -4444,6 +4444,210 @@ casting Spells.</description>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="The Thirsting Blade" hidden="true" id="03f6-d9d6-7e59-f8f2" collective="true" sortIndex="90">
+                  <infoLinks>
+                    <infoLink name="The Thirsting Blade" id="0e83-8569-a363-e2d0" hidden="false" type="profile" targetId="d659-9d3e-3e6c-0c86"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a82-eda3-6577-7ad0"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="948d-5708-41fd-2635">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="948d-5708-41fd-2635" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                        <modifier type="set" value="20" field="defaultAmount">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <categoryLinks>
+                    <categoryLink name="Rare" hidden="false" id="f11a-da0f-b66e-90e5" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Upgrades" hidden="false" id="228d-b57a-8dc0-48f8" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="The Axe of Slaughter" hidden="true" id="d225-77a1-ee7d-2d64" collective="true" sortIndex="91">
+                  <infoLinks>
+                    <infoLink name="The Axe of Slaughter" id="f461-1e81-171c-b1e7" hidden="false" type="profile" targetId="ca4d-5e2c-1d7a-622a"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7b9-fc50-b4dc-1c79"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="20f7-e27e-73d5-9d4e">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="20f7-e27e-73d5-9d4e" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                        <modifier type="set" value="20" field="defaultAmount">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <categoryLinks>
+                    <categoryLink name="Rare" hidden="false" id="10bc-1f20-021f-3528" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Upgrades" hidden="false" id="704e-a336-7a61-5746" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="The Master’s Bow" hidden="true" id="5233-6208-8e7d-2734" collective="true" sortIndex="92">
+                  <infoLinks>
+                    <infoLink name="The Master’s Bow" id="45ee-61ca-d1b4-1968" hidden="false" type="profile" targetId="0614-feb1-4907-eb07"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e14-e38f-0444-f0fd"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="714b-ace0-abb1-95cc">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="714b-ace0-abb1-95cc" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                        <modifier type="set" value="20" field="defaultAmount">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <categoryLinks>
+                    <categoryLink name="Rare" hidden="false" id="7434-a1bd-a3b8-296d" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Upgrades" hidden="false" id="ad0b-79fb-af5b-9f09" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="The Father of Swords" hidden="true" id="c9b7-f8bb-ff65-3ff0" collective="true" sortIndex="93">
+                  <infoLinks>
+                    <infoLink name="The Father of Swords" id="3658-9028-9a31-6c44" hidden="false" type="profile" targetId="e0b8-604d-2591-7e37"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fb4-a1e7-0ec6-2d7c"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="db77-4e6f-87ae-c4cc">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="db77-4e6f-87ae-c4cc" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                        <modifier type="set" value="20" field="defaultAmount">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <categoryLinks>
+                    <categoryLink name="Rare" hidden="false" id="0fc1-6f2d-8e2b-b58a" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Upgrades" hidden="false" id="9215-79e5-c3ad-d479" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                  </entryLinks>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8eb3-3930-a089-457a"/>
@@ -4627,7 +4831,7 @@ casting Spells.</description>
                     <categoryLink name="Rare" hidden="false" id="a882-5ebc-449b-0955" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                   </categoryLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Enchanted Armor" hidden="true" id="3403-f7df-f7cc-07f1" collective="true">
+                <selectionEntry type="upgrade" import="true" name="Enchanted Armor" hidden="true" id="3403-f7df-f7cc-07f1" collective="true" sortIndex="99">
                   <costs>
                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                     <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -4890,6 +5094,114 @@ casting Spells.</description>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="The Armour of Ultimate Protection" hidden="true" id="e14c-e963-f875-c287" sortIndex="90">
+                  <infoLinks>
+                    <infoLink name="The Armour of Ultimate Protection" id="07b9-8fd1-bc01-782a" hidden="false" type="profile" targetId="2c39-e4d5-8a89-3563"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9769-406c-1731-19be"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="7566-794c-997c-4fc1">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="7566-794c-997c-4fc1" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                        <modifier type="set" value="40" field="defaultAmount">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" value="42" field="defaultAmount">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="45" field="defaultAmount">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <categoryLinks>
+                    <categoryLink name="Rare" hidden="false" id="e6e0-2c64-ba10-5075" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                  </categoryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="The Shield of Attraction" hidden="true" id="7c95-76e0-ad1c-a330" sortIndex="91">
+                  <infoLinks>
+                    <infoLink name="The Shield of Attraction" id="bb3c-f2a0-c242-fcaf" hidden="false" type="profile" targetId="7dd9-6b9b-bbb0-1356"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d11f-65e3-f3eb-218b"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="e892-89b9-5acd-d049">
+                      <modifiers>
+                        <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                          <repeats>
+                            <repeat value="1" repeats="1" field="selections" scope="parent" childId="e892-89b9-5acd-d049" shared="true" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                        <modifier type="set" value="40" field="defaultAmount">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                        <modifier type="set" value="42" field="defaultAmount">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="45" field="defaultAmount">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <categoryLinks>
+                    <categoryLink name="Rare" hidden="false" id="e944-e3f7-f45b-6616" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                  </categoryLinks>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -6913,6 +7225,324 @@ casting Spells.</description>
                           </selectionEntries>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Belt of Balmorr" hidden="true" id="8a3e-f3a7-7459-3660" sortIndex="90">
+                      <costs>
+                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="The Belt of Balmorr" id="0b82-e9f8-3c5a-a5eb" hidden="false" type="profile" targetId="8093-26f9-0675-94d9"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="dc48-e3bf-9a55-3837">
+                          <modifiers>
+                            <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                              <repeats>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="dc48-e3bf-9a55-3837" shared="true" roundUp="false"/>
+                              </repeats>
+                            </modifier>
+                            <modifier type="set" value="10" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="7ae1-8f96-c506-ef6a" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Haldyn’s Staff" hidden="true" id="35b0-7db9-445c-81cb" sortIndex="91">
+                      <costs>
+                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Haldyn’s Staff" id="cecd-017d-52dc-5352" hidden="false" type="profile" targetId="8d59-e876-bcd3-c146"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="cd78-3d96-be6f-941a">
+                          <modifiers>
+                            <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                              <repeats>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="cd78-3d96-be6f-941a" shared="true" roundUp="false"/>
+                              </repeats>
+                            </modifier>
+                            <modifier type="set" value="10" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="030b-c4e6-0ea5-319a" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Tome of All-knowing" hidden="true" id="6d19-9445-d937-6b3c" sortIndex="92">
+                      <costs>
+                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="The Tome of All-knowing" id="d623-446c-53f8-947d" hidden="false" type="profile" targetId="f2ab-43d5-74ee-5fbc"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="d014-eee7-9e7f-39a8">
+                          <modifiers>
+                            <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                              <repeats>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="d014-eee7-9e7f-39a8" shared="true" roundUp="false"/>
+                              </repeats>
+                            </modifier>
+                            <modifier type="set" value="10" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="21d0-523e-bac7-4421" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Serpent’s Ring" hidden="true" id="7c7b-1db8-f1a3-ecad" sortIndex="93">
+                      <costs>
+                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="The Serpent’s Ring" id="6c14-53d8-deff-7f93" hidden="false" type="profile" targetId="9ccc-267d-42e3-12ad"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="d2f7-7910-f9b0-1201">
+                          <modifiers>
+                            <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                              <repeats>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="d2f7-7910-f9b0-1201" shared="true" roundUp="false"/>
+                              </repeats>
+                            </modifier>
+                            <modifier type="set" value="10" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="b3ab-aaf6-79e5-6d0a" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Selnab’s Necklace of Might and Frailty" hidden="true" id="5133-dcff-d56f-e102" sortIndex="94">
+                      <costs>
+                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Selnab’s Necklace of Might and Frailty" id="93a4-a34d-9ffe-eccd" hidden="false" type="profile" targetId="0090-6853-7813-fb99"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="9ca0-51d7-9fe0-a77c">
+                          <modifiers>
+                            <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                              <repeats>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="9ca0-51d7-9fe0-a77c" shared="true" roundUp="false"/>
+                              </repeats>
+                            </modifier>
+                            <modifier type="set" value="10" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="65ba-a08a-346d-9409" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="The Ring of Resistance" hidden="true" id="9791-c93a-9037-ec92" sortIndex="94">
+                      <costs>
+                        <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="The Ring of Resistance" id="3366-7e6f-49d4-5ad4" hidden="false" type="profile" targetId="8456-7a41-c38e-c2ea"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="6e4d-9bc0-f85b-b52c">
+                          <modifiers>
+                            <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                              <repeats>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6e4d-9bc0-f85b-b52c" shared="true" roundUp="false"/>
+                              </repeats>
+                            </modifier>
+                            <modifier type="set" value="10" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                                  </conditions>
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
+                          </modifiers>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <categoryLinks>
+                        <categoryLink name="Rare" hidden="false" id="e19b-397b-6309-0451" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                      </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -14110,15 +14740,6 @@ successful, no Wounds are applied, but your enemy is entangled and has the Condi
       </characteristics>
       <comment>May only be used by Magic-users</comment>
     </profile>
-    <profile name="Telescope" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="c5f3-a2c6-3adc-caaf">
-      <characteristics>
-        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
-        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">8</characteristic>
-        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Interact Action required to use. The model immediately has the Condition ‘Berserk’. However, any time the model rolls a 1 on any dice roll, they gain the Condition ‘Paralysed’ for the rest of the Turn.</characteristic>
-        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">Single use</characteristic>
-        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Berserker Seeds" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="e1cd-2b93-0d3e-a3ac">
       <characteristics>
         <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
@@ -14359,6 +14980,123 @@ The model’s Nimbleness rolls suffer a -2 penalty.</characteristic>
         <characteristic name="Availability" typeId="06ce-ecd4-e2d9-fb8d">8</characteristic>
         <characteristic name="Keywords" typeId="8ba9-5ca5-9068-3250">Tough (4)</characteristic>
         <characteristic name="Bonus Level" typeId="f7d3-2d5d-473b-3630"/>
+      </characteristics>
+    </profile>
+    <profile name="The Armour of Ultimate Protection" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="2c39-e4d5-8a89-3563">
+      <characteristics>
+        <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Light Armor</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">This Light Armour gives Tough (6) instead of the usual bonus. However, the user’s Move and Nimbleness Stats are reduced to d3 while they are wearing it (to roll a d3, roll a d6 and halve it, rounding up).</characteristic>
+        <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Magical</characteristic>
+        <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
+        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">Tough (6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Axe of Slaughter" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="ca4d-5e2c-1d7a-622a">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-handed</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A Two-handed axe, containing a bound spirit of violence and bloodshed; this Weapon doesn’t care who’s hurt, so long as somebeast is! This Weapon gives a +5 bonus to Strike rolls, but all Defend rolls have a -3 penalty.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Magical</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (3)</characteristic>
+      </characteristics>
+      <comment>Two-handed Weapons are difficult to use and all Block rolls have a -2 modifier while using one. ??</comment>
+    </profile>
+    <profile name="The Thirsting Blade" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="d659-9d3e-3e6c-0c86">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">One-handed</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3"/>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A One-handed sword that endlessly thirsts for blood. Any time this Weapon causes one or more Wounds to an enemy, heal Wounds equal to those caused to the user (provided they have Wounds that need healing). However, at the start of each and every Turn, the user suffers 2 Wounds, ignoring Armour and Tough Skills.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Magical</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
+      </characteristics>
+    </profile>
+    <profile name="The Belt of Balmorr" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="8093-26f9-0675-94d9">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Magical</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">This Item adds +3 to any Nimbleness rolls the user makes and adds 3” to any Move actions. However, the user must move at least 3” per Turn and cannot remain stationary. If it is impossible to move, due to Conditions, Impassable Terrain, enemy models, etc., then the user suffers d12 Wounds, not reduced by Armour.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c"/>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Master’s Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="0614-feb1-4907-eb07">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">18&quot;</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">This Bow adds +5 to any Ranged rolls. However, this Weapon doesn’t like poor archers – if you roll a 1 when making a Shoot Action, the Bow causes you d12 Wounds, ignoring Armour and Tough Skills.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Magical</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Haldyn’s Staff" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="8d59-e876-bcd3-c146">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Magical</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">This Item, used by the great mage Haldyn the Dominant, adds +5 to any Cast Roll-off. However, if any of those rolls are a 1, then the remnant of Haldyn’s spirit takes control of the user; your opponent may immediately use your model to perform one Action!</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c"/>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Tome of All-knowing" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="f2ab-43d5-74ee-5fbc">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Magical</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">A Magic-user carrying this Item may make Cast Actions using Spells they do not know and from Magical Archetypes they do not normally have access to (meaning they have access to any spell). However, when casting a spell they don’t know, a roll of 1 on the Cast Roll-off results in the model going immediately Out of Action, with all Wound boxes crossed off.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c"/>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Father of Swords" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e0b8-604d-2591-7e37">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A mighty Two-handed blade forged of meteoric iron, this Weapon adds +4 to any Strike Roll-offs, as well as giving the usual Strong (3), and ignores any Tough gained from Armour or enchantments. However, the user cannot use any Armour at all.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Magical</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Selnab’s Necklace of Might and Frailty" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="0090-6853-7813-fb99">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Magical</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">When the user declares any Action, they may roll a d6 and increase their Strong Skill by that amount. However, they also receive the same amount of the Delicate Skill. Both effects last until the end of the Turn.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c"/>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Serpent’s Ring" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="9ccc-267d-42e3-12ad">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Magical</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">This Item contains the bound spirits of several rare and exotic serpents. Every time the wearer inflicts one or more Wounds upon an enemy, roll a d4. On a roll of 4, add the effects of Mortal Poison to the Wounds inflicted. On a roll of 3, add the effects of Paralysing Poison to the Wounds inflicted. On a roll of 2, add the effects of Pain Poison to the Wounds inflicted. On a roll of 1, the user suffers d6 Wounds, ignoring Armour and Tough Skills, and gains the Condition ‘Paralysed’ for the rest of the Turn.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c"/>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Shield of Attraction" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="7dd9-6b9b-bbb0-1356">
+      <characteristics>
+        <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Armor</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">This Shield functions as a normal Light Shield and also gives a +4 bonus to Nimbleness rolls made to Defend against Shoot Actions. However, any Shoot Action targeted at a model (of any Band) within 6” of the user is automatically
+redirected to target the user instead!
+
+
+Light Shield: +2 to all Defend rolls that use Block. May choose to use Block for Defend rolls against Shoot Actions (but not Ambush Shoot Actions).</characteristic>
+        <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Magical</characteristic>
+        <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
+        <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Ring of Resistance" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="8456-7a41-c38e-c2ea">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Magical</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">This ring makes the user totally invulnerable to any Spell effects during the game. However, they are immune to all Spell effects, even those cast by their own Band. They are also not able to benefit from any Talismans, Lucky Charms, or Healing Potions.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c"/>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
