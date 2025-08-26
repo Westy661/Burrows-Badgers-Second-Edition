@@ -12595,9 +12595,7 @@ The model’s Nimbleness rolls suffer a -1 penalty.</characteristic>
     <profile name="Heavy Shield" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="db1e-522d-6bdf-fa5e">
       <characteristics>
         <characteristic name="Type" typeId="efc5-43e0-59ad-8727">Armor</characteristic>
-        <characteristic name="Rules" typeId="89c2-0687-7959-344b">+3 to all Defend rolls that.
-May choose to use Block for Defend rolls against Shoot Actions (but not Ambush Shoot Actions). 
-However, all the model’s Nimbleness rolls suffer a -1 penalty.</characteristic>
+        <characteristic name="Rules" typeId="89c2-0687-7959-344b">A model equipped with a Heavy Shield gains Tough (1), adds +3 to all Defend rolls that use Block, and may choose to use Block for Defend rolls against Shoot Actions (but not Ambush Shoot Actions). However, all the model’s Nimbleness rolls suffer a -1 penalty.</characteristic>
         <characteristic name="Rarity" typeId="9245-3c7e-8aca-9430">Common</characteristic>
         <characteristic name="Availability" typeId="9da2-2408-b0ec-6d20">-</characteristic>
         <characteristic name="Keywords" typeId="9a70-6cd9-72af-cdd4">Tough (1)</characteristic>
