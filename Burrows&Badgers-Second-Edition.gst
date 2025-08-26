@@ -44,6 +44,7 @@
         <characteristicType name="Rarity" id="cc3f-d6c8-df5d-cc2c"/>
         <characteristicType name="Availability" id="81e0-c6a5-4f63-8822"/>
         <characteristicType name="Keywords" id="56b5-769b-3492-f985"/>
+        <characteristicType name="Bonus level" id="e73e-51e6-ce3b-e8bd"/>
       </characteristicTypes>
     </profileType>
     <profileType hidden="false" id="568c-91db-9da7-e04c" name="Ability">
@@ -529,6 +530,21 @@ D6 ROLL RESULT
 - Jig: All models in the Band count as having the Skill ‘Dodge’ until the end of the Turn.
 - March: All models in the Band count as having the Skill ‘Burst of Speed’ until the end of the Turn. However, they do not have to spend a Fate point to use that Skill.
 - Reel: All models in the Band count as having the Skill ‘Slippery’ until the end of the Turn. However, they do not have to spend a Fate point to use that Skill.</description>
+    </rule>
+    <rule name="Flame" id="edfc-66f6-8b5d-50d5" hidden="false">
+      <description>Any model that suffers any Wounds from this weapon gains the Condition ‘Burning’.</description>
+    </rule>
+    <rule name="Wounding" id="0259-a833-9272-d8f7" hidden="false">
+      <description>Roll for the Bonus level. Adds the Bonus to any Wounds the user inflicts with this weapon.</description>
+    </rule>
+    <rule name="Smiting" id="ae80-5c66-4e70-ee75" hidden="false">
+      <description>Roll for the Bonus level. For melee Weapons, adds the Bonus to any Strike Roll-Offs the user makes. For missile Weapons, adds the Bonus to any Ranged Roll-Offs the user makes.</description>
+    </rule>
+    <rule name="Leeching" id="af53-3d19-ecc7-ca37" hidden="false">
+      <description>Any time this weapon causes one or more Wounds, the user heals d3 Wounds (provided they have Wounds which need healing).</description>
+    </rule>
+    <rule name="Venom" id="0b3f-cb78-665e-4941" hidden="false">
+      <description>The weapon counts as always being Poisoned with Mortal Poison.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -4148,6 +4164,646 @@ D6 ROLL RESULT
                   <entryLinks>
                     <entryLink import="true" name="Upgrades" hidden="false" id="ffef-2eb2-ab0b-c1a7" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                   </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Enchanted weapon" hidden="true" id="46cb-c80e-3cf5-873a" collective="true" sortIndex="20">
+                  <costs>
+                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                  </costs>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapon types" id="7bc5-7e55-7d14-b891" hidden="false" flatten="true">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted One-handed Weapon" hidden="false" id="2dd2-8602-fa0e-aa16" flatten="true" sortIndex="1">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="b2b1-4158-418a-007c">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="b2b1-4158-418a-007c" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="d3ce-27ae-535f-e35b" sortIndex="0">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d3ce-27ae-535f-e35b" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Weapon Effect" id="92ee-294c-462f-d54c" hidden="false" flatten="false">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13f7-77a3-58d9-5cd4"/>
+                              </constraints>
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Flame" hidden="false" id="ed5f-fa59-b986-20ee" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Flame" id="e5f0-a176-9df0-7fb8" hidden="false" type="rule" targetId="edfc-66f6-8b5d-50d5"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Leeching" hidden="false" id="8a8f-8208-4ee3-df73" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Leeching" id="55e6-8db5-6be2-2f37" hidden="false" type="rule" targetId="af53-3d19-ecc7-ca37"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Smiting" hidden="false" id="feb8-75a4-4cf4-4345" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Smiting" id="f5f5-e757-2978-dc34" hidden="false" type="rule" targetId="ae80-5c66-4e70-ee75"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Venom" hidden="false" id="c753-d695-dde7-f890" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Venom" id="e8a4-deb1-b9b1-957f" hidden="false" type="rule" targetId="0b3f-cb78-665e-4941"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Wounding" hidden="false" id="2693-eb29-223d-ea1d" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Wounding" id="6a73-729c-354d-84f2" hidden="false" type="rule" targetId="0259-a833-9272-d8f7"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <infoLinks>
+                            <infoLink name="Enchanted One-handed weapon" id="d48b-d91e-f859-c5d6" hidden="false" type="profile" targetId="1a90-3dc0-430b-4163"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1887-22ac-4042-595c"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Two-handed Weapon" hidden="false" id="40b4-9d29-7071-52ff" flatten="true" sortIndex="2">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="3307-1703-6e10-6787">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="3307-1703-6e10-6787" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="8371-f7be-7ef1-bad8" sortIndex="0">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="8371-f7be-7ef1-bad8" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Weapon Effect" id="83a7-afbb-05d4-824d" hidden="false" flatten="false">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0eaf-7bac-a627-ab62"/>
+                              </constraints>
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Flame" hidden="false" id="73fb-bd6d-9ff3-2c18" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Flame" id="c7bc-cdac-d6d0-ed91" hidden="false" type="rule" targetId="edfc-66f6-8b5d-50d5"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Leeching" hidden="false" id="b7f9-c7ad-9daf-267e" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Leeching" id="b879-3bd7-5b9d-f27e" hidden="false" type="rule" targetId="af53-3d19-ecc7-ca37"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Smiting" hidden="false" id="b01e-5259-340e-78eb" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Smiting" id="9ee1-a3ca-c895-752e" hidden="false" type="rule" targetId="ae80-5c66-4e70-ee75"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Venom" hidden="false" id="3d16-67ff-3524-00cc" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Venom" id="e519-8c25-fc6f-929c" hidden="false" type="rule" targetId="0b3f-cb78-665e-4941"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Wounding" hidden="false" id="cb00-79a1-6e3b-b329" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Wounding" id="e3cc-2928-33a7-65cb" hidden="false" type="rule" targetId="0259-a833-9272-d8f7"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <infoLinks>
+                            <infoLink name="Enchanted Two-Handed Weapon" id="b843-e0f8-5f77-59d5" hidden="false" type="profile" targetId="3753-021d-baa4-96b4"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58b5-1a1f-0e1b-36d6"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Polearm" hidden="false" id="3992-693d-aa28-8c0a" flatten="true" sortIndex="3">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="bc22-bead-1812-3583">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="bc22-bead-1812-3583" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="160b-84e6-b024-9ac4" sortIndex="0">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="160b-84e6-b024-9ac4" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Weapon Effect" id="fdf8-44a3-fe2d-c94b" hidden="false" flatten="false">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb82-3bb1-b975-df47"/>
+                              </constraints>
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Flame" hidden="false" id="15b7-a56c-2f8d-3216" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Flame" id="623b-f769-5e21-e474" hidden="false" type="rule" targetId="edfc-66f6-8b5d-50d5"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Leeching" hidden="false" id="c2ff-6a06-d088-1305" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Leeching" id="0c87-6803-a7d5-e76b" hidden="false" type="rule" targetId="af53-3d19-ecc7-ca37"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Smiting" hidden="false" id="1d6b-d3e9-88a8-c127" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Smiting" id="9497-604f-cd82-9701" hidden="false" type="rule" targetId="ae80-5c66-4e70-ee75"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Venom" hidden="false" id="f2f1-86d7-f93b-10bc" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Venom" id="fa33-756d-d23d-b3e3" hidden="false" type="rule" targetId="0b3f-cb78-665e-4941"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Wounding" hidden="false" id="b667-e967-c42b-2bf5" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Wounding" id="8ce1-4fd5-bd7f-f157" hidden="false" type="rule" targetId="0259-a833-9272-d8f7"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <infoLinks>
+                            <infoLink name="Enchanted Polearm" id="49f6-04e9-326e-8de8" hidden="false" type="profile" targetId="8102-0848-7a7c-662c"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e98-0eed-f268-dc78"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Bow" hidden="false" id="6edd-f9ee-3feb-0430" flatten="true" sortIndex="4">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="7238-97f2-c6ce-a5f1">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="7238-97f2-c6ce-a5f1" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="77e7-85a9-5684-ed44" sortIndex="0">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="77e7-85a9-5684-ed44" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Weapon Effect" id="30a7-3489-e246-9fbd" hidden="false" flatten="false">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="710d-5e8a-8bd6-44a9"/>
+                              </constraints>
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Flame" hidden="false" id="055b-0f9c-a1f1-541d" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Flame" id="ea3b-d20d-c18e-5a20" hidden="false" type="rule" targetId="edfc-66f6-8b5d-50d5"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Leeching" hidden="false" id="cb68-3dd3-8f8a-6a87" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Leeching" id="50d0-2211-8bec-9b5b" hidden="false" type="rule" targetId="af53-3d19-ecc7-ca37"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Smiting" hidden="false" id="6686-7644-42c9-0a9d" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Smiting" id="6bc0-cabb-df78-5d95" hidden="false" type="rule" targetId="ae80-5c66-4e70-ee75"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Venom" hidden="false" id="1380-e0ee-8e1a-8629" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Venom" id="6e47-176d-7194-7c01" hidden="false" type="rule" targetId="0b3f-cb78-665e-4941"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Wounding" hidden="false" id="73ef-5937-b320-f1e5" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Wounding" id="5f7d-a0d3-fb55-76ba" hidden="false" type="rule" targetId="0259-a833-9272-d8f7"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <infoLinks>
+                            <infoLink name="Enchanted Bow" id="7b94-068d-baed-56d2" hidden="false" type="profile" targetId="1722-381b-4416-f9b8"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db00-0587-db58-d229"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted War Bow" hidden="false" id="d0e1-a858-7a65-fd9a" flatten="true" sortIndex="5">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="fdf8-88df-449a-79e6">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="fdf8-88df-449a-79e6" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="4343-170f-a091-f473" sortIndex="0">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="4343-170f-a091-f473" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Weapon Effect" id="919a-2688-059c-c031" hidden="false" flatten="false">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5422-1acd-2bd5-5382"/>
+                              </constraints>
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Flame" hidden="false" id="36ef-a02e-9e4e-472a" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Flame" id="9208-7bdd-cab1-8486" hidden="false" type="rule" targetId="edfc-66f6-8b5d-50d5"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Leeching" hidden="false" id="ecf5-6ae0-84f7-4ee8" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Leeching" id="baf2-b231-0706-ea7b" hidden="false" type="rule" targetId="af53-3d19-ecc7-ca37"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Smiting" hidden="false" id="2379-f651-3663-e2fc" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Smiting" id="650e-7cfa-e959-33e2" hidden="false" type="rule" targetId="ae80-5c66-4e70-ee75"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Venom" hidden="false" id="1779-180a-d456-d57a" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Venom" id="2bc1-ad40-aa55-8c4c" hidden="false" type="rule" targetId="0b3f-cb78-665e-4941"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Wounding" hidden="false" id="39c1-c0bc-c927-2f9f" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Wounding" id="2518-d741-7ade-d13a" hidden="false" type="rule" targetId="0259-a833-9272-d8f7"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <infoLinks>
+                            <infoLink name="Enchanted War Bow" id="eb89-41c5-068b-84dc" hidden="false" type="profile" targetId="aeb9-afcb-dbf7-96a4"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97db-2e6d-92b2-68ec"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Light Crossbow" hidden="false" id="588f-beea-8b23-5074" flatten="true" sortIndex="6">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bonus level" hidden="false" id="93ed-0eaa-9ce7-abe3">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="e73e-51e6-ce3b-e8bd" affects="profiles.Weapon" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="93ed-0eaa-9ce7-abe3" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d20)" hidden="false" id="bf7f-388b-7195-bd17" sortIndex="0">
+                              <modifiers>
+                                <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
+                                  <repeats>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="bf7f-388b-7195-bd17" shared="true" roundUp="false"/>
+                                  </repeats>
+                                </modifier>
+                              </modifiers>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Weapon Effect" id="f585-1add-d3d8-8229" hidden="false" flatten="false">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78ce-b75d-e16a-69dd"/>
+                              </constraints>
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Flame" hidden="false" id="41f4-5772-8889-f1e2" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Flame" id="7461-2dc6-921c-19e6" hidden="false" type="rule" targetId="edfc-66f6-8b5d-50d5"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Flame" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Leeching" hidden="false" id="5e29-1053-8725-cca2" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Leeching" id="75f6-fae4-04b3-c97b" hidden="false" type="rule" targetId="af53-3d19-ecc7-ca37"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Leeching" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Smiting" hidden="false" id="7685-658b-b1b0-23bb" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Smiting" id="e968-fb68-6ab9-f2c0" hidden="false" type="rule" targetId="ae80-5c66-4e70-ee75"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Smiting" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Venom" hidden="false" id="7f03-8125-466c-b17b" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Venom" id="d0c2-6bbd-4fea-f9a2" hidden="false" type="rule" targetId="0b3f-cb78-665e-4941"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Venom" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Wounding" hidden="false" id="7fd4-0996-a828-8443" collective="true">
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Wounding" id="98e4-76fd-64bb-a0d2" hidden="false" type="rule" targetId="0259-a833-9272-d8f7"/>
+                                  </infoLinks>
+                                  <modifiers>
+                                    <modifier type="append" value="Wounding" field="fdfb-3e87-f3bd-88ce" affects="profiles.Weapon" scope="parent"/>
+                                  </modifiers>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                          <infoLinks>
+                            <infoLink name="Enchanted Light Crossbow" id="8fdd-08e8-9b29-40ac" hidden="false" type="profile" targetId="c6aa-192e-1af5-4c47"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6ce-c174-85d2-35fd"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2af0-2e1b-5456-53d7-min"/>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2af0-2e1b-5456-53d7-max"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -12436,6 +13092,7 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Strong" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="615c-4533-9772-a971" noindex="true">
@@ -12452,16 +13109,18 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (3)</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
-    <profile name="Pole-arm" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c442-f661-1aca-b5bb">
+    <profile name="Polearm" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c442-f661-1aca-b5bb">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Polearm adds +1 to all Strike Roll-offs.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Adds +1 to all Strike Roll-offs.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1)</characteristic>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
       </characteristics>
     </profile>
     <profile name="Spear" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c007-f001-735a-f58f">
@@ -12472,6 +13131,7 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Rondel dagger" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e450-7f73-39e3-1f7d">
@@ -12482,6 +13142,7 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1), Unarmed</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="War Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c988-cf80-de76-d607">
@@ -12491,7 +13152,8 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Requires Strong (2) to use.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">8</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Variable Cost</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
       </characteristics>
     </profile>
     <profile name="Light Crossbow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c29f-da0e-a6d9-cfdc">
@@ -12502,6 +13164,7 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Slow Weapon, Strong (2)</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Sling" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="7db3-9bad-0a4e-2939">
@@ -12512,6 +13175,7 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">-</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Throwing knives" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e239-a08d-b443-5332">
@@ -12522,6 +13186,7 @@ Skill level to any Wounds they suffer.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">-</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Blunderbuss" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="53e4-f099-bdd5-c2ca">
@@ -12533,6 +13198,7 @@ their Nimbleness against the Shooting model’s Total as well.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Slow weapon, Temperamental, Black Powder</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="3772-72bd-81b3-1e70">
@@ -12543,6 +13209,7 @@ their Nimbleness against the Shooting model’s Total as well.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">-</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Heavy Crossbow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e373-5b92-d1ba-ba4f">
@@ -12553,6 +13220,7 @@ their Nimbleness against the Shooting model’s Total as well.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">9</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (4), Slow, Variable Cost</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Cheirosiphon" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="74ae-7a92-3f79-10d4">
@@ -12577,7 +13245,8 @@ CHEIROSIPHON MISFIRE TABLE
 6 - Surge: The weapon’s valve sticks open and it empties the full load of fuel in one go! Regardless of whether the player chose a Short, Medium, or Sustained burst, roll again, using a Range Stat of d20+7 (do not roll further Misfire dice). After this, the weapon may not be used for the rest of the game.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
-        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Variable Cost</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
       </characteristics>
     </profile>
     <profile name="Caliver" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="0593-3e13-a19c-d3db">
@@ -12588,6 +13257,7 @@ CHEIROSIPHON MISFIRE TABLE
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">8</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (3), Slow weapon, Temperamental, Black Powder, Variable Cost</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Pistol" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="3ef9-23c1-c345-5804">
@@ -12598,6 +13268,7 @@ CHEIROSIPHON MISFIRE TABLE
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1), Slow weapon, Temperamental, Black Powder</characteristic>
+        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Light armour" typeId="3014-207e-9495-e71f" typeName="Armor" hidden="false" id="074c-a94c-d3a9-0718">
@@ -13340,5 +14011,71 @@ Paralysing Poison (1 use), or Mortal Poison (1 use).</characteristic>
     <profile name="Allegiance: Hillfolk" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="a3fe-3e86-6b94-4cff"/>
     <profile name="Allegiance: Witch Hunter" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="e4e7-3e7d-efaf-4647"/>
     <profile name="Allegiance: Arcane Conclaves" typeId="b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="57ae-059c-f07f-303a"/>
+    <profile name="Enchanted One-handed weapon" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="1a90-3dc0-430b-4163">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">One-handed</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce"/>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd">0</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Two-Handed Weapon" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="3753-021d-baa4-96b4">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Two-handed Weapons are difficult to use and all Block rolls have a -2 modifier while using one.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (3)</characteristic>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Polearm" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="8102-0848-7a7c-662c">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Polearm adds +1 to all Strike Roll-offs.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1)</characteristic>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="1722-381b-4416-f9b8">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">18&quot;</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">-</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">-</characteristic>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted War Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="aeb9-afcb-dbf7-96a4">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">36&quot;</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Requires Strong (2) to use.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+      </characteristics>
+    </profile>
+    <profile name="Enchanted Light Crossbow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c6aa-192e-1af5-4c47">
+      <characteristics>
+        <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">-</characteristic>
+        <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">24&quot;</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Ignore 1 point of Tough provided by Armour.</characteristic>
+        <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Rare</characteristic>
+        <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">10</characteristic>
+        <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Slow Weapon, Strong (2)</characteristic>
+        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
