@@ -13,20 +13,21 @@ The project is currently **work in progress**, so expect missing content and dat
   
 
 ## Current Content
-- **Items, units, rules, and abilities**: included
+- **Items, units, rules, and abilities**: Done
+- **Enchanted Weapons, Armor and Items**: Done
+- **Magical Weapons, Armor and Items**: Done
 - **All factions** are available, most of them with their **warband creation rules**  
 - **Unit advancement** has basic functionality
   
 ## Missing features
-- Enchanted equipment
-- Magical equipment
 - Injury table 
 - Undead special rules implementation
 - Rouiters special rules implementation
 - Arcane conclave special rules implementation
-- Troughout testing and bugfixing
-- Tracking band rating & XP
 - Labor, material cost tracking in a non-intrusive\cluttering way 
+- Tracking band rating & XP
+- Troughout testing and bugfixing
+
 ---
 
 If you try this out, please keep in mind that it is still under construction, and you may want to keep the rulebook handy for verification.
