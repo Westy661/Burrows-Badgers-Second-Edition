@@ -6349,171 +6349,195 @@ D6 ROLL RESULT
               </constraints>
               <comment>TODO Last step: Add Items</comment>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon Slots" id="1050-0586-995a-743e" hidden="false" collective="true" collapsible="true">
+                <selectionEntryGroup name="Weapon Slots" id="15af-395f-9db6-c0aa" hidden="false" collective="true" collapsible="true" sortIndex="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Two-handed weapon" hidden="false" id="51bd-06c7-b212-a201" collective="true" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Two-handed weapon" hidden="false" id="3d46-d13f-1c97-122b" collective="true" sortIndex="2">
                       <infoLinks>
-                        <infoLink name="Two-Handed Weapon" id="9037-40a0-b724-cf4f" hidden="false" type="profile" targetId="f924-5bd7-b7b7-1862"/>
+                        <infoLink name="Two-Handed Weapon" id="6f2f-288a-30ac-b391" hidden="false" type="profile" targetId="f924-5bd7-b7b7-1862"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bb1-e36f-d281-378a"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4994-4a6f-67b5-79bf"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="708d-68bc-db05-1423" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="10ab-d1d4-15f7-e02c" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="One-handed weapon" hidden="false" id="f443-e5cd-65fd-ec33" collective="true" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="One-handed weapon" hidden="false" id="881b-2834-fc22-7394" collective="true" sortIndex="1">
                       <infoLinks>
-                        <infoLink name="One-handed weapon" id="ae88-d004-8041-de6d" hidden="false" type="profile" targetId="d124-de12-baa3-737a"/>
+                        <infoLink name="One-handed weapon" id="c028-862e-d35d-dcc7" hidden="false" type="profile" targetId="d124-de12-baa3-737a"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="860f-7c6e-2cca-fe63"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4326-cec5-d14a-dd1a"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="804e-a3bb-6e6a-602f" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="5b09-57df-bf4b-e57c" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pole-arm" hidden="false" id="310c-763d-095d-da5f" collective="true" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Pole-arm" hidden="false" id="2106-337c-0426-888f" collective="true" sortIndex="3">
                       <infoLinks>
-                        <infoLink name="Pole-arm" id="6b6e-8d9d-df20-bfc7" hidden="false" type="profile" targetId="c442-f661-1aca-b5bb"/>
+                        <infoLink name="Pole-arm" id="e598-df39-6e09-e836" hidden="false" type="profile" targetId="c442-f661-1aca-b5bb"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47cf-95fa-2317-7b78"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5c9-096f-6db8-87fd"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="87cc-40e1-bf51-17d7" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="1eb5-73c5-2237-6f9b" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spear" hidden="false" id="a2aa-4d47-90b2-6311" collective="true" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Spear" hidden="false" id="faba-4334-b1fe-bd06" collective="true" sortIndex="3">
                       <infoLinks>
-                        <infoLink name="Spear" id="c9a4-ca68-03e3-d55e" hidden="false" type="profile" targetId="c007-f001-735a-f58f"/>
+                        <infoLink name="Spear" id="2d89-a59d-ddea-d0d4" hidden="false" type="profile" targetId="c007-f001-735a-f58f"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cbb-6131-69d9-da93"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdda-3081-84e6-5d2f"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="ae4e-aa36-b8ad-a946" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="c0c9-4710-d830-3b0e" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Rondel dagger" hidden="false" id="b412-30cc-095e-8dc1" collective="true" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Rondel dagger" hidden="false" id="d5a6-7089-db7f-eec0" collective="true" sortIndex="4">
                       <infoLinks>
-                        <infoLink name="Rondel dagger" id="fae9-7d42-3ad1-8320" hidden="false" type="profile" targetId="e450-7f73-39e3-1f7d"/>
+                        <infoLink name="Rondel dagger" id="ce7e-973f-4411-5693" hidden="false" type="profile" targetId="e450-7f73-39e3-1f7d"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="7"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8d2-b92f-85e9-d09a"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="587b-dc41-6c7c-8d01"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="a782-b8ba-30e5-6d18" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="ae58-e193-52eb-0706" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Bow" hidden="false" id="7bb0-6a6b-7f11-d848" collective="true" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Bow" hidden="false" id="9435-3bc2-422d-62d6" collective="true" sortIndex="5">
                       <infoLinks>
-                        <infoLink name="War Bow" id="6c4a-0266-0f27-4144" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
+                        <infoLink name="War Bow" id="1640-de7f-b697-21c1" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e90-ddec-cf37-e3cb"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6864-1119-7383-6103"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="2036-6b70-695f-5ea3" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="3211-c68c-c6d0-2565" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Light Crossbow" hidden="false" id="fb89-5af1-678d-edeb" collective="true" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Light Crossbow" hidden="false" id="925c-0f05-703c-a6fb" collective="true" sortIndex="8">
                       <infoLinks>
-                        <infoLink name="Light Crossbow" id="8517-9fc5-a408-9a2e" hidden="false" type="profile" targetId="c29f-da0e-a6d9-cfdc"/>
+                        <infoLink name="Light Crossbow" id="da15-f24c-7c8c-88f8" hidden="false" type="profile" targetId="c29f-da0e-a6d9-cfdc"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="20"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe15-e430-498d-0d18"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d2b-839d-84c6-55ab"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="bc6d-5ba6-1a4f-ae04" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="58ab-5888-edec-437b" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Sling" hidden="false" id="ec41-a207-e70b-1193" collective="true" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Sling" hidden="false" id="b86c-43f1-455b-6179" collective="true" sortIndex="7">
                       <infoLinks>
-                        <infoLink name="Sling" id="f04c-2bca-9aba-131d" hidden="false" type="profile" targetId="7db3-9bad-0a4e-2939"/>
+                        <infoLink name="Sling" id="bcbb-bd44-d3de-356c" hidden="false" type="profile" targetId="7db3-9bad-0a4e-2939"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e256-ac91-7622-84fb"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4ed-038c-e3ea-7aff"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="37ef-dcbf-88cf-b2a4" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="3611-7ad3-27b3-6b72" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Throwing knives" hidden="false" id="6b5b-09dd-0ac4-c489" collective="true" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Throwing knives" hidden="false" id="949c-315a-e7fe-fcc8" collective="true" sortIndex="5">
                       <infoLinks>
-                        <infoLink name="Throwing knives" id="2bba-b8ac-6dff-c203" hidden="false" type="profile" targetId="e239-a08d-b443-5332"/>
+                        <infoLink name="Throwing knives" id="04db-2f35-38b1-2a91" hidden="false" type="profile" targetId="e239-a08d-b443-5332"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44c4-cf1f-cfc9-03e9"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f87-7cc1-23f2-3473"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="0ec8-8512-c92e-7765" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="0555-3e1d-7e19-8eec" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Blunderbuss" hidden="false" id="a4b8-7881-8dcd-b99d" collective="true" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Blunderbuss" hidden="true" id="0aab-8cc5-2b76-2838" collective="true" sortIndex="9">
                       <infoLinks>
-                        <infoLink name="Blunderbuss" id="9999-44fd-25af-4e81" hidden="false" type="profile" targetId="53e4-f099-bdd5-c2ca"/>
+                        <infoLink name="Blunderbuss" id="8b44-43fa-622a-3057" hidden="false" type="profile" targetId="53e4-f099-bdd5-c2ca"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="18"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a49-b014-1563-5fca"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e39b-7476-4647-854b"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="45ac-7721-b244-277f" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="b58a-fd47-0d45-6c39" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="63b7-8faf-cf6a-e363" collective="true" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Pistol" hidden="true" id="9c13-02f6-fbf0-a6b7" collective="true" sortIndex="5">
                       <infoLinks>
-                        <infoLink name="Pistol" id="38b2-e353-d65c-e26d" hidden="false" type="profile" targetId="3ef9-23c1-c345-5804"/>
+                        <infoLink name="Pistol" id="aa14-411d-d6ad-db81" hidden="false" type="profile" targetId="3ef9-23c1-c345-5804"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a187-2fa1-b51e-9106"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9470-8cec-dccc-6f68"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="22c3-1a8b-7f89-47df" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="59b4-70a3-9dd2-d376" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="War Bow" hidden="true" id="05b5-9e6c-cb56-dabd" collective="true" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="War Bow" hidden="true" id="d2b5-f7ae-8c27-5e8b" collective="true" sortIndex="13">
                       <infoLinks>
-                        <infoLink name="War Bow" id="87df-9672-63fd-0734" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
+                        <infoLink name="War Bow" id="9c28-9f83-fd8e-f82e" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1c6-5c13-0f2e-f027"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f29-19fb-a646-0d5f"/>
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
@@ -6549,38 +6573,43 @@ D6 ROLL RESULT
                         </modifier>
                       </modifiers>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+8)" hidden="false" id="adbf-3844-399c-2529">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+8)" hidden="false" id="7a7c-7422-653e-4aa0">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
-                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="adbf-3844-399c-2529" shared="true" roundUp="false"/>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="7a7c-7422-653e-4aa0" shared="true" roundUp="false"/>
                               </repeats>
                             </modifier>
                             <modifier type="set" value="20" field="defaultAmount">
-                              <conditions>
-                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                              </conditions>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
                             </modifier>
                           </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                       <categoryLinks>
-                        <categoryLink name="Rare" hidden="false" id="1c7e-4d78-cd13-d7c6" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                        <categoryLink name="Rare" hidden="false" id="e02b-8361-9985-1d34" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                       </categoryLinks>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="145d-8efa-4903-065e" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="2fe6-601e-da16-29ec" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Crossbow" hidden="true" id="231c-db5e-fd7e-eb93" collective="true" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Heavy Crossbow" hidden="true" id="e5d9-574e-609a-7cc1" collective="true" sortIndex="12">
                       <infoLinks>
-                        <infoLink name="Heavy Crossbow" id="69ea-9b74-fefb-c3bb" hidden="false" type="profile" targetId="e373-5b92-d1ba-ba4f"/>
+                        <infoLink name="Heavy Crossbow" id="5f12-b4da-97aa-ebc7" hidden="false" type="profile" targetId="e373-5b92-d1ba-ba4f"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e40-ac0b-5588-ae41"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fc4-32c0-a41e-b772"/>
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
@@ -6593,6 +6622,11 @@ D6 ROLL RESULT
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -6618,11 +6652,11 @@ D6 ROLL RESULT
                         </modifier>
                       </modifiers>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+20)" hidden="false" id="09bc-5110-3012-462c">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+20)" hidden="false" id="1b80-2ac2-265f-4d4a">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
-                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="09bc-5110-3012-462c" shared="true" roundUp="false"/>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="1b80-2ac2-265f-4d4a" shared="true" roundUp="false"/>
                               </repeats>
                             </modifier>
                             <modifier type="set" value="25" field="defaultAmount">
@@ -6649,57 +6683,67 @@ D6 ROLL RESULT
                         </selectionEntry>
                       </selectionEntries>
                       <categoryLinks>
-                        <categoryLink name="Rare" hidden="false" id="a187-897a-a8d4-4a23" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                        <categoryLink name="Rare" hidden="false" id="54e3-5731-d664-1b3c" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                       </categoryLinks>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="234a-a2d7-96f3-4dca" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="0480-ac5a-8251-f9cc" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Cheirosiphon" hidden="false" id="204b-8269-1e1a-b8ed" collective="true" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Cheirosiphon" hidden="true" id="ed68-0ae5-bcb0-6b79" collective="true" sortIndex="11">
                       <infoLinks>
-                        <infoLink name="Cheirosiphon" id="ae07-5db3-a92a-d887" hidden="false" type="profile" targetId="74ae-7a92-3f79-10d4"/>
+                        <infoLink name="Cheirosiphon" id="8a85-2d1e-317b-3d73" hidden="false" type="profile" targetId="74ae-7a92-3f79-10d4"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16de-6085-dcd8-53c5"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05c5-c405-8a13-3620"/>
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="0" field="6752-9e0b-692e-d5b9"/>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                          </conditions>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </modifier>
                       </modifiers>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+20)" hidden="false" id="996e-288a-9784-160b">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+20)" hidden="false" id="111d-d130-050b-fba0">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
-                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="996e-288a-9784-160b" shared="true" roundUp="false"/>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="111d-d130-050b-fba0" shared="true" roundUp="false"/>
                               </repeats>
                             </modifier>
                           </modifiers>
                         </selectionEntry>
                       </selectionEntries>
                       <categoryLinks>
-                        <categoryLink name="Rare" hidden="false" id="418a-8867-c68f-c435" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                        <categoryLink name="Rare" hidden="false" id="42df-3bd9-e586-2575" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                       </categoryLinks>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="a305-90a8-5ea2-f2b0" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="ee18-2d50-0c18-1ed5" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Caliver" hidden="true" id="e80a-6010-c641-60c4" collective="true" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Caliver" hidden="true" id="34a1-01e4-500d-c197" collective="true" sortIndex="10">
                       <infoLinks>
-                        <infoLink name="Caliver" id="e2d4-c935-014b-1282" hidden="false" type="profile" targetId="0593-3e13-a19c-d3db"/>
+                        <infoLink name="Caliver" id="2285-8978-b398-a3ca" hidden="false" type="profile" targetId="0593-3e13-a19c-d3db"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="952f-a590-61e4-d4c2"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b61e-0bd4-0dca-e13f"/>
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
@@ -6712,6 +6756,12 @@ D6 ROLL RESULT
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -6738,11 +6788,11 @@ D6 ROLL RESULT
                         </modifier>
                       </modifiers>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+10)" hidden="false" id="7c7a-4cc3-da83-ca88">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+10)" hidden="false" id="7073-ad7c-15f5-f058">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
-                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="7c7a-4cc3-da83-ca88" shared="true" roundUp="false"/>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="7073-ad7c-15f5-f058" shared="true" roundUp="false"/>
                               </repeats>
                             </modifier>
                             <modifier type="set" value="20" field="defaultAmount">
@@ -6796,102 +6846,124 @@ D6 ROLL RESULT
                         </selectionEntry>
                       </selectionEntries>
                       <categoryLinks>
-                        <categoryLink name="Rare" hidden="false" id="c8dc-e128-ded8-841c" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                        <categoryLink name="Rare" hidden="false" id="1205-c810-07c6-910f" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                       </categoryLinks>
                       <entryLinks>
-                        <entryLink import="true" name="Upgrades" hidden="false" id="17e8-5cd6-c785-6fe8" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
+                        <entryLink import="true" name="Upgrades" hidden="false" id="d98f-1d20-e434-3275" type="selectionEntryGroup" targetId="9bd1-b2cf-0aea-9531"/>
                       </entryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ebd2-7db1-3a14-f867"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1b25-85d7-7726-5182"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Armor Slots" id="f182-a157-f6a9-03a8" hidden="false" collective="true" collapsible="true">
+                <selectionEntryGroup name="Armor Slots" id="83cc-528e-da9b-fc45" hidden="false" collective="true" collapsible="true" sortIndex="2">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Shield" hidden="false" id="b5fd-d6dc-9c74-0230" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Heavy Shield" hidden="false" id="b93b-6f3d-1c74-5a5a" sortIndex="6">
                       <infoLinks>
-                        <infoLink name="Heavy Shield" id="0e1c-72b6-8e5d-f961" hidden="false" type="profile" targetId="db1e-522d-6bdf-fa5e"/>
+                        <infoLink name="Heavy Shield" id="3387-0059-1b8b-f79d" hidden="false" type="profile" targetId="db1e-522d-6bdf-fa5e"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="20"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8df-8a91-da7e-e6c0"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cff-d205-94db-619a"/>
                       </constraints>
                       <categoryLinks>
-                        <categoryLink name="Starting Equipment" hidden="false" id="220d-3413-efc7-2988" targetId="3359-f6f3-9852-b8c0" primary="true"/>
+                        <categoryLink name="Starting Equipment" hidden="false" id="1fba-85f2-c385-71a0" targetId="3359-f6f3-9852-b8c0" primary="true"/>
                       </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Heavy armour" hidden="false" id="769f-d93d-6178-483e" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Heavy armour" hidden="true" id="3f6c-7cab-c094-3b11" sortIndex="2">
                       <infoLinks>
-                        <infoLink name="Heavy armour" id="7b2f-824e-3dd0-4837" hidden="false" type="profile" targetId="b935-128e-d97c-a5f2"/>
+                        <infoLink name="Heavy armour" id="3541-9e48-fbee-61df" hidden="false" type="profile" targetId="b935-128e-d97c-a5f2"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="27"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b767-6ead-ce09-e942"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1983-d0af-0c6b-e000"/>
                       </constraints>
                       <categoryLinks>
-                        <categoryLink name="General Store Equipment" hidden="false" id="6140-1660-cf63-c08d" targetId="874a-091c-7fe7-ba43" primary="true"/>
+                        <categoryLink name="General Store Equipment" hidden="false" id="0a90-3f4f-f84b-dda2" targetId="874a-091c-7fe7-ba43" primary="true"/>
                       </categoryLinks>
+                      <modifiers>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Buckler" hidden="false" id="9438-1e37-e318-d6aa" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Buckler" hidden="false" id="7044-c3be-6598-79e9" sortIndex="4">
                       <infoLinks>
-                        <infoLink name="Buckler" id="06f4-7e45-4b8a-f2fd" hidden="false" type="profile" targetId="0cf4-6245-11b2-eb2c"/>
+                        <infoLink name="Buckler" id="f861-004b-a5e0-91d8" hidden="false" type="profile" targetId="0cf4-6245-11b2-eb2c"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6326-bc56-6cfb-c8f9"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3aa-46cb-cc3d-8861"/>
                       </constraints>
                       <categoryLinks>
-                        <categoryLink name="Starting Equipment" hidden="false" id="36f6-ed18-4dcf-a5c9" targetId="3359-f6f3-9852-b8c0" primary="true"/>
+                        <categoryLink name="Starting Equipment" hidden="false" id="7de2-bc7f-6c3d-b2dd" targetId="3359-f6f3-9852-b8c0" primary="true"/>
                       </categoryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Light armour" hidden="false" id="7fc1-69df-05c7-0be3" sortIndex="1" collective="false">
+                    <selectionEntry type="upgrade" import="true" name="Light armour" hidden="false" id="3a5d-f98a-2313-e66f" sortIndex="1" collective="false">
                       <infoLinks>
-                        <infoLink name="Light armour" id="4c80-48a3-dddb-7c74" hidden="false" type="profile" targetId="074c-a94c-d3a9-0718"/>
+                        <infoLink name="Light armour" id="9db7-b594-e5b8-7b46" hidden="false" type="profile" targetId="074c-a94c-d3a9-0718"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e4d-7c36-eaf7-5e9c"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4563-d5ed-09c7-e3e0"/>
                       </constraints>
                       <categoryLinks>
-                        <categoryLink name="Starting Equipment" hidden="false" id="3ffd-7fdc-f7aa-0465" targetId="3359-f6f3-9852-b8c0" primary="true"/>
+                        <categoryLink name="Starting Equipment" hidden="false" id="89cb-5b3e-1f85-239e" targetId="3359-f6f3-9852-b8c0" primary="true"/>
                       </categoryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Light Shield" hidden="false" id="24a9-461c-611a-0540" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Light Shield" hidden="false" id="8666-ad78-6138-c0ed" sortIndex="5">
                       <infoLinks>
-                        <infoLink name="Light Shield" id="469e-e513-d03e-cfee" hidden="false" type="profile" targetId="771c-6387-25e1-b619"/>
+                        <infoLink name="Light Shield" id="1de2-6b64-7af1-76e9" hidden="false" type="profile" targetId="771c-6387-25e1-b619"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="12"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6b0-c645-cbb8-7c23"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a1d-15f8-76c7-a865"/>
                       </constraints>
                       <categoryLinks>
-                        <categoryLink name="Starting Equipment" hidden="false" id="86fb-55a0-8fef-3723" targetId="3359-f6f3-9852-b8c0" primary="true"/>
+                        <categoryLink name="Starting Equipment" hidden="false" id="7656-bcf6-09d5-d1ff" targetId="3359-f6f3-9852-b8c0" primary="true"/>
                       </categoryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Very heavy armour" hidden="true" id="36ef-8914-0f11-f168" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Very heavy armour" hidden="true" id="2996-f5a6-b683-9f29" sortIndex="7">
                       <infoLinks>
-                        <infoLink name="Very heavy armour" id="d558-4b66-ef8d-e041" hidden="false" type="profile" targetId="7fa7-a209-51b3-1de4"/>
+                        <infoLink name="Very heavy armour" id="f641-f221-17cd-d806" hidden="false" type="profile" targetId="7fa7-a209-51b3-1de4"/>
                       </infoLinks>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eba6-0c09-3b06-b7fe"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="770c-9b56-df85-a198"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+30)" hidden="false" id="5b9b-a10b-671d-58b6">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+30)" hidden="false" id="0c28-24a8-6a6f-bf0c">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
-                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="5b9b-a10b-671d-58b6" shared="true" roundUp="false"/>
+                                <repeat value="1" repeats="1" field="selections" scope="parent" childId="0c28-24a8-6a6f-bf0c" shared="true" roundUp="false"/>
                               </repeats>
                             </modifier>
                             <modifier type="set" value="40" field="defaultAmount">
@@ -6931,6 +7003,11 @@ D6 ROLL RESULT
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                            </conditionGroup>
                           </conditionGroups>
                         </modifier>
                         <modifier type="add" value="Rare starting item" field="info">
@@ -6955,36 +7032,33 @@ D6 ROLL RESULT
                         </modifier>
                       </modifiers>
                       <categoryLinks>
-                        <categoryLink name="Rare" hidden="false" id="8c8a-c5fc-f5c2-14f6" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                        <categoryLink name="Rare" hidden="false" id="ef15-87b3-298e-8981" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                       </categoryLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f7bc-beae-78c0-1228"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="be73-bf08-fa30-9522"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Items Slot" id="5461-f403-9ca5-3f36" hidden="false" collective="true" collapsible="true">
+                <selectionEntryGroup name="Items Slot" id="da1e-b2ec-5b6e-16a9" hidden="false" collective="true" collapsible="true" sortIndex="3">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c49f-d3e3-d74e-77fb"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8333-1f1c-9f7d-69fb"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Bonded critters" id="5b58-d1eb-786f-4e38" hidden="false" sortIndex="5" collapsible="true">
+                    <selectionEntryGroup name="Bonded critters" id="436c-4eb1-df3a-ef03" hidden="true" sortIndex="5" collapsible="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cave Spider" hidden="true" id="b1a1-8785-f336-8eb2" sortIndex="3">
+                        <selectionEntry type="upgrade" import="true" name="Cave Spider" hidden="true" id="39b0-5b7c-5302-fed3" sortIndex="3">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+13)" hidden="false" id="055d-3c2f-4c9e-5b29">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+13)" hidden="false" id="876a-6222-bcf1-5a57">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="055d-3c2f-4c9e-5b29" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="876a-6222-bcf1-5a57" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="20" field="defaultAmount">
                                   <conditionGroups>
                                     <conditionGroup type="and">
-                                      <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                      </conditions>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
@@ -7000,7 +7074,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <infoLinks>
-                            <infoLink name="Cave Spider" id="f9b4-e7dc-d5d1-437b" hidden="false" type="profile" targetId="a61f-8732-69b8-41b9"/>
+                            <infoLink name="Cave Spider" id="9868-88f0-a669-7bac" hidden="false" type="profile" targetId="a61f-8732-69b8-41b9"/>
                           </infoLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -7033,24 +7107,21 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="bcbc-0430-e46d-82c6" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="22f4-9d16-a902-67b2" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Centipede" hidden="true" id="13e6-4047-89d0-9f25" sortIndex="2">
+                        <selectionEntry type="upgrade" import="true" name="Centipede" hidden="true" id="31a3-3162-7be2-14a4" sortIndex="2">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="03d3-3e13-6487-8c40">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="ff91-f457-345d-2e42">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="03d3-3e13-6487-8c40" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="ff91-f457-345d-2e42" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="23" field="defaultAmount">
                                   <conditionGroups>
                                     <conditionGroup type="and">
-                                      <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                      </conditions>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
@@ -7066,7 +7137,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <infoLinks>
-                            <infoLink name="Centipede" id="5fe5-cb91-32e1-b41e" hidden="false" type="profile" targetId="5518-f17c-b683-ff64"/>
+                            <infoLink name="Centipede" id="e8a1-9397-02ff-2dd1" hidden="false" type="profile" targetId="5518-f17c-b683-ff64"/>
                           </infoLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -7099,24 +7170,21 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="592a-897e-e68b-3beb" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="e818-6ab7-44aa-ce38" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Beetle" hidden="true" id="549a-2b14-631c-fb00" sortIndex="4">
+                        <selectionEntry type="upgrade" import="true" name="Beetle" hidden="true" id="0f85-bfc7-9b93-47de" sortIndex="4">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="4d2b-192c-62e9-4613">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="8a0d-abfe-7f77-60da">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="4d2b-192c-62e9-4613" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="8a0d-abfe-7f77-60da" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="23" field="defaultAmount">
                                   <conditionGroups>
                                     <conditionGroup type="and">
-                                      <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                      </conditions>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
@@ -7132,7 +7200,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <infoLinks>
-                            <infoLink name="Beetle" id="32a7-107e-4ae3-1d36" hidden="false" type="profile" targetId="f984-1879-6f0f-560d"/>
+                            <infoLink name="Beetle" id="9bff-afb2-8d47-2e11" hidden="false" type="profile" targetId="f984-1879-6f0f-560d"/>
                           </infoLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -7165,24 +7233,21 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="05b7-6313-0e33-e023" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="4f97-266a-2125-97ae" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Bonded Beetle Grub" hidden="true" id="0760-ddb8-2165-703c" sortIndex="5">
+                        <selectionEntry type="upgrade" import="true" name="Bonded Beetle Grub" hidden="true" id="b997-b4df-6b13-c7f8" sortIndex="5">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="d2a8-f9f9-7784-17a0">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+18)" hidden="false" id="6120-76cd-39a5-a38d">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d2a8-f9f9-7784-17a0" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="6120-76cd-39a5-a38d" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="23" field="defaultAmount">
                                   <conditionGroups>
                                     <conditionGroup type="and">
-                                      <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                      </conditions>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
@@ -7194,27 +7259,11 @@ D6 ROLL RESULT
                                     </conditionGroup>
                                   </conditionGroups>
                                 </modifier>
-                                <modifier type="set" value="25" field="defaultAmount">
-                                  <conditionGroups>
-                                    <conditionGroup type="and">
-                                      <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                      </conditions>
-                                      <conditionGroups>
-                                        <conditionGroup type="or">
-                                          <conditions>
-                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                          </conditions>
-                                        </conditionGroup>
-                                      </conditionGroups>
-                                    </conditionGroup>
-                                  </conditionGroups>
-                                </modifier>
                               </modifiers>
                             </selectionEntry>
                           </selectionEntries>
                           <infoLinks>
-                            <infoLink name="Bonded Beetle Grub" id="470a-5dfc-ba95-f6c0" hidden="false" type="profile" targetId="8ea5-b0f4-2e41-654f"/>
+                            <infoLink name="Bonded Beetle Grub" id="218d-1edf-b99a-3329" hidden="false" type="profile" targetId="8ea5-b0f4-2e41-654f"/>
                           </infoLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -7224,7 +7273,6 @@ D6 ROLL RESULT
                                     <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -7240,7 +7288,6 @@ D6 ROLL RESULT
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -7249,24 +7296,21 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="45c8-f49e-3bc9-9b19" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="e154-7074-b105-757a" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Hunting Hornet" hidden="true" id="465d-f92e-60bf-663e" sortIndex="1">
+                        <selectionEntry type="upgrade" import="true" name="Hunting Hornet" hidden="true" id="d0be-45c5-6a16-c952" sortIndex="1">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+23)" hidden="false" id="12ce-d9aa-344f-5cc8">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (3d6+23)" hidden="false" id="3403-b8f3-1d11-2992">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="12ce-d9aa-344f-5cc8" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="3403-b8f3-1d11-2992" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="30" field="defaultAmount">
                                   <conditionGroups>
                                     <conditionGroup type="and">
-                                      <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                      </conditions>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
@@ -7280,9 +7324,6 @@ D6 ROLL RESULT
                                 <modifier type="set" value="32" field="defaultAmount">
                                   <conditionGroups>
                                     <conditionGroup type="and">
-                                      <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                      </conditions>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
@@ -7297,7 +7338,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <infoLinks>
-                            <infoLink name="Hunting Hornet" id="dd5e-a466-1706-666d" hidden="false" type="profile" targetId="eed3-18de-5c30-79d9"/>
+                            <infoLink name="Hunting Hornet" id="fc32-4572-1e36-9321" hidden="false" type="profile" targetId="eed3-18de-5c30-79d9"/>
                           </infoLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -7330,259 +7371,264 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="aa11-7b0e-1e33-ce70" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="8c48-eeb3-2875-b291" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
                       </selectionEntries>
                       <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                          </conditions>
+                        <modifier type="set" value="false" field="hidden">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </modifier>
                       </modifiers>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="Items" id="8131-d6fa-6ce3-d1b2" hidden="false" sortIndex="1" collapsible="true">
+                    <selectionEntryGroup name="Items" id="16e7-8c89-5dab-223b" hidden="false" sortIndex="1" collapsible="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Mages Puch" hidden="false" id="24ef-fdaa-66c5-f916">
+                        <selectionEntry type="upgrade" import="true" name="Mages Puch" hidden="false" id="1539-afc9-06bf-0680">
                           <selectionEntryGroups>
-                            <selectionEntryGroup name="Ingredient" id="96ce-7c58-58b5-826d" hidden="false">
+                            <selectionEntryGroup name="Ingredient" id="357a-59f7-f728-1c5d" hidden="false">
                               <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Badger’s blood" hidden="false" id="7004-5f48-f024-af20">
+                                <selectionEntry type="upgrade" import="true" name="Badger’s blood" hidden="false" id="c69b-23e1-4e3c-69dc">
                                   <infoLinks>
-                                    <infoLink name="Badger’s blood" id="5632-cb10-3257-72be" hidden="false" type="profile" targetId="ce9f-e9c3-7291-6958"/>
+                                    <infoLink name="Badger’s blood" id="364d-401e-b70d-5121" hidden="false" type="profile" targetId="ce9f-e9c3-7291-6958"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Amber bead" hidden="false" id="001c-8491-f107-ec31">
+                                <selectionEntry type="upgrade" import="true" name="Amber bead" hidden="false" id="757f-86bc-88c5-21ac">
                                   <infoLinks>
-                                    <infoLink name="Amber bead" id="d2b4-412d-83d3-61e3" hidden="false" type="profile" targetId="d96c-af91-3dc5-bd13"/>
+                                    <infoLink name="Amber bead" id="017e-cd50-a728-f587" hidden="false" type="profile" targetId="d96c-af91-3dc5-bd13"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Antler dust" hidden="false" id="37a2-95d3-3383-7579">
+                                <selectionEntry type="upgrade" import="true" name="Antler dust" hidden="false" id="1186-45a0-7b39-cbb0">
                                   <infoLinks>
-                                    <infoLink name="Antler dust" id="105a-7adf-2955-492f" hidden="false" type="profile" targetId="4d3d-c2cb-64f5-f3b5"/>
+                                    <infoLink name="Antler dust" id="ae6a-41ec-aa19-216e" hidden="false" type="profile" targetId="4d3d-c2cb-64f5-f3b5"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Badger’s claws" hidden="false" id="4b11-7afe-8ca9-ebb1">
+                                <selectionEntry type="upgrade" import="true" name="Badger’s claws" hidden="false" id="b6d7-9bef-35b0-6bff">
                                   <infoLinks>
-                                    <infoLink name="Badger’s claws" id="204e-7914-ffe6-7785" hidden="false" type="profile" targetId="473c-d7de-f9c3-164c"/>
+                                    <infoLink name="Badger’s claws" id="6179-6aa1-7416-8103" hidden="false" type="profile" targetId="473c-d7de-f9c3-164c"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bear bone fragments" hidden="false" id="77c6-6ecd-93b7-b102">
+                                <selectionEntry type="upgrade" import="true" name="Bear bone fragments" hidden="false" id="9664-5d97-0778-214c">
                                   <infoLinks>
-                                    <infoLink name="Bear bone fragments" id="7ae5-c7ce-4c9b-d9f7" hidden="false" type="profile" targetId="c417-ae2f-1820-dc5c"/>
+                                    <infoLink name="Bear bone fragments" id="9932-11c4-68ad-29b1" hidden="false" type="profile" targetId="c417-ae2f-1820-dc5c"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Belladonna" hidden="false" id="b1a0-1cb4-2c55-55d2">
+                                <selectionEntry type="upgrade" import="true" name="Belladonna" hidden="false" id="4a25-9c81-ac3e-d61c">
                                   <infoLinks>
-                                    <infoLink name="Belladonna" id="38d1-832d-6e68-c039" hidden="false" type="profile" targetId="4f4b-142e-c431-c69f"/>
+                                    <infoLink name="Belladonna" id="b6d9-c747-451c-b12c" hidden="false" type="profile" targetId="4f4b-142e-c431-c69f"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bloodwort" hidden="false" id="afd5-b476-bc88-32c8">
+                                <selectionEntry type="upgrade" import="true" name="Bloodwort" hidden="false" id="ce6a-1e89-ad94-ed06">
                                   <infoLinks>
-                                    <infoLink name="Bloodwort" id="afd2-5a8a-b723-9a02" hidden="false" type="profile" targetId="1fee-d0be-c42d-0663"/>
+                                    <infoLink name="Bloodwort" id="cb52-da4f-f96e-bd20" hidden="false" type="profile" targetId="1fee-d0be-c42d-0663"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bone meal" hidden="false" id="7b0f-f7bf-fcd4-d94c">
+                                <selectionEntry type="upgrade" import="true" name="Bone meal" hidden="false" id="fabc-3131-206d-4ab3">
                                   <infoLinks>
-                                    <infoLink name="Bone meal" id="d875-a586-f3e4-8468" hidden="false" type="profile" targetId="9282-b4cc-8d68-caa8"/>
+                                    <infoLink name="Bone meal" id="d28f-8504-fc6e-5244" hidden="false" type="profile" targetId="9282-b4cc-8d68-caa8"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Thunderbird feather" hidden="false" id="a03c-f3ae-7742-be3b">
+                                <selectionEntry type="upgrade" import="true" name="Thunderbird feather" hidden="false" id="8a21-ead2-faa2-d0d5">
                                   <infoLinks>
-                                    <infoLink name="Thunderbird feather" id="9250-cf8a-be2a-99c4" hidden="false" type="profile" targetId="7a16-c642-5dde-d3fc"/>
+                                    <infoLink name="Thunderbird feather" id="80b4-b7c9-6e34-3ef4" hidden="false" type="profile" targetId="7a16-c642-5dde-d3fc"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Brimstone" hidden="false" id="bf7c-b981-c853-5cca">
+                                <selectionEntry type="upgrade" import="true" name="Brimstone" hidden="false" id="458f-3d4d-7111-39bd">
                                   <infoLinks>
-                                    <infoLink name="Brimstone" id="cbbe-c174-8f14-a5bc" hidden="false" type="profile" targetId="0295-009e-2db2-6da3"/>
+                                    <infoLink name="Brimstone" id="0a52-22b6-3f52-0d01" hidden="false" type="profile" targetId="0295-009e-2db2-6da3"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Cave spider venom" hidden="false" id="c5aa-bf50-333c-a43c">
+                                <selectionEntry type="upgrade" import="true" name="Cave spider venom" hidden="false" id="b1ee-9446-bb09-0886">
                                   <infoLinks>
-                                    <infoLink name="Cave spider venom" id="6670-acd4-5764-2f08" hidden="false" type="profile" targetId="ea39-f1a2-4437-a4a4"/>
+                                    <infoLink name="Cave spider venom" id="58d8-c9d9-1c2a-1310" hidden="false" type="profile" targetId="ea39-f1a2-4437-a4a4"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Copper strip" hidden="false" id="d4b9-c5b0-2bad-0e29">
+                                <selectionEntry type="upgrade" import="true" name="Copper strip" hidden="false" id="f722-2628-6823-0787">
                                   <infoLinks>
-                                    <infoLink name="Copper strip" id="2976-0fec-3557-31d3" hidden="false" type="profile" targetId="0c63-d29a-b842-5c38"/>
+                                    <infoLink name="Copper strip" id="adc3-c9e1-b539-d70f" hidden="false" type="profile" targetId="0c63-d29a-b842-5c38"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="4"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Dragonfly wings" hidden="false" id="6500-f102-a710-8f67">
+                                <selectionEntry type="upgrade" import="true" name="Dragonfly wings" hidden="false" id="6baf-b931-e6ba-2210">
                                   <infoLinks>
-                                    <infoLink name="Dragonfly wings" id="8b97-1273-ea47-1a1d" hidden="false" type="profile" targetId="0be2-c8d8-b8fc-d83c"/>
+                                    <infoLink name="Dragonfly wings" id="6c68-0c43-d1d8-4e06" hidden="false" type="profile" targetId="0be2-c8d8-b8fc-d83c"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Elf-bolt" hidden="false" id="d2a7-aae1-7cba-f1ce">
+                                <selectionEntry type="upgrade" import="true" name="Elf-bolt" hidden="false" id="566f-a90c-011b-62aa">
                                   <infoLinks>
-                                    <infoLink name="Anti-Venom" id="0b41-eacb-bebb-d6c1" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                                    <infoLink name="Anti-Venom" id="ff04-fbcd-da94-58ba" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heal-alle" hidden="false" id="6b5a-c8f7-0b47-1aa3">
+                                <selectionEntry type="upgrade" import="true" name="Heal-alle" hidden="false" id="dc80-a19e-fb21-e528">
                                   <infoLinks>
-                                    <infoLink name="Heal-alle" id="abd0-4a54-2cac-145f" hidden="false" type="profile" targetId="a6c4-bd4e-16e5-f559"/>
+                                    <infoLink name="Heal-alle" id="06da-b0f6-ec1a-d140" hidden="false" type="profile" targetId="a6c4-bd4e-16e5-f559"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="eb4e-5be9-b5de-7368">
+                                <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="523d-054b-bb29-3532">
                                   <infoLinks>
-                                    <infoLink name="Arcane Tome" id="93b0-f1d5-e31b-4153" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
+                                    <infoLink name="Amanitas" id="0c32-5bba-8e10-153b" hidden="false" type="profile" targetId="b536-09bc-6700-d36c"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Ground obsidian" hidden="false" id="f21c-9a07-d92e-a5b5">
+                                <selectionEntry type="upgrade" import="true" name="Ground obsidian" hidden="false" id="a06b-9fa5-b5de-d0b1">
                                   <infoLinks>
-                                    <infoLink name="Ground obsidian" id="0a1b-987d-173e-adba" hidden="false" type="profile" targetId="5183-040d-ec31-521e"/>
+                                    <infoLink name="Ground obsidian" id="3022-70f1-b187-1aaa" hidden="false" type="profile" targetId="5183-040d-ec31-521e"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Haematite" hidden="false" id="05e7-71c4-8159-a5d5">
+                                <selectionEntry type="upgrade" import="true" name="Haematite" hidden="false" id="88be-e07e-4338-1cc3">
                                   <infoLinks>
-                                    <infoLink name="Haematite" id="93d9-6de2-4d05-24b2" hidden="false" type="profile" targetId="22bf-f0a2-9b38-1b14"/>
+                                    <infoLink name="Haematite" id="2926-0a2e-bfd2-5be4" hidden="false" type="profile" targetId="22bf-f0a2-9b38-1b14"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Henbane" hidden="false" id="9d73-d438-14a3-a69c">
+                                <selectionEntry type="upgrade" import="true" name="Henbane" hidden="false" id="876d-b567-0465-d8fa">
                                   <infoLinks>
-                                    <infoLink name="Henbane" id="f2c8-1360-3335-e0bc" hidden="false" type="profile" targetId="c219-0e1d-5307-2f37"/>
+                                    <infoLink name="Henbane" id="67d8-53db-9ebc-3e00" hidden="false" type="profile" targetId="c219-0e1d-5307-2f37"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Lotus flowers" hidden="false" id="2323-f9ba-3d02-2965">
+                                <selectionEntry type="upgrade" import="true" name="Lotus flowers" hidden="false" id="ffa2-1aa0-522c-b116">
                                   <infoLinks>
-                                    <infoLink name="Lotus flowers" id="99f8-f498-9bb7-0831" hidden="false" type="profile" targetId="f6df-80a4-15d4-d37c"/>
+                                    <infoLink name="Lotus flowers" id="6d1a-b0c3-f78b-1a89" hidden="false" type="profile" targetId="f6df-80a4-15d4-d37c"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Lugwort" hidden="false" id="4ed2-ecdd-712d-0a5e">
+                                <selectionEntry type="upgrade" import="true" name="Lugwort" hidden="false" id="84b0-35b8-b495-60a4">
                                   <infoLinks>
-                                    <infoLink name="Lugwort" id="3f44-4ae4-d4f6-bf64" hidden="false" type="profile" targetId="f438-284f-4faf-5827"/>
+                                    <infoLink name="Lugwort" id="fa73-5d31-96a0-39e4" hidden="false" type="profile" targetId="f438-284f-4faf-5827"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Mandrake" hidden="false" id="796a-b68c-094a-f289">
+                                <selectionEntry type="upgrade" import="true" name="Mandrake" hidden="false" id="5326-7477-9452-b640">
                                   <infoLinks>
-                                    <infoLink name="Mandrake" id="8924-b9c5-554c-d250" hidden="false" type="profile" targetId="0824-608c-e533-f37c"/>
+                                    <infoLink name="Mandrake" id="bfe5-9dd7-7207-eeb3" hidden="false" type="profile" targetId="0824-608c-e533-f37c"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Scarab shells" hidden="false" id="4d36-f288-fb74-2307">
+                                <selectionEntry type="upgrade" import="true" name="Scarab shells" hidden="false" id="2048-16d2-f09b-1019">
                                   <infoLinks>
-                                    <infoLink name="Scarab shells" id="0f4f-8578-7136-00eb" hidden="false" type="profile" targetId="2392-a0a8-45b4-b3be"/>
+                                    <infoLink name="Scarab shells" id="2bb7-de5a-f3ae-932b" hidden="false" type="profile" targetId="2392-a0a8-45b4-b3be"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Petrified wood" hidden="false" id="7edf-b9bc-e00a-4ef0">
+                                <selectionEntry type="upgrade" import="true" name="Petrified wood" hidden="false" id="b70d-37b5-b411-a9c3">
                                   <infoLinks>
-                                    <infoLink name="Petrified wood" id="094e-e7a6-f1c4-ad2e" hidden="false" type="profile" targetId="a248-3932-3437-cea1"/>
+                                    <infoLink name="Petrified wood" id="088c-256d-c08c-9e5a" hidden="false" type="profile" targetId="a248-3932-3437-cea1"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Silk fibres" hidden="false" id="27bc-d88d-1e8d-984e">
+                                <selectionEntry type="upgrade" import="true" name="Silk fibres" hidden="false" id="eb1b-3a24-b21c-773a">
                                   <infoLinks>
-                                    <infoLink name="Silk fibres" id="fb6f-dd2d-6a33-f03f" hidden="false" type="profile" targetId="e855-d23f-46c6-e09e"/>
+                                    <infoLink name="Silk fibres" id="44c0-146b-1e9a-214f" hidden="false" type="profile" targetId="e855-d23f-46c6-e09e"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Saltpetre" hidden="false" id="b5dd-8dcc-5a0d-291b">
+                                <selectionEntry type="upgrade" import="true" name="Saltpetre" hidden="false" id="4b53-0b45-bc35-b047">
                                   <infoLinks>
-                                    <infoLink name="Saltpetre" id="b7f9-082d-3ff3-0015" hidden="false" type="profile" targetId="a408-e7a1-26be-aa09"/>
+                                    <infoLink name="Saltpetre" id="1519-3d0f-e452-a813" hidden="false" type="profile" targetId="a408-e7a1-26be-aa09"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="4"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Powdered acorns" hidden="false" id="aa76-3dbf-cb6b-b7ec">
+                                <selectionEntry type="upgrade" import="true" name="Powdered acorns" hidden="false" id="de43-79b8-5c30-84b2">
                                   <infoLinks>
-                                    <infoLink name="Powdered acorns" id="65a2-ca93-01a5-a7c7" hidden="false" type="profile" targetId="b469-aea5-314a-0803"/>
+                                    <infoLink name="Powdered acorns" id="ad3f-fea9-4dc2-79fb" hidden="false" type="profile" targetId="b469-aea5-314a-0803"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Galingale" hidden="false" id="d121-2753-ea5b-8711">
+                                <selectionEntry type="upgrade" import="true" name="Galingale" hidden="false" id="dbd8-a5c2-6234-395c">
                                   <infoLinks>
-                                    <infoLink name="Galingale" id="9747-4888-5b36-e2ac" hidden="false" type="profile" targetId="96f6-4a84-ce7c-424b"/>
+                                    <infoLink name="Galingale" id="7751-d349-30bd-5aee" hidden="false" type="profile" targetId="96f6-4a84-ce7c-424b"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Thyme leaves" hidden="false" id="d620-a185-73d2-22bd">
+                                <selectionEntry type="upgrade" import="true" name="Thyme leaves" hidden="false" id="39d8-cb37-cd65-b054">
                                   <infoLinks>
-                                    <infoLink name="Thyme leaves" id="51f1-e9eb-fcff-e256" hidden="false" type="profile" targetId="9407-70f8-18ea-7c0e"/>
+                                    <infoLink name="Thyme leaves" id="a232-02e9-2d70-d6aa" hidden="false" type="profile" targetId="9407-70f8-18ea-7c0e"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Wax candle" hidden="false" id="61c0-3cea-fa20-5d29">
+                                <selectionEntry type="upgrade" import="true" name="Wax candle" hidden="false" id="5f9c-3de9-0112-64f1">
                                   <infoLinks>
-                                    <infoLink name="Wax candle" id="5b77-46ca-081e-7d18" hidden="false" type="profile" targetId="c274-9c32-5682-2182"/>
+                                    <infoLink name="Wax candle" id="dbdd-50ec-0a7b-5a1b" hidden="false" type="profile" targetId="c274-9c32-5682-2182"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
@@ -7590,7 +7636,7 @@ D6 ROLL RESULT
                                 </selectionEntry>
                               </selectionEntries>
                               <constraints>
-                                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="3861-87d1-1e72-ea9a"/>
+                                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="cbdb-3cf6-f646-6b43"/>
                               </constraints>
                             </selectionEntryGroup>
                           </selectionEntryGroups>
@@ -7598,141 +7644,141 @@ D6 ROLL RESULT
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="12"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Camouflage Cloak" hidden="false" id="3293-3181-a192-732e">
+                        <selectionEntry type="upgrade" import="true" name="Camouflage Cloak" hidden="false" id="ddd9-3b99-e38a-8c1a">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Camouflage Cloak" id="f509-1f2a-abae-b4db" hidden="false" type="profile" targetId="414c-7764-421c-eed7"/>
+                            <infoLink name="Camouflage Cloak" id="58a0-29cc-b97c-5cca" hidden="false" type="profile" targetId="414c-7764-421c-eed7"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Lucky Charm" hidden="false" id="2a71-f6a8-4bdd-41d4">
+                        <selectionEntry type="upgrade" import="true" name="Lucky Charm" hidden="false" id="17fe-c7d4-43d9-d931">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="10"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Lucky charm" id="ef7b-0038-3fa4-bf6c" hidden="false" type="profile" targetId="37a1-c90a-1c62-842b"/>
+                            <infoLink name="Lucky charm" id="6c43-8d78-56d1-8568" hidden="false" type="profile" targetId="37a1-c90a-1c62-842b"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Mage&apos;s Focus" hidden="false" id="d217-dd44-0e85-83aa">
+                        <selectionEntry type="upgrade" import="true" name="Mage&apos;s Focus" hidden="false" id="289b-982d-700e-698b">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Mage’s focus" id="15f9-fbc5-67c9-394f" hidden="false" type="profile" targetId="0eaa-b6aa-e975-449b"/>
+                            <infoLink name="Mage’s focus" id="c93b-bca1-2516-75d5" hidden="false" type="profile" targetId="0eaa-b6aa-e975-449b"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Rope &amp; Hook" hidden="false" id="836e-f9dd-727d-eccd">
+                        <selectionEntry type="upgrade" import="true" name="Rope &amp; Hook" hidden="false" id="d10e-6149-aea9-25d0">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Rope &amp; Hook" id="fd59-ac86-942a-31fd" hidden="false" type="profile" targetId="d5c1-1bc3-3dab-33fb"/>
+                            <infoLink name="Rope &amp; Hook" id="4591-43ad-b1fc-2d5e" hidden="false" type="profile" targetId="d5c1-1bc3-3dab-33fb"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Scent Masker" hidden="false" id="e7e6-321a-e10c-791f">
+                        <selectionEntry type="upgrade" import="true" name="Scent Masker" hidden="false" id="2d8b-28f2-ce26-fce5">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Scent Masker" id="1e2e-a6aa-fe1d-e851" hidden="false" type="profile" targetId="208d-9bf3-0892-bae1"/>
+                            <infoLink name="Scent Masker" id="df1f-7ca2-2260-3e45" hidden="false" type="profile" targetId="208d-9bf3-0892-bae1"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Healing Potion" hidden="false" id="4848-abea-4f80-9840">
+                        <selectionEntry type="upgrade" import="true" name="Healing Potion" hidden="false" id="0313-4471-2f3e-21ad">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="8"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Healing potion" id="2a82-40d8-6f7f-da1d" hidden="false" type="profile" targetId="493f-7f3a-5647-c18e"/>
+                            <infoLink name="Healing potion" id="8872-5b9a-0a7d-e939" hidden="false" type="profile" targetId="493f-7f3a-5647-c18e"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Talisman" hidden="false" id="8a5e-7c1a-e1ea-cd73">
+                        <selectionEntry type="upgrade" import="true" name="Talisman" hidden="false" id="95a0-000d-66f1-c3c1">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Talisman" id="78e4-c027-507b-eb20" hidden="false" type="profile" targetId="be27-f731-3c19-ad9c"/>
+                            <infoLink name="Talisman" id="b10a-9c6f-2730-d82b" hidden="false" type="profile" targetId="be27-f731-3c19-ad9c"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Torch" hidden="false" id="0a9d-2a4f-a7bd-db55">
+                        <selectionEntry type="upgrade" import="true" name="Torch" hidden="false" id="2a1a-e566-66a2-88ab">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="1"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Torch" id="b3ac-e042-7184-cf77" hidden="false" type="profile" targetId="4d66-3e23-f4d5-f45f"/>
+                            <infoLink name="Torch" id="337e-9f89-0688-eeef" hidden="false" type="profile" targetId="4d66-3e23-f4d5-f45f"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Lantern" hidden="false" id="a725-2865-d115-8520">
+                        <selectionEntry type="upgrade" import="true" name="Lantern" hidden="false" id="a9e1-9673-e158-02c8">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="7"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Lantern" id="c408-12b1-d52a-f038" hidden="false" type="profile" targetId="c0c9-bd14-745b-8a70"/>
+                            <infoLink name="Lantern" id="0af4-180c-7bcf-df46" hidden="false" type="profile" targetId="c0c9-bd14-745b-8a70"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Inspiring Object" hidden="false" id="a2e7-2865-bdd2-6168">
+                        <selectionEntry type="upgrade" import="true" name="Inspiring Object" hidden="false" id="9f65-8d9f-c3df-e267">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="20"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Inspiring Object" id="c5da-3ec7-4056-b366" hidden="false" type="profile" targetId="b65b-a94e-c495-d45a"/>
+                            <infoLink name="Inspiring Object" id="229c-83dc-5ee9-a188" hidden="false" type="profile" targetId="b65b-a94e-c495-d45a"/>
                           </infoLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6d5f-a99b-0ea5-10c3" includeChildSelections="true" includeChildForces="true"/>
+                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4521-5272-24db-bcde" includeChildSelections="true" includeChildForces="true"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Caltrops" hidden="false" id="b793-ed36-5d19-3725">
+                        <selectionEntry type="upgrade" import="true" name="Caltrops" hidden="false" id="3221-8829-0a46-edb0">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Caltrops" id="f494-7ad5-fbab-a24f" hidden="false" type="profile" targetId="4189-4faf-468b-135e"/>
+                            <infoLink name="Caltrops" id="6ead-38c9-a5aa-5a0d" hidden="false" type="profile" targetId="4189-4faf-468b-135e"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Tangle Net" hidden="false" id="9e6a-106a-dcef-fb36">
+                        <selectionEntry type="upgrade" import="true" name="Tangle Net" hidden="false" id="d522-fd10-5b39-7989">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="10"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Tangle Net" id="06d8-00e8-a48c-66dd" hidden="false" type="profile" targetId="222f-69f0-9c37-1595"/>
+                            <infoLink name="Tangle Net" id="7a2f-ae9f-9d7f-056e" hidden="false" type="profile" targetId="222f-69f0-9c37-1595"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Signature Item" hidden="false" id="0188-a9b7-3a96-75af">
+                        <selectionEntry type="upgrade" import="true" name="Signature Item" hidden="false" id="d45a-e9f1-e140-abe9">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Signature Item" id="6341-8dd0-7559-47ee" hidden="false" type="profile" targetId="89c6-cf42-112e-5d3b"/>
+                            <infoLink name="Signature Item" id="6b2f-14b3-e672-40f5" hidden="false" type="profile" targetId="89c6-cf42-112e-5d3b"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Materials" hidden="false" id="7ed2-0500-e2ea-af5f">
+                        <selectionEntry type="upgrade" import="true" name="Materials" hidden="false" id="e0c7-0caa-951b-5cfb">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Materials" id="098f-f134-ebfc-2cd9" hidden="false" type="profile" targetId="ba0f-6de9-9b45-dbb8"/>
+                            <infoLink name="Materials" id="912a-44e5-80f0-ae91" hidden="false" type="profile" targetId="ba0f-6de9-9b45-dbb8"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Enchanted Equipment" hidden="false" id="f4c4-f56f-3f72-1394">
+                        <selectionEntry type="upgrade" import="true" name="Enchanted Equipment" hidden="false" id="397c-86e1-16f8-576c">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Enchanted Equipment" id="c796-a98f-9d29-8ac3" hidden="false" type="profile" targetId="f6cd-eab6-a3a0-5be8"/>
+                            <infoLink name="Enchanted Equipment" id="5f02-ff1b-69a4-c7f1" hidden="false" type="profile" targetId="f6cd-eab6-a3a0-5be8"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (3d20)" hidden="false" id="a23b-0093-194b-11b8">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (3d20)" hidden="false" id="3560-68e9-c48c-6a28">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="a23b-0093-194b-11b8" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="3560-68e9-c48c-6a28" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                               </modifiers>
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="934e-771e-e20d-d069" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="5b34-77ea-a8cc-34e2" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="true" field="hidden">
@@ -7743,19 +7789,19 @@ D6 ROLL RESULT
                           </modifiers>
                           <comment>TODO Implement</comment>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Silk Undershirt" hidden="true" id="794a-d27d-f8fc-3b71">
+                        <selectionEntry type="upgrade" import="true" name="Silk Undershirt" hidden="true" id="a481-dced-3a5e-47b8">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Silk Undershirt" id="055c-e032-15a3-c4aa" hidden="false" type="profile" targetId="cadd-4989-3737-7883"/>
+                            <infoLink name="Silk Undershirt" id="2dd1-2cf7-34c1-1320" hidden="false" type="profile" targetId="cadd-4989-3737-7883"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3)" hidden="false" id="56c3-221c-e54f-4741">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3)" hidden="false" id="95e4-d127-c65d-9e1c">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="56c3-221c-e54f-4741" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="95e4-d127-c65d-9e1c" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="5" field="defaultAmount">
@@ -7782,7 +7828,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="3018-59f4-b554-08ec" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="0dd4-f89b-685b-d474" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -7790,11 +7836,11 @@ D6 ROLL RESULT
                                 <conditionGroup type="or">
                                   <conditions>
                                     <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -7821,19 +7867,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Shielding Talisman" hidden="true" id="102a-197c-2e2a-88ee">
+                        <selectionEntry type="upgrade" import="true" name="Shielding Talisman" hidden="true" id="b15c-c9e5-44f6-9f35">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="2514-77ed-b78e-09d7" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Telescope" id="ece0-c843-1b04-a3a2" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+3)" hidden="false" id="28a6-fb71-dec2-978c">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+3)" hidden="false" id="c206-b4c1-7286-fe28">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="28a6-fb71-dec2-978c" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="c206-b4c1-7286-fe28" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="7" field="defaultAmount">
@@ -7911,19 +7957,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Dispel Scroll" hidden="true" id="d3ab-38e5-d461-5a94">
+                        <selectionEntry type="upgrade" import="true" name="Dispel Scroll" hidden="true" id="d5e0-583f-2212-19b0">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="a250-3424-dab7-e756" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Telescope" id="ec12-700c-8f1e-f7a6" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="19c1-0413-72d9-691d">
+                            <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="b941-646f-a067-5d58">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="19c1-0413-72d9-691d" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="b941-646f-a067-5d58" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="8" field="defaultAmount">
@@ -7936,7 +7982,6 @@ D6 ROLL RESULT
                                         <conditionGroup type="or">
                                           <conditions>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
@@ -7956,6 +8001,7 @@ D6 ROLL RESULT
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
                                       </conditionGroups>
@@ -7966,7 +8012,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="471d-baa6-125d-77f8" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="2012-9a6e-f8bc-bbfd" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="add" value="Rare starting item" field="info">
@@ -8007,19 +8053,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Mirroring Talisman" hidden="true" id="5a3b-1828-8dd6-0773">
+                        <selectionEntry type="upgrade" import="true" name="Mirroring Talisman" hidden="true" id="a9f3-cddc-3399-2d9a">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Mirroring Talisman" id="7d71-fecc-ab4e-1ea9" hidden="false" type="profile" targetId="fd4d-8e4e-9992-8106"/>
+                            <infoLink name="Mirroring Talisman" id="567d-e04b-bb61-a28d" hidden="false" type="profile" targetId="fd4d-8e4e-9992-8106"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+6)" hidden="false" id="cc88-f5af-6283-800a">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+6)" hidden="false" id="2d1b-3721-fb92-7d88">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="cc88-f5af-6283-800a" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="2d1b-3721-fb92-7d88" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="10" field="defaultAmount">
@@ -8033,6 +8079,7 @@ D6 ROLL RESULT
                                           <conditions>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
                                       </conditionGroups>
@@ -8060,7 +8107,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="9784-fe97-a07d-5cbb" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="7a44-a28f-f7b2-408f" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -8072,6 +8119,7 @@ D6 ROLL RESULT
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -8089,6 +8137,7 @@ D6 ROLL RESULT
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -8097,19 +8146,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Blind Dust" hidden="true" id="a999-5ba2-9229-0e3b">
+                        <selectionEntry type="upgrade" import="true" name="Blind Dust" hidden="true" id="6935-ba7d-7f33-390c">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Blind Dust" id="f82d-b14c-8626-dfe8" hidden="false" type="profile" targetId="aefe-08ca-147d-c712"/>
+                            <infoLink name="Blind Dust" id="afe3-4a13-091c-ca5c" hidden="false" type="profile" targetId="aefe-08ca-147d-c712"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3)" hidden="false" id="fcbd-16ed-ea57-9062">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3)" hidden="false" id="de11-7d57-ad7e-3e92">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="fcbd-16ed-ea57-9062" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="de11-7d57-ad7e-3e92" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="7" field="defaultAmount">
@@ -8134,7 +8183,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="d50a-d748-9563-e26d" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="2e86-2329-9532-ce6e" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -8169,20 +8218,20 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Telescope" hidden="true" id="debf-622e-0716-292f">
+                        <selectionEntry type="upgrade" import="true" name="Telescope" hidden="true" id="88f2-72f7-f220-ee1b">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="9d65-5e92-3324-d999" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
-                            <infoLink name="Bloodhound" id="8be0-1f24-44bd-1222" hidden="false" type="rule" targetId="54cb-f660-1c7f-53c1"/>
+                            <infoLink name="Telescope" id="e433-ae0e-dd50-7535" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Bloodhound" id="6dd3-f155-e138-ef8e" hidden="false" type="rule" targetId="54cb-f660-1c7f-53c1"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="a926-db4b-8381-c60f">
+                            <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="6183-f451-fa13-ba6b">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="a926-db4b-8381-c60f" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="6183-f451-fa13-ba6b" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="10" field="defaultAmount">
@@ -8198,6 +8247,7 @@ D6 ROLL RESULT
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
                                       </conditionGroups>
@@ -8208,7 +8258,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="d42a-7e65-2fad-e11d" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="deba-0cb6-bf28-6c35" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -8220,6 +8270,7 @@ D6 ROLL RESULT
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -8237,6 +8288,7 @@ D6 ROLL RESULT
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -8245,19 +8297,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Berserker Seeds" hidden="true" id="6de6-1d3c-3535-8766">
+                        <selectionEntry type="upgrade" import="true" name="Berserker Seeds" hidden="true" id="14df-60fe-eb8c-3805">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Berserker Seeds" id="e8c9-7cef-5db6-8387" hidden="false" type="profile" targetId="e1cd-2b93-0d3e-a3ac"/>
+                            <infoLink name="Berserker Seeds" id="2c32-4470-61b9-6d82" hidden="false" type="profile" targetId="e1cd-2b93-0d3e-a3ac"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+7)" hidden="false" id="c170-4f38-44ac-8a1c">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+7)" hidden="false" id="c75b-ac51-fd4f-65af">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="c170-4f38-44ac-8a1c" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="c75b-ac51-fd4f-65af" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="8" field="defaultAmount">
@@ -8280,17 +8332,15 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="78f5-b121-bb70-5d4d" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="05f9-8522-48bd-7259" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
-                              <conditions>
-                                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
-                              </conditions>
                               <conditionGroups>
                                 <conditionGroup type="or">
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -8313,19 +8363,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Old One Brews" hidden="true" id="b44c-55d4-9e51-5802">
+                        <selectionEntry type="upgrade" import="true" name="Old One Brews" hidden="true" id="c68e-4881-087b-6b33">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Old One Brews" id="90ff-97ba-07dc-464c" hidden="false" type="profile" targetId="d29e-5286-0653-35f2"/>
+                            <infoLink name="Old One Brews" id="7f58-cdad-3063-9724" hidden="false" type="profile" targetId="d29e-5286-0653-35f2"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+8)" hidden="false" id="064a-4c1d-bd8c-6c41">
+                            <selectionEntry type="upgrade" import="true" name="Variable Cost (2d6+8)" hidden="false" id="24ea-30b6-9034-f368">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="064a-4c1d-bd8c-6c41" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="24ea-30b6-9034-f368" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="13" field="defaultAmount">
@@ -8348,7 +8398,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="1f07-840b-5c14-de99" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="4bb6-fa5f-4a00-1ab3" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -8379,19 +8429,21 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Relic" hidden="true" id="8b89-6c5b-92d9-c155">
+                        <selectionEntry type="upgrade" import="true" name="Relic" hidden="true" id="e6a2-c400-fd10-c5b9">
                           <costs>
-                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="5"/>
+                            <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
+                            <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                            <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Relic" id="e9b3-c92f-afe4-4e63" hidden="false" type="profile" targetId="fc39-7293-1a2f-beac"/>
+                            <infoLink name="Relic" id="338b-bf12-c879-ce10" hidden="false" type="profile" targetId="fc39-7293-1a2f-beac"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d8+3)" hidden="false" id="3164-f5c0-667b-033c">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d8+3)" hidden="false" id="b797-ff1c-ff8f-1407">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="3164-f5c0-667b-033c" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="b797-ff1c-ff8f-1407" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="4" field="defaultAmount">
@@ -8407,6 +8459,7 @@ D6 ROLL RESULT
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
                                       </conditionGroups>
@@ -8443,6 +8496,7 @@ D6 ROLL RESULT
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -8461,6 +8515,7 @@ D6 ROLL RESULT
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -8469,23 +8524,23 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Bagpipes" hidden="true" id="a991-2ac2-e925-2322">
+                        <selectionEntry type="upgrade" import="true" name="Bagpipes" hidden="true" id="1667-2d87-cb24-52f5">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Anti-Venom" id="afc0-ce15-e8c9-57bd" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
-                            <infoLink name="Piper" id="8e3d-d7e7-9cf3-5564" hidden="false" type="rule" targetId="8099-4319-5e1a-35cf"/>
+                            <infoLink name="Anti-Venom" id="2c28-2379-68b1-041e" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                            <infoLink name="Piper" id="1f8d-0c82-9b27-7d56" hidden="false" type="rule" targetId="8099-4319-5e1a-35cf"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="9933-7ccd-caab-e759">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="0b21-f76c-4fe2-d3ad">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="9933-7ccd-caab-e759" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="0b21-f76c-4fe2-d3ad" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
-                                <modifier type="set" value="3" field="defaultAmount">
+                                <modifier type="set" value="20" field="defaultAmount">
                                   <conditionGroups>
                                     <conditionGroup type="and">
                                       <conditions>
@@ -8534,25 +8589,25 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="cdf1-0238-3286-fef8" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="5f0d-b7fd-30e9-373f" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="77e5-b6b0-14ce-64f9" includeChildSelections="true" includeChildForces="true"/>
+                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0c21-3e6b-7fab-d694" includeChildSelections="true" includeChildForces="true"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Arcane Tome" hidden="true" id="e346-e2b7-ed86-7b1b">
+                        <selectionEntry type="upgrade" import="true" name="Arcane Tome" hidden="true" id="b302-dc02-983f-0a53">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Arcane Tome" id="20dd-2e74-ddfa-fb71" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
+                            <infoLink name="Arcane Tome" id="b76b-6075-de1b-e8d0" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="da53-df41-1a67-19ab">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="facb-3d3d-3803-abf2">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="da53-df41-1a67-19ab" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="facb-3d3d-3803-abf2" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="20" field="defaultAmount">
@@ -8592,7 +8647,7 @@ D6 ROLL RESULT
                             </selectionEntry>
                           </selectionEntries>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="e19a-d2db-2405-d65d" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="a8bd-117e-d272-fe80" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                           <modifiers>
                             <modifier type="set" value="false" field="hidden">
@@ -8627,19 +8682,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Anti-Venom" hidden="true" id="49ec-1bac-94cc-1f4f">
+                        <selectionEntry type="upgrade" import="true" name="Anti-Venom" hidden="true" id="56cd-eaa7-9dc3-daa9">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Anti-Venom" id="5322-12cf-baaa-dc6f" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                            <infoLink name="Anti-Venom" id="71a2-f57a-33b2-9dfe" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="bd11-3468-1afb-e5bb">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="649f-31be-4ece-349a">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="bd11-3468-1afb-e5bb" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="649f-31be-4ece-349a" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="3" field="defaultAmount">
@@ -8654,6 +8709,8 @@ D6 ROLL RESULT
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
                                       </conditionGroups>
@@ -8700,67 +8757,67 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="09e3-437c-4b0c-27c0" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="21ab-a687-4ade-4263" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="Special ammunition" id="f14c-9928-89e7-7bff" hidden="false" sortIndex="3" collapsible="true">
+                    <selectionEntryGroup name="Special ammunition" id="743b-4d35-116f-9384" hidden="false" sortIndex="3" collapsible="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Bodkin arrows" hidden="false" id="3baf-a637-6424-32c4">
+                        <selectionEntry type="upgrade" import="true" name="Bodkin arrows" hidden="false" id="4b25-d281-d85b-7bd2">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="1"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Bodkin Arrows" id="0c1c-cf2c-90fa-f819" hidden="false" type="profile" targetId="c053-33f9-1909-49ce"/>
+                            <infoLink name="Bodkin Arrows" id="9b17-5059-680b-b8bd" hidden="false" type="profile" targetId="c053-33f9-1909-49ce"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Broadhead arrows" hidden="false" id="53d9-0287-1bc3-9b15">
+                        <selectionEntry type="upgrade" import="true" name="Broadhead arrows" hidden="false" id="1623-d4ba-7f98-456d">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="1"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Broadhead arrows" id="7bd0-fe3c-b95f-fe7d" hidden="false" type="profile" targetId="8a82-636c-7a09-539e"/>
+                            <infoLink name="Broadhead arrows" id="c882-6f6b-c2d3-0142" hidden="false" type="profile" targetId="8a82-636c-7a09-539e"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Led slingshot" hidden="false" id="6f6d-0eb0-ff3e-adf1">
+                        <selectionEntry type="upgrade" import="true" name="Led slingshot" hidden="false" id="7610-fab5-ae2f-2715">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="1"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Lead Slingshot" id="bcfa-3c31-727c-22d6" hidden="false" type="profile" targetId="fa65-ac91-d63c-f338"/>
+                            <infoLink name="Lead Slingshot" id="654d-7b79-04b4-d428" hidden="false" type="profile" targetId="fa65-ac91-d63c-f338"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Superior Black Powder" hidden="false" id="5860-32dd-721e-67dc">
+                        <selectionEntry type="upgrade" import="true" name="Superior Black Powder" hidden="false" id="5314-b362-d033-868c">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="1"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Superior Black Powder" id="cf44-2ceb-c73c-b9c3" hidden="false" type="profile" targetId="395c-bf2d-2986-3c1f"/>
+                            <infoLink name="Superior Black Powder" id="ba06-ebca-b1ca-2978" hidden="false" type="profile" targetId="395c-bf2d-2986-3c1f"/>
                           </infoLinks>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup name="Poison" id="2038-46bb-3501-ece1" hidden="true" collapsible="true" sortIndex="4">
+                    <selectionEntryGroup name="Poison" id="6d17-eadd-b137-3579" hidden="true" collapsible="true" sortIndex="4">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Mortal Poison" hidden="true" id="6ae3-9818-42cd-e686">
+                        <selectionEntry type="upgrade" import="true" name="Mortal Poison" hidden="true" id="dade-c3c7-fbf1-4228">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Mortal Poison" id="4020-7e54-da75-175d" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
+                            <infoLink name="Mortal Poison" id="3ec6-e136-5d5e-197f" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="aa7c-dd26-dd80-916e" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="b524-2f70-79ae-a8c3" sortIndex="2">
                               <infoLinks>
-                                <infoLink name="Mortal Poison" id="b4f3-bc01-315f-a325" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
+                                <infoLink name="Mortal Poison" id="9de1-11e0-7520-0d87" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
                               </infoLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="febb-e72a-c6a8-eebd" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="c1b2-c000-6730-b8e0" sortIndex="1">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="febb-e72a-c6a8-eebd" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="c1b2-c000-6730-b8e0" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="Cost (5 penny each)" field="name">
@@ -8817,19 +8874,19 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="296e-48b7-7c22-a305" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="08e4-066b-1b7d-e33b" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Paralysing Poison" hidden="true" id="9822-5b28-0cb6-69dc">
+                        <selectionEntry type="upgrade" import="true" name="Paralysing Poison" hidden="true" id="3fe1-d878-28c7-7a93">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="f934-2ffb-0645-35bd">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="7df7-3136-e95f-d705">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="f934-2ffb-0645-35bd" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="7df7-3136-e95f-d705" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="Cost (4 penny each)" field="name">
@@ -8852,9 +8909,9 @@ D6 ROLL RESULT
                                 </modifier>
                               </modifiers>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="e457-b7c2-e984-7669">
+                            <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="293c-149f-9570-bfb6">
                               <infoLinks>
-                                <infoLink name="Paralysing Poison" id="8115-9ecb-7405-dc01" hidden="false" type="profile" targetId="1f83-cde8-164c-9259"/>
+                                <infoLink name="Paralysing Poison" id="f134-e981-0966-5ef8" hidden="false" type="profile" targetId="1f83-cde8-164c-9259"/>
                               </infoLinks>
                             </selectionEntry>
                           </selectionEntries>
@@ -8891,22 +8948,22 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="371d-54bc-59ac-a413" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="9f8e-e748-71f4-ae42" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Pain Poison" hidden="true" id="50e5-5954-4d62-7be4">
+                        <selectionEntry type="upgrade" import="true" name="Pain Poison" hidden="true" id="9084-0fc8-cfce-8c40">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Pain Poison" id="0a8f-5507-2a79-abf5" hidden="false" type="profile" targetId="a302-0d06-f313-c4a2"/>
+                            <infoLink name="Pain Poison" id="6ec7-d010-b173-cc7b" hidden="false" type="profile" targetId="a302-0d06-f313-c4a2"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d4 Each)" hidden="false" id="038d-ddeb-9361-2724">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d4 Each)" hidden="false" id="d792-28a9-f013-ff39">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
-                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="038d-ddeb-9361-2724" shared="true" roundUp="false"/>
+                                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d792-28a9-f013-ff39" shared="true" roundUp="false"/>
                                   </repeats>
                                 </modifier>
                                 <modifier type="set" value="Cost (2 penny each)" field="name">
@@ -8929,9 +8986,9 @@ D6 ROLL RESULT
                                 </modifier>
                               </modifiers>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="1353-e94b-6948-af85">
+                            <selectionEntry type="upgrade" import="true" name="Piece" hidden="false" id="bbd2-158c-f83d-2234">
                               <infoLinks>
-                                <infoLink name="Mortal Poison" id="3566-3001-6597-d0c2" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
+                                <infoLink name="Mortal Poison" id="7790-2910-e83a-e144" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
                               </infoLinks>
                             </selectionEntry>
                           </selectionEntries>
@@ -8968,7 +9025,7 @@ D6 ROLL RESULT
                             </modifier>
                           </modifiers>
                           <categoryLinks>
-                            <categoryLink name="Rare" hidden="false" id="9ee6-3d8f-f58f-26c2" targetId="6daf-83fe-ef42-17d8" primary="false"/>
+                            <categoryLink name="Rare" hidden="false" id="4f67-c6d2-0f3b-9368" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
                         </selectionEntry>
                       </selectionEntries>
