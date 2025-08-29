@@ -18,11 +18,11 @@ The project is currently **work in progress**, so expect missing content and dat
 - **Magical Weapons, Armor and Items**: Done
 - **All factions** are available, most of them with their **warband creation rules**  
 - **Unit advancement** has basic functionality
-  
-## Missing features
-- Injury table 
-- Undead special rules implementation
 - Rouiters special rules implementation
+- Injury table
+
+## Missing features
+- Undead special rules implementation
 - Arcane conclave special rules implementation
 - Labor, material cost tracking in a non-intrusive\cluttering way 
 - Tracking band rating & XP
