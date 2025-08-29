@@ -5643,7 +5643,7 @@ casting Spells.</description>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Items" id="ea32-d601-4d56-5720" hidden="false" sortIndex="1" collapsible="true">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Mages Puch" hidden="false" id="a369-b2f5-49ea-318e" sortIndex="0">
+                    <selectionEntry type="upgrade" import="true" name="Mage&apos;s Pouch" hidden="false" id="a369-b2f5-49ea-318e" sortIndex="0">
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Ingredient" id="54b1-2e0b-7c11-9749" hidden="false">
                           <selectionEntries>
@@ -5885,6 +5885,16 @@ casting Spells.</description>
                               </infoLinks>
                               <costs>
                                 <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Blessed Water" hidden="false" id="6022-afcf-2480-c193">
+                              <infoLinks>
+                                <infoLink name="Blessed Water" id="1f9e-16f7-a907-5bb1" hidden="false" type="profile" targetId="4343-8056-60fd-9ee5"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="4"/>
+                                <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
                               </costs>
                             </selectionEntry>
                           </selectionEntries>
@@ -18781,6 +18791,15 @@ Add 5 Pennies to your Band’s Pension.</characteristic>
 
 
 Add 5 Pennies to your Band’s Pension.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blessed Water" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="4343-8056-60fd-9ee5">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Common</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">-</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">Single use</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Ingredient</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
