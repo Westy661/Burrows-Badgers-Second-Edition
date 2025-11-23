@@ -925,7 +925,6 @@ casting Spells.</description>
         <categoryLink hidden="false" id="d7e4-ff54-4e3a-946a" name="Small Beast (30mm Base)" primary="true" targetId="6803-87ba-83c4-bd4b"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink hidden="false" id="221d-069b-cd99-473e" name="Feint" targetId="f011" type="rule"/>
         <infoLink name="Strong" id="3186-d6c1-3f84-d4a7" hidden="false" type="profile" targetId="615c-4533-9772-a971">
           <modifiers>
             <modifier type="set" value="1" field="annotation"/>
@@ -2352,7 +2351,11 @@ casting Spells.</description>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink hidden="false" id="cb27-1721-a3f8-536d" import="true" name="Attack Grub" targetId="8f91-2d4c-9e53-1b2a" type="selectionEntry"/>
+    <entryLink hidden="false" id="cb27-1721-a3f8-536d" import="true" name="Attack Grub" targetId="8f91-2d4c-9e53-1b2a" type="selectionEntry">
+      <infoLinks>
+        <infoLink name="Unarmed Fighter" id="ca1d-4c00-4d9b-a84e" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
+      </infoLinks>
+    </entryLink>
     <entryLink hidden="false" id="7c90-1641-f79f-14ac" import="true" name="Adder" targetId="b3cd-42e7-4e88-bb67" type="selectionEntry"/>
     <entryLink hidden="false" id="7572-c873-7a93-67cf" import="true" name="Bird (Medium)" targetId="a72b-4926-4d3a-8ac3" type="selectionEntry"/>
     <entryLink hidden="false" id="acff-95a7-68a2-5965" import="true" name="Bird (Small)" targetId="6f71-4de0-c658-5910" type="selectionEntry"/>
@@ -3828,7 +3831,7 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Bow" hidden="false" id="f2fa-d1d5-ed63-11ef" collective="true" sortIndex="5">
                   <infoLinks>
-                    <infoLink name="War Bow" id="1c11-0b92-be85-f6fe" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
+                    <infoLink name="Bow" id="4436-37ed-580d-a8d2" hidden="false" type="profile" targetId="3772-72bd-81b3-1e70"/>
                   </infoLinks>
                   <costs>
                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
