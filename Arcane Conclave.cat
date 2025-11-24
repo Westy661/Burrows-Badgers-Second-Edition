@@ -46,6 +46,8 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="b603-07f7-46fd-5adb"/>
+        <selectionEntry type="upgrade" import="true" name="Materials" hidden="false" id="a498-4594-6e92-3c0f"/>
+        <selectionEntry type="upgrade" import="true" name="Labor" hidden="false" id="2d69-9715-741b-55fd"/>
       </selectionEntries>
     </entryLink>
   </entryLinks>

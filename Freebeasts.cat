@@ -14,7 +14,7 @@
         <categoryLink name="Den Upgrade" hidden="false" id="dd99-ff6f-0264-2db7" targetId="583b-2cca-fae6-9a19"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="decrement" value="25" field="6752-9e0b-692e-d5b9" scope="roster"/>
+        <modifier type="decrement" value="25" field="6752-9e0b-692e-d5b9" scope="roster" affects="recursive"/>
       </modifiers>
     </forceEntry>
   </forceEntries>
@@ -39,6 +39,8 @@
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="3b02-9b80-4c3a-35e4"/>
+        <selectionEntry type="upgrade" import="true" name="Labor" hidden="false" id="cad6-8e57-9182-0c10"/>
+        <selectionEntry type="upgrade" import="true" name="Materials" hidden="false" id="ee12-f44a-865d-d124"/>
       </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>

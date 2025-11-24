@@ -63,6 +63,8 @@
     <entryLink import="true" name="Allegiance: Kindred" hidden="false" id="6933-3253-81fd-0be6" targetId="a7fe-119d-b9b3-abe1" type="selectionEntry" defaultAmount="1">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="44e3-db1e-4901-8353"/>
+        <selectionEntry type="upgrade" import="true" name="Materials" hidden="false" id="fe30-a62d-636b-22ad"/>
+        <selectionEntry type="upgrade" import="true" name="Labor" hidden="false" id="bb41-f000-1e18-d75c"/>
       </selectionEntries>
     </entryLink>
   </entryLinks>
