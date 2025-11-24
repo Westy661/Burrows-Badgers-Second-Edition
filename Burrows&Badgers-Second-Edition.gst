@@ -3735,7 +3735,7 @@ casting Spells.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipment" id="ac1f-3ccf-94c7-813e" hidden="false" sortIndex="3" collapsible="true">
+        <selectionEntryGroup name="Equipment" id="ac1f-3ccf-94c7-813e" hidden="false" sortIndex="4" collapsible="true">
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon Slots" id="a8fe-e715-a6b2-2fa5" hidden="false" collective="true" collapsible="true" sortIndex="1">
               <selectionEntries>
@@ -15363,7 +15363,7 @@ casting Spells.</description>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Campaign Injuries" id="2f3d-5f7e-6cfe-714f" hidden="true" collapsible="true" sortIndex="50">
+        <selectionEntryGroup name="Campaign - Injuries" id="2f3d-5f7e-6cfe-714f" hidden="true" collapsible="true" sortIndex="50">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0846-fe54-dff6-1454"/>
           </constraints>
@@ -16422,6 +16422,754 @@ casting Spells.</description>
               </conditionGroups>
             </modifier>
           </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Campaign - Skill upgrades" id="00f4-6040-9d74-cbba" hidden="true" collapsible="true" sortIndex="49">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ba78-188d-0cc4-bd67"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Fighting Skills" id="3657-e761-916b-2018" hidden="false" sortIndex="1">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Killing Blow" hidden="false" id="cc16-48fd-6518-2c4e" sortIndex="1">
+                  <infoLinks>
+                    <infoLink name="Killing Blow" id="0cff-889e-e92b-1d58" hidden="false" targetId="f001" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10f8-472a-b6ea-8d9a"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="d463-9081-d9e6-ba00" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Melee Master" id="58f2-b01c-01f0-fe29" hidden="false" targetId="f002" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06b7-a805-cedc-42f7"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="2c2f-b3ed-bde7-3501" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Parry" id="2eb7-2b75-54eb-6fa0" hidden="false" targetId="f003" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7445-2eb9-58a3-46ec"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="c911-2dc4-0026-7141" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Born in Harness" id="a26f-9066-c2e2-f5f4" hidden="false" targetId="f004" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0c6-981f-23df-85f3"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="7b01-d89e-be82-bbdc" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Furious Charge" id="60b6-fdfa-7e62-1bf9" hidden="false" targetId="f005" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cadc-6445-1253-49a5"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="2f9f-4689-82dc-a926" sortIndex="6">
+                  <infoLinks>
+                    <infoLink name="Witch Slayer" id="f826-65b6-3481-0332" hidden="false" targetId="f006" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49b2-43b5-5602-6ad8"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="5ae3-d7a0-086f-1bf0" sortIndex="7">
+                  <infoLinks>
+                    <infoLink name="Close Quarters" id="b3ec-68f5-1a09-3c68" hidden="false" targetId="f007" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd91-b2e6-f03b-42ea"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="da94-b881-71c8-92a9" sortIndex="8">
+                  <infoLinks>
+                    <infoLink name="Weapon skill" id="d914-51d9-b651-9186" hidden="false" targetId="f008" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c6f-7a9f-24b8-379d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="2e8e-2e92-6930-fa53" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="Shield Master" id="b2da-93ec-d054-dd9e" hidden="false" targetId="f009" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="600d-b738-8316-bbef"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="9fb1-20fc-8af6-6458" sortIndex="10">
+                  <infoLinks>
+                    <infoLink name="Lance Strike" id="f381-87f8-73ec-2898" hidden="false" targetId="f010" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58dd-f59a-f178-8e93"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="b88b-d10d-da4a-94cd" sortIndex="11">
+                  <infoLinks>
+                    <infoLink name="Feint" id="871a-a487-d032-ce83" hidden="false" targetId="f011" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a89-fd1f-606c-47f2"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="0569-6812-039f-cd6b" sortIndex="12">
+                  <infoLinks>
+                    <infoLink name="Dual-Wielder" id="0d26-c217-2450-31c0" hidden="false" targetId="f012" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0179-1687-3ef0-636e"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="d787-f211-2aa4-5ee9" sortIndex="13">
+                  <infoLinks>
+                    <infoLink name="Zweihander" id="58c6-e024-ca1d-1e38" hidden="false" targetId="f013" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe55-d331-8fed-e6e4"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="0767-91e0-f183-0568" sortIndex="14">
+                  <infoLinks>
+                    <infoLink name="Shield Bash" id="6175-34d9-501b-ccba" hidden="false" targetId="f014" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="931c-ab2b-f43f-acc9"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="e838-b4c4-8e83-43df" sortIndex="15">
+                  <infoLinks>
+                    <infoLink name="Focused Strike" id="28d0-cbc6-d98f-c182" hidden="false" targetId="f015" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b15-1c30-cd6f-6b33"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="ad49-7d23-7e7b-df92" sortIndex="16">
+                  <infoLinks>
+                    <infoLink name="All-out Attack" id="2974-9b20-14b3-c3c5" hidden="false" targetId="f016" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c30-b1fe-ab35-89fa"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="5d67-2db6-bfda-5fdc" sortIndex="17">
+                  <infoLinks>
+                    <infoLink name="Unarmed Fighter" id="0fbb-9620-8d7d-5346" hidden="false" targetId="9918-7b1a-1886-7701" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5b1-a1a1-90a5-1ca5"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Shooting Skills" id="d06d-8492-bca5-ce5d" hidden="false" sortIndex="2">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Expert Shot" hidden="false" id="08bf-8b7e-66be-775f" sortIndex="1">
+                  <infoLinks>
+                    <infoLink name="Expert Shot" id="5f8e-ed92-6d7e-0b27" hidden="false" targetId="a88c-4033-5756-4c15" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbc6-358a-68f9-a3a3"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="fe10-d1f4-d27b-5ce6" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Fast Shot" id="f8d3-cdcd-e7e0-a549" hidden="false" targetId="708b-f72d-03a1-fd88" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82ed-28f7-f85e-b251"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="904a-4be4-4715-1439" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Lethal Volley" id="1263-be95-3608-1804" hidden="false" targetId="1f17-a483-b1c7-e736" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c75-629b-be04-a6ae"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="3a6a-91bd-8477-966c" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Eagle Eyes" id="5faa-091e-c516-bd83" hidden="false" targetId="3a47-1f29-161d-496a" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77cc-6c33-abe4-8e83"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="a952-ebb6-2302-bf3f" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Targeteer" id="39ed-b15b-68d0-78f9" hidden="false" targetId="3896-3009-6981-b68b" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="770a-7d2a-bb5f-4474"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="bf5d-353d-2dea-7ec2" sortIndex="6">
+                  <infoLinks>
+                    <infoLink name="Rock Steady" id="119f-1299-d8f7-f132" hidden="false" targetId="f102-ed66-6bd9-9246" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3d1-c439-8175-d96a"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="3caf-199c-5091-0e44" sortIndex="7">
+                  <infoLinks>
+                    <infoLink name="Wounding Shot" id="75db-33a8-e12a-9e50" hidden="false" targetId="7089-5048-a8a9-7eb4" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbb3-19d5-8cb9-8f36"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="006b-2f1b-b3c4-dde4" sortIndex="8">
+                  <infoLinks>
+                    <infoLink name="Crippling Shot" id="6f33-ce85-0ce8-2385" hidden="false" targetId="b841-e9c2-1c6c-9331" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c4d-791f-8fbc-43f0"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="3643-5a95-549c-8087" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="Kill Shot" id="c8f3-1c62-9b3d-4d7d" hidden="false" targetId="8fac-c2f6-be9f-818d" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98a0-33c0-89f8-11b4"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="c11f-ad6e-85da-2526" sortIndex="10">
+                  <infoLinks>
+                    <infoLink name="Spot the weak point" id="beda-1052-e5c1-8860" hidden="false" targetId="5434-64e8-0b03-ec7e" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e82-d19a-86d4-a641"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="1ace-686f-f99d-7775" sortIndex="11">
+                  <infoLinks>
+                    <infoLink name="Pistolier" id="b643-65e2-dcf5-b75f" hidden="false" targetId="d394-b02d-d2fa-4526" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c7f-4a04-7906-6ac1"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Cunning Skills" id="ca4c-73b8-079e-2c06" hidden="false" sortIndex="3">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="f8ed-2350-d5ea-14b7" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Apothecary" id="cad8-4672-86f4-d326" hidden="false" targetId="aa5b-f9c7-7ae3-31bb" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63d7-425e-8f13-3153"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="06fe-4d30-ed18-a238" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Bloodhound" id="1a6f-51ee-617a-c1c1" hidden="false" targetId="54cb-f660-1c7f-53c1" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a33b-35f8-4a7e-56a1"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="f177-deea-72fd-a9f3" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Hedge Magic" id="35b0-02f8-28ef-cddd" hidden="false" targetId="80a9-d54b-a7ac-5b24" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99f0-34b5-0a25-14ce"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="0a8d-f28b-fa24-b478" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Fearless" id="d8e7-15c0-3133-f2ff" hidden="false" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9747-3f41-8eae-a05e"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="b8bc-6421-6319-e7e3" sortIndex="6">
+                  <infoLinks>
+                    <infoLink name="Ambusher" id="d309-4bd3-2f42-ba1d" hidden="false" targetId="e4ad-facf-dde9-da03" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d8e-8a21-488d-63a8"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="0802-ec21-7006-a826" sortIndex="7">
+                  <infoLinks>
+                    <infoLink name="Adept Ambusher" id="9ab9-b05c-24ec-f2a8" hidden="false" targetId="dba1-67bc-834c-fee1" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1526-3e07-5de6-0085"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="860f-0749-14b6-5da1" sortIndex="8">
+                  <infoLinks>
+                    <infoLink name="Deadly Ambusher" id="8e71-1b83-f3ed-2dfd" hidden="false" targetId="cf81-1186-7173-6887" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a44-12ec-5628-32ed"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="1e9d-50bd-9538-1a53" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="Opportunist" id="fd2f-1c96-c2c0-3cd7" hidden="false" targetId="4801-ece2-7b94-eb1b" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2365-34ee-9d5d-efba"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="eeca-ccb7-4a95-2e1f" sortIndex="10">
+                  <infoLinks>
+                    <infoLink name="The Lady&apos;s Favour" id="f2e2-ea40-1e85-da9d" hidden="false" targetId="b262-b75e-75ae-d21e" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="058e-37b6-e9e7-463a"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="f881-3b15-fed8-9cd4" sortIndex="11">
+                  <infoLinks>
+                    <infoLink name="Critter Boss" id="da47-0c41-2da3-75fd" hidden="false" targetId="0655-df80-54e8-a4b4" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3361-5e20-d32d-2819"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="ae8f-6a53-0d78-7b4a" sortIndex="12">
+                  <infoLinks>
+                    <infoLink name="Witch Smeller" id="63a2-7d77-d9b1-61e0" hidden="false" targetId="ed63-daa0-2ea0-7c4b" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6ee-92b8-d33d-6d55"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="b760-54db-9b1f-c190" sortIndex="13">
+                  <infoLinks>
+                    <infoLink name="Lucky" id="7341-483e-76cd-e01f" hidden="false" targetId="ffc4-8272-8bbc-f92c" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c298-62f0-76d1-3fcd"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="d7e2-daaf-9f37-10a9" sortIndex="14">
+                  <infoLinks>
+                    <infoLink name="Resist Magic" id="c74e-a086-e7ec-b285" hidden="false" targetId="4d7a-0245-ed1b-761b" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7654-d42b-447f-738c"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="0d77-a1d6-fbff-8fdf" sortIndex="15">
+                  <infoLinks>
+                    <infoLink name="Spell Breaker" id="32a9-0b67-cf22-1d80" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ba1-0bc7-d1b0-d600"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="f3a5-4a2c-b744-19ee" sortIndex="16">
+                  <infoLinks>
+                    <infoLink name="Spell Eater" id="ad6b-660d-d168-9b6e" hidden="false" targetId="f9da-bf41-b3a8-62d4" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eb3-5f9a-0ecf-5929"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="f4aa-06f2-82de-ebe6" sortIndex="17">
+                  <infoLinks>
+                    <infoLink name="Battlemage" id="fe31-2a46-2896-2334" hidden="false" targetId="7dd9-fe26-1652-02c7" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a418-a091-6e08-3815"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="c8d0-cf9e-e298-1d0c" sortIndex="18">
+                  <infoLinks>
+                    <infoLink name="Healing Aura" id="15d3-ee64-7aa6-cd48" hidden="false" targetId="6a89-9387-8ce4-4439" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56ff-0b1f-d971-a557"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="bcd8-bfad-1dd2-d5db" sortIndex="19">
+                  <infoLinks>
+                    <infoLink name="Far Reacher" id="49ef-2c7c-87e7-24d6" hidden="false" targetId="65fb-e6b9-d598-38e3" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="132e-e1f8-2ac1-049d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="38f7-132b-d522-b915" sortIndex="20">
+                  <infoLinks>
+                    <infoLink name="Aether Sight" id="91c6-2e2d-f189-6c42" hidden="false" targetId="57c4-b137-abcc-da67" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f446-7f7c-902f-1d3e"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="60be-f439-4c72-c597" sortIndex="21">
+                  <infoLinks>
+                    <infoLink name="Herbal Brewer" id="bb11-ea98-7056-5780" hidden="false" targetId="9903-ecf8-caea-dd3b" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9835-7bf2-6221-f2a0"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="b3ba-41ac-23da-1af8" sortIndex="22">
+                  <infoLinks>
+                    <infoLink name="Brew Master" id="76e8-f980-0863-b9cf" hidden="false" targetId="f7fa-bddd-1c27-43b7" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e20a-dc3a-2db6-4ca1"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="12cc-4bfa-dc8e-ab11" sortIndex="23">
+                  <infoLinks>
+                    <infoLink name="Taunt" id="a4ac-0fcf-feeb-b3ad" hidden="false" targetId="b7f1-4c22-4a93-b39a" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="494c-e8f7-80d3-9c95"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="d2df-8828-ccf2-e91b" sortIndex="24">
+                  <infoLinks>
+                    <infoLink name="Beguile" id="0d53-5930-1b4a-ed32" hidden="false" targetId="c2e3-4c45-4f81-a9cd" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1751-9960-e82d-57ec"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="aec6-dccd-9876-f8bc" sortIndex="1">
+                  <infoLinks>
+                    <infoLink name="Gifted" id="d012-e047-6184-2ca4" hidden="false" targetId="7c08-0206-fa8d-132e" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="065a-e9ff-94fa-8495"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Strenght Skills" id="4131-9b76-d724-3a4c" hidden="false" sortIndex="4">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="bea4-5ea9-b370-6a8c" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83c9-9c90-90ba-66d8"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="02f6-2676-3112-76d8" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Tough" id="efd9-6b57-efbf-e8fd" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
+                      <modifiers>
+                        <modifier type="set" value="1" field="annotation"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b37c-d809-523b-6d16"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="fcae-71c2-06d1-3a8a" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Weak (X)" id="1759-787e-cb49-dcfe" hidden="false" targetId="a4d1-4fb7-4a5b-b7e3" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a53-3d3e-a223-6250"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Delicate" hidden="false" id="43cb-8093-303a-0c28" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Delicate (X)" id="0ca7-54d2-2149-9669" hidden="false" targetId="8d6f-c28f-25a2-9ed5" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66ee-4521-c618-3060"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="09a9-453d-bfc0-eeb8" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Born Survivor" id="fb26-b365-f13c-a972" hidden="false" targetId="d1e6-45f2-4b9f-91d7" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e19-b441-860f-5422"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="5125-fbfc-5a76-17f7" sortIndex="6">
+                  <infoLinks>
+                    <infoLink name="Beast of Burden" id="4804-de2a-2c76-fd9d" hidden="false" targetId="f3b1-4c72-4c4d-a8c3" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b701-9469-a424-a103"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="7043-d274-3cc2-d174" sortIndex="7">
+                  <infoLinks>
+                    <infoLink name="Fearsome" id="3dce-7ac3-5af8-41b9" hidden="false" targetId="e8a4-4a51-4d93-9a8d" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1b0-1b6c-8dc9-b133"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="9dca-0460-0dde-f2df" sortIndex="8">
+                  <infoLinks>
+                    <infoLink name="Berserker" id="83b0-b62c-f3f7-969a" hidden="false" targetId="a2d3-4f76-4b9e-bc31" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71e2-71e6-e101-03bf"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="a91a-7fc2-91be-fdeb" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="Enduring" id="9bfc-52ac-f9e6-1b8c" hidden="false" targetId="d4c6-4a8b-4f87-92e3" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a730-76e1-69fb-6360"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="1f36-09e4-cf55-e283" sortIndex="10">
+                  <infoLinks>
+                    <infoLink name="Stunning Blow" id="530f-eac4-b548-b947" hidden="false" targetId="f1a7-4c62-4c18-9f45" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c133-2100-d665-7f0e"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="1e43-576a-a8f8-aca8" sortIndex="11">
+                  <infoLinks>
+                    <infoLink name="Knockout Blow" id="d809-500a-4931-870f" hidden="false" targetId="a6c2-4f8e-4b6c-9d53" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4239-4539-a1dd-5aab"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="d325-fed5-cc82-0f6d" sortIndex="12">
+                  <infoLinks>
+                    <infoLink name="Paladin" id="1c7f-bcf0-04a0-70d7" hidden="false" targetId="b7d4-4c1f-4cb7-a78a" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6022-a2a1-4966-9a10"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="1473-c50a-bdd1-a725" sortIndex="13">
+                  <infoLinks>
+                    <infoLink name="Pushback" id="a296-8a12-97bd-b70d" hidden="false" targetId="c8e1-4a9c-4b3a-9fd8" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f306-c1e4-7bfd-33c7"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="8433-1e54-4a9b-f55c" sortIndex="14">
+                  <infoLinks>
+                    <infoLink name="Martial Code" id="99b6-1ddc-51d6-0ea5" hidden="false" targetId="e3b2-4d8a-4c91-a5de" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d752-2502-d53b-b6bb"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Movement Skills" id="5e73-d26d-5665-4877" hidden="false" sortIndex="5">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="fa91-f228-3b43-598d" sortIndex="7">
+                  <infoLinks>
+                    <infoLink name="Dodge" id="25eb-072a-f0b7-5162" hidden="false" targetId="f5c1-4d93-4a1e-a89c" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c25a-5c43-1d79-a1b2"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="e899-8927-8878-5cdc" sortIndex="8">
+                  <infoLinks>
+                    <infoLink name="Light Feet" id="5583-ae27-a661-07cc" hidden="false" targetId="b8d2-4e5a-4f7e-9d41" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccd6-2b47-c46b-35b8"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="ecd5-4131-ae5c-dfc3" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="Burst of Speed" id="f695-598c-dd64-057e" hidden="false" targetId="a9f4-4b2b-4f8d-8c3a" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbaf-9f46-5957-da51"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="8674-9cd6-cd5b-1aa3" sortIndex="10">
+                  <infoLinks>
+                    <infoLink name="Strider" id="aba1-dc2b-3dea-69ce" hidden="false" targetId="c1d3-4f9b-4e0e-a1b2" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d40f-e298-3366-c1f1"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="30c0-52cc-33cb-82dd" sortIndex="1">
+                  <infoLinks>
+                    <infoLink name="Freeze" id="95da-d3db-367f-416b" hidden="false" targetId="e4a1-4d2b-4c87-bf92" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f6c-ffca-16c8-190d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Climber" hidden="false" id="43b1-4b5b-8b3b-edf0" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Climber" id="bf38-ff8c-d87a-80ff" hidden="false" targetId="ddc0-d1a5-16dc-1e41" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b7d-03a0-6523-6c45"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="6cb8-85bc-045f-0adc" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Leaper" id="8843-6651-9b6b-5a4a" hidden="false" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e657-9108-3edc-c571"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="131c-f351-c65a-188d" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Slippery" id="e5f7-acac-a4a4-737e" hidden="false" targetId="d6e9-4f3b-4f83-a5d1" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34c5-02f6-fca8-b115"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="81fe-24c7-a39c-12d3" sortIndex="1">
+                  <infoLinks>
+                    <infoLink name="Swim" id="6a93-a566-3030-05a3" hidden="false" targetId="8606-d670-14f9-bff9" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83e7-95f8-d7da-7a26"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec6e-e4f2-355c-e97d"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Innate Skills" id="1d3a-988c-03cb-2140" hidden="false" sortIndex="6">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="fbe8-e004-ce5e-335f" sortIndex="6">
+                  <infoLinks>
+                    <infoLink name="Natural Hunter" id="0b42-736d-9afc-1c43" hidden="false" targetId="5cae-3547-fc1c-3db4" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b05-6b4c-0093-cc40"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Flight" hidden="false" id="3ee0-cfc7-8413-bc0d" sortIndex="4">
+                  <infoLinks>
+                    <infoLink name="Flight" id="05d9-3e80-4f8e-d82d" hidden="false" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ca5-4c4a-ff5c-e6fc"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="b2c0-d9c9-79c6-4aa2" sortIndex="5">
+                  <infoLinks>
+                    <infoLink name="Tunneller" id="f78b-c3d2-0622-8269" hidden="false" targetId="f2a4-4e3d-4a8e-8f91" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97f7-f521-6796-73b1"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Slow" hidden="false" id="5cc6-427e-dc32-7bd2" sortIndex="9">
+                  <infoLinks>
+                    <infoLink name="Slow" id="f324-fad1-bfa9-0fdb" hidden="false" targetId="a7d3-4f6c-4b3f-8e2a" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f948-9f13-f21c-3b76"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spines" hidden="false" id="d41e-51ef-bff5-15e2" sortIndex="10">
+                  <infoLinks>
+                    <infoLink name="Spines" id="e3c1-fc4a-6052-78da" hidden="false" targetId="3055-f3a6-6324-b43b" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68cc-6e78-34c0-ba05"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Short-Sighted" hidden="false" id="e0c4-4653-60c0-e569" sortIndex="8">
+                  <infoLinks>
+                    <infoLink name="Short-Sighted" id="7f99-5eab-aa4f-8065" hidden="false" targetId="c6f1-4b3a-4d4c-a9d3" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b89-568f-30e1-fca9"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Fighting Mount" hidden="false" id="d3a0-0dcf-626c-6136" sortIndex="3">
+                  <infoLinks>
+                    <infoLink name="Fighting Mount" id="02d3-483b-2e3a-0bb4" hidden="false" targetId="02f4-b317-c0af-0391" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c7d-c833-2a1a-5215"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="598e-4578-a098-72d1" sortIndex="7">
+                  <infoLinks>
+                    <infoLink name="Otherwordly" id="2f7c-b7b5-123f-fa24" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e26b-d897-9e5e-f284"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="6a70-d4a0-22c3-bdec" sortIndex="11">
+                  <infoLinks>
+                    <infoLink name="Unreliable" id="4a57-1886-b10f-a47b" hidden="false" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7419-2e1f-114b-0930"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Armless" hidden="false" id="313e-9065-2ddc-8e80" sortIndex="1">
+                  <infoLinks>
+                    <infoLink name="Armless" id="dccd-b906-8977-16c4" hidden="false" targetId="ea4e-f80f-1392-23b9" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6941-0bcf-c34f-8c81"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Darksense" hidden="false" id="2955-7027-8619-2b2f" sortIndex="2">
+                  <infoLinks>
+                    <infoLink name="Darksense" id="e4ec-09df-6922-4743" hidden="false" targetId="3c47-c406-7b16-7d68" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="477d-9a3d-d697-6397"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Uncanny" hidden="false" id="941a-c110-25c0-b236" sortIndex="12">
+                  <infoLinks>
+                    <infoLink name="Uncanny" id="4f3a-ba3c-942c-1342" hidden="false" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21b5-2e8c-43d4-e673"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="d31f-8f15-f8c3-c9cc" sortIndex="13">
+                  <infoLinks>
+                    <infoLink name="Poisonous" id="a38e-30f3-79a1-2d47" hidden="false" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b524-8656-34e8-873d"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
