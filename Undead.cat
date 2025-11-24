@@ -44,6 +44,9 @@
       <categoryLinks>
         <categoryLink name="Allegiance" hidden="false" id="34b3-fed5-44d6-8794" targetId="1bc5-0b8a-1258-293f" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="e139-8cc1-2cd8-b550"/>
+      </selectionEntries>
     </entryLink>
   </entryLinks>
   <rules>

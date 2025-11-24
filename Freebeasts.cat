@@ -37,6 +37,9 @@
         <infoLink name="Magical Archetypes" id="8976-8ef2-19bd-ac11" hidden="false" type="rule" targetId="f790-b03c-30c1-169e"/>
         <infoLink name="Look After Yourself" id="d5c6-715b-2986-a1c8" hidden="false" type="rule" targetId="c66b-8b4b-de4a-ab9e"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="3b02-9b80-4c3a-35e4"/>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>

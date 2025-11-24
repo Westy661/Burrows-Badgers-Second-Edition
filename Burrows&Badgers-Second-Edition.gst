@@ -16448,6 +16448,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10f8-472a-b6ea-8d9a"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="d463-9081-d9e6-ba00" sortIndex="2">
                   <infoLinks>
@@ -16456,6 +16459,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06b7-a805-cedc-42f7"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="2c2f-b3ed-bde7-3501" sortIndex="3">
                   <infoLinks>
@@ -16464,6 +16470,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7445-2eb9-58a3-46ec"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="c911-2dc4-0026-7141" sortIndex="4">
                   <infoLinks>
@@ -16472,6 +16481,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0c6-981f-23df-85f3"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="7b01-d89e-be82-bbdc" sortIndex="5">
                   <infoLinks>
@@ -16480,6 +16492,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cadc-6445-1253-49a5"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="2f9f-4689-82dc-a926" sortIndex="6">
                   <infoLinks>
@@ -16488,6 +16503,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49b2-43b5-5602-6ad8"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="5ae3-d7a0-086f-1bf0" sortIndex="7">
                   <infoLinks>
@@ -16496,6 +16514,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd91-b2e6-f03b-42ea"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="da94-b881-71c8-92a9" sortIndex="8">
                   <infoLinks>
@@ -16504,6 +16525,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c6f-7a9f-24b8-379d"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="2e8e-2e92-6930-fa53" sortIndex="9">
                   <infoLinks>
@@ -16512,6 +16536,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="600d-b738-8316-bbef"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="9fb1-20fc-8af6-6458" sortIndex="10">
                   <infoLinks>
@@ -16520,6 +16547,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58dd-f59a-f178-8e93"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="b88b-d10d-da4a-94cd" sortIndex="11">
                   <infoLinks>
@@ -16528,6 +16558,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a89-fd1f-606c-47f2"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="0569-6812-039f-cd6b" sortIndex="12">
                   <infoLinks>
@@ -16536,6 +16569,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0179-1687-3ef0-636e"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="d787-f211-2aa4-5ee9" sortIndex="13">
                   <infoLinks>
@@ -16544,6 +16580,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe55-d331-8fed-e6e4"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="0767-91e0-f183-0568" sortIndex="14">
                   <infoLinks>
@@ -16552,6 +16591,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="931c-ab2b-f43f-acc9"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="e838-b4c4-8e83-43df" sortIndex="15">
                   <infoLinks>
@@ -16560,6 +16602,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b15-1c30-cd6f-6b33"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="ad49-7d23-7e7b-df92" sortIndex="16">
                   <infoLinks>
@@ -16568,6 +16613,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c30-b1fe-ab35-89fa"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="5d67-2db6-bfda-5fdc" sortIndex="17">
                   <infoLinks>
@@ -16576,6 +16624,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5b1-a1a1-90a5-1ca5"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -16588,6 +16639,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbc6-358a-68f9-a3a3"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="fe10-d1f4-d27b-5ce6" sortIndex="2">
                   <infoLinks>
@@ -16596,6 +16650,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82ed-28f7-f85e-b251"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="904a-4be4-4715-1439" sortIndex="3">
                   <infoLinks>
@@ -16604,6 +16661,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c75-629b-be04-a6ae"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="3a6a-91bd-8477-966c" sortIndex="4">
                   <infoLinks>
@@ -16612,6 +16672,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77cc-6c33-abe4-8e83"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="a952-ebb6-2302-bf3f" sortIndex="5">
                   <infoLinks>
@@ -16620,6 +16683,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="770a-7d2a-bb5f-4474"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="bf5d-353d-2dea-7ec2" sortIndex="6">
                   <infoLinks>
@@ -16628,6 +16694,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3d1-c439-8175-d96a"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="3caf-199c-5091-0e44" sortIndex="7">
                   <infoLinks>
@@ -16636,6 +16705,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbb3-19d5-8cb9-8f36"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="006b-2f1b-b3c4-dde4" sortIndex="8">
                   <infoLinks>
@@ -16644,6 +16716,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c4d-791f-8fbc-43f0"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="3643-5a95-549c-8087" sortIndex="9">
                   <infoLinks>
@@ -16652,6 +16727,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98a0-33c0-89f8-11b4"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="c11f-ad6e-85da-2526" sortIndex="10">
                   <infoLinks>
@@ -16660,6 +16738,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e82-d19a-86d4-a641"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="1ace-686f-f99d-7775" sortIndex="11">
                   <infoLinks>
@@ -16668,6 +16749,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c7f-4a04-7906-6ac1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -16680,6 +16764,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63d7-425e-8f13-3153"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="06fe-4d30-ed18-a238" sortIndex="3">
                   <infoLinks>
@@ -16688,6 +16775,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a33b-35f8-4a7e-56a1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="f177-deea-72fd-a9f3" sortIndex="5">
                   <infoLinks>
@@ -16696,6 +16786,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99f0-34b5-0a25-14ce"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="0a8d-f28b-fa24-b478" sortIndex="2">
                   <infoLinks>
@@ -16704,6 +16797,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9747-3f41-8eae-a05e"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="b8bc-6421-6319-e7e3" sortIndex="6">
                   <infoLinks>
@@ -16712,6 +16808,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d8e-8a21-488d-63a8"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="0802-ec21-7006-a826" sortIndex="7">
                   <infoLinks>
@@ -16720,6 +16819,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1526-3e07-5de6-0085"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="860f-0749-14b6-5da1" sortIndex="8">
                   <infoLinks>
@@ -16728,6 +16830,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a44-12ec-5628-32ed"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="1e9d-50bd-9538-1a53" sortIndex="9">
                   <infoLinks>
@@ -16736,6 +16841,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2365-34ee-9d5d-efba"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="eeca-ccb7-4a95-2e1f" sortIndex="10">
                   <infoLinks>
@@ -16744,6 +16852,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="058e-37b6-e9e7-463a"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="f881-3b15-fed8-9cd4" sortIndex="11">
                   <infoLinks>
@@ -16752,6 +16863,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3361-5e20-d32d-2819"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="ae8f-6a53-0d78-7b4a" sortIndex="12">
                   <infoLinks>
@@ -16760,6 +16874,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6ee-92b8-d33d-6d55"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="b760-54db-9b1f-c190" sortIndex="13">
                   <infoLinks>
@@ -16768,6 +16885,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c298-62f0-76d1-3fcd"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="d7e2-daaf-9f37-10a9" sortIndex="14">
                   <infoLinks>
@@ -16776,6 +16896,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7654-d42b-447f-738c"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="0d77-a1d6-fbff-8fdf" sortIndex="15">
                   <infoLinks>
@@ -16784,6 +16907,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ba1-0bc7-d1b0-d600"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="f3a5-4a2c-b744-19ee" sortIndex="16">
                   <infoLinks>
@@ -16792,6 +16918,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eb3-5f9a-0ecf-5929"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="f4aa-06f2-82de-ebe6" sortIndex="17">
                   <infoLinks>
@@ -16800,6 +16929,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a418-a091-6e08-3815"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="c8d0-cf9e-e298-1d0c" sortIndex="18">
                   <infoLinks>
@@ -16808,6 +16940,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56ff-0b1f-d971-a557"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="bcd8-bfad-1dd2-d5db" sortIndex="19">
                   <infoLinks>
@@ -16816,6 +16951,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="132e-e1f8-2ac1-049d"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="38f7-132b-d522-b915" sortIndex="20">
                   <infoLinks>
@@ -16824,6 +16962,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f446-7f7c-902f-1d3e"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="60be-f439-4c72-c597" sortIndex="21">
                   <infoLinks>
@@ -16832,6 +16973,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9835-7bf2-6221-f2a0"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="b3ba-41ac-23da-1af8" sortIndex="22">
                   <infoLinks>
@@ -16840,6 +16984,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e20a-dc3a-2db6-4ca1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="12cc-4bfa-dc8e-ab11" sortIndex="23">
                   <infoLinks>
@@ -16848,6 +16995,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="494c-e8f7-80d3-9c95"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="d2df-8828-ccf2-e91b" sortIndex="24">
                   <infoLinks>
@@ -16856,6 +17006,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1751-9960-e82d-57ec"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="aec6-dccd-9876-f8bc" sortIndex="1">
                   <infoLinks>
@@ -16864,6 +17017,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="065a-e9ff-94fa-8495"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -16873,6 +17029,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83c9-9c90-90ba-66d8"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="02f6-2676-3112-76d8" sortIndex="2">
                   <infoLinks>
@@ -16885,6 +17044,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b37c-d809-523b-6d16"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="fcae-71c2-06d1-3a8a" sortIndex="3">
                   <infoLinks>
@@ -16893,6 +17055,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a53-3d3e-a223-6250"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Delicate" hidden="false" id="43cb-8093-303a-0c28" sortIndex="4">
                   <infoLinks>
@@ -16901,6 +17066,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66ee-4521-c618-3060"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="09a9-453d-bfc0-eeb8" sortIndex="5">
                   <infoLinks>
@@ -16909,6 +17077,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e19-b441-860f-5422"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="5125-fbfc-5a76-17f7" sortIndex="6">
                   <infoLinks>
@@ -16917,6 +17088,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b701-9469-a424-a103"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="7043-d274-3cc2-d174" sortIndex="7">
                   <infoLinks>
@@ -16925,6 +17099,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1b0-1b6c-8dc9-b133"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="9dca-0460-0dde-f2df" sortIndex="8">
                   <infoLinks>
@@ -16933,6 +17110,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71e2-71e6-e101-03bf"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="a91a-7fc2-91be-fdeb" sortIndex="9">
                   <infoLinks>
@@ -16941,6 +17121,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a730-76e1-69fb-6360"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="1f36-09e4-cf55-e283" sortIndex="10">
                   <infoLinks>
@@ -16949,6 +17132,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c133-2100-d665-7f0e"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="1e43-576a-a8f8-aca8" sortIndex="11">
                   <infoLinks>
@@ -16957,6 +17143,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4239-4539-a1dd-5aab"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="d325-fed5-cc82-0f6d" sortIndex="12">
                   <infoLinks>
@@ -16965,6 +17154,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6022-a2a1-4966-9a10"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="1473-c50a-bdd1-a725" sortIndex="13">
                   <infoLinks>
@@ -16973,6 +17165,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f306-c1e4-7bfd-33c7"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="8433-1e54-4a9b-f55c" sortIndex="14">
                   <infoLinks>
@@ -16981,6 +17176,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d752-2502-d53b-b6bb"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -16993,6 +17191,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c25a-5c43-1d79-a1b2"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="e899-8927-8878-5cdc" sortIndex="8">
                   <infoLinks>
@@ -17001,6 +17202,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccd6-2b47-c46b-35b8"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="ecd5-4131-ae5c-dfc3" sortIndex="9">
                   <infoLinks>
@@ -17009,6 +17213,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbaf-9f46-5957-da51"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="8674-9cd6-cd5b-1aa3" sortIndex="10">
                   <infoLinks>
@@ -17017,6 +17224,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d40f-e298-3366-c1f1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="30c0-52cc-33cb-82dd" sortIndex="1">
                   <infoLinks>
@@ -17025,6 +17235,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f6c-ffca-16c8-190d"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Climber" hidden="false" id="43b1-4b5b-8b3b-edf0" sortIndex="2">
                   <infoLinks>
@@ -17033,6 +17246,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b7d-03a0-6523-6c45"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="6cb8-85bc-045f-0adc" sortIndex="3">
                   <infoLinks>
@@ -17041,6 +17257,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e657-9108-3edc-c571"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="131c-f351-c65a-188d" sortIndex="4">
                   <infoLinks>
@@ -17049,6 +17268,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34c5-02f6-fca8-b115"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="81fe-24c7-a39c-12d3" sortIndex="1">
                   <infoLinks>
@@ -17058,6 +17280,9 @@ casting Spells.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83e7-95f8-d7da-7a26"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec6e-e4f2-355c-e97d"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -17070,6 +17295,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b05-6b4c-0093-cc40"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Flight" hidden="false" id="3ee0-cfc7-8413-bc0d" sortIndex="4">
                   <infoLinks>
@@ -17078,6 +17306,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ca5-4c4a-ff5c-e6fc"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="b2c0-d9c9-79c6-4aa2" sortIndex="5">
                   <infoLinks>
@@ -17086,6 +17317,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97f7-f521-6796-73b1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Slow" hidden="false" id="5cc6-427e-dc32-7bd2" sortIndex="9">
                   <infoLinks>
@@ -17094,6 +17328,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f948-9f13-f21c-3b76"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spines" hidden="false" id="d41e-51ef-bff5-15e2" sortIndex="10">
                   <infoLinks>
@@ -17102,6 +17339,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68cc-6e78-34c0-ba05"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Short-Sighted" hidden="false" id="e0c4-4653-60c0-e569" sortIndex="8">
                   <infoLinks>
@@ -17110,6 +17350,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b89-568f-30e1-fca9"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Fighting Mount" hidden="false" id="d3a0-0dcf-626c-6136" sortIndex="3">
                   <infoLinks>
@@ -17118,6 +17361,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c7d-c833-2a1a-5215"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="598e-4578-a098-72d1" sortIndex="7">
                   <infoLinks>
@@ -17126,6 +17372,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e26b-d897-9e5e-f284"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="6a70-d4a0-22c3-bdec" sortIndex="11">
                   <infoLinks>
@@ -17134,6 +17383,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7419-2e1f-114b-0930"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Armless" hidden="false" id="313e-9065-2ddc-8e80" sortIndex="1">
                   <infoLinks>
@@ -17142,6 +17394,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6941-0bcf-c34f-8c81"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Darksense" hidden="false" id="2955-7027-8619-2b2f" sortIndex="2">
                   <infoLinks>
@@ -17150,6 +17405,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="477d-9a3d-d697-6397"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Uncanny" hidden="false" id="941a-c110-25c0-b236" sortIndex="12">
                   <infoLinks>
@@ -17158,6 +17416,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21b5-2e8c-43d4-e673"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="d31f-8f15-f8c3-c9cc" sortIndex="13">
                   <infoLinks>
@@ -17166,6 +17427,9 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b524-8656-34e8-873d"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>

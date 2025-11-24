@@ -8,6 +8,9 @@
       <categoryLinks>
         <categoryLink name="Allegiance" hidden="false" id="f257-e768-207d-940f" targetId="1bc5-0b8a-1258-293f" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="30ac-b73d-a6e6-d112"/>
+      </selectionEntries>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

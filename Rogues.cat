@@ -41,6 +41,9 @@
         <infoLink name="Support Quest - Strip the Area:" id="b991-ff62-f298-02c0" hidden="false" type="rule" targetId="a611-a458-e53a-f835"/>
         <infoLink name="Magical Archetypes" id="927f-c3a4-969c-0565" hidden="false" type="rule" targetId="3780-9be5-ebbe-30f1"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="e9f0-41e8-1af6-9093"/>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
