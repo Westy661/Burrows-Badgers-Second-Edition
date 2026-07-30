@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="7" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="8" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
@@ -63605,9 +63605,9 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="a369-b2f5-49ea-318e" shared="true" includeChildSelections="true" childName="Mage&apos;s Pouch"/>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="b508-00dd-9ba3-e092" shared="true" includeChildSelections="true" childName="Mage&apos;s Pouch"/>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="3773-ec39-b3ff-bbf6" shared="true" includeChildSelections="true" childName="Mage&apos;s Pouch"/>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="6270-f471-9740-d2e6" shared="true" includeChildSelections="true" childName="Mage&apos;s Pouch"/>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="00e3-fa20-541f-ffcf" shared="true" includeChildSelections="true" childName="Mage&apos;s Pouch"/>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="e202-fb37-9a40-c047" shared="true" includeChildSelections="true" childName="Mage&apos;s Pouch"/>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="dec3-93ff-12cd-0f5a" shared="true" includeChildSelections="true" childName="Mage&apos;s Pouch"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
