@@ -17945,7 +17945,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1184-02bd-2ae4-c4a6"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Cost (3d6+30)" hidden="true" id="220e-e40a-a9de-8dd8">
+                    <selectionEntry type="upgrade" import="true" name="Cost (3d6+30)" hidden="false" id="220e-e40a-a9de-8dd8">
                       <modifiers>
                         <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                           <repeats>
@@ -67300,7 +67300,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <selectionEntryGroups>
                 <selectionEntryGroup name="Fighting Skills" id="3657-e761-916b-2018" hidden="false" sortIndex="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Killing Blow" hidden="false" id="cc16-48fd-6518-2c4e" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Killing Blow" hidden="false" id="cc16-48fd-6518-2c4e" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Killing Blow" id="0cff-889e-e92b-1d58" hidden="false" targetId="f001" type="rule"/>
                       </infoLinks>
@@ -67312,7 +67312,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="d463-9081-d9e6-ba00" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="d463-9081-d9e6-ba00" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Melee Master" id="58f2-b01c-01f0-fe29" hidden="false" targetId="f002" type="rule"/>
                       </infoLinks>
@@ -67324,7 +67324,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="2c2f-b3ed-bde7-3501" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="2c2f-b3ed-bde7-3501" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Parry" id="2eb7-2b75-54eb-6fa0" hidden="false" targetId="f003" type="rule"/>
                       </infoLinks>
@@ -67336,7 +67336,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="c911-2dc4-0026-7141" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="c911-2dc4-0026-7141" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Born in Harness" id="a26f-9066-c2e2-f5f4" hidden="false" targetId="f004" type="rule"/>
                       </infoLinks>
@@ -67348,7 +67348,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="7b01-d89e-be82-bbdc" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="7b01-d89e-be82-bbdc" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Furious Charge" id="60b6-fdfa-7e62-1bf9" hidden="false" targetId="f005" type="rule"/>
                       </infoLinks>
@@ -67360,7 +67360,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="2f9f-4689-82dc-a926" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="2f9f-4689-82dc-a926" sortIndex="16">
                       <infoLinks>
                         <infoLink name="Witch Slayer" id="f826-65b6-3481-0332" hidden="false" targetId="f006" type="rule"/>
                       </infoLinks>
@@ -67372,7 +67372,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="5ae3-d7a0-086f-1bf0" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="5ae3-d7a0-086f-1bf0" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Close Quarters" id="b3ec-68f5-1a09-3c68" hidden="false" targetId="f007" type="rule"/>
                       </infoLinks>
@@ -67384,7 +67384,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="da94-b881-71c8-92a9" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="da94-b881-71c8-92a9" sortIndex="15">
                       <infoLinks>
                         <infoLink name="Weapon skill" id="d914-51d9-b651-9186" hidden="false" targetId="f008" type="rule"/>
                       </infoLinks>
@@ -67396,7 +67396,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="2e8e-2e92-6930-fa53" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="2e8e-2e92-6930-fa53" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Shield Master" id="b2da-93ec-d054-dd9e" hidden="false" targetId="f009" type="rule"/>
                       </infoLinks>
@@ -67408,7 +67408,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="9fb1-20fc-8af6-6458" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="9fb1-20fc-8af6-6458" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Lance Strike" id="f381-87f8-73ec-2898" hidden="false" targetId="f010" type="rule"/>
                       </infoLinks>
@@ -67420,7 +67420,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="b88b-d10d-da4a-94cd" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="b88b-d10d-da4a-94cd" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Feint" id="871a-a487-d032-ce83" hidden="false" targetId="f011" type="rule"/>
                       </infoLinks>
@@ -67432,7 +67432,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="0569-6812-039f-cd6b" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="0569-6812-039f-cd6b" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Dual-Wielder" id="0d26-c217-2450-31c0" hidden="false" targetId="f012" type="rule"/>
                       </infoLinks>
@@ -67444,7 +67444,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="d787-f211-2aa4-5ee9" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="d787-f211-2aa4-5ee9" sortIndex="17">
                       <infoLinks>
                         <infoLink name="Zweihander" id="58c6-e024-ca1d-1e38" hidden="false" targetId="f013" type="rule"/>
                       </infoLinks>
@@ -67456,7 +67456,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="0767-91e0-f183-0568" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="0767-91e0-f183-0568" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Shield Bash" id="6175-34d9-501b-ccba" hidden="false" targetId="f014" type="rule"/>
                       </infoLinks>
@@ -67468,7 +67468,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="e838-b4c4-8e83-43df" sortIndex="15">
+                    <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="e838-b4c4-8e83-43df" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Focused Strike" id="28d0-cbc6-d98f-c182" hidden="false" targetId="f015" type="rule"/>
                       </infoLinks>
@@ -67480,7 +67480,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="ad49-7d23-7e7b-df92" sortIndex="16">
+                    <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="ad49-7d23-7e7b-df92" sortIndex="1">
                       <infoLinks>
                         <infoLink name="All-out Attack" id="2974-9b20-14b3-c3c5" hidden="false" targetId="f016" type="rule"/>
                       </infoLinks>
@@ -67492,7 +67492,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="5d67-2db6-bfda-5fdc" sortIndex="17">
+                    <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="5d67-2db6-bfda-5fdc" sortIndex="14">
                       <infoLinks>
                         <infoLink name="Unarmed Fighter" id="0fbb-9620-8d7d-5346" hidden="false" targetId="9918-7b1a-1886-7701" type="rule"/>
                       </infoLinks>
@@ -67508,7 +67508,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Shooting Skills" id="d06d-8492-bca5-ce5d" hidden="false" sortIndex="2">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Expert Shot" hidden="false" id="08bf-8b7e-66be-775f" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Expert Shot" hidden="false" id="08bf-8b7e-66be-775f" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Expert Shot" id="5f8e-ed92-6d7e-0b27" hidden="false" targetId="a88c-4033-5756-4c15" type="rule"/>
                       </infoLinks>
@@ -67520,7 +67520,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="fe10-d1f4-d27b-5ce6" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="fe10-d1f4-d27b-5ce6" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Fast Shot" id="f8d3-cdcd-e7e0-a549" hidden="false" targetId="708b-f72d-03a1-fd88" type="rule"/>
                       </infoLinks>
@@ -67532,7 +67532,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="904a-4be4-4715-1439" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="904a-4be4-4715-1439" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Lethal Volley" id="1263-be95-3608-1804" hidden="false" targetId="1f17-a483-b1c7-e736" type="rule"/>
                       </infoLinks>
@@ -67544,7 +67544,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="3a6a-91bd-8477-966c" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="3a6a-91bd-8477-966c" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Eagle Eyes" id="5faa-091e-c516-bd83" hidden="false" targetId="3a47-1f29-161d-496a" type="rule"/>
                       </infoLinks>
@@ -67556,7 +67556,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="a952-ebb6-2302-bf3f" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="a952-ebb6-2302-bf3f" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Targeteer" id="39ed-b15b-68d0-78f9" hidden="false" targetId="3896-3009-6981-b68b" type="rule"/>
                       </infoLinks>
@@ -67568,7 +67568,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="bf5d-353d-2dea-7ec2" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="bf5d-353d-2dea-7ec2" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Rock Steady" id="119f-1299-d8f7-f132" hidden="false" targetId="f102-ed66-6bd9-9246" type="rule"/>
                       </infoLinks>
@@ -67580,7 +67580,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="3caf-199c-5091-0e44" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="3caf-199c-5091-0e44" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Wounding Shot" id="75db-33a8-e12a-9e50" hidden="false" targetId="7089-5048-a8a9-7eb4" type="rule"/>
                       </infoLinks>
@@ -67592,7 +67592,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="006b-2f1b-b3c4-dde4" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="006b-2f1b-b3c4-dde4" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Crippling Shot" id="6f33-ce85-0ce8-2385" hidden="false" targetId="b841-e9c2-1c6c-9331" type="rule"/>
                       </infoLinks>
@@ -67604,7 +67604,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="3643-5a95-549c-8087" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="3643-5a95-549c-8087" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Kill Shot" id="c8f3-1c62-9b3d-4d7d" hidden="false" targetId="8fac-c2f6-be9f-818d" type="rule"/>
                       </infoLinks>
@@ -67616,7 +67616,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="c11f-ad6e-85da-2526" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="c11f-ad6e-85da-2526" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Spot the weak point" id="beda-1052-e5c1-8860" hidden="false" targetId="5434-64e8-0b03-ec7e" type="rule"/>
                       </infoLinks>
@@ -67628,7 +67628,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="1ace-686f-f99d-7775" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="1ace-686f-f99d-7775" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Pistolier" id="b643-65e2-dcf5-b75f" hidden="false" targetId="d394-b02d-d2fa-4526" type="rule"/>
                       </infoLinks>
@@ -67656,7 +67656,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="06fe-4d30-ed18-a238" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="06fe-4d30-ed18-a238" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Bloodhound" id="1a6f-51ee-617a-c1c1" hidden="false" targetId="54cb-f660-1c7f-53c1" type="rule"/>
                       </infoLinks>
@@ -67668,7 +67668,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="f177-deea-72fd-a9f3" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="f177-deea-72fd-a9f3" sortIndex="15">
                       <infoLinks>
                         <infoLink name="Hedge Magic" id="35b0-02f8-28ef-cddd" hidden="false" targetId="80a9-d54b-a7ac-5b24" type="rule"/>
                       </infoLinks>
@@ -67680,7 +67680,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="0a8d-f28b-fa24-b478" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="0a8d-f28b-fa24-b478" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Fearless" id="d8e7-15c0-3133-f2ff" hidden="false" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
                       </infoLinks>
@@ -67692,7 +67692,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="b8bc-6421-6319-e7e3" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="b8bc-6421-6319-e7e3" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Ambusher" id="d309-4bd3-2f42-ba1d" hidden="false" targetId="e4ad-facf-dde9-da03" type="rule"/>
                       </infoLinks>
@@ -67704,7 +67704,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="0802-ec21-7006-a826" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="0802-ec21-7006-a826" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Adept Ambusher" id="9ab9-b05c-24ec-f2a8" hidden="false" targetId="dba1-67bc-834c-fee1" type="rule"/>
                       </infoLinks>
@@ -67716,7 +67716,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="860f-0749-14b6-5da1" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="860f-0749-14b6-5da1" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Deadly Ambusher" id="8e71-1b83-f3ed-2dfd" hidden="false" targetId="cf81-1186-7173-6887" type="rule"/>
                       </infoLinks>
@@ -67728,7 +67728,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="1e9d-50bd-9538-1a53" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="1e9d-50bd-9538-1a53" sortIndex="18">
                       <infoLinks>
                         <infoLink name="Opportunist" id="fd2f-1c96-c2c0-3cd7" hidden="false" targetId="4801-ece2-7b94-eb1b" type="rule"/>
                       </infoLinks>
@@ -67740,7 +67740,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="eeca-ccb7-4a95-2e1f" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="eeca-ccb7-4a95-2e1f" sortIndex="23">
                       <infoLinks>
                         <infoLink name="The Lady&apos;s Favour" id="f2e2-ea40-1e85-da9d" hidden="false" targetId="b262-b75e-75ae-d21e" type="rule"/>
                       </infoLinks>
@@ -67752,7 +67752,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="f881-3b15-fed8-9cd4" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="f881-3b15-fed8-9cd4" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Critter Boss" id="da47-0c41-2da3-75fd" hidden="false" targetId="0655-df80-54e8-a4b4" type="rule"/>
                       </infoLinks>
@@ -67764,7 +67764,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="ae8f-6a53-0d78-7b4a" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="ae8f-6a53-0d78-7b4a" sortIndex="24">
                       <infoLinks>
                         <infoLink name="Witch Smeller" id="63a2-7d77-d9b1-61e0" hidden="false" targetId="ed63-daa0-2ea0-7c4b" type="rule"/>
                       </infoLinks>
@@ -67776,7 +67776,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="b760-54db-9b1f-c190" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="b760-54db-9b1f-c190" sortIndex="17">
                       <infoLinks>
                         <infoLink name="Lucky" id="7341-483e-76cd-e01f" hidden="false" targetId="ffc4-8272-8bbc-f92c" type="rule"/>
                       </infoLinks>
@@ -67788,7 +67788,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="d7e2-daaf-9f37-10a9" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="d7e2-daaf-9f37-10a9" sortIndex="19">
                       <infoLinks>
                         <infoLink name="Resist Magic" id="c74e-a086-e7ec-b285" hidden="false" targetId="4d7a-0245-ed1b-761b" type="rule"/>
                       </infoLinks>
@@ -67800,7 +67800,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="0d77-a1d6-fbff-8fdf" sortIndex="15">
+                    <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="0d77-a1d6-fbff-8fdf" sortIndex="20">
                       <infoLinks>
                         <infoLink name="Spell Breaker" id="32a9-0b67-cf22-1d80" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
                       </infoLinks>
@@ -67812,7 +67812,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="f3a5-4a2c-b744-19ee" sortIndex="16">
+                    <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="f3a5-4a2c-b744-19ee" sortIndex="21">
                       <infoLinks>
                         <infoLink name="Spell Eater" id="ad6b-660d-d168-9b6e" hidden="false" targetId="f9da-bf41-b3a8-62d4" type="rule"/>
                       </infoLinks>
@@ -67824,7 +67824,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="f4aa-06f2-82de-ebe6" sortIndex="17">
+                    <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="f4aa-06f2-82de-ebe6" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Battlemage" id="fe31-2a46-2896-2334" hidden="false" targetId="7dd9-fe26-1652-02c7" type="rule"/>
                       </infoLinks>
@@ -67836,7 +67836,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="c8d0-cf9e-e298-1d0c" sortIndex="18">
+                    <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="c8d0-cf9e-e298-1d0c" sortIndex="14">
                       <infoLinks>
                         <infoLink name="Healing Aura" id="15d3-ee64-7aa6-cd48" hidden="false" targetId="6a89-9387-8ce4-4439" type="rule"/>
                       </infoLinks>
@@ -67848,7 +67848,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="bcd8-bfad-1dd2-d5db" sortIndex="19">
+                    <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="bcd8-bfad-1dd2-d5db" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Far Reacher" id="49ef-2c7c-87e7-24d6" hidden="false" targetId="65fb-e6b9-d598-38e3" type="rule"/>
                       </infoLinks>
@@ -67860,7 +67860,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="38f7-132b-d522-b915" sortIndex="20">
+                    <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="38f7-132b-d522-b915" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Aether Sight" id="91c6-2e2d-f189-6c42" hidden="false" targetId="57c4-b137-abcc-da67" type="rule"/>
                       </infoLinks>
@@ -67872,7 +67872,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="60be-f439-4c72-c597" sortIndex="21">
+                    <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="60be-f439-4c72-c597" sortIndex="16">
                       <infoLinks>
                         <infoLink name="Herbal Brewer" id="bb11-ea98-7056-5780" hidden="false" targetId="9903-ecf8-caea-dd3b" type="rule"/>
                       </infoLinks>
@@ -67884,7 +67884,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="b3ba-41ac-23da-1af8" sortIndex="22">
+                    <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="b3ba-41ac-23da-1af8" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Brew Master" id="76e8-f980-0863-b9cf" hidden="false" targetId="f7fa-bddd-1c27-43b7" type="rule"/>
                       </infoLinks>
@@ -67896,7 +67896,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="12cc-4bfa-dc8e-ab11" sortIndex="23">
+                    <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="12cc-4bfa-dc8e-ab11" sortIndex="22">
                       <infoLinks>
                         <infoLink name="Taunt" id="a4ac-0fcf-feeb-b3ad" hidden="false" targetId="b7f1-4c22-4a93-b39a" type="rule"/>
                       </infoLinks>
@@ -67908,7 +67908,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="d2df-8828-ccf2-e91b" sortIndex="24">
+                    <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="d2df-8828-ccf2-e91b" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Beguile" id="0d53-5930-1b4a-ed32" hidden="false" targetId="c2e3-4c45-4f81-a9cd" type="rule"/>
                       </infoLinks>
@@ -67920,7 +67920,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="aec6-dccd-9876-f8bc" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="aec6-dccd-9876-f8bc" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Gifted" id="3337-6472-6a17-db2e" hidden="false" type="rule" targetId="7c08-0206-fa8d-132e"/>
                       </infoLinks>
@@ -67936,7 +67936,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Strength Skills" id="4131-9b76-d724-3a4c" hidden="false" sortIndex="4">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="bea4-5ea9-b370-6a8c" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="bea4-5ea9-b370-6a8c" sortIndex="11">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83c9-9c90-90ba-66d8"/>
                       </constraints>
@@ -67946,7 +67946,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="02f6-2676-3112-76d8" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="02f6-2676-3112-76d8" sortIndex="13">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b37c-d809-523b-6d16"/>
                       </constraints>
@@ -67956,7 +67956,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="fcae-71c2-06d1-3a8a" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="fcae-71c2-06d1-3a8a" sortIndex="14">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a53-3d3e-a223-6250"/>
                       </constraints>
@@ -67976,7 +67976,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="09a9-453d-bfc0-eeb8" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="09a9-453d-bfc0-eeb8" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Born Survivor" id="fb26-b365-f13c-a972" hidden="false" targetId="d1e6-45f2-4b9f-91d7" type="rule"/>
                       </infoLinks>
@@ -67988,7 +67988,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="5125-fbfc-5a76-17f7" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="5125-fbfc-5a76-17f7" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Beast of Burden" id="4804-de2a-2c76-fd9d" hidden="false" targetId="f3b1-4c72-4c4d-a8c3" type="rule"/>
                       </infoLinks>
@@ -68000,7 +68000,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="7043-d274-3cc2-d174" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="7043-d274-3cc2-d174" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Fearsome" id="3dce-7ac3-5af8-41b9" hidden="false" targetId="e8a4-4a51-4d93-9a8d" type="rule"/>
                       </infoLinks>
@@ -68012,7 +68012,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="9dca-0460-0dde-f2df" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="9dca-0460-0dde-f2df" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Berserker" id="83b0-b62c-f3f7-969a" hidden="false" targetId="a2d3-4f76-4b9e-bc31" type="rule"/>
                       </infoLinks>
@@ -68024,7 +68024,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="a91a-7fc2-91be-fdeb" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="a91a-7fc2-91be-fdeb" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Enduring" id="9bfc-52ac-f9e6-1b8c" hidden="false" targetId="d4c6-4a8b-4f87-92e3" type="rule"/>
                       </infoLinks>
@@ -68036,7 +68036,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="1f36-09e4-cf55-e283" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="1f36-09e4-cf55-e283" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Stunning Blow" id="530f-eac4-b548-b947" hidden="false" targetId="f1a7-4c62-4c18-9f45" type="rule"/>
                       </infoLinks>
@@ -68048,7 +68048,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="1e43-576a-a8f8-aca8" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="1e43-576a-a8f8-aca8" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Knockout Blow" id="d809-500a-4931-870f" hidden="false" targetId="a6c2-4f8e-4b6c-9d53" type="rule"/>
                       </infoLinks>
@@ -68060,7 +68060,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="d325-fed5-cc82-0f6d" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="d325-fed5-cc82-0f6d" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Paladin" id="1c7f-bcf0-04a0-70d7" hidden="false" targetId="b7d4-4c1f-4cb7-a78a" type="rule"/>
                       </infoLinks>
@@ -68072,7 +68072,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="1473-c50a-bdd1-a725" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="1473-c50a-bdd1-a725" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Pushback" id="a296-8a12-97bd-b70d" hidden="false" targetId="c8e1-4a9c-4b3a-9fd8" type="rule"/>
                       </infoLinks>
@@ -68084,7 +68084,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="8433-1e54-4a9b-f55c" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="8433-1e54-4a9b-f55c" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Martial Code" id="99b6-1ddc-51d6-0ea5" hidden="false" targetId="e3b2-4d8a-4c91-a5de" type="rule"/>
                       </infoLinks>
@@ -68100,7 +68100,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Movement Skills" id="5e73-d26d-5665-4877" hidden="false" sortIndex="5">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="fa91-f228-3b43-598d" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="fa91-f228-3b43-598d" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Dodge" id="25eb-072a-f0b7-5162" hidden="false" targetId="f5c1-4d93-4a1e-a89c" type="rule"/>
                       </infoLinks>
@@ -68112,7 +68112,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="e899-8927-8878-5cdc" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="e899-8927-8878-5cdc" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Light Feet" id="5583-ae27-a661-07cc" hidden="false" targetId="b8d2-4e5a-4f7e-9d41" type="rule"/>
                       </infoLinks>
@@ -68124,7 +68124,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="ecd5-4131-ae5c-dfc3" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="ecd5-4131-ae5c-dfc3" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Burst of Speed" id="f695-598c-dd64-057e" hidden="false" targetId="a9f4-4b2b-4f8d-8c3a" type="rule"/>
                       </infoLinks>
@@ -68136,7 +68136,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="8674-9cd6-cd5b-1aa3" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="8674-9cd6-cd5b-1aa3" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Strider" id="aba1-dc2b-3dea-69ce" hidden="false" targetId="c1d3-4f9b-4e0e-a1b2" type="rule"/>
                       </infoLinks>
@@ -68148,7 +68148,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="30c0-52cc-33cb-82dd" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="30c0-52cc-33cb-82dd" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Freeze" id="95da-d3db-367f-416b" hidden="false" targetId="e4a1-4d2b-4c87-bf92" type="rule"/>
                       </infoLinks>
@@ -68172,7 +68172,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="6cb8-85bc-045f-0adc" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="6cb8-85bc-045f-0adc" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Leaper" id="8843-6651-9b6b-5a4a" hidden="false" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
                       </infoLinks>
@@ -68184,7 +68184,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="131c-f351-c65a-188d" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="131c-f351-c65a-188d" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Slippery" id="e5f7-acac-a4a4-737e" hidden="false" targetId="d6e9-4f3b-4f83-a5d1" type="rule"/>
                       </infoLinks>
@@ -68196,7 +68196,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="81fe-24c7-a39c-12d3" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="81fe-24c7-a39c-12d3" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Swim" id="6a93-a566-3030-05a3" hidden="false" targetId="8606-d670-14f9-bff9" type="rule"/>
                       </infoLinks>
@@ -68213,7 +68213,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Innate Skills" id="1d3a-988c-03cb-2140" hidden="false" sortIndex="6">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="fbe8-e004-ce5e-335f" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="fbe8-e004-ce5e-335f" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Natural Hunter" id="0b42-736d-9afc-1c43" hidden="false" targetId="5cae-3547-fc1c-3db4" type="rule"/>
                       </infoLinks>
@@ -68237,7 +68237,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="b2c0-d9c9-79c6-4aa2" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="b2c0-d9c9-79c6-4aa2" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Tunneller" id="f78b-c3d2-0622-8269" hidden="false" targetId="f2a4-4e3d-4a8e-8f91" type="rule"/>
                       </infoLinks>
@@ -68297,7 +68297,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="598e-4578-a098-72d1" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="598e-4578-a098-72d1" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Otherwordly" id="2f7c-b7b5-123f-fa24" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                       </infoLinks>
@@ -68309,7 +68309,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="6a70-d4a0-22c3-bdec" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="6a70-d4a0-22c3-bdec" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Unreliable" id="4a57-1886-b10f-a47b" hidden="false" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
                       </infoLinks>
@@ -68357,7 +68357,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="d31f-8f15-f8c3-c9cc" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="d31f-8f15-f8c3-c9cc" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Poisonous" id="a38e-30f3-79a1-2d47" hidden="false" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
                       </infoLinks>
@@ -74224,87 +74224,87 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <selectionEntryGroups>
                 <selectionEntryGroup name="Fighting Skills" id="c54f-8b8d-7331-e5d4" hidden="false" sortIndex="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Killing Blow" hidden="false" id="db4b-4603-92a9-f250" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Killing Blow" hidden="false" id="db4b-4603-92a9-f250" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Killing Blow" id="e7df-bfa3-3fdc-bba0" hidden="false" targetId="f001" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="fa10-6fe1-87c8-fc62" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="fa10-6fe1-87c8-fc62" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Melee Master" id="d926-6f02-fc23-495d" hidden="false" targetId="f002" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="ed30-0acb-75f1-8cbb" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="ed30-0acb-75f1-8cbb" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Parry" id="88e1-52d6-a7ec-b416" hidden="false" targetId="f003" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="1d45-6a55-2f37-05a6" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="1d45-6a55-2f37-05a6" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Born in Harness" id="2a17-b59a-3442-3327" hidden="false" targetId="f004" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="c99e-0202-10e0-7a6e" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="c99e-0202-10e0-7a6e" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Furious Charge" id="5291-896f-dac4-ba7e" hidden="false" targetId="f005" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="a546-6b30-84ec-769e" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="a546-6b30-84ec-769e" sortIndex="16">
                       <infoLinks>
                         <infoLink name="Witch Slayer" id="89c3-aea3-2d2c-2461" hidden="false" targetId="f006" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="010d-31bd-6a0d-5485" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="010d-31bd-6a0d-5485" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Close Quarters" id="18f8-c343-3e00-10e2" hidden="false" targetId="f007" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="56fd-1c13-b847-4529" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="56fd-1c13-b847-4529" sortIndex="15">
                       <infoLinks>
                         <infoLink name="Weapon skill" id="7792-bf53-9a6b-8c2e" hidden="false" targetId="f008" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="34ee-d0cc-c371-05e6" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="34ee-d0cc-c371-05e6" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Shield Master" id="3450-4f56-5459-b085" hidden="false" targetId="f009" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="b714-caff-e86a-d059" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="b714-caff-e86a-d059" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Lance Strike" id="d0b5-7f2d-71cb-ff63" hidden="false" targetId="f010" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="711c-6d8a-24c5-6e5c" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="711c-6d8a-24c5-6e5c" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Feint" id="24c1-9003-e289-98d3" hidden="false" targetId="f011" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="d17d-5f52-5480-6b8e" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="d17d-5f52-5480-6b8e" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Dual-Wielder" id="5c98-5d0e-dc87-40c2" hidden="false" targetId="f012" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="b996-7c18-3c83-843f" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="b996-7c18-3c83-843f" sortIndex="17">
                       <infoLinks>
                         <infoLink name="Zweihander" id="4f34-bb54-7736-8e3c" hidden="false" targetId="f013" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="0160-7489-3e9f-0c34" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="0160-7489-3e9f-0c34" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Shield Bash" id="ace6-ad60-5816-43ad" hidden="false" targetId="f014" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="9177-12a3-c689-3e2c" sortIndex="15">
+                    <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="9177-12a3-c689-3e2c" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Focused Strike" id="088a-82d1-ab39-eb09" hidden="false" targetId="f015" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="a416-31d1-92a8-8049" sortIndex="16">
+                    <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="a416-31d1-92a8-8049" sortIndex="1">
                       <infoLinks>
                         <infoLink name="All-out Attack" id="9366-ff8d-70ce-a2cf" hidden="false" targetId="f016" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="847b-091a-b66b-85a2" sortIndex="17">
+                    <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="847b-091a-b66b-85a2" sortIndex="14">
                       <infoLinks>
                         <infoLink name="Unarmed Fighter" id="9bd6-6fd5-e925-c43c" hidden="false" targetId="9918-7b1a-1886-7701" type="rule"/>
                       </infoLinks>
@@ -74313,57 +74313,57 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Shooting Skills" id="403d-e010-a410-2d17" hidden="false" sortIndex="2">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Expert Shot" hidden="false" id="4baf-0471-8669-bbf1" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Expert Shot" hidden="false" id="4baf-0471-8669-bbf1" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Expert Shot" id="fd9c-27fc-9600-5d0e" hidden="false" targetId="a88c-4033-5756-4c15" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="e966-2111-ab1b-5dc2" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="e966-2111-ab1b-5dc2" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Fast Shot" id="50f8-f039-9acf-eaa7" hidden="false" targetId="708b-f72d-03a1-fd88" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="24a1-4204-803f-02fd" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="24a1-4204-803f-02fd" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Lethal Volley" id="1a66-48b9-972d-cd18" hidden="false" targetId="1f17-a483-b1c7-e736" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="4589-11ab-9996-40d1" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="4589-11ab-9996-40d1" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Eagle Eyes" id="839a-235a-816b-095c" hidden="false" targetId="3a47-1f29-161d-496a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="7e5b-ad18-dde6-89a5" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="7e5b-ad18-dde6-89a5" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Targeteer" id="6b6e-7308-b161-a861" hidden="false" targetId="3896-3009-6981-b68b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="1341-a7f4-8484-3de0" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="1341-a7f4-8484-3de0" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Rock Steady" id="53f1-c052-ebcd-0b7d" hidden="false" targetId="f102-ed66-6bd9-9246" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="6668-e3a4-224a-f4fd" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="6668-e3a4-224a-f4fd" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Wounding Shot" id="c1cf-3aaa-660d-4155" hidden="false" targetId="7089-5048-a8a9-7eb4" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="1852-6922-ad66-3f51" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="1852-6922-ad66-3f51" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Crippling Shot" id="1930-8156-a657-c990" hidden="false" targetId="b841-e9c2-1c6c-9331" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="d46b-cb76-b2f4-6f06" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="d46b-cb76-b2f4-6f06" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Kill Shot" id="137f-7b43-abcd-db7b" hidden="false" targetId="8fac-c2f6-be9f-818d" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="30b3-9e6c-d67c-689a" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="30b3-9e6c-d67c-689a" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Spot the weak point" id="d762-1b11-6d35-9855" hidden="false" targetId="5434-64e8-0b03-ec7e" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="6915-0341-52c8-e444" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="6915-0341-52c8-e444" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Pistolier" id="145e-7df5-3d91-cd57" hidden="false" targetId="d394-b02d-d2fa-4526" type="rule"/>
                       </infoLinks>
@@ -74377,117 +74377,117 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Apothecary" id="4912-cb99-0c4a-e033" hidden="false" targetId="aa5b-f9c7-7ae3-31bb" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="2bf2-0cfd-e97f-6c58" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="2bf2-0cfd-e97f-6c58" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Bloodhound" id="a186-4774-cb71-d53a" hidden="false" targetId="54cb-f660-1c7f-53c1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="6485-41d7-0e25-730e" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="6485-41d7-0e25-730e" sortIndex="15">
                       <infoLinks>
                         <infoLink name="Hedge Magic" id="5e33-b8ff-7684-90bd" hidden="false" targetId="80a9-d54b-a7ac-5b24" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="f352-b454-5fea-3af8" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="f352-b454-5fea-3af8" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Fearless" id="2230-8ca5-f3de-92fd" hidden="false" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="c07d-b0fd-4da7-d2e1" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="c07d-b0fd-4da7-d2e1" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Ambusher" id="a156-520a-1370-e3e5" hidden="false" targetId="e4ad-facf-dde9-da03" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="f3a9-61dc-3d50-a0f5" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="f3a9-61dc-3d50-a0f5" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Adept Ambusher" id="cda4-cb65-6e76-8ecb" hidden="false" targetId="dba1-67bc-834c-fee1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="a835-2f82-c13d-9095" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="a835-2f82-c13d-9095" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Deadly Ambusher" id="639a-5e6d-30ec-c9a2" hidden="false" targetId="cf81-1186-7173-6887" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="ce01-37ee-a89a-0d72" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="ce01-37ee-a89a-0d72" sortIndex="18">
                       <infoLinks>
                         <infoLink name="Opportunist" id="8303-e035-76f9-156c" hidden="false" targetId="4801-ece2-7b94-eb1b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="7ee1-c918-dd4b-1ff8" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="7ee1-c918-dd4b-1ff8" sortIndex="23">
                       <infoLinks>
                         <infoLink name="The Lady&apos;s Favour" id="f2f0-7bb0-23f2-53b7" hidden="false" targetId="b262-b75e-75ae-d21e" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="fa6d-0b51-2c97-62ad" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="fa6d-0b51-2c97-62ad" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Critter Boss" id="a607-d133-97b5-70f1" hidden="false" targetId="0655-df80-54e8-a4b4" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="8b54-74d1-2df8-cbdf" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="8b54-74d1-2df8-cbdf" sortIndex="24">
                       <infoLinks>
                         <infoLink name="Witch Smeller" id="1874-d8da-ae95-e052" hidden="false" targetId="ed63-daa0-2ea0-7c4b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="880c-382f-8b26-643e" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="880c-382f-8b26-643e" sortIndex="17">
                       <infoLinks>
                         <infoLink name="Lucky" id="9ee0-30c4-d1af-00c9" hidden="false" targetId="ffc4-8272-8bbc-f92c" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="e485-6370-8179-9493" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="e485-6370-8179-9493" sortIndex="19">
                       <infoLinks>
                         <infoLink name="Resist Magic" id="af37-e8db-21eb-179b" hidden="false" targetId="4d7a-0245-ed1b-761b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="df9e-1ee4-4c21-f89f" sortIndex="15">
+                    <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="df9e-1ee4-4c21-f89f" sortIndex="20">
                       <infoLinks>
                         <infoLink name="Spell Breaker" id="3ec4-202a-801f-2b83" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="129e-ee8e-b540-354e" sortIndex="16">
+                    <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="129e-ee8e-b540-354e" sortIndex="21">
                       <infoLinks>
                         <infoLink name="Spell Eater" id="922d-1537-25df-40b6" hidden="false" targetId="f9da-bf41-b3a8-62d4" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="57c5-ac59-0107-d497" sortIndex="17">
+                    <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="57c5-ac59-0107-d497" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Battlemage" id="49cf-b6ad-cbaf-fd83" hidden="false" targetId="7dd9-fe26-1652-02c7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="71c8-8549-30a1-f9fa" sortIndex="18">
+                    <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="71c8-8549-30a1-f9fa" sortIndex="14">
                       <infoLinks>
                         <infoLink name="Healing Aura" id="22d0-46bc-d899-b71c" hidden="false" targetId="6a89-9387-8ce4-4439" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="4075-7e29-5d9d-3ec1" sortIndex="19">
+                    <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="4075-7e29-5d9d-3ec1" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Far Reacher" id="e3c4-3289-f23d-9e23" hidden="false" targetId="65fb-e6b9-d598-38e3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="9e87-c8a1-5923-dbfb" sortIndex="20">
+                    <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="9e87-c8a1-5923-dbfb" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Aether Sight" id="09c3-7d26-763a-a363" hidden="false" targetId="57c4-b137-abcc-da67" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="b2ee-6bd7-88d5-325a" sortIndex="21">
+                    <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="b2ee-6bd7-88d5-325a" sortIndex="16">
                       <infoLinks>
                         <infoLink name="Herbal Brewer" id="ffa8-aed9-c1e4-0824" hidden="false" targetId="9903-ecf8-caea-dd3b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="f41e-2b9e-8633-7dd1" sortIndex="22">
+                    <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="f41e-2b9e-8633-7dd1" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Brew Master" id="7484-cf3f-6bb7-594a" hidden="false" targetId="f7fa-bddd-1c27-43b7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="7ee1-1a0e-1b76-55cc" sortIndex="23">
+                    <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="7ee1-1a0e-1b76-55cc" sortIndex="22">
                       <infoLinks>
                         <infoLink name="Taunt" id="3d43-244f-211f-caff" hidden="false" targetId="b7f1-4c22-4a93-b39a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="88d1-00e4-7fb2-7151" sortIndex="24">
+                    <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="88d1-00e4-7fb2-7151" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Beguile" id="46cf-b076-4294-550c" hidden="false" targetId="c2e3-4c45-4f81-a9cd" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="c194-bad9-4d24-b081" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="c194-bad9-4d24-b081" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Gifted" id="e892-cfa7-acea-0649" hidden="false" targetId="7c08-0206-fa8d-132e" type="rule"/>
                       </infoLinks>
@@ -74496,8 +74496,8 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Strength Skills" id="e8ac-0427-4dca-77d5" hidden="false" sortIndex="4">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="8552-65fb-31a8-f2bc" sortIndex="1"/>
-                    <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="18ea-c478-df45-32b7" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="8552-65fb-31a8-f2bc" sortIndex="11"/>
+                    <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="18ea-c478-df45-32b7" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Tough" id="7659-296d-3649-3b38" hidden="false" type="profile" targetId="b1e9-4c53-152e-51f8">
                           <modifiers>
@@ -74506,7 +74506,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         </infoLink>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="dacf-635d-cbf9-022f" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="dacf-635d-cbf9-022f" sortIndex="14">
                       <infoLinks>
                         <infoLink name="Weak (X)" id="1132-3ca9-3384-2e2d" hidden="false" targetId="a4d1-4fb7-4a5b-b7e3" type="rule"/>
                       </infoLinks>
@@ -74516,52 +74516,52 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Delicate (X)" id="9134-b6dc-ab75-4b2d" hidden="false" targetId="8d6f-c28f-25a2-9ed5" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="a1a2-221e-1e2b-2062" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="a1a2-221e-1e2b-2062" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Born Survivor" id="c0ba-2cbe-084c-a0e5" hidden="false" targetId="d1e6-45f2-4b9f-91d7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="27c0-3022-7275-5880" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="27c0-3022-7275-5880" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Beast of Burden" id="079b-d0df-1705-adc6" hidden="false" targetId="f3b1-4c72-4c4d-a8c3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="52f5-6cf1-5e14-90a2" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="52f5-6cf1-5e14-90a2" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Fearsome" id="c823-7f79-27fa-80c6" hidden="false" targetId="e8a4-4a51-4d93-9a8d" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="cb68-3a2c-2615-b920" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="cb68-3a2c-2615-b920" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Berserker" id="52ee-821a-0883-c1ba" hidden="false" targetId="a2d3-4f76-4b9e-bc31" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="eeb4-816e-6636-c1dd" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="eeb4-816e-6636-c1dd" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Enduring" id="191b-8dd0-b9ed-94b1" hidden="false" targetId="d4c6-4a8b-4f87-92e3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="e01a-8dc0-5e1c-d720" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="e01a-8dc0-5e1c-d720" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Stunning Blow" id="1cf0-214e-6b07-4c26" hidden="false" targetId="f1a7-4c62-4c18-9f45" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="077f-29d2-7533-e35e" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="077f-29d2-7533-e35e" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Knockout Blow" id="15b9-1ad2-b774-fb01" hidden="false" targetId="a6c2-4f8e-4b6c-9d53" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="f501-94f0-de64-bd50" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="f501-94f0-de64-bd50" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Paladin" id="ed02-e9ff-b0b3-b072" hidden="false" targetId="b7d4-4c1f-4cb7-a78a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="2d98-bd5f-c23d-60e5" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="2d98-bd5f-c23d-60e5" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Pushback" id="8a0d-a8bb-9648-1f31" hidden="false" targetId="c8e1-4a9c-4b3a-9fd8" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="66eb-10ce-3cc1-6d6a" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="66eb-10ce-3cc1-6d6a" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Martial Code" id="7c8c-182a-4130-59fe" hidden="false" targetId="e3b2-4d8a-4c91-a5de" type="rule"/>
                       </infoLinks>
@@ -74570,27 +74570,27 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Movement Skills" id="571d-1797-9af4-f44a" hidden="false" sortIndex="5">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="d3c6-bae2-cdd2-6900" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="d3c6-bae2-cdd2-6900" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Dodge" id="3de7-eeff-b5f7-c450" hidden="false" targetId="f5c1-4d93-4a1e-a89c" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="0fe8-9554-ecb3-ae5b" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="0fe8-9554-ecb3-ae5b" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Light Feet" id="0f1c-abe6-e79d-f8a9" hidden="false" targetId="b8d2-4e5a-4f7e-9d41" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="ffa7-7d18-e2ac-e8ea" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="ffa7-7d18-e2ac-e8ea" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Burst of Speed" id="78a1-b2a8-80c6-2e1f" hidden="false" targetId="a9f4-4b2b-4f8d-8c3a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="3e12-abfd-08dd-6b66" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="3e12-abfd-08dd-6b66" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Strider" id="a7de-1a30-edbc-32e5" hidden="false" targetId="c1d3-4f9b-4e0e-a1b2" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="83d2-a23e-1570-a9e1" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="83d2-a23e-1570-a9e1" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Freeze" id="7f94-60ac-5284-d80c" hidden="false" targetId="e4a1-4d2b-4c87-bf92" type="rule"/>
                       </infoLinks>
@@ -74600,17 +74600,17 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Climber" id="b6c4-34d5-06a4-562e" hidden="false" targetId="ddc0-d1a5-16dc-1e41" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="5a57-e0d9-1e60-c6a9" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="5a57-e0d9-1e60-c6a9" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Leaper" id="26e4-ead8-ff28-8bda" hidden="false" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="85f6-0e50-31b8-28f5" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="85f6-0e50-31b8-28f5" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Slippery" id="a413-86eb-85f8-fa36" hidden="false" targetId="d6e9-4f3b-4f83-a5d1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="8199-311e-632f-f395" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="8199-311e-632f-f395" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Swim" id="f4ee-8c56-9404-2a1e" hidden="false" targetId="8606-d670-14f9-bff9" type="rule"/>
                       </infoLinks>
@@ -74619,7 +74619,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Innate Skills" id="3bd6-819d-ae56-8549" hidden="false" sortIndex="6">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="0a8f-d966-8777-f234" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="0a8f-d966-8777-f234" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Natural Hunter" id="740f-3f1c-f482-cbe4" hidden="false" targetId="5cae-3547-fc1c-3db4" type="rule"/>
                       </infoLinks>
@@ -74629,7 +74629,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Flight" id="b9f2-1b81-7927-a37b" hidden="false" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="18bd-980f-58a3-f1b8" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="18bd-980f-58a3-f1b8" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Tunneller" id="fa3c-83b0-892f-2ff5" hidden="false" targetId="f2a4-4e3d-4a8e-8f91" type="rule"/>
                       </infoLinks>
@@ -74654,12 +74654,12 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Fighting Mount" id="7986-d0af-2482-7e94" hidden="false" targetId="02f4-b317-c0af-0391" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="751d-e97b-cef0-b872" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="751d-e97b-cef0-b872" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Otherwordly" id="08ac-a7e3-807f-f84c" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="975e-3c38-9cfc-b7f0" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="975e-3c38-9cfc-b7f0" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Unreliable" id="5e2c-3547-8f99-f0cc" hidden="false" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
                       </infoLinks>
@@ -74679,7 +74679,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Uncanny" id="e96b-cf01-7f9d-8b4c" hidden="false" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="dc09-85d5-7130-5ebf" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="dc09-85d5-7130-5ebf" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Poisonous" id="8131-084d-6936-4a12" hidden="false" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
                       </infoLinks>
@@ -75397,87 +75397,87 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <selectionEntryGroups>
                 <selectionEntryGroup name="Fighting Skills" id="0737-15ca-29c3-ae08" hidden="false" sortIndex="1">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Killing Blow" hidden="false" id="0522-bda8-04ed-abb5" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Killing Blow" hidden="false" id="0522-bda8-04ed-abb5" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Killing Blow" id="e250-a6d3-37e1-90e4" hidden="false" targetId="f001" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="e844-2eb5-c92c-e143" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Melee Master" hidden="false" id="e844-2eb5-c92c-e143" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Melee Master" id="3fd3-3b3f-f879-13bb" hidden="false" targetId="f002" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="6ce7-0fc1-c332-39e7" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Parry" hidden="false" id="6ce7-0fc1-c332-39e7" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Parry" id="e47d-12dc-bb87-3beb" hidden="false" targetId="f003" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="1976-c49b-ef43-9fca" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Born in Harness" hidden="false" id="1976-c49b-ef43-9fca" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Born in Harness" id="7581-91f8-f5df-ff35" hidden="false" targetId="f004" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="7cd4-077c-9fb6-4ed2" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Furious Charge" hidden="false" id="7cd4-077c-9fb6-4ed2" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Furious Charge" id="536a-8bb3-0723-9424" hidden="false" targetId="f005" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="698e-e260-bdb1-940e" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Witch Slayer" hidden="false" id="698e-e260-bdb1-940e" sortIndex="16">
                       <infoLinks>
                         <infoLink name="Witch Slayer" id="859c-563e-5436-6891" hidden="false" targetId="f006" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="51a5-e3c2-6d50-bbb7" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Close Quarters" hidden="false" id="51a5-e3c2-6d50-bbb7" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Close Quarters" id="374c-9beb-1611-5a98" hidden="false" targetId="f007" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="6870-c41a-0ef3-8112" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Weaponskill" hidden="false" id="6870-c41a-0ef3-8112" sortIndex="15">
                       <infoLinks>
                         <infoLink name="Weapon skill" id="ff68-4f96-6dd2-b914" hidden="false" targetId="f008" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="9987-3f3e-8295-d1ff" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Shield Master" hidden="false" id="9987-3f3e-8295-d1ff" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Shield Master" id="3c48-5b2e-99ff-12f3" hidden="false" targetId="f009" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="4a1b-1cd4-9ca8-2fc7" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Lance Strike" hidden="false" id="4a1b-1cd4-9ca8-2fc7" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Lance Strike" id="6c54-c3d2-9106-685c" hidden="false" targetId="f010" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="43fd-f365-6006-2171" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Feint" hidden="false" id="43fd-f365-6006-2171" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Feint" id="7e2f-cc1f-50fd-20c5" hidden="false" targetId="f011" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="3c5a-4e45-0946-22de" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Dual-Wielder" hidden="false" id="3c5a-4e45-0946-22de" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Dual-Wielder" id="652f-40b8-0deb-bf54" hidden="false" targetId="f012" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="664c-9c4d-27e2-56f1" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Zweihander" hidden="false" id="664c-9c4d-27e2-56f1" sortIndex="17">
                       <infoLinks>
                         <infoLink name="Zweihander" id="89a9-bb76-224f-9c80" hidden="false" targetId="f013" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="a549-3849-6f68-771d" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Shield Bash" hidden="false" id="a549-3849-6f68-771d" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Shield Bash" id="1190-bb7c-2cbe-3de2" hidden="false" targetId="f014" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="688d-af66-1bdb-3b97" sortIndex="15">
+                    <selectionEntry type="upgrade" import="true" name="Focused Strike" hidden="false" id="688d-af66-1bdb-3b97" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Focused Strike" id="7bb1-6256-f66d-cd2c" hidden="false" targetId="f015" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="52f4-a8cf-fe16-0b66" sortIndex="16">
+                    <selectionEntry type="upgrade" import="true" name="All-out Attack" hidden="false" id="52f4-a8cf-fe16-0b66" sortIndex="1">
                       <infoLinks>
                         <infoLink name="All-out Attack" id="56d0-da98-bdea-cd73" hidden="false" targetId="f016" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="ce0b-a900-a927-684a" sortIndex="17">
+                    <selectionEntry type="upgrade" import="true" name="Unarmed Fighter" hidden="false" id="ce0b-a900-a927-684a" sortIndex="14">
                       <infoLinks>
                         <infoLink name="Unarmed Fighter" id="bb07-286e-8143-fce5" hidden="false" targetId="9918-7b1a-1886-7701" type="rule"/>
                       </infoLinks>
@@ -75486,57 +75486,57 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Shooting Skills" id="7a16-f67d-eb8f-f98c" hidden="false" sortIndex="2">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Expert Shot" hidden="false" id="983a-83c1-879b-04df" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Expert Shot" hidden="false" id="983a-83c1-879b-04df" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Expert Shot" id="ae25-008d-6381-25cf" hidden="false" targetId="a88c-4033-5756-4c15" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="4039-6d14-5cab-d252" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="4039-6d14-5cab-d252" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Fast Shot" id="2958-beba-e4ad-48b8" hidden="false" targetId="708b-f72d-03a1-fd88" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="0308-3e3e-8f1a-9a2e" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Lethal Volley" hidden="false" id="0308-3e3e-8f1a-9a2e" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Lethal Volley" id="5956-ded1-ac1a-b35f" hidden="false" targetId="1f17-a483-b1c7-e736" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="c34a-efc9-8c6c-4e7a" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Eagle Eyes" hidden="false" id="c34a-efc9-8c6c-4e7a" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Eagle Eyes" id="c4fe-97f0-8038-82f0" hidden="false" targetId="3a47-1f29-161d-496a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="c283-1e59-96a6-6431" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Targeteer" hidden="false" id="c283-1e59-96a6-6431" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Targeteer" id="1d3d-970a-9424-eb06" hidden="false" targetId="3896-3009-6981-b68b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="970e-f8f7-7109-b928" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Rock Steady" hidden="false" id="970e-f8f7-7109-b928" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Rock Steady" id="5261-4a3e-6b77-b658" hidden="false" targetId="f102-ed66-6bd9-9246" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="1373-cc83-c62e-950b" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Wounding Shot" hidden="false" id="1373-cc83-c62e-950b" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Wounding Shot" id="6584-ec4f-54ba-5487" hidden="false" targetId="7089-5048-a8a9-7eb4" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="6b68-b15f-fbfd-407f" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Crippling Shot" hidden="false" id="6b68-b15f-fbfd-407f" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Crippling Shot" id="9ff6-9b1c-bbdd-a292" hidden="false" targetId="b841-e9c2-1c6c-9331" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="5c0e-e9bc-0bdd-2ac1" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Kill Shot" hidden="false" id="5c0e-e9bc-0bdd-2ac1" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Kill Shot" id="a868-8864-a0b4-8108" hidden="false" targetId="8fac-c2f6-be9f-818d" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="452f-853a-824b-bee2" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Spot the weak point" hidden="false" id="452f-853a-824b-bee2" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Spot the weak point" id="006b-85bd-1745-f237" hidden="false" targetId="5434-64e8-0b03-ec7e" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="19ee-ed39-729b-a1e0" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Pistolier" hidden="false" id="19ee-ed39-729b-a1e0" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Pistolier" id="b52e-0d2f-f15a-b598" hidden="false" targetId="d394-b02d-d2fa-4526" type="rule"/>
                       </infoLinks>
@@ -75550,117 +75550,117 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Apothecary" id="4334-e068-4410-93b6" hidden="false" targetId="aa5b-f9c7-7ae3-31bb" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="5659-3440-13cb-68de" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Bloodhound" hidden="false" id="5659-3440-13cb-68de" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Bloodhound" id="e260-c1c5-ef75-dcb9" hidden="false" targetId="54cb-f660-1c7f-53c1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="29d4-31ea-22b2-6f4e" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Hedge Magic" hidden="false" id="29d4-31ea-22b2-6f4e" sortIndex="15">
                       <infoLinks>
                         <infoLink name="Hedge Magic" id="0922-2c5a-4f72-f671" hidden="false" targetId="80a9-d54b-a7ac-5b24" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="ae43-8d7d-cea7-1d77" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Fearless" hidden="false" id="ae43-8d7d-cea7-1d77" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Fearless" id="0366-0738-4557-4dc7" hidden="false" targetId="5be5-279f-2c7b-e0c7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="8fd8-5036-3757-8ca6" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Ambusher" hidden="false" id="8fd8-5036-3757-8ca6" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Ambusher" id="0a47-4c41-caf3-f11e" hidden="false" targetId="e4ad-facf-dde9-da03" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="7a7f-44f9-7d67-62bc" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Adept Ambusher" hidden="false" id="7a7f-44f9-7d67-62bc" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Adept Ambusher" id="d081-1f77-02da-e79c" hidden="false" targetId="dba1-67bc-834c-fee1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="1286-4a4d-fb31-1ed1" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Deadly Ambusher" hidden="false" id="1286-4a4d-fb31-1ed1" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Deadly Ambusher" id="197f-05bd-5647-2d94" hidden="false" targetId="cf81-1186-7173-6887" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="20be-5f1c-4886-4529" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Opportunist" hidden="false" id="20be-5f1c-4886-4529" sortIndex="18">
                       <infoLinks>
                         <infoLink name="Opportunist" id="db5f-c822-7dcf-1a38" hidden="false" targetId="4801-ece2-7b94-eb1b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="f959-793f-2cdd-3b18" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="The Lady&apos;s Favour" hidden="false" id="f959-793f-2cdd-3b18" sortIndex="23">
                       <infoLinks>
                         <infoLink name="The Lady&apos;s Favour" id="d86f-b618-7082-2d6e" hidden="false" targetId="b262-b75e-75ae-d21e" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="c5d3-d245-dfff-9541" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Critter Boss" hidden="false" id="c5d3-d245-dfff-9541" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Critter Boss" id="1e24-d882-7b68-6e12" hidden="false" targetId="0655-df80-54e8-a4b4" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="1ed3-f4c3-a7cb-798c" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Witch Smeller" hidden="false" id="1ed3-f4c3-a7cb-798c" sortIndex="24">
                       <infoLinks>
                         <infoLink name="Witch Smeller" id="91e9-398e-2f78-3567" hidden="false" targetId="ed63-daa0-2ea0-7c4b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="6048-4ceb-a335-5c97" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Lucky" hidden="false" id="6048-4ceb-a335-5c97" sortIndex="17">
                       <infoLinks>
                         <infoLink name="Lucky" id="5aa4-64c6-d518-f668" hidden="false" targetId="ffc4-8272-8bbc-f92c" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="29f1-63e5-8a53-7d68" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Resist Magic" hidden="false" id="29f1-63e5-8a53-7d68" sortIndex="19">
                       <infoLinks>
                         <infoLink name="Resist Magic" id="4d5d-126d-efdd-065a" hidden="false" targetId="4d7a-0245-ed1b-761b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="9ee8-2a04-0dd5-1c93" sortIndex="15">
+                    <selectionEntry type="upgrade" import="true" name="Spell Breaker" hidden="false" id="9ee8-2a04-0dd5-1c93" sortIndex="20">
                       <infoLinks>
                         <infoLink name="Spell Breaker" id="cd13-f93c-3797-2182" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="28ce-b3cc-490b-b9a9" sortIndex="16">
+                    <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="28ce-b3cc-490b-b9a9" sortIndex="21">
                       <infoLinks>
                         <infoLink name="Spell Eater" id="904f-cc13-d288-c4d0" hidden="false" targetId="f9da-bf41-b3a8-62d4" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="31e6-7d3f-9582-fe87" sortIndex="17">
+                    <selectionEntry type="upgrade" import="true" name="Battlemage" hidden="false" id="31e6-7d3f-9582-fe87" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Battlemage" id="0277-cb15-6ddf-2941" hidden="false" targetId="7dd9-fe26-1652-02c7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="4321-50fd-c357-eb4f" sortIndex="18">
+                    <selectionEntry type="upgrade" import="true" name="Healing Aura" hidden="false" id="4321-50fd-c357-eb4f" sortIndex="14">
                       <infoLinks>
                         <infoLink name="Healing Aura" id="55df-6728-1487-ae06" hidden="false" targetId="6a89-9387-8ce4-4439" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="ad17-819d-e3cc-fa09" sortIndex="19">
+                    <selectionEntry type="upgrade" import="true" name="Far Reacher" hidden="false" id="ad17-819d-e3cc-fa09" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Far Reacher" id="b141-15b1-eda1-373d" hidden="false" targetId="65fb-e6b9-d598-38e3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="50a7-5698-da1a-a508" sortIndex="20">
+                    <selectionEntry type="upgrade" import="true" name="Aether Sight" hidden="false" id="50a7-5698-da1a-a508" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Aether Sight" id="b92d-a12b-9c9b-e0b8" hidden="false" targetId="57c4-b137-abcc-da67" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="da7a-a03e-3ba1-ee4e" sortIndex="21">
+                    <selectionEntry type="upgrade" import="true" name="Herbal Brewer" hidden="false" id="da7a-a03e-3ba1-ee4e" sortIndex="16">
                       <infoLinks>
                         <infoLink name="Herbal Brewer" id="320e-42fd-fd6f-2d6e" hidden="false" targetId="9903-ecf8-caea-dd3b" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="64c7-b203-1730-1ea1" sortIndex="22">
+                    <selectionEntry type="upgrade" import="true" name="Brew Master" hidden="false" id="64c7-b203-1730-1ea1" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Brew Master" id="de75-9c48-c6b2-d624" hidden="false" targetId="f7fa-bddd-1c27-43b7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="50c3-05af-075f-cc5f" sortIndex="23">
+                    <selectionEntry type="upgrade" import="true" name="Taunt" hidden="false" id="50c3-05af-075f-cc5f" sortIndex="22">
                       <infoLinks>
                         <infoLink name="Taunt" id="cf0f-fb07-6a84-a3ee" hidden="false" targetId="b7f1-4c22-4a93-b39a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="772a-9f0f-95b2-a7ad" sortIndex="24">
+                    <selectionEntry type="upgrade" import="true" name="Beguile" hidden="false" id="772a-9f0f-95b2-a7ad" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Beguile" id="6bfa-e7e6-e51a-0782" hidden="false" targetId="c2e3-4c45-4f81-a9cd" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="c5bd-ba00-4fba-7d62" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Gifted" hidden="false" id="c5bd-ba00-4fba-7d62" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Gifted" id="86c8-c743-7a9d-dfb5" hidden="false" type="rule" targetId="7c08-0206-fa8d-132e"/>
                       </infoLinks>
@@ -75673,19 +75673,19 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Strength Skills" id="4c68-040a-8f5a-ab5a" hidden="false" sortIndex="4">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="853a-94f7-41a3-c053" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="853a-94f7-41a3-c053" sortIndex="11">
                       <modifiers>
                         <modifier type="add" value="81f2-c06a-b2f0-2dcd" field="category"/>
                         <modifier type="increment" value="1" field="a1ea-1d68-72ea-d046"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="24e6-37b2-dfb4-8724" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="24e6-37b2-dfb4-8724" sortIndex="13">
                       <modifiers>
                         <modifier type="add" value="f560-3c61-103b-731c" field="category"/>
                         <modifier type="increment" value="1" field="9b3c-53d0-7070-c817"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="2505-1b29-149b-e343" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Weak" hidden="false" id="2505-1b29-149b-e343" sortIndex="14">
                       <modifiers>
                         <modifier type="add" value="faf1-e053-62bb-9290" field="category"/>
                         <modifier type="decrement" value="1" field="a1ea-1d68-72ea-d046"/>
@@ -75697,52 +75697,52 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="decrement" value="1" field="9b3c-53d0-7070-c817"/>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="edbc-d64e-5de7-9c35" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Born Survivor" hidden="false" id="edbc-d64e-5de7-9c35" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Born Survivor" id="2c95-e803-0d39-1c09" hidden="false" targetId="d1e6-45f2-4b9f-91d7" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="7205-d73d-b223-3e08" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Beast of Burden" hidden="false" id="7205-d73d-b223-3e08" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Beast of Burden" id="5029-4068-2189-ee9c" hidden="false" targetId="f3b1-4c72-4c4d-a8c3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="bf3c-6953-afd4-c128" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Fearsome" hidden="false" id="bf3c-6953-afd4-c128" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Fearsome" id="32c6-f1c9-8a20-f0fb" hidden="false" targetId="e8a4-4a51-4d93-9a8d" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="f8a9-af42-caa3-32b5" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Berserker" hidden="false" id="f8a9-af42-caa3-32b5" sortIndex="2">
                       <infoLinks>
                         <infoLink name="Berserker" id="b123-e62d-d4eb-ec71" hidden="false" targetId="a2d3-4f76-4b9e-bc31" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="1fde-f634-3f52-9646" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Enduring" hidden="false" id="1fde-f634-3f52-9646" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Enduring" id="8cb7-48f7-ea20-3921" hidden="false" targetId="d4c6-4a8b-4f87-92e3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="735f-0dde-2b3b-f6bb" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Stunning Blow" hidden="false" id="735f-0dde-2b3b-f6bb" sortIndex="12">
                       <infoLinks>
                         <infoLink name="Stunning Blow" id="865d-1ffe-9b07-dfc9" hidden="false" targetId="f1a7-4c62-4c18-9f45" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="f671-c11d-a8f0-134b" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Knockout Blow" hidden="false" id="f671-c11d-a8f0-134b" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Knockout Blow" id="0cb9-c58a-4a73-e466" hidden="false" targetId="a6c2-4f8e-4b6c-9d53" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="eb5d-c807-af9d-15b8" sortIndex="12">
+                    <selectionEntry type="upgrade" import="true" name="Paladin" hidden="false" id="eb5d-c807-af9d-15b8" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Paladin" id="6339-9fd1-9b81-af9f" hidden="false" targetId="b7d4-4c1f-4cb7-a78a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="6af3-5344-e1bc-378e" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Pushback" hidden="false" id="6af3-5344-e1bc-378e" sortIndex="10">
                       <infoLinks>
                         <infoLink name="Pushback" id="914b-0d03-d20e-b41a" hidden="false" targetId="c8e1-4a9c-4b3a-9fd8" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="5f7b-2a59-3233-cdac" sortIndex="14">
+                    <selectionEntry type="upgrade" import="true" name="Martial Code" hidden="false" id="5f7b-2a59-3233-cdac" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Martial Code" id="19d7-3021-b128-89c8" hidden="false" targetId="e3b2-4d8a-4c91-a5de" type="rule"/>
                       </infoLinks>
@@ -75751,27 +75751,27 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Movement Skills" id="2a20-7bd8-fc25-3e2c" hidden="false" sortIndex="5">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="3474-e4d3-7919-b34d" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Dodge" hidden="false" id="3474-e4d3-7919-b34d" sortIndex="3">
                       <infoLinks>
                         <infoLink name="Dodge" id="7f48-1d72-cf01-19b3" hidden="false" targetId="f5c1-4d93-4a1e-a89c" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="0328-2d20-4f17-bdcf" sortIndex="8">
+                    <selectionEntry type="upgrade" import="true" name="Light Feet" hidden="false" id="0328-2d20-4f17-bdcf" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Light Feet" id="be93-5462-df1a-2a3a" hidden="false" targetId="b8d2-4e5a-4f7e-9d41" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="5659-9a2b-18d0-60e4" sortIndex="9">
+                    <selectionEntry type="upgrade" import="true" name="Burst of Speed" hidden="false" id="5659-9a2b-18d0-60e4" sortIndex="1">
                       <infoLinks>
                         <infoLink name="Burst of Speed" id="e437-dcb9-ba14-bb73" hidden="false" targetId="a9f4-4b2b-4f8d-8c3a" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="37bb-2543-ac50-fecf" sortIndex="10">
+                    <selectionEntry type="upgrade" import="true" name="Strider" hidden="false" id="37bb-2543-ac50-fecf" sortIndex="8">
                       <infoLinks>
                         <infoLink name="Strider" id="43c5-fddc-6ee8-4b73" hidden="false" targetId="c1d3-4f9b-4e0e-a1b2" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="aa84-c15d-edd1-85dc" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Freeze" hidden="false" id="aa84-c15d-edd1-85dc" sortIndex="4">
                       <infoLinks>
                         <infoLink name="Freeze" id="b1c6-c47c-74e5-6cd1" hidden="false" targetId="e4a1-4d2b-4c87-bf92" type="rule"/>
                       </infoLinks>
@@ -75781,17 +75781,17 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Climber" id="44ba-c68c-1d80-8fbe" hidden="false" targetId="ddc0-d1a5-16dc-1e41" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="7262-84a2-4a7d-3ac4" sortIndex="3">
+                    <selectionEntry type="upgrade" import="true" name="Leaper" hidden="false" id="7262-84a2-4a7d-3ac4" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Leaper" id="6d40-7c31-6558-5a6d" hidden="false" targetId="c5f8-4a21-4b2d-85f3" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="ff16-5652-0853-11fa" sortIndex="4">
+                    <selectionEntry type="upgrade" import="true" name="Slippery" hidden="false" id="ff16-5652-0853-11fa" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Slippery" id="13ac-8fba-1e86-462a" hidden="false" targetId="d6e9-4f3b-4f83-a5d1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="adf4-abf8-3349-cfff" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Swim" hidden="false" id="adf4-abf8-3349-cfff" sortIndex="9">
                       <infoLinks>
                         <infoLink name="Swim" id="d77b-294f-6234-82f7" hidden="false" targetId="8606-d670-14f9-bff9" type="rule"/>
                       </infoLinks>
@@ -75800,7 +75800,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Innate Skills" id="fb1b-d5c6-a5d9-abf4" hidden="false" sortIndex="6">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="88e6-d1e0-d32b-63c8" sortIndex="6">
+                    <selectionEntry type="upgrade" import="true" name="Natural Hunter" hidden="false" id="88e6-d1e0-d32b-63c8" sortIndex="5">
                       <infoLinks>
                         <infoLink name="Natural Hunter" id="e057-4d3f-11f6-5b2d" hidden="false" targetId="5cae-3547-fc1c-3db4" type="rule"/>
                       </infoLinks>
@@ -75810,7 +75810,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Flight" id="d0d4-61b4-bf16-fc34" hidden="false" targetId="de1b-bb5f-29b0-ba39" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="187e-1bdb-261d-7c49" sortIndex="5">
+                    <selectionEntry type="upgrade" import="true" name="Tunneller" hidden="false" id="187e-1bdb-261d-7c49" sortIndex="11">
                       <infoLinks>
                         <infoLink name="Tunneller" id="4760-b064-0e11-1334" hidden="false" targetId="f2a4-4e3d-4a8e-8f91" type="rule"/>
                       </infoLinks>
@@ -75835,12 +75835,12 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Fighting Mount" id="6986-cdec-76ab-1f04" hidden="false" targetId="02f4-b317-c0af-0391" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="e40d-acb5-e228-c537" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="e40d-acb5-e228-c537" sortIndex="6">
                       <infoLinks>
                         <infoLink name="Otherwordly" id="bfea-d89c-e10f-cc0a" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="158c-211e-27f7-b6b5" sortIndex="11">
+                    <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="158c-211e-27f7-b6b5" sortIndex="13">
                       <infoLinks>
                         <infoLink name="Unreliable" id="c582-0938-ca7f-ce87" hidden="false" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
                       </infoLinks>
@@ -75860,7 +75860,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Uncanny" id="e302-f3b2-3be7-39b1" hidden="false" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="60b3-9468-47fc-b1cd" sortIndex="13">
+                    <selectionEntry type="upgrade" import="true" name="Poisonous" hidden="false" id="60b3-9468-47fc-b1cd" sortIndex="7">
                       <infoLinks>
                         <infoLink name="Poisonous" id="704e-24d5-dd27-eed5" hidden="false" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
                       </infoLinks>
