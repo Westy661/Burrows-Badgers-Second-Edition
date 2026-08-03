@@ -18902,11 +18902,10 @@ Skill level to any Wounds they suffer.</characteristic>
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Adds +1 to all Strike Roll-offs.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Adds +1 to all Strike Roll-offs and counts as having the Strong (1) skill.  This Weapon cannot be used with a Buckler, Light Shield, or Heavy Shield.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1)</characteristic>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
       </characteristics>
     </profile>
     <profile name="Spear" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c007-f001-735a-f58f">
