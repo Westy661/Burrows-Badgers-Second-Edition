@@ -18913,11 +18913,10 @@ Skill level to any Wounds they suffer.</characteristic>
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Spear</characteristic>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A model armed with a Spear adds +1 to Strike rolls.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A model armed with a Spear adds +1 to Strike rolls.  This weapon may be used with a Buckler, Light Shield, or Heavy Shield, but, if so, it becomes unwieldy and the model may not make Charge or Barge Actions.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
-        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Rondel dagger" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e450-7f73-39e3-1f7d">
