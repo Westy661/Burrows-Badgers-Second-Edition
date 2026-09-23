@@ -223,8 +223,16 @@
       <description>The Knight’s Stag Beetle mount is incredibly strong and aggressive; once per Turn, when a Shrew Knight Errant makes an Attack Action, the Stag Beetle may also make an Attack, either against the same target or another in Base Contact, using a Strike Stat of d8 and with Strong (3).</description>
       <alias>Innate</alias>
     </rule>
-    <rule hidden="false" id="eb29-6a42-8676-1ed1" name="Otherwordly">
-      <description>When this model declares an Action and is within 12” of the Band’s Leader, then they perform their Action normally. When they declare an Action but are more than 12” away from the Band’s Leader, they must first roll their Fortitude on the following table. If they are more than 18” from the Leader, or if the Leader has been taken Out of Action, then they roll a d6 on this table instead. Mist Ghasts may add +1 to the roll for every other Mist Ghast model within 6”, up to a maximum of +3.</description>
+    <rule hidden="false" id="eb29-6a42-8676-1ed1" name="Otherworldly">
+      <description>When this model declares an Action and is within 12” of the Band’s Leader, then they perform their Action normally. When they declare an Action but are more than 12” away from the Band’s Leader, they must first roll their Fortitude on the following table. If they are more than 18” from the Leader, or if the Leader has been taken Out of Action, then they roll a d6 on this table instead. Mist Ghasts may add +1 to the roll for every other Mist Ghast model within 6”, up to a maximum of +3.
+Stable Ghasts always add +1 to the roll.
+
+OTHERWORLDLY TABLE
+1 – Fade Away: The model’s connection to the material world is severed. The model goes Out of Action; however, it does not cross any additional Wound boxes off.
+2 – Catatonia: The model loses control over itself. The model gains the Condition ‘Paralysed’ for the rest of the Turn.
+3 – Confusion: The model wanders randomly. Roll a d8 and move the model a number of inches equal to the dice roll in the direction that the tip of the dice points. If, at any point, they reach Base Contact with another model or Terrain piece, they stop. If they reach Base Contact with an enemy model, they may make one Attack Action, then their Activation ends.
+4 – Unsure: The model may act normally but receives the Condition ‘Stunned’ for the rest of this Turn.
+5+ – No Effect: The model may act normally.</description>
       <alias>Innate</alias>
     </rule>
     <rule hidden="false" id="5b6f-35fa-f074-0bc9" name="Uncanny">
@@ -694,7 +702,7 @@ casting Spells.</description>
         <infoLink hidden="false" id="9000-a330-656f-50aa" name="Gifted" targetId="7c08-0206-fa8d-132e" type="rule"/>
         <infoLink hidden="false" id="3e17-3fc4-175c-749a" name="Delicate (X)" targetId="8d6f-c28f-25a2-9ed5" type="rule">
           <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="2"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
         <infoLink hidden="false" id="2cdd-0ccb-b95d-61b1" name="Darksense" targetId="3c47-c406-7b16-7d68" type="rule"/>
@@ -773,7 +781,7 @@ casting Spells.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d10</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
-            <characteristic name="Level" typeId="659a-f40f-dc29-33bf"/>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -796,7 +804,7 @@ casting Spells.</description>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="37"/>
       </costs>
       <infoLinks>
-        <infoLink hidden="false" id="1913-54d9-4ec5-62b0" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="1913-54d9-4ec5-62b0" name="Otherworldly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
         <infoLink hidden="false" id="6ab6-41d5-c99d-aee1" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
       <profiles>
@@ -846,6 +854,7 @@ casting Spells.</description>
         <infoLink hidden="false" id="35c4-a014-2c12-40b6" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
         <infoLink hidden="false" id="b7dd-eeb7-3085-2d51" name="Bloodhound" targetId="54cb-f660-1c7f-53c1" type="rule"/>
         <infoLink hidden="false" id="b62d-aecc-51c8-be14" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="d38f-912b-78e8-3ede" name="Unreliable" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink hidden="false" id="48f3-64e8-146a-995e" name="Small Beast (30mm Base)" primary="true" targetId="6803-87ba-83c4-bd4b"/>
@@ -930,6 +939,9 @@ casting Spells.</description>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
         </infoLink>
+        <infoLink hidden="false" id="ae6b-4ff6-d519-76ff" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="1efc-3046-75c2-42d0" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
+        <infoLink hidden="false" id="d983-0955-0363-fb2c" name="Unreliable" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="617e-5fa1-80bf-6088" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -953,7 +965,7 @@ casting Spells.</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" value="20" field="6752-9e0b-692e-d5b9">
+        <modifier type="set" value="23" field="6752-9e0b-692e-d5b9">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -1009,12 +1021,13 @@ casting Spells.</description>
         <infoLink hidden="false" id="27d0-ce75-6c34-265a" name="Resist Magic" targetId="4d7a-0245-ed1b-761b" type="rule"/>
         <infoLink hidden="false" id="26e0-e3e0-cbb6-4e39" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
         <infoLink hidden="false" id="9cb5-4853-ba43-258c" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
+        <infoLink hidden="false" id="5689-32bd-b874-3914" name="Unreliable" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="39c8-2da1-a9f4-907f" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
       <modifiers>
-        <modifier type="set" value="20" field="6752-9e0b-692e-d5b9">
+        <modifier type="set" value="21" field="6752-9e0b-692e-d5b9">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -1073,7 +1086,7 @@ casting Spells.</description>
             <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d6</characteristic>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
-            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -1395,7 +1408,7 @@ casting Spells.</description>
       <infoLinks>
         <infoLink hidden="false" id="918c-db56-63d4-a1f0" name="Poisonous" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
         <infoLink hidden="false" id="9d6b-3ca7-3401-5ef4" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
-        <infoLink hidden="false" id="2436-b96e-6825-a467" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
+        <infoLink hidden="false" id="2436-b96e-6825-a467" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="61a3-19ef-d24e-127e" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1581,7 +1594,11 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="f16e-a678-62ef-62c5" name="Rare" primary="false" targetId="6daf-83fe-ef42-17d8"/>
       </categoryLinks>
+      <constraints>
+        <constraint field="selections" id="d76e-e290-6120-0739" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="7b20-9a14-c502-a666" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
@@ -2119,7 +2136,7 @@ casting Spells.</description>
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="d40a-bfb1-e0e4-4bd0" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="d40a-bfb1-e0e4-4bd0" name="Otherworldly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
         <infoLink hidden="false" id="643b-e54c-a2d5-cd95" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
       <entryLinks>
@@ -2342,7 +2359,7 @@ casting Spells.</description>
             <modifier type="set" value="4" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="86c4-66d0-b4ea-9ab9" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="86c4-66d0-b4ea-9ab9" name="Otherworldly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
         <infoLink hidden="false" id="4d15-8d0e-5425-85ce" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
       <entryLinks>
@@ -12767,9 +12784,9 @@ casting Spells.</description>
                         <infoLink name="Fighting Mount" id="4d2f-b740-a957-c967" hidden="false" targetId="02f4-b317-c0af-0391" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="b7d5-324c-8c97-b7e7" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Otherworldly" hidden="false" id="b7d5-324c-8c97-b7e7" sortIndex="7">
                       <infoLinks>
-                        <infoLink name="Otherwordly" id="4291-1c9a-3a43-476e" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+                        <infoLink name="Otherworldly" id="4291-1c9a-3a43-476e" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="c9f7-aea0-0064-1556" sortIndex="11">
@@ -15103,9 +15120,9 @@ casting Spells.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d19-fda5-b73c-f7c3"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="8550-6c5a-40a2-f255" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Otherworldly" hidden="false" id="8550-6c5a-40a2-f255" sortIndex="7">
                   <infoLinks>
-                    <infoLink name="Otherwordly" id="f708-39e1-18e0-fd0b" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+                    <infoLink name="Otherworldly" id="f708-39e1-18e0-fd0b" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0746-7964-ba6f-be65"/>
@@ -17365,9 +17382,9 @@ casting Spells.</description>
                     <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="598e-4578-a098-72d1" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Otherworldly" hidden="false" id="598e-4578-a098-72d1" sortIndex="7">
                   <infoLinks>
-                    <infoLink name="Otherwordly" id="2f7c-b7b5-123f-fa24" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+                    <infoLink name="Otherworldly" id="2f7c-b7b5-123f-fa24" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e26b-d897-9e5e-f284"/>
