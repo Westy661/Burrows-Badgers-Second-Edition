@@ -2515,7 +2515,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2613,7 +2613,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2895,7 +2895,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2989,7 +2989,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -3092,7 +3092,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
@@ -3192,11 +3192,11 @@ casting Spells.</description>
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Feate-weaving" hidden="true" id="cb1a-df23-90e8-a629">
+                    <selectionEntry type="upgrade" import="true" name="Fate-weaving" hidden="true" id="cb1a-df23-90e8-a629">
                       <profiles>
-                        <profile name="Magic User: Feate-weaving" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="8289-de56-3616-171d">
+                        <profile name="Magic User: Fate-weaving" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="8289-de56-3616-171d">
                           <characteristics>
-                            <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Feate-weaving. Fate-weaving Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
+                            <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Fate-weaving. Fate-weaving Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3204,7 +3204,7 @@ casting Spells.</description>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="802c-11f1-64a5-8dcc"/>
                       </constraints>
                       <selectionEntryGroups>
-                        <selectionEntryGroup name="Feate-weaving Spells" id="a403-50ab-b27b-67a1" hidden="false" collective="true">
+                        <selectionEntryGroup name="Fate-weaving Spells" id="a403-50ab-b27b-67a1" hidden="false" collective="true">
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Fates Twist" hidden="false" id="ffe0-f83d-7bb0-bdcd" collective="true" sortIndex="1">
                               <infoLinks>
@@ -3624,7 +3624,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -4222,7 +4222,7 @@ casting Spells.</description>
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
@@ -4914,7 +4914,7 @@ casting Spells.</description>
                             <conditionGroup type="or">
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -5532,6 +5532,19 @@ casting Spells.</description>
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
+                            <modifier type="set" value="25" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
                           </modifiers>
                         </selectionEntry>
                       </selectionEntries>
@@ -5546,6 +5559,7 @@ casting Spells.</description>
                                 <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -5561,6 +5575,7 @@ casting Spells.</description>
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -5773,7 +5788,7 @@ casting Spells.</description>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Elf-bolt" hidden="false" id="c67a-2e42-b02a-c38a">
                               <infoLinks>
-                                <infoLink name="Anti-Venom" id="76e4-2b60-aa84-c710" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                                <infoLink name="Elf-bolt" id="76e4-2b60-aa84-c710" hidden="false" type="profile" targetId="cc83-28d7-76cb-99a3"/>
                               </infoLinks>
                               <costs>
                                 <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
@@ -5789,7 +5804,7 @@ casting Spells.</description>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="10f6-bcda-0265-7176">
                               <infoLinks>
-                                <infoLink name="Enchanted Item" id="b457-d293-68f8-2aa2" hidden="false" type="profile" targetId="b536-09bc-6700-d36c"/>
+                                <infoLink name="Amanitas" id="b457-d293-68f8-2aa2" hidden="false" type="profile" targetId="064e-7b5a-406b-66e8"/>
                               </infoLinks>
                               <costs>
                                 <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
@@ -6125,7 +6140,7 @@ casting Spells.</description>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Telescope" id="cf95-a8ab-a1b3-3ca9" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                        <infoLink name="Shielding Talisman" id="cf95-a8ab-a1b3-3ca9" hidden="false" type="profile" targetId="b6fc-2712-ce8b-9915"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+3)" hidden="false" id="4537-3ebc-05cd-5a6d">
@@ -6215,7 +6230,7 @@ casting Spells.</description>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Telescope" id="20d7-41cc-71cb-67cb" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                        <infoLink name="Dispel Scroll" id="20d7-41cc-71cb-67cb" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="52c2-6fb6-de53-603a">
@@ -6234,7 +6249,6 @@ casting Spells.</description>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
@@ -6255,6 +6269,7 @@ casting Spells.</description>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -6782,7 +6797,7 @@ casting Spells.</description>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Anti-Venom" id="0fbe-b60f-55a3-3f53" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                        <infoLink name="Bagpipes" id="0fbe-b60f-55a3-3f53" hidden="false" type="profile" targetId="6c2f-a929-12fd-32c6"/>
                         <infoLink name="Piper" id="75c4-b74c-4198-dabc" hidden="false" type="rule" targetId="8099-4319-5e1a-35cf"/>
                       </infoLinks>
                       <selectionEntries>
@@ -7692,7 +7707,7 @@ casting Spells.</description>
                         <infoLink name="Broadhead arrows" id="3253-b7ce-da17-c983" hidden="false" type="profile" targetId="8a82-636c-7a09-539e"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Led slingshot" hidden="false" id="467f-fb66-45b6-8ac1">
+                    <selectionEntry type="upgrade" import="true" name="Lead slingshot" hidden="false" id="467f-fb66-45b6-8ac1">
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -7746,7 +7761,7 @@ casting Spells.</description>
                                     <conditionGroup type="or">
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
@@ -8042,7 +8057,7 @@ casting Spells.</description>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Bow" hidden="false" id="781a-bb49-7961-a542" collective="true" sortIndex="5">
                       <infoLinks>
-                        <infoLink name="War Bow" id="017d-9b82-6141-cee9" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
+                        <infoLink name="Bow" id="017d-9b82-6141-cee9" hidden="false" type="profile" targetId="3772-72bd-81b3-1e70"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
@@ -8396,7 +8411,7 @@ casting Spells.</description>
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
@@ -9068,7 +9083,7 @@ casting Spells.</description>
                                 <conditionGroup type="or">
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -9679,6 +9694,19 @@ casting Spells.</description>
                                     </conditionGroup>
                                   </conditionGroups>
                                 </modifier>
+                                <modifier type="set" value="25" field="defaultAmount">
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditionGroups>
+                                        <conditionGroup type="or">
+                                          <conditions>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </modifier>
                               </modifiers>
                             </selectionEntry>
                           </selectionEntries>
@@ -9693,6 +9721,7 @@ casting Spells.</description>
                                     <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -9708,6 +9737,7 @@ casting Spells.</description>
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -9920,7 +9950,7 @@ casting Spells.</description>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Elf-bolt" hidden="false" id="390f-ecf5-5fed-ebc0">
                                   <infoLinks>
-                                    <infoLink name="Anti-Venom" id="d246-d636-322d-f179" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                                    <infoLink name="Elf-bolt" id="d246-d636-322d-f179" hidden="false" type="profile" targetId="cc83-28d7-76cb-99a3"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
@@ -9936,7 +9966,7 @@ casting Spells.</description>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="40be-b3ff-8fd5-ea45">
                                   <infoLinks>
-                                    <infoLink name="Enchanted Item" id="f8e8-99b3-0dcc-0842" hidden="false" type="profile" targetId="b536-09bc-6700-d36c"/>
+                                    <infoLink name="Amanitas" id="f8e8-99b3-0dcc-0842" hidden="false" type="profile" targetId="064e-7b5a-406b-66e8"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
@@ -10262,7 +10292,7 @@ casting Spells.</description>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="586c-8b8c-b446-449b" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Shielding Talisman" id="586c-8b8c-b446-449b" hidden="false" type="profile" targetId="b6fc-2712-ce8b-9915"/>
                           </infoLinks>
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+3)" hidden="false" id="32c2-cddc-f3aa-f9d8">
@@ -10352,7 +10382,7 @@ casting Spells.</description>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="47b6-c102-83b6-042f" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Dispel Scroll" id="47b6-c102-83b6-042f" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                           </infoLinks>
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="f171-6167-aa17-c92e">
@@ -10371,7 +10401,6 @@ casting Spells.</description>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
-                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
@@ -10392,6 +10421,7 @@ casting Spells.</description>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
                                       </conditionGroups>
@@ -10919,7 +10949,7 @@ casting Spells.</description>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Anti-Venom" id="b3c8-dfac-11ec-0f78" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                            <infoLink name="Bagpipes" id="b3c8-dfac-11ec-0f78" hidden="false" type="profile" targetId="6c2f-a929-12fd-32c6"/>
                             <infoLink name="Piper" id="c00b-c559-41e1-d91a" hidden="false" type="rule" targetId="8099-4319-5e1a-35cf"/>
                           </infoLinks>
                           <selectionEntries>
@@ -11829,7 +11859,7 @@ casting Spells.</description>
                             <infoLink name="Broadhead arrows" id="5470-8256-1cab-def4" hidden="false" type="profile" targetId="8a82-636c-7a09-539e"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Led slingshot" hidden="false" id="4878-0862-c2f8-ad3e">
+                        <selectionEntry type="upgrade" import="true" name="Lead slingshot" hidden="false" id="4878-0862-c2f8-ad3e">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                             <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -11883,7 +11913,7 @@ casting Spells.</description>
                                         <conditionGroup type="or">
                                           <conditions>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
@@ -15254,7 +15284,7 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c2e-b99e-a335-8b98"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Chest Wound" id="2d9e-1814-3528-baea" hidden="false" type="profile" targetId="5dc8-2d59-2807-0f9f"/>
+                <infoLink name="Nervous Condition" id="2d9e-1814-3528-baea" hidden="false" type="profile" targetId="bf59-7ad6-abbb-74fa"/>
               </infoLinks>
               <modifiers>
                 <modifier type="replace" value="d4" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -15461,7 +15491,7 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1693-d4de-0e29-e81b"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Chest Wound" id="9c00-c9c1-18bd-a16a" hidden="false" type="profile" targetId="5dc8-2d59-2807-0f9f"/>
+                <infoLink name="Nervous Condition" id="9c00-c9c1-18bd-a16a" hidden="false" type="profile" targetId="bf59-7ad6-abbb-74fa"/>
               </infoLinks>
               <modifiers>
                 <modifier type="replace" value="d4" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -17695,7 +17725,7 @@ If the model is pushed into another model, they stop and both models suffer d6 W
 If the casting model is at least 3” higher up than the target model, reduce the distance they are pushed by 2” and add 2 to any Wounds caused.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: The target model is Pushed an extra 2”, and any Wounds caused by the spell are increased by 2.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
-        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to push the target an additional d6 inches.</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to push the target model 2d6” instead of d6”, and increase any Wounds caused to 2d6.</characteristic>
       </characteristics>
     </profile>
     <profile hidden="false" id="a7c4-4f2b-4a9e-b8c1" name="Bless" typeId="3d26-fa01-dac8-537b" typeName="Spell">
@@ -17937,7 +17967,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model gains the Condition ‘Burning’.
 - Brimstone: The Spell affects the target model and any models within 2” of the target.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
-        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to increase the damage dealt or range (specify in rules if needed).</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to have the spell affect all models within 4” of the target model.</characteristic>
       </characteristics>
     </profile>
     <profile hidden="false" id="d7f2-4c9a-4b3e-81a5" name="Burramorr&apos;s Distant Fracturing" typeId="3d26-fa01-dac8-537b" typeName="Spell">
@@ -18400,7 +18430,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The winds howl, and twisting currents of air swirl around the battlefield.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
-        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All Shoot Actions have a -2 modifier and any movement using the Flight Skill is treated as in Difficult Terrain (i.e. roll a d12, rather than just moving 12”). Lasts until the caster takes a Wound or the effect is otherwise ended.</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All Shoot Actions have a -2 modifier and any movement using the Flight Skill is treated as in Difficult Terrain (i.e. roll a d12, rather than just moving 12”). Lasts until the caster takes a Wound.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
@@ -19304,6 +19334,15 @@ successful, no Wounds are applied, but your enemy is entangled and has the Condi
         <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">6</characteristic>
         <characteristic name="Rules" typeId="965b-1eff-1569-fb74">The first enemy Spell that is successfully cast upon a model with a Shielding Talisman is absorbed by the talisman and fails.</characteristic>
         <characteristic name="Keywords" typeId="d060-38f7-c160-776c">Single use</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bagpipes" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="6c2f-a929-12fd-32c6">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Hillfolk only (Fabled Pipers). The model carrying the Bagpipes is the Band’s Piper; you may only have one Piper in a Band at any time. The Piper may use an Interact Action to play one tune (Strathspey, Hornpipe, Jig, March, or Reel) and apply its effects until the end of the Turn. Models equipped with Heavy Armour, Very Heavy Armour, or a Heavy Shield do not benefit from the tune’s effects.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
         <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
       </characteristics>
     </profile>
