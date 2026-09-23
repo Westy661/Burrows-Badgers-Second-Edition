@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="e7c5-f4ae-d0e7-9f53" name="Campaign" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="e7c5-f4ae-d0e7-9f53" name="Campaign" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Fletcher" hidden="false" id="1ed9-4f1a-6ba6-8f9e">
       <infoLinks>
@@ -234,8 +234,8 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b229-b11a-5960-f493"/>
@@ -298,7 +298,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alchemy Laboratory" hidden="false" id="82b9-4c4c-878b-6c3d">
       <infoLinks>
-        <infoLink name="Study" id="2589-29f4-9cd3-24aa" hidden="false" type="profile" targetId="cb01-b841-0e41-2302"/>
+        <infoLink name="Alchemy Laboratory" id="2589-29f4-9cd3-24aa" hidden="false" type="profile" targetId="4bba-80ca-f8a6-95df"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Den Upgrade" hidden="false" id="3208-b31d-a903-c307" targetId="583b-2cca-fae6-9a19" primary="true"/>
@@ -345,8 +345,8 @@ with Bodkins (6 arrows) or Broadheads (6 arrows) for free at the start of every 
     </profile>
     <profile name="Chapel" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="fcd1-544a-f29d-e588">
       <characteristics>
-        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
-        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">15</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">5</characteristic>
         <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a chapel within your den, dedicated to Moritasgus, the Great Badger,
 ancient god of healing and protection. 
 
@@ -402,8 +402,8 @@ You may pray for a blessing before each Battle; roll a d6.
     </profile>
     <profile name="Occult Laboratory" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="3e67-4144-bd80-9a67">
       <characteristics>
-        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
-        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">16</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">5</characteristic>
         <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a laboratory to do research into the esoteric and mystical. Roll a d6:
 
 
@@ -516,7 +516,33 @@ You may pray for a blessing before each Battle; roll a d6.
     <entryLink import="true" name="Shrine" hidden="false" id="c4d7-cf94-5d76-5fcd" targetId="5714-5693-8554-1f15" type="selectionEntry"/>
     <entryLink import="true" name="Smallholding" hidden="false" id="fc2f-1025-de92-aa66" targetId="c1f4-ab41-191b-eb0e" type="selectionEntry"/>
     <entryLink import="true" name="Smithy" hidden="false" id="0c42-4ebd-cd6c-ef30" targetId="cca7-24e1-c4e3-ed6b" type="selectionEntry"/>
-    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0"/>
-    <entryLink import="true" name="Archery Range" hidden="false" id="86da-ce73-0d94-3ecd" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0">
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Archery Range" hidden="false" id="86da-ce73-0d94-3ecd" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry" defaultAmount="0">
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="2502-9ea5-3517-dae6" targetId="82b9-4c4c-878b-6c3d" type="selectionEntry" defaultAmount="0"/>
   </entryLinks>
 </catalogue>

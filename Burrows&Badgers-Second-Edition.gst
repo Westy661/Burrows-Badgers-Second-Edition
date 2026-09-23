@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="2" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="3" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
@@ -15294,6 +15294,21 @@ casting Spells.</description>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
               </modifiers>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upper Leg Trauma" hidden="false" id="a934-08fc-1dd0-ff5f" sortIndex="0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36d6-27a9-f950-0a0c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Upper Leg Trauma" id="9730-5cde-1317-6233" hidden="false" type="profile" targetId="6560-6a07-f299-0072"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="replace" value="d4" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
+              </modifiers>
+            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Chest Wound" hidden="false" id="c9e1-3280-a130-e968" sortIndex="2">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ba6-8c20-04c8-3253"/>
@@ -15499,6 +15514,21 @@ casting Spells.</description>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upper Leg Trauma" hidden="false" id="1815-9dd9-5107-e278" sortIndex="0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="280a-d023-a618-001c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Upper Leg Trauma" id="76f4-f625-ce6c-fd5c" hidden="false" type="profile" targetId="6560-6a07-f299-0072"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="replace" value="d4" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Chest Wound" hidden="false" id="3ee0-9594-5611-3d50" sortIndex="2">
@@ -19775,6 +19805,11 @@ Light Shield: +2 to all Defend rolls that use Block. May choose to use Block fo
         <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model has been badly wounded in the upper body; they recover but are permanently weakened by the injury and suffer the Delicate (1) Skill. This reduces the model’s Level by 1. 
 
 The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 15 Pennies to your Band’s Pension.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Upper Leg Trauma" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="6560-6a07-f299-0072">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model’s femur has been broken, and tendons severed. Their Move Statistic is reduced by one dice level (e.g. d8 becomes d6). If their Move is already d4, they now have the Slow skill. This reduces the model’s Level by 1. The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 15 Pennies to your Band’s Pension.</characteristic>
       </characteristics>
     </profile>
     <profile name="Nervous Condition" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="bf59-7ad6-abbb-74fa">
