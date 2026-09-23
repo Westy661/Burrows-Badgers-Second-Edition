@@ -829,6 +829,9 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="9c05-62d7-bf82-6e64" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="self" shared="true" id="4786-0d3b-d376-27a9" childId="f7c6-43b1-6766-a6a6" includeChildSelections="true"/>
+      </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -2149,6 +2152,9 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="488d-e328-b3c5-40bc" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="self" shared="true" id="421b-2f2d-31d2-0535" childId="f7c6-43b1-6766-a6a6" includeChildSelections="true"/>
+      </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -2379,6 +2385,9 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="73b8-adfb-230b-c7fe" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="self" shared="true" id="d76d-4c41-e328-0e5d" childId="f7c6-43b1-6766-a6a6" includeChildSelections="true"/>
+      </constraints>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -2518,9 +2527,9 @@ casting Spells.</description>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b96-00f3-45e4-dd09"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Haste" hidden="false" id="d2b1-f7aa-83c8-70fc" collective="true" sortIndex="5">
+                            <selectionEntry type="upgrade" import="true" name="Push" hidden="false" id="d2b1-f7aa-83c8-70fc" collective="true" sortIndex="5">
                               <infoLinks>
-                                <infoLink name="Haste" id="4b0f-7d0b-bbda-14c5" hidden="false" targetId="e8ca-5b6f-dd5a-2bab" type="profile"/>
+                                <infoLink name="Push" id="4b0f-7d0b-bbda-14c5" hidden="false" targetId="f6a3-4e82-4a4c-9c3e" type="profile"/>
                                 <infoLink name="Weak" id="f9d3-881f-c538-b902" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="ac62-3e73-b4e3-eb3a" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -9861,7 +9870,7 @@ casting Spells.</description>
                     </selectionEntryGroup>
                     <selectionEntryGroup name="Items" id="225d-4155-d8f7-dab4" hidden="false" sortIndex="1" collapsible="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Mages Puch" hidden="false" id="3aa2-3e71-33e4-2f55" sortIndex="0">
+                        <selectionEntry type="upgrade" import="true" name="Mage&apos;s Pouch" hidden="false" id="3aa2-3e71-33e4-2f55" sortIndex="0">
                           <selectionEntryGroups>
                             <selectionEntryGroup name="Ingredient" id="9ad2-de53-696f-c5fc" hidden="false">
                               <selectionEntries>
@@ -9911,6 +9920,16 @@ casting Spells.</description>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
+                                  </costs>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Blessed Water" hidden="false" id="42a3-0c68-3da4-64b9">
+                                  <infoLinks>
+                                    <infoLink name="Blessed Water" id="59ae-369e-880d-e2b6" hidden="false" type="profile" targetId="4343-8056-60fd-9ee5"/>
+                                  </infoLinks>
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="4"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
                                   </costs>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Bloodwort" hidden="false" id="2d60-d72a-bcf2-c3ac">
@@ -12210,7 +12229,6 @@ casting Spells.</description>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="de26-f984-86f3-4e6d" collective="true" sortIndex="1">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12229,7 +12247,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="05a4-088a-09ad-c953" collective="true" sortIndex="5">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12248,7 +12265,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Block" hidden="false" id="b406-6ace-8fc1-b231" collective="true" sortIndex="3">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12267,7 +12283,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="f13d-683c-50e9-856d" collective="true" sortIndex="4">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12286,7 +12301,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Concealment" hidden="false" id="aa4a-5153-f87e-bb2a" collective="true" sortIndex="6">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12305,7 +12319,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="2996-5f5c-1942-4c6a" collective="true" sortIndex="2">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12324,7 +12337,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Awareness" hidden="false" id="5194-740e-0971-5939" collective="true" sortIndex="7">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12343,7 +12355,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="2d87-caf3-d88a-d3cb" collective="true" sortIndex="7">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12362,7 +12373,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Presence" hidden="false" id="ae34-ba08-a532-75d4" collective="true" sortIndex="8">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12391,12 +12401,47 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f385-809b-4043-d916-max"/>
               </constraints>
               <modifiers>
+                <modifier type="increment" value="1" field="f385-809b-4043-d916-min">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="f7c6-43b1-6766-a6a6" shared="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="fa3a-2aee-e786-7041" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" value="1" field="f385-809b-4043-d916-max">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="f7c6-43b1-6766-a6a6" shared="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="fa3a-2aee-e786-7041" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
                 <modifier type="set" value="false" field="hidden">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
                         <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="fa3a-2aee-e786-7041" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="f7c6-43b1-6766-a6a6" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -12675,7 +12720,7 @@ casting Spells.</description>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Strenght Skills" id="5e5a-5e19-6f8c-464e" hidden="false" sortIndex="4">
+                <selectionEntryGroup name="Strength Skills" id="5e5a-5e19-6f8c-464e" hidden="false" sortIndex="4">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="2876-e50f-fc21-2a1e" sortIndex="1"/>
                     <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="7cb0-670d-f3f3-93f7" sortIndex="2">
@@ -13751,7 +13796,7 @@ casting Spells.</description>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                   </conditions>
                 </conditionGroup>
@@ -13918,6 +13963,7 @@ casting Spells.</description>
                 <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d6" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
               </modifiers>
               <profiles>
                 <profile name="Fortitude Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="a84e-c5a4-7559-9565">
@@ -14082,7 +14128,6 @@ casting Spells.</description>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="5ad5-ee10-fdde-0de3" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14102,7 +14147,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="d9ae-7954-0bbf-0240" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14122,7 +14166,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Block" hidden="false" id="1e77-8669-d723-a600" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14142,7 +14185,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="c380-bd7d-7ef0-3ffc" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14162,7 +14204,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="986c-850d-b08e-367a" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14182,7 +14223,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Concealment" hidden="false" id="50fe-f8fe-8a7a-e9f4" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14202,7 +14242,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Awareness" hidden="false" id="4e0d-b97e-5013-2e73" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14222,7 +14261,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="8080-5f57-2389-5903" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14242,7 +14280,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Presence" hidden="false" id="4fbe-3dd9-e5e6-8458" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14265,6 +14302,129 @@ casting Spells.</description>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="737b-3f4a-94c9-be6a" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="62cc-0cdb-a475-fff7"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Stable Ghast" id="f35e-50f5-3d3d-5ad3" hidden="true" collapsible="true" sortIndex="37">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stable Ghast" hidden="false" id="f7c6-43b1-6766-a6a6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96cd-a1a6-6e80-55a9"/>
+              </constraints>
+              <costs>
+                <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
+              </costs>
+              <profiles>
+                <profile name="Stable Ghast" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="b888-8175-2349-d039">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">An ancient champion. Signing-on Fee: as the living Species, plus 15 Pennies. This model can increase one Statistic by one dice level (no Stat higher than d12 in a starting Band) and may choose one extra Skill. They count as two Levels higher than their Species would normally be at Band creation. They also have the Skills Otherworldly and Uncanny. If the Leader is a Stable Ghast, that model does not have the Skill Otherworldly, but the Band may only include Stable Ghasts and Mist Ghasts. Stable Ghasts may not Wander in the Off-Duty section of the Post-Battle Phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Uncanny" id="859a-9dba-5aec-e85b" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+                <infoLink name="Otherworldly" id="a708-4c3a-c5c5-856d" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" value="2" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ancient Champion: Statistic Increase" id="efaf-9d44-8f62-8d8a" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="87da-9513-9be6-f868"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd0b-d2d9-0610-908a"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="aa5e-626d-f407-a2a4">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="1e37-0a14-a48e-6cf3">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Block" hidden="false" id="81f6-7151-b02d-c40f">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="5431-06f5-faca-87c9">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="f3a5-65d7-025a-36d0">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Concealment" hidden="false" id="a0f3-c89d-7801-c1c9">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Awareness" hidden="false" id="2204-fd0a-de33-189e">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="6b22-d765-622a-ab20">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Presence" hidden="false" id="8c66-99d2-c8dd-a514">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Fast and Furious" id="02f4-30ec-62ca-0ce3" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="32">
           <modifiers>
@@ -14291,7 +14451,6 @@ casting Spells.</description>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="2909-dcbe-9b13-b57d" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14311,7 +14470,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="6b65-24fe-813c-c295" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14331,7 +14489,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="bb84-39aa-4311-c614" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14920,7 +15077,7 @@ casting Spells.</description>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Strenght Skills" id="e36c-597e-097d-cc0b" hidden="false" sortIndex="4">
+            <selectionEntryGroup name="Strength Skills" id="e36c-597e-097d-cc0b" hidden="false" sortIndex="4">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="d8c1-7b0c-33a9-d71e" sortIndex="1">
                   <constraints>
@@ -15534,6 +15691,7 @@ casting Spells.</description>
                 <infoLink name="Nervous Condition" id="9c00-c9c1-18bd-a16a" hidden="false" type="profile" targetId="bf59-7ad6-abbb-74fa"/>
               </infoLinks>
               <modifiers>
+                <modifier type="decrement" value="1" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
                 <modifier type="replace" value="d4" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d6" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
@@ -15549,6 +15707,7 @@ casting Spells.</description>
                 <infoLink name="Upper Leg Trauma" id="76f4-f625-ce6c-fd5c" hidden="false" type="profile" targetId="6560-6a07-f299-0072"/>
               </infoLinks>
               <modifiers>
+                <modifier type="decrement" value="1" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
                 <modifier type="replace" value="d4" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
@@ -15729,6 +15888,116 @@ casting Spells.</description>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Temporary Injuries (remove after next Battle)" id="bd8a-33b7-9b50-b9b8" hidden="false" collapsible="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Deep Lacerations (misses next Battle)" hidden="false" id="5e62-d6e8-c486-d3de" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ab8-effc-817a-dfab"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Deep Lacerations" id="135c-16e4-dbd9-8e07" hidden="false" type="profile" targetId="bee3-e2d0-f44d-bf45"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Laid Up (next Battle)" hidden="false" id="1ddf-3542-4fff-2726" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5263-0eb8-2399-15eb"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Laid Up" id="f0a2-5961-44f9-ed3b" hidden="false" type="profile" targetId="161f-a990-e04d-42df"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Took a Real Beating (next Battle)" hidden="false" id="f946-d2d9-70b3-558c" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f692-339b-e04d-8578"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Took a Real Beating" id="a260-630f-024b-bc81" hidden="false" type="profile" targetId="ddd7-d9d9-bab8-ecee"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bad Wound (next Battle)" hidden="false" id="1f55-985a-994f-8948" sortIndex="4">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5564-a1e3-94c5-1c0a"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Bad Wound" id="3adc-bbc8-7dbe-29ad" hidden="false" type="profile" targetId="f34e-2dd1-02d6-a48a"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Slow Recovery (next Battle)" hidden="false" id="bb91-67ce-afaf-6508" sortIndex="5">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9feb-6a0d-0a4b-4683"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Slow Recovery" id="3826-6c36-ec7c-f54b" hidden="false" type="profile" targetId="b035-9796-2a6e-6a59"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Blurred Vision (next Battle)" hidden="false" id="a698-4553-68b0-4e22" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f41a-762f-6855-a907"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Blurred Vision" id="b378-48fb-e362-3ef4" hidden="false" type="profile" targetId="76b5-2dac-d25f-feab"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shaken (next Battle)" hidden="false" id="7dfd-0b3b-a57f-4d4d" sortIndex="7">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0cb-0bc8-4230-e4e2"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shaken" id="d53c-81c9-f965-7e29" hidden="false" type="profile" targetId="f9f9-4e0b-68fb-c734"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scared (next Battle)" hidden="false" id="a63e-e101-3f56-6b1b" sortIndex="8">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a36-489b-e26d-4bc1"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Scared" id="cb89-ccda-c723-8f9c" hidden="false" type="profile" targetId="17bc-f5bd-d19b-e534"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Stiff Limbs (next Battle)" hidden="false" id="fe1d-6000-317b-3a69" sortIndex="9">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a90-d3c9-11a0-2a4b"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Stiff Limbs" id="f44c-4369-bb5c-272d" hidden="false" type="profile" targetId="d766-f71f-6189-6dd0"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Groggy (next Battle)" hidden="false" id="02db-6361-49ba-a95d" sortIndex="10">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="262a-efdf-fe29-46ee"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Groggy" id="a588-7624-ae5d-ce67" hidden="false" type="profile" targetId="da0a-082d-5d21-9046"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dodgy Shoulder (next Battle)" hidden="false" id="431c-9034-0190-3b31" sortIndex="11">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9283-cead-8edd-04d6"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Dodgy Shoulder" id="04dc-8faa-d9ae-486f" hidden="false" type="profile" targetId="87db-90d2-d2df-4107"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pulled a Muscle (next Battle)" hidden="false" id="58ad-e858-8fe3-ec6c" sortIndex="12">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a4d-04ae-2a77-373a"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Pulled a Muscle" id="d11b-a532-eb86-089e" hidden="false" type="profile" targetId="cdd3-f1ae-bedc-aa3c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bruising (next Battle)" hidden="false" id="95c1-d6cb-8d29-877a" sortIndex="13">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ea3-2ab6-a344-8eb1"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Heavy Bruising" id="c948-dffe-893f-8f2a" hidden="false" type="profile" targetId="97a4-6989-a359-59d9"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup name="Old Campaigner Upgrades" id="a588-f27c-bed6-097d" hidden="true" flatten="false" sortIndex="23">
           <selectionEntryGroups>
@@ -17129,7 +17398,7 @@ casting Spells.</description>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Strenght Skills" id="4131-9b76-d724-3a4c" hidden="false" sortIndex="4">
+            <selectionEntryGroup name="Strength Skills" id="4131-9b76-d724-3a4c" hidden="false" sortIndex="4">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="bea4-5ea9-b370-6a8c" sortIndex="1">
                   <constraints>
@@ -19839,6 +20108,71 @@ The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 15 Pe
     <profile name="Upper Leg Trauma" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="6560-6a07-f299-0072">
       <characteristics>
         <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model’s femur has been broken, and tendons severed. Their Move Statistic is reduced by one dice level (e.g. d8 becomes d6). If their Move is already d4, they now have the Slow skill. This reduces the model’s Level by 1. The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 15 Pennies to your Band’s Pension.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deep Lacerations" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="bee3-e2d0-f44d-bf45">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model has suffered serious cuts and must lay up to recover; they miss the next game. They may do nothing at all while recovering, so must choose to Rest during Step 4 of this Post-Battle Phase. This temporarily reduces your Band Rating.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Laid Up" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="161f-a990-e04d-42df">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model may only choose to Rest in Step 4 of this Post-Battle Phase and must miss the next Battle while they recover. This temporarily reduces your Band Rating.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Took a Real Beating" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="ddd7-d9d9-bab8-ecee">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model has the Condition ‘Stunned’ for the whole of the next Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bad Wound" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="f34e-2dd1-02d6-a48a">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model may only choose to Rest in Step 4 of this Post-Battle Phase and rolls d4+3 (i.e. possible results of 4 to 7) on the Major Injuries Table and suffers that Injury for the next Battle only; it’s a temporary injury.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slow Recovery" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="b035-9796-2a6e-6a59">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model rolls a d8 and starts the next Battle with that many Wounds already marked off on their Roster.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blurred Vision" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="76b5-2dac-d25f-feab">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, any time the model declares an Action targeted on a model, they must roll their Awareness Stat and add +6. This is their current visual range and is the maximum distance in inches that they can see at that time. If the target model is further away, they cannot be seen, and the Action fails and is lost.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shaken" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="f9f9-4e0b-68fb-c734">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, any time this model rolls a 1, they gain the Condition ‘Paralysed’ for the rest of the Turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scared" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="17bc-f5bd-d19b-e534">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, this model views all enemies as having the Skill ‘Fearsome’ for the whole of the Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stiff Limbs" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="d766-f71f-6189-6dd0">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, all movement by this model is treated as if in Difficult Terrain. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Groggy" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="da0a-082d-5d21-9046">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, both of the model’s Fortitude and Presence are reduced to d6. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dodgy Shoulder" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="87db-90d2-d2df-4107">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, the model counts all Ranged rolls as having a -2 modifier. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pulled a Muscle" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="cdd3-f1ae-bedc-aa3c">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, the model counts all Strike rolls as having a -2 modifier. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Bruising" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="97a4-6989-a359-59d9">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model rolls a d4 and starts the next Battle with that many Wounds already marked off on their Roster. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
       </characteristics>
     </profile>
     <profile name="Nervous Condition" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="bf59-7ad6-abbb-74fa">
