@@ -172,7 +172,7 @@
       <alias>Fighting</alias>
     </rule>
     <rule hidden="false" id="f013" name="Zweihander">
-      <description>The model does not suffer the -2 penalty to Block rolls while using a Two-handed weapon.</description>
+      <description>This model has practiced long and hard with Two-handed Weapons and can wield them as if they were weightless. The model gains +1 to Strike rolls and does not suffer the -2 penalty to Block rolls, while using a Two-handed weapon. (FAQ &amp; Errata, May 2025)</description>
       <alias>Fighting</alias>
     </rule>
     <rule hidden="false" id="f014" name="Shield Bash">
@@ -578,7 +578,7 @@ casting Spells.</description>
       <description>Roll for the Bonus level. Adds the Bonus to any Wounds the user inflicts with this weapon.</description>
     </rule>
     <rule name="Smiting" id="ae80-5c66-4e70-ee75" hidden="false">
-      <description>Roll for the Bonus level. For melee Weapons, adds the Bonus to any Strike Roll-Offs the user makes. For missile Weapons, adds the Bonus to any Ranged Roll-Offs the user makes.</description>
+      <description>Roll for the Bonus level. For melee Weapons, adds the Bonus to any Strike Roll-Offs the user makes. For missile Weapons, adds the Bonus to any Ranged Roll-Offs the user makes. An Item of Smiting adds the Bonus to both Strike and Ranged Roll-Offs (FAQ &amp; Errata, May 2025).</description>
     </rule>
     <rule name="Leeching" id="af53-3d19-ecc7-ca37" hidden="false">
       <description>Any time this weapon causes one or more Wounds, the user heals d3 Wounds (provided they have Wounds which need healing).</description>
@@ -829,6 +829,13 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="9c05-62d7-bf82-6e64" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry hidden="false" id="f11b-f5a3-8f1d-49fb" import="true" name="Tracker Grub" type="model">
       <costs>
@@ -2142,6 +2149,13 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="488d-e328-b3c5-40bc" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry hidden="false" id="a7d3-4f8e-4e72-bc82" import="true" name="Badger" type="model" collective="true">
       <profiles>
@@ -2365,6 +2379,13 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="73b8-adfb-230b-c7fe" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -6707,7 +6728,7 @@ casting Spells.</description>
                         <infoLink name="Relic" id="fe66-8a0e-4a29-a843" hidden="false" type="profile" targetId="fc39-7293-1a2f-beac"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d8+3)" hidden="false" id="643d-561f-a96c-2c78">
+                        <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="643d-561f-a96c-2c78">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -6869,7 +6890,7 @@ casting Spells.</description>
                         <infoLink name="Arcane Tome" id="454a-d2ca-4552-34fd" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="b5d8-7f2e-e102-2b21">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+7)" hidden="false" id="b5d8-7f2e-e102-2b21">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -6956,7 +6977,7 @@ casting Spells.</description>
                         <infoLink name="Anti-Venom" id="cd6f-4c08-d088-29b9" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="c8d4-d54a-9cf9-972f">
+                        <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="c8d4-d54a-9cf9-972f">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -7744,7 +7765,7 @@ casting Spells.</description>
                             <infoLink name="Mortal Poison" id="1446-bc24-a924-1d39" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="e13c-10ac-1166-0f50" sortIndex="1">
+                        <selectionEntry type="upgrade" import="true" name="Cost (1d8+3 Each)" hidden="false" id="e13c-10ac-1166-0f50" sortIndex="1">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -10859,7 +10880,7 @@ casting Spells.</description>
                             <infoLink name="Relic" id="856e-c39d-08b1-18e4" hidden="false" type="profile" targetId="fc39-7293-1a2f-beac"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d8+3)" hidden="false" id="3502-135d-e4f5-8916">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="3502-135d-e4f5-8916">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -11021,7 +11042,7 @@ casting Spells.</description>
                             <infoLink name="Arcane Tome" id="adf7-da87-d38d-812a" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="b410-948a-016d-3b3b">
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d6+7)" hidden="false" id="b410-948a-016d-3b3b">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -11108,7 +11129,7 @@ casting Spells.</description>
                             <infoLink name="Anti-Venom" id="51b9-fca2-3e5d-7ad6" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="4f6b-3134-2927-90c0">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="4f6b-3134-2927-90c0">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -11896,7 +11917,7 @@ casting Spells.</description>
                                 <infoLink name="Mortal Poison" id="03a0-2e7f-37c9-d04c" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
                               </infoLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="0f8d-4d04-65f3-6af1" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d8+3 Each)" hidden="false" id="0f8d-4d04-65f3-6af1" sortIndex="1">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -15358,7 +15379,11 @@ casting Spells.</description>
               </constraints>
               <infoLinks>
                 <infoLink name="Enfeebled" id="0f04-1a26-cf64-271c" hidden="false" type="profile" targetId="ba66-8baf-66cc-0c2f"/>
-                <infoLink name="Delicate" id="8c6a-33b2-c8df-2f13" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                <infoLink name="Weak" id="8c6a-33b2-c8df-2f13" hidden="false" type="profile" targetId="1287-15af-a0b2-cc20">
+                  <modifiers>
+                    <modifier type="set" value="1" field="annotation"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Grotesque Appearance" hidden="false" id="576f-ceb3-3100-0135" sortIndex="6">
@@ -15585,7 +15610,11 @@ casting Spells.</description>
               </constraints>
               <infoLinks>
                 <infoLink name="Enfeebled" id="1c30-889e-09a4-2ae6" hidden="false" type="profile" targetId="ba66-8baf-66cc-0c2f"/>
-                <infoLink name="Delicate" id="d6c2-96cf-1b81-9dad" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                <infoLink name="Weak" id="d6c2-96cf-1b81-9dad" hidden="false" type="profile" targetId="1287-15af-a0b2-cc20">
+                  <modifiers>
+                    <modifier type="set" value="1" field="annotation"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <modifiers>
                 <modifier type="decrement" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
@@ -19837,7 +19866,7 @@ This reduces the model’s Level by 1. The model may only choose to Rest in Step
     </profile>
     <profile name="Enfeebled" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="ba66-8baf-66cc-0c2f">
       <characteristics>
-        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The wounds the model has suffered leave them feeble and puny; they gain the Delicate (1) Skill. 
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The wounds the model has suffered leave them feeble and puny; they gain the Weak (1) Skill (FAQ &amp; Errata, May 2025). 
 
 This reduces the model’s Level by 1. The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 20 Pennies to your Band’s Pension.</characteristic>
       </characteristics>
