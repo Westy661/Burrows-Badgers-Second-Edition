@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="2" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="3" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
@@ -172,7 +172,7 @@
       <alias>Fighting</alias>
     </rule>
     <rule hidden="false" id="f013" name="Zweihander">
-      <description>The model does not suffer the -2 penalty to Block rolls while using a Two-handed weapon.</description>
+      <description>This model has practiced long and hard with Two-handed Weapons and can wield them as if they were weightless. The model gains +1 to Strike rolls and does not suffer the -2 penalty to Block rolls, while using a Two-handed weapon. (FAQ &amp; Errata, May 2025)</description>
       <alias>Fighting</alias>
     </rule>
     <rule hidden="false" id="f014" name="Shield Bash">
@@ -223,8 +223,16 @@
       <description>The Knight’s Stag Beetle mount is incredibly strong and aggressive; once per Turn, when a Shrew Knight Errant makes an Attack Action, the Stag Beetle may also make an Attack, either against the same target or another in Base Contact, using a Strike Stat of d8 and with Strong (3).</description>
       <alias>Innate</alias>
     </rule>
-    <rule hidden="false" id="eb29-6a42-8676-1ed1" name="Otherwordly">
-      <description>When this model declares an Action and is within 12” of the Band’s Leader, then they perform their Action normally. When they declare an Action but are more than 12” away from the Band’s Leader, they must first roll their Fortitude on the following table. If they are more than 18” from the Leader, or if the Leader has been taken Out of Action, then they roll a d6 on this table instead. Mist Ghasts may add +1 to the roll for every other Mist Ghast model within 6”, up to a maximum of +3.</description>
+    <rule hidden="false" id="eb29-6a42-8676-1ed1" name="Otherworldly">
+      <description>When this model declares an Action and is within 12” of the Band’s Leader, then they perform their Action normally. When they declare an Action but are more than 12” away from the Band’s Leader, they must first roll their Fortitude on the following table. If they are more than 18” from the Leader, or if the Leader has been taken Out of Action, then they roll a d6 on this table instead. Mist Ghasts may add +1 to the roll for every other Mist Ghast model within 6”, up to a maximum of +3.
+Stable Ghasts always add +1 to the roll.
+
+OTHERWORLDLY TABLE
+1 – Fade Away: The model’s connection to the material world is severed. The model goes Out of Action; however, it does not cross any additional Wound boxes off.
+2 – Catatonia: The model loses control over itself. The model gains the Condition ‘Paralysed’ for the rest of the Turn.
+3 – Confusion: The model wanders randomly. Roll a d8 and move the model a number of inches equal to the dice roll in the direction that the tip of the dice points. If, at any point, they reach Base Contact with another model or Terrain piece, they stop. If they reach Base Contact with an enemy model, they may make one Attack Action, then their Activation ends.
+4 – Unsure: The model may act normally but receives the Condition ‘Stunned’ for the rest of this Turn.
+5+ – No Effect: The model may act normally.</description>
       <alias>Innate</alias>
     </rule>
     <rule hidden="false" id="5b6f-35fa-f074-0bc9" name="Uncanny">
@@ -368,7 +376,9 @@ The model gains Tough (3) against any Shoot Actions.</description>
 Some beasts just seem blessed with good fortune; this model is one of them. The model can replace any of their Roll-off Totals (i.e. the Stat dice roll +/- any modifiers that apply) with a 13.</description>
     </rule>
     <rule hidden="false" id="d8a5-2900-6279-337c" name="Spell Breaker">
-      <description>Once per Turn, this model may attempt to stop a Spell that has been successfully cast within 12”; make a Fortitude Roll-off versus the caster’s Fortitude. If the model wins the Roll-off, the Spell fails.</description>
+      <description>Requirements: Must have Resist Magic
+
+Once per Turn, this model may attempt to stop a Spell that has been successfully cast within 12”; make a Fortitude Roll-off versus the caster’s Fortitude. If the model wins the Roll-off, the Spell fails.</description>
       <alias>Cunning</alias>
     </rule>
     <rule hidden="false" id="f9da-bf41-b3a8-62d4" name="Spell Eater">
@@ -570,7 +580,7 @@ casting Spells.</description>
       <description>Roll for the Bonus level. Adds the Bonus to any Wounds the user inflicts with this weapon.</description>
     </rule>
     <rule name="Smiting" id="ae80-5c66-4e70-ee75" hidden="false">
-      <description>Roll for the Bonus level. For melee Weapons, adds the Bonus to any Strike Roll-Offs the user makes. For missile Weapons, adds the Bonus to any Ranged Roll-Offs the user makes.</description>
+      <description>Roll for the Bonus level. For melee Weapons, adds the Bonus to any Strike Roll-Offs the user makes. For missile Weapons, adds the Bonus to any Ranged Roll-Offs the user makes. An Item of Smiting adds the Bonus to both Strike and Ranged Roll-Offs (FAQ &amp; Errata, May 2025).</description>
     </rule>
     <rule name="Leeching" id="af53-3d19-ecc7-ca37" hidden="false">
       <description>Any time this weapon causes one or more Wounds, the user heals d3 Wounds (provided they have Wounds which need healing).</description>
@@ -694,7 +704,7 @@ casting Spells.</description>
         <infoLink hidden="false" id="9000-a330-656f-50aa" name="Gifted" targetId="7c08-0206-fa8d-132e" type="rule"/>
         <infoLink hidden="false" id="3e17-3fc4-175c-749a" name="Delicate (X)" targetId="8d6f-c28f-25a2-9ed5" type="rule">
           <modifiers>
-            <modifier arg="(X)" field="name" type="replace" value="2"/>
+            <modifier arg="(X)" field="name" type="replace" value="(2)"/>
           </modifiers>
         </infoLink>
         <infoLink hidden="false" id="2cdd-0ccb-b95d-61b1" name="Darksense" targetId="3c47-c406-7b16-7d68" type="rule"/>
@@ -773,7 +783,7 @@ casting Spells.</description>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d8</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d10</characteristic>
             <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
-            <characteristic name="Level" typeId="659a-f40f-dc29-33bf"/>
+            <characteristic name="Level" typeId="659a-f40f-dc29-33bf">1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -796,7 +806,7 @@ casting Spells.</description>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="37"/>
       </costs>
       <infoLinks>
-        <infoLink hidden="false" id="1913-54d9-4ec5-62b0" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="1913-54d9-4ec5-62b0" name="Otherworldly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
         <infoLink hidden="false" id="6ab6-41d5-c99d-aee1" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
       <profiles>
@@ -821,6 +831,16 @@ casting Spells.</description>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="9c05-62d7-bf82-6e64" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="self" shared="true" id="4786-0d3b-d376-27a9" childId="f7c6-43b1-6766-a6a6" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry hidden="false" id="f11b-f5a3-8f1d-49fb" import="true" name="Tracker Grub" type="model">
       <costs>
@@ -846,6 +866,7 @@ casting Spells.</description>
         <infoLink hidden="false" id="35c4-a014-2c12-40b6" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
         <infoLink hidden="false" id="b7dd-eeb7-3085-2d51" name="Bloodhound" targetId="54cb-f660-1c7f-53c1" type="rule"/>
         <infoLink hidden="false" id="b62d-aecc-51c8-be14" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="d38f-912b-78e8-3ede" name="Unreliable" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink hidden="false" id="48f3-64e8-146a-995e" name="Small Beast (30mm Base)" primary="true" targetId="6803-87ba-83c4-bd4b"/>
@@ -930,6 +951,9 @@ casting Spells.</description>
             <modifier type="set" value="1" field="annotation"/>
           </modifiers>
         </infoLink>
+        <infoLink hidden="false" id="ae6b-4ff6-d519-76ff" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
+        <infoLink hidden="false" id="1efc-3046-75c2-42d0" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
+        <infoLink hidden="false" id="d983-0955-0363-fb2c" name="Unreliable" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="617e-5fa1-80bf-6088" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -953,7 +977,7 @@ casting Spells.</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" value="20" field="6752-9e0b-692e-d5b9">
+        <modifier type="set" value="23" field="6752-9e0b-692e-d5b9">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -1009,12 +1033,13 @@ casting Spells.</description>
         <infoLink hidden="false" id="27d0-ce75-6c34-265a" name="Resist Magic" targetId="4d7a-0245-ed1b-761b" type="rule"/>
         <infoLink hidden="false" id="26e0-e3e0-cbb6-4e39" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
         <infoLink hidden="false" id="9cb5-4853-ba43-258c" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
+        <infoLink hidden="false" id="5689-32bd-b874-3914" name="Unreliable" targetId="d8f2-4c1a-4b3d-8a9f" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="39c8-2da1-a9f4-907f" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
       <modifiers>
-        <modifier type="set" value="20" field="6752-9e0b-692e-d5b9">
+        <modifier type="set" value="21" field="6752-9e0b-692e-d5b9">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
@@ -1073,7 +1098,7 @@ casting Spells.</description>
             <characteristic name="Concealment" typeId="d4c0-ccdb-b645-bd70">d6</characteristic>
             <characteristic name="Awareness" typeId="e482-eed4-6daa-ca70">d6</characteristic>
             <characteristic name="Fortitude" typeId="c395-16b3-3435-da18">d6</characteristic>
-            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d6</characteristic>
+            <characteristic name="Presence" typeId="855b-25d5-4575-cabb">d8</characteristic>
             <characteristic name="Level" typeId="659a-f40f-dc29-33bf">2</characteristic>
           </characteristics>
         </profile>
@@ -1395,7 +1420,7 @@ casting Spells.</description>
       <infoLinks>
         <infoLink hidden="false" id="918c-db56-63d4-a1f0" name="Poisonous" targetId="e9b4-4f2d-4a8b-92f1" type="rule"/>
         <infoLink hidden="false" id="9d6b-3ca7-3401-5ef4" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
-        <infoLink hidden="false" id="2436-b96e-6825-a467" name="Natural Hunter" targetId="5cae-3547-fc1c-3db4" type="rule"/>
+        <infoLink hidden="false" id="2436-b96e-6825-a467" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="61a3-19ef-d24e-127e" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1581,7 +1606,11 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="f16e-a678-62ef-62c5" name="Rare" primary="false" targetId="6daf-83fe-ef42-17d8"/>
       </categoryLinks>
+      <constraints>
+        <constraint field="selections" id="d76e-e290-6120-0739" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="7b20-9a14-c502-a666" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
@@ -2119,12 +2148,22 @@ casting Spells.</description>
             <modifier type="set" value="2" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="d40a-bfb1-e0e4-4bd0" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="d40a-bfb1-e0e4-4bd0" name="Otherworldly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
         <infoLink hidden="false" id="643b-e54c-a2d5-cd95" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="488d-e328-b3c5-40bc" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="self" shared="true" id="421b-2f2d-31d2-0535" childId="f7c6-43b1-6766-a6a6" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry hidden="false" id="a7d3-4f8e-4e72-bc82" import="true" name="Badger" type="model" collective="true">
       <profiles>
@@ -2342,12 +2381,22 @@ casting Spells.</description>
             <modifier type="set" value="4" field="annotation"/>
           </modifiers>
         </infoLink>
-        <infoLink hidden="false" id="86c4-66d0-b4ea-9ab9" name="Otherwordly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+        <infoLink hidden="false" id="86c4-66d0-b4ea-9ab9" name="Otherworldly" targetId="eb29-6a42-8676-1ed1" type="rule"/>
         <infoLink hidden="false" id="4d15-8d0e-5425-85ce" name="Uncanny" targetId="5b6f-35fa-f074-0bc9" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="73b8-adfb-230b-c7fe" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="self" shared="true" id="d76d-4c41-e328-0e5d" childId="f7c6-43b1-6766-a6a6" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -2480,9 +2529,9 @@ casting Spells.</description>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b96-00f3-45e4-dd09"/>
                               </constraints>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Haste" hidden="false" id="d2b1-f7aa-83c8-70fc" collective="true" sortIndex="5">
+                            <selectionEntry type="upgrade" import="true" name="Push" hidden="false" id="d2b1-f7aa-83c8-70fc" collective="true" sortIndex="5">
                               <infoLinks>
-                                <infoLink name="Haste" id="4b0f-7d0b-bbda-14c5" hidden="false" targetId="e8ca-5b6f-dd5a-2bab" type="profile"/>
+                                <infoLink name="Push" id="4b0f-7d0b-bbda-14c5" hidden="false" targetId="f6a3-4e82-4a4c-9c3e" type="profile"/>
                                 <infoLink name="Weak" id="f9d3-881f-c538-b902" hidden="false" targetId="1287-15af-a0b2-cc20" type="profile"/>
                                 <infoLink name="Delicate" id="ac62-3e73-b4e3-eb3a" hidden="false" targetId="1587-89e8-db20-dd5e" type="profile"/>
                               </infoLinks>
@@ -2498,7 +2547,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2596,7 +2645,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2878,7 +2927,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -2972,7 +3021,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -3075,7 +3124,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
@@ -3175,11 +3224,11 @@ casting Spells.</description>
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Feate-weaving" hidden="true" id="cb1a-df23-90e8-a629">
+                    <selectionEntry type="upgrade" import="true" name="Fate-weaving" hidden="true" id="cb1a-df23-90e8-a629">
                       <profiles>
-                        <profile name="Magic User: Feate-weaving" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="8289-de56-3616-171d">
+                        <profile name="Magic User: Fate-weaving" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="8289-de56-3616-171d">
                           <characteristics>
-                            <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Feate-weaving. Fate-weaving Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
+                            <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">This character knows the magical archetype: Fate-weaving. Fate-weaving Magic is Presence-based and Cast Roll-Offs are made using the caster’s Presence Stat.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3187,7 +3236,7 @@ casting Spells.</description>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="802c-11f1-64a5-8dcc"/>
                       </constraints>
                       <selectionEntryGroups>
-                        <selectionEntryGroup name="Feate-weaving Spells" id="a403-50ab-b27b-67a1" hidden="false" collective="true">
+                        <selectionEntryGroup name="Fate-weaving Spells" id="a403-50ab-b27b-67a1" hidden="false" collective="true">
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Fates Twist" hidden="false" id="ffe0-f83d-7bb0-bdcd" collective="true" sortIndex="1">
                               <infoLinks>
@@ -3607,7 +3656,7 @@ casting Spells.</description>
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="9112-899f-db52-9f2d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="equalTo" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -4205,7 +4254,7 @@ casting Spells.</description>
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
@@ -4897,7 +4946,7 @@ casting Spells.</description>
                             <conditionGroup type="or">
                               <conditions>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -5515,6 +5564,19 @@ casting Spells.</description>
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
+                            <modifier type="set" value="25" field="defaultAmount">
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditionGroups>
+                                    <conditionGroup type="or">
+                                      <conditions>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                      </conditions>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </modifier>
                           </modifiers>
                         </selectionEntry>
                       </selectionEntries>
@@ -5529,6 +5591,7 @@ casting Spells.</description>
                                 <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -5544,6 +5607,7 @@ casting Spells.</description>
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -5756,7 +5820,7 @@ casting Spells.</description>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Elf-bolt" hidden="false" id="c67a-2e42-b02a-c38a">
                               <infoLinks>
-                                <infoLink name="Anti-Venom" id="76e4-2b60-aa84-c710" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                                <infoLink name="Elf-bolt" id="76e4-2b60-aa84-c710" hidden="false" type="profile" targetId="cc83-28d7-76cb-99a3"/>
                               </infoLinks>
                               <costs>
                                 <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
@@ -5772,7 +5836,7 @@ casting Spells.</description>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="10f6-bcda-0265-7176">
                               <infoLinks>
-                                <infoLink name="Enchanted Item" id="b457-d293-68f8-2aa2" hidden="false" type="profile" targetId="b536-09bc-6700-d36c"/>
+                                <infoLink name="Amanitas" id="b457-d293-68f8-2aa2" hidden="false" type="profile" targetId="064e-7b5a-406b-66e8"/>
                               </infoLinks>
                               <costs>
                                 <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
@@ -6108,7 +6172,7 @@ casting Spells.</description>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Telescope" id="cf95-a8ab-a1b3-3ca9" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                        <infoLink name="Shielding Talisman" id="cf95-a8ab-a1b3-3ca9" hidden="false" type="profile" targetId="b6fc-2712-ce8b-9915"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+3)" hidden="false" id="4537-3ebc-05cd-5a6d">
@@ -6198,7 +6262,7 @@ casting Spells.</description>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Telescope" id="20d7-41cc-71cb-67cb" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                        <infoLink name="Dispel Scroll" id="20d7-41cc-71cb-67cb" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="52c2-6fb6-de53-603a">
@@ -6217,7 +6281,6 @@ casting Spells.</description>
                                   <conditionGroups>
                                     <conditionGroup type="or">
                                       <conditions>
-                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
@@ -6238,6 +6301,7 @@ casting Spells.</description>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -6675,7 +6739,7 @@ casting Spells.</description>
                         <infoLink name="Relic" id="fe66-8a0e-4a29-a843" hidden="false" type="profile" targetId="fc39-7293-1a2f-beac"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d8+3)" hidden="false" id="643d-561f-a96c-2c78">
+                        <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="643d-561f-a96c-2c78">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -6765,7 +6829,7 @@ casting Spells.</description>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Anti-Venom" id="0fbe-b60f-55a3-3f53" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                        <infoLink name="Bagpipes" id="0fbe-b60f-55a3-3f53" hidden="false" type="profile" targetId="6c2f-a929-12fd-32c6"/>
                         <infoLink name="Piper" id="75c4-b74c-4198-dabc" hidden="false" type="rule" targetId="8099-4319-5e1a-35cf"/>
                       </infoLinks>
                       <selectionEntries>
@@ -6837,7 +6901,7 @@ casting Spells.</description>
                         <infoLink name="Arcane Tome" id="454a-d2ca-4552-34fd" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="b5d8-7f2e-e102-2b21">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+7)" hidden="false" id="b5d8-7f2e-e102-2b21">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -6924,7 +6988,7 @@ casting Spells.</description>
                         <infoLink name="Anti-Venom" id="cd6f-4c08-d088-29b9" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="c8d4-d54a-9cf9-972f">
+                        <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="c8d4-d54a-9cf9-972f">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -7675,7 +7739,7 @@ casting Spells.</description>
                         <infoLink name="Broadhead arrows" id="3253-b7ce-da17-c983" hidden="false" type="profile" targetId="8a82-636c-7a09-539e"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Led slingshot" hidden="false" id="467f-fb66-45b6-8ac1">
+                    <selectionEntry type="upgrade" import="true" name="Lead slingshot" hidden="false" id="467f-fb66-45b6-8ac1">
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -7712,7 +7776,7 @@ casting Spells.</description>
                             <infoLink name="Mortal Poison" id="1446-bc24-a924-1d39" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="e13c-10ac-1166-0f50" sortIndex="1">
+                        <selectionEntry type="upgrade" import="true" name="Cost (1d8+3 Each)" hidden="false" id="e13c-10ac-1166-0f50" sortIndex="1">
                           <modifiers>
                             <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -7729,7 +7793,7 @@ casting Spells.</description>
                                     <conditionGroup type="or">
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
@@ -8025,7 +8089,7 @@ casting Spells.</description>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Bow" hidden="false" id="781a-bb49-7961-a542" collective="true" sortIndex="5">
                       <infoLinks>
-                        <infoLink name="War Bow" id="017d-9b82-6141-cee9" hidden="false" type="profile" targetId="c988-cf80-de76-d607"/>
+                        <infoLink name="Bow" id="017d-9b82-6141-cee9" hidden="false" type="profile" targetId="3772-72bd-81b3-1e70"/>
                       </infoLinks>
                       <costs>
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="14"/>
@@ -8379,7 +8443,7 @@ casting Spells.</description>
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
@@ -9051,7 +9115,7 @@ casting Spells.</description>
                                 <conditionGroup type="or">
                                   <conditions>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -9662,6 +9726,19 @@ casting Spells.</description>
                                     </conditionGroup>
                                   </conditionGroups>
                                 </modifier>
+                                <modifier type="set" value="25" field="defaultAmount">
+                                  <conditionGroups>
+                                    <conditionGroup type="and">
+                                      <conditionGroups>
+                                        <conditionGroup type="or">
+                                          <conditions>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                          </conditions>
+                                        </conditionGroup>
+                                      </conditionGroups>
+                                    </conditionGroup>
+                                  </conditionGroups>
+                                </modifier>
                               </modifiers>
                             </selectionEntry>
                           </selectionEntries>
@@ -9676,6 +9753,7 @@ casting Spells.</description>
                                     <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                   </conditions>
                                 </conditionGroup>
                               </conditionGroups>
@@ -9691,6 +9769,7 @@ casting Spells.</description>
                                       <conditions>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="d49b-0548-5a3f-1240" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                       </conditions>
                                     </conditionGroup>
                                   </conditionGroups>
@@ -9793,7 +9872,7 @@ casting Spells.</description>
                     </selectionEntryGroup>
                     <selectionEntryGroup name="Items" id="225d-4155-d8f7-dab4" hidden="false" sortIndex="1" collapsible="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Mages Puch" hidden="false" id="3aa2-3e71-33e4-2f55" sortIndex="0">
+                        <selectionEntry type="upgrade" import="true" name="Mage&apos;s Pouch" hidden="false" id="3aa2-3e71-33e4-2f55" sortIndex="0">
                           <selectionEntryGroups>
                             <selectionEntryGroup name="Ingredient" id="9ad2-de53-696f-c5fc" hidden="false">
                               <selectionEntries>
@@ -9843,6 +9922,16 @@ casting Spells.</description>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
+                                  </costs>
+                                </selectionEntry>
+                                <selectionEntry type="upgrade" import="true" name="Blessed Water" hidden="false" id="42a3-0c68-3da4-64b9">
+                                  <infoLinks>
+                                    <infoLink name="Blessed Water" id="59ae-369e-880d-e2b6" hidden="false" type="profile" targetId="4343-8056-60fd-9ee5"/>
+                                  </infoLinks>
+                                  <costs>
+                                    <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="4"/>
+                                    <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
+                                    <cost name="Material" typeId="ce21-5b5b-f092-7301" value="0"/>
                                   </costs>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Bloodwort" hidden="false" id="2d60-d72a-bcf2-c3ac">
@@ -9903,7 +9992,7 @@ casting Spells.</description>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Elf-bolt" hidden="false" id="390f-ecf5-5fed-ebc0">
                                   <infoLinks>
-                                    <infoLink name="Anti-Venom" id="d246-d636-322d-f179" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                                    <infoLink name="Elf-bolt" id="d246-d636-322d-f179" hidden="false" type="profile" targetId="cc83-28d7-76cb-99a3"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="6"/>
@@ -9919,7 +10008,7 @@ casting Spells.</description>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Amanitas" hidden="false" id="40be-b3ff-8fd5-ea45">
                                   <infoLinks>
-                                    <infoLink name="Enchanted Item" id="f8e8-99b3-0dcc-0842" hidden="false" type="profile" targetId="b536-09bc-6700-d36c"/>
+                                    <infoLink name="Amanitas" id="f8e8-99b3-0dcc-0842" hidden="false" type="profile" targetId="064e-7b5a-406b-66e8"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="3"/>
@@ -10245,7 +10334,7 @@ casting Spells.</description>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="586c-8b8c-b446-449b" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Shielding Talisman" id="586c-8b8c-b446-449b" hidden="false" type="profile" targetId="b6fc-2712-ce8b-9915"/>
                           </infoLinks>
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Variable Cost (1d6+3)" hidden="false" id="32c2-cddc-f3aa-f9d8">
@@ -10335,7 +10424,7 @@ casting Spells.</description>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="47b6-c102-83b6-042f" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Dispel Scroll" id="47b6-c102-83b6-042f" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                           </infoLinks>
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="f171-6167-aa17-c92e">
@@ -10354,7 +10443,6 @@ casting Spells.</description>
                                       <conditionGroups>
                                         <conditionGroup type="or">
                                           <conditions>
-                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
@@ -10375,6 +10463,7 @@ casting Spells.</description>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
                                       </conditionGroups>
@@ -10812,7 +10901,7 @@ casting Spells.</description>
                             <infoLink name="Relic" id="856e-c39d-08b1-18e4" hidden="false" type="profile" targetId="fc39-7293-1a2f-beac"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d8+3)" hidden="false" id="3502-135d-e4f5-8916">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="3502-135d-e4f5-8916">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -10902,7 +10991,7 @@ casting Spells.</description>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Anti-Venom" id="b3c8-dfac-11ec-0f78" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
+                            <infoLink name="Bagpipes" id="b3c8-dfac-11ec-0f78" hidden="false" type="profile" targetId="6c2f-a929-12fd-32c6"/>
                             <infoLink name="Piper" id="c00b-c559-41e1-d91a" hidden="false" type="rule" targetId="8099-4319-5e1a-35cf"/>
                           </infoLinks>
                           <selectionEntries>
@@ -10974,7 +11063,7 @@ casting Spells.</description>
                             <infoLink name="Arcane Tome" id="adf7-da87-d38d-812a" hidden="false" type="profile" targetId="6bb9-dc5c-8d8b-1c44"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="b410-948a-016d-3b3b">
+                            <selectionEntry type="upgrade" import="true" name="Cost (3d6+7)" hidden="false" id="b410-948a-016d-3b3b">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -11061,7 +11150,7 @@ casting Spells.</description>
                             <infoLink name="Anti-Venom" id="51b9-fca2-3e5d-7ad6" hidden="false" type="profile" targetId="ab52-03df-8e75-b714"/>
                           </infoLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6)" hidden="false" id="4f6b-3134-2927-90c0">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d4)" hidden="false" id="4f6b-3134-2927-90c0">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -11812,7 +11901,7 @@ casting Spells.</description>
                             <infoLink name="Broadhead arrows" id="5470-8256-1cab-def4" hidden="false" type="profile" targetId="8a82-636c-7a09-539e"/>
                           </infoLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Led slingshot" hidden="false" id="4878-0862-c2f8-ad3e">
+                        <selectionEntry type="upgrade" import="true" name="Lead slingshot" hidden="false" id="4878-0862-c2f8-ad3e">
                           <costs>
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                             <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -11849,7 +11938,7 @@ casting Spells.</description>
                                 <infoLink name="Mortal Poison" id="03a0-2e7f-37c9-d04c" hidden="false" type="profile" targetId="a3cb-652e-28b9-1143"/>
                               </infoLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Cost (1d6+3 Each)" hidden="false" id="0f8d-4d04-65f3-6af1" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Cost (1d8+3 Each)" hidden="false" id="0f8d-4d04-65f3-6af1" sortIndex="1">
                               <modifiers>
                                 <modifier type="increment" value="1" field="6752-9e0b-692e-d5b9" scope="parent">
                                   <repeats>
@@ -11866,7 +11955,7 @@ casting Spells.</description>
                                         <conditionGroup type="or">
                                           <conditions>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5cc4-2b49-db31-2883" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                                           </conditions>
                                         </conditionGroup>
@@ -12142,7 +12231,6 @@ casting Spells.</description>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="de26-f984-86f3-4e6d" collective="true" sortIndex="1">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12161,7 +12249,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="05a4-088a-09ad-c953" collective="true" sortIndex="5">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12180,7 +12267,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Block" hidden="false" id="b406-6ace-8fc1-b231" collective="true" sortIndex="3">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12199,7 +12285,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="f13d-683c-50e9-856d" collective="true" sortIndex="4">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12218,7 +12303,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Concealment" hidden="false" id="aa4a-5153-f87e-bb2a" collective="true" sortIndex="6">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12237,7 +12321,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="2996-5f5c-1942-4c6a" collective="true" sortIndex="2">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12256,7 +12339,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Awareness" hidden="false" id="5194-740e-0971-5939" collective="true" sortIndex="7">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12275,7 +12357,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="2d87-caf3-d88a-d3cb" collective="true" sortIndex="7">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12294,7 +12375,6 @@ casting Spells.</description>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Upgrade Presence" hidden="false" id="ae34-ba08-a532-75d4" collective="true" sortIndex="8">
                   <modifiers>
-                    <modifier type="replace" value="d20" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d12" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d10" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                     <modifier type="replace" value="d8" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -12323,12 +12403,47 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f385-809b-4043-d916-max"/>
               </constraints>
               <modifiers>
+                <modifier type="increment" value="1" field="f385-809b-4043-d916-min">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="f7c6-43b1-6766-a6a6" shared="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="fa3a-2aee-e786-7041" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" value="1" field="f385-809b-4043-d916-max">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="f7c6-43b1-6766-a6a6" shared="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
+                            <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="fa3a-2aee-e786-7041" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
                 <modifier type="set" value="false" field="hidden">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
                         <condition type="equalTo" value="1" field="selections" scope="root-entry" childId="fa3a-2aee-e786-7041" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="f7c6-43b1-6766-a6a6" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -12554,6 +12669,15 @@ casting Spells.</description>
                       <infoLinks>
                         <infoLink name="Spell Breaker" id="df9e-3a40-b2c6-9afd" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
                       </infoLinks>
+                      <modifiers>
+                        <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="3f72-43b6-4394-9ce8" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="db0d-61e8-7f58-14ca" sortIndex="16">
                       <infoLinks>
@@ -12607,7 +12731,7 @@ casting Spells.</description>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Strenght Skills" id="5e5a-5e19-6f8c-464e" hidden="false" sortIndex="4">
+                <selectionEntryGroup name="Strength Skills" id="5e5a-5e19-6f8c-464e" hidden="false" sortIndex="4">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="2876-e50f-fc21-2a1e" sortIndex="1"/>
                     <selectionEntry type="upgrade" import="true" name="Tough" hidden="false" id="7cb0-670d-f3f3-93f7" sortIndex="2">
@@ -12767,9 +12891,9 @@ casting Spells.</description>
                         <infoLink name="Fighting Mount" id="4d2f-b740-a957-c967" hidden="false" targetId="02f4-b317-c0af-0391" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="b7d5-324c-8c97-b7e7" sortIndex="7">
+                    <selectionEntry type="upgrade" import="true" name="Otherworldly" hidden="false" id="b7d5-324c-8c97-b7e7" sortIndex="7">
                       <infoLinks>
-                        <infoLink name="Otherwordly" id="4291-1c9a-3a43-476e" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+                        <infoLink name="Otherworldly" id="4291-1c9a-3a43-476e" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Unreliable" hidden="false" id="c9f7-aea0-0064-1556" sortIndex="11">
@@ -13599,7 +13723,7 @@ casting Spells.</description>
         </selectionEntryGroup>
         <selectionEntryGroup name="Expert Training" id="def0-c21c-1cd9-aa3e" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
           <modifiers>
-            <modifier type="add" value="Starting bonus (2 in force)" field="info">
+            <modifier type="add" value="Starting bonus (3 in force)" field="info">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -13608,9 +13732,7 @@ casting Spells.</description>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -13632,7 +13754,7 @@ casting Spells.</description>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="86f1-d0df-c6f8-de56" collective="true" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="86f1-d0df-c6f8-de56" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -13651,7 +13773,7 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7794-8722-9e42-f291"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="bf9e-a90b-b49f-ca4c" collective="true" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="bf9e-a90b-b49f-ca4c" collective="true" sortIndex="2">
               <modifiers>
                 <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -13675,7 +13797,7 @@ casting Spells.</description>
             <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="45ed-3f90-364d-be28" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4872-1bf5-5050-f732"/>
           </constraints>
-          <comment>3 choices</comment>
+          <comment>3 choices (Kindred)</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Quick and Quiet" id="d5ca-8c03-982f-67bc" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="35">
           <modifiers>
@@ -13683,7 +13805,7 @@ casting Spells.</description>
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
                   </conditions>
                 </conditionGroup>
@@ -13850,6 +13972,7 @@ casting Spells.</description>
                 <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d6" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
               </modifiers>
               <profiles>
                 <profile name="Fortitude Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="a84e-c5a4-7559-9565">
@@ -14014,7 +14137,6 @@ casting Spells.</description>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="5ad5-ee10-fdde-0de3" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14034,7 +14156,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="d9ae-7954-0bbf-0240" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14054,7 +14175,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Block" hidden="false" id="1e77-8669-d723-a600" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14074,7 +14194,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="c380-bd7d-7ef0-3ffc" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14094,7 +14213,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="986c-850d-b08e-367a" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14114,7 +14232,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Concealment" hidden="false" id="50fe-f8fe-8a7a-e9f4" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14134,7 +14251,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Awareness" hidden="false" id="4e0d-b97e-5013-2e73" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14154,7 +14270,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="8080-5f57-2389-5903" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14174,7 +14289,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Presence" hidden="false" id="4fbe-3dd9-e5e6-8458" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14197,6 +14311,129 @@ casting Spells.</description>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="737b-3f4a-94c9-be6a" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="62cc-0cdb-a475-fff7"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Stable Ghast" id="f35e-50f5-3d3d-5ad3" hidden="true" collapsible="true" sortIndex="37">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stable Ghast" hidden="false" id="f7c6-43b1-6766-a6a6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96cd-a1a6-6e80-55a9"/>
+              </constraints>
+              <costs>
+                <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="15"/>
+              </costs>
+              <profiles>
+                <profile name="Stable Ghast" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="b888-8175-2349-d039">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">An ancient champion. Signing-on Fee: as the living Species, plus 15 Pennies. This model can increase one Statistic by one dice level (no Stat higher than d12 in a starting Band) and may choose one extra Skill. They count as two Levels higher than their Species would normally be at Band creation. They also have the Skills Otherworldly and Uncanny. If the Leader is a Stable Ghast, that model does not have the Skill Otherworldly, but the Band may only include Stable Ghasts and Mist Ghasts. Stable Ghasts may not Wander in the Off-Duty section of the Post-Battle Phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Uncanny" id="859a-9dba-5aec-e85b" hidden="false" type="rule" targetId="5b6f-35fa-f074-0bc9"/>
+                <infoLink name="Otherworldly" id="a708-4c3a-c5c5-856d" hidden="false" type="rule" targetId="eb29-6a42-8676-1ed1">
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5a26-2dc0-257a-5c6c" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" value="2" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ancient Champion: Statistic Increase" id="efaf-9d44-8f62-8d8a" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="87da-9513-9be6-f868"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd0b-d2d9-0610-908a"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="aa5e-626d-f407-a2a4">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="1e37-0a14-a48e-6cf3">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Block" hidden="false" id="81f6-7151-b02d-c40f">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="973e-9c70-c1b0-79a7" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="5431-06f5-faca-87c9">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="f3a5-65d7-025a-36d0">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Concealment" hidden="false" id="a0f3-c89d-7801-c1c9">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="d4c0-ccdb-b645-bd70" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Awareness" hidden="false" id="2204-fd0a-de33-189e">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="e482-eed4-6daa-ca70" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="6b22-d765-622a-ab20">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Presence" hidden="false" id="8c66-99d2-c8dd-a514">
+                      <modifiers>
+                        <modifier type="replace" value="d12" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d10" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d8" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                        <modifier type="replace" value="d6" field="855b-25d5-4575-cabb" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                      </modifiers>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Fast and Furious" id="02f4-30ec-62ca-0ce3" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="32">
           <modifiers>
@@ -14223,7 +14460,6 @@ casting Spells.</description>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Upgrade Movement" hidden="false" id="2909-dcbe-9b13-b57d" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14243,7 +14479,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Nimbleness" hidden="false" id="6b65-24fe-813c-c295" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14263,7 +14498,6 @@ casting Spells.</description>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Fortitude" hidden="false" id="bb84-39aa-4311-c614" collective="true">
               <modifiers>
-                <modifier type="replace" value="d20" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="c395-16b3-3435-da18" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -14298,9 +14532,7 @@ casting Spells.</description>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -14314,7 +14546,6 @@ casting Spells.</description>
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -14323,7 +14554,7 @@ casting Spells.</description>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="cc6f-c178-abae-4058" collective="true" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="cc6f-c178-abae-4058" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -14342,7 +14573,7 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b6e-e464-f972-797e"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="d9b3-5ebb-d7a2-3533" collective="true" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="d9b3-5ebb-d7a2-3533" collective="true" sortIndex="2">
               <modifiers>
                 <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -14366,7 +14597,66 @@ casting Spells.</description>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="01b6-1cc2-091c-65bc" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="73ed-2085-42aa-9a15"/>
           </constraints>
-          <comment>2 choices</comment>
+          <comment>2 choices (Routiers)</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Expert Training" id="edd0-09cf-c745-57b4" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
+          <modifiers>
+            <modifier type="add" value="Starting bonus (2 in force)" field="info">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="876d-9c91-25d7-af4f" collective="true" sortIndex="1">
+              <modifiers>
+                <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+              </modifiers>
+              <profiles>
+                <profile name="Strike Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="3477-8374-478f-a990">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Strike Statistic of this unit has been upgraded.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c14-a8f7-831b-16d5"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4772-8d26-688a-1136" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ff96-9a02-f2e3-ab28"/>
+          </constraints>
+          <comment>2 choices (Royalists)</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Old Campaigners &amp; Raw Recruits" id="40db-4e96-b4cb-d297" hidden="true" sortIndex="20">
           <selectionEntries>
@@ -14769,6 +15059,15 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee56-9e6d-7a1b-1c51"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="3f72-43b6-4394-9ce8" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="8d28-b912-01c9-b483" sortIndex="16">
                   <infoLinks>
@@ -14852,7 +15151,7 @@ casting Spells.</description>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Strenght Skills" id="e36c-597e-097d-cc0b" hidden="false" sortIndex="4">
+            <selectionEntryGroup name="Strength Skills" id="e36c-597e-097d-cc0b" hidden="false" sortIndex="4">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="d8c1-7b0c-33a9-d71e" sortIndex="1">
                   <constraints>
@@ -15103,9 +15402,9 @@ casting Spells.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d19-fda5-b73c-f7c3"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="8550-6c5a-40a2-f255" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Otherworldly" hidden="false" id="8550-6c5a-40a2-f255" sortIndex="7">
                   <infoLinks>
-                    <infoLink name="Otherwordly" id="f708-39e1-18e0-fd0b" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+                    <infoLink name="Otherworldly" id="f708-39e1-18e0-fd0b" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0746-7964-ba6f-be65"/>
@@ -15237,7 +15536,7 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c2e-b99e-a335-8b98"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Chest Wound" id="2d9e-1814-3528-baea" hidden="false" type="profile" targetId="5dc8-2d59-2807-0f9f"/>
+                <infoLink name="Nervous Condition" id="2d9e-1814-3528-baea" hidden="false" type="profile" targetId="bf59-7ad6-abbb-74fa"/>
               </infoLinks>
               <modifiers>
                 <modifier type="replace" value="d4" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
@@ -15245,6 +15544,21 @@ casting Spells.</description>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upper Leg Trauma" hidden="false" id="a934-08fc-1dd0-ff5f" sortIndex="0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36d6-27a9-f950-0a0c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Upper Leg Trauma" id="9730-5cde-1317-6233" hidden="false" type="profile" targetId="6560-6a07-f299-0072"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="replace" value="d4" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Chest Wound" hidden="false" id="c9e1-3280-a130-e968" sortIndex="2">
@@ -15296,7 +15610,11 @@ casting Spells.</description>
               </constraints>
               <infoLinks>
                 <infoLink name="Enfeebled" id="0f04-1a26-cf64-271c" hidden="false" type="profile" targetId="ba66-8baf-66cc-0c2f"/>
-                <infoLink name="Delicate" id="8c6a-33b2-c8df-2f13" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                <infoLink name="Weak" id="8c6a-33b2-c8df-2f13" hidden="false" type="profile" targetId="1287-15af-a0b2-cc20">
+                  <modifiers>
+                    <modifier type="set" value="1" field="annotation"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Grotesque Appearance" hidden="false" id="576f-ceb3-3100-0135" sortIndex="6">
@@ -15444,14 +15762,31 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1693-d4de-0e29-e81b"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Chest Wound" id="9c00-c9c1-18bd-a16a" hidden="false" type="profile" targetId="5dc8-2d59-2807-0f9f"/>
+                <infoLink name="Nervous Condition" id="9c00-c9c1-18bd-a16a" hidden="false" type="profile" targetId="bf59-7ad6-abbb-74fa"/>
               </infoLinks>
               <modifiers>
+                <modifier type="decrement" value="1" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
                 <modifier type="replace" value="d4" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d6" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d8" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d12" field="04d3-8db0-e5d0-b1a5" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upper Leg Trauma" hidden="false" id="1815-9dd9-5107-e278" sortIndex="0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="280a-d023-a618-001c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Upper Leg Trauma" id="76f4-f625-ce6c-fd5c" hidden="false" type="profile" targetId="6560-6a07-f299-0072"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="decrement" value="1" field="659a-f40f-dc29-33bf" affects="profiles.Unit" scope="root-entry"/>
+                <modifier type="replace" value="d4" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d12" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d12" field="e8dc-4636-129f-5901" affects="profiles.Unit" arg="d20" position="0" scope="root-entry"/>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Chest Wound" hidden="false" id="3ee0-9594-5611-3d50" sortIndex="2">
@@ -15508,7 +15843,11 @@ casting Spells.</description>
               </constraints>
               <infoLinks>
                 <infoLink name="Enfeebled" id="1c30-889e-09a4-2ae6" hidden="false" type="profile" targetId="ba66-8baf-66cc-0c2f"/>
-                <infoLink name="Delicate" id="d6c2-96cf-1b81-9dad" hidden="false" type="profile" targetId="1587-89e8-db20-dd5e"/>
+                <infoLink name="Weak" id="d6c2-96cf-1b81-9dad" hidden="false" type="profile" targetId="1287-15af-a0b2-cc20">
+                  <modifiers>
+                    <modifier type="set" value="1" field="annotation"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <modifiers>
                 <modifier type="decrement" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
@@ -15623,6 +15962,116 @@ casting Spells.</description>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Temporary Injuries (remove after next Battle)" id="bd8a-33b7-9b50-b9b8" hidden="false" collapsible="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Deep Lacerations (misses next Battle)" hidden="false" id="5e62-d6e8-c486-d3de" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ab8-effc-817a-dfab"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Deep Lacerations" id="135c-16e4-dbd9-8e07" hidden="false" type="profile" targetId="bee3-e2d0-f44d-bf45"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Laid Up (next Battle)" hidden="false" id="1ddf-3542-4fff-2726" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5263-0eb8-2399-15eb"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Laid Up" id="f0a2-5961-44f9-ed3b" hidden="false" type="profile" targetId="161f-a990-e04d-42df"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Took a Real Beating (next Battle)" hidden="false" id="f946-d2d9-70b3-558c" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f692-339b-e04d-8578"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Took a Real Beating" id="a260-630f-024b-bc81" hidden="false" type="profile" targetId="ddd7-d9d9-bab8-ecee"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bad Wound (next Battle)" hidden="false" id="1f55-985a-994f-8948" sortIndex="4">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5564-a1e3-94c5-1c0a"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Bad Wound" id="3adc-bbc8-7dbe-29ad" hidden="false" type="profile" targetId="f34e-2dd1-02d6-a48a"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Slow Recovery (next Battle)" hidden="false" id="bb91-67ce-afaf-6508" sortIndex="5">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9feb-6a0d-0a4b-4683"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Slow Recovery" id="3826-6c36-ec7c-f54b" hidden="false" type="profile" targetId="b035-9796-2a6e-6a59"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Blurred Vision (next Battle)" hidden="false" id="a698-4553-68b0-4e22" sortIndex="6">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f41a-762f-6855-a907"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Blurred Vision" id="b378-48fb-e362-3ef4" hidden="false" type="profile" targetId="76b5-2dac-d25f-feab"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shaken (next Battle)" hidden="false" id="7dfd-0b3b-a57f-4d4d" sortIndex="7">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0cb-0bc8-4230-e4e2"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Shaken" id="d53c-81c9-f965-7e29" hidden="false" type="profile" targetId="f9f9-4e0b-68fb-c734"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scared (next Battle)" hidden="false" id="a63e-e101-3f56-6b1b" sortIndex="8">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a36-489b-e26d-4bc1"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Scared" id="cb89-ccda-c723-8f9c" hidden="false" type="profile" targetId="17bc-f5bd-d19b-e534"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Stiff Limbs (next Battle)" hidden="false" id="fe1d-6000-317b-3a69" sortIndex="9">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a90-d3c9-11a0-2a4b"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Stiff Limbs" id="f44c-4369-bb5c-272d" hidden="false" type="profile" targetId="d766-f71f-6189-6dd0"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Groggy (next Battle)" hidden="false" id="02db-6361-49ba-a95d" sortIndex="10">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="262a-efdf-fe29-46ee"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Groggy" id="a588-7624-ae5d-ce67" hidden="false" type="profile" targetId="da0a-082d-5d21-9046"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Dodgy Shoulder (next Battle)" hidden="false" id="431c-9034-0190-3b31" sortIndex="11">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9283-cead-8edd-04d6"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Dodgy Shoulder" id="04dc-8faa-d9ae-486f" hidden="false" type="profile" targetId="87db-90d2-d2df-4107"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pulled a Muscle (next Battle)" hidden="false" id="58ad-e858-8fe3-ec6c" sortIndex="12">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a4d-04ae-2a77-373a"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Pulled a Muscle" id="d11b-a532-eb86-089e" hidden="false" type="profile" targetId="cdd3-f1ae-bedc-aa3c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bruising (next Battle)" hidden="false" id="95c1-d6cb-8d29-877a" sortIndex="13">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ea3-2ab6-a344-8eb1"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Heavy Bruising" id="c948-dffe-893f-8f2a" hidden="false" type="profile" targetId="97a4-6989-a359-59d9"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup name="Old Campaigner Upgrades" id="a588-f27c-bed6-097d" hidden="true" flatten="false" sortIndex="23">
           <selectionEntryGroups>
@@ -16909,6 +17358,13 @@ casting Spells.</description>
                   </constraints>
                   <modifiers>
                     <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                    <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="3f72-43b6-4394-9ce8" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="f3a5-4a2c-b744-19ee" sortIndex="16">
@@ -17023,7 +17479,7 @@ casting Spells.</description>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Strenght Skills" id="4131-9b76-d724-3a4c" hidden="false" sortIndex="4">
+            <selectionEntryGroup name="Strength Skills" id="4131-9b76-d724-3a4c" hidden="false" sortIndex="4">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Strong" hidden="false" id="bea4-5ea9-b370-6a8c" sortIndex="1">
                   <constraints>
@@ -17365,9 +17821,9 @@ casting Spells.</description>
                     <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Otherwordly" hidden="false" id="598e-4578-a098-72d1" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Otherworldly" hidden="false" id="598e-4578-a098-72d1" sortIndex="7">
                   <infoLinks>
-                    <infoLink name="Otherwordly" id="2f7c-b7b5-123f-fa24" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
+                    <infoLink name="Otherworldly" id="2f7c-b7b5-123f-fa24" hidden="false" targetId="eb29-6a42-8676-1ed1" type="rule"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e26b-d897-9e5e-f284"/>
@@ -17579,6 +18035,8 @@ Important: Advance features are a work in progress!" field="info"/>
             <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
@@ -17678,7 +18136,7 @@ If the model is pushed into another model, they stop and both models suffer d6 W
 If the casting model is at least 3” higher up than the target model, reduce the distance they are pushed by 2” and add 2 to any Wounds caused.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Dragonfly Wings: The target model is Pushed an extra 2”, and any Wounds caused by the spell are increased by 2.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Natural</characteristic>
-        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to push the target an additional d6 inches.</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to push the target model 2d6” instead of d6”, and increase any Wounds caused to 2d6.</characteristic>
       </characteristics>
     </profile>
     <profile hidden="false" id="a7c4-4f2b-4a9e-b8c1" name="Bless" typeId="3d26-fa01-dac8-537b" typeName="Spell">
@@ -17920,7 +18378,7 @@ Measure the largest dimension of the Terrain piece in inches. If the Cast Roll-o
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model gains the Condition ‘Burning’.
 - Brimstone: The Spell affects the target model and any models within 2” of the target.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Unbound</characteristic>
-        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to increase the damage dealt or range (specify in rules if needed).</characteristic>
+        <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c">The caster may spend a Fate point to have the spell affect all models within 4” of the target model.</characteristic>
       </characteristics>
     </profile>
     <profile hidden="false" id="d7f2-4c9a-4b3e-81a5" name="Burramorr&apos;s Distant Fracturing" typeId="3d26-fa01-dac8-537b" typeName="Spell">
@@ -18306,7 +18764,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target takes Wounds equal to the Cast Roll-off Result. These are reduced by Armour and Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model takes an additional d4 Wounds.
 - Brimstone: The target model also gains the Condition ‘Burning’.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Fire)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18318,7 +18776,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model suffers d6 Wounds, not reduced by Armour or Tough Skills. Add the value of any Tough from Armour to the Wounds inflicted.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The Spell is automatically Cast without a Roll-off.
 - Brimstone: The spell causes an additional +2 Wounds.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Fire)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18329,7 +18787,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;, Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is utterly soaked and any Bow, War Bow, Light Crossbow, Heavy Crossbow, or Black Powder weapons they have are useless for the rest of the game.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Water)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18340,7 +18798,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell inflicts d6 Wounds, unmodified by Armour or Tough Skills, on a single enemy model. This enemy model suffers a further d6 Wounds at the start of every Turn. This Spell ends if the Line of Sight between the two models is broken by Terrain.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Water)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18351,7 +18809,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Any Block or Nimbleness dice that the caster, or any friendly model within 4” of the caster’s base, rolls to Defend this Turn have a +2 modifier.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Ground Obsidian: The spell may be cast on any friendly model, and will affect them and any friendly model within 4” of them; the caster must have Line of Sight to the target model.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Earth)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18363,7 +18821,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model takes d8 Wounds. These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Amber Bead: The spell affects the target and any enemy within 4” of them.
 - Haematite: The target(s) suffer an additional +3 Wounds.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Earth)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18374,7 +18832,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Every model on the table, both friend and foe, rolls a dice (a d8 for friends, a d6 for enemies) and subtracts any Tough gained from Armour or Skills. If the result is 1 or less, they have been struck by lightning! Any models struck by lightning take d8 Wounds; these are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Air)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18383,9 +18841,9 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Description" typeId="3a00-157a-a112-b946">The winds howl, and twisting currents of air swirl around the battlefield.</characteristic>
         <characteristic name="Difficulty" typeId="6827-4c1e-91ed-6fcc">5</characteristic>
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
-        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All Shoot Actions have a -2 modifier and any movement using the Flight Skill is treated as in Difficult Terrain (i.e. roll a d12, rather than just moving 12”). Lasts until the caster takes a Wound or the effect is otherwise ended.</characteristic>
+        <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All Shoot Actions have a -2 modifier and any movement using the Flight Skill is treated as in Difficult Terrain (i.e. roll a d12, rather than just moving 12”). Lasts until the caster takes a Wound.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Air)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18407,7 +18865,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Base Contact</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds. The target model suffers Wounds equal to the Result, ignoring any Armour or Skills. The caster may restore one Wound to themselves for every two Wounds caused.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Mandrake: Add +2 to the caster’s roll.
-- Blood Wort: The caster may restore one Wound to themselves for every Wound caused.</characteristic>
+- Bloodwort: The caster may restore one Wound to themselves for every Wound caused.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
@@ -18525,33 +18983,30 @@ Skill level to any Wounds they suffer.</characteristic>
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Adds +1 to all Strike Roll-offs.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Adds +1 to all Strike Roll-offs and counts as having the Strong (1) skill.  This Weapon cannot be used with a Buckler, Light Shield, or Heavy Shield.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1)</characteristic>
-        <characteristic name="Bonus level" typeId="e73e-51e6-ce3b-e8bd"/>
       </characteristics>
     </profile>
     <profile name="Spear" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c007-f001-735a-f58f">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Spear</characteristic>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A model armed with a Spear adds +1 to Strike rolls.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A model armed with a Spear adds +1 to Strike rolls.  This weapon may be used with a Buckler, Light Shield, or Heavy Shield, but, if so, it becomes unwieldy and the model may not make Charge or Barge Actions.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985"/>
-        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="Rondel dagger" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="e450-7f73-39e3-1f7d">
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1"/>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A Rondel dagger is short and difficult to wield effectively. All Strike and Block rolls made while using a Rondel dagger count as Unarmed, even for models with the Unarmed Fighter Skill, so have a -2 penalty.  Ignore Tough bonuses from Armour.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A Rondel dagger is short and difficult to wield effectively. All Strike and Block rolls made while using a Rondel dagger count as Unarmed, even for models with the Unarmed Fighter Skill, so have a -2 penalty, but have Strong (1), and Ignore Tough bonuses from Armour.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1), Unarmed</characteristic>
-        <characteristic typeId="e73e-51e6-ce3b-e8bd" name="Bonus level"/>
       </characteristics>
     </profile>
     <profile name="War Bow" typeId="b77e-1f4c-504e-e598" typeName="Weapon" hidden="false" id="c988-cf80-de76-d607">
@@ -19290,6 +19745,15 @@ successful, no Wounds are applied, but your enemy is entangled and has the Condi
         <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
       </characteristics>
     </profile>
+    <profile name="Bagpipes" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="6c2f-a929-12fd-32c6">
+      <characteristics>
+        <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
+        <characteristic name="Availability" typeId="ea00-6e44-66df-77ec">-</characteristic>
+        <characteristic name="Rules" typeId="965b-1eff-1569-fb74">Hillfolk only (Fabled Pipers). The model carrying the Bagpipes is the Band’s Piper; you may only have one Piper in a Band at any time. The Piper may use an Interact Action to play one tune (Strathspey, Hornpipe, Jig, March, or Reel) and apply its effects until the end of the Turn. Models equipped with Heavy Armour, Very Heavy Armour, or a Heavy Shield do not benefit from the tune’s effects.</characteristic>
+        <characteristic name="Keywords" typeId="d060-38f7-c160-776c">-</characteristic>
+        <characteristic name="Type" typeId="f67c-4a22-9c29-7d45">Item</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Mirroring Talisman" typeId="dbe8-f061-170a-effa" typeName="Item" hidden="false" id="fd4d-8e4e-9992-8106">
       <characteristics>
         <characteristic name="Rarity" typeId="9486-096d-494d-29cd">Rare</characteristic>
@@ -19721,6 +20185,76 @@ Light Shield: +2 to all Defend rolls that use Block. May choose to use Block fo
 The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 15 Pennies to your Band’s Pension.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Upper Leg Trauma" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="6560-6a07-f299-0072">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model’s femur has been broken, and tendons severed. Their Move Statistic is reduced by one dice level (e.g. d8 becomes d6). If their Move is already d4, they now have the Slow skill. This reduces the model’s Level by 1. The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 15 Pennies to your Band’s Pension.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deep Lacerations" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="bee3-e2d0-f44d-bf45">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model has suffered serious cuts and must lay up to recover; they miss the next game. They may do nothing at all while recovering, so must choose to Rest during Step 4 of this Post-Battle Phase. This temporarily reduces your Band Rating.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Laid Up" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="161f-a990-e04d-42df">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model may only choose to Rest in Step 4 of this Post-Battle Phase and must miss the next Battle while they recover. This temporarily reduces your Band Rating.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Took a Real Beating" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="ddd7-d9d9-bab8-ecee">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model has the Condition ‘Stunned’ for the whole of the next Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bad Wound" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="f34e-2dd1-02d6-a48a">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model may only choose to Rest in Step 4 of this Post-Battle Phase and rolls d4+3 (i.e. possible results of 4 to 7) on the Major Injuries Table and suffers that Injury for the next Battle only; it’s a temporary injury.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slow Recovery" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="b035-9796-2a6e-6a59">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model rolls a d8 and starts the next Battle with that many Wounds already marked off on their Roster.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blurred Vision" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="76b5-2dac-d25f-feab">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, any time the model declares an Action targeted on a model, they must roll their Awareness Stat and add +6. This is their current visual range and is the maximum distance in inches that they can see at that time. If the target model is further away, they cannot be seen, and the Action fails and is lost.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shaken" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="f9f9-4e0b-68fb-c734">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, any time this model rolls a 1, they gain the Condition ‘Paralysed’ for the rest of the Turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scared" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="17bc-f5bd-d19b-e534">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, this model views all enemies as having the Skill ‘Fearsome’ for the whole of the Battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stiff Limbs" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="d766-f71f-6189-6dd0">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, all movement by this model is treated as if in Difficult Terrain. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Groggy" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="da0a-082d-5d21-9046">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, both of the model’s Fortitude and Presence are reduced to d6. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dodgy Shoulder" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="87db-90d2-d2df-4107">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, the model counts all Ranged rolls as having a -2 modifier. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pulled a Muscle" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="cdd3-f1ae-bedc-aa3c">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">During the next Battle, the model counts all Strike rolls as having a -2 modifier. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Bruising" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="97a4-6989-a359-59d9">
+      <characteristics>
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model rolls a d4 and starts the next Battle with that many Wounds already marked off on their Roster. This may be ignored if the model chooses to Rest in Step 4 of the Post-Battle Phase.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Nervous Condition" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="bf59-7ad6-abbb-74fa">
       <characteristics>
         <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The model has taken damage to their nervous system and suffers a loss of motor control. Their Nimbleness Stat is reduced by one dice level (e.g. d8 becomes d6). This reduces the model’s Level by 1. 
@@ -19746,7 +20280,7 @@ This reduces the model’s Level by 1. The model may only choose to Rest in Step
     </profile>
     <profile name="Enfeebled" typeId="c564-0458-abff-ca8d" typeName="Injury" hidden="false" id="ba66-8baf-66cc-0c2f">
       <characteristics>
-        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The wounds the model has suffered leave them feeble and puny; they gain the Delicate (1) Skill. 
+        <characteristic name="Effect" typeId="71cc-c85d-9474-2bed">The wounds the model has suffered leave them feeble and puny; they gain the Weak (1) Skill (FAQ &amp; Errata, May 2025). 
 
 This reduces the model’s Level by 1. The model may only choose to Rest in Step 4 of this Post-Battle Phase. Add 20 Pennies to your Band’s Pension.</characteristic>
       </characteristics>
