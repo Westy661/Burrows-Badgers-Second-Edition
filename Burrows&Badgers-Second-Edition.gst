@@ -376,7 +376,9 @@ The model gains Tough (3) against any Shoot Actions.</description>
 Some beasts just seem blessed with good fortune; this model is one of them. The model can replace any of their Roll-off Totals (i.e. the Stat dice roll +/- any modifiers that apply) with a 13.</description>
     </rule>
     <rule hidden="false" id="d8a5-2900-6279-337c" name="Spell Breaker">
-      <description>Once per Turn, this model may attempt to stop a Spell that has been successfully cast within 12”; make a Fortitude Roll-off versus the caster’s Fortitude. If the model wins the Roll-off, the Spell fails.</description>
+      <description>Requirements: Must have Resist Magic
+
+Once per Turn, this model may attempt to stop a Spell that has been successfully cast within 12”; make a Fortitude Roll-off versus the caster’s Fortitude. If the model wins the Roll-off, the Spell fails.</description>
       <alias>Cunning</alias>
     </rule>
     <rule hidden="false" id="f9da-bf41-b3a8-62d4" name="Spell Eater">
@@ -12667,6 +12669,15 @@ casting Spells.</description>
                       <infoLinks>
                         <infoLink name="Spell Breaker" id="df9e-3a40-b2c6-9afd" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
                       </infoLinks>
+                      <modifiers>
+                        <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="3f72-43b6-4394-9ce8" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="db0d-61e8-7f58-14ca" sortIndex="16">
                       <infoLinks>
@@ -13712,7 +13723,7 @@ casting Spells.</description>
         </selectionEntryGroup>
         <selectionEntryGroup name="Expert Training" id="def0-c21c-1cd9-aa3e" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
           <modifiers>
-            <modifier type="add" value="Starting bonus (2 in force)" field="info">
+            <modifier type="add" value="Starting bonus (3 in force)" field="info">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
@@ -13721,9 +13732,7 @@ casting Spells.</description>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -13745,7 +13754,7 @@ casting Spells.</description>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="86f1-d0df-c6f8-de56" collective="true" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="86f1-d0df-c6f8-de56" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -13764,7 +13773,7 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7794-8722-9e42-f291"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="bf9e-a90b-b49f-ca4c" collective="true" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="bf9e-a90b-b49f-ca4c" collective="true" sortIndex="2">
               <modifiers>
                 <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -13788,7 +13797,7 @@ casting Spells.</description>
             <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="45ed-3f90-364d-be28" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4872-1bf5-5050-f732"/>
           </constraints>
-          <comment>3 choices</comment>
+          <comment>3 choices (Kindred)</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Quick and Quiet" id="d5ca-8c03-982f-67bc" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="35">
           <modifiers>
@@ -14523,9 +14532,7 @@ casting Spells.</description>
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -14539,7 +14546,6 @@ casting Spells.</description>
                     <conditionGroup type="or">
                       <conditions>
                         <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -14548,7 +14554,7 @@ casting Spells.</description>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="cc6f-c178-abae-4058" collective="true" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="cc6f-c178-abae-4058" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -14567,7 +14573,7 @@ casting Spells.</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b6e-e464-f972-797e"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="d9b3-5ebb-d7a2-3533" collective="true" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Upgrade Ranged" hidden="false" id="d9b3-5ebb-d7a2-3533" collective="true" sortIndex="2">
               <modifiers>
                 <modifier type="replace" value="d12" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
                 <modifier type="replace" value="d10" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
@@ -14591,7 +14597,66 @@ casting Spells.</description>
             <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="01b6-1cc2-091c-65bc" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="73ed-2085-42aa-9a15"/>
           </constraints>
-          <comment>2 choices</comment>
+          <comment>2 choices (Routiers)</comment>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Expert Training" id="edd0-09cf-c745-57b4" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
+          <modifiers>
+            <modifier type="add" value="Starting bonus (2 in force)" field="info">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="cee3-9887-9ffb-1cae" shared="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="876d-9c91-25d7-af4f" collective="true" sortIndex="1">
+              <modifiers>
+                <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+              </modifiers>
+              <profiles>
+                <profile name="Strike Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="3477-8374-478f-a990">
+                  <characteristics>
+                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Strike Statistic of this unit has been upgraded.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c14-a8f7-831b-16d5"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4772-8d26-688a-1136" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ff96-9a02-f2e3-ab28"/>
+          </constraints>
+          <comment>2 choices (Royalists)</comment>
         </selectionEntryGroup>
         <selectionEntryGroup name="Old Campaigners &amp; Raw Recruits" id="40db-4e96-b4cb-d297" hidden="true" sortIndex="20">
           <selectionEntries>
@@ -14994,6 +15059,15 @@ casting Spells.</description>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee56-9e6d-7a1b-1c51"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="3f72-43b6-4394-9ce8" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="8d28-b912-01c9-b483" sortIndex="16">
                   <infoLinks>
@@ -17284,6 +17358,13 @@ casting Spells.</description>
                   </constraints>
                   <modifiers>
                     <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                    <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="3f72-43b6-4394-9ce8" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="f3a5-4a2c-b744-19ee" sortIndex="16">
@@ -18683,7 +18764,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target takes Wounds equal to the Cast Roll-off Result. These are reduced by Armour and Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The target model takes an additional d4 Wounds.
 - Brimstone: The target model also gains the Condition ‘Burning’.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Fire)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18695,7 +18776,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model suffers d6 Wounds, not reduced by Armour or Tough Skills. Add the value of any Tough from Armour to the Wounds inflicted.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Saltpetre: The Spell is automatically Cast without a Roll-off.
 - Brimstone: The spell causes an additional +2 Wounds.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Fire)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18706,7 +18787,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">24&quot;, Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model is utterly soaked and any Bow, War Bow, Light Crossbow, Heavy Crossbow, or Black Powder weapons they have are useless for the rest of the game.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Water)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18717,7 +18798,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">18&quot;, Shooting Spell</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell inflicts d6 Wounds, unmodified by Armour or Tough Skills, on a single enemy model. This enemy model suffers a further d6 Wounds at the start of every Turn. This Spell ends if the Line of Sight between the two models is broken by Terrain.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Water)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18728,7 +18809,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Any Block or Nimbleness dice that the caster, or any friendly model within 4” of the caster’s base, rolls to Defend this Turn have a +2 modifier.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Ground Obsidian: The spell may be cast on any friendly model, and will affect them and any friendly model within 4” of them; the caster must have Line of Sight to the target model.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Earth)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18740,7 +18821,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">The target model takes d8 Wounds. These are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Amber Bead: The spell affects the target and any enemy within 4” of them.
 - Haematite: The target(s) suffer an additional +3 Wounds.</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Earth)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18751,7 +18832,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">Every model on the table, both friend and foe, rolls a dice (a d8 for friends, a d6 for enemies) and subtracts any Tough gained from Armour or Skills. If the result is 1 or less, they have been struck by lightning! Any models struck by lightning take d8 Wounds; these are not reduced by Armour but are reduced by Skills in the normal way.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Air)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18762,7 +18843,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Unlimited</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">All Shoot Actions have a -2 modifier and any movement using the Flight Skill is treated as in Difficult Terrain (i.e. roll a d12, rather than just moving 12”). Lasts until the caster takes a Wound.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">None</characteristic>
-        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism</characteristic>
+        <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Elementalism (Air)</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
     </profile>
@@ -18784,7 +18865,7 @@ The dice stay until you have used them all, or you Cast this spell again.</chara
         <characteristic name="Range" typeId="b160-3959-b02a-6f2d">Base Contact</characteristic>
         <characteristic name="Effect" typeId="3c7e-9119-98a7-b064">This Spell is automatically cast, but the target of the Spell will try to Resist; make a Fortitude versus Fortitude Roll-off. If the target model wins the Roll-off or the Roll-off is a draw, the Spell is resisted and fails. If the caster wins, the Spell succeeds. The target model suffers Wounds equal to the Result, ignoring any Armour or Skills. The caster may restore one Wound to themselves for every two Wounds caused.</characteristic>
         <characteristic name="Ingredients" typeId="d202-4fda-9468-13bf">- Mandrake: Add +2 to the caster’s roll.
-- Blood Wort: The caster may restore one Wound to themselves for every Wound caused.</characteristic>
+- Bloodwort: The caster may restore one Wound to themselves for every Wound caused.</characteristic>
         <characteristic name="Archetype" typeId="43c5-5138-7e39-d768">Necromancy</characteristic>
         <characteristic name="Fate Point" typeId="543f-5b57-11a4-e45c"/>
       </characteristics>
