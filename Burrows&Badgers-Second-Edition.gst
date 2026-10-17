@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="15" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="16" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="campaign-test-6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)" />
     <categoryEntry hidden="false" id="campaign-test-9ed2-8233-7200-924b" name="Medium Beast (30mm Base)" />

@@ -23,7 +23,7 @@
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-d2f4-0a91-5c91-88d5" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-9596-18ea-63b3-f690" targetId="campaign-test-6803-87ba-83c4-bd4b" />
         <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-eb84-294d-1be9-5a32" targetId="campaign-test-583b-2cca-fae6-9a19" />
-              
+
       </categoryLinks>
     </forceEntry>
   </forceEntries>

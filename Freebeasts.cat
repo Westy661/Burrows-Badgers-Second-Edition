@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-8e43-6da2-cb09-05cd" name="Freebeasts" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-8e43-6da2-cb09-05cd" name="Freebeasts" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="7" battleScribeVersion="2.03" type="catalogue">
   <forceEntries>
     <forceEntry name="Warband" id="campaign-test-ed54-bfa6-e2bc-d786" hidden="false">
       <costs>
         <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
       </costs>
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="campaign-test-734d-80d0-5220-ef02" targetId="campaign-test-b6a0-9ed3-91e6-1eab" />
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-734d-80d0-5220-ef02" targetId="campaign-test-1bc5-0b8a-1258-293f" />
         <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-4367-7da5-4abd-a62d" targetId="campaign-test-07b2-c48b-e2e1-2c84">
         <constraints>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-3e9c-2925-f00e-41a4" includeChildSelections="false" />
@@ -20,7 +20,7 @@
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-471f-de29-8487-4a99" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-1d03-9044-dda1-a1c5" targetId="campaign-test-6803-87ba-83c4-bd4b" />
         <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-dd99-ff6f-0264-2db7" targetId="campaign-test-583b-2cca-fae6-9a19" />
-              
+
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -59,7 +59,7 @@
   <entryLinks>
     <entryLink import="true" name="Allegiance: Freebeast" hidden="false" id="campaign-test-5cc4-2b49-db31-2883" targetId="campaign-test-6a58-ff86-c0ab-c418" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Allegiance" hidden="false" id="campaign-test-07da-b2b7-310e-d1bc" targetId="campaign-test-b6a0-9ed3-91e6-1eab" primary="true" />
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-07da-b2b7-310e-d1bc" targetId="campaign-test-1bc5-0b8a-1258-293f" primary="true" />
       </categoryLinks>
     </entryLink>
   </entryLinks>
