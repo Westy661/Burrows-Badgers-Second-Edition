@@ -23,6 +23,19 @@
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-d2f4-0a91-5c91-88d5" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-9596-18ea-63b3-f690" targetId="campaign-test-6803-87ba-83c4-bd4b" />
         <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-eb84-294d-1be9-5a32" targetId="campaign-test-583b-2cca-fae6-9a19" />
+              <categoryLink name="Band member" hidden="false" id="campaign-test-c143-3dcf-87af-1b0f" targetId="campaign-test-b4a1-d685-97c2-3f40">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="campaign-test-b469-d6d2-8afc-d032" includeChildSelections="false" />
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="campaign-test-7b4c-83e9-f94b-71fc" includeChildSelections="false" />
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="campaign-test-b469-d6d2-8afc-d032">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

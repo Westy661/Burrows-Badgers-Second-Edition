@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="12" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="13" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="campaign-test-6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)" />
     <categoryEntry hidden="false" id="campaign-test-9ed2-8233-7200-924b" name="Medium Beast (30mm Base)" />
@@ -24,6 +24,7 @@
     <categoryEntry name="Mage-Pouch" id="campaign-test-e17c-5e2a-a513-56f4" hidden="true" />
     <categoryEntry name="Armour" id="campaign-test-2a02-fdaa-6899-58cc" hidden="true" />
     <categoryEntry name="Shield" id="campaign-test-984f-fa2c-adb3-e610" hidden="true" />
+    <categoryEntry name="Band member" id="campaign-test-b4a1-d685-97c2-3f40" hidden="true" />
   </categoryEntries>
   <costTypes>
     <costType defaultCostLimit="350" id="campaign-test-6752-9e0b-692e-d5b9" name="Penny" hidden="false">
@@ -726,6 +727,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-1a7e-cff9-b40b-59a3" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-e040-ee8c-3117-e54e" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-b5dd-8274-fd0d-b005" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -753,6 +755,7 @@ casting Spells.</description>
       </profiles>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-3013-c74d-8060-049d" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-9ad0-e00b-784e-42ae" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="24" />
@@ -793,6 +796,7 @@ casting Spells.</description>
       </profiles>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-eaf6-5afb-4847-fe9e" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-ed27-63ac-4513-29e9" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-b380-70c4-4a3e-769b" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -832,6 +836,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-2195-bfe8-5c17-3469" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-8bd5-4108-6b09-e4a8" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-d76d-eb50-4721-2852" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -867,6 +872,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-05af-f765-629c-3743" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-bc87-104c-827f-eee5" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-91b5-aa66-f745-557d" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -903,6 +909,7 @@ casting Spells.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-07f9-880f-fdde-d3d1" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-3c97-072b-ca37-0c33" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-64d8-1afa-93f5-1397" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -939,6 +946,7 @@ casting Spells.</description>
       </profiles>
       <categoryLinks>
         <categoryLink targetId="campaign-test-9ed2-8233-7200-924b" id="campaign-test-73ca-802c-a235-9f3e" primary="true" name="Medium Beast (30mm Base)" />
+              <categoryLink name="Band member" id="campaign-test-518f-b5f8-9bfa-6bda" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-9c05-62d7-bf82-6e64" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -984,6 +992,7 @@ casting Spells.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-48f3-64e8-146a-995e" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-9840-e505-65db-a76f" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-ab94-80dc-1ae8-119f" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1051,6 +1060,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-d7e4-ff54-4e3a-946a" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-ca7f-f5f4-b81a-7f48" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-617e-5fa1-80bf-6088" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1123,6 +1133,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-4d06-8b8f-2f6b-90f1" name="Small Beast (30mm Base)" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-502b-e7d7-10d8-e940" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-27d0-ce75-6c34-265a" name="Resist Magic" targetId="campaign-test-4d7a-0245-ed1b-761b" type="rule" />
@@ -1196,6 +1207,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-cf63-07f9-48c5-bbf3" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-96bf-5067-918e-0d0f" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-b5ca-6830-4674-b293" name="Spines" targetId="campaign-test-3055-f3a6-6324-b43b" type="rule" />
@@ -1231,6 +1243,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-d0ef-b8a3-4a74-bf3e" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-0f63-f992-8411-0734" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-7a27-0915-414a-1a02" name="Climber" targetId="campaign-test-ddc0-d1a5-16dc-1e41" type="rule" />
@@ -1266,6 +1279,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-32bd-5987-24a8-0fe1" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-8b76-f55c-6c5d-a87e" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-be40-2692-b6c4-3b19" name="Tunneller" targetId="campaign-test-f2a4-4e3d-4a8e-8f91" type="rule" />
@@ -1302,6 +1316,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-88af-e83e-0d6f-36d3" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-53f7-2829-7b17-0986" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-c84a-696f-76d6-e15f" name="Fearless" targetId="campaign-test-5be5-279f-2c7b-e0c7" type="rule" />
@@ -1337,6 +1352,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-575b-3e31-766a-b38f" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-d1d0-b637-c08e-da5a" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-64ec-461e-7d68-c343" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1369,6 +1385,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-1391-f5c3-7d57-cb0d" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-e168-a5da-5ade-e86a" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-8850-e0fb-d7fc-2fc7" name="Fearless" targetId="campaign-test-5be5-279f-2c7b-e0c7" type="rule" />
@@ -1404,6 +1421,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-2b57-8aa0-bace-04be" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-b0c6-0227-7390-5ce4" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-22c1-4de6-5f88-ce68" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1436,6 +1454,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-9d1f-3e2b-4a8d-9cc8" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-3f52-0112-13d1-c6ef" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-1605-6f7e-b8df-4423" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1468,6 +1487,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-ed75-864e-0348-eada" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-9690-8c89-0b53-114c" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-1b6d-d61f-3499-91a0" name="Natural Hunter" targetId="campaign-test-5cae-3547-fc1c-3db4" type="rule" />
@@ -1503,6 +1523,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-893d-eedd-d6c2-5656" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-d606-6014-f632-41eb" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-e2b1-71ab-0dde-a147" name="Leaper" targetId="campaign-test-c5f8-4a21-4b2d-85f3" type="rule" />
@@ -1539,6 +1560,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-5b74-9f70-28e2-4459" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-af11-fe72-4ccf-e2fa" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-918c-db56-63d4-a1f0" name="Poisonous" targetId="campaign-test-e9b4-4f2d-4a8b-92f1" type="rule" />
@@ -1576,6 +1598,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-6df5-6828-db73-c60f" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-7184-ca35-a0cf-5ee9" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-03b6-2c94-90da-b974" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1608,6 +1631,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-7c1b-4c4b-4e72-80a7" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-98fd-864a-8ed4-24b5" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-c397-aa9f-02ec-cc58" name="Swim" targetId="campaign-test-8606-d670-14f9-bff9" type="rule" />
@@ -1643,6 +1667,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-fec7-c054-2bf3-dad4" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-c4ad-fdc7-b6e9-5b8c" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-6bfb-1fd2-86ac-5a4a" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -1678,6 +1703,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-3261-84e1-d4a3-af3e" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-d5db-aad1-cd13-97d4" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-dca2-ee0a-8563-e293" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -1715,6 +1741,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-fc9e-8d74-bc32-c5bf" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
+              <categoryLink name="Band member" id="campaign-test-5084-0472-0482-0bb8" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-4a9f-10f4-8b37-5006" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1751,6 +1778,7 @@ casting Spells.</description>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink hidden="false" id="campaign-test-ef0b-728b-5cb7-8a80" name="Rare" primary="false" targetId="campaign-test-6daf-83fe-ef42-17d8" />
+              <categoryLink name="Band member" id="campaign-test-ae1b-402f-ed9d-7e44" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-7b20-9a14-c502-a666" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1784,6 +1812,7 @@ casting Spells.</description>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-fc13-24e8-974f-0580" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink hidden="false" id="campaign-test-bfca-d046-b234-6cfd" name="Rare" primary="false" targetId="campaign-test-6daf-83fe-ef42-17d8" />
+              <categoryLink name="Band member" id="campaign-test-8751-38f9-48a2-baec" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <constraints>
         <constraint field="selections" id="campaign-test-2b8a-661c-d0cf-c96a" includeChildSelections="true" scope="roster" shared="true" type="max" value="1" />
@@ -1820,6 +1849,7 @@ casting Spells.</description>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-e92c-50d4-7155-e6f9" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink hidden="false" id="campaign-test-daaa-df14-0518-035a" name="Rare" primary="false" targetId="campaign-test-6daf-83fe-ef42-17d8" />
+              <categoryLink name="Band member" id="campaign-test-0ffa-65f5-8a70-b8c7" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <constraints>
         <constraint field="selections" id="campaign-test-bca6-3661-0e8a-a26c" includeChildSelections="true" scope="roster" shared="true" type="max" value="1" />
@@ -1856,6 +1886,7 @@ casting Spells.</description>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-5a9a-7ee7-73d9-e40f" name="Medium Beast (30mm Base)" primary="true" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink hidden="false" id="campaign-test-359c-798f-0d28-17d4" name="Rare" primary="false" targetId="campaign-test-6daf-83fe-ef42-17d8" />
+              <categoryLink name="Band member" id="campaign-test-4de1-8a92-7d86-6214" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <constraints>
         <constraint field="selections" id="campaign-test-d435-ded3-0f16-ca93" includeChildSelections="true" scope="roster" shared="true" type="max" value="1" />
@@ -1894,6 +1925,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-f2f8-986d-729c-10f2" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-0f4f-d167-c0a7-1ac7" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-eb73-a6b2-4c98-bd55" name="Leaper" targetId="campaign-test-c5f8-4a21-4b2d-85f3" type="rule" />
@@ -1929,6 +1961,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-4be9-c72b-57ab-b487" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-b278-8866-b2d0-894d" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-b8e2-7fd6-e86a-b686" name="Natural Hunter" targetId="campaign-test-5cae-3547-fc1c-3db4" type="rule" />
@@ -1965,6 +1998,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-e143-f767-eb46-9cb7" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-c55b-0e4f-aaac-592e" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-d3d2-88b4-6cd0-37e2" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -1997,6 +2031,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-fadb-becf-d00e-7806" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-4a39-e0a5-8eb7-5081" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-7ef5-01d0-9eb0-769d" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -2029,6 +2064,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-ff20-ced0-2696-90d9" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-d022-306f-aef6-13d9" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-b126-dd88-7b12-9038" name="Swim" targetId="campaign-test-8606-d670-14f9-bff9" type="rule" />
@@ -2064,6 +2100,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-5e2d-c3df-f290-ce05" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-ef66-867c-5cb2-fd40" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-40be-f26a-4672-04ef" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -2099,6 +2136,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-09f2-d378-269d-a914" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-c837-aa5e-a827-352a" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-6d43-4820-10b1-baaf" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -2136,6 +2174,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-b57f-aa72-2c5d-c8e5" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-2861-dab3-101b-b6fa" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-64ea-b603-4c2e-c7e8" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -2169,6 +2208,7 @@ casting Spells.</description>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-5944-3e06-b8c0-96c2" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
         <categoryLink hidden="false" id="campaign-test-a8e8-bd91-01da-b3d0" name="Rare" primary="false" targetId="campaign-test-6daf-83fe-ef42-17d8" />
+              <categoryLink name="Band member" id="campaign-test-324a-e459-4f9c-3db0" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <constraints>
         <constraint field="selections" id="campaign-test-aeeb-25cc-3ba4-769b" includeChildSelections="true" scope="roster" shared="true" type="max" value="1" />
@@ -2205,6 +2245,7 @@ casting Spells.</description>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-623f-d501-9913-c24d" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
         <categoryLink hidden="false" id="campaign-test-2165-d47d-b779-db8d" name="Rare" primary="false" targetId="campaign-test-6daf-83fe-ef42-17d8" />
+              <categoryLink name="Band member" id="campaign-test-46f7-4f2b-365d-79b8" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <constraints>
         <constraint field="selections" id="campaign-test-edbf-9f12-a50d-d721" includeChildSelections="true" scope="roster" shared="true" type="max" value="1" />
@@ -2244,6 +2285,7 @@ casting Spells.</description>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-2415-ceb9-3074-9eb3" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
         <categoryLink hidden="false" id="campaign-test-48d6-31c9-f99e-ee2f" name="Rare" primary="false" targetId="campaign-test-6daf-83fe-ef42-17d8" />
+              <categoryLink name="Band member" id="campaign-test-adac-85e7-ab1e-d1b9" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <constraints>
         <constraint field="selections" id="campaign-test-4500-828e-011a-0721" includeChildSelections="true" scope="roster" shared="true" type="max" value="1" />
@@ -2282,6 +2324,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-3fc1-3757-64d9-b7e5" name="Large Beast (40mm Base)" primary="true" targetId="campaign-test-97ca-8945-7b55-dd53" />
+              <categoryLink name="Band member" id="campaign-test-1dd8-60da-ade8-fd0e" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-d40a-bfb1-e0e4-4bd0" name="Otherworldly" targetId="campaign-test-eb29-6a42-8676-1ed1" type="rule" />
@@ -2325,6 +2368,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-b7c1-4a4f-4e1d-9ec7" name="Massive Beast (50mm base)" primary="true" targetId="campaign-test-07b2-c48b-e2e1-2c84" />
+              <categoryLink name="Band member" id="campaign-test-85b0-2029-b362-7aa7" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink name="Fearsome" id="campaign-test-ea9c-66e9-d389-1ce1" hidden="false" type="rule" targetId="campaign-test-e8a4-4a51-4d93-9a8d" />
@@ -2360,6 +2404,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-6657-8589-606b-841f" name="Massive Beast (50mm base)" primary="true" targetId="campaign-test-07b2-c48b-e2e1-2c84" />
+              <categoryLink name="Band member" id="campaign-test-5f2b-25b1-a77e-a353" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-ab77-38dd-76ae-5b4b" name="Swim" targetId="campaign-test-8606-d670-14f9-bff9" type="rule" />
@@ -2395,6 +2440,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-1433-51bd-8476-ca85" name="Massive Beast (50mm base)" primary="true" targetId="campaign-test-07b2-c48b-e2e1-2c84" />
+              <categoryLink name="Band member" id="campaign-test-38e4-4541-3645-6634" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-0581-2ae5-1714-b802" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -2430,6 +2476,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-d8d5-a912-603b-f548" name="Massive Beast (50mm base)" primary="true" targetId="campaign-test-07b2-c48b-e2e1-2c84" />
+              <categoryLink name="Band member" id="campaign-test-1108-6e26-c71f-bd87" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-ebc6-dd2a-65d9-1c49" name="Flight" targetId="campaign-test-de1b-bb5f-29b0-ba39" type="rule" />
@@ -2467,6 +2514,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-ea05-053f-ad38-6cef" name="Massive Beast (50mm base)" primary="true" targetId="campaign-test-07b2-c48b-e2e1-2c84" />
+              <categoryLink name="Band member" id="campaign-test-6219-aea4-24e6-329a" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-48c9-030c-ecc9-4e39" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
@@ -2502,6 +2550,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="campaign-test-02d4-0b18-0a6f-72be" name="Massive Beast (50mm base)" primary="true" targetId="campaign-test-07b2-c48b-e2e1-2c84" />
+              <categoryLink name="Band member" id="campaign-test-cae9-9630-0537-5de5" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-86c4-66d0-b4ea-9ab9" name="Otherworldly" targetId="campaign-test-eb29-6a42-8676-1ed1" type="rule" />
@@ -2707,6 +2756,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
       </profiles>
       <categoryLinks>
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-6bb6-3a94-0449-2ff0" primary="true" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+              <categoryLink name="Band member" id="campaign-test-96cd-c784-8f33-ac63" targetId="campaign-test-b4a1-d685-97c2-3f40" hidden="true" primary="false" />
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-d4f1-123f-1efb-9af2" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />

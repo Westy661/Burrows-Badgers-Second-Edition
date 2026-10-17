@@ -7,11 +7,32 @@
       </costs>
       <categoryLinks>
         <categoryLink name="Allegiance" hidden="false" id="campaign-test-734d-80d0-5220-ef02" targetId="campaign-test-b6a0-9ed3-91e6-1eab" />
-        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-4367-7da5-4abd-a62d" targetId="campaign-test-07b2-c48b-e2e1-2c84" />
-        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-e086-4e22-7ad6-5da7" targetId="campaign-test-97ca-8945-7b55-dd53" />
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-4367-7da5-4abd-a62d" targetId="campaign-test-07b2-c48b-e2e1-2c84">
+        <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-3e9c-2925-f00e-41a4" includeChildSelections="false" />
+        </constraints>
+      </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-e086-4e22-7ad6-5da7" targetId="campaign-test-97ca-8945-7b55-dd53">
+        <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="campaign-test-7755-6193-a29c-7eed" includeChildSelections="false" />
+        </constraints>
+      </categoryLink>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-471f-de29-8487-4a99" targetId="campaign-test-9ed2-8233-7200-924b" />
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-1d03-9044-dda1-a1c5" targetId="campaign-test-6803-87ba-83c4-bd4b" />
         <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-dd99-ff6f-0264-2db7" targetId="campaign-test-583b-2cca-fae6-9a19" />
+              <categoryLink name="Band member" hidden="false" id="campaign-test-cb9e-44ad-b85d-157e" targetId="campaign-test-b4a1-d685-97c2-3f40">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="campaign-test-f759-5848-4fc4-5cb0" includeChildSelections="false" />
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="campaign-test-e15b-21b0-6e0c-173d" includeChildSelections="false" />
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="campaign-test-f759-5848-4fc4-5cb0">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" />
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
