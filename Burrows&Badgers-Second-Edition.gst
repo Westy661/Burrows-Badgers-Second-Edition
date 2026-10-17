@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="14" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="15" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="campaign-test-6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)" />
     <categoryEntry hidden="false" id="campaign-test-9ed2-8233-7200-924b" name="Medium Beast (30mm Base)" />
@@ -2735,7 +2735,7 @@ Overall, this is a bit jank. NR doesn't really seem to be designed at all for ca
 Also, if you want to switch an item slot from a starting item, to one purchased post-creation of the same type, deselect the item you wish to purchase, refresh, then reselect it to get it to correctly show the Coffer cost. (Or show all entries, then tick Starting)</description>
         </rule>
       </rules>
-    </selectionEntry>
+    <modifiers><modifier type="add" field="error" value="A new Band must contain at least 2 models."><conditions><condition type="lessThan" value="2" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier><modifier type="add" field="error" value="A Band may contain at most 10 models, including during Campaign play."><conditions><condition type="greaterThan" value="10" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier><modifier type="add" field="error" value="An Undead Band may contain at most 13 models, including during Campaign play."><conditions><condition type="greaterThan" value="13" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier><modifier type="add" field="error" value="Martial Pride: the Band may include at most one Magic-user."><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="greaterThan" value="1" field="selections" scope="roster" childId="campaign-test-921e-82a3-047d-f28b" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></modifier><modifier type="add" field="error" value="Restless Spirits: at least half the Band must be Mist Ghasts (round up)."><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions><conditionGroups><conditionGroup type="or"><conditionGroups><conditionGroup type="and"><conditions><condition type="equalTo" value="1" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="2" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="3" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="2" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="4" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="2" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="5" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="3" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="6" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="3" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="7" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="4" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="8" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="4" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="9" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="5" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="10" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="5" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="11" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="6" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="12" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="6" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup><conditionGroup type="and"><conditions><condition type="equalTo" value="13" field="selections" scope="roster" childId="campaign-test-b4a1-d685-97c2-3f40" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="lessThan" value="7" field="selections" scope="roster" childId="campaign-test-8830-f33c-1950-6975" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></conditionGroup></conditionGroups></modifier><modifier type="add" field="error" value="Stable Ghast Leader: the Band may include only Stable Ghasts and Mist Ghasts."><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-c7fa-78ae-b6e9-5e12" shared="true" includeChildSelections="false" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-875f-3488-c7f5-6d19" shared="true" includeChildSelections="false" includeChildForces="true" /></conditions></modifier></modifiers></selectionEntry>
     <selectionEntry type="model" import="true" name="Mist Ghast (Small)" hidden="true" id="campaign-test-4917-51ba-289a-cdb3">
       <costs>
         <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="37" />
@@ -12306,7 +12306,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-c493-8146-d113-54e7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -12680,7 +12680,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-60cb-808d-2b2b-53ee" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -13028,7 +13028,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-35e7-b34b-499d-536a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -13376,7 +13376,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-80e7-fc87-7ef7-5615" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -13724,7 +13724,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-4393-a2f3-56e6-5850" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -14072,7 +14072,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-4dd7-62ee-909b-50b0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -14420,7 +14420,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-e264-bd18-7f46-5498" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -14786,7 +14786,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-740b-16d0-86b5-54ce" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -15134,7 +15134,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-8e07-7fa0-6408-55b1" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -15492,7 +15492,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifierGroups>
                     </selectionEntry>
                   </selectionEntries>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-b991-54a0-1b8c-5cd2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -15850,7 +15850,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifierGroups>
                     </selectionEntry>
                   </selectionEntries>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-c0cf-4fee-34d2-5866" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -15987,7 +15987,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-feb5-a252-3d07-f276" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-89fa-b46c-e002-59a8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -16423,7 +16423,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-067b-f1b8-509f-7136" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-edec-5720-dd48-50e3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -16801,7 +16801,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-1cfc-d0b6-5311-4731" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-2feb-4399-75d4-506f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -17298,7 +17298,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-318b-cf4a-1102-f5db" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-2831-bbbd-031e-5f38" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -17641,7 +17641,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-50b6-a675-9aa0-5e4f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -17665,7 +17665,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1632-e5f2-d032-55ff" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -17689,7 +17689,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1657-ada3-4091-58f4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -17713,7 +17713,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f062-4799-e65c-57c3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -17737,7 +17737,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-989b-5e19-e072-50fa" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -17761,7 +17761,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3a89-7268-aa52-53fe" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -17997,7 +17997,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-f11a-da0f-b66e-90e5" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-f4c5-b7e1-0c08-5ba2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -18050,7 +18050,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-10bc-1f20-021f-3528" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-64c6-1c8f-b8f7-599a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -18103,7 +18103,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-7434-a1bd-a3b8-296d" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-f9e5-c773-9186-5436" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -18156,7 +18156,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </selectionEntries>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-0fc1-6f2d-8e2b-b58a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-4e44-5665-72ff-5e58" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <entryLinks>
@@ -18529,7 +18529,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </conditionGroups>
                     </modifier>
                   </modifiers>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-ea11-e1d6-d992-598e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -18578,7 +18578,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </constraints>
                   <categoryLinks>
                     <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-2679-f758-e900-c4e8" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                  
+
 <categoryLink id="campaign-test-52c7-a32b-1d85-5334" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <modifiers>
@@ -18680,7 +18680,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </constraints>
                   <categoryLinks>
                     <categoryLink name="General Store Equipment" hidden="false" id="campaign-test-8cfb-f23e-5194-b253" targetId="campaign-test-874a-091c-7fe7-ba43" primary="true" />
-                  
+
 <categoryLink id="campaign-test-3b29-68f5-fe5d-541b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <modifiers>
@@ -18760,7 +18760,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </constraints>
                   <categoryLinks>
                     <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-7f29-8887-6f52-62f0" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                  
+
 <categoryLink id="campaign-test-0414-98b4-180b-5d59" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <selectionEntries>
@@ -18853,7 +18853,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </constraints>
                   <categoryLinks>
                     <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-3528-44b5-038a-3f78" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                  
+
 <categoryLink id="campaign-test-b12d-5835-519c-50b7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <selectionEntries>
@@ -18924,7 +18924,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </constraints>
                   <categoryLinks>
                     <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-5d86-8bae-3eb4-ac2d" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                  
+
 <categoryLink id="campaign-test-aa04-e82b-8100-5c5a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                   <selectionEntries>
@@ -19180,7 +19180,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </modifiers>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-a882-5ebc-449b-0955" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-58ee-edc9-5049-594c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                 </selectionEntry>
@@ -19268,7 +19268,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c328-f432-d93a-5fdf" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -19293,7 +19293,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f4b4-8777-5838-5417" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -19318,7 +19318,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-05f1-30fb-bc01-56fe" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -19365,7 +19365,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3aa5-8f6b-71fe-5c91" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -19412,7 +19412,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a0b6-6405-a220-55f8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -19459,7 +19459,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                           <modifier type="set" value="true" field="hidden"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier></modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-60ee-442f-256a-5908" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -19863,7 +19863,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </modifiers>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-e6e0-2c64-ba10-5075" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-9f16-1882-5f8a-59ac" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                 </selectionEntry>
@@ -19932,7 +19932,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </modifiers>
                   <categoryLinks>
                     <categoryLink name="Rare" hidden="false" id="campaign-test-e944-e3f7-f45b-6616" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                  
+
 <categoryLink id="campaign-test-cb32-9e0e-cc47-5aee" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                 </selectionEntry>
@@ -20041,7 +20041,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-c80f-d85a-99a6-6441" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-5466-136a-ac7e-527c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -20243,7 +20243,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-1819-0a61-6d5e-0002" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-5890-e8af-91d3-5826" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -20352,7 +20352,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-4df3-d9ca-09dd-45a5" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-23cc-9ed5-ddbb-5422" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -20460,7 +20460,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-0b43-89b1-78a8-0eee" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-2bde-cd08-c8f3-5b51" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -20568,7 +20568,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-07b5-0f5c-fca4-4b8e" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-1d84-f01c-a135-56c5" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -20677,7 +20677,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-37ac-0486-59ee-8d4f" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-0ea4-2cdf-0389-5820" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -20759,7 +20759,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         </modifier>
                         <modifier type="add" value="campaign-test-e17c-5e2a-a513-56f4" field="category" />
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-a7af-33fb-7fd8-52b8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -20825,7 +20825,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-9e43-5fa8-a601-594d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -20891,7 +20891,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-f210-3727-81d7-5e35" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -20957,7 +20957,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-f133-142d-38df-55ed" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21023,7 +21023,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-c66c-af46-afa9-5277" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21089,7 +21089,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-72a9-e19c-96e2-51ab" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21155,7 +21155,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-2872-7bcd-1a5f-5779" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21221,7 +21221,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-a453-c1b5-7b3e-5e69" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21287,7 +21287,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-0805-5e4d-5b1a-5564" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21353,7 +21353,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-bf26-49b4-b34f-55db" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21422,7 +21422,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-3361-0e25-6d35-5440" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21488,7 +21488,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-d912-254d-e015-562f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21554,7 +21554,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-592b-53d4-59d7-5989" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21620,7 +21620,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-bc8d-6b27-433e-5730" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -21730,7 +21730,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-6dad-bd1c-68a8-d669" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-c999-6043-b6d8-5ac8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -21959,7 +21959,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-1e33-e08b-b0be-540b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -22101,7 +22101,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-9e87-7100-a498-bb5d" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-4c85-aae7-fa83-5a80" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -22288,7 +22288,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-01d6-23f8-67a0-04d0" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-a6bb-6adf-6455-5518" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -22439,7 +22439,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-430b-885b-3005-e61e" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-3d1e-460d-fd41-5fae" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -22591,7 +22591,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-b890-8b1a-f908-cee6" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-c606-8c35-4d11-57f9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -22738,7 +22738,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-e689-d02c-d7e0-2fd2" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-b8e3-a461-0454-5faf" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -22877,7 +22877,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-6dcb-8982-294d-786d" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-f791-d6c2-e255-50cb" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -23104,7 +23104,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-dc9e-8f42-85f2-5575" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -23242,7 +23242,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       <modifier type="set" field="campaign-test-d8ac-b20e-1b4e-c8c2" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-dda6-cf3c-6c1c-2d83" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-0033-9361-c208-50f0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <constraints>
@@ -23380,7 +23380,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-a20e-af68-a375-cb33" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-e6ca-3f99-8cab-5126" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -23577,7 +23577,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-a271-0e01-6fc8-63a9" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-f50c-2d01-8030-5ade" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -24095,7 +24095,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-c668-c08f-d1d9-50b6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -24119,7 +24119,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-1ce1-245c-7853-5eec" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -24143,7 +24143,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-e16b-c825-8521-5f61" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -24167,7 +24167,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-d973-c451-c468-5a24" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -24206,7 +24206,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-7ae1-8f96-c506-ef6a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-ba52-27ae-4536-51a1" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -24252,7 +24252,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-030b-c4e6-0ea5-319a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-9f33-4637-ea84-5cd3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -24298,7 +24298,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-21d0-523e-bac7-4421" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-69d5-1435-d5ac-5c6f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -24344,7 +24344,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-b3ab-aaf6-79e5-6d0a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-9ca3-0ef9-be11-540a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -24390,7 +24390,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-65ba-a08a-346d-9409" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-4486-151d-891f-51ca" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -24436,7 +24436,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-e19b-397b-6309-0451" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-02b9-34b7-c58f-59e0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -24543,7 +24543,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-13bf-a2b0-49c1-5973" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -24625,7 +24625,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-d96f-8d39-ce1b-5492" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -24707,7 +24707,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-6024-1805-b1d4-560d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -24789,7 +24789,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-d0cf-2e01-bf6f-5e42" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -25323,7 +25323,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-c629-59ef-357e-2118" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-b2d3-72b2-7b03-554e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -25432,7 +25432,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-f58b-3ebc-702f-b6f2" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-bc95-06ca-bc11-5b13" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -25540,7 +25540,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-02e5-8c86-2f75-d8d1" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-a70e-514a-4556-5389" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -25648,7 +25648,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-1c8b-49db-0e78-ba2b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-9ebd-9688-ab0b-5d46" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -25757,7 +25757,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-9af7-8757-541d-f68a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-868e-95df-aae2-58e3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -25839,7 +25839,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-e17c-5e2a-a513-56f4" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ec1b-fcc4-a376-5d4d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -25905,7 +25905,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0fea-c950-f1da-5fcd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -25971,7 +25971,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9550-42b2-825b-5aa0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26037,7 +26037,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8ca3-34e2-cc62-588a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26103,7 +26103,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ae21-2f88-9b2b-5993" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26169,7 +26169,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0e97-f5fc-59f8-5383" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26235,7 +26235,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-fc97-0315-fd5e-56b4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26301,7 +26301,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bd9d-555e-dbac-5518" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26367,7 +26367,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a481-b506-7068-57f1" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26433,7 +26433,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1ab0-e637-acda-5699" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26502,7 +26502,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5212-4152-ee30-57c3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26568,7 +26568,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-70c1-1349-0ce0-525d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26634,7 +26634,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6673-4c21-bda2-5442" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26700,7 +26700,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7359-7abd-2da8-5c44" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -26810,7 +26810,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-f76b-a352-6b90-b5a7" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-fce7-94ac-83c9-5798" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -27039,7 +27039,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1020-a176-225d-562b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -27181,7 +27181,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-3385-2fc0-60ab-bb30" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-78b3-cdd4-fa7a-521d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -27368,7 +27368,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-c0f3-05fd-b75a-019f" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-c0ea-6d17-a4ce-55a6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -27519,7 +27519,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-9ef2-e189-35be-7829" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-e990-b930-3f06-52de" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -27671,7 +27671,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-a34d-47d1-02b2-b04f" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-9dc5-354b-c475-514a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -27818,7 +27818,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-852e-718c-7835-f35c" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-e449-42f0-89fa-5a24" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -27957,7 +27957,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-6a90-bd3c-26b0-5c9c" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-2a64-9fd8-e86a-50f8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -28184,7 +28184,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-412d-e7b3-7ff9-544f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -28322,7 +28322,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <modifier type="set" field="campaign-test-8a55-0e31-ee24-b415" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-1507-9565-958c-15db" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-e785-64cc-13e0-52ef" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <constraints>
@@ -28460,7 +28460,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-f498-292d-4230-71d3" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-36b2-ccae-37cf-5429" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -28657,7 +28657,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-4ae9-f7fe-e4fd-347f" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-7f53-5e21-1b77-57a7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -29175,7 +29175,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-23dd-6837-bda4-5b1a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -29199,7 +29199,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-b15a-7dc0-d46a-5389" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -29223,7 +29223,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-9512-b621-2e06-5a4a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -29247,7 +29247,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-f1f1-36f4-908b-538b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -29286,7 +29286,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-97d8-64f9-7686-faaf" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-2cd3-f8bc-a569-589d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -29332,7 +29332,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-a02c-9441-6ff4-8539" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-6edc-704c-0e03-5786" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -29378,7 +29378,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-84f6-1ddf-17fa-e193" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-aea9-9d14-4a90-51e0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -29424,7 +29424,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-d31e-a8e8-0123-46d4" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-7e93-b98a-df89-5ae2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -29470,7 +29470,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-5d3a-f8af-1b67-c7ac" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-b74d-312d-0f1c-5582" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -29516,7 +29516,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-1b00-81b4-1fd7-e973" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-7bc0-507a-f1ac-5726" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -29623,7 +29623,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-adf2-2a45-1723-51b4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -29705,7 +29705,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-595d-0e7d-41b9-5954" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -29787,7 +29787,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4722-c93d-6ace-5aa6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -29869,7 +29869,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-acb8-376f-1879-557b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -30641,7 +30641,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-e0c4-b6c9-4a11-5de6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -31015,7 +31015,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-fdc1-8747-5f2b-53f6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -31363,7 +31363,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-e786-a4aa-46c2-5ae1" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -31711,7 +31711,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-a0e5-62a1-1b00-5e77" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -32059,7 +32059,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-91ae-0266-94b1-56c4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -32407,7 +32407,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-a70d-70ea-0632-554e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -32755,7 +32755,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-7612-8ae5-a05d-51b8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -33121,7 +33121,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-7e7c-3b62-f184-550c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -33469,7 +33469,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-e5d8-58d9-a0d3-58ed" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -33827,7 +33827,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifierGroups>
                         </selectionEntry>
                       </selectionEntries>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-c9e3-cffc-1fb8-51d2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -34185,7 +34185,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifierGroups>
                         </selectionEntry>
                       </selectionEntries>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-e08c-8710-37f6-5dc9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -34322,7 +34322,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-61de-69ad-dff7-10b9" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-c539-aa5d-2b33-5945" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -34758,7 +34758,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-9471-7744-5f4f-4b13" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-fd51-56a7-c803-5af7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -35136,7 +35136,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-d9f5-c2d4-60d2-e310" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-4d6b-9cb6-ddd1-5b2d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -35633,7 +35633,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-bde9-a069-2474-afe7" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-9995-c98e-a088-5b6c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -35976,7 +35976,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-9d72-67ec-d4b2-52ad" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -36000,7 +36000,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-03ce-6503-90b6-5cb9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -36024,7 +36024,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-5462-089c-cc6a-59d0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -36048,7 +36048,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-6f46-ab5e-6cf3-5402" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -36072,7 +36072,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-5306-d2ae-cb5f-59e0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -36096,7 +36096,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-9936-3730-1bfd-5a9e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -36332,7 +36332,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-6c24-e9c6-6fa1-962f" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-2903-37d6-50c3-57f2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -36385,7 +36385,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-1b92-24e1-b25d-4ea4" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-ecf2-aa61-7d56-5eb6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -36438,7 +36438,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-2959-12b7-38e6-53b0" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-de50-c789-064b-50dd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -36491,7 +36491,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-46d2-bfe2-8a08-f07e" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-b4ee-7539-e8bc-5e63" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -36864,7 +36864,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-14d1-1b04-f01c-5258" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -36923,7 +36923,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-0cf7-5986-2fc8-7c2f" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-5e98-3c34-069f-5c44" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -37025,7 +37025,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="General Store Equipment" hidden="false" id="campaign-test-03b8-eb42-4c2e-a441" targetId="campaign-test-874a-091c-7fe7-ba43" primary="true" />
-                      
+
 <categoryLink id="campaign-test-b79c-0236-4c5b-55ce" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -37105,7 +37105,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-89bd-aa11-66a0-8485" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-eb43-7d50-5b12-54b8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -37198,7 +37198,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-6a02-453a-2eba-aeac" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-073f-204d-5252-5326" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -37269,7 +37269,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-ea33-926c-4934-070a" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-204e-8ae6-6f98-5b89" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -37525,7 +37525,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-a0f4-a9fd-5e7a-da7b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-d642-8106-78cd-548f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -37613,7 +37613,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-0998-765c-412c-5e35" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -37638,7 +37638,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-37ab-fb36-5338-5cbd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -37663,7 +37663,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-7618-b594-d91d-5b08" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -37710,7 +37710,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-6385-1531-168f-50f4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -37757,7 +37757,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-d156-caa2-386c-5b9c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -37804,7 +37804,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               <modifier type="set" value="true" field="hidden"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier></modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-afa7-1354-a9ce-518e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -38208,7 +38208,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-8f25-c2d7-fce3-1565" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-c973-44c9-30b4-50e8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -38277,7 +38277,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-7ceb-05b6-de2f-0b82" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-ec9e-2156-387a-5951" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -38698,7 +38698,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-df8e-1b1d-f784-5e08" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -39072,7 +39072,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-4cc2-a5cf-cf0c-5f06" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -39420,7 +39420,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-dea6-fc6c-92cc-5534" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -39768,7 +39768,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-f3ce-3257-c727-5ca0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -40116,7 +40116,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-5df7-e418-282f-56fd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -40464,7 +40464,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-12d5-db29-3e5c-537e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -40812,7 +40812,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-f7d4-fb01-dd03-5f57" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -41178,7 +41178,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-47de-aa95-5766-564a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -41526,7 +41526,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-009d-fda2-5988-5052" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -41884,7 +41884,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifierGroups>
                         </selectionEntry>
                       </selectionEntries>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-7795-f79f-41e3-5b8e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -42242,7 +42242,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifierGroups>
                         </selectionEntry>
                       </selectionEntries>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-2df2-d58f-27b5-52e5" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -42379,7 +42379,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-0b63-f894-2f08-51bf" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-4ca3-7c14-9be1-5f2e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -42815,7 +42815,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-88b0-48cc-e5f7-2f13" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-aa9b-4c90-b9fc-5153" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -43193,7 +43193,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-5076-8f93-6c19-3a4e" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-8de3-65e2-8c82-51fe" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -43690,7 +43690,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-d6ec-3f6a-7703-de12" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-c324-a598-2383-52ce" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -44033,7 +44033,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-8267-a3b6-51e3-5774" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -44057,7 +44057,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-6256-8d22-91d6-5a4a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -44081,7 +44081,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-6ccc-107f-97e5-5a67" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -44105,7 +44105,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-3e17-8570-7f23-5e4d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -44129,7 +44129,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-ef39-1581-c50e-537b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -44153,7 +44153,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-70ed-e7b9-4b9b-5c95" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -44389,7 +44389,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-12e2-9784-eae5-ba06" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-e115-2fab-49eb-5567" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -44442,7 +44442,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-6449-14bc-164b-f817" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-8e61-db88-141e-5a03" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -44495,7 +44495,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-c190-3b95-3d9d-c880" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-2f25-3ae8-8461-5c24" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -44548,7 +44548,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-7d60-7441-dabb-236d" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-5172-f16e-1f3d-5456" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -44921,7 +44921,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-86e2-ef0d-cb72-5946" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -44980,7 +44980,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-2b52-3191-2128-f4af" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-b729-7fec-69e2-5ee2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -45082,7 +45082,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="General Store Equipment" hidden="false" id="campaign-test-30ea-1b49-a7d7-e9e7" targetId="campaign-test-874a-091c-7fe7-ba43" primary="true" />
-                      
+
 <categoryLink id="campaign-test-cf5a-62d4-31de-5fbd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -45162,7 +45162,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-0179-6a69-85f3-4a52" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-72df-dac1-39d0-59dd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -45255,7 +45255,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-2f03-269b-6693-f19b" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-d6d8-d315-67ed-58fa" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -45326,7 +45326,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-9d82-c29a-eb3c-62c2" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-2e4a-2282-34d1-51f3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -45582,7 +45582,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-9b7d-a9d7-b2e0-ae75" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-8ded-2b3b-36dc-552b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -45670,7 +45670,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-1638-5e51-4657-57f8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -45695,7 +45695,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-8ccb-b6a6-d42a-5c0e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -45720,7 +45720,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-0ca0-57eb-9d59-5c62" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -45767,7 +45767,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-8c5d-6a70-905e-5aa8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -45814,7 +45814,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-d778-4f66-7ea4-596b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -45861,7 +45861,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               <modifier type="set" value="true" field="hidden"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier></modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-f194-2362-6b41-50af" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -46265,7 +46265,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-2845-f6da-4e7e-5720" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-80f6-0f05-f7db-59e2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -46334,7 +46334,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-3455-2b13-a38f-66dc" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-047f-30f9-2f9e-5928" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -46501,7 +46501,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-a60b-0fa2-53a9-2487" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-2b14-5aca-ed83-5258" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -46610,7 +46610,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-cfd2-f5ea-cf60-b20c" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-a574-c0c6-f6f9-588c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -46718,7 +46718,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-a432-f96e-477d-0116" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-56cc-9c0b-67d0-58ee" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -46826,7 +46826,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-621d-2b54-b224-8b82" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-1d53-9d53-8e55-5bc2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -46935,7 +46935,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-d2eb-8bc8-b9d2-2d83" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-fdb5-adb3-4d46-5599" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -47017,7 +47017,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-e17c-5e2a-a513-56f4" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d1f9-2bd7-2786-509a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47083,7 +47083,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bec9-9f1d-1936-5844" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47149,7 +47149,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b2dc-933f-6557-568f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47215,7 +47215,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f19c-122f-2de5-55e9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47281,7 +47281,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-fb75-4068-211f-5dcd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47347,7 +47347,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b973-e761-a813-5a66" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47413,7 +47413,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0533-47e1-e3f6-5510" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47479,7 +47479,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-84d1-f56e-e475-5683" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47545,7 +47545,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9be0-3422-224e-5d1e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47611,7 +47611,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3e97-5e92-6cc2-5397" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47680,7 +47680,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d8be-52df-d65f-5e8e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47746,7 +47746,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2407-64d5-4062-5d25" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47812,7 +47812,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9dea-fc98-add5-567c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47878,7 +47878,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6692-1b58-3be7-5689" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -47988,7 +47988,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-1123-9c53-20fd-d270" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-6e33-6719-7c4e-5566" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -48217,7 +48217,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9636-c968-6869-56c6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -48359,7 +48359,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-579d-3151-a1a2-52e5" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-f4c5-4534-0bcf-519e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -48546,7 +48546,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-b6c0-ad3e-1495-945d" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-8a17-e59b-2610-5ced" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -48697,7 +48697,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-5fc1-5548-fba4-c54f" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-d625-00ab-7872-59e9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -48849,7 +48849,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-72ab-417e-b5f1-e858" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-981f-afde-4d23-5501" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -48996,7 +48996,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-e016-93ff-a467-ca8a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-13e7-f6c7-a2b8-57f3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -49135,7 +49135,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-9ff7-eebc-7872-8e22" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-cb0e-1089-a8e9-5b09" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -49362,7 +49362,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f2a4-f483-34bb-5c09" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -49500,7 +49500,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <modifier type="set" field="campaign-test-6f0f-4329-d084-8d0d" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-2b09-cb9e-fc8a-63a2" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-c621-0134-cec0-56b9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <constraints>
@@ -49638,7 +49638,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-8d25-5e65-4647-6a88" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-0091-4df6-4935-59f0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -49835,7 +49835,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-d087-1820-5d24-7c63" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-5b05-e555-4a67-5ab2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -50353,7 +50353,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-b089-21c5-7960-55b3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -50377,7 +50377,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-646e-6a82-11ab-5842" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -50401,7 +50401,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-97fb-cbdf-645e-511d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -50425,7 +50425,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-4529-7a5f-dc65-5a3c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -50464,7 +50464,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-0b1c-53f7-4e58-55e2" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-b19f-92c4-d5d9-502a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -50510,7 +50510,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-d299-d2d3-321c-1ae5" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-b893-572c-789c-5630" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -50556,7 +50556,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-5b76-3b3c-dcfc-fd24" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-752e-73db-ed6c-5eec" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -50602,7 +50602,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-8561-fbe7-f54e-fdbf" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-c978-3719-54ec-5b21" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -50648,7 +50648,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-de9f-42c3-7a1b-e46b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-bdc5-f356-3dbf-5ef7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -50694,7 +50694,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-c43e-34ea-4cbd-97d5" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-4b59-152d-3e57-5cf2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -50801,7 +50801,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-59a3-da17-59df-544e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -50883,7 +50883,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d811-67a2-4fce-541b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -50965,7 +50965,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b160-97a2-b5a5-5d42" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -51047,7 +51047,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-309f-6290-ebc1-5e9c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -51840,7 +51840,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-2f76-1592-8537-5e05" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -52214,7 +52214,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-5fbe-2fc3-4947-59a7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -52562,7 +52562,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-40b7-d02b-7080-54f6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -52910,7 +52910,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-44a3-94f0-fc1c-5a27" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -53258,7 +53258,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-a44e-109e-f9e3-50d2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -53606,7 +53606,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-f461-d37b-6fb8-51c4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -53954,7 +53954,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-7049-395d-f637-595d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -54320,7 +54320,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-0947-99ed-220b-51c7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -54668,7 +54668,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-39bc-a281-33cd-58bc" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -55026,7 +55026,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifierGroups>
                         </selectionEntry>
                       </selectionEntries>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-5c79-3b9c-4489-5f9a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -55384,7 +55384,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifierGroups>
                         </selectionEntry>
                       </selectionEntries>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-f8db-4b94-e8d0-587a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -55521,7 +55521,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-d83f-b319-8bd5-d8c2" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-eef7-1792-9364-52c4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -55957,7 +55957,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-79e4-69a5-9c4f-6f5a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-a5a2-d104-e262-5dbb" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -56335,7 +56335,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-f77d-3497-2074-ccac" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-c466-cb52-09de-5e2a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -56832,7 +56832,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-d0d1-d3d2-e807-8d57" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-062c-2a0d-0754-510a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -57175,7 +57175,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-fffd-f91c-4088-554a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -57199,7 +57199,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-13bd-c7fb-7366-5084" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -57223,7 +57223,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-4247-5417-5bd5-5f62" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -57247,7 +57247,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-5b3b-325c-97d2-5ba3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -57271,7 +57271,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-0986-5d65-13db-57c7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -57295,7 +57295,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                   </conditionGroups>
                                 </modifier>
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-2756-1d1f-3805-54ac" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -57531,7 +57531,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-3d54-67c7-6be6-008a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-359d-77a7-b86b-52e4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -57584,7 +57584,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-430b-933e-6015-7e14" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-44f1-8902-bc9b-52e5" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -57637,7 +57637,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-77b3-6788-c084-4439" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-afdb-b9e9-1ac4-5ecd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -57690,7 +57690,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </selectionEntries>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-7c4a-cc54-25e1-1188" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-6a02-2476-5da4-5683" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <entryLinks>
@@ -58063,7 +58063,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </conditionGroups>
                         </modifier>
                       </modifiers>
-                    
+
 <categoryLinks>
 <categoryLink id="campaign-test-aa53-3053-d391-5db1" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -58122,7 +58122,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-1857-343a-41ac-daf1" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-8e1b-4f44-89e9-529f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -58224,7 +58224,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="General Store Equipment" hidden="false" id="campaign-test-1bd7-3a05-569b-0ec3" targetId="campaign-test-874a-091c-7fe7-ba43" primary="true" />
-                      
+
 <categoryLink id="campaign-test-fa0b-c281-09ec-5c61" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <modifiers>
@@ -58304,7 +58304,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-e6c5-f2d7-b6f5-0673" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-7a61-ed1b-9b6a-51b1" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -58397,7 +58397,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-605a-22e1-78c9-4706" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-0d51-b0a2-2b26-5333" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -58468,7 +58468,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <categoryLinks>
                         <categoryLink name="Starting Equipment" hidden="false" id="campaign-test-a762-8b1c-a29b-94ea" targetId="campaign-test-3359-f6f3-9852-b8c0" primary="true" />
-                      
+
 <categoryLink id="campaign-test-623e-dc76-7eec-5c3a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                       <selectionEntries>
@@ -58724,7 +58724,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-7be2-3db4-bd53-f70f" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-57d9-5d05-d245-5bb9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -58812,7 +58812,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-a777-9628-e7e1-596a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -58837,7 +58837,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-9056-5d75-bdcc-5281" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -58862,7 +58862,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-2a02-fdaa-6899-58cc" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-9bc2-10fd-1243-579e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -58909,7 +58909,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-daac-b45a-f018-52ba" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -58956,7 +58956,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               </modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-35db-19fd-9df2-5bca" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -59003,7 +59003,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </modifier>
                                 <modifier type="add" value="campaign-test-984f-fa2c-adb3-e610" field="category" />
                               <modifier type="set" value="true" field="hidden"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></modifier></modifiers>
-                            
+
 <categoryLinks>
 <categoryLink id="campaign-test-c94e-b852-e310-5bf7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -59407,7 +59407,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-fec9-fc5e-2f99-82c4" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-7505-a39d-6d4d-5160" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -59476,7 +59476,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-6255-9813-acc6-4f6b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                      
+
 <categoryLink id="campaign-test-c78b-cfc7-1b34-58a5" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                     </selectionEntry>
@@ -59643,7 +59643,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-2213-a6e7-3bcb-4751" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-d900-9e98-a4b1-5ddd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -59752,7 +59752,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-feab-8d03-5289-2be9" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-a3ff-7860-1cde-52b9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -59860,7 +59860,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-3810-f040-8fc1-1573" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-aaa0-97f8-4127-5273" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -59968,7 +59968,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-48ab-2f67-5ea3-cb99" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-dbc4-23d1-4cda-522e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -60077,7 +60077,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-7aad-4cc9-ed6d-d921" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-4d78-78b6-f6b3-5eb9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -60159,7 +60159,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </modifier>
                             <modifier type="add" value="campaign-test-e17c-5e2a-a513-56f4" field="category" />
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f406-5d24-cb2e-50f3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60225,7 +60225,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8982-bcd0-5fa2-5acb" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60291,7 +60291,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2c15-46cd-714d-561c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60357,7 +60357,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d1b0-0710-0072-54b2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60423,7 +60423,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c0a8-bccb-4ba0-5fce" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60489,7 +60489,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b00d-eed8-6336-5d02" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60555,7 +60555,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-802c-3ab2-a05b-5005" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60621,7 +60621,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9d06-8d47-5312-5d07" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60687,7 +60687,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-075a-1eff-9d35-52a0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60753,7 +60753,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2da8-560f-7d6e-5e92" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60822,7 +60822,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c850-f08c-11a5-5b94" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60888,7 +60888,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6775-1a23-f9f4-595c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -60954,7 +60954,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-20ba-fa5a-8d5c-5b44" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -61020,7 +61020,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-637b-1e9c-e773-567d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -61130,7 +61130,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-0cdb-28aa-9829-0b8a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-5786-36e5-d079-5092" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -61359,7 +61359,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d6cb-d5ca-6b5b-5f60" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -61501,7 +61501,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-5afd-f9c7-ada5-7105" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-2b77-cf78-8163-5db7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -61688,7 +61688,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-5e49-4c5e-7fca-d478" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-e09b-0ced-a61b-5670" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -61839,7 +61839,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-b8aa-620b-29ec-7f10" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-dafd-20a1-d408-5532" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -61991,7 +61991,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-4952-b76e-8f87-432b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-a909-ca78-0e8b-582f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -62138,7 +62138,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-8870-5514-c883-3010" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-d5a5-757e-9488-531e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -62277,7 +62277,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-c900-e40e-6d0e-6c47" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-2391-cde1-e2a3-57bd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -62504,7 +62504,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-aa4a-64ce-c71e-5f84" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -62642,7 +62642,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <modifier type="set" field="campaign-test-6663-5f9b-c900-2cfc" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-39ab-eba6-8613-c35b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-63ec-fd83-552b-5464" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <constraints>
@@ -62780,7 +62780,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-422d-0652-d489-d728" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-cec9-66a5-11c3-5f8b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -62977,7 +62977,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-3899-6d6d-9cb9-f735" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-d81e-04b1-148e-59ef" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                         </selectionEntry>
@@ -63495,7 +63495,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-f26f-0f50-7c33-5467" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -63519,7 +63519,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-3252-c5e1-0f81-5400" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -63543,7 +63543,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-6871-1ae2-173b-5596" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -63567,7 +63567,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                       </conditionGroups>
                                     </modifier>
                                   </modifiers>
-                                
+
 <categoryLinks>
 <categoryLink id="campaign-test-b01a-3320-1190-599c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -63606,7 +63606,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-ba36-59d4-e58d-f9a4" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-5c43-dee5-30f5-5848" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -63652,7 +63652,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-e581-6b0a-c057-218c" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-b79f-071f-cbe2-5094" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -63698,7 +63698,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-45f6-0daa-43e1-ed8b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-ae02-c522-c39c-5eb7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -63744,7 +63744,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-0c5a-674c-0185-50aa" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-19fa-9719-be68-55af" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -63790,7 +63790,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-dd04-7db7-5d78-d3b9" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-a9b2-aebd-f16d-50d7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -63836,7 +63836,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           </selectionEntries>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-eb60-d6c7-7da8-ed8a" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
-                          
+
 <categoryLink id="campaign-test-76c0-51e7-f4a9-5492" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
                           <modifiers>
@@ -63943,7 +63943,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c166-f7be-bbb4-56b3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64025,7 +64025,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d7df-4118-103e-503c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64107,7 +64107,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2021-06d7-5c7e-592e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64189,7 +64189,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3cc3-2d13-f9a8-51aa" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64674,7 +64674,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8a56-9f2f-4584-55dd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64724,7 +64724,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8d1c-b4da-c0ac-5a34" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64762,7 +64762,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f736-7476-37c9-586b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64797,7 +64797,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f35c-745a-eae2-5c5b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64838,7 +64838,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c252-af32-661d-58ec" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64879,7 +64879,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-20c0-cb93-164d-5f3e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64917,7 +64917,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1935-4e10-b705-56de" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -64970,7 +64970,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6f08-8582-9083-5231" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65008,7 +65008,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ed77-9bb0-3b69-5c2b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65049,7 +65049,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2544-6f51-fc9e-5340" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65093,7 +65093,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0603-75f7-cd40-52a9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65131,7 +65131,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-68e6-bcd7-eba4-5a97" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65172,7 +65172,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bf77-8021-7cd8-5da1" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65216,7 +65216,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e5b3-52c4-b3bb-517f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65251,7 +65251,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a631-9401-14aa-534e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65289,7 +65289,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-61a5-b9e8-6fb9-5c6d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65327,7 +65327,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-00c0-f1b7-bd50-5829" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65374,7 +65374,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f6fa-8c0b-5702-5834" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65409,7 +65409,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-362d-a319-ae47-50d4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65447,7 +65447,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4e40-3189-c1d1-58c8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65482,7 +65482,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0322-3891-2b47-5af9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65517,7 +65517,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1380-40b9-9211-577b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65561,7 +65561,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c404-a7cd-6b5e-5fbd" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65590,7 +65590,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8c05-2fe3-2fe8-59a3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65628,7 +65628,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3c9c-1f61-a853-592e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65678,7 +65678,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-18ef-21c3-1571-557b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65716,7 +65716,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4786-4c49-7137-5684" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65751,7 +65751,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-76b1-22bb-09f2-5e93" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65786,7 +65786,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ad5c-c6d2-0252-5dc8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65821,7 +65821,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f67b-c00c-9bb7-5fe4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65856,7 +65856,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5b8d-2155-b924-5d9c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65914,7 +65914,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a49b-2bd7-0e9b-5afa" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65956,7 +65956,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-cfc3-ee70-8c5f-5645" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -65998,7 +65998,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-56d6-9b88-11db-5829" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66040,7 +66040,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-11a5-09fc-2ca5-5906" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66085,7 +66085,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ae07-aa9f-43fe-523b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66142,7 +66142,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-dba9-9396-0139-5439" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66187,7 +66187,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-abc8-e776-545d-5a0b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66223,7 +66223,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f217-727e-aa5a-5274" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66274,7 +66274,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-815c-ca4e-8735-5204" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66316,7 +66316,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2a83-4692-d678-5370" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66358,7 +66358,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b572-481b-68c8-56a8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66403,7 +66403,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c454-16eb-9453-5acc" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66445,7 +66445,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5319-531d-426a-58de" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66499,7 +66499,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bb3a-2e40-fe3c-5470" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66544,7 +66544,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1594-9166-d774-5bf7" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66589,7 +66589,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e962-ab9d-85a1-5863" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66631,7 +66631,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a6bb-e6b0-05cf-5e5f" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66682,7 +66682,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1304-da0a-2d8d-5b09" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66730,7 +66730,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-cfa7-1779-1ec0-58fa" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66775,7 +66775,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bb8a-6f54-4958-5c4c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66826,7 +66826,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-009f-aaa2-2f24-5e38" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66874,7 +66874,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-104b-fc92-3786-5327" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66919,7 +66919,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a700-2edf-9069-5cce" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -66979,7 +66979,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-cfa4-acc8-9639-5c83" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67024,7 +67024,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f5a1-cc99-2ed1-5873" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67072,7 +67072,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0e44-9a75-1f83-548a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67120,7 +67120,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a46b-8827-a7a0-5ed4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67162,7 +67162,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3ec1-54f0-2971-5366" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67207,7 +67207,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c5dc-52b3-dae3-5e79" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67264,7 +67264,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ff72-763f-2800-562a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67309,7 +67309,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a631-bb52-e067-5f73" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67351,7 +67351,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-130c-ebec-3c83-511c" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67401,7 +67401,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-739e-5687-28ab-5718" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67439,7 +67439,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2303-b98f-401f-52da" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67474,7 +67474,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8f53-36f2-859f-54d6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67515,7 +67515,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-19ab-8955-7630-5385" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67556,7 +67556,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e799-6327-d123-5c30" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67594,7 +67594,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5f88-36b3-b26e-52b6" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67647,7 +67647,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-24e6-f070-d5d8-5ead" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67685,7 +67685,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bfb4-765c-ed1a-5972" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67726,7 +67726,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2a9b-03ff-234f-5fc4" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67770,7 +67770,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8605-bcea-87bb-5a4b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67808,7 +67808,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3350-9026-82de-5297" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67849,7 +67849,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-dbb1-84e8-e33e-5c2a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67893,7 +67893,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7aa4-7512-3807-55a9" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67928,7 +67928,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1a68-896d-8384-52ce" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -67966,7 +67966,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-79da-e18f-3586-52a8" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68004,7 +68004,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5eaa-2c34-6cd2-5b1a" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68051,7 +68051,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6733-ecbe-c7de-5953" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68086,7 +68086,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2754-3c43-78ef-5a37" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68124,7 +68124,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-744b-243e-84f0-5c92" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68159,7 +68159,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5475-2646-6b83-5fcb" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68194,7 +68194,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d5dd-0cc5-07e7-5c2d" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68238,7 +68238,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-27ef-6cd8-e0ad-53f5" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68267,7 +68267,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e515-bf5f-8157-5f92" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68305,7 +68305,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-933b-612a-8f51-53d0" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68355,7 +68355,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1d0d-a739-f1b9-59a2" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68393,7 +68393,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3dc0-5ca0-101d-55fb" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68428,7 +68428,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d34d-de99-4043-53e3" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68463,7 +68463,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-10d8-e042-f8b4-5506" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68498,7 +68498,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-781e-7196-c3d8-5e3b" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68533,7 +68533,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                               </conditionGroups>
                             </modifier>
                           </modifiers>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e464-5162-40df-5f44" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -68627,7 +68627,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </conditionGroups>
                 </modifier>
               </modifiers>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-c024-0497-57f9-587e" name="Starting equipment" targetId="campaign-test-6f33-f394-1177-543a" hidden="false" primary="false" />
 </categoryLinks>
@@ -73428,7 +73428,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-7794-8722-9e42-f291" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-6b2b-c680-14c4-5996" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -73462,7 +73462,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-f601-f6ae-545a-0253" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-af00-6d00-e36b-526e" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -73534,7 +73534,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </characteristics>
                 </profile>
               </profiles>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-92f7-b4fd-2cf3-5648" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -73565,7 +73565,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </characteristics>
                 </profile>
               </profiles>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-a0b6-c967-56fe-57cc" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -73596,7 +73596,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                   </characteristics>
                 </profile>
               </profiles>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-5e10-b888-9c6f-5e79" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -73670,7 +73670,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-4698-ff19-8a03-6382" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-58ae-8913-728c-5b1f" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -73704,7 +73704,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-eda6-598e-015d-9a87" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-1c3e-7090-14d3-5a00" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -73767,7 +73767,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-380c-e964-05e1-2771" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-05d0-3514-ab40-5864" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -73917,7 +73917,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-1883-cb86-41f1-e619" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-436a-3623-165f-55d0" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -73951,7 +73951,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-6db8-19e4-1b50-99c6" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-49e6-bc4c-aa0b-5a23" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -74025,7 +74025,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d29c-3bb4-606e-6a36" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-719a-a1f6-dc33-555e" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -74059,7 +74059,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5ee3-8d44-7ae1-ba0c" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-d262-5584-5840-599c" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -74093,7 +74093,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e8c1-dddf-3a47-3fc8" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-b08e-8f5f-d68b-5787" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -74127,7 +74127,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-3908-c63e-178c-7721" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-457d-fad6-019e-5771" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -74161,7 +74161,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-28dd-0df0-f39c-0c87" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-3644-3198-5b21-50fa" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -74195,7 +74195,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b080-2c45-a12b-f475" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-4fb5-a4d3-c93a-5ec7" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -74229,7 +74229,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-1f0f-6d70-31a9-6674" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-84d8-e4e8-6c12-5bb6" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -74263,7 +74263,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-473f-f4bc-882c-169d" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-a139-3663-2b3b-52bb" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -74297,7 +74297,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-49aa-5112-e51d-a32a" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-fdcf-2371-e2df-5568" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -74371,7 +74371,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-743b-90c3-156b-4709" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-f147-295b-c761-5c3d" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -74405,7 +74405,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-4c3a-617d-b265-cf9e" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-d070-1b75-f2fd-53bf" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -74439,7 +74439,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-fe7c-59e0-2287-f852" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-08c6-2268-ecfe-5fd7" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -74471,7 +74471,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-6c14-a8f7-831b-16d5" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-ac5d-72e2-e0b7-5d06" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -74559,7 +74559,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-9b6e-e464-f972-797e" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-6f37-641a-3600-5e7c" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -74576,7 +74576,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2169-1be6-fe98-65ce" />
               </constraints>
-            
+
 <categoryLinks>
 <categoryLink id="campaign-test-9641-84e7-d7eb-50b7" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -75675,7 +75675,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-fad8-6095-900b-5e06" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9b84-96e6-6d17-5fc2" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -75707,7 +75707,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-cfe0-1e6e-d282-5d6c" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b5f1-5cc6-3d8e-5273" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -75739,7 +75739,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-6dab-33df-8b30-98ea" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5e46-c2eb-210c-5a93" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -75771,7 +75771,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-fbc4-32f9-26fd-ccb3" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c2c1-07df-2cc1-5927" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -75803,7 +75803,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2d16-00aa-cc6f-4d3a" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b160-ad4e-a4c7-5cb2" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -75835,7 +75835,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-03f9-44d5-f4de-ea57" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6494-ad78-a9bc-5e55" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -75867,7 +75867,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d3fe-8244-bba2-ca16" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9a84-9997-71ab-5a90" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -75899,7 +75899,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-20d5-3017-c37f-d9c0" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-00eb-5685-826d-5b1d" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -75931,7 +75931,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c14e-75d2-cc47-f246" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b4bd-7cad-e5c6-5014" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -75970,7 +75970,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-34cd-8d0b-7939-fc65" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-19fa-1380-311e-5156" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -76002,7 +76002,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d0d0-7d00-610f-a899" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6c50-adff-1cf4-54d8" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -76034,7 +76034,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-8629-4a1f-e66d-ae48" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e329-ae79-0bc5-5e7d" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -76066,7 +76066,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-15e1-08e5-6155-ee43" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c5dd-4559-7464-5dd4" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -76098,7 +76098,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-1a2c-3c70-e32c-e840" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-73a1-cf34-0df8-5385" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -76130,7 +76130,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d3aa-b574-0b7b-21fc" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4cc9-f340-69e3-57e1" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -76162,7 +76162,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d156-34a2-ad6f-395f" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bd28-df68-8898-533c" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -76194,7 +76194,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-20b7-f915-929e-0656" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-aff3-da4c-3fef-569b" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -76226,7 +76226,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b56d-5fa4-d667-7453" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-feca-06c9-b315-581f" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -76272,7 +76272,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-0699-e6cd-e081-9a9c" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0a86-866c-e8c6-5d83" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -76304,7 +76304,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ca07-3d21-8b13-550e" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-beb6-9a7c-5256-5a85" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -76336,7 +76336,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d57e-1cdd-75c1-874d" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a250-0b8e-f8e0-51be" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -76368,7 +76368,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2a0e-7e5d-e77a-f851" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f0ac-9ae5-70e7-5784" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -76400,7 +76400,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-78a1-89e8-2794-7dca" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7149-1557-9f40-5245" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -76432,7 +76432,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-9b11-a15d-77dc-7ff6" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-83d6-d112-652a-5e90" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -76464,7 +76464,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-4dd8-d29d-dccd-ec7f" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5c5f-2cf0-9084-5384" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -76496,7 +76496,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-fe32-61ab-ab74-bcd2" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2599-24cc-d027-5ad7" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -76528,7 +76528,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c8fb-c871-f648-82cc" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-43bb-fb9b-365e-5fe8" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -76574,7 +76574,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e6aa-e074-dd3e-ae9b" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-2997-409f-8b7a-5bc5" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -76606,7 +76606,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d81f-4785-8e2b-8741" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-eacb-681b-0edb-5c62" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -76638,7 +76638,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-283f-5c36-3870-cb69" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f2de-d318-92ac-5e3a" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -76670,7 +76670,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e6ed-db97-5239-dee4" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3c31-746a-d538-532d" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -76702,7 +76702,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ea03-9260-1b48-8e3d" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4ca2-58a6-f0ab-5e50" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -76734,7 +76734,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-fc52-f7d1-5334-4cbf" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-54d1-6fac-4fb5-5c2f" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -76766,7 +76766,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-7eea-6095-9e6f-fa89" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-93f1-0ef9-a5d7-5c5d" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -76798,7 +76798,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b51f-bfda-9baa-b637" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f0de-19b5-16b6-5304" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -76830,7 +76830,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c92d-2307-5ad8-ee30" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-d86f-1b2a-5201-5d0e" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -76876,7 +76876,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-4d75-6c0c-5582-ce5a" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4ab3-2af4-f358-5bd2" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -76908,7 +76908,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c6f8-9b90-d3d7-e6b4" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-3a58-4145-89fc-568d" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -76940,7 +76940,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5512-f397-10eb-2504" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c250-1c0f-fb49-5d18" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -76972,7 +76972,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c476-8822-a682-e81e" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c4eb-3fd8-66ad-54c6" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -77004,7 +77004,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-fe51-4d19-3d70-4068" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7524-60e4-11bf-5ad1" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -77036,7 +77036,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-0fe2-8104-06b7-5031" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c634-88ec-e4fa-51ad" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -77068,7 +77068,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5dee-b85f-9ede-3209" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e5d8-b778-433c-5e09" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -77100,7 +77100,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-6079-3bda-9c65-ea5d" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-f566-e696-6728-5b44" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -77132,7 +77132,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c513-5ed2-6d31-2b02" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-538d-a226-49d6-5f1b" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -77178,7 +77178,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-12a2-9472-b759-aab0" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-487c-9509-26aa-52c6" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -77210,7 +77210,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2c05-aaf2-e1bc-b8aa" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-475a-3d18-ead5-5936" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -77242,7 +77242,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b826-24e0-a8a5-a150" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-09be-941f-8908-57f6" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -77274,7 +77274,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e6a6-e76e-f9e3-e609" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7c32-01e1-4947-5ce9" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -77306,7 +77306,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ea38-eaa2-ca5c-b6ac" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9b56-6bb8-84f2-59b9" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -77338,7 +77338,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b7f2-89cb-1f51-645d" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8ccd-6868-f674-5b93" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -77370,7 +77370,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-0b5d-3930-ce86-43a9" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7247-473e-15fc-59cb" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -77402,7 +77402,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-f61d-11f9-d3a3-6a06" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-62fa-3cd9-b666-5c9e" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -77434,7 +77434,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-61a5-0436-9a15-71f7" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-87f3-3d28-ccc0-5138" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -77480,7 +77480,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-066e-4c72-b292-6651" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8079-e937-b88f-50ac" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -77512,7 +77512,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5e14-a7ad-3e56-f4c6" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7486-ef64-4f4a-5316" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -77544,7 +77544,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ef8c-73f0-7b7d-ab64" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-5aa8-c011-5a15-52d4" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -77576,7 +77576,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5bd2-02a8-4c88-aee0" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bac6-f67b-c69f-5f26" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -77608,7 +77608,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-65ca-8bcf-0d2b-4c94" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b4af-af50-cc08-515d" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -77640,7 +77640,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-4e8d-75c4-7e60-1af9" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1198-99f5-002f-5769" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -77672,7 +77672,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e855-983b-7ddf-7f42" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-affe-b449-7528-551d" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -77704,7 +77704,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-6308-24c9-b337-af37" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e209-46be-0d63-59da" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -77736,7 +77736,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-89e9-fd55-b5f4-bd93" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-51ac-74f4-608d-5a53" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -77782,7 +77782,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-75c0-c0e1-5171-1235" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-27d6-bbd1-ab9b-5efd" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -77814,7 +77814,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2f47-0f9e-c41d-cd04" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-41e1-7788-7e7f-5212" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -77846,7 +77846,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c87c-434e-eadc-f6ee" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0239-1e8b-47e8-5216" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -77878,7 +77878,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-459d-fe33-2820-f85b" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-49f8-2912-70be-5e4e" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -77910,7 +77910,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e5f4-debb-6916-6259" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-da3c-b3ee-986f-5bd2" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -77942,7 +77942,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b6d9-be78-af3f-415a" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-35ee-4320-1351-529c" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -77974,7 +77974,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-aa95-6458-7e7a-69cd" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-74c4-6384-9ea8-5559" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -78006,7 +78006,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-3ad6-a646-986e-85fa" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-366b-1b73-3bab-57ff" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -78038,7 +78038,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-8ed9-aed2-ee61-f3d1" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8fec-18af-16ac-59b4" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -78084,7 +78084,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-98f5-f851-41bb-f441" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a0c9-21fe-231c-56f1" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -78116,7 +78116,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-8b7c-e0ea-69bd-f1c9" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-a08c-cda9-b1f9-598b" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -78148,7 +78148,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-a4a9-dab4-a902-0996" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-55e9-232b-4f4a-5345" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -78180,7 +78180,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-59dd-7869-5907-3e9c" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-05d4-5a33-8615-5f57" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -78212,7 +78212,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2325-536d-ef81-2b0d" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-8d76-ecc9-113f-50b8" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -78244,7 +78244,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5494-4b11-b6ca-70f4" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-17e3-8c40-5383-5c66" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -78276,7 +78276,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-3e33-b529-3d89-8cc2" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1d22-224c-d474-51f6" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -78308,7 +78308,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-78bd-04b2-7d51-f290" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-bd9e-b726-5c35-50f4" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -78340,7 +78340,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-26e4-7950-a677-17c2" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7e4b-b4f4-4e92-5b34" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -78386,7 +78386,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ce77-d4e8-5f94-1d13" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-59f2-523f-fd29-5681" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -78418,7 +78418,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ce0e-142f-ed47-ec47" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6e9d-fcd8-ed04-5bad" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -78450,7 +78450,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-f4f3-e687-e78b-0451" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-1382-b188-0012-5ad7" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -78482,7 +78482,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-db70-d6e6-03b2-5454" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ac58-c88f-396d-5457" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -78514,7 +78514,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-18e6-67e9-9520-2727" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-0d30-c3c4-df08-5992" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -78546,7 +78546,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-92e2-99dd-316e-69d6" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-210a-b9a4-ac46-5df0" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -78578,7 +78578,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-af3b-6cb0-0457-dc04" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6a93-f195-e08c-5658" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -78610,7 +78610,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-85eb-ea3f-2803-705f" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-127b-2163-a3ce-5a8e" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -78642,7 +78642,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ac4d-c757-1754-3644" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-650d-3ae5-2373-5d5f" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -78688,7 +78688,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5134-d2ac-fc9d-2981" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-facd-758a-b85b-57fc" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -78720,7 +78720,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b9c1-cbfb-b584-9510" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c320-cf89-114e-5be7" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -78752,7 +78752,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-5d51-2582-5072-381a" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-58d4-91bd-a0d2-5aaf" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -78784,7 +78784,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-02c6-bd65-722a-7d94" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b05d-bd88-5e01-5567" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -78816,7 +78816,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2512-9440-37d6-11c7" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-982a-e511-087a-5909" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -78848,7 +78848,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ece0-06b2-bfbd-5953" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-942b-ad96-5024-5af8" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -78880,7 +78880,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-b0e7-d311-0877-06db" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9986-6cc2-d57c-517f" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -78912,7 +78912,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-13e8-ce13-5f34-eb7b" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-9968-a9fd-1514-58dc" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -78944,7 +78944,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-7ec3-0c3b-26c3-9b18" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-7b5a-5925-2a94-5b00" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -78990,7 +78990,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-a5e8-c62d-4492-357b" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-e356-d8b5-f590-5b91" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -79022,7 +79022,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-814f-5266-fbe3-1667" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4584-2436-8b92-5fee" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -79054,7 +79054,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ac19-dbca-04ad-7a0a" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-4c27-e52b-40a1-5c80" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -79086,7 +79086,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-53bb-25bc-1013-db74" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-6170-60f8-1027-566d" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -79118,7 +79118,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-83d8-204b-7850-711f" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-c53c-9a94-df45-503a" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -79150,7 +79150,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e801-ce62-e4d7-3531" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-15d0-f583-b412-5e14" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -79182,7 +79182,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-f8f4-113d-e9d1-b4be" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-ad6c-3fa4-4c37-53b1" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -79214,7 +79214,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-2ecd-aebb-1317-6766" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-038b-8b73-19f2-549d" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -79246,7 +79246,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-0421-a65f-08d7-a14f" />
                           </constraints>
-                        
+
 <categoryLinks>
 <categoryLink id="campaign-test-b5a3-3b02-65f7-5bd5" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -80134,7 +80134,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-f1b4-dab6-d055-5614" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -80163,7 +80163,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-dee8-dfd1-dacf-5a83" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -80192,7 +80192,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-50c3-bc50-1358-5e9b" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -80221,7 +80221,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-2c37-b926-17f8-5219" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -80250,7 +80250,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-c875-f96f-026b-550f" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -80279,7 +80279,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-8239-6b03-3580-51dc" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -80308,7 +80308,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-5559-09f8-e268-5878" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -80337,7 +80337,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-9859-15f3-a2d9-5e39" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -80366,7 +80366,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-ee03-bb8a-cb1d-55a5" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -80579,7 +80579,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-9615-adee-560f-544c" name="Starting Movement advances" targetId="campaign-test-a2c2-62b0-8774-539a" hidden="false" primary="false" />
 </categoryLinks>
@@ -80608,7 +80608,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-4069-4657-1b56-5ebc" name="Starting Nimbleness advances" targetId="campaign-test-4bdf-acc6-5a53-52bc" hidden="false" primary="false" />
 </categoryLinks>
@@ -80637,7 +80637,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-fdbf-92ce-999d-5d35" name="Starting Block advances" targetId="campaign-test-3ff6-3599-5143-58d6" hidden="false" primary="false" />
 </categoryLinks>
@@ -80666,7 +80666,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-763d-00df-0a4e-5390" name="Starting Ranged advances" targetId="campaign-test-fea6-41a5-6df7-51c0" hidden="false" primary="false" />
 </categoryLinks>
@@ -80695,7 +80695,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-dc60-b72f-c644-5e67" name="Starting Concealment advances" targetId="campaign-test-ea60-68e5-6ffa-540b" hidden="false" primary="false" />
 </categoryLinks>
@@ -80724,7 +80724,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-daca-cc55-10cc-533c" name="Starting Strike advances" targetId="campaign-test-ce88-d098-77ff-5582" hidden="false" primary="false" />
 </categoryLinks>
@@ -80753,7 +80753,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-8590-a54f-3501-59d8" name="Starting Awareness advances" targetId="campaign-test-5864-e914-fbd0-5fea" hidden="false" primary="false" />
 </categoryLinks>
@@ -80782,7 +80782,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-a8d1-72ba-9f2f-50fc" name="Starting Fortitude advances" targetId="campaign-test-06a7-ba17-d75b-5fec" hidden="false" primary="false" />
 </categoryLinks>
@@ -80811,7 +80811,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </characteristics>
                     </profile>
                   </profiles>
-                
+
 <categoryLinks>
 <categoryLink id="campaign-test-7233-84ba-7b33-52a2" name="Starting Presence advances" targetId="campaign-test-e475-b6d2-6aa9-58ac" hidden="false" primary="false" />
 </categoryLinks>
@@ -81879,7 +81879,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
           </modifiers>
         </infoLink>
       <infoLink name="Unreliable" id="campaign-test-9eb9-5a7f-16fb-2e5d" hidden="true" type="rule" targetId="campaign-test-d8f2-4c1a-4b3d-8a9f"><modifiers><modifier type="set" field="hidden" value="false"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="lessThan" value="1" field="selections" scope="root-entry" childId="campaign-test-4a80-cfeb-8931-e670" shared="true" includeChildSelections="true" /><condition type="lessThan" value="1" field="selections" scope="root-entry" childId="campaign-test-b419-cd6b-0797-e690" shared="true" includeChildSelections="true" /><condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-683d-6982-d6c8-8367" shared="true" includeChildSelections="true" /><condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-f11b-f5a3-8f1d-49fb" shared="true" includeChildSelections="true" /><condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-8f91-2d4c-9e53-1b2a" shared="true" includeChildSelections="true" /><condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b1a7-5c0e-9f23-7d11" shared="true" includeChildSelections="true" /><condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-f5b4-4d32-4f3d-93a2" shared="true" includeChildSelections="true" /><condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-f2c3-4a6b-49d2-b8ec" shared="true" includeChildSelections="true" /><condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-4917-51ba-289a-cdb3" shared="true" includeChildSelections="true" /></conditions></modifier></modifiers></infoLink></infoLinks>
-    
+
 <modifiers>
 <modifier type="add" field="error" value="Starting Strike cannot exceed d12"><conditions><condition type="greaterThan" value="3" field="selections" scope="root-entry" childId="campaign-test-ce88-d098-77ff-5582" shared="true" includeChildSelections="true" /></conditions><conditionGroups><conditionGroup type="or"><conditions><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-6f71-4de0-c658-5910" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-8a62-5301-1659-d3a2" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-acf5-0573-d49f-e9a3" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-9bd9-d322-364e-a804" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-aac1-3787-a46f-d880" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-4160-f8dc-f697-a18f" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-f11b-f5a3-8f1d-49fb" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-8f91-2d4c-9e53-1b2a" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b1a7-5c0e-9f23-7d11" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-a2c4-91d7-4f20-9bc1" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-c7b8-a9f1-4d5a-9fcb" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-ec24-09d2-4fb2-936b" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-c2f3-b4a1-46bb-ae4a" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-e6d4-3a1c-42a8-9e9a" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-fb1a-2dc4-4e33-80b9" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-df21-4bb0-4b9a-8a42" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b6f8-48e2-45cd-b5aa" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-a72b-4926-4d3a-8ac3" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-c9b4-4a27-4a6a-b921" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-d97a-4b25-4b88-8d0b" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b1c6-4e9a-43ac-87af" shared="true" includeChildSelections="false" /></conditions></conditionGroup></conditionGroups></modifier>
 <modifier type="add" field="error" value="Starting Strike cannot exceed d12"><conditions><condition type="greaterThan" value="2" field="selections" scope="root-entry" childId="campaign-test-ce88-d098-77ff-5582" shared="true" includeChildSelections="true" /></conditions><conditionGroups><conditionGroup type="or"><conditions><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-683d-6982-d6c8-8367" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b9e1-57d6-4c2a-8b4f" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-e3c5-43aa-4fd0-bd87" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-f4a3-2c38-4c73-a7b5" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-a8c1-92ab-4c2d-9313" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b3cd-42e7-4e88-bb67" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-c35e-4ff2-48ce-9b2f" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-d46a-41fd-4a51-83b8" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b0e6-42f7-4a2b-963a" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-a41e-41a8-4c6e-91e4" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-c9e5-4af3-48dd-83b2" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-d3f1-45ec-4b1f-8e23" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-e4c6-4b55-4f25-8e32" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-a3e4-4d2a-4e3e-bac1" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-f1c3-4b4b-41db-8a22" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-d5e4-4c27-4bdf-8f93" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-c7b6-4b4d-48f0-8f32" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-e8f2-4c3d-41c2-bc3a" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-f5b4-4d32-4f3d-93a2" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-a7d3-4f8e-4e72-bc82" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-b8e1-4f6b-45f2-8e9d" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-c4f3-4a3b-45d9-8d5a" shared="true" includeChildSelections="false" /><condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="campaign-test-4917-51ba-289a-cdb3" shared="true" includeChildSelections="false" /></conditions></conditionGroup></conditionGroups></modifier>
