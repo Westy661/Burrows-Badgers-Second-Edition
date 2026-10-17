@@ -183,9 +183,10 @@ class CatalogueTests(unittest.TestCase):
         for entry in entries:
             with self.subTest(route=entry.get('id')):
                 errors = [m for m in descendants(entry, 'modifier') if m.get('field') == 'error']
-                self.assertTrue(any(applies(m, {}) for m in errors))
+                self.assertFalse(any(applies(m, {}) for m in errors))
+                self.assertTrue(any(applies(m, {entry.get("id"): 1}) for m in errors))
                 for ident in resist:
-                    self.assertFalse(any(applies(m, {ident: 1}) for m in errors))
+                    self.assertFalse(any(applies(m, {entry.get("id"): 1, ident: 1}) for m in errors))
                 for m in errors:
                     for condition in descendants(m, 'condition'):
                         self.assertEqual(condition.get('scope'), 'root-entry')

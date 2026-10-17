@@ -59,11 +59,14 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
 
 ## Campaign test branch
 
-This branch tests the original cynsye campaign implementation at
-`a10173f4c4805ed35c2daed535923baefbc98126`. Its twelve `.gst` and `.cat` source
-files are unchanged. It is separate from the current upstream master
-`cde84057a1f44f35eb1756e62fa196e6410b6b4f`, which includes PR #29. Upstream fixes
-have not yet been reconciled into this campaign snapshot.
+This branch combines the cynsye campaign implementation with the reconciled
+upstream rule fixes. The rulebook audit on 17 October 2026 additionally corrects
+the shared game system; its data revision is 9. The `.cat` files retain their
+existing faction IDs and rules.
+
+See the Hungarian [faction-by-faction rulebook audit](docs/faction-rulebook-audit-2026-10-17.md)
+for verified prices, missing equipment options, corrected profiles, source-page
+references, official FAQ overrides, and remaining manual checks.
 
 ### Run beside the stable system
 
@@ -111,14 +114,18 @@ The resource input records 50 Pennies received, and the remaining balance is
 Run:
 
 ```text
-python tests/test_catalogues.py -v
+python -B tests/test_catalogues.py -v
+python -B tests/test_rulebook_audit.py -v
 ```
 
 The suite is adapted from upstream PR #29 to allow the campaign branch's
 additional skill routes and modifier-based starting-money discount. All 14
-checks pass after reconciling the upstream rule corrections with campaign
-accounting and progression. Structural XML, import links, isolated staging and
-the listed campaign smoke tests pass.
+original checks and 27 rulebook audit groups pass. Structural XML, import links
+and isolated staging pass for the audited data revision. All ten factions were
+exercised in the New Recruit UI on 17 October; see the
+[UI test record](docs/faction-ui-test-2026-10-17.md) for actual totals, campaign
+transitions, screenshots and UI-discovered fixes. The 16 October table above
+is historical; the new record identifies the checks repeated for this audit.
 
 ### Next manual test cases
 
@@ -130,4 +137,11 @@ the listed campaign smoke tests pass.
 - XP reset/bookkeeping, repeated advances and maximum-level checks.
 - Faction-specific campaign paths for Undead, Routiers and Arcane Conclave.
 
-Review these results and reconcile PR #29's fixes before considering a merge.
+PR #29's rule fixes are already included in master through PR #30. The audit
+branch adds data corrections and the recorded UI checks; the broader campaign
+cases listed above remain manual follow-up coverage.
+
+Variable starting-price fields are preserved in saved rosters. After updating
+data, refresh New Recruit and correct an old price field or reselect its item
+to apply the new default. Poison starting prices now follow the Piece quantity
+automatically; post-creation still uses the total rolled Cost field.
