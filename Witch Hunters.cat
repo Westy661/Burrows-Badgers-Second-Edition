@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-d845-6d26-8d7a-ba51" name="Witch Hunters" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="campaign-test-8877-b363-5f34-3f97" targetId="campaign-test-e7c5-f4ae-d0e7-9f53" importRootEntries="true" />
+  </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Warband" id="campaign-test-b623-6dd4-53e9-cff0" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-6419-15ad-d725-dde0" targetId="campaign-test-1bc5-0b8a-1258-293f" />
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-7499-eab3-0fa7-6937" targetId="campaign-test-07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-da25-c459-3258-ed55" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-3e1e-c8ce-247b-89c0" targetId="campaign-test-97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="campaign-test-8fd5-f94c-aef7-d247" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-c3f3-a477-748e-24d1" targetId="campaign-test-9ed2-8233-7200-924b" />
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-c48c-592a-9db5-0de8" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+        <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-9bef-dd64-5ef5-b7d6" targetId="campaign-test-583b-2cca-fae6-9a19" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Witch Hunters" hidden="false" id="campaign-test-1e49-9b1a-ff0f-cc3c">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="-25" />
+        <cost name="Labor" typeId="campaign-test-a8b9-14eb-c576-28d4" value="0" />
+        <cost name="Material" typeId="campaign-test-ce21-5b5b-f092-7301" value="0" />
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e62f-7f0b-0f88-02c8" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-c6f7-76b4-e4b1-8825" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Witch Hunter" id="campaign-test-fd01-7123-02ae-d5fc" hidden="false" type="profile" targetId="campaign-test-e4e7-3e7d-efaf-4647" />
+        <infoLink name="Allegiance Archetype: Cunning Folk" id="campaign-test-0d9a-6f69-fd2e-4594" hidden="false" type="rule" targetId="campaign-test-b1ab-a6f3-6bb4-a0e8" />
+        <infoLink name="Support Quest – Purify" id="campaign-test-d726-95d0-cc01-a667" hidden="false" type="rule" targetId="campaign-test-456e-c7fe-152f-b2ac" />
+        <infoLink name="Magical Archetypes" id="campaign-test-21c0-018e-0d77-c4ed" hidden="false" type="rule" targetId="campaign-test-0b10-c900-8ec2-eff6" />
+        <infoLink name="Well-funded" id="campaign-test-e7a3-d0cc-1a80-192c" hidden="false" type="rule" targetId="campaign-test-7aea-9f15-ace0-ac7e" />
+        <infoLink name="Armoured by Faith" id="campaign-test-8479-27e8-4162-67d3" hidden="false" type="rule" targetId="campaign-test-1926-d885-8fde-44e7" />
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Witch Hunters" hidden="false" id="campaign-test-91c6-dc8c-f55f-4d64" targetId="campaign-test-1e49-9b1a-ff0f-cc3c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-5859-7182-dad2-6e18" targetId="campaign-test-1bc5-0b8a-1258-293f" primary="true" />
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <rules>
+    <rule name="Armoured by Faith" id="campaign-test-1926-d885-8fde-44e7" hidden="false">
+      <description>Two of your models may improve their Fortitude dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Well-funded" id="campaign-test-7aea-9f15-ace0-ac7e" hidden="false">
+      <description>You also have an extra 25 Pennies to spend at Band creation, for a total of 375 Pennies.</description>
+    </rule>
+    <rule name="Allegiance Archetype: Cunning Folk" id="campaign-test-b1ab-a6f3-6bb4-a0e8" hidden="false" />
+    <rule name="Magical Archetypes" id="campaign-test-0b10-c900-8ec2-eff6" hidden="false">
+      <description>Witch Hunter Magic-users may choose from Light, Noble, and Divine.</description>
+    </rule>
+    <rule name="Support Quest – Purify" id="campaign-test-456e-c7fe-152f-b2ac" hidden="false">
+      <description>Any model that takes an enemy Leader, Second, Magic-user, or enemy with the Uncanny Skill Out of Action gains 1 Fate point and 1 Experience point.</description>
+    </rule>
+  </rules>
+  <comment>TODO Well-funded</comment>
+</catalogue>

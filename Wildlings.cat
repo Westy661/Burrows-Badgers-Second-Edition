@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-9831-20f3-95b7-e442" name="Wildlings" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="campaign-test-41db-4a1d-04b1-788c" targetId="campaign-test-e7c5-f4ae-d0e7-9f53" importRootEntries="true" />
+  </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Warband" id="campaign-test-6910-0c2d-5a75-5c8f" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-b8c3-7407-3e4f-d3b3" targetId="campaign-test-1bc5-0b8a-1258-293f" />
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-7dbe-9a91-7a6d-c6a6" targetId="campaign-test-07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-d21e-75e6-df11-e4d4" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-671d-f16a-d8ae-531b" targetId="campaign-test-97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="campaign-test-9fe1-5ab0-d822-51e2" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-d2f4-0a91-5c91-88d5" targetId="campaign-test-9ed2-8233-7200-924b" />
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-9596-18ea-63b3-f690" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+        <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-eb84-294d-1be9-5a32" targetId="campaign-test-583b-2cca-fae6-9a19" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Wildlings" hidden="false" id="campaign-test-8d39-93f9-26a9-651c">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+        <cost name="Labor" typeId="campaign-test-a8b9-14eb-c576-28d4" value="0" />
+        <cost name="Material" typeId="campaign-test-ce21-5b5b-f092-7301" value="0" />
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="campaign-test-f3fc-3573-57dc-24a6" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-027c-f6d4-5419-784a" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Wildlings" id="campaign-test-34d4-7887-0755-e077" hidden="false" type="profile" targetId="campaign-test-926b-2176-576a-1072" />
+        <infoLink name="Allegiance Archetype: All-rounder" id="campaign-test-78cd-7c62-1d83-a8d9" hidden="false" type="rule" targetId="campaign-test-0f5a-586b-1f9b-2c83" />
+        <infoLink name="Born to be Wild" id="campaign-test-ddb4-eacd-b6d3-488e" hidden="false" type="rule" targetId="campaign-test-0580-000d-9442-925b" />
+        <infoLink name="Support Quest – Back to Nature" id="campaign-test-9691-485d-d7aa-3c1f" hidden="false" type="rule" targetId="campaign-test-8ef3-c799-f2cb-f947" />
+        <infoLink name="Magical Archetypes" id="campaign-test-8174-9b49-735b-d9b2" hidden="false" type="rule" targetId="campaign-test-c1e7-7c82-6ebb-c9b5" />
+        <infoLink name="Stay Pure" id="campaign-test-ca5a-6801-1a9b-5cca" hidden="false" type="rule" targetId="campaign-test-7ca4-ae17-1cd2-405c" />
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Wildlings" hidden="false" id="campaign-test-0550-0aa5-e27b-3224" targetId="campaign-test-8d39-93f9-26a9-651c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-76f1-90a0-44ad-b1af" targetId="campaign-test-1bc5-0b8a-1258-293f" primary="true" />
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <rules>
+    <rule name="Born to be Wild" id="campaign-test-0580-000d-9442-925b" hidden="false">
+      <description>Three of your models may take either the Strong (1) Skill or the Tough (1) Skill. These are cumulative with any existing Strong/Tough Skills they have due to their Species. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Stay Pure" id="campaign-test-7ca4-ae17-1cd2-405c" hidden="false">
+      <description>No model in a Wildling Band may use any Black Powder weapons.</description>
+    </rule>
+    <rule name="Allegiance Archetype: All-rounder" id="campaign-test-0f5a-586b-1f9b-2c83" hidden="false">
+      <description>Allegiance Archetype: All-rounder</description>
+    </rule>
+    <rule name="Magical Archetypes" id="campaign-test-c1e7-7c82-6ebb-c9b5" hidden="false">
+      <description>Wildling Magic-users may choose from Natural, Wild, Dark, Fate-Weaver, Channelling and Elementalism</description>
+    </rule>
+    <rule name="Support Quest – Back to Nature" id="campaign-test-8ef3-c799-f2cb-f947" hidden="false">
+      <description>Reach Base Contact with the enemy’s Objectives and make an Interact Action to plant them with magically enhanced seeds; any model who seeds an enemy Objective gains 1 Fate point and 1 Experience point. Each Objective can only be seeded once.</description>
+    </rule>
+  </rules>
+</catalogue>

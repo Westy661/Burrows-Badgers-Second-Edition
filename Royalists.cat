@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-8176-1d0a-206b-f9e9" name="Royalists" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="campaign-test-dc5b-46ca-c5f0-bc5d" targetId="campaign-test-e7c5-f4ae-d0e7-9f53" importRootEntries="true" />
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Royalists" hidden="false" id="campaign-test-9112-899f-db52-9f2d" targetId="campaign-test-3f8a-5bc3-894d-b885" type="selectionEntry" sortIndex="-1" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-f257-e768-207d-940f" targetId="campaign-test-1bc5-0b8a-1258-293f" primary="true" />
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Royalists" hidden="false" id="campaign-test-3f8a-5bc3-894d-b885" defaultAmount="1">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+        <cost name="Labor" typeId="campaign-test-a8b9-14eb-c576-28d4" value="0" />
+        <cost name="Material" typeId="campaign-test-ce21-5b5b-f092-7301" value="0" />
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="campaign-test-725d-5029-0d79-d3c7" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-f1a4-97eb-2232-9a72" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Royalist" id="campaign-test-067c-36e8-a01d-2cc1" hidden="false" type="profile" targetId="campaign-test-f878-2799-f5d5-fd99" />
+        <infoLink name="Allegiance Archetype: Warrior" id="campaign-test-483f-147d-23d3-338e" hidden="false" type="rule" targetId="campaign-test-dba1-ee64-c5fe-4aeb" />
+        <infoLink name="The King Wills It!" id="campaign-test-02be-1f73-5d0c-7667" hidden="false" type="rule" targetId="campaign-test-98f4-6f9c-c82e-a19d" />
+        <infoLink name="Expert Training" id="campaign-test-ec36-5c4b-3444-a22a" hidden="false" type="rule" targetId="campaign-test-609f-e1c9-1044-0774" />
+        <infoLink name="Magical Archetypes" id="campaign-test-fc51-4997-e50b-8b8a" hidden="false" type="rule" targetId="campaign-test-2061-6304-a2f9-0ac9" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-e1ce-12b8-e653-e26b" targetId="campaign-test-1bc5-0b8a-1258-293f" primary="true" />
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <forceEntries>
+    <forceEntry name="Warband" id="campaign-test-e7b7-bbb0-68b6-9734" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-9f25-f862-47c5-9006" targetId="campaign-test-1bc5-0b8a-1258-293f" />
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-e35f-958a-da0b-150d" targetId="campaign-test-07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-3d96-eaf9-b940-fd66" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-97c3-b3ea-e930-48fc" targetId="campaign-test-97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="campaign-test-36a1-75e8-38db-58c7" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-1ade-d1b9-589a-5db2" targetId="campaign-test-9ed2-8233-7200-924b" />
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-3a9f-4df1-92bc-59ef" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+        <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-8a47-b016-b2a0-6865" targetId="campaign-test-583b-2cca-fae6-9a19" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <rules>
+    <rule name="Expert Training" id="campaign-test-609f-e1c9-1044-0774" hidden="false">
+      <description>Two of your models may improve their Strike dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Allegiance Archetype: Warrior" id="campaign-test-dba1-ee64-c5fe-4aeb" hidden="false">
+      <description>Allegiance Archetype: Warrior</description>
+    </rule>
+    <rule name="Magical Archetypes" id="campaign-test-2061-6304-a2f9-0ac9" hidden="false">
+      <description>Royalist Magic-users may choose from Natural, Light, Noble, Unbound, Divine, and Elementalism.</description>
+    </rule>
+    <rule name="The King Wills It!" id="campaign-test-98f4-6f9c-c82e-a19d" hidden="false">
+      <description>Any model who takes an enemy model Out of Action using an Attack Action (including the bonus Attack from Charging, or the free Attack when an enemy moves out of Base Contact) gains 1 Fate point and 1 Experience point.</description>
+    </rule>
+  </rules>
+  <sharedProfiles>
+    <profile name="Statistic Upgraded" typeId="campaign-test-8a52-cfd9-29c6-5c48" typeName="Tag" hidden="false" id="campaign-test-d70c-473d-ce10-6a78" />
+  </sharedProfiles>
+</catalogue>

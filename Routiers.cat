@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-3693-1d8c-9910-fa7b" name="Routiers" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="campaign-test-d400-1ffe-2a1a-ea82" targetId="campaign-test-e7c5-f4ae-d0e7-9f53" importRootEntries="true" />
+  </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Warband" id="campaign-test-3f5f-f1a4-7c84-5698" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-8b56-690c-daff-e59f" targetId="campaign-test-1bc5-0b8a-1258-293f" />
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-4fa8-54b3-7b8b-587e" targetId="campaign-test-07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-2363-67ad-9b29-d9fe" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-6a5c-83d7-a9f1-9fd4" targetId="campaign-test-97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="campaign-test-12c8-92e3-fe5d-9daa" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-4a9e-47bc-785b-84b4" targetId="campaign-test-9ed2-8233-7200-924b" />
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-0369-eab4-d86e-af01" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+        <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-9048-83af-4a19-d3e7" targetId="campaign-test-583b-2cca-fae6-9a19" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Routier" hidden="false" id="campaign-test-d31a-18fc-c0f8-ee05">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+        <cost name="Labor" typeId="campaign-test-a8b9-14eb-c576-28d4" value="0" />
+        <cost name="Material" typeId="campaign-test-ce21-5b5b-f092-7301" value="0" />
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="campaign-test-e518-6065-8ee4-0472" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-afe2-b64a-3cab-e08f" />
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="campaign-test-9450-dae2-fb4d-2483" includeChildSelections="false" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Routiers" id="campaign-test-3ab6-dae8-ce1a-77b8" hidden="false" type="profile" targetId="campaign-test-228e-7552-a3f2-c44a" />
+        <infoLink name="Allegiance Archetype: Warrior" id="campaign-test-d9aa-8840-a1a8-e7d7" hidden="false" type="rule" targetId="campaign-test-8d31-51bc-3bfb-44ec" />
+        <infoLink name="Expert Training" id="campaign-test-ea99-2495-9ade-f2a6" hidden="false" type="rule" targetId="campaign-test-53a9-8376-f8f4-cce8" />
+        <infoLink name="Magical Archetypes" id="campaign-test-279b-0044-3ea6-580e" hidden="false" type="rule" targetId="campaign-test-bacb-aefa-adfb-5a31" />
+        <infoLink name="Martial Pride" id="campaign-test-8abc-b113-77aa-d46a" hidden="false" type="rule" targetId="campaign-test-3605-3daf-8d14-e06e" />
+        <infoLink name="Old Campaigners &amp; Raw Recruits" id="campaign-test-4721-121c-4911-87ff" hidden="false" type="rule" targetId="campaign-test-f745-1120-2445-a27e" />
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Routier" hidden="false" id="campaign-test-75ac-f7fa-1e91-312f" targetId="campaign-test-d31a-18fc-c0f8-ee05" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-e569-0677-0b0e-d931" targetId="campaign-test-1bc5-0b8a-1258-293f" primary="true" />
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <rules>
+    <rule name="Expert Training" id="campaign-test-53a9-8376-f8f4-cce8" hidden="false">
+      <description>Two of your models may improve their Strike dice or Ranged dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Old Campaigners &amp; Raw Recruits" id="campaign-test-f745-1120-2445-a27e" hidden="false">
+      <description>Up to six members of your starting Band may be Old Campaigners. They may improve any Stat by one or more dice levels, up to a maximum of d12. They may also take any number of Skills. These upgrades do not increase the model’s Level.
+
+
+- For each Stat upgrade and Skill selected, the model must make a roll of d12+3 (i.e. possible results of 4 to 15) on the Major Injuries Table (see page 157). They suffer that Injury, but do not reduce their Level if normally required, nor do they receive the Pennies that would normally be added to the Band’s Pension.
+
+
+- Up to six members of your starting Band may be Raw Recruits. They must reduce both their Fortitude and Presence Stats by one dice level, but they begin with a One-handed Weapon, a Sling, and a Light Shield for free.
+
+
+- When creating a Band, or when hiring new Band members, all models must be either Old Campaigners or Raw Recruits.</description>
+    </rule>
+    <rule name="Martial Pride" id="campaign-test-3605-3daf-8d14-e06e" hidden="false">
+      <description>A Routier Band may have a maximum of one Magic-user.</description>
+    </rule>
+    <rule name="Allegiance Archetype: Warrior" id="campaign-test-8d31-51bc-3bfb-44ec" hidden="false">
+      <description>Allegiance Archetype: Warrior</description>
+    </rule>
+    <rule name="Magical Archetypes" id="campaign-test-bacb-aefa-adfb-5a31" hidden="false">
+      <description>Routier Magic-users may choose from Natural, Light, Noble, and Unbound.</description>
+    </rule>
+    <rule name="Support Quests – Protect your Assets" id="campaign-test-98f3-50d9-fed5-6d21" hidden="false">
+      <description>Have a model in Base Contact with one or more of your Objectives. Once per Turn, one of your models who is in Base Contact with one of your Objectives gains 1 Fate Point. In addition, if there are no enemy models within 12” of that Objective, one of your models on the table gains 1 Fate point.
+
+
+Only the survivors get paid. If your Band suffers fewer models Out of Action than the opposing Band at the end of the Battle, all models receive 1 Experience (see page 150 for opposing players in multiplayer games).</description>
+    </rule>
+  </rules>
+  <comment>- Old Campaigners &amp; Raw Recruits: Not implemented</comment>
+</catalogue>

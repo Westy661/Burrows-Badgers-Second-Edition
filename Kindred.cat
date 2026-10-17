@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-0ecf-0a47-e8bd-b893" name="Kindred" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="campaign-test-6cb4-0a7b-6398-37e6" targetId="campaign-test-e7c5-f4ae-d0e7-9f53" importRootEntries="true" />
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Kindred" hidden="false" id="campaign-test-a7fe-119d-b9b3-abe1" defaultAmount="0">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+        <cost name="Labor" typeId="campaign-test-a8b9-14eb-c576-28d4" value="0" />
+        <cost name="Material" typeId="campaign-test-ce21-5b5b-f092-7301" value="0" />
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="campaign-test-d66d-4329-14f9-fbde" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-ccae-9304-a6d1-c161" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance: Kindred" id="campaign-test-acc3-c7b8-c860-fa65" hidden="false" type="profile" targetId="campaign-test-1b2d-75b3-94e1-3262" />
+        <infoLink name="Expert Training" id="campaign-test-fea4-10ee-9653-b040" hidden="false" type="rule" targetId="campaign-test-fe20-7939-6f59-f046" />
+        <infoLink name="Travel Light" id="campaign-test-051f-9a4d-c3dd-5f80" hidden="false" type="rule" targetId="campaign-test-7080-ceb4-6b72-6e8d" />
+        <infoLink name="Allegiance Archetype: Ranger" id="campaign-test-d707-8c27-ed30-e07d" hidden="false" type="rule" targetId="campaign-test-43fa-65a8-2462-e861" />
+        <infoLink name="Magical Archetypes" id="campaign-test-98a5-5ab5-b43a-02b1" hidden="false" type="rule" targetId="campaign-test-eac9-ea55-42ec-9dcc" />
+        <infoLink name="Support Quest – Scout" id="campaign-test-40d3-c076-6033-0e4a" hidden="false" type="rule" targetId="campaign-test-0c9c-bd7d-8fb9-69e0" />
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-1e94-2e7d-8736-b1dc" targetId="campaign-test-1bc5-0b8a-1258-293f" primary="true" />
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <rules>
+    <rule name="Expert Training" id="campaign-test-fe20-7939-6f59-f046" hidden="false">
+      <description>Three of your models may improve their Strike or Ranged dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Travel Light" id="campaign-test-7080-ceb4-6b72-6e8d" hidden="false">
+      <description>No model in a Kindred Band may wear Heavy Armour, Very Heavy Armour, or use a Heavy Shield. No model in a Kindred Band may use a Heavy Crossbow or any Black Powder weapons.</description>
+    </rule>
+    <rule name="Allegiance Archetype: Ranger" id="campaign-test-43fa-65a8-2462-e861" hidden="false">
+      <description>Allegiance Archetype: Ranger</description>
+    </rule>
+    <rule name="Magical Archetypes" id="campaign-test-eac9-ea55-42ec-9dcc" hidden="false">
+      <description>Kindred Magic-users may choose from Natural, Light, Noble, Wild, Divine, and Elementalism.</description>
+    </rule>
+    <rule name="Support Quest – Scout" id="campaign-test-0c9c-bd7d-8fb9-69e0" hidden="false">
+      <description>Reach Base Contact with the enemy’s Objectives and mark them by performing an Interact Action. Any model who marks an enemy Objective gains 1 Fate Point and 1 Experience point. If all the enemy’s Objectives are Marked, all your models gain 1 Fate point. Each Objective can only be marked once.</description>
+    </rule>
+  </rules>
+  <forceEntries>
+    <forceEntry name="Warband" id="campaign-test-0478-a7a8-0061-2ca4" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-e051-d80c-806a-0a36" targetId="campaign-test-1bc5-0b8a-1258-293f" />
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-db10-677a-ca6c-cbaf" targetId="campaign-test-07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-dcf5-3f7e-aed3-a4e4" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-869a-5b15-39e5-da5f" targetId="campaign-test-97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="campaign-test-759b-b444-3673-c263" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-ec3f-5e6d-ab39-9aa1" targetId="campaign-test-9ed2-8233-7200-924b" />
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-515e-4511-17ca-8a93" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+        <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-5779-26b5-62a1-c0c6" targetId="campaign-test-583b-2cca-fae6-9a19" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Kindred" hidden="false" id="campaign-test-6933-3253-81fd-0be6" targetId="campaign-test-a7fe-119d-b9b3-abe1" type="selectionEntry" defaultAmount="1" />
+  </entryLinks>
+</catalogue>

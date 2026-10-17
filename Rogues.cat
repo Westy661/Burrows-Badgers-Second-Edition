@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="campaign-test-808b-4fc3-6383-952e" name="Rogues" gameSystemId="campaign-test-sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue">
+  <forceEntries>
+    <forceEntry name="Warband" id="campaign-test-6fbb-11b2-ebb0-3767" hidden="false">
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-0830-2bbe-832a-093a" targetId="campaign-test-9744-970b-5561-3d61" />
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="campaign-test-c914-f26b-b7ca-31f6" targetId="campaign-test-07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="campaign-test-23cf-00ce-1183-5ab5" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="campaign-test-a246-2bbf-13ce-5d6b" targetId="campaign-test-97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="campaign-test-0357-6c71-7f6a-1cfa" includeChildSelections="false" />
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="campaign-test-03cb-b7cc-5b70-ff5a" targetId="campaign-test-9ed2-8233-7200-924b" />
+        <categoryLink name="Small Beast (30mm Base)" hidden="false" id="campaign-test-c1e1-92bb-da51-7107" targetId="campaign-test-6803-87ba-83c4-bd4b" />
+        <categoryLink name="Den Upgrade" hidden="false" id="campaign-test-bc59-218a-c9b7-090c" targetId="campaign-test-583b-2cca-fae6-9a19" />
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Campaign" id="campaign-test-c1cc-5f39-41bf-429d" targetId="campaign-test-e7c5-f4ae-d0e7-9f53" importRootEntries="true" />
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Allegiance" id="campaign-test-9744-970b-5561-3d61" hidden="false" />
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Allegiance: Rogues" hidden="false" id="campaign-test-50ec-2aab-28b0-12e1">
+      <categoryLinks>
+        <categoryLink name="Allegiance" hidden="false" id="campaign-test-b2de-ca3c-f4c1-1dd8" targetId="campaign-test-9744-970b-5561-3d61" primary="true" />
+      </categoryLinks>
+      <costs>
+        <cost name="Penny" typeId="campaign-test-6752-9e0b-692e-d5b9" value="0" />
+        <cost name="Labor" typeId="campaign-test-a8b9-14eb-c576-28d4" value="0" />
+        <cost name="Material" typeId="campaign-test-ce21-5b5b-f092-7301" value="0" />
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="campaign-test-6705-18e4-f59e-e304-min" />
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-6705-18e4-f59e-e304-max" />
+      </constraints>
+      <infoLinks>
+        <infoLink name="Allegiance Archetype: Ranger" id="campaign-test-3ea1-b9d0-3012-7db0" hidden="false" type="rule" targetId="campaign-test-7f41-617c-88cf-1eb8" />
+        <infoLink name="Quick and Quiet" id="campaign-test-cd1f-345c-b4cc-b246" hidden="false" type="rule" targetId="campaign-test-5a03-e3b6-060c-b836" />
+        <infoLink name="Support Quest - Strip the Area:" id="campaign-test-b991-ff62-f298-02c0" hidden="false" type="rule" targetId="campaign-test-a611-a458-e53a-f835" />
+        <infoLink name="Magical Archetypes" id="campaign-test-927f-c3a4-969c-0565" hidden="false" type="rule" targetId="campaign-test-3780-9be5-ebbe-30f1" />
+        <infoLink name="Born Lucky" id="campaign-test-65d9-9a86-7fd0-40fe" hidden="false" type="rule" targetId="campaign-test-42e3-cf06-3cc9-ba31" />
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Allegiance: Rogues" hidden="false" id="campaign-test-779b-e839-8df7-535e" targetId="campaign-test-50ec-2aab-28b0-12e1" type="selectionEntry" defaultAmount="1">
+      <profiles>
+        <profile name="Allegiance: Rogues" typeId="campaign-test-b03a-98be-dd5f-032a" typeName="Allegiance" hidden="false" id="campaign-test-1422-f7f0-1055-1bc4" />
+      </profiles>
+    </entryLink>
+  </entryLinks>
+  <rules>
+    <rule name="Allegiance Archetype: Ranger" id="campaign-test-7f41-617c-88cf-1eb8" hidden="false">
+      <description>Each Allegiance has an Allegiance Archetype – either Warrior, Ranger, All-rounder, or Cunning Folk. This determines which Advance table the models in the Band will roll on when gaining Experience Advances.</description>
+    </rule>
+    <rule name="Quick and Quiet" id="campaign-test-5a03-e3b6-060c-b836" hidden="false">
+      <description>Two of your models may improve their Move or Nimbleness or Concealment dice by one level, to a maximum of d12. This increases the models’ Levels by one.</description>
+    </rule>
+    <rule name="Magical Archetypes" id="campaign-test-3780-9be5-ebbe-30f1" hidden="false">
+      <description>Rogue Magic-users may choose from Natural, Wild, Noble, Unbound, Fate-weaver, and Illusionism.</description>
+    </rule>
+    <rule name="Support Quest - Strip the Area:" id="campaign-test-a611-a458-e53a-f835" hidden="false">
+      <description>Perform a Search Action with a Difficulty of 5 on one or more Terrain pieces that are at least 12” from your Table Corner. For every Terrain piece successfully Searched, the Searching model gains 1 Fate point and 1 Experience point.
+
+
+Each Terrain piece can only be successfully Searched once, and only Terrain pieces at least 50mm wide/long count!</description>
+    </rule>
+    <rule name="Born Lucky" id="campaign-test-42e3-cf06-3cc9-ba31" hidden="false">
+      <description>You start each game with three extra Fate points, which you can distribute freely between your models.</description>
+    </rule>
+  </rules>
+</catalogue>
