@@ -45,7 +45,10 @@ csapatszinten vizsgálják; nincs kezdőfázis-kivétel és nincs Born in Harnes
 - A közös rendszer mind a 8213 meglévő azonosítója megmaradt; mind a 49 Unit
   alapprofil bájtra azonos a master alaphoz képest. A 12 fájl XML- és
   hivatkozás-ellenőrzését a teljes regresszió tartalmazza.
-- New Recruit felületi ellenőrzés: folyamatban.
+- Új New Recruit felületi ellenőrzés nem futott: a helyi fájlok külső
+  szolgáltatásba importját az automatikus jóváhagyás elutasította. A külön
+  feltett felhasználói importengedélyre vár; a 72 teszt az XML-feltételeket
+  ellenőrzi, nem a New Recruit futtatómotorját.
 
 A korábbi auditok eredményei a saját verzióikra és megnevezett próbáikra
 vonatkoznak. Az elrejtés igazolása nem bizonyította a mentett tiltott tárgy
