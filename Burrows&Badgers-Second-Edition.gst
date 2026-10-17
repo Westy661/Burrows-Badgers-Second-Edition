@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="9" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="10" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
@@ -1737,6 +1737,9 @@ casting Spells.</description>
           </characteristics>
         </profile>
       </profiles>
+      <constraints>
+        <constraint field="selections" id="ec92-2091-5143-a046" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="27"/>
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -1747,6 +1750,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="ef0b-728b-5cb7-8a80" name="Rare" primary="false" targetId="6daf-83fe-ef42-17d8"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="7b20-9a14-c502-a666" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
