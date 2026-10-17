@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="11" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="12" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="campaign-test-6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)" />
     <categoryEntry hidden="false" id="campaign-test-9ed2-8233-7200-924b" name="Medium Beast (30mm Base)" />
@@ -22960,7 +22960,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </modifier>
-                      </modifiers>
+                      <modifier type="set" field="campaign-test-d8ac-b20e-1b4e-c8c2" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="campaign-test-dda6-cf3c-6c1c-2d83" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
                       </categoryLinks>
@@ -27890,7 +27890,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                          </modifiers>
+                          <modifier type="set" field="campaign-test-8a55-0e31-ee24-b415" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-1507-9565-958c-15db" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
                           </categoryLinks>
@@ -48662,7 +48662,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                          </modifiers>
+                          <modifier type="set" field="campaign-test-6f0f-4329-d084-8d0d" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-2b09-cb9e-fc8a-63a2" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
                           </categoryLinks>
@@ -61526,7 +61526,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                          </modifiers>
+                          <modifier type="set" field="campaign-test-6663-5f9b-c900-2cfc" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true" /></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="campaign-test-39ab-eba6-8613-c35b" targetId="campaign-test-6daf-83fe-ef42-17d8" primary="false" />
                           </categoryLinks>
