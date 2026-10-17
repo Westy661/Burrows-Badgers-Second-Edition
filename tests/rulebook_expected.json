@@ -1,0 +1,1423 @@
+{
+  "source": "Local second-edition rulebook (2025); printed page = PDF page minus 1. Species 43-46; grub traits 115; common 176-177; ingredients 178. Armadillo table says Leap; interpreted as Leaper (innate rule). Official FAQ and Errata (16 May 2025), https://www.burrowsandbadgers.com/downloads/burrows%26badgers-faq-2025.pdf, overrides Medium Mist Ghast level (2) and General Store printing errors.",
+  "factions": {
+    "Royalists": {
+      "page": 47,
+      "rare": {
+        "War Bow": 20,
+        "Heavy Crossbow": 27,
+        "Caliver": 20,
+        "Very heavy armour": 40,
+        "Silk Undershirt": 5,
+        "Telescope": 10,
+        "Relic": 4,
+        "Anti-Venom": 3
+      },
+      "bonus": "Expert Training",
+      "choices": [
+        "Upgrade Strike"
+      ],
+      "limit": 2,
+      "den": "Pells and Training Ground",
+      "magic": [
+        "Natural",
+        "Light",
+        "Noble",
+        "Unbound",
+        "Divine",
+        "Elementalism"
+      ]
+    },
+    "Rogues": {
+      "page": 48,
+      "rare": {
+        "Caliver": 25,
+        "Silk Undershirt": 5,
+        "Dispel Scroll": 10,
+        "Blind Dust": 7,
+        "Telescope": 10,
+        "Paralysing Poison": 4,
+        "Pain Poison": 2,
+        "Mortal Poison": 5,
+        "Anti-Venom": 3
+      },
+      "bonus": "Quick and Quiet",
+      "choices": [
+        "Upgrade Movement",
+        "Upgrade Nimbleness",
+        "Upgrade Concealment"
+      ],
+      "limit": 2,
+      "den": "Obstacle Course",
+      "magic": [
+        "Natural",
+        "Wild",
+        "Noble",
+        "Unbound",
+        "Fate-weaving",
+        "Illusionism"
+      ]
+    },
+    "Freebeasts": {
+      "page": 51,
+      "rare": {
+        "Heavy Crossbow": 25,
+        "Caliver": 20,
+        "Very heavy armour": 42,
+        "Silk Undershirt": 5,
+        "Dispel Scroll": 10,
+        "Shielding Talisman": 7,
+        "Mirroring Talisman": 10,
+        "Blind Dust": 7,
+        "Telescope": 10,
+        "Paralysing Poison": 4,
+        "Pain Poison": 2,
+        "Mortal Poison": 5,
+        "Relic": 4,
+        "Anti-Venom": 3,
+        "Arcane Tome": 20
+      },
+      "bonus": "One to Watch",
+      "choices": [
+        "Upgrade Presence",
+        "Upgrade Awareness"
+      ],
+      "limit": 2,
+      "den": "Study",
+      "magic": [
+        "Natural",
+        "Dark",
+        "Noble",
+        "Unbound",
+        "Fate-weaving",
+        "Illusionism"
+      ]
+    },
+    "Kindred": {
+      "page": 52,
+      "rare": {
+        "War Bow": 20,
+        "Silk Undershirt": 5,
+        "Telescope": 10,
+        "Relic": 4,
+        "Anti-Venom": 3
+      },
+      "bonus": "Expert Training",
+      "choices": [
+        "Upgrade Strike",
+        "Upgrade Ranged"
+      ],
+      "limit": 3,
+      "den": "Archery Range",
+      "magic": [
+        "Natural",
+        "Light",
+        "Noble",
+        "Wild",
+        "Divine",
+        "Elementalism"
+      ]
+    },
+    "Witch Hunters": {
+      "page": 53,
+      "rare": {
+        "Heavy Crossbow": 28,
+        "Caliver": 22,
+        "Very heavy armour": 40,
+        "Silk Undershirt": 5,
+        "Dispel Scroll": 8,
+        "Shielding Talisman": 7,
+        "Mirroring Talisman": 10,
+        "Telescope": 10,
+        "Relic": 4,
+        "Bonded Beetle Grub": 25,
+        "Tracker Grub": 23,
+        "Attack Grub": 26,
+        "Damping Grub": 24
+      },
+      "bonus": "Armoured by Faith",
+      "choices": [
+        "Upgrade Fortitude"
+      ],
+      "limit": 2,
+      "den": "Gymnasium",
+      "magic": [
+        "Light",
+        "Noble",
+        "Divine"
+      ]
+    },
+    "Wildlings": {
+      "page": 55,
+      "rare": {
+        "Very heavy armour": 45,
+        "Dispel Scroll": 10,
+        "Shielding Talisman": 7,
+        "Mirroring Talisman": 10,
+        "Blind Dust": 7,
+        "Berserker Seeds": 8,
+        "Old One Brews": 13,
+        "Paralysing Poison": 4,
+        "Pain Poison": 2,
+        "Mortal Poison": 5,
+        "Relic": 4,
+        "Anti-Venom": 3,
+        "Hunting Hornet": 32,
+        "Centipede": 23,
+        "Cave Spider": 20,
+        "Beetle": 23,
+        "Bonded Beetle Grub": 23,
+        "Tracker Grub": 20,
+        "Attack Grub": 23,
+        "Damping Grub": 21
+      },
+      "bonus": "Born to be Wild",
+      "choices": [
+        "Strong",
+        "Tough"
+      ],
+      "limit": 3,
+      "den": "Obstacle Course",
+      "magic": [
+        "Natural",
+        "Wild",
+        "Dark",
+        "Fate-weaving",
+        "Channelling",
+        "Elementalism"
+      ]
+    },
+    "Arcane Conclave": {
+      "page": 56,
+      "rare": {
+        "Dispel Scroll": 10,
+        "Shielding Talisman": 10,
+        "Mirroring Talisman": 13,
+        "Arcane Tome": 17
+      },
+      "bonus": "Mental Prowess",
+      "choices": [
+        "Upgrade Fortitude",
+        "Upgrade Presence"
+      ],
+      "limit": 2,
+      "den": "Study",
+      "magic": [
+        "Natural",
+        "Wild",
+        "Light",
+        "Dark",
+        "Noble",
+        "Unbound",
+        "Fate-weaving",
+        "Illusionism",
+        "Elementalism"
+      ]
+    },
+    "Undead": {
+      "page": 57,
+      "rare": {
+        "Dispel Scroll": 10,
+        "Shielding Talisman": 10,
+        "Mirroring Talisman": 13,
+        "Arcane Tome": 20
+      },
+      "bonus": "Relics of a Past Life",
+      "choices": [
+        "Upgrade Movement",
+        "Upgrade Strike",
+        "Upgrade Block",
+        "Upgrade Ranged",
+        "Upgrade Nimbleness",
+        "Upgrade Concealment",
+        "Upgrade Awareness",
+        "Upgrade Fortitude",
+        "Upgrade Presence"
+      ],
+      "limit": 2,
+      "den": "Library",
+      "magic": [
+        "Natural",
+        "Dark",
+        "Necromancy"
+      ]
+    },
+    "Routiers": {
+      "page": 60,
+      "rare": {
+        "War Bow": 20,
+        "Heavy Crossbow": 27,
+        "Caliver": 20,
+        "Very heavy armour": 40,
+        "Relic": 5
+      },
+      "bonus": "Expert Training",
+      "choices": [
+        "Upgrade Strike",
+        "Upgrade Ranged"
+      ],
+      "limit": 2,
+      "den": "Pells and Training Ground",
+      "magic": [
+        "Natural",
+        "Light",
+        "Noble",
+        "Unbound"
+      ]
+    },
+    "Hillfolk": {
+      "page": 61,
+      "rare": {
+        "Bagpipes": 20,
+        "Hunting Hornet": 30,
+        "Centipede": 23,
+        "Cave Spider": 20,
+        "Beetle": 23,
+        "Bonded Beetle Grub": 23,
+        "Tracker Grub": 21,
+        "Attack Grub": 24,
+        "Damping Grub": 22
+      },
+      "bonus": "Fast and Furious",
+      "choices": [
+        "Upgrade Movement",
+        "Upgrade Nimbleness",
+        "Upgrade Fortitude"
+      ],
+      "limit": 2,
+      "den": "Obstacle Course",
+      "magic": [
+        "Natural",
+        "Light",
+        "Wild",
+        "Elementalism"
+      ]
+    }
+  },
+  "species": {
+    "Mouse/ Dormouse": {
+      "stats": [
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "fee": 24,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Shrew": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "1"
+      ],
+      "fee": 29,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Bird (Small)": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d4",
+        "1"
+      ],
+      "fee": 26,
+      "rules": [
+        "Flight"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Noctule Bat": {
+      "stats": [
+        "d4",
+        "d6",
+        "d4",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "fee": 28,
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter",
+        "Gifted",
+        "Darksense"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 2
+    },
+    "Great Crested Newt": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "fee": 26,
+      "rules": [
+        "Swim"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Shrew Knight Errant": {
+      "stats": [
+        "d8",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d4",
+        "d8",
+        "d10",
+        "d8",
+        "1"
+      ],
+      "fee": 52,
+      "rules": [
+        "Fighting Mount",
+        "Fearless"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Mist Ghast (Small)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "fee": 37,
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Mist Ghast (Medium)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 37,
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Tracker Grub": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "fee": 27,
+      "rules": [
+        "Bloodhound",
+        "Unarmed Fighter",
+        "Armless",
+        "Unreliable"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Attack Grub": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "fee": 28,
+      "rules": [
+        "Unarmed Fighter",
+        "Armless",
+        "Unreliable"
+      ],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Damping Grub": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "fee": 25,
+      "rules": [
+        "Resist Magic",
+        "Unarmed Fighter",
+        "Armless",
+        "Unreliable"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Hedgehog": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "2"
+      ],
+      "fee": 31,
+      "rules": [
+        "Spines"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Squirrel": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "d6",
+        "2"
+      ],
+      "fee": 42,
+      "rules": [
+        "Climber"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Mole": {
+      "stats": [
+        "d4",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d4",
+        "d8",
+        "d6",
+        "2"
+      ],
+      "fee": 29,
+      "rules": [
+        "Tunneller",
+        "Short-Sighted"
+      ],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Weasel / Stoat": {
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 36,
+      "rules": [
+        "Fearless"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Black Rat": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 31,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Ferret / Polecat": {
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d8",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "fee": 49,
+      "rules": [
+        "Fearless"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Cat": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "2"
+      ],
+      "fee": 34,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Rabbit": {
+      "stats": [
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 28,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Toad": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d10",
+        "d6",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "fee": 48,
+      "rules": [
+        "Natural Hunter"
+      ],
+      "strong": 1,
+      "tough": 2,
+      "delicate": 0
+    },
+    "Frog": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 28,
+      "rules": [
+        "Leaper",
+        "Swim"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Adder": {
+      "stats": [
+        "d6",
+        "d8",
+        "d4",
+        "d4",
+        "d4",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "fee": 43,
+      "rules": [
+        "Poisonous",
+        "Unarmed Fighter",
+        "Armless"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Marmot": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 25,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Water Vole": {
+      "stats": [
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "2"
+      ],
+      "fee": 36,
+      "rules": [
+        "Swim"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Bird (Medium)": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 33,
+      "rules": [
+        "Flight"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Raptor (Medium)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d4",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 43,
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter"
+      ],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Hound (Medium)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 31,
+      "rules": [],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Green Lizard (Rare)": {
+      "stats": [
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 27,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Siamese Cat (Rare)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "fee": 36,
+      "rules": [],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Tortoise (Rare)": {
+      "stats": [
+        "d4",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 38,
+      "rules": [],
+      "strong": 0,
+      "tough": 2,
+      "delicate": 0
+    },
+    "Platypus (Rare)": {
+      "stats": [
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "fee": 26,
+      "rules": [
+        "Swim"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Hare": {
+      "stats": [
+        "d8",
+        "d10",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "fee": 50,
+      "rules": [
+        "Leaper"
+      ],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Wildcat": {
+      "stats": [
+        "d8",
+        "d10",
+        "d6",
+        "d4",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "fee": 64,
+      "rules": [
+        "Fearsome",
+        "Natural Hunter"
+      ],
+      "strong": 2,
+      "tough": 1,
+      "delicate": 0
+    },
+    "Great Brown Rat": {
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "fee": 39,
+      "rules": [],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Fox": {
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "fee": 42,
+      "rules": [],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Otter": {
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "fee": 49,
+      "rules": [
+        "Swim"
+      ],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Bird (Large)": {
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "3"
+      ],
+      "fee": 37,
+      "rules": [
+        "Flight"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Raptor (Large)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d4",
+        "d8",
+        "d4",
+        "d8",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "fee": 53,
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter"
+      ],
+      "strong": 2,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Hound (Large)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "fee": 43,
+      "rules": [],
+      "strong": 2,
+      "tough": 1,
+      "delicate": 0
+    },
+    "Raccoon (Rare)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "fee": 40,
+      "rules": [],
+      "strong": 1,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Armadillo (Rare)": {
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "fee": 61,
+      "rules": [
+        "Leaper"
+      ],
+      "strong": 1,
+      "tough": 3,
+      "delicate": 0
+    },
+    "Fennec Fox (Rare)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "3"
+      ],
+      "fee": 40,
+      "rules": [
+        "Bloodhound"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Mist Ghast (Large)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "fee": 51,
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "strong": 2,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Badger": {
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d10",
+        "4"
+      ],
+      "fee": 67,
+      "rules": [
+        "Fearsome"
+      ],
+      "strong": 3,
+      "tough": 2,
+      "delicate": 0
+    },
+    "Beaver": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d4",
+        "d4",
+        "d6",
+        "d10",
+        "d8",
+        "4"
+      ],
+      "fee": 61,
+      "rules": [
+        "Swim"
+      ],
+      "strong": 2,
+      "tough": 3,
+      "delicate": 0
+    },
+    "Bird (Massive)": {
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d8",
+        "4"
+      ],
+      "fee": 42,
+      "rules": [
+        "Flight"
+      ],
+      "strong": 0,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Raptor (Massive)": {
+      "stats": [
+        "d6",
+        "d10",
+        "d6",
+        "d4",
+        "d6",
+        "d4",
+        "d8",
+        "d10",
+        "d10",
+        "4"
+      ],
+      "fee": 65,
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter"
+      ],
+      "strong": 3,
+      "tough": 0,
+      "delicate": 0
+    },
+    "Hound (Massive)": {
+      "stats": [
+        "d8",
+        "d10",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "4"
+      ],
+      "fee": 59,
+      "rules": [
+        "Natural Hunter"
+      ],
+      "strong": 3,
+      "tough": 2,
+      "delicate": 0
+    },
+    "Mist Ghast (Massive)": {
+      "stats": [
+        "d8",
+        "d10",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d8",
+        "d10",
+        "4"
+      ],
+      "fee": 72,
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "strong": 4,
+      "tough": 0,
+      "delicate": 0
+    }
+  },
+  "common": {
+    "One-handed weapon": 8,
+    "Two-handed weapon": 14,
+    "Polearm": 14,
+    "Spear": 8,
+    "Rondel dagger": 7,
+    "Bow": 14,
+    "Light Crossbow": 20,
+    "Sling": 5,
+    "Throwing knives": 8,
+    "Pistol": 15,
+    "Blunderbuss": 18,
+    "Light armour": 14,
+    "Heavy armour": 27,
+    "Buckler": 8,
+    "Light Shield": 12,
+    "Heavy Shield": 20,
+    "Rope & Hook": 6,
+    "Lucky Charm": 10,
+    "Talisman": 5,
+    "Mage's Focus": 15,
+    "Mage's Pouch": 12,
+    "Camouflage Cloak": 15,
+    "Scent Masker": 6,
+    "Healing Potion": 8,
+    "Broadhead arrows": 1,
+    "Bodkin arrows": 1,
+    "Lead slingshot": 1,
+    "Superior Black Powder": 1,
+    "Torch": 1,
+    "Lantern": 7,
+    "Caltrops": 5,
+    "Inspiring Object": 20,
+    "Tangle Net": 10,
+    "Signature Item": 3
+  },
+  "ingredients": {
+    "Amber bead": 6,
+    "Amanitas": 3,
+    "Antler dust": 6,
+    "Blessed Water": 4,
+    "Bloodwort": 3,
+    "Bone meal": 3,
+    "Badger's blood": 6,
+    "Badger's claws": 5,
+    "Belladonna": 3,
+    "Bear bone fragments": 3,
+    "Brimstone": 5,
+    "Cave spider venom": 3,
+    "Copper strip": 4,
+    "Dragonfly wings": 3,
+    "Elf-bolt": 6,
+    "Galingale": 3,
+    "Ground obsidian": 3,
+    "Henbane": 3,
+    "Heal-alle": 5,
+    "Haematite": 3,
+    "Lugwort": 3,
+    "Lotus flowers": 3,
+    "Mandrake": 6,
+    "Petrified wood": 3,
+    "Powdered acorns": 3,
+    "Scarab shells": 5,
+    "Silk fibres": 3,
+    "Saltpetre": 4,
+    "Thunderbird feather": 3,
+    "Thyme leaves": 3,
+    "Wax candle": 3
+  },
+  "campaign_rolls": {
+    "War Bow": "3d6+8",
+    "Heavy Crossbow": "3d6+20",
+    "Cheirosiphon": "3d6+20",
+    "Caliver": "3d6+10",
+    "Very heavy armour": "3d6+30",
+    "Silk Undershirt": "1d6+3",
+    "Dispel Scroll": "2d6+3",
+    "Shielding Talisman": "1d6+3",
+    "Mirroring Talisman": "1d6+6",
+    "Blind Dust": "1d6+3",
+    "Telescope": "2d6+3",
+    "Berserker Seeds": "1d6+7",
+    "Old One Brews": "2d6+8",
+    "Paralysing Poison": "1d6+3",
+    "Pain Poison": "1d4",
+    "Mortal Poison": "1d8+3",
+    "Relic": "1d6",
+    "Anti-Venom": "1d4",
+    "Arcane Tome": "3d6+7",
+    "Hunting Hornet": "3d6+23",
+    "Centipede": "2d6+18",
+    "Cave Spider": "2d6+13",
+    "Beetle": "2d6+18",
+    "Bonded Beetle Grub": "2d6+18"
+  }
+}
