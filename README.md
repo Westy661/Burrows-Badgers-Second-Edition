@@ -12,25 +12,35 @@ The project is currently **work in progress**, so expect missing content and dat
 - Enjoy!
   
 
-## Current Content
-- **Items, units, rules, and abilities**: Done
-- **Enchanted Weapons, Armor and Items**: Done
-- **Magical Weapons, Armor and Items**: Done
-- **All factions** are available, most of them with their **warband creation rules**  
-- **Unit advancement** has basic functionality
-- Rouiters special rules implementation
-- Injury table
+## One supported package
 
-## Missing features
-- Undead special rules implementation
-- Arcane conclave special rules implementation
-- Labor, material cost tracking in a non-intrusive\cluttering way 
-- Tracking band rating & XP
-- Troughout testing and bugfixing
+Use this repository's default branch, **master**, from New Recruit's **Add from
+Github**. The standard game-system ID and all existing selection IDs are retained.
+Campaign progression, faction roster validation, rulebook/FAQ corrections and the
+species audit are included in this one package. No Campaign TEST installation is
+required for normal play.
 
----
+If the repository is already installed, use **Update data** in New Recruit and
+refresh the open list. Do not replace the GitHub source with a test branch or the
+separate Campaign TEST system. A locally imported package does not automatically
+follow GitHub updates.
 
-If you try this out, please keep in mind that it is still under construction, and you may want to keep the rulebook handy for verification.
+The Campaign TEST package is a disposable developer fixture with different IDs.
+It is not a second release. Saved test rosters belong to that separate system;
+export them before removing its local installation. Normal GitHub rosters keep
+their existing IDs and do not need to be recreated.
+
+### Included
+
+- Band creation and equipment for all ten factions; species and official FAQ fixes.
+- Roster composition, actual Spell prerequisites and starting stat limits.
+- Kindred Travel Light and Wildlings Stay Pure validation for selected equipment,
+  including existing hidden choices; Kindred enchanted heavy armour/shields too.
+- Campaign purchases through Coffer, advances, injuries and recorded resources.
+
+Dice, XP bookkeeping, spent Labour/Materials and tabletop effects still require
+player input as described below. The known manual cases are listed in the audit
+records; this data package is not a tabletop game engine.
 
 ## Updated Version
 
@@ -57,13 +67,15 @@ Overall, this is a bit jank. NR doesn't really seem to be designed at all for ca
 
 Also, if you want to switch an item slot from a starting item, to one purchased post-creation of the same type, deselect the item you wish to purchase, refresh, then reselect it to get it to correctly show the Coffer cost. (Or show all entries, then tick Starting)
 
-## Campaign test branch
+## Verification and historical test evidence
 
-This branch combines the cynsye campaign implementation with the reconciled
+See the Hungarian [revision 17 consolidation and equipment-validation record](docs/unified-package-2026-10-17.md) for the current 72-test result and the correction to earlier hiding-only equipment coverage.
+
+The default branch combines the cynsye campaign implementation with the reconciled
 upstream rule fixes. The rulebook audit on 17 October 2026 additionally corrects
 the shared game system; that audit used data revision 9. The follow-up species
 audit raised revision to 10; the FAQ and faction-coverage follow-up raises it
-to 12. The faction-validation feature raises the current revision to 16.
+to 12. The faction-validation feature raised revision to 16. The unified release is revision 17.
 Existing faction and selection IDs are retained.
 
 See the Hungarian [faction-by-faction rulebook audit](docs/faction-rulebook-audit-2026-10-17.md)
@@ -78,9 +90,10 @@ The [faction validation implementation](docs/faction-rule-validation.md) closes
 the recorded roster-validation gaps, with 68 regression groups and internal-browser
 evidence. Tabletop effects and campaign dice remain manual as documented.
 
-### Run beside the stable system
+### Developer-only isolated test fixture
 
-Generate a disposable import folder with Python 3:
+For development only, generate a disposable import folder with Python 3. Normal
+users should keep the single GitHub installation described above:
 
 ```text
 python scripts/stage_campaign_test.py
