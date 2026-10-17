@@ -1,7 +1,7 @@
 # Átfogó frakció- és listaszabály-audit
 
 Dátum: 2026. október 17. Alap: master 7a3cf651a884b3013862c16fa5cb1a1cd4bbfcf2,
-revision 17. Javítás: revision 18, normál rendszerazonosítókkal.
+revision 17. Javítás: először revision 18; a felületi kasszalimit-javítással revision 19, normál rendszerazonosítókkal.
 
 ## Módszer és források
 
@@ -38,6 +38,7 @@ futtatómotorjának helyettesítője. A tényleges UI-próbák külön szerepeln
 | Routier 6/6 | A kezdőcsapatra szóló korlát a későbbi felvételt is tiltotta | Hat kezdéskor; kampányban a rendes csapatmaximum mellett nincs ilyen korlát |
 | Tisztek | Egy modell lehetett Leader és Second, csak a láthatóság zárta ki | Közvetlen kizárási hiba |
 | Cheirosiphon | A Fearless előfeltételhez nem volt közvetlen hiba | Mind a négy tanulási út és mindhárom veleszületett Fearless faj teljesít |
+| Kampánykassza | Az új lista Coffer maximuma 0 volt; pozitív maradékra téves felsőkorláthiba | Alapértelmezett felső korlát -1; negatív egyenlegre továbbra is hiányhiba. Régi mentett 0-s listalimit a List Configuration alatt egyszer korrigálandó |
 | XML hivatkozások | Négy költségmező egy nem létező SA választóra hivatkozott | A hatástalan, redundáns láthatósági módosítók törölve; költségmezők láthatók maradnak |
 
 Nem különálló hibák ezreiről van szó: egy-egy hibacsalád sok frakció/slot/fázis
@@ -46,7 +47,7 @@ kombinációban jelentkezett. Az első kilenc új tesztcsoport javítás előtt
 
 ## Automatizált eredmény
 
-Az új 18 tesztcsoport 15 188 hibaüzenet-feltételvizsgálatot végez, ezen felül
+Az új 19 tesztcsoport 15 188 hibaüzenet-feltételvizsgálatot végez, ezen felül
 ellenőrzi a kezdőkínálat elrejtését, az összes childId/scope hivatkozást és a
 Routier-határokat. Minden kombináció sikeres a javított adatokon.
 A pozitív esetek és a más modellen szereplő választások is szerepelnek a mátrixban.
@@ -55,7 +56,8 @@ A teljes regresszió parancsa:
 
     python -B -X utf8 -m unittest discover -s tests -q
 
-Végső teljes eredmény: **90 sikeres tesztcsoport, 35.184 másodperc**.
+A revision 18 teljes eredménye: 90 sikeres tesztcsoport, 35.184 másodperc.
+A revision 19 végső teljes eredménye: **91 sikeres tesztcsoport, 36.966 másodperc**.
 Minden 8213 meglévő rendszerazonosító és mind az 562 profil, köztük a 49 Unit
 alapprofil változatlan. A meglévő listák felszerelését a javítás nem törli.
 
@@ -72,7 +74,45 @@ Setup visszakapcsolásakor a New Recruit automatikusan letiltotta. Ez igazolta,
 hogy az új elrejtési javításnak a már kiválasztott tárgyat láthatóan, hibával
 kell megtartania, különben a kliens automatikusan eltávolíthatná.
 
-A javított branch UI-próbái: folyamatban.
+A javított nyilvános auditágat a New Recruit Custom GitHub forrásként töltötte
+be. A List Configuration ténylegesen GameSystem revision 18-at mutatott.
+A régi, öves listát betöltve az öv megmaradt, és a Starting equipment hiba
+megjelenik. Levételével a hiba megszűnik; az öv kezdéskor többé nem kínált opció.
+
+| Frakció | Új kontrolllista | Penny / Band Rating | Tényleges NR-hiba |
+|---|---|---|---|
+| Royalists | 2 Mouse, 2 One-handed weapon | 64 / 2 | nincs |
+| Rogues | ugyanaz | 64 / 2 | nincs |
+| Freebeasts | ugyanaz, +25 kezdőkeret | 39 / 2 | nincs |
+| Witch Hunters | ugyanaz, +25 kezdőkeret | 39 / 2 | nincs |
+| Wildlings | 2 Mouse, 2 One-handed weapon | 64 / 2 | nincs |
+| Hillfolk | ugyanaz | 64 / 2 | nincs |
+| Kindred | ugyanaz | 64 / 2 | nincs |
+| Arcane Conclave | 2 Mouse, 2 fegyver, 2 Natural/Haste | 64 / 2 | nincs |
+| Routiers | 2 Raw Mouse, ingyen fegyver, egy valódi mágus | 48 / 2 | nincs |
+| Undead | 3 Small Mist + 3 élő Mouse fegyverrel | 171 / 6 | nincs |
+
+További negatív és visszaállási próbák:
+
+- Arcane Natural önmagában Magical Studies hiba; Haste után az adott modell
+  hibája megszűnik. A másik modell saját Spellje külön szükséges.
+- Routiers egy tényleges mágus jó; második Haste után Martial Pride hiba;
+  második Haste levétele után nincs hiba. Két Raw ingyen fegyverrel 48 Penny;
+  a Mouse Fortitude/Presence d4/d4-re csökken.
+- Undead 2 Mist önmagában 74 Penny; egy élő fegyveres Mouse +20 (félárú díj
+  12 + fegyver 8), összesen 94. 2 Mist/5 modell hibás; 3 Mist/6 modell jó.
+- A kezdő Royalist modellek és fegyvereik POST átállás után nem terhelik a kasszát.
+  50 bevétel és Bow14 vásárlás után 36 Coffer; Bow levétele után 50.
+  13 bevétellel Bow mellett -1 Coffer és Not enough Pennies; 14-gyel nincs hiány.
+- Ugyanez a próba felfedte a régi 0-s Coffer maximum hibáját: 15 bevétel és
+  Bow14 mellett a +1 Coffer tévesen túl soknak számított. A tesztlista mentett
+  limitjét -1-re korrigálva a pozitív egyenleg hiba nélkül jelenik meg.
+- Cheirosiphon Fearless nélkül valódi közvetlen hibát ad. Fearless skill
+  kiválasztásával eltűnik, levételével visszatér, visszaadásával megszűnik.
+  A kézzel megadott 30 Penny vételár 50-ről 20 Cofferre csökkentette a kasszát.
+
+A revision 19 az új listák alapértelmezett kasszalimitjét javítja; a már mentett
+0-s listakorlátot nem írja felül. A végső frissítési/telepítési próba alább szerepel.
 
 ## Kiadási útvonal
 

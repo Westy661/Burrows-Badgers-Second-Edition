@@ -31,6 +31,11 @@ It is not a second release. Saved test rosters belong to that separate system;
 export them before removing its local installation. Normal GitHub rosters keep
 their existing IDs and do not need to be recreated.
 
+Existing campaign lists that saved a **Coffer limit of 0** need one correction:
+open **List Options → List Configuration** and set the Coffer limit to **-1**
+(no upper limit). New lists now use -1 automatically. Negative Coffer still
+reports **Not enough Pennies**.
+
 ### Included
 
 - Band creation and equipment for all ten factions; species and official FAQ fixes.
@@ -70,7 +75,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
 
 ## Verification and historical test evidence
 
-Current verification: [comprehensive faction and legality audit, revision 18](docs/comprehensive-audit-2026-10-17.md). The standard GitHub package includes these fixes; the Campaign TEST fixture remains developer-only.
+Current verification: [comprehensive faction and legality audit, revision 19](docs/comprehensive-audit-2026-10-17.md). The standard GitHub package includes these fixes; the Campaign TEST fixture remains developer-only.
 
 See the Hungarian [revision 17 consolidation and equipment-validation record](docs/unified-package-2026-10-17.md) for the current 72-test result and the correction to earlier hiding-only equipment coverage.
 
@@ -78,7 +83,7 @@ The default branch combines the cynsye campaign implementation with the reconcil
 upstream rule fixes. The rulebook audit on 17 October 2026 additionally corrects
 the shared game system; that audit used data revision 9. The follow-up species
 audit raised revision to 10; the FAQ and faction-coverage follow-up raises it
-to 12. The faction-validation feature raised revision to 16. The unified release was revision 17; the comprehensive legality audit raises the current revision to 18.
+to 12. The faction-validation feature raised revision to 16. The unified release was revision 17; the comprehensive legality audit raises the current revision to 19.
 Existing faction and selection IDs are retained.
 
 See the Hungarian [faction-by-faction rulebook audit](docs/faction-rulebook-audit-2026-10-17.md)

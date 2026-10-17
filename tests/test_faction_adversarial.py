@@ -222,4 +222,16 @@ class AdversarialFactions(unittest.TestCase):
                     maximum=float(effective(entry,limit.get('id'),{POST:int(post)},limit.get('value')))
                     self.assertEqual(maximum,-1 if post else 6)
 
+    def test_positive_coffer_is_not_over_budget_and_negative_coffer_is_still_invalid(self):
+        coffer='eba3-27d9-e5f6-7822'
+        self.assertEqual(self.ids[coffer].get('defaultCostLimit'),'-1')
+        debt_checks=[m for e in self.root.iter() for m in children(e,'modifiers') if m.get('field')=='error' and m.get('value')=='Not enough Pennies']
+        self.assertEqual(len(debt_checks),3)
+        for error in debt_checks:
+            conds=children(error,'conditions');self.assertEqual(len(conds),1)
+            c=conds[0]
+            self.assertEqual((c.get('type'),c.get('field'),c.get('scope'),c.get('value')),('lessThan',coffer,'roster','0'))
+            for balance in (-1,0,1,50):
+                self.assertEqual(balance<float(c.get('value')),balance<0)
+
 if __name__=='__main__':unittest.main()
