@@ -118,5 +118,41 @@
     "with_fearless": "no error",
     "skill_removed": "error returns",
     "purchase30_from50": 20
+  },
+  "tested_revisions": [
+    18,
+    19
+  ],
+  "revision19": {
+    "new_list_coffer_limit_after_reload": -1,
+    "new_post_list_income1": {
+      "balance": 1,
+      "errors": []
+    },
+    "new_mouse_and_weapon_cost": 32,
+    "income31": {
+      "balance": -1,
+      "error": "Not enough Pennies"
+    },
+    "income32": {
+      "balance": 0,
+      "errors": []
+    },
+    "income33": {
+      "balance": 1,
+      "errors": []
+    },
+    "routier_post_raw6": {
+      "income": 200,
+      "balance": 56,
+      "rating": 6,
+      "errors": []
+    },
+    "routier_post_raw7": {
+      "income": 200,
+      "balance": 32,
+      "rating": 7,
+      "errors": []
+    }
   }
 }

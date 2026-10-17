@@ -112,15 +112,30 @@ További negatív és visszaállási próbák:
   A kézzel megadott 30 Penny vételár 50-ről 20 Cofferre csökkentette a kasszát.
 
 A revision 19 az új listák alapértelmezett kasszalimitjét javítja; a már mentett
-0-s listakorlátot nem írja felül. A végső frissítési/telepítési próba alább szerepel.
+0-s listakorlátot nem írja felül. Revision 19-cel, teljes oldalfrissítés után az újlista-párbeszéd Coffer limitje
+valóban -1. Új kampánylista: +1 Coffer hiba nélkül; új Mouse -24, fegyvere -8.
+31 bevétellel -1 és hiányhiba, 32-vel nulla és nincs hiba, 33-mal +1 és nincs hiba.
+A megadott értékeket valódi billentyűeseménnyel rögzítve, a fejléc számítása és
+hibaállapota alapján ellenőriztem, nem csupán az inputmező szövegéből.
+
+Új revision19 Routier kampánylista: 200 Coffer bevételből hat Raw Mouse ingyen
+fegyverrel 56-ot hagyott; a hetedik felvétele után 32 Coffer és 7 Band Rating,
+hiba nélkül. A kezdő hatos korlát tehát a kampánybeli hetedik felvételt nem tiltja.
 
 ## Kiadási útvonal
 
 A New Recruit telepítő alapból Latest Release-et ajánl. A GitHub legfrissebb
 release-e az audit elején még 0.12 volt (2025. november 24.), ezért a főági merge
 önmagában nem juttatta el a javításokat a release-t követő telepítésekhez.
-A főági teszthez Latest Commit (Head) lett kiválasztva; a release frissítése
-és a tényleges normál telepítési út ellenőrzése a szállítás része.
+A főági teszthez Latest Commit (Head), az audit tesztjéhez a nyilvános auditág,
+a kasszajavításhoz a 2a48e15 commit lett kiválasztva, mindvégig normál rendszer-ID-val.
+A szállítás következő rendes release-e 0.13, GameSystem revision19. A normál
+Latest Release telepítés is ezt a csomagot kapja; adatfrissítés után teljes
+oldalfrissítés kell, mert a kliens a régi költségmetaadatokat memóriában tarthatja.
+
+A .github/workflows/validate-data.yml minden push és PR esetén Python3.13 alatt
+futtatja a teljes 91 tesztcsoportot, olvasási jogosultságú checkouttal. A helyi
+Windows-próba mellé így külső Linux-ellenőrzés is tartozik. A CI futás linkje a PR-ben érhető el.
 
 ## Bizonyítási határ
 
