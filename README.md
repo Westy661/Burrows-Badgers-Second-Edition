@@ -62,12 +62,16 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
 This branch combines the cynsye campaign implementation with the reconciled
 upstream rule fixes. The rulebook audit on 17 October 2026 additionally corrects
 the shared game system; that audit used data revision 9. The follow-up species
-audit raises the current revision to 10. The `.cat` files retain their
-existing faction IDs and rules.
+audit raised revision to 10; the FAQ and faction-coverage follow-up raises it
+to 12. Existing faction and selection IDs are retained.
 
 See the Hungarian [faction-by-faction rulebook audit](docs/faction-rulebook-audit-2026-10-17.md)
 for verified prices, missing equipment options, corrected profiles, source-page
 references, official FAQ overrides, and remaining manual checks.
+
+See the Hungarian [faction implementation coverage audit](docs/faction-implementation-audit-2026-10-17.md)
+for all ten rule sets, the distinction between automated and manual rules,
+remaining validation gaps, and the FAQ/Piper fixes verified in New Recruit.
 
 ### Run beside the stable system
 
