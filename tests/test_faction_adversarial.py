@@ -193,8 +193,12 @@ class AdversarialFactions(unittest.TestCase):
     def test_cheirosiphon_accepts_innate_fearless_and_not_another_models_skill(self):
         innate=[m for m in self.models if any(self.ids[l.get('targetId')].get('name')=='Fearless' for l in children(m,'infoLinks') if l.get('targetId') in self.ids)]
         self.assertEqual(len(innate),3)
+        learned=[e.get('id') for e in self.ids.values() if tag(e)=='selectionEntry' and e.get('name')=='Fearless']
+        error=next(m for m in self.errors if m.get('value','').startswith('Cheirosiphon:'))
         for gun,*_ in self.gear:
             if gun.get('name')!='Cheirosiphon':continue
+            elsewhere={self.factions['Royalists']:1,POST:1,**{i:1 for i in learned},**{m.get('id'):1 for m in innate}}
+            self.assertTrue(conditions(error,{gun.get('id'):1},elsewhere))
             for model in innate:
                 with self.subTest(gun=gun.get('id'),model=model.get('id')):
                     self.assertFalse(self.has('Cheirosiphon:',{model.get('id'):1,gun.get('id'):1},'Royalists',True))
