@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="62be-40e2-c6b0-9ab2" name="Arcane Conclave" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="62be-40e2-c6b0-9ab2" name="Arcane Conclave" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Campaign" id="eb5f-16ed-8960-b13a" targetId="e7c5-f4ae-d0e7-9f53" importRootEntries="true"/>
   </catalogueLinks>
@@ -23,6 +23,19 @@
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="2441-15b1-589d-d836" targetId="9ed2-8233-7200-924b"/>
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="359e-f806-24bf-9812" targetId="6803-87ba-83c4-bd4b"/>
         <categoryLink name="Den Upgrade" hidden="false" id="f7ac-5e81-d695-f449" targetId="583b-2cca-fae6-9a19"/>
+              <categoryLink name="Band member" hidden="false" id="8ace-57b4-e6d9-e7b5" targetId="b4a1-d685-97c2-3f40">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="bd1a-7a9f-9fb1-08fc" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6470-703a-7cc9-f7dc" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="bd1a-7a9f-9fb1-08fc">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

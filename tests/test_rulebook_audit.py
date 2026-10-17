@@ -15,6 +15,7 @@ COFFER = 'eba3-27d9-e5f6-7822'
 SETUP = 'cee3-9887-9ffb-1cae'
 POST = 'a2a0-0ad9-87af-a7ac'
 MAGIC = '8b25-3c74-21b1-6d41'
+SPELL = '4a80-cfeb-8931-e670'
 
 def tag(e):
     return e.tag.rsplit('}', 1)[-1]
@@ -174,7 +175,7 @@ class RulebookAudit(unittest.TestCase):
         link=next(e for e in children(self.ids['4240-559e-5c1d-4780'],'infoLinks') if e.get('name')=='Unreliable')
         for faction in self.factions:
             for magic,stable in [(0,0),(1,0),(0,1)]:
-                selections=self.context(faction,False);selections[MAGIC]=magic;selections['b419-cd6b-0797-e690']=stable
+                selections=self.context(faction,False);selections[MAGIC]=magic;selections[SPELL]=magic;selections['b419-cd6b-0797-e690']=stable
                 with self.subTest(faction=faction,magic=magic,stable=stable):
                     self.assertEqual(effective(link,'hidden',selections,'false')=='false', faction=='Undead' and not magic and not stable)
                     model=self.models['Mouse/ Dormouse']
@@ -239,7 +240,9 @@ class RulebookAudit(unittest.TestCase):
                 selections=self.context('Undead',setup);selections[MAGIC]=0
                 with self.subTest(species=name,setup=setup):
                     self.assertEqual(self.price(e,selections),row['fee']/2)
-                    for extra in [MAGIC,'b419-cd6b-0797-e690']:
+                    # A Magic User/archetype toggle alone is not a learned Spell.
+                    self.assertEqual(self.price(e,{**selections,MAGIC:1}),row['fee']/2)
+                    for extra in [SPELL,'b419-cd6b-0797-e690']:
                         self.assertEqual(self.price(e,{**selections,extra:1}),row['fee'])
 
     def test_spell_breaker_prerequisite_errors_only_for_selected_skill(self):
