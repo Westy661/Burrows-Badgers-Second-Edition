@@ -920,7 +920,7 @@ casting Spells.</description>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-1913-54d9-4ec5-62b0" name="Otherworldly" targetId="campaign-test-eb29-6a42-8676-1ed1" type="rule" />
         <infoLink hidden="false" id="campaign-test-6ab6-41d5-c99d-aee1" name="Uncanny" targetId="campaign-test-5b6f-35fa-f074-0bc9" type="rule" />
-      <infoLink name="One-handed weapon" id="campaign-test-bb24-71ba-8bb4-7b24" hidden="false" type="profile" targetId="campaign-test-d124-de12-baa3-737a" /></infoLinks>
+      </infoLinks>
       <profiles>
         <profile hidden="false" id="campaign-test-7dcf-e2f0-4b83-2ba7" name="Mist Ghast (Medium)" typeId="campaign-test-6a97-197c-e03d-8adc" typeName="Unit">
           <characteristics>
@@ -2282,7 +2282,7 @@ casting Spells.</description>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-d40a-bfb1-e0e4-4bd0" name="Otherworldly" targetId="campaign-test-eb29-6a42-8676-1ed1" type="rule" />
         <infoLink hidden="false" id="campaign-test-643b-e54c-a2d5-cd95" name="Uncanny" targetId="campaign-test-5b6f-35fa-f074-0bc9" type="rule" />
-      <infoLink name="One-handed weapon" id="campaign-test-759c-cc39-2ef1-9792" hidden="false" type="profile" targetId="campaign-test-d124-de12-baa3-737a" /></infoLinks>
+      </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-488d-e328-b3c5-40bc" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
       </entryLinks>
@@ -2502,7 +2502,7 @@ casting Spells.</description>
       <infoLinks>
         <infoLink hidden="false" id="campaign-test-86c4-66d0-b4ea-9ab9" name="Otherworldly" targetId="campaign-test-eb29-6a42-8676-1ed1" type="rule" />
         <infoLink hidden="false" id="campaign-test-4d15-8d0e-5425-85ce" name="Uncanny" targetId="campaign-test-5b6f-35fa-f074-0bc9" type="rule" />
-      <infoLink name="One-handed weapon" id="campaign-test-a14f-295d-8d72-b9ba" hidden="false" type="profile" targetId="campaign-test-d124-de12-baa3-737a" /></infoLinks>
+      </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="campaign-test-73b8-adfb-230b-c7fe" type="selectionEntryGroup" targetId="campaign-test-4240-559e-5c1d-4780" />
       </entryLinks>
@@ -2684,7 +2684,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
       <infoLinks>
         <infoLink name="Otherworldly" id="campaign-test-aa64-2f66-7892-766c" hidden="false" targetId="campaign-test-eb29-6a42-8676-1ed1" type="rule" />
         <infoLink name="Uncanny" id="campaign-test-6ddf-4b76-0d9a-770c" hidden="false" targetId="campaign-test-5b6f-35fa-f074-0bc9" type="rule" />
-      <infoLink name="One-handed weapon" id="campaign-test-798b-3031-0dbf-ea7e" hidden="false" type="profile" targetId="campaign-test-d124-de12-baa3-737a" /></infoLinks>
+      </infoLinks>
       <profiles>
         <profile name="Mist Ghast (Small)" typeId="campaign-test-6a97-197c-e03d-8adc" typeName="Unit" hidden="false" id="campaign-test-bd94-ff14-c885-2181">
           <characteristics>
@@ -23858,7 +23858,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
-                    <modifier type="add" value="Poisons are set up differently to most items, thanks to the ability to stack a lot of them in one slot. Set piece to the number of items you have total, and set the starting total cost to aid with roster creation. Once the roster has been set to post-creation, the starting total field will prompt to be zeroed, then the Coffer total field can be used." field="info" />
+                    <modifier type="add" value="Set Piece to the number of poison doses. During warband creation the Penny cost is calculated automatically per dose. In post-creation, enter the total rolled purchase price in the Cost field; starting doses remain free from the Coffer." field="info" />
                   </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -28788,7 +28788,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </modifier>
-                        <modifier type="add" value="Poisons are set up differently to most items, thanks to the ability to stack a lot of them in one slot. Set piece to the number of items you have total, and set the starting total cost to aid with roster creation. Once the roster has been set to post-creation, the starting total field will prompt to be zeroed, then the Coffer total field can be used." field="info" />
+                        <modifier type="add" value="Set Piece to the number of poison doses. During warband creation the Penny cost is calculated automatically per dose. In post-creation, enter the total rolled purchase price in the Cost field; starting doses remain free from the Coffer." field="info" />
                       </modifiers>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -47592,7 +47592,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </modifier>
-                        <modifier type="add" value="Poisons are set up differently to most items, thanks to the ability to stack a lot of them in one slot. Set piece to the number of items you have total, and set the starting total cost to aid with roster creation. Once the roster has been set to post-creation, the starting total field will prompt to be zeroed, then the Coffer total field can be used." field="info" />
+                        <modifier type="add" value="Set Piece to the number of poison doses. During warband creation the Penny cost is calculated automatically per dose. In post-creation, enter the total rolled purchase price in the Cost field; starting doses remain free from the Coffer." field="info" />
                       </modifiers>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -59472,7 +59472,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </modifier>
-                        <modifier type="add" value="Poisons are set up differently to most items, thanks to the ability to stack a lot of them in one slot. Set piece to the number of items you have total, and set the starting total cost to aid with roster creation. Once the roster has been set to post-creation, the starting total field will prompt to be zeroed, then the Coffer total field can be used." field="info" />
+                        <modifier type="add" value="Set Piece to the number of poison doses. During warband creation the Penny cost is calculated automatically per dose. In post-creation, enter the total rolled purchase price in the Cost field; starting doses remain free from the Coffer." field="info" />
                       </modifiers>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
