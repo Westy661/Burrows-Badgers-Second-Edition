@@ -15494,8 +15494,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </modifier>
-                        <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
@@ -15509,13 +15508,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </conditionGroup></conditionGroups></modifier>
-                        <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
-                        <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
@@ -15529,8 +15526,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </conditionGroup></conditionGroups></modifier>
-                        <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
@@ -17903,13 +17899,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </conditionGroup></conditionGroups></modifier>
-                        <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
-                        <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
@@ -17933,13 +17927,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </conditionGroup></conditionGroups></modifier>
-                        <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
-                        <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                          <conditions>
+                        <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                             <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                           </conditions>
                         </conditionGroup></conditionGroups></modifier>
@@ -21237,7 +21229,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <infoLink name="Bloodhound" id="campaign-test-4100-6f76-52f9-4787" hidden="false" type="rule" targetId="campaign-test-54cb-f660-1c7f-53c1" />
                       </infoLinks>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="true" id="campaign-test-f3df-f150-b4a6-ccf0">
+                        <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="campaign-test-f3df-f150-b4a6-ccf0">
                           <modifiers>
                             <modifier type="increment" value="1" field="campaign-test-6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -32415,8 +32407,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                            <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -32430,13 +32421,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -32450,8 +32439,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -34834,13 +34822,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -34864,13 +34850,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -39360,8 +39344,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                            <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -39375,13 +39358,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -39395,8 +39376,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -41779,13 +41759,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -41809,13 +41787,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -51240,8 +51216,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                            <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="25" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -51255,13 +51230,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="28" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (25)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -51275,8 +51248,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (28)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -53629,7 +53601,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="campaign-test-3d05-1078-39c1-0bb9" />
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+30)" hidden="true" id="campaign-test-c88e-a31f-8e27-874f">
+                        <selectionEntry type="upgrade" import="true" name="Cost (3d6+30)" hidden="false" id="campaign-test-c88e-a31f-8e27-874f">
                           <modifiers>
                             <modifier type="increment" value="1" field="campaign-test-6752-9e0b-692e-d5b9" scope="parent">
                               <repeats>
@@ -53659,13 +53631,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="42" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="45" field="defaultAmount"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -53689,13 +53659,11 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (42)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
-                            <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" /></conditions>
-                              <conditions>
+                            <modifier type="set" value="Cost (45)" field="name"><conditionGroups><conditionGroup type="and"><conditions><condition type="lessThan" value="1" field="selections" scope="roster" childId="campaign-test-a2a0-0ad9-87af-a7ac" shared="true" includeChildSelections="true" includeChildForces="true" /><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-cee3-9887-9ffb-1cae" shared="true" includeChildSelections="true" />
                                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="campaign-test-8d39-93f9-26a9-651c" shared="true" includeChildSelections="true" includeChildForces="true" />
                               </conditions>
                             </conditionGroup></conditionGroups></modifier>
@@ -67279,7 +67247,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <modifier type="increment" value="1" field="campaign-test-659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit" />
                         <modifier type="add" value="campaign-test-1edd-bd06-65ab-8453" field="category" />
                         <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
-                          <conditions>
+                          <conditions><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-0d77-a1d6-fbff-8fdf" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-e485-6370-8179-9493" shared="true" includeChildSelections="true" />
@@ -69663,7 +69631,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </constraints>
                       <modifiers>
                         <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
-                          <conditions>
+                          <conditions><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-ff43-414b-f8f1-0820" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-e485-6370-8179-9493" shared="true" includeChildSelections="true" />
@@ -73939,7 +73907,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </infoLinks>
                       <modifiers>
                         <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
-                          <conditions>
+                          <conditions><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-df9e-1ee4-4c21-f89f" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-e485-6370-8179-9493" shared="true" includeChildSelections="true" />
@@ -75122,7 +75090,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       </infoLinks>
                       <modifiers>
                         <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
-                          <conditions>
+                          <conditions><condition type="atLeast" value="1" field="selections" scope="root-entry" childId="campaign-test-9ee8-2a04-0dd5-1c93" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true" />
                             <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="campaign-test-e485-6370-8179-9493" shared="true" includeChildSelections="true" />
