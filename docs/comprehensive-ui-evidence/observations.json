@@ -1,0 +1,158 @@
+{
+  "baseline_revision": 17,
+  "tested_revision": 18,
+  "source": "public GitHub audit/comprehensive-roster-validation; normal system ID",
+  "normal_system_id": "sys-8e98-0f81-30ce-b579",
+  "legal_controls": [
+    {
+      "faction": "Royalists",
+      "penny": 64,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Rogues",
+      "penny": 64,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Freebeasts",
+      "penny": 39,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Witch Hunters",
+      "penny": 39,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Wildlings",
+      "penny": 64,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Hillfolk",
+      "penny": 64,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Kindred",
+      "penny": 64,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Arcane Conclave",
+      "penny": 64,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Routiers",
+      "penny": 48,
+      "band_rating": 2,
+      "engine_errors": []
+    },
+    {
+      "faction": "Undead",
+      "penny": 171,
+      "band_rating": 6,
+      "engine_errors": []
+    }
+  ],
+  "starting_magic_item": {
+    "item": "The Belt of Balmorr",
+    "baseline": {
+      "penny": 67,
+      "rating": 6,
+      "legality_error": false
+    },
+    "after": {
+      "retained": true,
+      "starting_equipment_error": true
+    },
+    "after_removal": {
+      "error_gone": true,
+      "cannot_rebuy": true
+    }
+  },
+  "arcane": {
+    "archetype_only": "Magical Studies error",
+    "real_spell": "error gone"
+  },
+  "routiers": {
+    "one_caster": "valid",
+    "two_casters": "Martial Pride error",
+    "back_to_one": "valid"
+  },
+  "undead": {
+    "two_mist_three_models": "valid",
+    "two_mist_five_models": "Restless Spirits error",
+    "three_mist_six_models": "valid"
+  },
+  "coffer": {
+    "income50_bow14": 36,
+    "bow_removed": 50,
+    "income13_bow14": {
+      "balance": -1,
+      "error": "Not enough Pennies"
+    },
+    "income14_bow14": {
+      "balance": 0,
+      "error": null
+    },
+    "positive_balance_wrong_limit": {
+      "balance": 1,
+      "saved_limit": 0,
+      "error": "Roster has 1 Coffer too many (max 0)"
+    },
+    "saved_limit_correction": -1
+  },
+  "cheirosiphon": {
+    "without_fearless": "Cheirosiphon error",
+    "with_fearless": "no error",
+    "skill_removed": "error returns",
+    "purchase30_from50": 20
+  },
+  "tested_revisions": [
+    18,
+    19
+  ],
+  "revision19": {
+    "new_list_coffer_limit_after_reload": -1,
+    "new_post_list_income1": {
+      "balance": 1,
+      "errors": []
+    },
+    "new_mouse_and_weapon_cost": 32,
+    "income31": {
+      "balance": -1,
+      "error": "Not enough Pennies"
+    },
+    "income32": {
+      "balance": 0,
+      "errors": []
+    },
+    "income33": {
+      "balance": 1,
+      "errors": []
+    },
+    "routier_post_raw6": {
+      "income": 200,
+      "balance": 56,
+      "rating": 6,
+      "errors": []
+    },
+    "routier_post_raw7": {
+      "income": 200,
+      "balance": 32,
+      "rating": 7,
+      "errors": []
+    }
+  }
+}
