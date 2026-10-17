@@ -4,6 +4,9 @@ Rögzített alap: `a25f84e550c1e30fcbcf4223c116ee18cab355c6`.
 Az első review a `7004199`, az utánellenőrzés a `c9bb82c` commitot vizsgálta.
 Spec: [faction-rule-validation-spec.md](faction-rule-validation-spec.md).
 A Standards és Spec review két külön subagent munkája.
+A `17d26e9` Freebeasts/Rogues kategóriajavítás külön Spec utánellenőrzése
+szintén 0 finding: a force és az Allegiance-választás együtt a közös kategóriára
+mutat, a régi azonosítók megmaradnak; friss újlistás UI-bizonyíték is készült.
 
 ## Standards
 
