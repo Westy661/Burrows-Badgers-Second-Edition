@@ -13,6 +13,8 @@ MEMBER='b4a1-d685-97c2-3f40'
 POST='a2a0-0ad9-87af-a7ac'
 LARGE='97ca-8945-7b55-dd53'
 MASSIVE='07b2-c48b-e2e1-2c84'
+RESOURCES='b4a1-33ba-6ee0-1707'
+UNDEAD='4f4d-602d-cfa2-e6df'
 
 def tag(e): return e.tag.rsplit('}',1)[-1]
 def direct(e,container): return [e for c in e if tag(c)==container for e in c]
@@ -43,30 +45,33 @@ class FormationValidation(unittest.TestCase):
             for category in direct(entry,'categoryLinks'):
                 counts[category.get('targetId')]+=quantity
         result=[]
+        resources=self.entries[RESOURCES]
+        roster_counts={**counts,POST:int(post),UNDEAD:int(faction=='Undead')}
+        formation_errors=[m for m in direct(resources,'modifiers') if m.get('field')=='error' and any(c.get('childId')==MEMBER for c in direct(m,'conditions'))]
+        self.assertEqual(len(formation_errors),3)
+        for modifier in formation_errors:
+            self.assertEqual(modifier.get('type'),'add')
+            valid=True
+            for condition in direct(modifier,'conditions'):
+                self.assertEqual(condition.get('scope'),'roster')
+                self.assertEqual(condition.get('field'),'selections')
+                self.assertEqual(condition.get('shared'),'true')
+                self.assertEqual(condition.get('includeChildForces'),'true')
+                self.assertEqual(condition.get('includeChildSelections'),str(condition.get('childId')!=MEMBER).lower())
+                count=roster_counts.get(condition.get('childId'),0);value=float(condition.get('value'))
+                valid &= {'lessThan':count<value,'greaterThan':count>value,'atLeast':count>=value}[condition.get('type')]
+            if valid:
+                kind='min' if 'at least 2' in modifier.get('value') else 'max'
+                result.append((MEMBER,kind))
         for link in direct(self.force[faction],'categoryLinks'):
-            # Undead composition categories have their own scoped regression suite.
-            if link.get('targetId') not in {MEMBER,LARGE,MASSIVE}:continue
+            if link.get('targetId') not in {LARGE,MASSIVE}:continue
             for c in direct(link,'constraints'):
-                value=float(c.get('value'))
-                for modifier in direct(link,'modifiers'):
-                    if modifier.get('field')!=c.get('id'):continue
-                    conditions=direct(modifier,'conditions')
-                    self.assertEqual(len(conditions),1)
-                    condition=conditions[0]
-                    self.assertEqual(condition.get('childId'),POST)
-                    self.assertEqual(condition.get('scope'),'roster')
-                    self.assertEqual(condition.get('includeChildSelections'),'true')
-                    self.assertEqual(condition.get('type'),'atLeast')
-                    if int(post)>=float(condition.get('value')):
-                        self.assertEqual(modifier.get('type'),'set')
-                        value=float(modifier.get('value'))
                 self.assertEqual(c.get('field'),'selections')
                 self.assertEqual(c.get('scope'),'parent')
                 self.assertEqual(c.get('shared'),'true')
                 self.assertEqual(c.get('includeChildSelections'),'false')
-                count=counts[link.get('targetId')]
-                if c.get('type')=='min' and count<value:result.append((link.get('targetId'),'min'))
-                elif c.get('type')=='max' and count>value:result.append((link.get('targetId'),'max'))
+                count=counts[link.get('targetId')];value=float(c.get('value'))
+                if c.get('type')=='max' and count>value:result.append((link.get('targetId'),'max'))
         return result
 
     def test_only_models_are_band_members_and_primary_grouping_is_preserved(self):
@@ -83,6 +88,16 @@ class FormationValidation(unittest.TestCase):
         for entry in self.gst.iter():
             if tag(entry)=='selectionEntry' and entry.get('type')!='model':
                 self.assertFalse(any(e.get('targetId')==MEMBER for e in direct(entry,'categoryLinks')),entry.get('name'))
+
+    def test_errors_live_on_mandatory_resources_not_secondary_force_categories(self):
+        resources=self.entries[RESOURCES]
+        limits={c.get('type'):c for c in direct(resources,'constraints')}
+        self.assertEqual(set(limits),{'min','max'})
+        for c in limits.values():
+            self.assertEqual(c.get('value'),'1')
+            self.assertEqual(c.get('scope'),'roster')
+        for force in self.force.values():
+            self.assertFalse(any(l.get('targetId')==MEMBER for l in direct(force,'categoryLinks')))
 
     def test_creation_minimum_and_permanent_maximum_for_all_ten_factions(self):
         mouse='8a62-5301-1659-d3a2'

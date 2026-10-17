@@ -22,6 +22,8 @@ ARCANE='10da-69cb-5d7f-adb3'
 UNDEAD='4f4d-602d-cfa2-e6df'
 SETUP='cee3-9887-9ffb-1cae'
 MAGIC='8b25-3c74-21b1-6d41'
+ROUTIER='d31a-18fc-c0f8-ee05'
+RESOURCES='b4a1-33ba-6ee0-1707'
 GHOSTS={'683d-6982-d6c8-8367','f5b4-4d32-4f3d-93a2','f2c3-4a6b-49d2-b8ec','4917-51ba-289a-cdb3'}
 PENNY='6752-9e0b-692e-d5b9'
 def tag(e):return e.tag.rsplit('}',1)[-1]
@@ -91,22 +93,35 @@ class MagicFactionValidation(unittest.TestCase):
    self.assertFalse(conditions(relevant[0],{SETUP:1,SPELL:1},{ARCANE:1}))
    self.assertFalse(conditions(relevant[0],{SETUP:1},{}))
    self.assertFalse(conditions(relevant[0],{SETUP:0},{ARCANE:1}))
+ def global_error(self,prefix):
+  errors=[m for m in children(self.ids[RESOURCES],'modifiers') if m.get('field')=='error' and m.get('value','').startswith(prefix)]
+  self.assertEqual(len(errors),1)
+  return errors[0]
+ def assert_model_counter(self,error,markers):
+  for c in error.iter():
+   if tag(c)=='condition' and c.get('childId') in markers:
+    self.assertEqual(c.get('scope'),'roster')
+    self.assertEqual(c.get('includeChildSelections'),'false')
  def test_routiers_limit_counts_models_not_spells_or_archetypes(self):
-  link=self.link(self.rout,MAGE);limit=children(link,'constraints')[0]
-  self.assertEqual(limit.get('scope'),'parent');self.assertEqual(limit.get('includeChildSelections'),'false');self.assertEqual(limit.get('type'),'max');self.assertEqual(int(limit.get('value')),1)
+  error=self.global_error('Martial Pride:')
+  self.assert_model_counter(error,{MAGE})
+  self.assertFalse(any(e.get('targetId')==MAGE for e in self.rout.iter() if tag(e)=='categoryLink'))
   examples=[([],True),([{SPELL:1}],True),([{SPELL:5}],True),([{SPELL:2},{}],True),([{MAGIC:1},{SPELL:3}],True),([{SPELL:1},{SPELL:1}],False),([{SPELL:4},{SPELL:2}],False)]
   for models,valid in examples:
    count=sum(self.category(self.bird,MAGE,m) for m in models)
-   self.assertEqual(count<=int(limit.get('value')),valid)
+   self.assertEqual(conditions(error,{}, {ROUTIER:1,MAGE:count}),not valid)
+   self.assertFalse(conditions(error,{}, {MAGE:count}))
  def test_undead_half_mist_rounds_up_for_all_roster_sizes(self):
-  link=self.link(self.und,MIST);limit=children(link,'constraints')[0]
-  self.assertEqual(limit.get('scope'),'parent');self.assertEqual(limit.get('includeChildSelections'),'false')
-  repeat=children(children(link,'modifiers')[0],'repeats')[0]
-  self.assertEqual(repeat.get('childId'),MEMBER);self.assertEqual(repeat.get('includeChildSelections'),'false')
+  error=self.global_error('Restless Spirits:')
+  self.assert_model_counter(error,{MEMBER,MIST})
+  self.assertFalse(any(e.get('targetId')==MIST for e in self.und.iter() if tag(e)=='categoryLink'))
   for size in range(0,14):
-   minimum=value(link,limit.get('id'),float(limit.get('value')),{}, {MEMBER:size})
-   self.assertEqual(minimum,ceil(size/2))
-   for ghosts in range(size+1):self.assertEqual(ghosts>=minimum,2*ghosts>=size)
+   for ghosts in range(size+1):
+    roster={UNDEAD:1,MEMBER:size,MIST:ghosts}
+    self.assertEqual(conditions(error,{},roster),2*ghosts<size)
+    self.assertFalse(conditions(error,{}, {MEMBER:size,MIST:ghosts}))
+  # Outside 13, the separate Band maximum error is responsible.
+  self.assertFalse(conditions(error,{}, {UNDEAD:1,MEMBER:14,MIST:0}))
   for ident in self.models:
    self.assertEqual(self.category(ident,MIST,{}),int(ident in GHOSTS))
    if ident in GHOSTS:
@@ -130,15 +145,18 @@ class MagicFactionValidation(unittest.TestCase):
    self.assertFalse(conditions(errors[0],{},roster))
    self.assertFalse(conditions(errors[0],{ident:1},{}))
  def test_stable_leader_restricts_whole_band_but_not_stable_second(self):
-  link=self.link(self.und,LIVING);limit=children(link,'constraints')[0]
+  error=self.global_error('Stable Ghast Leader:')
+  self.assert_model_counter(error,{STABLE_LEADER,LIVING})
+  self.assertFalse(any(e.get('targetId')==LIVING for e in self.und.iter() if tag(e)=='categoryLink'))
   living=sum(self.category(ident,LIVING,{}) for ident in GHOSTS)
   self.assertEqual(living,0)
   self.assertEqual(self.category(self.bird,LIVING,{}),1)
   self.assertEqual(self.category(self.bird,LIVING,{STABLE:1}),0)
   for flags,restricted in [({},False),({LEADER:1},False),({STABLE:1},False),({STABLE:1,SECOND:1},False),({STABLE:1,LEADER:1},True)]:
    marker=self.category(self.bird,STABLE_LEADER,flags)
-   maximum=value(link,limit.get('id'),1000,{}, {STABLE_LEADER:marker})
-   self.assertEqual(maximum==0,restricted)
+   self.assertEqual(conditions(error,{}, {UNDEAD:1,STABLE_LEADER:marker,LIVING:1}),restricted)
+   self.assertFalse(conditions(error,{}, {UNDEAD:1,STABLE_LEADER:marker,LIVING:0}))
+   self.assertFalse(conditions(error,{}, {STABLE_LEADER:marker,LIVING:1}))
  def test_living_undead_fee_and_unreliable_follow_actual_spell(self):
   e=self.models[self.bird];unreliable=self.ids['9eb9-5a7f-16fb-2e5d']
   for flags,half in [({},True),({MAGIC:1},True),({'cfa8-85f0-982c-f6f9':1},True),({SPELL:1},False),({SPELL:3},False),({STABLE:1},False)]:

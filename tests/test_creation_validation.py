@@ -2,7 +2,8 @@
 from pathlib import Path
 import unittest
 import xml.etree.ElementTree as ET
-from test_rulebook_audit import children,tag,modifiers
+from test_rulebook_audit import children,tag
+from test_magic_faction_validation import conditions as scoped_conditions
 ROOT=Path(__file__).resolve().parents[1]
 CHAR='4240-559e-5c1d-4780'
 SETUP='cee3-9887-9ffb-1cae'
@@ -28,9 +29,9 @@ class CreationValidation(unittest.TestCase):
                 category=link.get('targetId');context[category]=context.get(category,0)+1
         return context
 
-    def errors(self,model,selections=(),setup=True):
+    def errors(self,model,selections=(),setup=True,roster=None):
         context=self.context(model,selections,setup)
-        return [m.get('value') for m in modifiers(self.ids[CHAR],context) if m.get('field')=='error']
+        return [m.get('value') for m in children(self.ids[CHAR],'modifiers') if m.get('field')=='error' and scoped_conditions(m,context,roster or {})]
 
     def starting(self,field):
         cat=self.stats['Starting '+field+' advances']
@@ -110,11 +111,18 @@ class CreationValidation(unittest.TestCase):
                     self.assertNotIn(message,self.errors(model,['b365-39ef-65e4-a5ae']))
                     context=self.context(model)
                     context[SPELL]=1
-                    self.assertFalse(any(m.get('field')=='error' and m.get('value')==message for m in modifiers(self.ids[CHAR],context)))
+                    self.assertFalse(any(m.get('field')=='error' and m.get('value')==message for m in children(self.ids[CHAR],'modifiers') if scoped_conditions(m,context,{})))
         # Armless explicitly permits armour/items (printed p146); no blanket grub exception.
         grub=self.ids['f11b-f5a3-8f1d-49fb']
         self.assertIn(message,self.errors(grub))
         self.assertNotIn(message,self.errors(grub,['826c-f8c3-4cda-d1cf']))
+
+    def test_other_models_equipment_spells_and_advances_do_not_change_this_model(self):
+        mouse=next(e for e in self.models if e.get('name')=='Mouse/ Dormouse')
+        elsewhere={self.gear:3,SPELL:4,**{cat:20 for cat in self.stats.values()}}
+        errors=self.errors(mouse,roster=elsewhere)
+        self.assertIn('Starting model requires equipment or a learned spell',errors)
+        self.assertFalse(any('cannot exceed d12' in message for message in errors))
 
     def test_equipment_categories_cover_actual_choices_and_not_helper_entries(self):
         equipment=self.ids['ac1f-3ccf-94c7-813e']
