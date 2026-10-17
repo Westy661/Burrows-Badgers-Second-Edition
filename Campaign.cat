@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="e7c5-f4ae-d0e7-9f53" name="Campaign" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="e7c5-f4ae-d0e7-9f53" name="Campaign" gameSystemId="sys-8e98-0f81-30ce-b579" gameSystemRevision="1" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Fletcher" hidden="false" id="1ed9-4f1a-6ba6-8f9e">
       <infoLinks>
@@ -10,12 +10,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="6"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-6"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-3"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49e8-22ce-4636-ac78"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chapel" hidden="false" id="9170-885c-961e-ee6d">
       <infoLinks>
@@ -26,12 +39,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="15"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="5"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-15"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-5"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4efa-79c2-c6a9-c87b"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gambling Den" hidden="false" id="a183-459a-c750-4d2b">
       <infoLinks>
@@ -42,12 +68,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-3"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0af-cd60-326f-092f"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gymnasium" hidden="false" id="d0de-b562-4252-73f2">
       <infoLinks>
@@ -58,12 +97,41 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-2"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0fe-7c92-71ef-0e27"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="a8b9-14eb-c576-28d4">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="ce21-5b5b-f092-7301">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Jewellers Workshop" hidden="false" id="72fe-9908-99f5-2de7">
       <infoLinks>
@@ -74,12 +142,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-2"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f742-1361-b115-3f89"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Library" hidden="false" id="c90f-a8b1-5c5e-39b6">
       <infoLinks>
@@ -90,12 +171,41 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="6"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-6"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a84e-d31d-645d-d66c"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="a8b9-14eb-c576-28d4">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="0" field="ce21-5b5b-f092-7301">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Magical Garden" hidden="false" id="d9b1-d98f-7ead-916f">
       <infoLinks>
@@ -106,12 +216,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-12"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-3"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72ed-5e3f-2bdd-50e6"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Obstacle Course" hidden="false" id="cc99-e531-cbd8-8222">
       <infoLinks>
@@ -122,12 +245,61 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-2"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a18f-3f32-fb53-2026"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d49b-0548-5a3f-1240" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="a8b9-14eb-c576-28d4">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d49b-0548-5a3f-1240" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="ce21-5b5b-f092-7301">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d49b-0548-5a3f-1240" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="d49b-0548-5a3f-1240" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Occult Laboratory" hidden="false" id="12db-5777-cc47-c01d">
       <infoLinks>
@@ -138,12 +310,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="16"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="5"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-16"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-5"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1066-1334-9c4f-64ad"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pells and Training Ground" hidden="false" id="17b2-efd9-cc29-d829">
       <infoLinks>
@@ -154,12 +339,57 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-2"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cb7-d4b2-16c2-0c41"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="ce21-5b5b-f092-7301">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="a8b9-14eb-c576-28d4">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Secret Tunnels" hidden="false" id="7f39-1b2c-5d12-7449">
       <infoLinks>
@@ -170,12 +400,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="14"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-14"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-3"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d875-0b23-8fbd-7c4b"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Shrine" hidden="false" id="5714-5693-8554-1f15">
       <infoLinks>
@@ -186,12 +429,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="14"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-14"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-3"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cf8-c133-6ec8-6060"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Smallholding" hidden="false" id="c1f4-ab41-191b-eb0e">
       <infoLinks>
@@ -202,12 +458,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="10"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-10"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-3"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c5a-6fe6-00a5-50f6"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Smithy" hidden="false" id="cca7-24e1-c4e3-ed6b">
       <infoLinks>
@@ -218,12 +487,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-12"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-4"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b661-51a1-90e8-b104"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Archery Range" hidden="false" id="00cb-eca5-c9a6-d8bb">
       <infoLinks>
@@ -234,8 +516,10 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="2"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-12"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-4"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b229-b11a-5960-f493"/>
@@ -246,6 +530,34 @@
             <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="a8b9-14eb-c576-28d4">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="ce21-5b5b-f092-7301">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -261,12 +573,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="10"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-10"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-4"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1e6-11ee-b9f8-7ff6"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Study" hidden="false" id="797b-037f-3d75-7a5a">
       <infoLinks>
@@ -277,8 +602,10 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="8"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="3"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-8"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-3"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cd9-6f77-a7a4-7a35"/>
@@ -294,6 +621,37 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="0" field="ce21-5b5b-f092-7301">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="0" field="a8b9-14eb-c576-28d4">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alchemy Laboratory" hidden="false" id="82b9-4c4c-878b-6c3d">
@@ -305,12 +663,25 @@
       </categoryLinks>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
-        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="12"/>
-        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="4"/>
+        <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="-12"/>
+        <cost name="Material" typeId="ce21-5b5b-f092-7301" value="-4"/>
+        <cost name="Toughness" typeId="9b3c-53d0-7070-c817" value="0"/>
+        <cost name="Strength" typeId="a1ea-1d68-72ea-d046" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f78d-f46f-523b-7901"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="a2a0-0ad9-87af-a7ac" shared="true" childName="Switch to post-creation" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -345,8 +716,8 @@ with Bodkins (6 arrows) or Broadheads (6 arrows) for free at the start of every 
     </profile>
     <profile name="Chapel" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="fcd1-544a-f29d-e588">
       <characteristics>
-        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">15</characteristic>
-        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">5</characteristic>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
         <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a chapel within your den, dedicated to Moritasgus, the Great Badger,
 ancient god of healing and protection. 
 
@@ -402,8 +773,8 @@ You may pray for a blessing before each Battle; roll a d6.
     </profile>
     <profile name="Occult Laboratory" typeId="385d-ccbd-6f35-1bf3" typeName="Den Upgrade" hidden="false" id="3e67-4144-bd80-9a67">
       <characteristics>
-        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">16</characteristic>
-        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">5</characteristic>
+        <characteristic name="Labour" typeId="4c74-68cb-f6a4-898a">8</characteristic>
+        <characteristic name="Materials" typeId="8b5c-655b-c7ec-057e">2</characteristic>
         <characteristic name="Rules" typeId="a5c7-15a9-5430-662a">You have built a laboratory to do research into the esoteric and mystical. Roll a d6:
 
 
@@ -462,87 +833,19 @@ You may pray for a blessing before each Battle; roll a d6.
     <entryLink import="true" name="Chapel" hidden="false" id="667e-0577-1c98-a7e0" targetId="9170-885c-961e-ee6d" type="selectionEntry"/>
     <entryLink import="true" name="Fletcher" hidden="false" id="8d4f-70bc-9c4b-056c" targetId="1ed9-4f1a-6ba6-8f9e" type="selectionEntry"/>
     <entryLink import="true" name="Gambling Den" hidden="false" id="ef15-36c2-2c4f-5c8f" targetId="a183-459a-c750-4d2b" type="selectionEntry"/>
-    <entryLink import="true" name="Gymnasium" hidden="false" id="994d-ae3d-a765-5ac1" targetId="d0de-b562-4252-73f2" type="selectionEntry" defaultAmount="0">
-      <modifiers>
-        <modifier type="set" value="1" field="defaultAmount">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1e49-9b1a-ff0f-cc3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Gymnasium" hidden="false" id="994d-ae3d-a765-5ac1" targetId="d0de-b562-4252-73f2" type="selectionEntry" defaultAmount="0"/>
     <entryLink import="true" name="Jewellers Workshop" hidden="false" id="2100-d2fc-1448-4817" targetId="72fe-9908-99f5-2de7" type="selectionEntry"/>
-    <entryLink import="true" name="Library" hidden="false" id="baf4-d1dd-1417-6fb4" targetId="c90f-a8b1-5c5e-39b6" type="selectionEntry" defaultAmount="0">
-      <modifiers>
-        <modifier type="set" value="1" field="defaultAmount">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Library" hidden="false" id="baf4-d1dd-1417-6fb4" targetId="c90f-a8b1-5c5e-39b6" type="selectionEntry" defaultAmount="0"/>
     <entryLink import="true" name="Magical Garden" hidden="false" id="e51b-812d-3a63-6488" targetId="d9b1-d98f-7ead-916f" type="selectionEntry"/>
-    <entryLink import="true" name="Obstacle Course" hidden="false" id="c32b-0547-d48d-34fc" targetId="cc99-e531-cbd8-8222" type="selectionEntry" defaultAmount="0">
-      <modifiers>
-        <modifier type="set" value="1" field="defaultAmount">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="50ec-2aab-28b0-12e1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="8d39-93f9-26a9-651c" shared="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d49b-0548-5a3f-1240" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Obstacle Course" hidden="false" id="c32b-0547-d48d-34fc" targetId="cc99-e531-cbd8-8222" type="selectionEntry" defaultAmount="0"/>
     <entryLink import="true" name="Occult Laboratory" hidden="false" id="0973-23bf-ec70-5206" targetId="12db-5777-cc47-c01d" type="selectionEntry"/>
-    <entryLink import="true" name="Pells and Training Ground" hidden="false" id="5ba4-995f-2bc9-1a40" targetId="17b2-efd9-cc29-d829" type="selectionEntry" defaultAmount="0">
-      <modifiers>
-        <modifier type="set" value="1" field="defaultAmount">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink import="true" name="Pells and Training Ground" hidden="false" id="5ba4-995f-2bc9-1a40" targetId="17b2-efd9-cc29-d829" type="selectionEntry" defaultAmount="0"/>
     <entryLink import="true" name="Secret Tunnels" hidden="false" id="b475-96ce-77f8-6938" targetId="7f39-1b2c-5d12-7449" type="selectionEntry"/>
     <entryLink import="true" name="Shrine" hidden="false" id="c4d7-cf94-5d76-5fcd" targetId="5714-5693-8554-1f15" type="selectionEntry"/>
     <entryLink import="true" name="Smallholding" hidden="false" id="fc2f-1025-de92-aa66" targetId="c1f4-ab41-191b-eb0e" type="selectionEntry"/>
     <entryLink import="true" name="Smithy" hidden="false" id="0c42-4ebd-cd6c-ef30" targetId="cca7-24e1-c4e3-ed6b" type="selectionEntry"/>
-    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0">
-      <modifiers>
-        <modifier type="set" value="1" field="defaultAmount">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="6a58-ff86-c0ab-c418" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="10da-69cb-5d7f-adb3" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink import="true" name="Archery Range" hidden="false" id="86da-ce73-0d94-3ecd" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry" defaultAmount="0">
-      <modifiers>
-        <modifier type="set" value="1" field="defaultAmount">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a7fe-119d-b9b3-abe1" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="2502-9ea5-3517-dae6" targetId="82b9-4c4c-878b-6c3d" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Study" hidden="false" id="26f4-b8d0-1b0c-484b" targetId="797b-037f-3d75-7a5a" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Archery Range" hidden="false" id="86da-ce73-0d94-3ecd" targetId="00cb-eca5-c9a6-d8bb" type="selectionEntry" defaultAmount="0"/>
+    <entryLink import="true" name="Alchemy Laboratory" hidden="false" id="0678-47e7-ea38-025e" type="selectionEntry" targetId="82b9-4c4c-878b-6c3d"/>
   </entryLinks>
 </catalogue>

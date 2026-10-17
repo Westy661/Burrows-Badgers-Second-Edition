@@ -52,11 +52,6 @@
       <categoryLinks>
         <categoryLink name="Allegiance" hidden="false" id="1e40-8171-f78a-78b0" targetId="1bc5-0b8a-1258-293f" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Coffer" hidden="false" id="b603-07f7-46fd-5adb"/>
-        <selectionEntry type="upgrade" import="true" name="Materials" hidden="false" id="a498-4594-6e92-3c0f"/>
-        <selectionEntry type="upgrade" import="true" name="Labor" hidden="false" id="2d69-9715-741b-55fd"/>
-      </selectionEntries>
     </entryLink>
   </entryLinks>
   <rules>
