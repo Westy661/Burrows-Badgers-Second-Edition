@@ -10,6 +10,8 @@ A közös ellenőrzés 49 fajváltozat statjaira, alapáraira és alaptraitjeire
 92 ritka kezdőopcióját külön ellenőrzi, beleértve a Grub modelleket.
 A megismételt felszerelési helyekre is kiterjednek a tesztek.
 
+> Kiegészítés, revision 17: a korábbi felszerelésteszt elrejtést ellenőrzött, nem a már kiválasztott tiltott tárgy validációját. A javítás és az elvarázsolt változatok pótlólagos ellenőrzése az [egységes csomag jelentésében](unified-package-2026-10-17.md) szerepel.
+
 ## Források és elsőbbség
 
 - Helyi második kiadású szabálykönyv: `../Burrows__Badgers_Osprey_Games_Second_Edition_Rulebook_OEF_2025.pdf`.
