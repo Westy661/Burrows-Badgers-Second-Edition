@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="9" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition" revision="12" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)"/>
     <categoryEntry hidden="false" id="9ed2-8233-7200-924b" name="Medium Beast (30mm Base)"/>
@@ -980,7 +980,7 @@ casting Spells.</description>
         <infoLink hidden="false" id="35c4-a014-2c12-40b6" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
         <infoLink hidden="false" id="b7dd-eeb7-3085-2d51" name="Bloodhound" targetId="54cb-f660-1c7f-53c1" type="rule"/>
         <infoLink hidden="false" id="b62d-aecc-51c8-be14" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
-        <infoLink name="Unreliable" id="6577-a1ca-5d87-5165" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"/>
+        <infoLink name="Unreliable" id="6577-a1ca-5d87-5165" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"><modifiers><modifier type="set" value="true" field="hidden"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="f881-3b15-fed8-9cd4" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="1251-7fef-ecc5-8c86" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="fa6d-0b51-2c97-62ad" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="c5d3-d245-dfff-9541" shared="true" includeChildSelections="true" includeChildForces="true"/></conditions></conditionGroup></conditionGroups></modifier></modifiers></infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink hidden="false" id="48f3-64e8-146a-995e" name="Small Beast (30mm Base)" primary="true" targetId="6803-87ba-83c4-bd4b"/>
@@ -1091,7 +1091,7 @@ casting Spells.</description>
         </modifier>
       <modifier type="set" field="6752-9e0b-692e-d5b9" value="14"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="lessThan" value="1" field="selections" scope="root-entry" childId="8b25-3c74-21b1-6d41" shared="true" includeChildSelections="true"/><condition type="lessThan" value="1" field="selections" scope="root-entry" childId="b419-cd6b-0797-e690" shared="true" includeChildSelections="true"/></conditions></modifier><modifier type="set" field="eba3-27d9-e5f6-7822" value="-14"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="4f4d-602d-cfa2-e6df" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="lessThan" value="1" field="selections" scope="root-entry" childId="8b25-3c74-21b1-6d41" shared="true" includeChildSelections="true"/><condition type="lessThan" value="1" field="selections" scope="root-entry" childId="b419-cd6b-0797-e690" shared="true" includeChildSelections="true"/></conditions></modifier></modifiers>
       <infoLinks>
-        <infoLink name="Unreliable" id="e1d5-a215-abe3-b871" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"/>
+        <infoLink name="Unreliable" id="e1d5-a215-abe3-b871" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"><modifiers><modifier type="set" value="true" field="hidden"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="f881-3b15-fed8-9cd4" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="1251-7fef-ecc5-8c86" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="fa6d-0b51-2c97-62ad" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="c5d3-d245-dfff-9541" shared="true" includeChildSelections="true" includeChildForces="true"/></conditions></conditionGroup></conditionGroups></modifier></modifiers></infoLink>
         <infoLink name="Unarmed Fighter" id="f2e3-f933-77e6-28b8" hidden="false" type="rule" targetId="9918-7b1a-1886-7701"/>
         <infoLink name="Armless" id="b2f6-05ae-85f4-cedf" hidden="false" targetId="ea4e-f80f-1392-23b9" type="rule"/>
       </infoLinks>
@@ -1128,7 +1128,7 @@ casting Spells.</description>
         <infoLink hidden="false" id="27d0-ce75-6c34-265a" name="Resist Magic" targetId="4d7a-0245-ed1b-761b" type="rule"/>
         <infoLink hidden="false" id="26e0-e3e0-cbb6-4e39" name="Unarmed Fighter" targetId="9918-7b1a-1886-7701" type="rule"/>
         <infoLink hidden="false" id="9cb5-4853-ba43-258c" name="Armless" targetId="ea4e-f80f-1392-23b9" type="rule"/>
-        <infoLink name="Unreliable" id="3c59-4e7f-1f69-de43" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"/>
+        <infoLink name="Unreliable" id="3c59-4e7f-1f69-de43" hidden="false" type="rule" targetId="d8f2-4c1a-4b3d-8a9f"><modifiers><modifier type="set" value="true" field="hidden"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="f881-3b15-fed8-9cd4" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="1251-7fef-ecc5-8c86" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="fa6d-0b51-2c97-62ad" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="c5d3-d245-dfff-9541" shared="true" includeChildSelections="true" includeChildForces="true"/></conditions></conditionGroup></conditionGroups></modifier></modifiers></infoLink>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="39c8-2da1-a9f4-907f" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -1737,6 +1737,9 @@ casting Spells.</description>
           </characteristics>
         </profile>
       </profiles>
+      <constraints>
+        <constraint field="selections" id="ec92-2091-5143-a046" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="27"/>
         <cost name="Labor" typeId="a8b9-14eb-c576-28d4" value="0"/>
@@ -1747,6 +1750,7 @@ casting Spells.</description>
       </costs>
       <categoryLinks>
         <categoryLink hidden="false" id="f9c3-4f2b-4e23-8bb5" name="Medium Beast (30mm Base)" primary="true" targetId="9ed2-8233-7200-924b"/>
+        <categoryLink hidden="false" id="ef0b-728b-5cb7-8a80" name="Rare" primary="false" targetId="6daf-83fe-ef42-17d8"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Character" hidden="false" id="7b20-9a14-c502-a666" type="selectionEntryGroup" targetId="4240-559e-5c1d-4780"/>
@@ -22957,7 +22961,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             </conditionGroup>
                           </conditionGroups>
                         </modifier>
-                      </modifiers>
+                      <modifier type="set" field="d8ac-b20e-1b4e-c8c2" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true"/></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                       <categoryLinks>
                         <categoryLink name="Rare" hidden="false" id="dda6-cf3c-6c1c-2d83" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                       </categoryLinks>
@@ -27887,7 +27891,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                          </modifiers>
+                          <modifier type="set" field="8a55-0e31-ee24-b415" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true"/></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="1507-9565-958c-15db" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
@@ -48661,7 +48665,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                          </modifiers>
+                          <modifier type="set" field="6f0f-4329-d084-8d0d" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="7858-2fc6-4c35-81ff" shared="true" includeChildSelections="true" includeChildForces="true"/></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="2b09-cb9e-fc8a-63a2" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
@@ -61526,7 +61530,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                                 </conditionGroup>
                               </conditionGroups>
                             </modifier>
-                          </modifiers>
+                          <modifier type="set" field="6663-5f9b-c900-2cfc" value="0"><conditionGroups><conditionGroup type="or"><conditions><condition type="atLeast" value="1" field="selections" scope="roster" childId="dffd-de30-4a0e-e89d" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="961a-ba5b-706e-67b2" shared="true" includeChildSelections="true" includeChildForces="true"/><condition type="atLeast" value="1" field="selections" scope="roster" childId="9e39-dc2c-7afb-f5c2" shared="true" includeChildSelections="true" includeChildForces="true"/></conditions></conditionGroup></conditionGroups></modifier></modifiers>
                           <categoryLinks>
                             <categoryLink name="Rare" hidden="false" id="39ab-eba6-8613-c35b" targetId="6daf-83fe-ef42-17d8" primary="false"/>
                           </categoryLinks>
@@ -73171,8 +73175,8 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             <infoLink name="Enfeebled" id="7d64-34fd-7e77-37bc" hidden="false" type="profile" targetId="ba66-8baf-66cc-0c2f"/>
                           </infoLinks>
                           <modifiers>
-                            <modifier type="decrement" value="1" field="9b3c-53d0-7070-c817"/>
-                            <modifier type="add" value="b618-6cd4-776b-7e1d" field="category"/>
+                            <modifier type="decrement" value="1" field="a1ea-1d68-72ea-d046"/>
+                            <modifier type="add" value="faf1-e053-62bb-9290" field="category"/>
                           </modifiers>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Shoulder Injury" hidden="false" id="b5b9-db24-c235-0541" sortIndex="10">

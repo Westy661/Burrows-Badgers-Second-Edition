@@ -61,12 +61,17 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
 
 This branch combines the cynsye campaign implementation with the reconciled
 upstream rule fixes. The rulebook audit on 17 October 2026 additionally corrects
-the shared game system; its data revision is 9. The `.cat` files retain their
-existing faction IDs and rules.
+the shared game system; that audit used data revision 9. The follow-up species
+audit raised revision to 10; the FAQ and faction-coverage follow-up raises it
+to 12. Existing faction and selection IDs are retained.
 
 See the Hungarian [faction-by-faction rulebook audit](docs/faction-rulebook-audit-2026-10-17.md)
 for verified prices, missing equipment options, corrected profiles, source-page
 references, official FAQ overrides, and remaining manual checks.
+
+See the Hungarian [faction implementation coverage audit](docs/faction-implementation-audit-2026-10-17.md)
+for all ten rule sets, the distinction between automated and manual rules,
+remaining validation gaps, and the FAQ/Piper fixes verified in New Recruit.
 
 ### Run beside the stable system
 
@@ -145,3 +150,14 @@ Variable starting-price fields are preserved in saved rosters. After updating
 data, refresh New Recruit and correct an old price field or reselect its item
 to apply the new default. Poison starting prices now follow the Piece quantity
 automatically; post-creation still uses the total rolled Cost field.
+
+### Complete species audit on 17 October 2026
+
+All 49 species were individually added in the New Recruit UI. Their 490 stat/Level
+values, 147 Strong/Tough/Delicate values and all innate rule lists match the rulebook
+and official errata. The new revision 10 fixes Green Lizard's missing Rare category
+and once-per-roster limit; base stat profiles remain unchanged.
+
+See the [49-row species audit](docs/species-audit-2026-10-17.md) for every value,
+source pages, actual UI observations and before/after selection-limit evidence.
+Run all 45 test groups with `python -B -X utf8 -m unittest discover -s tests -v`.

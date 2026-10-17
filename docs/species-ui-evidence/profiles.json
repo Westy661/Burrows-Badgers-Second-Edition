@@ -1,0 +1,1254 @@
+{
+  "date": "2026-10-17",
+  "game_data_commit": "8230d24cd9cb0fae1c246c94bc665e0ae5622d33",
+  "method": "Each species added through New Recruit UI; visible DOM stat rows, ability values, rule names and category captured. No equipment, officer or advancement selected.",
+  "stat_columns": [
+    "Movement",
+    "Strike",
+    "Block",
+    "Ranged",
+    "Nimbleness",
+    "Concealment",
+    "Awareness",
+    "Fortitude",
+    "Presence",
+    "Level"
+  ],
+  "observations": [
+    {
+      "species": "Mouse/ Dormouse",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Shrew",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Bird (Small)",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d4",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Flight"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Noctule Bat",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d4",
+        "d6",
+        "d4",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 2
+      },
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter",
+        "Darksense",
+        "Gifted"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Great Crested Newt",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Swim"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Shrew Knight Errant",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d8",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d4",
+        "d8",
+        "d10",
+        "d8",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Fighting Mount",
+        "Fearless"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Tracker Grub",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Armless",
+        "Bloodhound",
+        "Unarmed Fighter",
+        "Unreliable"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Attack Grub",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Unreliable",
+        "Unarmed Fighter",
+        "Armless"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Damping Grub",
+      "roster": "Állataudit – Small",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Resist Magic",
+        "Unarmed Fighter",
+        "Armless",
+        "Unreliable"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Hedgehog",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Spines"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Squirrel",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Climber"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Mole",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d4",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d4",
+        "d8",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Tunneller",
+        "Short-Sighted"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Weasel / Stoat",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Fearless"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Black Rat",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Ferret / Polecat",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d8",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Fearless"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Cat",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Rabbit",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Toad",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d10",
+        "d6",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 2,
+        "Delicate": 0
+      },
+      "rules": [
+        "Natural Hunter"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Frog",
+      "roster": "Állataudit – Medium A",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Leaper",
+        "Swim"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Adder",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d8",
+        "d4",
+        "d4",
+        "d4",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Poisonous",
+        "Unarmed Fighter",
+        "Armless"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Marmot",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Water Vole",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Swim"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Bird (Medium)",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Flight"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Raptor (Medium)",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d4",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Hound (Medium)",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Green Lizard (Rare)",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Siamese Cat (Rare)",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Tortoise (Rare)",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d4",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 2,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Platypus (Rare)",
+      "roster": "Állataudit – Medium B",
+      "stats": [
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Swim"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Hare",
+      "roster": "Állataudit – Large A",
+      "stats": [
+        "d8",
+        "d10",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Leaper"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Wildcat",
+      "roster": "Állataudit – Large A",
+      "stats": [
+        "d8",
+        "d10",
+        "d6",
+        "d4",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 2,
+        "Tough": 1,
+        "Delicate": 0
+      },
+      "rules": [
+        "Natural Hunter",
+        "Fearsome"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Great Brown Rat",
+      "roster": "Állataudit – Large A",
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Fox",
+      "roster": "Állataudit – Large A",
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Otter",
+      "roster": "Állataudit – Large A",
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Swim"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Bird (Large)",
+      "roster": "Állataudit – Large A",
+      "stats": [
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d4",
+        "d6",
+        "d8",
+        "d6",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Flight"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Raptor (Large)",
+      "roster": "Állataudit – Large B",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d4",
+        "d8",
+        "d4",
+        "d8",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 2,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Hound (Large)",
+      "roster": "Állataudit – Large B",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 2,
+        "Tough": 1,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Raccoon (Rare)",
+      "roster": "Állataudit – Large B",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Armadillo (Rare)",
+      "roster": "Állataudit – Large B",
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 1,
+        "Tough": 3,
+        "Delicate": 0
+      },
+      "rules": [
+        "Leaper"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Fennec Fox (Rare)",
+      "roster": "Állataudit – Large B",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Bloodhound"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Badger",
+      "roster": "Állataudit – Massive",
+      "stats": [
+        "d8",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d10",
+        "4"
+      ],
+      "abilities": {
+        "Strong": 3,
+        "Tough": 2,
+        "Delicate": 0
+      },
+      "rules": [
+        "Fearsome"
+      ],
+      "category": "Massive Beast (50mm base)"
+    },
+    {
+      "species": "Beaver",
+      "roster": "Állataudit – Massive",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d4",
+        "d4",
+        "d6",
+        "d10",
+        "d8",
+        "4"
+      ],
+      "abilities": {
+        "Strong": 2,
+        "Tough": 3,
+        "Delicate": 0
+      },
+      "rules": [
+        "Swim"
+      ],
+      "category": "Massive Beast (50mm base)"
+    },
+    {
+      "species": "Bird (Massive)",
+      "roster": "Állataudit – Massive",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d6",
+        "d8",
+        "d8",
+        "4"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Flight"
+      ],
+      "category": "Massive Beast (50mm base)"
+    },
+    {
+      "species": "Raptor (Massive)",
+      "roster": "Állataudit – Massive",
+      "stats": [
+        "d6",
+        "d10",
+        "d6",
+        "d4",
+        "d6",
+        "d4",
+        "d8",
+        "d10",
+        "d10",
+        "4"
+      ],
+      "abilities": {
+        "Strong": 3,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Flight",
+        "Unarmed Fighter",
+        "Natural Hunter"
+      ],
+      "category": "Massive Beast (50mm base)"
+    },
+    {
+      "species": "Hound (Massive)",
+      "roster": "Állataudit – Massive",
+      "stats": [
+        "d8",
+        "d10",
+        "d6",
+        "d4",
+        "d6",
+        "d6",
+        "d6",
+        "d8",
+        "d8",
+        "4"
+      ],
+      "abilities": {
+        "Strong": 3,
+        "Tough": 2,
+        "Delicate": 0
+      },
+      "rules": [
+        "Natural Hunter"
+      ],
+      "category": "Massive Beast (50mm base)"
+    },
+    {
+      "species": "Mist Ghast (Small)",
+      "roster": "Állataudit – Mist Ghasts",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d6",
+        "d6",
+        "1"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "category": "Small Beast (30mm Base)"
+    },
+    {
+      "species": "Mist Ghast (Medium)",
+      "roster": "Állataudit – Mist Ghasts",
+      "stats": [
+        "d6",
+        "d8",
+        "d6",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d6",
+        "d6",
+        "2"
+      ],
+      "abilities": {
+        "Strong": 0,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "category": "Medium Beast (30mm Base)"
+    },
+    {
+      "species": "Mist Ghast (Large)",
+      "roster": "Állataudit – Mist Ghasts",
+      "stats": [
+        "d6",
+        "d8",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d6",
+        "d8",
+        "3"
+      ],
+      "abilities": {
+        "Strong": 2,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "category": "Large Beast (40mm Base)"
+    },
+    {
+      "species": "Mist Ghast (Massive)",
+      "roster": "Állataudit – Mist Ghasts",
+      "stats": [
+        "d8",
+        "d10",
+        "d8",
+        "d6",
+        "d8",
+        "d6",
+        "d10",
+        "d8",
+        "d10",
+        "4"
+      ],
+      "abilities": {
+        "Strong": 4,
+        "Tough": 0,
+        "Delicate": 0
+      },
+      "rules": [
+        "Otherworldly",
+        "Uncanny"
+      ],
+      "category": "Massive Beast (50mm base)"
+    }
+  ],
+  "rare_before": {
+    "green_lizards_in_roster": 2,
+    "green_lizard_validation_error_present": false
+  },
+  "rare_after": {
+    "game_data_commit": "39f5570a9e99a85efabc76d235ea34722d78b161",
+    "two_copies_error": "Roster has 1 selections too many of Green Lizard (Rare) (max 1)",
+    "one_copy_error_present": false,
+    "one_copy_counter": "1/1"
+  }
+}
