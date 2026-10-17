@@ -7,8 +7,16 @@
       </costs>
       <categoryLinks>
         <categoryLink name="Allegiance" hidden="false" id="0830-2bbe-832a-093a" targetId="9744-970b-5561-3d61"/>
-        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="c914-f26b-b7ca-31f6" targetId="07b2-c48b-e2e1-2c84"/>
-        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="a246-2bbf-13ce-5d6b" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="c914-f26b-b7ca-31f6" targetId="07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="23cf-00ce-1183-5ab5" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="a246-2bbf-13ce-5d6b" targetId="97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="0357-6c71-7f6a-1cfa" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="03cb-b7cc-5b70-ff5a" targetId="9ed2-8233-7200-924b"/>
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="c1e1-92bb-da51-7107" targetId="6803-87ba-83c4-bd4b"/>
         <categoryLink name="Den Upgrade" hidden="false" id="bc59-218a-c9b7-090c" targetId="583b-2cca-fae6-9a19"/>
@@ -40,6 +48,7 @@
         <infoLink name="Quick and Quiet" id="cd1f-345c-b4cc-b246" hidden="false" type="rule" targetId="5a03-e3b6-060c-b836"/>
         <infoLink name="Support Quest - Strip the Area:" id="b991-ff62-f298-02c0" hidden="false" type="rule" targetId="a611-a458-e53a-f835"/>
         <infoLink name="Magical Archetypes" id="927f-c3a4-969c-0565" hidden="false" type="rule" targetId="3780-9be5-ebbe-30f1"/>
+        <infoLink name="Born Lucky" id="65d9-9a86-7fd0-40fe" hidden="false" type="rule" targetId="42e3-cf06-3cc9-ba31"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -65,6 +74,9 @@
 
 
 Each Terrain piece can only be successfully Searched once, and only Terrain pieces at least 50mm wide/long count!</description>
+    </rule>
+    <rule name="Born Lucky" id="42e3-cf06-3cc9-ba31" hidden="false">
+      <description>You start each game with three extra Fate points, which you can distribute freely between your models.</description>
     </rule>
   </rules>
 </catalogue>

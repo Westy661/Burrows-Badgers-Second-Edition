@@ -114,20 +114,11 @@ Run:
 python tests/test_catalogues.py -v
 ```
 
-The suite is adapted from upstream PR #29 to allow the fork's additional skill
-routes and modifier-based starting-money discount. Of 14 checks, ten pass;
-four check groups fail, producing seven failed subcases:
-
-- All four Dispel Scroll entries still link to Telescope profiles.
-- Royalists Expert Training still exposes Upgrade Ranged.
-- All four Spell Breaker learning routes lack the upstream Resist Magic
-  prerequisite validation.
-- The Polearm description lacks the shield restriction restored upstream.
-
-These are expected blockers for reconciling this snapshot with current master,
-not a passing merge gate. Structural XML, import links, isolated staging and
-the listed campaign smoke tests pass. No production game data was changed to
-hide the regressions.
+The suite is adapted from upstream PR #29 to allow the campaign branch's
+additional skill routes and modifier-based starting-money discount. All 14
+checks pass after reconciling the upstream rule corrections with campaign
+accounting and progression. Structural XML, import links, isolated staging and
+the listed campaign smoke tests pass.
 
 ### Next manual test cases
 

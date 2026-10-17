@@ -10,8 +10,16 @@
       </costs>
       <categoryLinks>
         <categoryLink name="Allegiance" hidden="false" id="c1a4-09dc-b92e-dc8c" targetId="1bc5-0b8a-1258-293f"/>
-        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7a93-8bb3-28c5-6395" targetId="07b2-c48b-e2e1-2c84"/>
-        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="dfa9-641b-a5d5-8e73" targetId="97ca-8945-7b55-dd53"/>
+        <categoryLink name="Massive Beast (50mm base)" hidden="false" id="7a93-8bb3-28c5-6395" targetId="07b2-c48b-e2e1-2c84">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="ffd1-6d16-eeec-78e4" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Large Beast (40mm Base)" hidden="false" id="dfa9-641b-a5d5-8e73" targetId="97ca-8945-7b55-dd53">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="571b-eacc-0496-84e3" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Medium Beast (30mm Base)" hidden="false" id="5b64-af20-7a19-0c04" targetId="9ed2-8233-7200-924b"/>
         <categoryLink name="Small Beast (30mm Base)" hidden="false" id="eb10-855f-baff-026a" targetId="6803-87ba-83c4-bd4b"/>
         <categoryLink name="Den Upgrade" hidden="false" id="c59a-bbf3-a2cd-d7fa" targetId="583b-2cca-fae6-9a19"/>

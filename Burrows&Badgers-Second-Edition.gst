@@ -20789,7 +20789,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Telescope" id="20d7-41cc-71cb-67cb" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                        <infoLink name="Dispel Scroll" id="20d7-41cc-71cb-67cb" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                       </infoLinks>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="f649-da33-0a84-d504">
@@ -25871,7 +25871,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="3f0d-87eb-9ecd-ff36" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Dispel Scroll" id="3f0d-87eb-9ecd-ff36" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                           </infoLinks>
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="e2da-c8ca-ce19-7021">
@@ -44829,7 +44829,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="2c30-26b0-3fe3-5c64" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Dispel Scroll" id="2c30-26b0-3fe3-5c64" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                           </infoLinks>
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="36fa-a49e-4f11-dc90">
@@ -56862,7 +56862,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                             <cost name="Penny" typeId="6752-9e0b-692e-d5b9" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Telescope" id="4f6c-980c-7674-9785" hidden="false" type="profile" targetId="f612-0117-52ca-45ec"/>
+                            <infoLink name="Dispel Scroll" id="4f6c-980c-7674-9785" hidden="false" type="profile" targetId="4b3a-1beb-9e27-43f4"/>
                           </infoLinks>
                           <selectionEntries>
                             <selectionEntry type="upgrade" import="true" name="Cost (2d6+3)" hidden="false" id="52cd-27b1-3af2-cb2c">
@@ -67810,6 +67810,14 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       <modifiers>
                         <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
                         <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
+                        <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="e485-6370-8179-9493" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="29f1-63e5-8a53-7d68" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
                       </modifiers>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="f3a5-4a2c-b744-19ee" sortIndex="21">
@@ -69407,6 +69415,34 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ebd3-85ec-d748-9a28"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Expert Training" id="edd0-09cf-c745-57b4" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Strike" hidden="false" id="876d-9c91-25d7-af4f" collective="true" sortIndex="1">
+              <modifiers>
+                <modifier type="replace" value="d12" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d10" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d10" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d8" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d8" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d6" position="0" scope="root-entry"/>
+                <modifier type="replace" value="d6" field="3c84-430f-dc21-e27b" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
+                <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
+                <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c14-a8f7-831b-16d5"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4772-8d26-688a-1136" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ff96-9a02-f2e3-ab28"/>
+          </constraints>
+        </selectionEntryGroup>
         <selectionEntryGroup name="Expert Training" id="f123-f107-5267-9028" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
@@ -69445,7 +69481,6 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                         <conditionGroup type="or">
                           <conditions>
                             <condition type="equalTo" value="1" field="selections" scope="roster" childId="d31a-18fc-c0f8-ee05" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                            <condition type="equalTo" value="1" field="selections" scope="roster" childId="3f8a-5bc3-894d-b885" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -69494,24 +69529,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                 <modifier type="replace" value="d6" field="81ac-f564-ffc1-e3fa" affects="profiles.Unit" arg="d4" position="0" scope="root-entry"/>
                 <modifier type="increment" value="1" field="659a-f40f-dc29-33bf" scope="root-entry" affects="profiles.Unit"/>
                 <modifier type="add" value="1edd-bd06-65ab-8453" field="category"/>
-                <modifier type="set" value="true" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="f123-f107-5267-9028" childId="any" shared="true" childName="any"/>
-                        <condition type="equalTo" value="0" field="selections" scope="parent" childId="d9b3-5ebb-d7a2-3533" shared="true" childName="Upgrade Ranged"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
               </modifiers>
-              <profiles>
-                <profile name="Ranged Upgraded" typeId="568c-91db-9da7-e04c" typeName="Ability" hidden="false" id="b57b-31aa-501f-b50c">
-                  <characteristics>
-                    <characteristic name="Effect" typeId="597a-e8da-21a9-99c5">The Ranged Statistic of this unit has been upgraded.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2169-1be6-fe98-65ce"/>
               </constraints>
@@ -70175,6 +70193,16 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee56-9e6d-7a1b-1c51"/>
                       </constraints>
+                      <modifiers>
+                        <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="e485-6370-8179-9493" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="29f1-63e5-8a53-7d68" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="8d28-b912-01c9-b483" sortIndex="16">
                       <infoLinks>
@@ -74441,6 +74469,16 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       <infoLinks>
                         <infoLink name="Spell Breaker" id="3ec4-202a-801f-2b83" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
                       </infoLinks>
+                      <modifiers>
+                        <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="e485-6370-8179-9493" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="29f1-63e5-8a53-7d68" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="129e-ee8e-b540-354e" sortIndex="21">
                       <infoLinks>
@@ -75614,6 +75652,16 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
                       <infoLinks>
                         <infoLink name="Spell Breaker" id="cd13-f93c-3797-2182" hidden="false" targetId="d8a5-2900-6279-337c" type="rule"/>
                       </infoLinks>
+                      <modifiers>
+                        <modifier type="add" value="Spell Breaker requires Resist Magic." field="error">
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="d7e2-daaf-9f37-10a9" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="1c4c-8243-a4c0-f933" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="e485-6370-8179-9493" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="root-entry" childId="29f1-63e5-8a53-7d68" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Spell Eater" hidden="false" id="28ce-b3cc-490b-b9a9" sortIndex="21">
                       <infoLinks>
@@ -77378,7 +77426,7 @@ Skill level to any Wounds they suffer.</characteristic>
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">Two-Handed</characteristic>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Adds +1 to all Strike Roll-offs.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">Adds +1 to all Strike Roll-offs and counts as having the Strong (1) skill. This Weapon cannot be used with a Buckler, Light Shield, or Heavy Shield.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1)</characteristic>
@@ -77400,7 +77448,7 @@ not make Charge or Barge Actions.</characteristic>
       <characteristics>
         <characteristic name="Type" typeId="fbf0-cf8e-c544-88f1">One-handed</characteristic>
         <characteristic name="Range" typeId="c40f-5e8f-4868-69c3">-</characteristic>
-        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A Rondel dagger is short and difficult to wield effectively. All Strike and Block rolls made while using a Rondel dagger count as Unarmed, even for models with the Unarmed Fighter Skill, so have a -2 penalty.  Ignore Tough bonuses from Armour.</characteristic>
+        <characteristic name="Rules" typeId="fdfb-3e87-f3bd-88ce">A Rondel dagger is short and difficult to wield effectively. All Strike and Block rolls made while using a Rondel dagger count as Unarmed, even for models with the Unarmed Fighter Skill, so have a -2 penalty, but have Strong (1), and Ignore Tough bonuses from Armour.</characteristic>
         <characteristic name="Rarity" typeId="cc3f-d6c8-df5d-cc2c">Common</characteristic>
         <characteristic name="Availability" typeId="81e0-c6a5-4f63-8822">-</characteristic>
         <characteristic name="Keywords" typeId="56b5-769b-3492-f985">Strong (1), Unarmed</characteristic>
