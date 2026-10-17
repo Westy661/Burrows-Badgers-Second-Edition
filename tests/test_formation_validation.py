@@ -74,6 +74,16 @@ class FormationValidation(unittest.TestCase):
                 if c.get('type')=='max' and count>value:result.append((link.get('targetId'),'max'))
         return result
 
+    def test_every_faction_exposes_mandatory_resources_for_roster_validation(self):
+        resources_link=next(e for e in direct(self.gst,'entryLinks') if e.get('targetId')==RESOURCES)
+        categories={e.get('targetId') for e in direct(resources_link,'categoryLinks')}
+        self.assertEqual(categories,{'1bc5-0b8a-1258-293f'})
+        for faction,force in self.force.items():
+            exposed={e.get('targetId') for e in direct(force,'categoryLinks') if e.get('hidden')!='true'}
+            self.assertTrue(categories & exposed,faction)
+        constraints=direct(self.entries[RESOURCES],'constraints')
+        self.assertTrue(any(c.get('type')=='min' and c.get('value')=='1' for c in constraints))
+
     def test_only_models_are_band_members_and_primary_grouping_is_preserved(self):
         self.assertEqual(len(self.models),49)
         self.assertEqual(len(self.force),10)

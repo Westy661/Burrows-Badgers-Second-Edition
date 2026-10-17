@@ -30,7 +30,9 @@ Közös integrációs ág: `feature/faction-rule-validation`.
 7. Az Undead élő nemvarázslók félára és Unreliable a tényleges Spell alapján
    különüljön el az élő mágus normál árától. Archetype-kapcsoló önmagában ne adjon
    mágusjogosultságot. Stable/Mist díjazás és tulajdonságok maradjanak helyesek.
-8. Meglévő azonosítók és fajok alap Unit profiljai maradjanak meg. A felhasználó
+8. A kötelező Resources & Help és a közös listavalidáció mind a tíz frakciónál
+   elérhető; új listán a segédbejegyzés automatikusan bekerül.
+9. Meglévő azonosítók és fajok alap Unit profiljai maradjanak meg. A felhasználó
    mentett listáinál validációs hibát jelezhetünk, automatikusan semmit nem törlünk.
 
 Források: [előző audit](faction-implementation-audit-2026-10-17.md), a második
