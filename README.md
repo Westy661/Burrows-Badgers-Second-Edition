@@ -63,7 +63,8 @@ This branch combines the cynsye campaign implementation with the reconciled
 upstream rule fixes. The rulebook audit on 17 October 2026 additionally corrects
 the shared game system; that audit used data revision 9. The follow-up species
 audit raised revision to 10; the FAQ and faction-coverage follow-up raises it
-to 12. Existing faction and selection IDs are retained.
+to 12. The faction-validation feature raises the current revision to 16.
+Existing faction and selection IDs are retained.
 
 See the Hungarian [faction-by-faction rulebook audit](docs/faction-rulebook-audit-2026-10-17.md)
 for verified prices, missing equipment options, corrected profiles, source-page
@@ -72,6 +73,10 @@ references, official FAQ overrides, and remaining manual checks.
 See the Hungarian [faction implementation coverage audit](docs/faction-implementation-audit-2026-10-17.md)
 for all ten rule sets, the distinction between automated and manual rules,
 remaining validation gaps, and the FAQ/Piper fixes verified in New Recruit.
+
+The [faction validation implementation](docs/faction-rule-validation.md) closes
+the recorded roster-validation gaps, with 68 regression groups and internal-browser
+evidence. Tabletop effects and campaign dice remain manual as documented.
 
 ### Run beside the stable system
 

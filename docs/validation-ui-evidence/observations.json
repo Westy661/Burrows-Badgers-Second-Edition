@@ -1,0 +1,289 @@
+{
+  "arcaneBefore": "- text: Support New Recruit to\n- text: enjoy an ad free experience!\n- combobox:\n  - option \"Age of Sigmar 4.0\"\n  - 'option \"Burrows & Badgers: Second Edition\"'\n  - 'option \"Burrows & Badgers: Second Edition - Campaign TEST\" [selected]'\n  - option \"Horus Heresy 3rd Edition\"\n  - option \"The 9th Age 3rd Edition\"\n  - option \"Warhammer 40,000 11th Edition\"\n  - option \"Warhammer The Old World\"\n  - option \"Install more Games...\"\n- link \"Lists\":\n  - /url: /app/MyLists\n  - generic: Lists\n- link \"New\":\n  - /url: \"#\"\n  - generic: New\n- link \"Games\":\n  - /url: /app/MySystems\n  - generic: Games\n- generic: Models\n- link \"Tourny\":\n  - /url: /app/tourny\n  - generic: Tourny\n- link \"Support\":\n  - /url: /app/supporters\n  - generic: Support\n- link \"Build\":\n  - /url: /app/Lists\n  - generic: Build\n- link \"Menu\":\n  - /url: /app/Login\n  - generic: Menu\n- heading \"Szabálykönyv UI – Arcane Conclave Edit Name/Note 37 / 350 Penny (-313) 1 Band Rating Export Report Issue List Options\" [level=3]:\n  - generic \"Szabálykönyv UI – Arcane Conclave\"\n  - generic \"Edit Name/Note\":\n  - generic: 37 / 350 Penny\n  - generic: (-313)\n  - generic: 1 Band Rating\n  - text: Export\n  - text: Report Issue\n  - generic: List Options\n- img \"Collapse Panel\"\n- heading \"profile icon Arcane Conclave 37 Penny 1 Band Rating Warband\" [level=3]:\n  - img \"profile icon\"\n  - text: Arcane Conclave\n  - generic: 37 Penny\n  - generic: 1 Band Rating\n  - generic: Warband\n- heading \"Allegiance\" [level=3]:\n  - text: Allegiance\n- generic: \"Allegiance: Arcane Conclaves\"\n- generic: (1/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Resources & Help\n- generic: (1/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- heading \"Massive Beast (50mm base) (0/6)\" [level=3]:\n  - text: Massive Beast (50mm base) (0/6)\n- generic: 67 Penny\n- generic: 4 Band Rating\n- generic: Badger\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: 61 Penny\n- generic: 4 Band Rating\n- generic: Beaver\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: 42 Penny\n- generic: 4 Band Rating\n- generic: Bird (Massive)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: 59 Penny\n- generic: 4 Band Rating\n- generic: Hound (Massive)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: 65 Penny\n- generic: 4 Band Rating\n- generic: Raptor (Massive)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- heading \"Large Beast (40mm Base) (0/8)\" [level=3]:\n  - text: Large Beast (40mm Base) (0/8)\n- generic: 61 Penny\n- generic: 3 Band Rating\n- generic: Armadillo (Rare)\n- generic: (0/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: 37 Penny\n- generic: 3 Band Rating\n- generic: Bird (Large)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Fennec Fox (Rare)\n- generic: (0/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Fox\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Great Brown Rat\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Hare\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Hound (Large)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Otter\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Raccoon (Rare)\n- generic: (0/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Raptor (Large)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Wildcat\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- heading \"Medium Beast (30mm Base)\" [level=3]:\n  - text: Medium Beast (30mm Base)\n- generic: Adder\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Bird (Medium)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Black Rat\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Cat\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Ferret / Polecat\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Frog\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Green Lizard (Rare)\n- generic: (0/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Hedgehog\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Hound (Medium)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Marmot\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Mole\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Platypus (Rare)\n- generic: (0/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Rabbit\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Raptor (Medium)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Siamese Cat (Rare)\n- generic: (0/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Squirrel\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Toad\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Tortoise (Rare)\n- generic: (0/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Water Vole\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Weasel / Stoat\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- heading \"Small Beast (30mm Base)\" [level=3]:\n  - text: Small Beast (30mm Base)\n- generic: Bird (Small)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Great Crested Newt\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Mouse/ Dormouse\n- generic: (1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Noctule Bat\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Shrew\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic: Shrew Knight Errant\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- heading \"Den Upgrade\" [level=3]:\n  - text: Den Upgrade\n- generic: Study\n- generic: (1/1)\n- generic \"View Profiles\":\n- generic \"Create Unit\":\n- generic \"Additional Search Options\":\n- generic \"Sorting Options\":\n- searchbox \"Search Units, Categories, Costs...\"\n- heading \"profile icon Arcane Conclave 37 Penny 1 Band Rating Warband Edit Force Name\" [level=3]:\n  - img \"profile icon\"\n  - text: Arcane Conclave\n  - generic: 37 Penny\n  - generic: 1 Band Rating\n  - generic: Warband\n  - generic \"Edit Force Name\":\n- heading \"Allegiance\" [level=3]:\n  - generic: Allegiance\n- generic: \"Allegiance: Arcane Conclaves\"\n- generic \"View Profiles\":\n- generic \"Duplicate Unit\":\n- generic \"Delete Unit\":\n- generic: Resources & Help\n- generic \"View Profiles\":\n- generic \"Duplicate Unit\":\n- generic \"Delete Unit\":\n- heading \"Small Beast (30mm Base) 37 Penny 1 Band Rating\" [level=3]:\n  - text: Small Beast (30mm Base)\n  - generic: 37 Penny\n  - generic: 1 Band Rating\n- generic: Mouse/ Dormouse\n- generic: 37 Penny\n- generic: 1 Band Rating\n- generic \"View Profiles\":\n- generic \"Duplicate Unit\":\n- generic \"Delete Unit\":\n- generic: Setup Only – Uncheck to Advance, Magic User (Natural), Mirroring Talisman (13x Cost (13))\n- heading \"Den Upgrade\" [level=3]:\n  - generic: Den Upgrade\n- generic: Study\n- generic \"View Profiles\":\n- generic \"Duplicate Unit\":\n- generic \"Delete Unit\":\n- heading \"Mouse/ Dormouse 37 Penny 1 Band Rating\" [level=3]:\n  - generic: Mouse/ Dormouse\n  - generic: 37 Penny\n  - generic: 1 Band Rating\n- heading \"Character\" [level=3]:\n  - generic: Character\n- checkbox \"Racial Traits 1 Band Rating\" [checked] [disabled]\n- text: Racial Traits\n- generic: 1 Band Rating\n- checkbox \"Setup Only – Uncheck to Advance\" [checked]\n- text: Setup Only – Uncheck to Advance\n- generic \"• Mouse/ Dormouse Keep it checked to receive allegiance-based starting bonuses and ensure proper initial roster validation. Uncheck mid-campaign to access advancements.\":\n- heading \"Entry Type\" [level=3]:\n  - generic: Entry Type\n- checkbox \"Starting\" [checked] [disabled]\n- generic: Starting\n- heading \"Officers\" [level=3]:\n  - generic: Officers\n- heading \"Magic\" [level=3]:\n  - generic: Magic\n- checkbox \"Magic User\" [checked]\n- generic: Magic User\n- checkbox \"Natural\" [checked] [active]\n- generic: Natural\n- heading \"Spells\" [level=3]:\n  - generic: Spells\n- checkbox \"Haste\"\n- generic: Haste\n- checkbox \"Curse\"\n- generic: Curse\n- checkbox \"Cure\"\n- generic: Cure\n- checkbox \"Luck\"\n- generic: Luck\n- checkbox \"Lightning\"\n- generic: Lightning\n- checkbox \"Push\"\n- generic: Push\n- heading \"Equipment Mirroring Talisman (13x Cost (13)))\" [level=3]:\n  - generic: Equipment\n  - generic: Mirroring Talisman (13x Cost (13)))\n- heading \"Mental Prowess (0/2) (0/1)\" [level=3]:\n  - text: Mental Prowess (0/2) (0/1)\n  - generic \"• Mouse/ Dormouse Starting bonus (2 in force)\":\n- heading \"Profiles\" [level=3]:\n  - text: Profiles\n- heading \"Mouse/ Dormouse\" [level=3]:\n  - text: Mouse/ Dormouse\n- table:\n  - rowgroup:\n    - row \"Models (1)\":\n      - text: Models (1)\n  - rowgroup\n- table:\n  - rowgroup:\n    - row \"Unit\":\n      - columnheader \"Unit\"\n    - row \"Movement Strike Block Ranged Nimbleness Concealment Awareness Fortitude Presence Level\":\n      - columnheader \"Movement\"\n      - columnheader \"Strike\"\n      - columnheader \"Block\"\n      - columnheader \"Ranged\"\n      - columnheader \"Nimbleness\"\n      - columnheader \"Concealment\"\n      - columnheader \"Awareness\"\n      - columnheader \"Fortitude\"\n      - columnheader \"Presence\"\n      - columnheader \"Level\"\n  - rowgroup:\n    - row \"Mouse/ Dormouse\":\n      - cell \"Mouse/ Dormouse\"\n    - row \"d6 d6 d4 d6 d6 d6 d6 d6 d6 1\":\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d4\":\n        - paragraph: d4\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"1\":\n        - paragraph: \"1\"\n- table:\n  - rowgroup:\n    - row \"Item\":\n      - columnheader \"Item\"\n    - row \"Rarity Availability Keywords Type\":\n      - columnheader \"Rarity\"\n      - columnheader \"Availability\"\n      - columnheader \"Keywords\"\n      - columnheader \"Type\"\n  - rowgroup:\n    - row \"Mirroring Talisman\":\n      - cell \"Mirroring Talisman\"\n    - row \"Rare 6 Single use Item\":\n      - cell \"Rare\":\n        - paragraph: Rare\n      - cell \"6\":\n        - paragraph: \"6\"\n      - cell \"Single use\":\n        - paragraph: Single use\n      - cell \"Item\":\n        - paragraph: Item\n    - row \"The first enemy Spell that is successfully cast upon a model with a Mirroring Talisman is absorbed by the Talisman and fails. Roll the model’s Fortitude against a Target of 3; if they succeed, the Spell affects the Casting model instead!\":\n      - cell \"The first enemy Spell that is successfully cast upon a model with a Mirroring Talisman is absorbed by the Talisman and fails. Roll the model’s Fortitude against a Target of 3; if they succeed, the Spell affects the Casting model instead!\":\n        - paragraph: The first enemy Spell that is successfully cast upon a model with a Mirroring Talisman is absorbed by the Talisman and fails. Roll the model’s Fortitude against a Target of 3; if they succeed, the Spell affects the Casting model instead!\n- table:\n  - rowgroup:\n    - row \"Ability\":\n      - columnheader \"Ability\"\n  - rowgroup:\n    - 'row \"Magic User: Natural: This character knows the magical archetype: Natural. Natural Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat versus the Spell’s Difficulty.\"':\n      - 'cell \"Magic User: Natural: This character knows the magical archetype: Natural. Natural Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat versus the Spell’s Difficulty.\"':\n        - text: \"Magic User: Natural:\"\n        - paragraph: \"This character knows the magical archetype: Natural. Natural Magic is Fortitude-based and Cast Roll-offs are made using the caster’s Fortitude Stat versus the Spell’s Difficulty.\"\n- strong: \"Categories:\"\n- generic: Small Beast (30mm Base)\n- generic: Rare",
+  "empty": [],
+  "one": [],
+  "formationCounts": [
+    {
+      "count": 2,
+      "errors": []
+    },
+    {
+      "count": 3,
+      "errors": []
+    },
+    {
+      "count": 4,
+      "errors": []
+    },
+    {
+      "count": 5,
+      "errors": []
+    },
+    {
+      "count": 6,
+      "errors": []
+    },
+    {
+      "count": 7,
+      "errors": []
+    },
+    {
+      "count": 8,
+      "errors": []
+    },
+    {
+      "count": 9,
+      "errors": []
+    },
+    {
+      "count": 10,
+      "errors": []
+    },
+    {
+      "count": 11,
+      "errors": []
+    }
+  ],
+  "maxAfter": [
+    "  - generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "- generic \"• Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "          - strong: Purchasing new Band members and Gear",
+    "          - text: Remove the item from the Band member, then subtract the value of the used item from Coffer.",
+    "          - text: Advancing should be pretty self explanatory, and it should flag an error if a Band member goes over their level limit. Skill and Stat upgrades are located within Level Ups, and Magic upgrades are under the Magic heading."
+  ],
+  "arcaneAfter": {
+    "errors": [],
+    "profiles": " Magic User\n- checkbox \"Natural\" [checked]\n- generic: Natural\n- heading \"Spells\" [level=3]:\n  - generic: Spells\n- checkbox \"Haste\" [checked] [active]\n- generic: Haste\n- checkbox \"Curse\"\n- generic: Curse\n- checkbox \"Cure\"\n- generic: Cure\n- checkbox \"Luck\"\n- generic: Luck\n- checkbox \"Lightning\"\n- generic: Lightning\n- checkbox \"Push\"\n- generic: Push\n- heading \"Equipment Mirroring Talisman (13x Cost (13)))\" [level=3]:\n  - generic: Equipment\n  - generic: Mirroring Talisman (13x Cost (13)))\n- heading \"Mental Prowess (0/2) (0/1)\" [level=3]:\n  - text: Mental Prowess (0/2) (0/1)\n  - generic \"• Mouse/ Dormouse Starting bonus (2 in force)\":\n- heading \"Profiles\" [level=3]:\n  - text: Profiles\n- heading \"Mouse/ Dormouse\" [level=3]:\n  - text: Mouse/ Dormouse\n- table:\n  - rowgroup:\n    - row \"Models (1)\":\n      - text: Models (1)\n  - rowgroup\n- table:\n  - rowgroup:\n    - row \"Unit\":\n      - columnheader \"Unit\"\n    - row \"Movement Strike Block Ranged Nimbleness Concealment Awareness Fortitude Presence Level\":\n      - columnheader \"Movement\"\n      - columnheader \"Strike\"\n      - columnheader \"Block\"\n      - columnheader \"Ranged\"\n      - columnheader \"Nimbleness\"\n      - columnheader \"Concealment\"\n      - columnheader \"Awareness\"\n      - columnheader \"Fortitude\"\n      - columnheader \"Presence\"\n      - columnheader \"Level\"\n  - rowgroup:\n    - row \"Mouse/ Dormouse\":\n      - cell \"Mouse/ Dormouse\"\n    - row \"d6 d6 d4 d6 d6 d6 d6 d6 d6 1\":\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d4\":\n        - paragraph: d4\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"d6\":\n        - paragraph: d6\n      - cell \"1\":\n        - paragraph: \"1\"\n- table:\n  - rowgroup:\n    - row \"Spell\":\n      - columnheader \"Spell\"\n    - row \"Difficulty Range Archetype Fate Point\":\n      - columnheader \"Difficulty\"\n      - columnheader \"Range\"\n      - columnheader \"Archetype\"\n      - columnheader \"Fate Point\"\n  - rowgroup:\n    - row \"Haste\":\n      - cell \"Haste\"\n    - row \"5 18\\\" Natural -\":\n      - cell \"5\":\n        - paragraph: \"5\"\n      - cell \"18\\\"\":\n        - paragraph: 18\"\n      - cell \"Natural\":\n        - paragraph: Natural\n      - cell \"-\":\n        - paragraph: \"-\"\n    - 'row \"Description: Infused with energy of an early Spring, the target of this spell moves faster than seems possible. Effect: The target of the spell can perform an extra Action the next time they act. Ingredients: Thyme leaves: The spell is automatically cast without a Roll-off.\"':\n      - 'cell \"Description: Infused with energy of an early Spring, the target of this spell moves faster than seems possible. Effect: The target of the spell can perform an extra Action the next time they act. Ingredients: Thyme leaves: The spell is automatically cast without a Roll-off.\"':\n        - text: \"Description:\"\n        - paragraph: Infused with energy of an early Spring, the target of this spell moves faster than seems possible.\n        - text: \"Effect:\"\n        - paragraph: The target of the spell can perform an extra Action the next time they act.\n        - text: \"Ingredients:\"\n        - list:\n          - listitem: \"Thyme leaves: The spell is automatically cast without a Roll-off.\"\n- table:\n  - rowgroup:\n    - row \"Item\":\n      - columnheader \"Item\"\n    - row \"Rarity Availability Keywords Type\":\n      - columnheader \"Rarity\"\n      - columnheader \"Availability\"\n      - columnheader \"Keywords\"\n      - columnheader \"Type\"\n  - rowgroup:\n    - row \"Mirroring Talisman\":\n      - cell \"Mirroring Talisman\"\n    - row \"Rare 6 Single use Item\":\n      - cell \"Rare\":\n        - paragraph: Rare\n      - cell \"6\":\n        - paragraph: \"6\"\n      - cell \"Single use\":\n        - paragraph: Single use\n      - cell \"Item\":\n        - paragraph: Item\n    - row \"The first enemy Spell that is successfully cast upon a model with a Mirroring Talisman is absorbed by the Talisman and fails. Roll the model’s Fortitude against a Target of 3; if they succeed, the Spell affects the Casting model instead!\":\n      - cell \"The first enemy Spell that is successfully cast upon a model with a Mirroring Talisman is absorbed by the Talisman and fails. Roll the model’s Fortitude against a Target of 3; if they succeed, the Spell affects the Casting model instead!\":\n        - paragraph: The first enemy Spell that is successfully cast upon a model with a Mirroring Talisman is absorbed by the Talisman and fails. Roll the model’s Fortitude against a Target of 3; if they succeed, the Spell affects the Casting model instead!\n- table:\n  - rowgroup:\n    - 'row \"Ability Delicate (1), Weak (1), Magic User: Natural\"':\n      - text: Ability\n      - generic: Delicate (1),\n      - generic: Weak (1),\n      - generic: \"Magic User: Natural\"\n  - rowgroup\n- strong: \"Categories:\"\n- generic: Small Beast (30mm Base)\n- generic: Rare"
+  },
+  "undeadNoncaster": [
+    "- heading \"Mouse/ Dormouse 12 Penny 3 Band Rating\" [level=3]:",
+    "- heading \"Mouse/ Dormouse\" [level=3]:",
+    "    - row \"Rules\":"
+  ],
+  "undeadNoSpell": [
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Mouse/ Dormouse Starting model requires equipment or a learned spell • Mouse/ Dormouse Undead Leader must know a Spell or be a Stable Ghast.\":",
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Mouse/ Dormouse Starting model requires equipment or a learned spell • Mouse/ Dormouse Undead Leader must know a Spell or be a Stable Ghast.\":",
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Mouse/ Dormouse Starting model requires equipment or a learned spell • Mouse/ Dormouse Undead Leader must know a Spell or be a Stable Ghast.\":",
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Mouse/ Dormouse Starting model requires equipment or a learned spell • Mouse/ Dormouse Undead Leader must know a Spell or be a Stable Ghast.\":",
+    "- generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Mouse/ Dormouse Starting model requires equipment or a learned spell • Mouse/ Dormouse Undead Leader must know a Spell or be a Stable Ghast.\":",
+    "- heading \"Mouse/ Dormouse 12 Penny 3 Band Rating\" [level=3]:",
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Mouse/ Dormouse Starting model requires equipment or a learned spell • Mouse/ Dormouse Undead Leader must know a Spell or be a Stable Ghast.\":",
+    "- generic \"• Mouse/ Dormouse Undead Leader must know a Spell or be a Stable Ghast.\":",
+    "- heading \"Mouse/ Dormouse\" [level=3]:"
+  ],
+  "undeadHasSpell": [
+    "- heading \"Mouse/ Dormouse 24 Penny 3 Band Rating\" [level=3]:",
+    "- heading \"Mouse/ Dormouse\" [level=3]:"
+  ],
+  "statsOver": [
+    "  - generic \"• Hare requires 1 selections more of Skill • Hare Starting model requires equipment or a learned spell • Hare Starting Strike cannot exceed d12\":",
+    "  - generic \"• Hare requires 1 selections more of Skill • Hare Starting model requires equipment or a learned spell • Hare Starting Strike cannot exceed d12\":",
+    "  - generic \"• Hare requires 1 selections more of Skill • Hare Starting model requires equipment or a learned spell • Hare Starting Strike cannot exceed d12\":",
+    "  - generic \"• Hare requires 1 selections more of Skill • Hare Starting model requires equipment or a learned spell • Hare Starting Strike cannot exceed d12\":",
+    "- generic \"• Hare requires 1 selections more of Skill • Hare Starting model requires equipment or a learned spell • Hare Starting Strike cannot exceed d12\":",
+    "  - generic \"• Hare requires 1 selections more of Skill • Hare Starting model requires equipment or a learned spell • Hare Starting Strike cannot exceed d12\":",
+    "  - generic \"• Hare Starting model requires equipment or a learned spell • Hare Starting Strike cannot exceed d12\":",
+    "    - row \"d8 d12 d8 d6 d6 d6 d6 d8 d8 6\":"
+  ],
+  "statsBack": [
+    "    - row \"d8 d12 d8 d6 d6 d6 d6 d8 d8 5\":"
+  ],
+  "campaignD20": [
+    "    - row \"d8 d20 d8 d6 d6 d6 d6 d8 d8 6\":"
+  ],
+  "max15": [
+    "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play. • Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play. • Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play. • Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":",
+    "- generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":",
+    "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":"
+  ],
+  "postMax": [
+    "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":",
+    "- generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":",
+    "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":"
+  ],
+  "at10": [],
+  "min0": [
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+    "- generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":"
+  ],
+  "min1": [
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models. • Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models. • Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models. • Mouse/ Dormouse Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+    "- generic \"• Resources & Help A new Band must contain at least 2 models.\":"
+  ],
+  "min2": [],
+  "postMin": [],
+  "ratioOneOfThree": [
+    "  - 'generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Resources & Help Restless Spirits: at least half the Band must be Mist Ghasts (round up). • Shrew Starting model requires equipment or a learned spell\"':",
+    "  - 'generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Resources & Help Restless Spirits: at least half the Band must be Mist Ghasts (round up). • Shrew Starting model requires equipment or a learned spell\"':",
+    "  - 'generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Resources & Help Restless Spirits: at least half the Band must be Mist Ghasts (round up). • Shrew Starting model requires equipment or a learned spell\"':",
+    "  - 'generic \"• Resources & Help Restless Spirits: at least half the Band must be Mist Ghasts (round up).\"':",
+    "- 'generic \"• Resources & Help Restless Spirits: at least half the Band must be Mist Ghasts (round up).\"':",
+    "  - 'generic \"• Resources & Help Restless Spirits: at least half the Band must be Mist Ghasts (round up).\"':"
+  ],
+  "ratioTwoOfThree": [],
+  "stableAllGhosts": [
+    "    - row \"Rules Uncanny\":"
+  ],
+  "stableWithLiving": [
+    "  - 'generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Stat requires 1 selections more of Stat • Resources & Help Stable Ghast Leader: the Band may include only Stable Ghasts and Mist Ghasts. • Shrew Starting model requires equipment or a learned spell\"':",
+    "  - 'generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Stat requires 1 selections more of Stat • Resources & Help Stable Ghast Leader: the Band may include only Stable Ghasts and Mist Ghasts. • Shrew Starting model requires equipment or a learned spell\"':",
+    "  - 'generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Mouse/ Dormouse requires 1 selections more of Skill • Stat requires 1 selections more of Stat • Stat requires 1 selections more of Stat • Resources & Help Stable Ghast Leader: the Band may include only Stable Ghasts and Mist Ghasts. • Shrew Starting model requires equipment or a learned spell\"':",
+    "  - 'generic \"• Resources & Help Stable Ghast Leader: the Band may include only Stable Ghasts and Mist Ghasts.\"':",
+    "- 'generic \"• Resources & Help Stable Ghast Leader: the Band may include only Stable Ghasts and Mist Ghasts.\"':"
+  ],
+  "stableNoSpell": [
+    "    - row \"d6 d6 d4 d6 d6 d6 d6 d6 d6 5\":",
+    "    - row \"Rules Uncanny\":"
+  ],
+  "stableSecond": [
+    "    - row \"Rules Uncanny, Otherworldly\":"
+  ],
+  "stableRestored": [],
+  "oneMageTwoSpells": [],
+  "secondToggleNoSpell": [],
+  "twoMages": [
+    "  - 'generic \"• Resources & Help Martial Pride: the Band may include at most one Magic-user.\"':",
+    "  - 'generic \"• Resources & Help Martial Pride: the Band may include at most one Magic-user.\"':",
+    "  - 'generic \"• Resources & Help Martial Pride: the Band may include at most one Magic-user.\"':",
+    "  - 'generic \"• Resources & Help Martial Pride: the Band may include at most one Magic-user.\"':",
+    "- 'generic \"• Resources & Help Martial Pride: the Band may include at most one Magic-user.\"':"
+  ],
+  "oneMageAgain": [],
+  "rawGearBefore": [
+    "  - generic \"• Shrew Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Shrew Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Shrew Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Shrew Starting model requires equipment or a learned spell\":",
+    "- generic \"• Shrew Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Shrew Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Shrew Starting model requires equipment or a learned spell\":"
+  ],
+  "rawFree": [
+    "- heading \"Shrew 29 Penny 1 Band Rating\" [level=3]:",
+    "- checkbox \"One-handed weapon\" [checked]",
+    "- heading \"Shrew\" [level=3]:"
+  ],
+  "undeadCounts": [
+    {
+      "count": 13,
+      "errors": []
+    },
+    {
+      "count": 14,
+      "errors": [
+        "  - generic \"• Roster has 168 Penny too many (max 350) • Resources & Help An Undead Band may contain at most 13 models, including during Campaign play.\":",
+        "  - generic \"• Resources & Help An Undead Band may contain at most 13 models, including during Campaign play.\":",
+        "  - generic \"• Resources & Help An Undead Band may contain at most 13 models, including during Campaign play.\":",
+        "  - generic \"• Resources & Help An Undead Band may contain at most 13 models, including during Campaign play.\":",
+        "- generic \"• Resources & Help An Undead Band may contain at most 13 models, including during Campaign play.\":"
+      ]
+    }
+  ],
+  "undeadBack13": [],
+  "freeSizes": [
+    {
+      "kind": "Large",
+      "count": 8,
+      "errors": []
+    },
+    {
+      "kind": "Large",
+      "count": 9,
+      "errors": [
+        "  - generic \"• Roster has 75 Penny too many (max 350) • Roster requires 1 selections more of Resources & Help • Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Hare Starting model requires equipment or a learned spell\":",
+        "  - generic \"• Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Hare Starting model requires equipment or a learned spell\":",
+        "  - generic \"• Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Hare Starting model requires equipment or a learned spell\":",
+        "  - generic \"• Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Hare Starting model requires equipment or a learned spell\":"
+      ]
+    },
+    {
+      "kind": "Massive",
+      "count": 6,
+      "errors": []
+    },
+    {
+      "kind": "Massive",
+      "count": 7,
+      "errors": [
+        "  - generic \"• Roster has 544 Penny too many (max 350) • Roster requires 1 selections more of Resources & Help • Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Hare Starting model requires equipment or a learned spell\":",
+        "  - generic \"• Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Hare Starting model requires equipment or a learned spell\":",
+        "  - generic \"• Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Hare Starting model requires equipment or a learned spell\":",
+        "  - generic \"• Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Badger Starting model requires equipment or a learned spell\":"
+      ]
+    }
+  ],
+  "freeResourcesBefore": {
+    "count": 0,
+    "errors": [
+      "  - generic \"• Roster has 544 Penny too many (max 350) • Roster requires 1 selections more of Resources & Help • Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Hare Starting model requires equipment or a learned spell\":"
+    ]
+  },
+  "grubBefore": [
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Tracker Grub Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Tracker Grub Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Tracker Grub Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Mouse/ Dormouse requires 1 selections more of Skill • Tracker Grub Starting model requires equipment or a learned spell\":",
+    "- generic \"• Tracker Grub Rare starting character • Tracker Grub Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Tracker Grub Rare starting character • Tracker Grub Starting model requires equipment or a learned spell\":",
+    "  - generic \"• Tracker Grub Starting model requires equipment or a learned spell\":"
+  ],
+  "grubAfter": [],
+  "freeResourcesAfter": {
+    "exactVisible": 4,
+    "errors": [
+      "  - generic \"• Roster has 544 Penny too many (max 350) • Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Resources & Help A Band may contain at most 10 models, including during Campaign play. • Hare Starting model requires equipment or a learned spell\":",
+      "  - generic \"• Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Resources & Help A Band may contain at most 10 models, including during Campaign play. • Hare Starting model requires equipment or a learned spell\":",
+      "  - generic \"• Warband has 1 selections too many of Large Beast (40mm Base) (max 8) • Warband has 1 selections too many of Massive Beast (50mm base) (max 6) • Resources & Help A Band may contain at most 10 models, including during Campaign play. • Hare Starting model requires equipment or a learned spell\":",
+      "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":",
+      "- generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":",
+      "  - generic \"• Resources & Help A Band may contain at most 10 models, including during Campaign play.\":"
+    ]
+  },
+  "freshResources": [
+    {
+      "faction": "Freebeasts",
+      "resourcesVisible": 2,
+      "minimum": [
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "- generic \"• Resources & Help A new Band must contain at least 2 models.\":"
+      ]
+    },
+    {
+      "faction": "Rogues",
+      "resourcesVisible": 2,
+      "minimum": [
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "  - generic \"• Resources & Help A new Band must contain at least 2 models.\":",
+        "- generic \"• Resources & Help A new Band must contain at least 2 models.\":"
+      ]
+    }
+  ]
+}

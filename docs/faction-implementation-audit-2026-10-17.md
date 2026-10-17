@@ -1,5 +1,8 @@
 # Frakciószabályok implementációs auditja – 2026. október 17.
 
+> Történeti állapot a PR #32 idején. A felsorolt listavalidációs hiányok
+> megvalósítása és a végső tesztbizonyíték: [faction-rule-validation.md](faction-rule-validation.md).
+
 ## Darabszám és értelmezés
 
 **10/10 szabálykönyvi frakció választható**, saját Allegiance bejegyzéssel,
