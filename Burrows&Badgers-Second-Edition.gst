@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="21" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="22" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="campaign-test-6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)" />
     <categoryEntry hidden="false" id="campaign-test-9ed2-8233-7200-924b" name="Medium Beast (30mm Base)" />
@@ -2844,7 +2844,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Character" id="campaign-test-4240-559e-5c1d-4780" hidden="false" collective="true">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Magic" id="campaign-test-05f1-11ff-c43f-4767" hidden="false" sortIndex="2" collapsible="false" flatten="true">
+        <selectionEntryGroup name="Magic" id="campaign-test-05f1-11ff-c43f-4767" hidden="false" sortIndex="2" collapsible="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Magic User" hidden="false" id="campaign-test-8b25-3c74-21b1-6d41">
               <constraints>
@@ -11959,7 +11959,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipment" id="campaign-test-ac1f-3ccf-94c7-813e" hidden="false" sortIndex="5" collapsible="false" flatten="true">
+        <selectionEntryGroup name="Equipment" id="campaign-test-ac1f-3ccf-94c7-813e" hidden="false" sortIndex="5" collapsible="true">
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon Slots" id="campaign-test-a8fe-e715-a6b2-2fa5" hidden="true" collective="true" collapsible="true" sortIndex="1">
               <selectionEntries>
@@ -73325,7 +73325,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Expert Training" id="campaign-test-def0-c21c-1cd9-aa3e" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
+        <selectionEntryGroup name="Expert Training" id="campaign-test-def0-c21c-1cd9-aa3e" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="19">
           <modifiers>
             <modifier type="add" value="Starting bonus (3 in force)" field="info">
               <conditionGroups>
@@ -73442,7 +73442,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
           </constraints>
           <comment>3 choices</comment>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Quick and Quiet" id="campaign-test-d5ca-8c03-982f-67bc" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="35">
+        <selectionEntryGroup name="Quick and Quiet" id="campaign-test-d5ca-8c03-982f-67bc" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="35">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
               <conditionGroups>
@@ -73575,7 +73575,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-cfeb-1624-dbde-e5cd" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="One to Watch" id="campaign-test-6962-4616-5c5f-7f50" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="34">
+        <selectionEntryGroup name="One to Watch" id="campaign-test-6962-4616-5c5f-7f50" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="34">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
               <conditionGroups>
@@ -73683,7 +73683,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-293f-47b3-b732-3b20" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Armoured by Faith" id="campaign-test-3a58-b3a5-04c3-6f27" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="30">
+        <selectionEntryGroup name="Armoured by Faith" id="campaign-test-3a58-b3a5-04c3-6f27" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="30">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
               <conditionGroups>
@@ -73746,7 +73746,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-b64d-dd83-d057-fa18" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Born to be Wild" id="campaign-test-0a18-93b1-3ba9-6c5a" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="31">
+        <selectionEntryGroup name="Born to be Wild" id="campaign-test-0a18-93b1-3ba9-6c5a" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="31">
           <modifiers>
             <modifier type="add" value="Starting bonus (3 in force)" field="info">
               <conditionGroups>
@@ -73822,7 +73822,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-9391-0982-8189-65e9" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Mental Prowess" id="campaign-test-4a36-a072-5d2b-efa8" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="33">
+        <selectionEntryGroup name="Mental Prowess" id="campaign-test-4a36-a072-5d2b-efa8" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="33">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
               <conditionGroups>
@@ -73930,7 +73930,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-a984-0265-1e00-2cf6" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Relics of a Past Life" id="campaign-test-63de-4a13-bb54-eac6" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="36">
+        <selectionEntryGroup name="Relics of a Past Life" id="campaign-test-63de-4a13-bb54-eac6" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="36">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
               <conditionGroups>
@@ -74276,7 +74276,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-62cc-0cdb-a475-fff7" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Fast and Furious" id="campaign-test-02f4-30ec-62ca-0ce3" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="32">
+        <selectionEntryGroup name="Fast and Furious" id="campaign-test-02f4-30ec-62ca-0ce3" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="32">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
               <conditionGroups>
@@ -74418,7 +74418,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-ebd3-85ec-d748-9a28" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Expert Training" id="campaign-test-edd0-09cf-c745-57b4" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
+        <selectionEntryGroup name="Expert Training" id="campaign-test-edd0-09cf-c745-57b4" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="19">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -74450,7 +74450,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="campaign-test-ff96-9a02-f2e3-ab28" />
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Expert Training" id="campaign-test-f123-f107-5267-9028" hidden="true" collapsible="true" collective="true" flatten="false" sortIndex="19">
+        <selectionEntryGroup name="Expert Training" id="campaign-test-f123-f107-5267-9028" hidden="true" collapsible="false" collective="true" flatten="false" sortIndex="19">
           <modifiers>
             <modifier type="add" value="Starting bonus (2 in force)" field="info">
               <conditionGroups>
@@ -79517,7 +79517,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Upgrade to Stable Ghast" id="campaign-test-6966-e959-0325-a903" hidden="true" sortIndex="0" collapsible="true">
+        <selectionEntryGroup name="Upgrade to Stable Ghast" id="campaign-test-6966-e959-0325-a903" hidden="true" sortIndex="0" collapsible="false">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -80347,7 +80347,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Officers" id="campaign-test-5448-d2e6-7baa-f8c2" hidden="false" collapsible="true" flatten="false" sortIndex="1">
+        <selectionEntryGroup name="Officers" id="campaign-test-5448-d2e6-7baa-f8c2" hidden="false" collapsible="false" flatten="false" sortIndex="1">
           <selectionEntryGroups>
             <selectionEntryGroup name="Rank" id="campaign-test-f041-ecbe-c89c-95d7" hidden="false" flatten="true" sortIndex="1">
               <selectionEntries>
