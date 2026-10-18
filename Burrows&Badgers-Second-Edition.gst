@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="20" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="Westy" battleScribeVersion="2.03" id="campaign-test-sys-8e98-0f81-30ce-b579" library="false" name="Burrows &amp; Badgers: Second Edition - Campaign TEST" revision="21" type="gameSystem">
   <categoryEntries>
     <categoryEntry hidden="false" id="campaign-test-6803-87ba-83c4-bd4b" name="Small Beast (30mm Base)" />
     <categoryEntry hidden="false" id="campaign-test-9ed2-8233-7200-924b" name="Medium Beast (30mm Base)" />
@@ -2844,7 +2844,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Character" id="campaign-test-4240-559e-5c1d-4780" hidden="false" collective="true">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Magic" id="campaign-test-05f1-11ff-c43f-4767" hidden="false" sortIndex="2" collapsible="false">
+        <selectionEntryGroup name="Magic" id="campaign-test-05f1-11ff-c43f-4767" hidden="false" sortIndex="2" collapsible="false" flatten="true">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Magic User" hidden="false" id="campaign-test-8b25-3c74-21b1-6d41">
               <constraints>
@@ -11959,7 +11959,7 @@ Also, if you want to switch an item slot from a starting item, to one purchased 
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipment" id="campaign-test-ac1f-3ccf-94c7-813e" hidden="false" sortIndex="5" collapsible="false">
+        <selectionEntryGroup name="Equipment" id="campaign-test-ac1f-3ccf-94c7-813e" hidden="false" sortIndex="5" collapsible="false" flatten="true">
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon Slots" id="campaign-test-a8fe-e715-a6b2-2fa5" hidden="true" collective="true" collapsible="true" sortIndex="1">
               <selectionEntries>
