@@ -7,7 +7,7 @@ The project is currently **work in progress**, so expect missing content and dat
 - Go to: [https://www.newrecruit.eu/app/MyLists](https://www.newrecruit.eu/app/MySystems)
 - Click on "Add more games"
 - Click on "Add from Github"
-- Choose **Latest Release** for the verified release (0.14, GameSystem revision 22). **Latest Commit (Head)** follows the current master branch; both use the same normal package IDs.
+- Choose **Latest Release** for the latest published package. **Latest Commit (Head)** follows the current master branch; both use the same normal package IDs.
 - Paste the url of this repository (https://github.com/Westy661/Burrows-Badgers-Second-Edition)
 - Click OK
 - Enjoy!
@@ -22,7 +22,7 @@ species audit are included in this one package. No Campaign TEST installation is
 required for normal play.
 
 If the repository is already installed, update it in New Recruit and fully reload
-the page. The latest verified release is [0.14](https://github.com/Westy661/Burrows-Badgers-Second-Edition/releases/tag/0.14), GameSystem revision 22. Do not replace the GitHub source with a test branch or the
+the page. See the [latest published release](https://github.com/Westy661/Burrows-Badgers-Second-Edition/releases/latest) for its included GameSystem revision. Do not replace the GitHub source with a test branch or the
 separate Campaign TEST system. A locally imported package does not automatically
 follow GitHub updates.
 
